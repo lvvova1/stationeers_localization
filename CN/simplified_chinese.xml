@@ -1025,14 +1025,14 @@
     <RecordThing>
       <Key>ItemBatteryCell</Key>
       <Value>电池(小)</Value>
-      <Description>采用21世纪初开创的设计, 小型电池是 {LINK:Stationeers;太空员} 便携式电力的基础单元. 虽然电量不及 {THING:ItemBatteryCellLarge} 或 {THING:ItemBatteryCellNuclear} , 但具有用基础资源制造的朴素优势. 
+      <Description>采用21世纪初开创的设计, 小型电池是 {LINK:Stationeers;Stationeer} 便携式电力的基础单元. 虽然电量不及 {THING:ItemBatteryCellLarge} 或 {THING:ItemBatteryCellNuclear} , 但具有用基础资源制造的朴素优势. 
  {HEADER:电力输出} 
 小型电池最多可储存36000瓦电力</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellLarge</Key>
       <Value>电池(大)</Value>
-      <Description>基于未署名的原型设计,  {LINK:Xigo;西戈} 公司于2155年首次大规模生产. 经典硅阳极固态设计扩展了其最佳温度范围. 
+      <Description>基于未署名的原型设计,  {LINK:Xigo;Xigo} 公司于2155年首次大规模生产. 经典硅阳极固态设计扩展了其最佳温度范围. 
  {HEADER:电力输出} 
 大型电池最多可释放28kW电力</Description>
     </RecordThing>
@@ -1086,7 +1086,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemCoalOre</Key>
-      <Value>矿石(煤炭)</Value>
+      <Value>煤炭</Value>
       <Description>若没有平凡可燃的煤炭, 人类便无法进入太空. 可用作 {THING:SolidFuelGenerator} 的燃料, 或是在 {THING:StructureFurnace} 中熔炼 {LINK:AlloysPage;合金} , 也可以在 {THING:ApplianceReagentProcessor} 中制作 {THING:ItemSprayCanBlack}</Description>
     </RecordThing>
     <RecordThing>
@@ -1102,7 +1102,7 @@
     <RecordThing>
       <Key>ItemCrowbar</Key>
       <Value>撬棍</Value>
-      <Description>{LINK:Recurso;Recurso} 的入门级撬棍适用于 {LINK:Stationeers;太空员} 日常场景：开启 {THING:StructureAreaPowerControl} 和未供电的 {THING:StructureAirlock} , 或在必要时拍扁跨越维度而来的猎头蟹</Description>
+      <Description>{LINK:Recurso;Recurso} 的入门级撬棍适用于 {LINK:Stationeers;Stationeer} 日常场景：开启 {THING:StructureAreaPowerControl} 和未供电的 {THING:StructureAirlock} , 或在必要时拍扁跨越维度而来的猎头蟹</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDataDisk</Key>
@@ -1112,12 +1112,12 @@
     <RecordThing>
       <Key>ItemDrill</Key>
       <Value>手钻</Value>
-      <Description>{LINK:ExMin;埃克斯明} 牌"异星"手钻数十年来始终是 {LINK:Stationeers;太空员} 的忠实伙伴. 无论重力、气压或温度如何, 皆是组装与解构各类物品设施的必备工具</Description>
+      <Description>{LINK:ExMin;埃克斯明} 牌"异星"手钻数十年来始终是 {LINK:Stationeers;Stationeers} 的忠实伙伴. 无论重力、气压或温度如何, 皆是组装与解构各类物品设施的必备工具</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDuctTape</Key>
       <Value>胶带</Value>
-      <Description>远古时期, 地球有位伟人教导一代"维修者"：胶带能解决所有问题.  {LINK:Stationeers;太空员} 证明这条真理依然有效——只要问题出在破损的 {THING:ItemEvaSuit} 、 {THING:ItemJetpackBasic} 、 {THING:ItemSpaceHelmet} 甚至 {THING:StructureSolarPanel} 上. 如果要用在自己身上, 用主手拿起胶带, 并按住右键就能自动修复损伤</Description>
+      <Description>远古时期, 地球有位伟人教导一代"维修者"：胶带能解决所有问题.  {LINK:Stationeers;Stationeer} 证明这条真理依然有效——只要问题出在破损的 {THING:ItemEvaSuit} 、 {THING:ItemJetpackBasic} 、 {THING:ItemSpaceHelmet} 甚至 {THING:StructureSolarPanel} 上. 如果要用在自己身上, 用主手拿起胶带, 并按住右键就能自动修复损伤</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamite</Key>
@@ -1320,7 +1320,7 @@
     <RecordThing>
       <Key>ItemIce</Key>
       <Value>水冰</Value>
-      <Description>水冰在太阳系多数行星存在, 但并非所有 {LINK:Stationeers;太空员} 涉足的世界都有此资源. 对温度极为敏感, 开采后若不存放在 {THING:ItemMiningBelt} 中会立即融化. 融化时产生 {GAS:Steam} 与 {GAS:Nitrogen} 的混合气体</Description>
+      <Description>水冰在太阳系多数行星存在, 但并非所有 {LINK:Stationeers;Stationeer} 涉足的世界都有此资源. 对温度极为敏感, 开采后若不存放在 {THING:ItemMiningBelt} 中会立即融化. 融化时产生 {GAS:Steam} 与 {GAS:Nitrogen} 的混合气体</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIgniter</Key>
@@ -1335,12 +1335,12 @@
     <RecordThing>
       <Key>ItemIronIngot</Key>
       <Value>铁锭</Value>
-      <Description>铁锭是 {LINK:Stationeers;太空员} 基础建材单元, 通过熔炉 {THING:StructureFurnace} 或电弧炉 {THING:StructureArcFurnace} 熔炼 {THING:ItemIronOre} 制成, 用于制造各类物品</Description>
+      <Description>铁锭是 {LINK:Stationeers;Stationeer} 基础建材单元, 通过熔炉 {THING:StructureFurnace} 或电弧炉 {THING:StructureArcFurnace} 熔炼 {THING:ItemIronOre} 制成, 用于制造各类物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronOre</Key>
       <Value>铁矿石</Value>
-      <Description>铁在太阳系储量丰富, 是 {LINK:Stationeers;太空员} 建造外星基地最常用的 {LINK:OrePage;矿石} . 可熔炼为 {THING:ItemIronIngot} 或 {THING:ItemSteelIngot}</Description>
+      <Description>铁在太阳系储量丰富, 是 {LINK:Stationeers;Stationeer} 建造外星基地最常用的 {LINK:OrePage;矿石} . 可熔炼为 {THING:ItemIronIngot} 或 {THING:ItemSteelIngot}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlock</Key>
@@ -1920,43 +1920,43 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureBlastDoor</Key>
       <Value>防爆门</Value>
-      <Description>气密且几乎不可摧毁的初代「米尔玛」防爆门由外星矿业巨头 {LINK:Recurso;瑞库索} 设计, 用于保护小行星采矿设施免受核事故级爆炸减压影响. 
+      <Description>气密且几乎不可摧毁的初代「米尔玛」防爆门由外星矿业巨头 {LINK:Recurso;Recurso} 设计, 用于保护小行星采矿设施免受核事故级爆炸减压影响. 
 除非局部时空出现口袋奇点, 这些防爆门能承受的压力实际上没有上限——是压力敏感环境建造气闸室的理想选择</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner</Key>
       <Value>电缆(弯角)</Value>
-      <Description>电缆卷既传输电力也传输数据, 已成为 {LINK:Stationeers;太空员} 生活中创新、独立与灵活的象征——如此重要,  {LINK:ODA;ODA} 在第三届十年一度太空员太阳会议上将其正式列为 {LINK:ToolPage;「工具」} . 
+      <Description>电缆卷既传输电力也传输数据, 已成为 {LINK:Stationeers;Stationeer} 生活中创新、独立与灵活的象征——如此重要,  {LINK:ODA;ODA} 在第三届十年一度Stationeer太阳会议上将其正式列为 {LINK:ToolPage;「工具」} . 
 普通电缆最大功率5千瓦. 高电流应用请使用 {THING:ItemCableCoilHeavy}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3</Key>
       <Value>电缆(3路)</Value>
-      <Description>电缆卷既传输电力也传输数据, 已成为 {LINK:Stationeers;太空员} 生活中创新、独立与灵活的象征——如此重要,  {LINK:ODA;ODA} 在第三届十年一度太空员太阳会议上将其正式列为 {LINK:ToolPage;「工具」} . 
+      <Description>电缆卷既传输电力也传输数据, 已成为 {LINK:Stationeers;Stationeer} 生活中创新、独立与灵活的象征——如此重要,  {LINK:ODA;ODA} 在第三届十年一度Stationeer太阳会议上将其正式列为 {LINK:ToolPage;「工具」} . 
 普通电缆最大功率5千瓦. 高电流应用请使用 {THING:ItemCableCoilHeavy}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction</Key>
       <Value>电缆(交叉)</Value>
-      <Description>电缆卷既传输电力也传输数据, 已成为 {LINK:Stationeers;Stationeer} 生活中创新、独立与灵活的象征——因此 {LINK:ODA;ODA} 在第三届十年一度太空员太阳会议上将其正式列为 {LINK:ToolPage;「工具」} . 
+      <Description>电缆卷既传输电力也传输数据, 已成为 {LINK:Stationeers;Stationeer} 生活中创新、独立与灵活的象征——因此 {LINK:ODA;ODA} 在第三届十年一度Stationeer太阳会议上将其正式列为 {LINK:ToolPage;「工具」} . 
 普通电缆最大承载功率5千瓦. 高电流应用场景请使用 {THING:ItemCableCoilHeavy}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4</Key>
       <Value>电缆(4路)</Value>
-      <Description>电缆卷既传输电力也传输数据, 已成为 {LINK:Stationeers;Stationeer} 生活中创新、独立与灵活的象征——因此 {LINK:ODA;ODA} 在第三届十年一度太空员太阳会议上将其正式列为 {LINK:ToolPage;「工具」} . 
+      <Description>电缆卷既传输电力也传输数据, 已成为 {LINK:Stationeers;Stationeer} 生活中创新、独立与灵活的象征——因此 {LINK:ODA;ODA} 在第三届十年一度Stationeer太阳会议上将其正式列为 {LINK:ToolPage;「工具」} . 
 普通电缆最大承载功率5千瓦. 高电流应用场景请使用 {THING:ItemCableCoilHeavy}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6</Key>
       <Value>电缆(6路)</Value>
-      <Description>电缆卷既传输电力也传输数据, 已成为 {LINK:Stationeers;Stationeer} 生活中创新、独立与灵活的象征——因此 {LINK:ODA;ODA} 在第三届十年一度太空员太阳会议上将其正式列为 {LINK:ToolPage;「工具」} . 
+      <Description>电缆卷既传输电力也传输数据, 已成为 {LINK:Stationeers;Stationeer} 生活中创新、独立与灵活的象征——因此 {LINK:ODA;ODA} 在第三届十年一度Stationeer太阳会议上将其正式列为 {LINK:ToolPage;「工具」} . 
 普通电缆最大承载功率5千瓦. 高电流应用场景请使用 {THING:ItemCableCoilHeavy}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraight</Key>
       <Value>电缆(直线)</Value>
-      <Description>电缆卷既传输电力也传输数据, 已成为 {LINK:Stationeers;Stationeer} 生活中创新、独立与灵活的象征——因此 {LINK:ODA;ODA} 在第三届十年一度太空员太阳会议上将其正式列为 {LINK:ToolPage;「工具」} . 
+      <Description>电缆卷既传输电力也传输数据, 已成为 {LINK:Stationeers;Stationeer} 生活中创新、独立与灵活的象征——因此 {LINK:ODA;ODA} 在第三届十年一度Stationeer太阳会议上将其正式列为 {LINK:ToolPage;「工具」} . 
 普通电缆最大承载功率5千瓦. 高电流应用场景请使用 {THING:ItemCableCoilHeavy}</Description>
     </RecordThing>
     <RecordThing>
@@ -2024,7 +2024,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureCompositeFloorGrating</Key>
       <Value>复合地板格栅</Value>
-      <Description>尽管美学在太空员的优先列表中排名靠后, 复合格栅仍能遮蔽地板、墙壁和天花板上杂乱的电缆</Description>
+      <Description>尽管美学在Stationeer的优先列表中排名靠后, 复合格栅仍能遮蔽地板、墙壁和天花板上杂乱的电缆</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWall</Key>
@@ -2087,37 +2087,37 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureControlChair</Key>
       <Value>控制椅</Value>
-      <Description>这些座椅曾是太空巨舰的核心控制单元, 如今只有少数怀旧的太空员会建造它们——本质上已成为复古情怀的象征</Description>
+      <Description>这些座椅曾是太空巨舰的核心控制单元, 如今只有少数怀旧的Stationeer会建造它们——本质上已成为复古情怀的象征</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorCorner</Key>
       <Value>输送带(拐角)</Value>
       <Description>由 {LINK:Recurso;Recurso} 为矿石搬运设计的柔性输送带系统可定制化, 用于构建高效物流网络. 简言之, 它们负责在两点间运输物品. 
-太空员长期抱怨输送系统的每个阶段都需独立供电. 用瑞库索历代客服的话说：「我们正在努力解决. 」</Description>
+Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说：「我们正在努力解决. 」</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorRiser</Key>
       <Value>输送带(上下)</Value>
       <Description>由 {LINK:Recurso;Recurso} 为矿石搬运设计的柔性输送带系统可定制化, 用于构建高效物流网络. 简言之, 它们负责在两点间运输物品. 
-太空员长期抱怨输送系统的每个阶段都需独立供电. 用瑞库索历代客服的话说：「我们正在努力解决. 」</Description>
+Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说：「我们正在努力解决. 」</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraight</Key>
       <Value>输送带(直行)</Value>
       <Description>由 {LINK:Recurso;Recurso} 为矿石搬运设计的柔性输送带系统可定制化, 用于构建高效物流网络. 简言之, 它们负责在两点间运输物品. 
-太空员长期抱怨输送系统的每个阶段都需独立供电. 用瑞库索历代客服的话说：「我们正在努力解决. 」</Description>
+Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说：「我们正在努力解决. 」</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraightLong</Key>
       <Value>输送带(加长)</Value>
       <Description>由 {LINK:Recurso;Recurso} 为矿石搬运设计的柔性输送带系统可定制化, 用于构建高效物流网络. 简言之, 它们负责在两点间运输物品. 
-太空员长期抱怨输送系统的每个阶段都需独立供电. 用瑞库索历代客服的话说：「我们正在努力解决. 」</Description>
+Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说：「我们正在努力解决. 」</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraightShort</Key>
       <Value>输送带(短的)</Value>
       <Description>由 {LINK:Recurso;Recurso} 为矿石搬运设计的柔性输送带系统可定制化, 用于构建高效物流网络. 简言之, 它们负责在两点间运输物品. 
-太空员长期抱怨输送系统的每个阶段都需独立供电. 用瑞库索历代客服的话说：「我们正在努力解决. 」</Description>
+Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说：「我们正在努力解决. 」</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCryoTube</Key>
@@ -2284,7 +2284,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructurePipeMeter</Key>
       <Value>管道仪表</Value>
-      <Description>尽管太空员计划至今鲜少激发古典诗词创作, 但火神星上的某块管道残骸上刻着这首讽刺俳句：
+      <Description>尽管Stationeer计划至今鲜少激发古典诗词创作, 但火神星上的某块管道残骸上刻着这首讽刺俳句：
 「谦卑管道表
 诉说真实传压力
 无问管道形」</Description>
@@ -2413,7 +2413,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureVolumePump</Key>
       <Value>管道泵</Value>
-      <Description>Thevolumepumppumpspumpablegases. Italsoseparatesoutpipenetworksintoseparatenetworks</Description>
+      <Description>管道泵可泵送气体. 它还能隔离两个不同的管道网络</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidValve</Key>
@@ -2438,7 +2438,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureWallHeater</Key>
       <Value>壁挂式加热器</Value>
-      <Description>{LINK:Xigo;西戈} 壁挂加热器是简易制热设备, 安装后连接电源即可运行. 功耗1010W, 可通过逻辑芯片设定触发温度</Description>
+      <Description>{LINK:Xigo;Xigo} 壁挂加热器是简易制热设备, 安装后连接电源即可运行. 功耗1010W, 可通过逻辑芯片设定触发温度</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallLight</Key>
@@ -2491,7 +2491,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureSolidFuelGenerator</Key>
       <Value>发电机(固体燃料)</Value>
-      <Description>作为太空员的主力发电设备, 该装置提供20kW电力, 可装载多种固体燃料. 运行时将持续输出最大功率（无论是否接入电网）, 注意电线过载!其输出远超普通 {THING:ItemCableCoil} 的承载能力</Description>
+      <Description>作为Stationeer的主力发电设备, 该装置提供20kW电力, 可装载多种固体燃料. 运行时将持续输出最大功率（无论是否接入电网）, 注意电线过载!其输出远超普通 {THING:ItemCableCoil} 的承载能力</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGenerator</Key>
@@ -2594,7 +2594,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureAutolathe</Key>
       <Value>自动车床</Value>
-      <Description>作为太空员制造体系的核心,  {LINK:ExMin;ExMin} 自动车床采用多轴分子重组技术, 组装耗时但功能不可或缺. 安装 {THING:AutolathePrinterMod} 可解锁更多配方并提升处理速度</Description>
+      <Description>作为Stationeer制造体系的核心,  {LINK:ExMin;ExMin} 自动车床采用多轴分子重组技术, 组装耗时但功能不可或缺. 安装 {THING:AutolathePrinterMod} 可解锁更多配方并提升处理速度</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabrication</Key>
@@ -2604,7 +2604,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureTerraformingManufactory</Key>
       <Value>地球化设备制造机</Value>
-      <Description>Printskitsforbuildingterraformingstructures</Description>
+      <Description>能够打印地球化设备的机器</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipe</Key>
@@ -2669,7 +2669,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     </RecordThing>
     <RecordThing>
       <Key>ItemInvarIngot</Key>
-      <Value>殷钢锭</Value>
+      <Value>殷瓦钢锭</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemConstantanIngot</Key>
@@ -2700,7 +2700,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>ItemSiliconOre</Key>
       <Value>硅矿石</Value>
-      <Description>化学符号Si, 太空员最常用元素之一. 宇宙中储量丰富, 用于制造 {LINK:IngotPage;合金} 、玻璃、塑料及各类 {LINK:ElectronicPage;电子元件}</Description>
+      <Description>化学符号Si, Stationeer最常用元素之一. 宇宙中储量丰富, 用于制造 {LINK:IngotPage;合金} 、玻璃、塑料及各类 {LINK:ElectronicPage;电子元件}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSiliconIngot</Key>
@@ -2882,7 +2882,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureToolManufactory</Key>
       <Value>工具制造机</Value>
-      <Description>{LINK:Norsec;Norsec} ThuulDek制造机可为太空员生产任务所需的各类工具、手持设备及涂料. 安装 {THING:ToolPrinterMod} 可解锁更多配方并提升处理速度</Description>
+      <Description>{LINK:Norsec;Norsec} ThuulDek制造机可为Stationeer生产任务所需的各类工具、手持设备及涂料. 安装 {THING:ToolPrinterMod} 可解锁更多配方并提升处理速度</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitToolManufactory</Key>
@@ -6068,7 +6068,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
       <Value>手钻MkII</Value>
-      <Description>{LINK:ExMin;ExMin} Off-whirled手钻是 {LINK:Stationeers;太空员} 数十年来的必备工具, 可在任意重力、压力或温度下组装/拆除结构与物品</Description>
+      <Description>{LINK:ExMin;ExMin} Off-whirled手钻是 {LINK:Stationeers;Stationeer} 数十年来的必备工具, 可在任意重力、压力或温度下组装/拆除结构与物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
@@ -7264,7 +7264,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>CartridgePlantAnalyser</Key>
-      <Value>功能卡(基因分析)</Value>
+      <Value>功能卡(植物分析)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -9494,11 +9494,11 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>Appliance1</Key>
-      <Value>装置1</Value>
+      <Value>电器1</Value>
     </Record>
     <Record>
       <Key>Appliance2</Key>
-      <Value>装置2</Value>
+      <Value>电器2</Value>
     </Record>
     <Record>
       <Key>Import</Key>
@@ -14988,7 +14988,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
 
 古尔瓦贾在生物工程领域的深厚积淀, 使公司刚刚建立便跻身生命科学技术的尖端. 其发展轨迹完美践行创始人的战略蓝图：通过迅速而坚定的并购, 迅速吞并一切规模较小的竞争对手. 
 
-至世纪中叶, 阿修罗的野心已膨胀至统摄全球医疗体系. 通过垂直整合医院网络、基层诊疗、医疗器械供应链、制药工业、药品零售、临终关怀乃至殡葬服务, 这个巨物如今已成为地球上最大的医疗保健巨头. 
+至世纪中叶, Asura Biomedia的野心已膨胀至统摄全球医疗体系. 通过垂直整合医院网络、基层诊疗、医疗器械供应链、制药工业、药品零售、临终关怀乃至殡葬服务, 这个巨物如今已成为地球上最大的医疗保健巨头. 
 
 2150年, 阿修罗的商业哲学已凝练成一句具有争议性的宣传语——"吾即汝身"（We're in you）, 完美诠释了这个无孔不入的生命帝国</Value>
     </Record>
@@ -20272,7 +20272,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ItemInSlotStack</Key>
-      <Value>{LOCAL:Thing} 的堆叠数量为&lt;color=yellow&gt; {LOCAL:StackSize} &lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} ×&lt;color=yellow&gt; {LOCAL:StackSize} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ItemInSlotValue</Key>
@@ -20440,7 +20440,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>NoDeficiency</Key>
-      <Value>NoDeficiency</Value>
+      <Value>充足</Value>
     </Record>
     <Record>
       <Key>RequiredContinueConstruction</Key>
