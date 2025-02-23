@@ -584,7 +584,7 @@
     <RecordThing>
       <Key>BodyPartAstronautMaleHead</Key>
       <Value>身体部位男性宇航员头</Value>
-      <Description> {LINK:Stationeers;Stationeer} 必须时刻保持头脑清醒</Description>
+      <Description>{LINK:Stationeers;Stationeer} 必须时刻保持头脑清醒</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleLegL</Key>
@@ -853,7 +853,7 @@
     <RecordThing>
       <Key>CircuitboardDoorControl</Key>
       <Value>电路板(门禁)</Value>
-      <Description> {LINK:Stationeers;Stationeer} 基地建设基础工具, 通过 {THING:StructureConsole} 远程控制 {THING:StructureCompositeDoor} ,  {THING:StructureBlastDoor} 或 {THING:StructureGlassDoor} . 该功能也可以与 {THING:StructureMotionSensor} 联动实现自动门</Description>
+      <Description>{LINK:Stationeers;Stationeer} 基地建设基础工具, 通过 {THING:StructureConsole} 远程控制 {THING:StructureCompositeDoor} ,  {THING:StructureBlastDoor} 或 {THING:StructureGlassDoor} . 该功能也可以与 {THING:StructureMotionSensor} 联动实现自动门</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
@@ -884,7 +884,7 @@
     <RecordThing>
       <Key>DynamicAirConditioner</Key>
       <Value>便携式空调</Value>
-      <Description> {LINK:Sinotai;Sinotai} 设计的Huxi便携式空调通过吸收大气热量储存, 或从内部储罐向大气释放热量来实现制冷/制热. 其最大内部压力为8106kPa, 容量相对有限——物理定律对此有明确限制. 要扩展其温度储存能力, 请将Huxi用螺栓固定在 {THING:StructureTankConnector} 上, 再接入可供应制冷或制热 {LINK:GasPage;气体} 的管道网络</Description>
+      <Description>{LINK:Sinotai;Sinotai} 设计的Huxi便携式空调通过吸收大气热量储存, 或从内部储罐向大气释放热量来实现制冷/制热. 其最大内部压力为8106kPa, 容量相对有限——物理定律对此有明确限制. 要扩展其温度储存能力, 请将Huxi用螺栓固定在 {THING:StructureTankConnector} 上, 再接入可供应制冷或制热 {LINK:GasPage;气体} 的管道网络</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrate</Key>
@@ -1102,7 +1102,7 @@
     <RecordThing>
       <Key>ItemCrowbar</Key>
       <Value>撬棍</Value>
-      <Description> {LINK:Recurso;Recurso} 的入门级撬棍适用于 {LINK:Stationeers;太空员} 日常场景：开启 {THING:StructureAreaPowerControl} 和未供电的 {THING:StructureAirlock} , 或在必要时拍扁跨越维度而来的猎头蟹</Description>
+      <Description>{LINK:Recurso;Recurso} 的入门级撬棍适用于 {LINK:Stationeers;太空员} 日常场景：开启 {THING:StructureAreaPowerControl} 和未供电的 {THING:StructureAirlock} , 或在必要时拍扁跨越维度而来的猎头蟹</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDataDisk</Key>
@@ -1112,7 +1112,7 @@
     <RecordThing>
       <Key>ItemDrill</Key>
       <Value>手钻</Value>
-      <Description> {LINK:ExMin;埃克斯明} 牌"异星"手钻数十年来始终是 {LINK:Stationeers;太空员} 的忠实伙伴. 无论重力、气压或温度如何, 皆是组装与解构各类物品设施的必备工具</Description>
+      <Description>{LINK:ExMin;埃克斯明} 牌"异星"手钻数十年来始终是 {LINK:Stationeers;太空员} 的忠实伙伴. 无论重力、气压或温度如何, 皆是组装与解构各类物品设施的必备工具</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDuctTape</Key>
@@ -1240,7 +1240,7 @@
     <RecordThing>
       <Key>ItemGasFilterOxygen</Key>
       <Value>次级滤芯(氧气)</Value>
-      <Description> {LINK:Sinotai;Sinotai} 垄断了滤芯设计市场. 其专利模板易于打印且能高效捕获气体, 便于处置或再利用.  {GAS:Oxygen} 是熔炼矿石的常见副产品, 但需通过本滤芯及 {THING:ItemDynamicScrubber} 等设备过滤 {GAS:Nitrogen} 等杂质</Description>
+      <Description>{LINK:Sinotai;Sinotai} 垄断了滤芯设计市场. 其专利模板易于打印且能高效捕获气体, 便于处置或再利用.  {GAS:Oxygen} 是熔炼矿石的常见副产品, 但需通过本滤芯及 {THING:ItemDynamicScrubber} 等设备过滤 {GAS:Nitrogen} 等杂质</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
@@ -1250,7 +1250,7 @@
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
       <Value>次级滤芯(水)</Value>
-      <Description> {LINK:Sinotai;新台} 滤芯用于捕获各类气体以便处置或再利用.  {GAS:Water} 可通过过滤熔炼后的 {THING:ItemIce} 获取</Description>
+      <Description>{LINK:Sinotai;新台} 滤芯用于捕获各类气体以便处置或再利用.  {GAS:Water} 可通过过滤熔炼后的 {THING:ItemIce} 获取</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
@@ -1718,7 +1718,7 @@
     <RecordThing>
       <Key>ItemSteelFrames</Key>
       <Value>钢框架</Value>
-      <Description> {THING:ItemIronFrames} 的强化进阶版, 右键放置框架. 需手持 {THING:ItemSteelSheets} 和 {THING:ItemWeldingTorch} 完成建造</Description>
+      <Description>{THING:ItemIronFrames} 的强化进阶版, 右键放置框架. 需手持 {THING:ItemSteelSheets} 和 {THING:ItemWeldingTorch} 完成建造</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelIngot</Key>
@@ -1738,7 +1738,7 @@
     <RecordThing>
       <Key>ItemTablet</Key>
       <Value>平板电脑</Value>
-      <Description> {LINK:Xigo;Xigo} 生产的"Padi"平板是全能数据终端, 是所有 {LINK:Stationeers;Stationeer} 的标配工具. 通过插入 {LINK:CartridgePage;功能卡} 可切换为 {THING:CartridgeAtmosAnalyser} 、 {THING:CartridgeTracker} 、 {THING:CartridgeMedicalAnalyser} 、 {THING:CartridgeOreScanner} 、 {THING:CartridgeElectronicReader} 等功能模块</Description>
+      <Description>{LINK:Xigo;Xigo} 生产的"Padi"平板是全能数据终端, 是所有 {LINK:Stationeers;Stationeer} 的标配工具. 通过插入 {LINK:CartridgePage;功能卡} 可切换为 {THING:CartridgeAtmosAnalyser} 、 {THING:CartridgeTracker} 、 {THING:CartridgeMedicalAnalyser} 、 {THING:CartridgeOreScanner} 、 {THING:CartridgeElectronicReader} 等功能模块</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTankConnector</Key>
@@ -1813,7 +1813,7 @@
     <RecordThing>
       <Key>MothershipCore</Key>
       <Value>母舰核心</Value>
-      <Description> {LINK:Sinotai;Sinotai} 早期太空时代的遗物, 曾作为星际母舰核心组件. 虽公司转向模块化飞船, 仍有爱好者坚持建造维护母舰</Description>
+      <Description>{LINK:Sinotai;Sinotai} 早期太空时代的遗物, 曾作为星际母舰核心组件. 虽公司转向模块化飞船, 仍有爱好者坚持建造维护母舰</Description>
     </RecordThing>
     <RecordThing>
       <Key>NPCDummyCharacter</Key>
@@ -1837,7 +1837,7 @@
     <RecordThing>
       <Key>SpaceShuttle</Key>
       <Value>航天飞机</Value>
-      <Description> {LINK:Sinotai;Sinotai} 生产的过时运输机, 已退役</Description>
+      <Description>{LINK:Sinotai;Sinotai} 生产的过时运输机, 已退役</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureActiveVent</Key>
@@ -1981,7 +1981,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureChuteBin</Key>
       <Value>滑槽(回收)</Value>
-      <Description> {LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难. 
+      <Description>{LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难. 
 与大多数 {LINK:Recurso;Recurso} 设计的系统类似, 滑槽回收口是简单可靠的动力装置, 通过拉动杠杆即可手动将物品传入滑槽网络. 也可通过 {LINK:LogicUnitPage;逻辑单元} 编程实现自动操作, 但全自动化需配合 {THING:StructureSDBHopper} 等设备使用</Description>
     </RecordThing>
     <RecordThing>
@@ -1994,19 +1994,19 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureChuteInlet</Key>
       <Value>滑槽(入口)</Value>
-      <Description> {LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难. 
+      <Description>{LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难. 
 滑槽入口是向 {LINK:ImportExportPage;物流进出口} 网络投放物品的开口. 其零重力采矿起源设计使其无需供电且永久开放, 允许直接投掷物品. 可连接 {LINK:LogicUnitPage;逻辑单元} 系统监控吞吐量</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteJunction</Key>
       <Value>滑槽(连接)</Value>
-      <Description> {LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难. 
+      <Description>{LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难. 
 滑槽连接器是滑槽网络的核心组件, 可实现网络合并或分流. 配合编程的 {THING:StructureSorter} , 可将物品沿不同路径输送至配备 {LINK:ImportExportPage;物流进出口} 槽位的各类设备</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOutlet</Key>
       <Value>滑槽(出口)</Value>
-      <Description> {LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难. 
+      <Description>{LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难. 
 滑道出口是 {LINK:ImportExportPage;物流进出口} 网络中物品流出的孔道. 需要注意的是, 滑道出口起源于零重力采矿, 这意味着它们是永久开放的, 而不是可交互的, 但可以连接到 {LINK:LogicUnitPage;逻辑} 系统, 以监控吞吐量</Description>
     </RecordThing>
     <RecordThing>
@@ -2019,7 +2019,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureCompositeDoor</Key>
       <Value>复合门</Value>
-      <Description> {LINK:Recurso;Recurso} 复合门额定承压300kPa, 完全满足设计用途需求. 但需注意剧烈压差仍具危险性</Description>
+      <Description>{LINK:Recurso;Recurso} 复合门额定承压300kPa, 完全满足设计用途需求. 但需注意剧烈压差仍具危险性</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating</Key>
@@ -2137,7 +2137,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureFabricator</Key>
       <Value>装配机</Value>
-      <Description> {LINK:Norsec;Norsec} 通用装配机能生产海量物品, 但被 {LINK:ODA;ODA} 认为风险过高而限制普及. 该设备确实曾被用于伪造、恐怖主义和劣质艺术等非预期用途, 现其部署受到严格监管</Description>
+      <Description>{LINK:Norsec;Norsec} 通用装配机能生产海量物品, 但被 {LINK:ODA;ODA} 认为风险过高而限制普及. 该设备确实曾被用于伪造、恐怖主义和劣质艺术等非预期用途, 现其部署受到严格监管</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFiltration</Key>
@@ -2218,7 +2218,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureHydroponicsTray</Key>
       <Value>水培箱</Value>
-      <Description> {LINK:Agrizero;Agrizero} 水培箱是培育 {LINK:OrganicPage;植物} 的理想设备, 需通过管道网络供水并提供光照进行光合作用, 可使用 {THING:StructureHarvie} 实现自动化管理</Description>
+      <Description>{LINK:Agrizero;Agrizero} 水培箱是培育 {LINK:OrganicPage;植物} 的理想设备, 需通过管道网络供水并提供光照进行光合作用, 可使用 {THING:StructureHarvie} 实现自动化管理</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureIgniter</Key>
@@ -2344,7 +2344,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureSolarPanel</Key>
       <Value>可动式太阳能板</Value>
-      <Description> {LINK:Sinotai;Sinotai} 标准太阳能板通过光照发电, 可连接 {LINK:LogicPage;逻辑系统} 实现日光追踪功能. 风暴期间或受损时效率下降, 可使用 {THING:ItemDuctTape} 进行维修</Description>
+      <Description>{LINK:Sinotai;Sinotai} 标准太阳能板通过光照发电, 可连接 {LINK:LogicPage;逻辑系统} 实现日光追踪功能. 风暴期间或受损时效率下降, 可使用 {THING:ItemDuctTape} 进行维修</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSorter</Key>
@@ -2422,7 +2422,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureWallCooler</Key>
       <Value>壁挂式制冷器</Value>
-      <Description> {LINK:Xigo;Xigo} FreezyBoi壁挂制冷器与仅能制热的加热器互补, 通过吸收环境热量注入管网实现降温. 
+      <Description>{LINK:Xigo;Xigo} FreezyBoi壁挂制冷器与仅能制热的加热器互补, 通过吸收环境热量注入管网实现降温. 
 需连接充注气体的管道网络, 气体热容与体积决定热交换速率. 
 
  {HEADER:效率} 
@@ -2438,7 +2438,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureWallHeater</Key>
       <Value>壁挂式加热器</Value>
-      <Description> {LINK:Xigo;西戈} 壁挂加热器是简易制热设备, 安装后连接电源即可运行. 功耗1010W, 可通过逻辑芯片设定触发温度</Description>
+      <Description>{LINK:Xigo;西戈} 壁挂加热器是简易制热设备, 安装后连接电源即可运行. 功耗1010W, 可通过逻辑芯片设定触发温度</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallLight</Key>
@@ -2850,7 +2850,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureHydraulicPipeBender</Key>
       <Value>液压弯管机</Value>
-      <Description> {LINK:ExMin;ExMin} Atmoprinter是管道系统全能制造工具, 可制造管道、泵、储罐、通风口及过滤器等设备. 安装 {THING:PipeBenderMod} 可解锁更多配方并提升处理速度</Description>
+      <Description>{LINK:ExMin;ExMin} Atmoprinter是管道系统全能制造工具, 可制造管道、泵、储罐、通风口及过滤器等设备. 安装 {THING:PipeBenderMod} 可解锁更多配方并提升处理速度</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHydraulicPipeBender</Key>
@@ -2882,7 +2882,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureToolManufactory</Key>
       <Value>工具制造机</Value>
-      <Description> {LINK:Norsec;Norsec} ThuulDek制造机可为太空员生产任务所需的各类工具、手持设备及涂料. 安装 {THING:ToolPrinterMod} 可解锁更多配方并提升处理速度</Description>
+      <Description>{LINK:Norsec;Norsec} ThuulDek制造机可为太空员生产任务所需的各类工具、手持设备及涂料. 安装 {THING:ToolPrinterMod} 可解锁更多配方并提升处理速度</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitToolManufactory</Key>
@@ -2982,7 +2982,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureSolarPanelDual</Key>
       <Value>可动式太阳能板(双口)</Value>
-      <Description> {LINK:Sinotai;Sinotai} 双口太阳能板配备独立数据/电源接口, 可以连接到 { {LINK:LogicPage;Logic} 系统, 并通过日光追踪逻辑提升发电效率（风暴或受损时效率下降）, 可使用 {THING:ItemDuctTape} 进行维修</Description>
+      <Description>{LINK:Sinotai;Sinotai} 双口太阳能板配备独立数据/电源接口, 可以连接到 { {LINK:LogicPage;Logic} 系统, 并通过日光追踪逻辑提升发电效率（风暴或受损时效率下降）, 可使用 {THING:ItemDuctTape} 进行维修</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicBatchWriter</Key>
@@ -3638,7 +3638,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureSecurityPrinter</Key>
       <Value>安全打印机</Value>
-      <Description> {LINK:Harkwell;Harkwell} 设计的Vigilant-E安全打印机可制造 {THING:CartridgeAccessController} 门禁芯片, 配合 {THING:AccessCardBlue} 等钥匙卡限制基地区域访问, 同时支持生产武器弹药抵御抵御在探索太阳系过程中遇到的任何敌意、侵略或粗鲁的敌人</Description>
+      <Description>{LINK:Harkwell;Harkwell} 设计的Vigilant-E安全打印机可制造 {THING:CartridgeAccessController} 门禁芯片, 配合 {THING:AccessCardBlue} 等钥匙卡限制基地区域访问, 同时支持生产武器弹药抵御抵御在探索太阳系过程中遇到的任何敌意、侵略或粗鲁的敌人</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSecurityPrinter</Key>
@@ -3668,7 +3668,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureElectrolyzer</Key>
       <Value>电解机</Value>
-      <Description> {LINK:Norsec;Norsec} 电解机将 {GAS:Water} 分解为氢气和 {GAS:Oxygen} , 利用水的潜热驱动电解过程. 设备效能受供电量限制（电力用于维持温度输出）, 所以在高温气体环境下运行能得到最佳效率</Description>
+      <Description>{LINK:Norsec;Norsec} 电解机将 {GAS:Water} 分解为氢气和 {GAS:Oxygen} , 利用水的潜热驱动电解过程. 设备效能受供电量限制（电力用于维持温度输出）, 所以在高温气体环境下运行能得到最佳效率</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureElevatorShaft</Key>
@@ -3762,7 +3762,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureVendingMachine</Key>
       <Value>智能货柜</Value>
-      <Description> {LINK:Xigo;Xigo} 「SlotMate」货柜可存储几乎所有物品, 并作为 {LINK:TradingPage;贸易系统} 的交互终端（高级版为 {THING:StructureRefrigeratedVendingMachine} ）. 每个货柜最多容纳100组物品</Description>
+      <Description>{LINK:Xigo;Xigo} 「SlotMate」货柜可存储几乎所有物品, 并作为 {LINK:TradingPage;贸易系统} 的交互终端（高级版为 {THING:StructureRefrigeratedVendingMachine} ）. 每个货柜最多容纳100组物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachine</Key>
@@ -4005,7 +4005,7 @@ Output=1导出内部物品及最终主物品</Description>
     <RecordThing>
       <Key>ItemHardJetpack</Key>
       <Value>强化喷气背包</Value>
-      <Description> {LINK:Norsec;Norsec} 喷气背包从"技术上"来说不是喷气背包, 而是气体推进器. 只要 {LINK:AtmosphericsPage;canister} 内部气压高于外部环境压力, 即可使用任何气体作为动力. 若外部压力更高, 空间背包将无法运作. 调整推力值可改变加速度, 激活稳定器后可在特定高度悬停. 
+      <Description>{LINK:Norsec;Norsec} 喷气背包从"技术上"来说不是喷气背包, 而是气体推进器. 只要 {LINK:AtmosphericsPage;canister} 内部气压高于外部环境压力, 即可使用任何气体作为动力. 若外部压力更高, 空间背包将无法运作. 调整推力值可改变加速度, 激活稳定器后可在特定高度悬停. 
 此款强化喷气背包速度远超 {THING:ItemJetpackBasic} （最高达15米/秒）, 是建造、采矿和移动的必备工具, 提供14个存储槽. 
 使用方式：'J'激活；空格键上升；左Ctrl下降；WASD移动</Description>
     </RecordThing>
@@ -4564,7 +4564,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
       <Value>小型自动矿机</Value>
-      <Description> {LINK:Recurso;Recurso} SquareDig自动矿机可垂直挖掘大小为2x2的竖井直至基岩层. 可连接滑槽系统并通过逻辑网络控制, 相同区域产出 {LINK:OrePage;矿石} 量超过传统 {THING:ItemMiningDrill}</Description>
+      <Description>{LINK:Recurso;Recurso} SquareDig自动矿机可垂直挖掘大小为2x2的竖井直至基岩层. 可连接滑槽系统并通过逻辑网络控制, 相同区域产出 {LINK:OrePage;矿石} 量超过传统 {THING:ItemMiningDrill}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
@@ -4636,7 +4636,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>ItemAdvancedTablet</Key>
       <Value>高级平板电脑</Value>
-      <Description> {LINK:Xigo;Xigo} Padi2高级平板是基础 {THING:ItemTablet} 的升级版, 配备两个 {LINK:CartridgePage;功能卡} 插槽, 支持 {THING:CartridgeAtmosAnalyser} 、 {THING:CartridgeTracker} 、 {THING:CartridgeMedicalAnalyser} 、 {THING:CartridgeOreScanner} 、 {THING:CartridgeElectronicReader} 等类型. 
+      <Description>{LINK:Xigo;Xigo} Padi2高级平板是基础 {THING:ItemTablet} 的升级版, 配备两个 {LINK:CartridgePage;功能卡} 插槽, 支持 {THING:CartridgeAtmosAnalyser} 、 {THING:CartridgeTracker} 、 {THING:CartridgeMedicalAnalyser} 、 {THING:CartridgeOreScanner} 、 {THING:CartridgeElectronicReader} 等类型. 
 在 {SLOT:ProgrammableChip} 槽位安装 {THING:ItemIntegratedCircuit10} 后, 可通过设备编号（d0、d1等）访问穿戴者的逻辑可交互物品（如 {THING:ItemHardSuit} ）变量槽</Description>
     </RecordThing>
     <RecordThing>
@@ -4807,7 +4807,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>ItemSensorLenses</Key>
       <Value>智能眼镜</Value>
-      <Description> {LINK:Norsec;Norsec} 智能眼镜虽然谈不上时尚, 但插入 {THING:ItemSensorProcessingUnitOreScanner} 后, 可透视地表扫描隐藏矿石</Description>
+      <Description>{LINK:Norsec;Norsec} 智能眼镜虽然谈不上时尚, 但插入 {THING:ItemSensorProcessingUnitOreScanner} 后, 可透视地表扫描隐藏矿石</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryChargerSmall</Key>
@@ -4820,12 +4820,12 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureSolarPanelFlat</Key>
       <Value>太阳能板(平置)</Value>
-      <Description> {LINK:Sinotai;Sinotai} 基础太阳能板平铺地面发电, 风暴或受损会导致发电效率降低, 可用 {THING:ItemDuctTape} 进行维修</Description>
+      <Description>{LINK:Sinotai;Sinotai} 基础太阳能板平铺地面发电, 风暴或受损会导致发电效率降低, 可用 {THING:ItemDuctTape} 进行维修</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45</Key>
       <Value>太阳能板(斜置)</Value>
-      <Description> {LINK:Sinotai;Sinotai} 基础太阳能板以45度角安装发电, 风暴或受损会导致发电效率降低, 可用 {THING:ItemDuctTape} 进行维修</Description>
+      <Description>{LINK:Sinotai;Sinotai} 基础太阳能板以45度角安装发电, 风暴或受损会导致发电效率降低, 可用 {THING:ItemDuctTape} 进行维修</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasic</Key>
@@ -5045,7 +5045,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureBatteryLarge</Key>
       <Value>大型蓄电池</Value>
-      <Description> {LINK:Sinotai;Sinotai} 「大电池」大型站用蓄电池能够提供比 {THING:StructureBattery} 更强大的储能, 是 {LINK:Stationeers;Stationeer} 的核心设备. 需注意电路设计（老手常言：「电子会烹饪, 也会煎炸」）
+      <Description>{LINK:Sinotai;Sinotai} 「大电池」大型站用蓄电池能够提供比 {THING:StructureBattery} 更强大的储能, 是 {LINK:Stationeers;Stationeer} 的核心设备. 需注意电路设计（老手常言：「电子会烹饪, 也会煎炸」）
  {HEADER:电力输出} 
 存能上限9000001瓦, 无输出功率限制. 
 建议使用 {THING:ItemCableCoilHeavy} 电缆, 并通过 {THING:StructureAreaPowerControl} 和 {THING:StructureTransformer} 隔离发电网络</Description>
@@ -5718,7 +5718,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureGrowLight</Key>
       <Value>植物生长灯</Value>
-      <Description> {LINK:Agrizero;Agrizero} 领先的水培照明系统, GrowUp紫外线灯可在弱光或远离太阳的环境中补充光照. 该装置在网格空间内提升可种植性, 需近距离放置才能生效</Description>
+      <Description>{LINK:Agrizero;Agrizero} 领先的水培照明系统, GrowUp紫外线灯可在弱光或远离太阳的环境中补充光照. 该装置在网格空间内提升可种植性, 需近距离放置才能生效</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGrowLight</Key>
@@ -5784,7 +5784,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureHydroponicsTrayData</Key>
       <Value>水培箱(数字)</Value>
-      <Description> {LINK:Agrizero;Agrizero} 水培装置是种植 {LINK:OrganicPage;植物} 的理想容器. 需通过管道网络供应 {GAS:Water} 并保证充足光照以进行光合作用. 
+      <Description>{LINK:Agrizero;Agrizero} 水培装置是种植 {LINK:OrganicPage;植物} 的理想容器. 需通过管道网络供应 {GAS:Water} 并保证充足光照以进行光合作用. 
 可使用 {THING:StructureHarvie} 自动化操作. 与 {THING:StructureHydroponicsTray} 不同, 这些装置因归类为设备而非纯管道而无法串行放置, 但支持逻辑系统数据查询</Description>
     </RecordThing>
     <RecordThing>
@@ -5971,7 +5971,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureIceCrusher</Key>
       <Value>碎冰机</Value>
-      <Description> {LINK:Recurso;Recurso} KoolAuger将各类冰转化为对应 {LINK:GasPage;气体} 与液体. 
+      <Description>{LINK:Recurso;Recurso} KoolAuger将各类冰转化为对应 {LINK:GasPage;气体} 与液体. 
 智能紧凑的升华-熔化单元根据冰类型产出气体（上出口）或液体（下出口）. 需连接正确管道网络且通电开启方可运作. 若内部已满, 排空前将停止接收原料冰并闪烁黄色警告</Description>
     </RecordThing>
     <RecordThing>
@@ -5987,7 +5987,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>DynamicGasTankAdvancedWater</Key>
       <Value>便携储液罐MkII(水)</Value>
-      <Description> {THING:DynamicMKIILiquidCanisterWater} 的绝热版本, 可在 {SLOT:GasCanister} 中储存恒温水</Description>
+      <Description>{THING:DynamicMKIILiquidCanisterWater} 的绝热版本, 可在 {SLOT:GasCanister} 中储存恒温水</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeRadiator</Key>
@@ -6013,7 +6013,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterWater</Key>
       <Value>便携储液罐MkII(水)</Value>
-      <Description> {THING:DynamicMKIILiquidCanisterWater} 的绝热版本, 用于储存恒温液体</Description>
+      <Description>{THING:DynamicMKIILiquidCanisterWater} 的绝热版本, 用于储存恒温液体</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
@@ -6058,7 +6058,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>ItemMKIICrowbar</Key>
       <Value>撬棍MkII</Value>
-      <Description> {LINK:Recurso;Recurso} 基础撬棍可用于开启 {THING:StructureAreaPowerControl} 、无电源的 {THING:StructureAirlock} , 或击退跨维度而来猎头蟹. MKII更耐高温高压</Description>
+      <Description>{LINK:Recurso;Recurso} 基础撬棍可用于开启 {THING:StructureAreaPowerControl} 、无电源的 {THING:StructureAirlock} , 或击退跨维度而来猎头蟹. MKII更耐高温高压</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIArcWelder</Key>
@@ -6068,7 +6068,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
       <Value>手钻MkII</Value>
-      <Description> {LINK:ExMin;ExMin} Off-whirled手钻是 {LINK:Stationeers;太空员} 数十年来的必备工具, 可在任意重力、压力或温度下组装/拆除结构与物品</Description>
+      <Description>{LINK:ExMin;ExMin} Off-whirled手钻是 {LINK:Stationeers;太空员} 数十年来的必备工具, 可在任意重力、压力或温度下组装/拆除结构与物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
@@ -6195,7 +6195,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>LogicStepSequencer8</Key>
       <Value>逻辑步进音序器</Value>
-      <Description> {LINK:ODA;ODA} 不认可原声音乐或其他干扰因素. 
+      <Description>{LINK:ODA;ODA} 不认可原声音乐或其他干扰因素. 
 因此,  {LINK:Stationeers;Stationeers} 不得不在建造和维护外星基础设施的繁重劳动中创造自己的音乐伴奏. 
 这一消遣的核心是步进音序器, 它允许Stationeers编排简短的音乐模式或循环. 
 
@@ -6324,7 +6324,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureFridgeBig</Key>
       <Value>大型冰箱</Value>
-      <Description> {LINK:Xigo;Xigo} Koolaid冰箱是拥有15格的自冷存储设备, 通电开启后可保存食物. 尽管用户常抱怨电源开关位置, 但其在外星家电界的地位无可争议. 
+      <Description>{LINK:Xigo;Xigo} Koolaid冰箱是拥有15格的自冷存储设备, 通电开启后可保存食物. 尽管用户常抱怨电源开关位置, 但其在外星家电界的地位无可争议. 
 
 通过恒定内部大气, 酷乐冰箱维持最佳温度延缓 {LINK:OrganicPage;食物} 腐烂. 其功耗随外部温度变化, 需散热运作, 因此无法在真空中工作. 
 
@@ -6340,7 +6340,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureFridgeSmall</Key>
       <Value>小型冰箱</Value>
-      <Description> {LINK:Recurso;Recurso} 迷你冰箱本质是高度隔热的容器, 可使用管道接入任意设定的大气环境, 为 {LINK:NutritionPage;食物腐烂} 问题提供简易解决方案. 它能以任意温度储存少量物品. 
+      <Description>{LINK:Recurso;Recurso} 迷你冰箱本质是高度隔热的容器, 可使用管道接入任意设定的大气环境, 为 {LINK:NutritionPage;食物腐烂} 问题提供简易解决方案. 它能以任意温度储存少量物品. 
 
 更多食物保存信息请访问站科全书的 {LINK:DecayPage;食物腐烂} 章节</Description>
     </RecordThing>
@@ -6457,7 +6457,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>AppliancePackagingMachine</Key>
       <Value>打包机</Value>
-      <Description> {LINK:Xigo;Xigo} 罐头封装机需 {THING:ItemEmptyCan} 与烹制好的 {LINK:OrganicPage;食物} 来制作 {LINK:DecayPage;长效} 耐储存食品. 注意：必须固定在 {THING:StructureBench} 上获取电力, 且仅接受熟食与锡罐. 
+      <Description>{LINK:Xigo;Xigo} 罐头封装机需 {THING:ItemEmptyCan} 与烹制好的 {LINK:OrganicPage;食物} 来制作 {LINK:DecayPage;长效} 耐储存食品. 注意：必须固定在 {THING:StructureBench} 上获取电力, 且仅接受熟食与锡罐. 
  {HEADER:操作指南} 
 
 通过顶部进料口放入原料
@@ -6524,7 +6524,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureAdvancedPackagingMachine</Key>
       <Value>高级打包机</Value>
-      <Description> {LINK:Xigo;Xigo} 高级罐头封装机专业增强版是可自动化设备, 使用 {THING:ItemEmptyCan} 与烹制 {LINK:OrganicPage;食物} 制作永久保鲜罐头, 仅接受烹制好的食物与空罐头</Description>
+      <Description>{LINK:Xigo;Xigo} 高级罐头封装机专业增强版是可自动化设备, 使用 {THING:ItemEmptyCan} 与烹制 {LINK:OrganicPage;食物} 制作永久保鲜罐头, 仅接受烹制好的食物与空罐头</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedPackagingMachine</Key>
@@ -6794,7 +6794,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureHorizontalAutoMiner</Key>
       <Value>OGRE</Value>
-      <Description> {LINK:Recurso;Recurso} OGRE（正交地面旋转挖掘机）是配备采矿车的基础设施, 可挖掘水平巷道最远达X米. 满载后采矿车将返回基地卸货, 随后继续作业. 若遇空腔区域亦会返航待命, 关闭时自动归位. 
+      <Description>{LINK:Recurso;Recurso} OGRE（正交地面旋转挖掘机）是配备采矿车的基础设施, 可挖掘水平巷道最远达X米. 满载后采矿车将返回基地卸货, 随后继续作业. 若遇空腔区域亦会返航待命, 关闭时自动归位. 
 
 OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其 {LINK:OrePage;矿石} 产量超过同区域 {THING:ItemMiningDrill} . 
 
@@ -6850,22 +6850,22 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool1</Key>
       <Value>凛冬花(Alpha)</Value>
-      <Description> {LINK:Agrizero;Agrizero} 凛冬花大气生物处理器是其基因剪接环境装饰新品, 通过环境热量将 {GAS:Water} 分解为 {GAS:Volatiles} 与 {GAS:Oxygen} , 并在充足 {GAS:Nitrogen} 供应下冷却环境. Alpha变体峰值冷却与电解功率为90瓦, 最适运行气温0-40°C</Description>
+      <Description>{LINK:Agrizero;Agrizero} 凛冬花大气生物处理器是其基因剪接环境装饰新品, 通过环境热量将 {GAS:Water} 分解为 {GAS:Volatiles} 与 {GAS:Oxygen} , 并在充足 {GAS:Nitrogen} 供应下冷却环境. Alpha变体峰值冷却与电解功率为90瓦, 最适运行气温0-40°C</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool2</Key>
       <Value>凛冬花(Beta)</Value>
-      <Description> {LINK:Agrizero;Agrizero} 凛冬花大气生物处理器是其基因剪接环境装饰新品, 通过环境热量将 {GAS:Water} 分解为 {GAS:Volatiles} 与 {GAS:Oxygen} , 并在充足 {GAS:Nitrogen} 供应下冷却环境. Beta变体峰值冷却与电解功率为150瓦, 最适运行气温14-24°C</Description>
+      <Description>{LINK:Agrizero;Agrizero} 凛冬花大气生物处理器是其基因剪接环境装饰新品, 通过环境热量将 {GAS:Water} 分解为 {GAS:Volatiles} 与 {GAS:Oxygen} , 并在充足 {GAS:Nitrogen} 供应下冷却环境. Beta变体峰值冷却与电解功率为150瓦, 最适运行气温14-24°C</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool1</Key>
       <Value>冥神花(Alpha)</Value>
-      <Description> {LINK:Agrizero;Agrizero} 冥神花是热带植物魅力与热泵效能结合的实验产物, 吸入1:3比例的 {GAS:Volatiles} 与 {GAS:Oxygen} 混合气体, 呼出加热的 {GAS:Pollutant}</Description>
+      <Description>{LINK:Agrizero;Agrizero} 冥神花是热带植物魅力与热泵效能结合的实验产物, 吸入1:3比例的 {GAS:Volatiles} 与 {GAS:Oxygen} 混合气体, 呼出加热的 {GAS:Pollutant}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool2</Key>
       <Value>冥神花(Beta)</Value>
-      <Description> {LINK:Agrizero;Agrizero} 冥神花是热带植物魅力与热泵效能结合的实验产物, 吸入1:3比例的 {GAS:Volatiles} 与 {GAS:Oxygen} 混合气体, 呼出加热的 {GAS:Pollutant} . Beta变体较实验性Alpha型号效能显著提升</Description>
+      <Description>{LINK:Agrizero;Agrizero} 冥神花是热带植物魅力与热泵效能结合的实验产物, 吸入1:3比例的 {GAS:Volatiles} 与 {GAS:Oxygen} 混合气体, 呼出加热的 {GAS:Pollutant} . Beta变体较实验性Alpha型号效能显著提升</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_HadesAlpha</Key>
@@ -6895,7 +6895,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructureStirlingEngine</Key>
       <Value>斯特林发电机</Value>
-      <Description> {LINK:Recurso;Recurso} 'Libra'斯特林发电机利用古老热力学原理, 通过工作气体膨胀收缩驱动活塞发电. 
+      <Description>{LINK:Recurso;Recurso} 'Libra'斯特林发电机利用古老热力学原理, 通过工作气体膨胀收缩驱动活塞发电. 
 
 输入高压热气加热装置热端后排出, 冷端依赖环境低温低压形成温差. 需通过 {SLOT:GasCanister} 注入工作气体, 操作时必须关闭设备以防气体泄漏. 
 
@@ -6904,14 +6904,14 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructurePowerTransmitter</Key>
       <Value>微波输电发射器</Value>
-      <Description> {LINK:Norsec;Norsec} 无线输电系统采用单向远场微波传输技术, 可旋转基座发射器向专用接收器定向发射无害微波束. 
+      <Description>{LINK:Norsec;Norsec} 无线输电系统采用单向远场微波传输技术, 可旋转基座发射器向专用接收器定向发射无害微波束. 
 
 需精确对准基站才能传输电力, 准直器弧光亮度指示传输强度. 注意远距离传输存在衰减, 需更高输入功率维持输出</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerTransmitterReceiver</Key>
       <Value>微波输电接收器</Value>
-      <Description> {LINK:Norsec;Norsec} 无线输电系统采用单向远场微波传输技术, 可旋转基座发射器向专用接收器定向发射无害微波束. 
+      <Description>{LINK:Norsec;Norsec} 无线输电系统采用单向远场微波传输技术, 可旋转基座发射器向专用接收器定向发射无害微波束. 
 
 需精确对准基站才能传输电力, 准直器弧光亮度指示传输强度. 注意远距离传输存在衰减, 需更高输入功率维持输出</Description>
     </RecordThing>
@@ -7973,7 +7973,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassthroughHeatExchanger</Key>
-      <Value>套件(逆流式换热器)</Value>
+      <Value>(套件)逆流式换热器</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -9308,71 +9308,71 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>StructureCarbonSequester</Key>
-      <Value>CarbonSequester</Value>
+      <Value>碳封存器</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCarbonSequesterTopExtension</Key>
-      <Value>CarbonSequester(TopExtension)</Value>
+      <Value>碳封存器(顶部扩展)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCarbonSequesterVentExtension</Key>
-      <Value>CarbonSequester(VentExtension)</Value>
+      <Value>碳封存器(通风口扩展)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureDispersalTower</Key>
-      <Value>DispersalTower</Value>
+      <Value>扩散塔</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureDispersalTowerChimneyExtension</Key>
-      <Value>DispersalTower(ChimneyExtension)</Value>
+      <Value>扩散塔(烟囱扩展)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangeLiquidtoGas</Key>
-      <Value>HeatExchange(LiquidtoGas)</Value>
+      <Value>换热器(气液)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangerGastoGas</Key>
-      <Value>HeatExchanger(GastoGas)</Value>
+      <Value>换热器(气体)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangerLiquidtoLiquid</Key>
-      <Value>HeatExchanger(LiquidtoLiquid)</Value>
+      <Value>换热器(液体)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureIndustrialBurner</Key>
-      <Value>IndustrialBurner</Value>
+      <Value>工业焚化炉</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureIndustrialBurnerChimneyExtension</Key>
-      <Value>IndustrialBurner(ChimneyExtension)</Value>
+      <Value>工业焚化炉(烟囱扩展)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureIndustrialBurnerHeatExchangerExtension</Key>
-      <Value>IndustrialBurnerHeat(ExchangerExtension)</Value>
+      <Value>工业焚化炉(换热扩展)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureIndustrialCombustor</Key>
-      <Value>IndustrialCombustor</Value>
+      <Value>工业燃烧器</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureIndustrialCombustorChamberExtension</Key>
-      <Value>IndustrialCombustor(ChamberExtension)</Value>
+      <Value>工业燃烧器(炉膛扩展)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureIndustrialCombustorChimneyExtension</Key>
-      <Value>IndustrialCombustor(ChimneyExtension)</Value>
+      <Value>工业燃烧器(烟囱扩展)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureIndustrialFiltration</Key>
-      <Value>IndustrialFiltration</Value>
+      <Value>工业过滤器</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureIndustrialFiltrationExtension1</Key>
-      <Value>IndustrialFiltrationExtension</Value>
+      <Value>工业过滤器扩展</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketSpotCamera</Key>
-      <Value>RocketSpotCamera</Value>
+      <Value>火箭摄像头</Value>
     </RecordThing>
   </Things>
   <Slots>
@@ -11796,7 +11796,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LogicNoAdditionalSettingsFor</Key>
-      <Value> {0} 没有其他设置</Value>
+      <Value>{0} 没有其他设置</Value>
     </Record>
     <Record>
       <Key>LogicNoSlot</Key>
@@ -11808,7 +11808,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LogicNoAdditionalSlotsFor</Key>
-      <Value> {0} 没有额外的槽位</Value>
+      <Value>{0} 没有额外的槽位</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
@@ -12284,11 +12284,11 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrousOxide</Key>
-      <Value> {GAS:NitrousOxide} 的比例</Value>
+      <Value>{GAS:NitrousOxide} 的比例</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioLiquidNitrogen</Key>
-      <Value> {GAS:LiquidNitrogen} 的比例</Value>
+      <Value>{GAS:LiquidNitrogen} 的比例</Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustion</Key>
@@ -14638,7 +14638,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>BuildStateOfHash</Key>
-      <Value> {0} / {1}</Value>
+      <Value>{0} / {1}</Value>
     </Record>
     <Record>
       <Key>Stage1Contains</Key>
@@ -14650,27 +14650,27 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>PlantGrowing</Key>
-      <Value> {0} 正在 {1} 生长 {2}</Value>
+      <Value>{0} 正在 {1} 生长 {2}</Value>
     </Record>
     <Record>
       <Key>PlantDead</Key>
-      <Value> {0} 已经 {1} 死亡 {2}</Value>
+      <Value>{0} 已经 {1} 死亡 {2}</Value>
     </Record>
     <Record>
       <Key>PlantHydrate</Key>
-      <Value> {0} 缺乏 {1} 水 {2}</Value>
+      <Value>{0} 缺乏 {1} 水 {2}</Value>
     </Record>
     <Record>
       <Key>NoAtmos</Key>
-      <Value> {0} 缺少 {1} 空气 {2}</Value>
+      <Value>{0} 缺少 {1} 空气 {2}</Value>
     </Record>
     <Record>
       <Key>PlantTemperature</Key>
-      <Value> {0} 未处在正确的 {1} 温度 {2}</Value>
+      <Value>{0} 未处在正确的 {1} 温度 {2}</Value>
     </Record>
     <Record>
       <Key>PlantNoSunlight</Key>
-      <Value> {0} 没有所需的 {1} 光照 {2}</Value>
+      <Value>{0} 没有所需的 {1} 光照 {2}</Value>
     </Record>
     <Record>
       <Key>PlantToxic</Key>
@@ -14778,7 +14778,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ControlPrimaryClick</Key>
-      <Value> {KEY:PrimaryAction}</Value>
+      <Value>{KEY:PrimaryAction}</Value>
     </Record>
     <Record>
       <Key>ControlPrimaryClickDisc</Key>
@@ -14810,7 +14810,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ControlPlayerMovement</Key>
-      <Value> {KEY:Forward}  {KEY:Left}  {KEY:Backward}  {KEY:Right}</Value>
+      <Value>{KEY:Forward}  {KEY:Left}  {KEY:Backward}  {KEY:Right}</Value>
     </Record>
     <Record>
       <Key>ControlPlayerMovementDisc</Key>
@@ -14818,7 +14818,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ControlSwapHands</Key>
-      <Value> {KEY:SwapHands}</Value>
+      <Value>{KEY:SwapHands}</Value>
     </Record>
     <Record>
       <Key>ControlSwapHandsDisc</Key>
@@ -14980,11 +14980,11 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>Asura</Key>
-      <Value>阿修罗生物</Value>
+      <Value>AsuraBiomedia</Value>
     </Record>
     <Record>
       <Key>AsuraDesc</Key>
-      <Value>阿修罗生物传媒由孟买万亿富豪阿山·古尔瓦贾创立于22世纪初叶. 虽以"生物科技"为名, 该企业对这一概念的诠释始终保持着惊人的延展性——其业务版图横跨制药工业与宠物食品两大极端领域. 
+      <Value>AsuraBiomedia由孟买万亿富豪阿山·古尔瓦贾创立于22世纪初叶. 虽以"生物科技"为名, 该企业对这一概念的诠释始终保持着惊人的延展性——其业务版图横跨制药工业与宠物食品两大极端领域. 
 
 古尔瓦贾在生物工程领域的深厚积淀, 使公司刚刚建立便跻身生命科学技术的尖端. 其发展轨迹完美践行创始人的战略蓝图：通过迅速而坚定的并购, 迅速吞并一切规模较小的竞争对手. 
 
@@ -15119,7 +15119,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ControlMouseControl</Key>
-      <Value> {KEY:MouseControl}</Value>
+      <Value>{KEY:MouseControl}</Value>
     </Record>
     <Record>
       <Key>ControlMouseControlDisc</Key>
@@ -15135,7 +15135,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ControlSecondaryAction</Key>
-      <Value> {KEY:SecondaryAction}</Value>
+      <Value>{KEY:SecondaryAction}</Value>
     </Record>
     <Record>
       <Key>ControlSecondaryActionBuildModeDisc</Key>
@@ -15143,7 +15143,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ControlScrollWheelSelect</Key>
-      <Value> {KEY:SecondaryAction}</Value>
+      <Value>{KEY:SecondaryAction}</Value>
     </Record>
     <Record>
       <Key>ControlScrollWheelSelectDisc</Key>
@@ -15151,7 +15151,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ControlAutoRotate</Key>
-      <Value> {KEY:QuantityModifier}</Value>
+      <Value>{KEY:QuantityModifier}</Value>
     </Record>
     <Record>
       <Key>ControlAutoRotateDisc</Key>
@@ -15167,7 +15167,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ControlTurnOn</Key>
-      <Value> {KEY:SecondaryAction}</Value>
+      <Value>{KEY:SecondaryAction}</Value>
     </Record>
     <Record>
       <Key>ControlTurnOnDisc</Key>
@@ -15647,7 +15647,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>MoleNitrogenDescription</Key>
-      <Value> {GAS:Nitrogen} 可以与 {GAS:Oxygen} 混合, 以稳定其可燃性并避免 {GAS:Oxygen} 的毒性, 它本身也是一种资源, 可以用于创造一个可呼吸的大气环境(大约3:1的 {GAS:Nitrogen} 和 {GAS:Oxygen} ). 最高效的 {GAS:Nitrogen} 来源是广泛存在于太阳系的 {THING:ItemNitrice} 沉积物. 你可以通过降低 {GAS:Nitrogen} 的温度到沸点以下以制造 {GAS:LiquidNitrogen}</Value>
+      <Value>{GAS:Nitrogen} 可以与 {GAS:Oxygen} 混合, 以稳定其可燃性并避免 {GAS:Oxygen} 的毒性, 它本身也是一种资源, 可以用于创造一个可呼吸的大气环境(大约3:1的 {GAS:Nitrogen} 和 {GAS:Oxygen} ). 最高效的 {GAS:Nitrogen} 来源是广泛存在于太阳系的 {THING:ItemNitrice} 沉积物. 你可以通过降低 {GAS:Nitrogen} 的温度到沸点以下以制造 {GAS:LiquidNitrogen}</Value>
     </Record>
     <Record>
       <Key>MoleCarbonDioxideDescription</Key>
@@ -15680,31 +15680,31 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>MoleLiquidNitrogenDescription</Key>
-      <Value> {GAS:Nitrogen} 的液体形态. 将 {GAS:Nitrogen} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidNitrogen} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:Nitrogen}</Value>
+      <Value>{GAS:Nitrogen} 的液体形态. 将 {GAS:Nitrogen} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidNitrogen} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:Nitrogen}</Value>
     </Record>
     <Record>
       <Key>MoleLiquidOxygenDescription</Key>
-      <Value> {GAS:Oxygen} 的液体形态. 将 {GAS:Oxygen} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidOxygen} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:Oxygen}</Value>
+      <Value>{GAS:Oxygen} 的液体形态. 将 {GAS:Oxygen} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidOxygen} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:Oxygen}</Value>
     </Record>
     <Record>
       <Key>MoleLiquidVolatilesDescription</Key>
-      <Value> {GAS:Volatiles} 的液体形态. 将 {GAS:Volatiles} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidVolatiles} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:Volatiles}</Value>
+      <Value>{GAS:Volatiles} 的液体形态. 将 {GAS:Volatiles} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidVolatiles} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:Volatiles}</Value>
     </Record>
     <Record>
       <Key>MoleLiquidCarbonDioxideDescription</Key>
-      <Value> {GAS:CarbonDioxide} 的液体形态. 将 {GAS:CarbonDioxide} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidCarbonDioxide} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:CarbonDioxide}</Value>
+      <Value>{GAS:CarbonDioxide} 的液体形态. 将 {GAS:CarbonDioxide} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidCarbonDioxide} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:CarbonDioxide}</Value>
     </Record>
     <Record>
       <Key>MoleLiquidPollutantDescription</Key>
-      <Value> {GAS:Pollutant} 的液体形态. 将 {GAS:Pollutant} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidPollutant} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:Pollutant}</Value>
+      <Value>{GAS:Pollutant} 的液体形态. 将 {GAS:Pollutant} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidPollutant} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:Pollutant}</Value>
     </Record>
     <Record>
       <Key>MoleLiquidNitrousOxideDescription</Key>
-      <Value> {GAS:NitrousOxide} 的液体形态. 将 {GAS:NitrousOxide} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidNitrousOxide} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:NitrousOxide}</Value>
+      <Value>{GAS:NitrousOxide} 的液体形态. 将 {GAS:NitrousOxide} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidNitrousOxide} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:NitrousOxide}</Value>
     </Record>
     <Record>
       <Key>MoleLiquidHydrogenDescription</Key>
-      <Value> {GAS:Hydrogen} 的液体形态. 将 {GAS:Hydrogen} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidHydrogen} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:Hydrogen}</Value>
+      <Value>{GAS:Hydrogen} 的液体形态. 将 {GAS:Hydrogen} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.  {GAS:LiquidHydrogen} 如果暴露在大气中, 会迅速蒸发并变回 {GAS:Hydrogen}</Value>
     </Record>
     <Record>
       <Key>MoleHydrogenDescription</Key>
@@ -16316,7 +16316,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>WorldObjectiveDeepMinersInfo</Key>
-      <Value> {THING:StructureDeepMiner} 能够持续而稳定的供应矿物资源.  {THING:StructureRocketManufactory} 打印的部件能够建造一艘采矿火箭, 并从附近的天体中采集资源</Value>
+      <Value>{THING:StructureDeepMiner} 能够持续而稳定的供应矿物资源.  {THING:StructureRocketManufactory} 打印的部件能够建造一艘采矿火箭, 并从附近的天体中采集资源</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildStackerInfo</Key>
@@ -16428,7 +16428,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>Tut1IntroFrame</Key>
-      <Value> {THING:StructureFrameIron} 能够完全填充一个方格</Value>
+      <Value>{THING:StructureFrameIron} 能够完全填充一个方格</Value>
     </Record>
     <Record>
       <Key>Tut1PlaceFrame</Key>
@@ -16572,7 +16572,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>Tut2ApcBattery</Key>
-      <Value> {THING:StructureAreaPowerControl} 中的电池能够给其他设备供电</Value>
+      <Value>{THING:StructureAreaPowerControl} 中的电池能够给其他设备供电</Value>
     </Record>
     <Record>
       <Key>Tut2PlaceBatteryInApc</Key>
@@ -16660,11 +16660,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>Tutorial3SuitWarning</Key>
-      <Value> {THING:ItemEvaSuit} 会在 {THING:ItemGasCanisterEmpty} 被移走时发出警告</Value>
+      <Value>{THING:ItemEvaSuit} 会在 {THING:ItemGasCanisterEmpty} 被移走时发出警告</Value>
     </Record>
     <Record>
       <Key>Tutorial3CanisterSlot</Key>
-      <Value> {THING:DynamicGasCanisterEmpty} 有一个插槽可以为储气瓶充气</Value>
+      <Value>{THING:DynamicGasCanisterEmpty} 有一个插槽可以为储气瓶充气</Value>
     </Record>
     <Record>
       <Key>Tutorial3EmptyWasteHeading</Key>
@@ -16692,7 +16692,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>Tutorial3InsertCartridge</Key>
-      <Value> {THING:ItemTablet} 有一个能够放入 {THING:CartridgeAtmosAnalyser} 的槽位</Value>
+      <Value>{THING:ItemTablet} 有一个能够放入 {THING:CartridgeAtmosAnalyser} 的槽位</Value>
     </Record>
     <Record>
       <Key>Tutorial3AtmosAnalyserInfo</Key>
@@ -16700,7 +16700,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>Tutorial3AtmosAnalyserInfo2</Key>
-      <Value> {THING:CartridgeAtmosAnalyser} 能够显示房间的空气环境参数或者物品内的气体参数</Value>
+      <Value>{THING:CartridgeAtmosAnalyser} 能够显示房间的空气环境参数或者物品内的气体参数</Value>
     </Record>
     <Record>
       <Key>Tutorial3FillPipeHeading</Key>
@@ -16736,7 +16736,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>Tutorial3ScrollToChangeBlueprint</Key>
-      <Value> {THING:ItemKitPipeUtility} 能够建造多种设备. 用&lt;color=#FBB03B&gt;鼠标滚轮&lt;/color&gt;选择 {THING:StructureGasTankStorage}</Value>
+      <Value>{THING:ItemKitPipeUtility} 能够建造多种设备. 用&lt;color=#FBB03B&gt;鼠标滚轮&lt;/color&gt;选择 {THING:StructureGasTankStorage}</Value>
     </Record>
     <Record>
       <Key>Tutorial3FillCanisterHeading</Key>
@@ -16748,7 +16748,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>Tutorial3OpenTheCanisterValve</Key>
-      <Value> {THING:StructureValve} 能够让两个不同管道网络中的气体互通, 转动把手打开 {THING:StructureValve}</Value>
+      <Value>{THING:StructureValve} 能够让两个不同管道网络中的气体互通, 转动把手打开 {THING:StructureValve}</Value>
     </Record>
     <Record>
       <Key>Tutorial3AnalyzeCanisterHeading</Key>
@@ -16760,7 +16760,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>Tutorial3PassiveVents</Key>
-      <Value> {THING:StructurePassiveVent} 能够让管道中的气体与世界中的气体进行混合交换</Value>
+      <Value>{THING:StructurePassiveVent} 能够让管道中的气体与世界中的气体进行混合交换</Value>
     </Record>
     <Record>
       <Key>Tutorial3ConstructOrangeValve</Key>
@@ -16996,11 +16996,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>HeaderCommsTerminal</Key>
-      <Value>COMMSTERMINAL</Value>
+      <Value>通信终端</Value>
     </Record>
     <Record>
       <Key>TradingSoldOut</Key>
-      <Value>SoldOut</Value>
+      <Value>售罄</Value>
     </Record>
   </Interface>
   <Colors>
@@ -17344,7 +17344,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>LeftCurlyBracket</Key>
-      <Value> {</Value>
+      <Value>{</Value>
     </Record>
     <Record>
       <Key>Pipe</Key>
@@ -18479,7 +18479,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>DeviceAlreadyExporting</Key>
-      <Value> {LOCAL:ItemName} 已输出</Value>
+      <Value>{LOCAL:ItemName} 已输出</Value>
     </Record>
     <Record>
       <Key>SuitContextAirConState</Key>
@@ -18602,7 +18602,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CryoStatus</Key>
-      <Value> {LOCAL:PressureValue} 
+      <Value>{LOCAL:PressureValue} 
  {LOCAL:TemperatureValue} 
 状态: {LOCAL:StatusValue}</Value>
     </Record>
@@ -18764,7 +18764,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>PlantSamplerAction</Key>
-      <Value> {LOCAL:Plant} 样本</Value>
+      <Value>{LOCAL:Plant} 样本</Value>
     </Record>
     <Record>
       <Key>ActionClearPlant</Key>
@@ -18784,7 +18784,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>NotPlantable</Key>
-      <Value> {0} 不可种植</Value>
+      <Value>{0} 不可种植</Value>
     </Record>
     <Record>
       <Key>AddSeedsToSlot</Key>
@@ -19304,7 +19304,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ThingCanNotEnterSlot</Key>
-      <Value> {LOCAL:Thing0} 不能放入 {LOCAL:Thing1}</Value>
+      <Value>{LOCAL:Thing0} 不能放入 {LOCAL:Thing1}</Value>
     </Record>
     <Record>
       <Key>ThingCanNotInsertInteractionsDisabled</Key>
@@ -19328,7 +19328,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ThingIsNotType</Key>
-      <Value> {LOCAL:Thing0} 不属于分类: {LOCAL:Thing1}</Value>
+      <Value>{LOCAL:Thing0} 不属于分类: {LOCAL:Thing1}</Value>
     </Record>
     <Record>
       <Key>ThingInteractionDisabled</Key>
@@ -19364,15 +19364,15 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ThingToFarAwayForDrag</Key>
-      <Value> {LOCAL:Thing} 距离太远, 无法拖动</Value>
+      <Value>{LOCAL:Thing} 距离太远, 无法拖动</Value>
     </Record>
     <Record>
       <Key>ThingCanNotBeDraggedWithSomethingIn</Key>
-      <Value> {LOCAL:Thing} 中存在东西, 无法拖动</Value>
+      <Value>{LOCAL:Thing} 中存在东西, 无法拖动</Value>
     </Record>
     <Record>
       <Key>ThingAlreadyDraggedBy</Key>
-      <Value> {LOCAL:Thing0} 正在被 {LOCAL:Thing1} 拖动</Value>
+      <Value>{LOCAL:Thing0} 正在被 {LOCAL:Thing1} 拖动</Value>
     </Record>
     <Record>
       <Key>ThingModeDoesNotSupportLinking</Key>
@@ -19400,7 +19400,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>StructureIsNotDamaged</Key>
-      <Value> {LOCAL:Structure} 没有损伤</Value>
+      <Value>{LOCAL:Structure} 没有损伤</Value>
     </Record>
     <Record>
       <Key>WeldingTorchNoFuel</Key>
@@ -19416,7 +19416,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>SlotAlreadyOccupied</Key>
-      <Value> {0} 已经被 {1} 占用了</Value>
+      <Value>{0} 已经被 {1} 占用了</Value>
     </Record>
     <Record>
       <Key>SlotTakeThingFromSlot</Key>
@@ -19476,7 +19476,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RegentMixString</Key>
-      <Value> {0}</Value>
+      <Value>{0}</Value>
     </Record>
     <Record>
       <Key>ActionRepairRobot</Key>
@@ -19588,7 +19588,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TorpedoTubeNothingInThe</Key>
-      <Value> {LOCAL:Slot} 中没有东西</Value>
+      <Value>{LOCAL:Slot} 中没有东西</Value>
     </Record>
     <Record>
       <Key>TorpedoTubeCanNotWhileExteriorDoorIsClosed</Key>
@@ -19596,7 +19596,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TorpedoTubeCurrentlyObscuring</Key>
-      <Value> {LOCAL:Slot0} 挡住了 {LOCAL:Slot1}</Value>
+      <Value>{LOCAL:Slot0} 挡住了 {LOCAL:Slot1}</Value>
     </Record>
     <Record>
       <Key>LogicNoDevice</Key>
@@ -19636,11 +19636,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>LogicCurrentlySetTo</Key>
-      <Value> {LOCAL:Thing} 当前被设置为&lt;color=yellow&gt;逻辑&lt;/color&gt;模式</Value>
+      <Value>{LOCAL:Thing} 当前被设置为&lt;color=yellow&gt;逻辑&lt;/color&gt;模式</Value>
     </Record>
     <Record>
       <Key>AirLockIsCurrently</Key>
-      <Value> {LOCAL:Airlock} 正在进行&lt;color=yellow&gt; {LOCAL:AirLockState} &lt;/color&gt;</Value>
+      <Value>{LOCAL:Airlock} 正在进行&lt;color=yellow&gt; {LOCAL:AirLockState} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
@@ -19660,19 +19660,19 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ToolDoesNotHaveAnythingInSlot</Key>
-      <Value> {LOCAL:Tool} 的 {LOCAL:Slot} 槽是空的</Value>
+      <Value>{LOCAL:Tool} 的 {LOCAL:Slot} 槽是空的</Value>
     </Record>
     <Record>
       <Key>ToolDoesNotHaveEnoughCharge</Key>
-      <Value> {LOCAL:Tool} 的 {LOCAL:Battery} 没有足够的电量</Value>
+      <Value>{LOCAL:Tool} 的 {LOCAL:Battery} 没有足够的电量</Value>
     </Record>
     <Record>
       <Key>ToolCanNotCompleteTask</Key>
-      <Value> {LOCAL:Tool} 无法完成这项任务</Value>
+      <Value>{LOCAL:Tool} 无法完成这项任务</Value>
     </Record>
     <Record>
       <Key>ToolNotCurrentlyOperableForTask</Key>
-      <Value> {LOCAL:Tool} 目前无法操作这项任务</Value>
+      <Value>{LOCAL:Tool} 目前无法操作这项任务</Value>
     </Record>
     <Record>
       <Key>VolumeChangeDirection</Key>
@@ -19700,91 +19700,91 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>PlantNotGrowingMature</Key>
-      <Value> {LOCAL:Plant} &lt;color=red&gt;没有生长&lt;/color&gt;, 并且永远无法成熟</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;没有生长&lt;/color&gt;, 并且永远无法成熟</Value>
     </Record>
     <Record>
       <Key>PlantBarelyGrowingMature</Key>
-      <Value> {LOCAL:Plant} 的生长状况非常差, 正在成熟</Value>
+      <Value>{LOCAL:Plant} 的生长状况非常差, 正在成熟</Value>
     </Record>
     <Record>
       <Key>PlantGrowingPoorlyMature</Key>
-      <Value> {LOCAL:Plant} 的生长状况较差, 正在成熟</Value>
+      <Value>{LOCAL:Plant} 的生长状况较差, 正在成熟</Value>
     </Record>
     <Record>
       <Key>PlantGrowingModeratelyMature</Key>
-      <Value> {LOCAL:Plant} 的生长状况良好, 正在成熟</Value>
+      <Value>{LOCAL:Plant} 的生长状况良好, 正在成熟</Value>
     </Record>
     <Record>
       <Key>PlantThrivingMature</Key>
-      <Value> {LOCAL:Plant} 正生长状况非常好, 正在成熟</Value>
+      <Value>{LOCAL:Plant} 正生长状况非常好, 正在成熟</Value>
     </Record>
     <Record>
       <Key>PlantNotGrowingSeed</Key>
-      <Value> {LOCAL:Plant} &lt;color=red&gt;没有生长&lt;/color&gt;, 并且永远无法结出种子</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;没有生长&lt;/color&gt;, 并且永远无法结出种子</Value>
     </Record>
     <Record>
       <Key>PlantBarelyGrowingSeed</Key>
-      <Value> {LOCAL:Plant} 的生长状况非常差, 正在结种</Value>
+      <Value>{LOCAL:Plant} 的生长状况非常差, 正在结种</Value>
     </Record>
     <Record>
       <Key>PlantGrowingPoorlySeed</Key>
-      <Value> {LOCAL:Plant} 的生长状况较差, 正在结种</Value>
+      <Value>{LOCAL:Plant} 的生长状况较差, 正在结种</Value>
     </Record>
     <Record>
       <Key>PlantGrowingModeratelySeed</Key>
-      <Value> {LOCAL:Plant} 的生长状况良好, 正在结种</Value>
+      <Value>{LOCAL:Plant} 的生长状况良好, 正在结种</Value>
     </Record>
     <Record>
       <Key>PlantThrivingSeed</Key>
-      <Value> {LOCAL:Plant} 正生长状况非常好, 正在结种</Value>
+      <Value>{LOCAL:Plant} 正生长状况非常好, 正在结种</Value>
     </Record>
     <Record>
       <Key>PlantNotEnoughLight</Key>
-      <Value> {LOCAL:Plant} &lt;color=red&gt;没有得到正确的每日光照&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;没有得到正确的每日光照&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantAtmosphereTooHot</Key>
-      <Value> {LOCAL:Plant} 的&lt;color=red&gt;环境太热&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} 的&lt;color=red&gt;环境太热&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantAtmosphereTooCold</Key>
-      <Value> {LOCAL:Plant} 的&lt;color=red&gt;环境太冷&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} 的&lt;color=red&gt;环境太冷&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterTooHot</Key>
-      <Value> {LOCAL:Plant} 的&lt;color=red&gt;水太热&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} 的&lt;color=red&gt;水太热&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterTooCold</Key>
-      <Value> {LOCAL:Plant} 的&lt;color=red&gt;水太冷&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} 的&lt;color=red&gt;水太冷&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterNeeds</Key>
-      <Value> {LOCAL:Plant} &lt;color=red&gt;需要水&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;需要水&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantNotCorrectAtmosphere</Key>
-      <Value> {LOCAL:Plant} &lt;color=red&gt;未处于合适的空气成分中&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;未处于合适的空气成分中&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsPollutedByAir</Key>
-      <Value> {LOCAL:Plant} &lt;color=red&gt;正在受到来自空气的污染&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;正在受到来自空气的污染&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsReceivingLight</Key>
-      <Value> {LOCAL:Plant} 正在接受光照</Value>
+      <Value>{LOCAL:Plant} 正在接受光照</Value>
     </Record>
     <Record>
       <Key>PlantIsInDarkness</Key>
-      <Value> {LOCAL:Plant} &lt;color=red&gt;处于黑暗中&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;处于黑暗中&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsInLowPressureEnvironment</Key>
-      <Value> {LOCAL:Plant} &lt;color=red&gt;处于低气压环境中&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;处于低气压环境中&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsInHighPressureEnvironment</Key>
-      <Value> {LOCAL:Plant} &lt;color=red&gt;处于高气压环境中&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;处于高气压环境中&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantCreate</Key>
@@ -19812,11 +19812,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ElevatorUnableToForceOpenLocked</Key>
-      <Value> {LOCAL:Elevator} 被锁定, 无法强行打开</Value>
+      <Value>{LOCAL:Elevator} 被锁定, 无法强行打开</Value>
     </Record>
     <Record>
       <Key>ElevatorUnableToForceOpenPowered</Key>
-      <Value> {LOCAL:Elevator} 已供电, 无法强行打开</Value>
+      <Value>{LOCAL:Elevator} 已供电, 无法强行打开</Value>
     </Record>
     <Record>
       <Key>DoorUnableToForceOpenLocked</Key>
@@ -20160,59 +20160,59 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>UnitSeconds</Key>
-      <Value> {LOCAL:Value} 秒</Value>
+      <Value>{LOCAL:Value} 秒</Value>
     </Record>
     <Record>
       <Key>UnitSecond</Key>
-      <Value> {LOCAL:Value} 秒</Value>
+      <Value>{LOCAL:Value} 秒</Value>
     </Record>
     <Record>
       <Key>UnitMinutes</Key>
-      <Value> {LOCAL:Value} 分</Value>
+      <Value>{LOCAL:Value} 分</Value>
     </Record>
     <Record>
       <Key>UnitMinute</Key>
-      <Value> {LOCAL:Value} 分</Value>
+      <Value>{LOCAL:Value} 分</Value>
     </Record>
     <Record>
       <Key>UnitHours</Key>
-      <Value> {LOCAL:Value} 小时</Value>
+      <Value>{LOCAL:Value} 小时</Value>
     </Record>
     <Record>
       <Key>UnitHour</Key>
-      <Value> {LOCAL:Value} 小时</Value>
+      <Value>{LOCAL:Value} 小时</Value>
     </Record>
     <Record>
       <Key>UnitDays</Key>
-      <Value> {LOCAL:Value} 天</Value>
+      <Value>{LOCAL:Value} 天</Value>
     </Record>
     <Record>
       <Key>UnitDay</Key>
-      <Value> {LOCAL:Value} 天</Value>
+      <Value>{LOCAL:Value} 天</Value>
     </Record>
     <Record>
       <Key>UnitWeeks</Key>
-      <Value> {LOCAL:Value} 周</Value>
+      <Value>{LOCAL:Value} 周</Value>
     </Record>
     <Record>
       <Key>UnitWeek</Key>
-      <Value> {LOCAL:Value} 周</Value>
+      <Value>{LOCAL:Value} 周</Value>
     </Record>
     <Record>
       <Key>UnitMonths</Key>
-      <Value> {LOCAL:Value} 月</Value>
+      <Value>{LOCAL:Value} 月</Value>
     </Record>
     <Record>
       <Key>UnitMonth</Key>
-      <Value> {LOCAL:Value} 月</Value>
+      <Value>{LOCAL:Value} 月</Value>
     </Record>
     <Record>
       <Key>UnitYears</Key>
-      <Value> {LOCAL:Value} 年</Value>
+      <Value>{LOCAL:Value} 年</Value>
     </Record>
     <Record>
       <Key>UnitYear</Key>
-      <Value> {LOCAL:Value} 年</Value>
+      <Value>{LOCAL:Value} 年</Value>
     </Record>
     <Record>
       <Key>WaterWrongTemp</Key>
@@ -20272,15 +20272,15 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ItemInSlotStack</Key>
-      <Value> {LOCAL:Thing} 的堆叠数量为&lt;color=yellow&gt; {LOCAL:StackSize} &lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} 的堆叠数量为&lt;color=yellow&gt; {LOCAL:StackSize} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ItemInSlotValue</Key>
-      <Value> {LOCAL:Thing} 位于&lt;color=yellow&gt; {LOCAL:Value} &lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} &lt;color=yellow&gt; {LOCAL:Value} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DoorIsWelded</Key>
-      <Value> {LOCAL:Thing} 无法在被&lt;color=yellow&gt;焊接&lt;/color&gt;时进行操作</Value>
+      <Value>{LOCAL:Thing} 无法在被&lt;color=yellow&gt;焊接&lt;/color&gt;时进行操作</Value>
     </Record>
     <Record>
       <Key>MoleMixtureMustBePure</Key>
@@ -20352,7 +20352,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CannotMergeIMergeable</Key>
-      <Value> {LOCAL:IMergeable} 无法合并</Value>
+      <Value>{LOCAL:IMergeable} 无法合并</Value>
     </Record>
     <Record>
       <Key>CannotMergeIMergeableOfDifferentType</Key>
@@ -20364,11 +20364,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>EntityIsCurrentlyState</Key>
-      <Value> {LOCAL:Thing} 正在&lt;color=yellow&gt; {LOCAL:State} &lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} 正在&lt;color=yellow&gt; {LOCAL:State} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>EntityIsDead</Key>
-      <Value> {LOCAL:Thing} 已经&lt;color=red&gt;死亡&lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} 已经&lt;color=red&gt;死亡&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresModularRocket</Key>
@@ -20456,7 +20456,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>OnlyHumansCanDragThings</Key>
-      <Value> {LOCAL:Thing} 不允许拖动</Value>
+      <Value>{LOCAL:Thing} 不允许拖动</Value>
     </Record>
     <Record>
       <Key>CannotDragWhileAlive</Key>
@@ -20468,7 +20468,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CannotConstructWhenDamaged</Key>
-      <Value> {LOCAL:Thing} 已损毁, 无法继续建造</Value>
+      <Value>{LOCAL:Thing} 已损毁, 无法继续建造</Value>
     </Record>
     <Record>
       <Key>SlotOccupiedBy</Key>
@@ -20484,7 +20484,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>PlantDead</Key>
-      <Value> {LOCAL:Plant} 已&lt;color=red&gt;死亡&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} 已&lt;color=red&gt;死亡&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>TraderCrashedEvent</Key>
@@ -20568,15 +20568,15 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>NotEnoughSprayPaint</Key>
-      <Value> {LOCAL:SprayCanister} 的涂料不足</Value>
+      <Value>{LOCAL:SprayCanister} 的涂料不足</Value>
     </Record>
     <Record>
       <Key>ThingWillBeSprayed</Key>
-      <Value> {LOCAL:Thing} 将被涂成 {LOCAL:Color}</Value>
+      <Value>{LOCAL:Thing} 将被涂成 {LOCAL:Color}</Value>
     </Record>
     <Record>
       <Key>CannotUseWhenNotOn</Key>
-      <Value> {LOCAL:Thing} 未&lt;color=yellow&gt;启动&lt;/color&gt;, 无法使用</Value>
+      <Value>{LOCAL:Thing} 未&lt;color=yellow&gt;启动&lt;/color&gt;, 无法使用</Value>
     </Record>
     <Record>
       <Key>InputSetting</Key>
@@ -20760,7 +20760,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>WorldInfoRotationPeriod</Key>
-      <Value> {LOCAL:PrimaryBody} 每 {LOCAL:RotationPeriod} 以 {LOCAL:SolarAngle} 度划过&lt;color=yellow&gt;天空&lt;/color&gt;</Value>
+      <Value>{LOCAL:PrimaryBody} 每 {LOCAL:RotationPeriod} 以 {LOCAL:SolarAngle} 度划过&lt;color=yellow&gt;天空&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>WorldInfoSiderealPeriod</Key>
@@ -20768,15 +20768,15 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>WorldInfoSolarEnergy</Key>
-      <Value> {LOCAL:PrimaryBody} 提供 {LOCAL:Value} 能量</Value>
+      <Value>{LOCAL:PrimaryBody} 提供 {LOCAL:Value} 能量</Value>
     </Record>
     <Record>
       <Key>WorldInfoSolarEnergyRange</Key>
-      <Value> {LOCAL:PrimaryBody} 提供 {LOCAL:LowValue} 至 {LOCAL:HighValue} 能量</Value>
+      <Value>{LOCAL:PrimaryBody} 提供 {LOCAL:LowValue} 至 {LOCAL:HighValue} 能量</Value>
     </Record>
     <Record>
       <Key>WorldInfoNoSolarEnergy</Key>
-      <Value> {LOCAL:PrimaryBody} &lt;color=red&gt;无法提供光照&lt;/color&gt;</Value>
+      <Value>{LOCAL:PrimaryBody} &lt;color=red&gt;无法提供光照&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>WorldInfoIsVacuum</Key>
@@ -20804,7 +20804,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ThingDamageIsAt</Key>
-      <Value> {LOCAL:DamageType}  {LOCAL:Percent}</Value>
+      <Value>{LOCAL:DamageType}  {LOCAL:Percent}</Value>
     </Record>
     <Record>
       <Key>DirtCanisterDirtIsAt</Key>
@@ -20816,7 +20816,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ContainsItemInSlotAtQuantity</Key>
-      <Value> {LOCAL:Slot} 含有 {LOCAL:QuantityState} 单位 {LOCAL:Item}</Value>
+      <Value>{LOCAL:Slot} 含有 {LOCAL:QuantityState} 单位 {LOCAL:Item}</Value>
     </Record>
     <Record>
       <Key>ConnectionGeneric</Key>
@@ -20836,7 +20836,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ThingIsHeating</Key>
-      <Value> {LOCAL:Thing} 正在&lt;color=green&gt;加热&lt;/color&gt;空气至 {LOCAL:Temperature}</Value>
+      <Value>{LOCAL:Thing} 正在&lt;color=green&gt;加热&lt;/color&gt;空气至 {LOCAL:Temperature}</Value>
     </Record>
     <Record>
       <Key>ScrubberVentOpen</Key>
@@ -20856,15 +20856,15 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ThingCanBeDestroyedByWeather</Key>
-      <Value> {LOCAL:Thing} 将会因 {LOCAL:WeatherEvent} 而损坏</Value>
+      <Value>{LOCAL:Thing} 将会因 {LOCAL:WeatherEvent} 而损坏</Value>
     </Record>
     <Record>
       <Key>HeatingEnergyAmount</Key>
-      <Value> {LOCAL:Thing} 正在&lt;color=green&gt;加热&lt;/color&gt;至 {LOCAL:Temperature}</Value>
+      <Value>{LOCAL:Thing} 正在&lt;color=green&gt;加热&lt;/color&gt;至 {LOCAL:Temperature}</Value>
     </Record>
     <Record>
       <Key>CoolingEnergyAmount</Key>
-      <Value> {LOCAL:Thing} 正在&lt;color=green&gt;冷却&lt;/color&gt;至 {LOCAL:Temperature}</Value>
+      <Value>{LOCAL:Thing} 正在&lt;color=green&gt;冷却&lt;/color&gt;至 {LOCAL:Temperature}</Value>
     </Record>
     <Record>
       <Key>DifficultyCannotEatThroughHelmet</Key>
@@ -20880,23 +20880,23 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>DifficultyValueRate</Key>
-      <Value> {LOCAL:Type} 系数 {LOCAL:Value}</Value>
+      <Value>{LOCAL:Type} 系数 {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>DifficultyValueYield</Key>
-      <Value> {LOCAL:Type} 产出 {LOCAL:Value}</Value>
+      <Value>{LOCAL:Type} 产出 {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>DifficultyValueStatus</Key>
-      <Value> {LOCAL:Type} 已 {LOCAL:Status}</Value>
+      <Value>{LOCAL:Type} 已 {LOCAL:Status}</Value>
     </Record>
     <Record>
       <Key>DifficultyThingStatus</Key>
-      <Value> {LOCAL:Thing} 的 {LOCAL:Type} 已 {LOCAL:Status}</Value>
+      <Value>{LOCAL:Thing} 的 {LOCAL:Type} 已 {LOCAL:Status}</Value>
     </Record>
     <Record>
       <Key>DifficultyThingValueRate</Key>
-      <Value> {LOCAL:Thing} 的 {LOCAL:Type} 系数为 {LOCAL:Value}</Value>
+      <Value>{LOCAL:Thing} 的 {LOCAL:Type} 系数为 {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>PassedMolesDescription</Key>
@@ -21100,23 +21100,23 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>FurnaceMeltThing</Key>
-      <Value> {LOCAL:Thing} 可按&lt;color=yellow&gt;激活&lt;/color&gt;键开始熔炼</Value>
+      <Value>{LOCAL:Thing} 可按&lt;color=yellow&gt;激活&lt;/color&gt;键开始熔炼</Value>
     </Record>
     <Record>
       <Key>ThingOverTemperature</Key>
-      <Value> {LOCAL:Thing} 处于&lt;color=red&gt;过热&lt;/color&gt;状态!</Value>
+      <Value>{LOCAL:Thing} 处于&lt;color=red&gt;过热&lt;/color&gt;状态!</Value>
     </Record>
     <Record>
       <Key>HeatingFromInternal</Key>
-      <Value> {LOCAL:Thing} 正因 {LOCAL:Source}  {LOCAL:Energy} 而&lt;color=white&gt;加热&lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} 正因 {LOCAL:Source}  {LOCAL:Energy} 而&lt;color=white&gt;加热&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>HeatingFromElement</Key>
-      <Value> {LOCAL:Thing} 正因&lt;color=yellow&gt;元素&lt;/color&gt; {LOCAL:Energy} 而&lt;color=white&gt;加热&lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} 正因&lt;color=yellow&gt;元素&lt;/color&gt; {LOCAL:Energy} 而&lt;color=white&gt;加热&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CoolantFrozen</Key>
-      <Value> {LOCAL:Thing} 处于&lt;color=blue&gt;冻结&lt;/color&gt;状态</Value>
+      <Value>{LOCAL:Thing} 处于&lt;color=blue&gt;冻结&lt;/color&gt;状态</Value>
     </Record>
     <Record>
       <Key>WorldEnvironmentTooHot</Key>
@@ -21128,11 +21128,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CoolingFromInternal</Key>
-      <Value> {LOCAL:Thing} 正因 {LOCAL:Source}  {LOCAL:Energy} 而&lt;color=white&gt;冷却&lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} 正因 {LOCAL:Source}  {LOCAL:Energy} 而&lt;color=white&gt;冷却&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeviceWorldGridBlocked</Key>
-      <Value> {LOCAL:Thing} 的&lt;color=white&gt;输出端&lt;/color&gt;被&lt;color=red&gt;阻塞&lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} 的&lt;color=white&gt;输出端&lt;/color&gt;被&lt;color=red&gt;阻塞&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>TemperatureTooHotForThing</Key>
@@ -21192,7 +21192,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CantPaintSameColour</Key>
-      <Value> {LOCAL:Thing} 已被喷涂为 {LOCAL:Color}</Value>
+      <Value>{LOCAL:Thing} 已被喷涂为 {LOCAL:Color}</Value>
     </Record>
     <Record>
       <Key>AtmosphereVolume</Key>
@@ -21236,7 +21236,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>SlotContainsItem</Key>
-      <Value> {LOCAL:Slot} 插槽包含 {LOCAL:Item}</Value>
+      <Value>{LOCAL:Slot} 插槽包含 {LOCAL:Item}</Value>
     </Record>
     <Record>
       <Key>ThingIsFastenedIn</Key>
@@ -21244,7 +21244,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ThingIsState</Key>
-      <Value> {LOCAL:Thing} 处于 {LOCAL:State} 状态</Value>
+      <Value>{LOCAL:Thing} 处于 {LOCAL:State} 状态</Value>
     </Record>
     <Record>
       <Key>LaunchTowerAlreadyExists</Key>
@@ -21352,15 +21352,15 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TradeItemParent</Key>
-      <Value> {LOCAL:Item} 包含以下内容</Value>
+      <Value>{LOCAL:Item} 包含以下内容</Value>
     </Record>
     <Record>
       <Key>TradeItemContains</Key>
-      <Value> {LOCAL:OrePrefab} 包含以下成分</Value>
+      <Value>{LOCAL:OrePrefab} 包含以下成分</Value>
     </Record>
     <Record>
       <Key>TradeRatio</Key>
-      <Value> {LOCAL:GasType} 比例必须 {LOCAL:ComparisonOperator}  {LOCAL:Value}</Value>
+      <Value>{LOCAL:GasType} 比例必须 {LOCAL:ComparisonOperator}  {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>TradeQuantity</Key>
@@ -21608,7 +21608,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>SiteCapacityReached</Key>
-      <Value> {Local:DisplayName} 已达该地点容量上限</Value>
+      <Value>{Local:DisplayName} 已达该地点容量上限</Value>
     </Record>
     <Record>
       <Key>SelectRocketCurrentLocationTooltip</Key>
@@ -21696,7 +21696,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RocketEnginePlacementRule</Key>
-      <Value> {LOCAL:Device} 必须放置在&lt;color=yellow&gt;引擎机身&lt;/color&gt;内</Value>
+      <Value>{LOCAL:Device} 必须放置在&lt;color=yellow&gt;引擎机身&lt;/color&gt;内</Value>
     </Record>
     <Record>
       <Key>RocketCurrentLocation</Key>
@@ -21780,27 +21780,27 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RocketMinerHasNoDrillHead</Key>
-      <Value> {LOCAL:Thing} 未安装采矿钻头</Value>
+      <Value>{LOCAL:Thing} 未安装采矿钻头</Value>
     </Record>
     <Record>
       <Key>RocketMinerDrillHeadWornOut</Key>
-      <Value> {LOCAL:Thing} 采矿钻头已完全磨损</Value>
+      <Value>{LOCAL:Thing} 采矿钻头已完全磨损</Value>
     </Record>
     <Record>
       <Key>RocketScannerHasNoScanningHead</Key>
-      <Value> {LOCAL:Thing} 未安装扫描头</Value>
+      <Value>{LOCAL:Thing} 未安装扫描头</Value>
     </Record>
     <Record>
       <Key>RocketScannerHeadWornOut</Key>
-      <Value> {LOCAL:Thing} 扫描头已完全磨损</Value>
+      <Value>{LOCAL:Thing} 扫描头已完全磨损</Value>
     </Record>
     <Record>
       <Key>DeviceOffOrUnpowered</Key>
-      <Value> {LOCAL:Thing} 已关闭或未供电</Value>
+      <Value>{LOCAL:Thing} 已关闭或未供电</Value>
     </Record>
     <Record>
       <Key>ExportSlotBlocked</Key>
-      <Value> {LOCAL:Thing} 导出槽被阻塞</Value>
+      <Value>{LOCAL:Thing} 导出槽被阻塞</Value>
     </Record>
     <Record>
       <Key>Charted</Key>
@@ -21860,19 +21860,19 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RocketLogArrived</Key>
-      <Value> {LOCAL:DisplayName} 已抵达 {LOCAL:Destination}</Value>
+      <Value>{LOCAL:DisplayName} 已抵达 {LOCAL:Destination}</Value>
     </Record>
     <Record>
       <Key>RocketLogOutOfFuel</Key>
-      <Value> {LOCAL:DisplayName} 燃料耗尽</Value>
+      <Value>{LOCAL:DisplayName} 燃料耗尽</Value>
     </Record>
     <Record>
       <Key>RocketCrashed</Key>
-      <Value> {LOCAL:DisplayName} 坠毁于 {LOCAL:CrashedInto}</Value>
+      <Value>{LOCAL:DisplayName} 坠毁于 {LOCAL:CrashedInto}</Value>
     </Record>
     <Record>
       <Key>RocketLogOutOfBattery</Key>
-      <Value> {LOCAL:DisplayName} 电池耗尽</Value>
+      <Value>{LOCAL:DisplayName} 电池耗尽</Value>
     </Record>
     <Record>
       <Key>RocketLogCharted</Key>
@@ -21880,7 +21880,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RocketLogDeviceFull</Key>
-      <Value> {LOCAL:Thing} 已满</Value>
+      <Value>{LOCAL:Thing} 已满</Value>
     </Record>
     <Record>
       <Key>LiquidFuelInput</Key>
@@ -21920,7 +21920,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RocketTowerPlacementRule</Key>
-      <Value> {LOCAL:Thing} 必须建造在火箭塔内</Value>
+      <Value>{LOCAL:Thing} 必须建造在火箭塔内</Value>
     </Record>
     <Record>
       <Key>FailedToLoadGameData</Key>
