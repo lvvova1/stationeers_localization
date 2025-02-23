@@ -1480,7 +1480,7 @@
     <RecordThing>
       <Key>ItemLightSword</Key>
       <Value>光剑</Value>
-      <Description>一款迷人但无实际用途的仿制武器. （仅限创造模式. ）</Description>
+      <Description>一款迷人但无实际用途的仿制武器（仅限创造模式）</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMilk</Key>
@@ -1842,7 +1842,7 @@
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>主动通风口</Value>
-      <Description>主动通风口是一种动力装置, 通过向管道网络泵入（或抽出）气体来维持 {LINK:GasPage;气体} 压力. 该通风口有两种模式："向外"模式会泵送气体至空间直到达到设定安全压力；"向内"模式会抽吸气体直到达到设定安全压力. 压力参数可通过连接的 {THING:StructureConsole} 设置. 向外模式默认压力为101kPa；向内模式默认压力为0kPa. </Description>
+      <Description>主动通风口是一种动力装置, 通过向管道网络泵入（或抽出）气体来维持 {LINK:GasPage;气体} 压力. 该通风口有两种模式："向外"模式会泵送气体至空间直到达到设定安全压力；"向内"模式会抽吸气体直到达到设定安全压力. 压力参数可通过连接的 {THING:StructureConsole} 设置. 向外模式默认压力为101kPa；向内模式默认压力为0kPa</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirConditioner</Key>
@@ -5856,37 +5856,37 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructurePipeLiquidStraight</Key>
       <Value>液体管道(直线)</Value>
-      <Description>Youcanupgradethispipetoan {THING:StructureInsulatedPipeLiquidStraight} usingan {THING:ItemKitInsulatedLiquidPipe} anda {THING:ItemWrench} </Description>
+      <Description>你可以使用 {THING:ItemKitInsulatedLiquidPipe} 和 {THING:ItemWrench} 将其升级为 {THING:StructureInsulatedPipeLiquidStraight}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCorner</Key>
       <Value>液体管道(拐角)</Value>
-      <Description>Youcanupgradethispipetoan {THING:StructureInsulatedPipeLiquidCorner} usingan {THING:ItemKitInsulatedLiquidPipe} anda {THING:ItemWrench} </Description>
+      <Description>你可以使用 {THING:ItemKitInsulatedLiquidPipe} 和 {THING:ItemWrench} 将其升级为 {THING:StructureInsulatedPipeLiquidCorner}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction3</Key>
       <Value>液体管道(3路)</Value>
-      <Description>Youcanupgradethispipetoan {THING:StructureInsulatedPipeLiquidCrossJunction3} usingan {THING:ItemKitInsulatedLiquidPipe} anda {THING:ItemWrench} </Description>
+      <Description>你可以使用 {THING:ItemKitInsulatedLiquidPipe} 和 {THING:ItemWrench} 将其升级为 {THING:StructureInsulatedPipeLiquidCrossJunction3}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction4</Key>
       <Value>液体管道(4路)</Value>
-      <Description>Youcanupgradethispipetoan {THING:StructureInsulatedPipeLiquidCrossJunction4} usingan {THING:ItemKitInsulatedLiquidPipe} anda {THING:ItemWrench} </Description>
+      <Description>你可以使用 {THING:ItemKitInsulatedLiquidPipe} 和 {THING:ItemWrench} 将其升级为 {THING:StructureInsulatedPipeLiquidCrossJunction4}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction5</Key>
       <Value>液体管道(5路)</Value>
-      <Description>Youcanupgradethispipetoan {THING:StructureInsulatedPipeLiquidCrossJunction5} usingan {THING:ItemKitInsulatedLiquidPipe} anda {THING:ItemWrench} </Description>
+      <Description>你可以使用 {THING:ItemKitInsulatedLiquidPipe} 和 {THING:ItemWrench} 将其升级为 {THING:StructureInsulatedPipeLiquidCrossJunction5}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction6</Key>
       <Value>液体管道(6路)</Value>
-      <Description>Youcanupgradethispipetoan {THING:StructureInsulatedPipeLiquidCrossJunction6} usingan {THING:ItemKitInsulatedLiquidPipe} anda {THING:ItemWrench} </Description>
+      <Description>你可以使用 {THING:ItemKitInsulatedLiquidPipe} 和 {THING:ItemWrench} 将其升级为 {THING:StructureInsulatedPipeLiquidCrossJunction6}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidTJunction</Key>
       <Value>液体管道(T型)</Value>
-      <Description>Youcanupgradethispipetoan {THING:StructureInsulatedPipeLiquidTJunction} usingan {THING:ItemKitInsulatedLiquidPipe} anda {THING:ItemWrench} </Description>
+      <Description>你可以使用 {THING:ItemKitInsulatedLiquidPipe} 和 {THING:ItemWrench} 将其升级为 {THING:StructureInsulatedPipeLiquidTJunction}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWreckageWindTurbine001</Key>
@@ -11457,7 +11457,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>AlertTitlePleaseWait</Key>
-      <Value>请稍候. </Value>
+      <Value>请稍候</Value>
     </Record>
     <Record>
       <Key>TooltipNeedMoreKit</Key>
@@ -11469,7 +11469,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>JoinMenuAddressPlaceholder</Key>
-      <Value>此处输入[IP地址:端口号]. </Value>
+      <Value>此处输入[IP地址:端口号]</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerDetailConnectButton</Key>
@@ -11699,15 +11699,15 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>TextboxEnterName</Key>
-      <Value>输入名称. </Value>
+      <Value>输入名称</Value>
     </Record>
     <Record>
       <Key>TextboxEnterDescription</Key>
-      <Value>输入说明. </Value>
+      <Value>输入说明</Value>
     </Record>
     <Record>
       <Key>TextboxEnterSeed</Key>
-      <Value>输入种子. </Value>
+      <Value>输入种子</Value>
     </Record>
     <Record>
       <Key>SettingsDisableParticlesOnMenu</Key>
@@ -11904,7 +11904,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>NewWorldMarsShortDesc</Key>
-      <Value>一颗红色的荒漠星球——火星. 它地形起伏多变, 有些高山甚至直指天空. 这颗星球还拥有寒冷且无法呼吸的大气层, 但它或许并非一无是处. </Value>
+      <Value>一颗红色的荒漠星球——火星. 它地形起伏多变, 有些高山甚至直指天空. 这颗星球还拥有寒冷且无法呼吸的大气层, 但它或许并非一无是处</Value>
     </Record>
     <Record>
       <Key>NewWorldGrandCanyonShortDesc</Key>
@@ -13074,7 +13074,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ButtonFolderBrowse</Key>
-      <Value>浏览. </Value>
+      <Value>浏览</Value>
     </Record>
     <Record>
       <Key>AppearanceTitleSpecies</Key>
@@ -14980,21 +14980,21 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>Asura</Key>
-      <Value>AsuraBiomedia</Value>
+      <Value>Asura Biomedia</Value>
     </Record>
     <Record>
       <Key>AsuraDesc</Key>
-      <Value>AsuraBiomedia由孟买万亿富豪阿山·古尔瓦贾创立于22世纪初叶. 虽以"生物科技"为名, 该企业对这一概念的诠释始终保持着惊人的延展性——其业务版图横跨制药工业与宠物食品两大极端领域. 
+      <Value>Asura Biomedia由孟买万亿富豪阿山·古尔瓦贾创立于22世纪初叶. 虽以"生物科技"为名, 该企业对这一概念的诠释始终保持着惊人的延展性——其业务版图横跨制药工业与宠物食品两大极端领域.
 
 古尔瓦贾在生物工程领域的深厚积淀, 使公司刚刚建立便跻身生命科学技术的尖端. 其发展轨迹完美践行创始人的战略蓝图：通过迅速而坚定的并购, 迅速吞并一切规模较小的竞争对手. 
 
 至世纪中叶, 阿修罗的野心已膨胀至统摄全球医疗体系. 通过垂直整合医院网络、基层诊疗、医疗器械供应链、制药工业、药品零售、临终关怀乃至殡葬服务, 这个巨物如今已成为地球上最大的医疗保健巨头. 
 
-2150年, 阿修罗的商业哲学已凝练成一句具有争议性的宣传语——"吾即汝身"（We'reinyou）, 完美诠释了这个无孔不入的生命帝国</Value>
+2150年, 阿修罗的商业哲学已凝练成一句具有争议性的宣传语——"吾即汝身"（We're in you）, 完美诠释了这个无孔不入的生命帝国</Value>
     </Record>
     <Record>
       <Key>CHAC</Key>
-      <Value>CHAC军械</Value>
+      <Value>CHAC</Value>
     </Record>
     <Record>
       <Key>CHACDesc</Key>
@@ -15076,11 +15076,11 @@ Recurso极少涉及非法小行星迁移、违反安全规定和商业侵权行�
     </Record>
     <Record>
       <Key>TK</Key>
-      <Value>TKSystems</Value>
+      <Value>TK Systems</Value>
     </Record>
     <Record>
       <Key>TKDesc</Key>
-      <Value>TKSystems动能系统公司最初是一家专门生产蛮力型高功率武器的国防承包商, 通过和平时期的大规模战略转型, 最终成为非洲联盟的高速货物运输系统设计商. 
+      <Value>TK Systems动能系统公司最初是一家专门生产蛮力型高功率武器的国防承包商, 通过和平时期的大规模战略转型, 最终成为非洲联盟的高速货物运输系统设计商.
 
 如今凭借滑道网络设计方案及组件制造, 乘着21世纪后期非中合作伙伴关系的东风, TKSystems在星际市场占据重要席位. 公司总部设在达累斯萨拉姆的Kigamboni区, 常与 {LINK:CHAC;CHAC} 等机构缔结研发联盟, 其产品因此表现出显著共性. 
 
@@ -15107,7 +15107,7 @@ Recurso极少涉及非法小行星迁移、违反安全规定和商业侵权行�
     <Record>
       <Key>StationeersDesc</Key>
       <Value>22世纪初, 地球刚刚从一场巨大灾难中艰难的走出来. 资源枯竭, 人口锐减, 重建成为时代的主旋律. 
-由 {LINK:ODA;OffworldDevelopmentAgency} (ODA)于公元2095年发起的Stationeers计划, 致力于实现一个核心理念：指引人类继续仰望星空. 
+由 {LINK:ODA;Offworld Development Agency} (ODA)于公元2095年发起的Stationeers计划, 致力于实现一个核心理念：指引人类继续仰望星空.
 
 Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅配备有限的装备和工具, 接受用更少资源做更多事情的专业训练. 通过巧妙利用环境条件, 他们的使命是以传统太空计划极小部分的成本, 为太空人类提供基础设施支撑. 
 
@@ -15475,7 +15475,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>StationpediaNoResults</Key>
-      <Value>无结果. </Value>
+      <Value>无结果</Value>
     </Record>
     <Record>
       <Key>HydrationSPDAKey</Key>
@@ -18499,7 +18499,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>SaveAsButtonGameString</Key>
-      <Value>另存为. </Value>
+      <Value>另存为</Value>
     </Record>
     <Record>
       <Key>InputPasswordTitle</Key>
@@ -19440,7 +19440,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ComposterNotEnoughProcessItems</Key>
-      <Value>没有足够肥料进行处理. </Value>
+      <Value>没有足够肥料进行处理</Value>
     </Record>
     <Record>
       <Key>ComposterItemsLeftToProcess</Key>
@@ -19448,15 +19448,15 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ComposterNotEnoughWater</Key>
-      <Value>没有足够的水. </Value>
+      <Value>没有足够的水</Value>
     </Record>
     <Record>
       <Key>ComposterCurrentlyProcessing</Key>
-      <Value>正在处理. </Value>
+      <Value>正在处理</Value>
     </Record>
     <Record>
       <Key>ComposterCurrentlyNotProcessing</Key>
-      <Value>尚未处理. </Value>
+      <Value>尚未处理</Value>
     </Record>
     <Record>
       <Key>Processing</Key>
