@@ -8073,42 +8073,42 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>StructureGasUmbilicalFemale</Key>
-      <Value>缆带插座(气体)</Value>
+      <Value>脐带缆插座(气体)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasUmbilicalFemaleSide</Key>
-      <Value>缆带转角插座(气体)</Value>
+      <Value>脐带缆转角插座(气体)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasUmbilicalMale</Key>
-      <Value>缆带插头(气体)</Value>
+      <Value>脐带缆插头(气体)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidUmbilicalFemale</Key>
-      <Value>缆带插座(液体)</Value>
+      <Value>脐带缆插座(液体)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidUmbilicalFemaleSide</Key>
-      <Value>缆带转角插座(液体)</Value>
+      <Value>脐带缆转角插座(液体)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidUmbilicalMale</Key>
-      <Value>缆带插头(液体)</Value>
+      <Value>脐带缆插头(液体)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteUmbilicalMale</Key>
-      <Value>缆带插头(滑槽)</Value>
+      <Value>脐带缆插头(滑槽)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteUmbilicalFemaleSide</Key>
-      <Value>缆带转角插座(滑槽)</Value>
+      <Value>脐带缆转角插座(滑槽)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -8118,12 +8118,12 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerUmbilicalFemaleSide</Key>
-      <Value>缆带转角插座(电力)</Value>
+      <Value>脐带缆转角插座(电力)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerUmbilicalMale</Key>
-      <Value>缆带插头(电力)</Value>
+      <Value>脐带缆插头(电力)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -8208,12 +8208,12 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteUmbilicalFemale</Key>
-      <Value>缆带插座(滑槽)</Value>
+      <Value>脐带缆插座(滑槽)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerUmbilicalFemale</Key>
-      <Value>缆带插座(电力)</Value>
+      <Value>脐带缆插座(电力)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -21168,7 +21168,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>PlacementIsNotUmbilicalConnector</Key>
-      <Value>只有另一个&lt;color=yellow&gt;缆带装置&lt;/color&gt;可以从这一侧连接到 {LOCAL:Device}</Value>
+      <Value>只有另一个&lt;color=yellow&gt;脐带缆装置&lt;/color&gt;可以从这一侧连接到 {LOCAL:Device}</Value>
     </Record>
     <Record>
       <Key>CannotDeconstructLaunchMount</Key>
@@ -21432,7 +21432,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>PlacementConnectingNeedsFuselage</Key>
-      <Value>连接&lt;color=green&gt;火箭&lt;/color&gt;的部件必须位于&lt;color=green&gt;机身&lt;/color&gt;内或通过&lt;color=green&gt;缆带&lt;/color&gt;连接</Value>
+      <Value>连接&lt;color=green&gt;火箭&lt;/color&gt;的部件必须位于&lt;color=green&gt;机身&lt;/color&gt;内或通过&lt;color=green&gt;脐带缆&lt;/color&gt;连接</Value>
     </Record>
     <Record>
       <Key>MachinePressureDifferential</Key>
