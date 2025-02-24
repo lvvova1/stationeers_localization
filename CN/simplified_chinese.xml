@@ -1758,7 +1758,7 @@
     <RecordThing>
       <Key>ItemUraniumOre</Key>
       <Value>铀矿石</Value>
-      <Description>1934年费米发现铀受中子轰击产生β射线与新物质, 该过程被命名为"核裂变", 带来了廉价能源、冷战与无数伤亡. 虽在太阳系中较常见,  {LINK:Stationeers;Stationeers} 仍需对其保持警惕</Description>
+      <Description>1934年费米发现铀受中子轰击产生贝塔射线与新物质, 该过程被命名为"核裂变", 带来了廉价能源、冷战与无数伤亡. 虽在太阳系中较常见,  {LINK:Stationeers;Stationeers} 仍需对其保持警惕</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWallCooler</Key>
