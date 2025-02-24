@@ -1087,7 +1087,7 @@
     <RecordThing>
       <Key>ItemCoalOre</Key>
       <Value>煤炭</Value>
-      <Description>若没有平凡可燃的煤炭, 人类便无法进入太空. 可用作 {THING:SolidFuelGenerator} 的燃料, 或是在 {THING:StructureFurnace} 中熔炼 {LINK:AlloysPage;合金} , 也可以在 {THING:ApplianceReagentProcessor} 中制作 {THING:ItemSprayCanBlack}</Description>
+      <Description>若没有平凡可燃的煤炭, 人类便无法进入太空. 可用作 {THING:StructureSolidFuelGenerator} 的燃料, 或是在 {THING:StructureFurnace} 中熔炼 {LINK:AlloysPage;合金} , 也可以在 {THING:ApplianceReagentProcessor} 中制作 {THING:ItemSprayCanBlack}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCompositeFloorGrating</Key>
