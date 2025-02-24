@@ -20638,6 +20638,10 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
       <Value>&lt;color=red&gt;压力过低&lt;/color&gt;</Value>
     </Record>
     <Record>
+      <Key>InputVolumeRatio</Key>
+      <Value>输入容积比例&lt;color=green&gt; {0} %&lt;/color&gt;</Value>
+    </Record>
+    <Record>
       <Key>OutputVolumeRatio</Key>
       <Value>输出容积比例&lt;color=green&gt; {0} %&lt;/color&gt;</Value>
     </Record>
