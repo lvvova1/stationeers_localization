@@ -383,7 +383,7 @@
     </Record>
     <Record>
       <Key>Close</Key>
-      <Value>关闭</Value>
+      <Value>关上</Value>
     </Record>
     <Record>
       <Key>Opened</Key>
@@ -395,11 +395,11 @@
     </Record>
     <Record>
       <Key>Off</Key>
-      <Value>关</Value>
+      <Value>停止</Value>
     </Record>
     <Record>
       <Key>On</Key>
-      <Value>开</Value>
+      <Value>启动</Value>
     </Record>
     <Record>
       <Key>Powered</Key>
@@ -411,15 +411,15 @@
     </Record>
     <Record>
       <Key>False</Key>
-      <Value>False</Value>
+      <Value>假</Value>
     </Record>
     <Record>
       <Key>True</Key>
-      <Value>True</Value>
+      <Value>真</Value>
     </Record>
     <Record>
       <Key>Construct</Key>
-      <Value>搭建</Value>
+      <Value>建造</Value>
     </Record>
     <Record>
       <Key>Deconstruct</Key>
@@ -427,7 +427,7 @@
     </Record>
     <Record>
       <Key>Disconnect</Key>
-      <Value>断开</Value>
+      <Value>分离</Value>
     </Record>
     <Record>
       <Key>Connect</Key>
@@ -6287,13 +6287,13 @@ AIMEe有7种模式：
 
 大气成分-不同气体会改变腐烂速度. 混合大气中按气体比例计算衰减系数. 各气体全局倍率如下：
 
- {GAS:Oxygen} x1. 3
- {GAS:Nitrogen} x0. 6
- {GAS:CarbonDioxide} x0. 8
- {GAS:Volatiles} x1
- {GAS:Pollutant} x3
- {GAS:NitrousOxide} x1. 5
- {GAS:Steam} x2
+ {GAS:Oxygen} ×1. 3
+ {GAS:Nitrogen} ×0. 6
+ {GAS:CarbonDioxide} ×0. 8
+ {GAS:Volatiles} ×1
+ {GAS:Pollutant} ×3
+ {GAS:NitrousOxide} ×1. 5
+ {GAS:Steam} ×2
 真空（参见上文气压说明）</Description>
     </RecordThing>
     <RecordThing>
@@ -13258,7 +13258,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ButtonDepart</Key>
-      <Value>分离</Value>
+      <Value>贸易商离去</Value>
     </Record>
     <Record>
       <Key>ButtonAbandonRocket</Key>
@@ -13514,7 +13514,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserPressureTitle</Key>
-      <Value>压力</Value>
+      <Value>压强</Value>
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserTemperatureTitle</Key>
@@ -13530,7 +13530,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserRadiatedTitle</Key>
-      <Value>辐射</Value>
+      <Value>辐射散热</Value>
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserTitle</Key>
@@ -14646,7 +14646,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>PlantWillCreate</Key>
-      <Value>这将创建 {2}  {0}  {3} x {1}</Value>
+      <Value>这将创建 {2}  {0}  {3} × {1}</Value>
     </Record>
     <Record>
       <Key>PlantGrowing</Key>
@@ -17556,11 +17556,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RightAlt</Key>
-      <Value>RAlt</Value>
+      <Value>右Alt</Value>
     </Record>
     <Record>
       <Key>LeftAlt</Key>
-      <Value>LAlt</Value>
+      <Value>左Alt</Value>
     </Record>
     <Record>
       <Key>RightApple</Key>
@@ -18471,7 +18471,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>FurnaceCurrentlySmelting</Key>
-      <Value>正在熔炼 {LOCAL:OreName} x&lt;color=yellow&gt; {LOCAL:Quantity} &lt;/color&gt;</Value>
+      <Value>正在熔炼 {LOCAL:OreName} ×&lt;color=yellow&gt; {LOCAL:Quantity} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>FurnaceNothingToSmelt</Key>
@@ -19276,7 +19276,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>StackerContainsQuantity</Key>
-      <Value>含有 {LOCAL:Quantity} x {LOCAL:Item}</Value>
+      <Value>含有 {LOCAL:Item} × {LOCAL:Quantity}</Value>
     </Record>
     <Record>
       <Key>StackableNotEnoughInStackOf</Key>
@@ -19516,11 +19516,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>DeviceLocked</Key>
-      <Value>设备已锁定, 无法操作</Value>
+      <Value>设备锁定, 无法操作</Value>
     </Record>
     <Record>
       <Key>DeviceBroken</Key>
-      <Value>设备完全损坏, 无法操作</Value>
+      <Value>设备损坏, 无法操作</Value>
     </Record>
     <Record>
       <Key>DeviceEmpty</Key>
@@ -19684,7 +19684,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>UseLabelerToSet</Key>
-      <Value>使用&lt;color=yellow&gt;贴标机&lt;/color&gt;直接输入一个值</Value>
+      <Value>使用&lt;color=yellow&gt;贴标机&lt;/color&gt;直接输入值</Value>
     </Record>
     <Record>
       <Key>PlantSamplerNoSample</Key>
@@ -20000,15 +20000,18 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TransactionFailCreditCard</Key>
-      <Value>无法完成交易. 没有找到信用卡. 信用卡必须拿在手中或是位于制服的信用卡槽位中</Value>
+      <Value>无法完成交易. 没有找到信用卡.
+信用卡必须拿在手中或是位于制服的信用卡槽位中</Value>
     </Record>
     <Record>
       <Key>TransactionFailInsufficientAvailable</Key>
-      <Value>无法完成交易. 你没有那么多物品可供出售</Value>
+      <Value>无法完成交易.
+你没有那么多物品可供出售</Value>
     </Record>
     <Record>
       <Key>TransactionFailVendingMachine</Key>
-      <Value>无法完成交易. 没有找到智能货柜</Value>
+      <Value>无法完成交易.
+没有找到智能货柜</Value>
     </Record>
     <Record>
       <Key>TransactionFailInsufficientStock</Key>
@@ -20404,7 +20407,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>QuantityOfGasTypeInMix</Key>
-      <Value>&lt;color=yellow&gt; {LOCAL:Quantity} &lt;/color&gt;x {LOCAL:GasType}</Value>
+      <Value>{LOCAL:GasType} × &lt;color=yellow&gt; {LOCAL:Quantity} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeWorldLog</Key>
@@ -21144,7 +21147,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ItemInSlot</Key>
-      <Value>一组&lt;color=yellow&gt; {LOCAL:StackSize} &lt;/color&gt; x {LOCAL:Thing}</Value>
+      <Value>一组&lt;color=yellow&gt; {LOCAL:StackSize} &lt;/color&gt; × {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresFrame</Key>
@@ -21256,15 +21259,15 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ProduceQuantityOfResource</Key>
-      <Value>将生产 {LOCAL:Quantity} 单位 {LOCAL:Resource} 的 {LOCAL:Thing}</Value>
+      <Value>将生产 {LOCAL:Quantity} 的 {LOCAL:Resource} {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ProduceResource</Key>
-      <Value>将生产 {LOCAL:Size} 的 {LOCAL:Resource}</Value>
+      <Value>将生产 {LOCAL:Resource} × {LOCAL:Size}</Value>
     </Record>
     <Record>
       <Key>ProduceAnotherResource</Key>
-      <Value>以及 {LOCAL:Size} 的 {LOCAL:Resource}</Value>
+      <Value>以及 {LOCAL:Resource} × {LOCAL:Size}</Value>
     </Record>
     <Record>
       <Key>TooltipDeviceUnpowered</Key>
@@ -21340,7 +21343,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TradeItemStackChild</Key>
-      <Value>包含 {LOCAL:Quantity} 个 {LOCAL:Item}</Value>
+      <Value>包含 {LOCAL:Quantity} × {LOCAL:Item}</Value>
     </Record>
     <Record>
       <Key>TradeItemNutrition</Key>
@@ -21452,7 +21455,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>FlowRateStatus</Key>
-      <Value>流速为&lt;color= {LOCAL:color} &gt; {LOCAL:flowRate} &lt;/color&gt;</Value>
+      <Value>流速为&lt;color={LOCAL:color}&gt; {LOCAL:flowRate} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>IncreasePipeVolumePressure</Key>
