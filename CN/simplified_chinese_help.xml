@@ -654,7 +654,7 @@ Stationeer最终会感到饥饿, 但并非所有食物都能提供同等效果. 
 ·氧气瓶（x1）——装入含可呼吸混合气体（如 {GAS:Oxygen} 或 {GAS:Nitrogen} / {GAS:Oxygen} 35/65比例）的罐体
 ·废气瓶（x1）——收集过滤器排出的气体
 ·维生系统（x1）——装载为温控、照明供电的电池
-· {SLOT:GasFilter} （x3）——人类至少需安装 {SLOT:ItemGasFilterCarbonDioxide} （ {THING:ItemHardSuit} 有4个过滤槽）
+· {SLOT:GasFilter} （x3）——人类至少需安装 {THING:ItemGasFilterCarbonDioxide} （ {THING:ItemHardSuit} 有4个过滤槽）
 ·IC芯片槽——仅 {THING:ItemHardSuit} 具备
 
 压力设置：建议50-100kPa（0. 5-1个地球大气压）. 游戏内人类可承受~250kPa, 极限~300kPa. 
