@@ -30,7 +30,6 @@
 	<String>太空员计划由地外开发计划署(ODA)设立，旨在支持太阳系及更远星域的探索。</String>
 	<String>注意太空服警告提示。它们有助于避免灾难。</String>
 	<String>{THING:ItemHardBackpack}能装载更多物品，但装不下你！</String>
-	<String>太空服损伤越严重，工作效率越低。</String>
 	<String>若空间站氛围压抑，可用{THING:StructureKlaxon}播放音乐提振心情，或用逻辑系统自制采样器。</String>
 	<String>{THING:StructureHarvie}可实现植物种植、生长和收获的全自动化。</String>
 	<String>扩展工具提示可在设置菜单中开启/关闭。</String>
