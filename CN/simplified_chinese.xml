@@ -1265,7 +1265,7 @@
     <RecordThing>
       <Key>ItemGlassSheets</Key>
       <Value>玻璃板</Value>
-      <Description>基础建材, 由 {REAGENT:Silicon} 制成. 通过 {THING:StructureAutolathe} 加工, 用于制造 {THING:StructureSolarPanel;太阳能板} 、 {THING:StructureAirlock;气闸} 等多种结构</Description>
+      <Description>基础建材, 由 {REAGENT:Silicon} 制成. 通过 {THING:StructureAutolathe} 加工, 用于制造 {THING:StructureSolarPanel} 、 {THING:StructureAirlock} 等多种结构</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperIngot</Key>
