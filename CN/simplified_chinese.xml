@@ -1224,32 +1224,32 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
-      <Value>次级滤芯(二氧化碳)</Value>
+      <Value>滤芯(二氧化碳)</Value>
       <Description>鉴于人类持续呼出 {GAS:CarbonDioxide} 的特性, 所有 {LINK:Stationeers;Stationeer} 的标准装备包（SDK）都配备两枚 {LINK:Sinotai;Sinotai} 出品 {GAS:CarbonDioxide}  {SLOT:GasFilter} . 这些滤芯能够将 {GAS:CarbonDioxide} 导入太空服的废料罐 {THING:ItemGasCanisterEmpty} , 同时也是 {THING:DynamicScrubber} 和 {THING:StructureFiltration} 的核心组件. 另有 {THING:ItemGasFilterCarbonDioxideM} 和 {THING:ItemGasFilterCarbonDioxideL} 可选</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutants</Key>
-      <Value>次级滤芯(污染物)</Value>
+      <Value>滤芯(污染物)</Value>
       <Description>可以用于捕获熔炉 {THING:StructureFurnace} 或电弧炉 {THING:StructureArcFurnace} 排放的废气. 在 {THING:ItemDynamicScrubber} 添加 {LINK:Sinotai;新台} 设计的 {GAS:Pollutant} 滤芯可分离该气体, 接入管道网络后利用其优异冷却特性驱动 {THING:StructureWallCooler} . 但请切勿吸入</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogen</Key>
-      <Value>次级滤芯(氮气)</Value>
+      <Value>滤芯(氮气)</Value>
       <Description>用于捕获各类气体以便处理或再利用.  {GAS:Nitrogen} 是熔炼矿石（尤其是 {THING:ItemNitrice} ）的副产品, 可与 {GAS:Oxygen} 混合制造可呼吸且显著降低可燃性的大气环境</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygen</Key>
-      <Value>次级滤芯(氧气)</Value>
+      <Value>滤芯(氧气)</Value>
       <Description>{LINK:Sinotai;Sinotai} 垄断了滤芯设计市场. 其专利模板易于打印且能高效捕获气体, 便于处置或再利用.  {GAS:Oxygen} 是熔炼矿石的常见副产品, 但需通过本滤芯及 {THING:ItemDynamicScrubber} 等设备过滤 {GAS:Nitrogen} 等杂质</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
-      <Value>次级滤芯(燃气)</Value>
+      <Value>滤芯(燃气)</Value>
       <Description>用于捕获各类气体以便处理或再利用.  {GAS:Volatiles} 由 {THING:ItemVolatiles} 受热产生, 可收集后与 {GAS:Oxygen} 混合制造燃料, 或在 {THING:StructureFurnace} 中用来熔炼矿石以生产 {LINK:IngotPage;合金}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
-      <Value>次级滤芯(水)</Value>
+      <Value>滤芯(水)</Value>
       <Description>{LINK:Sinotai;新台} 滤芯用于捕获各类气体以便处置或再利用.  {GAS:Water} 可通过过滤熔炼后的 {THING:ItemIce} 获取</Description>
     </RecordThing>
     <RecordThing>
@@ -4079,7 +4079,7 @@ Output=1导出内部物品及最终主物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxide</Key>
-      <Value>次级滤芯(一氧化二氮)</Value>
+      <Value>滤芯(一氧化二氮)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideL</Key>
