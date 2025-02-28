@@ -463,11 +463,11 @@
     </Record>
     <Record>
       <Key>Up</Key>
-      <Value>上升</Value>
+      <Value>上</Value>
     </Record>
     <Record>
       <Key>Down</Key>
-      <Value>下降</Value>
+      <Value>下</Value>
     </Record>
     <Record>
       <Key>CallElevator</Key>
