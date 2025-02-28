@@ -17056,7 +17056,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
   <Keys>
     <Record>
       <Key>None</Key>
-      <Value>None</Value>
+      <Value>无</Value>
     </Record>
     <Record>
       <Key>Backspace</Key>
@@ -20831,11 +20831,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CanConnectTo</Key>
-      <Value>提供 {LOCAL:NetworkType} 连接</Value>
+      <Value>可连接 {LOCAL:NetworkType}</Value>
     </Record>
     <Record>
       <Key>ConnectionForThing</Key>
-      <Value>可连接 {LOCAL:ParentThing}</Value>
+      <Value>{LOCAL:ParentThing} 的接口</Value>
     </Record>
     <Record>
       <Key>ConnectionToThing</Key>
@@ -20843,7 +20843,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ThingIsHeating</Key>
-      <Value>{LOCAL:Thing} 正在&lt;color=green&gt;加热&lt;/color&gt;空气至 {LOCAL:Temperature}</Value>
+      <Value>{LOCAL:Thing} 正在&lt;color=green&gt;加热&lt;/color&gt;气体至 {LOCAL:Temperature}</Value>
     </Record>
     <Record>
       <Key>ScrubberVentOpen</Key>
