@@ -14714,7 +14714,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>DeconstructToolTipText</Key>
-      <Value>使用 {0} 拆除</Value>
+      <Value>使用 {0} 进行拆除</Value>
     </Record>
     <Record>
       <Key>SettingsDoubleClickDelay</Key>
@@ -19368,7 +19368,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ThingCanNotBeDraggedWithSomethingIn</Key>
-      <Value>{LOCAL:Thing} 中存在东西, 无法拖动</Value>
+      <Value>{LOCAL:Thing} 拿着东西, 无法拖动</Value>
     </Record>
     <Record>
       <Key>ThingAlreadyDraggedBy</Key>
@@ -22207,7 +22207,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>UpgradeConstructionAction</Key>
-      <Value>升级至&lt;color=green&gt; {LOCAL:Prefab} &lt;/color&gt;</Value>
+      <Value>升级为&lt;color=green&gt; {LOCAL:Prefab} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>EntityCantEnterNonEntitySlot</Key>
