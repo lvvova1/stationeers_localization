@@ -19716,7 +19716,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>PlantThrivingMature</Key>
-      <Value>{LOCAL:Plant} 正生长状况非常好, 正在成熟</Value>
+      <Value>{LOCAL:Plant} 的状况非常好, 正在成熟</Value>
     </Record>
     <Record>
       <Key>PlantNotGrowingSeed</Key>
@@ -19736,7 +19736,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>PlantThrivingSeed</Key>
-      <Value>{LOCAL:Plant} 正生长状况非常好, 正在结种</Value>
+      <Value>{LOCAL:Plant} 的生长状况非常好, 正在结种</Value>
     </Record>
     <Record>
       <Key>PlantNotEnoughLight</Key>
@@ -20435,11 +20435,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>LightDeficient</Key>
-      <Value>光照时间不足</Value>
+      <Value>光照时间</Value>
     </Record>
     <Record>
       <Key>DarknessDeficient</Key>
-      <Value>黑暗时间不足</Value>
+      <Value>黑暗时间</Value>
     </Record>
     <Record>
       <Key>NoDeficiency</Key>
