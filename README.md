@@ -6,7 +6,7 @@ EN: original game xml file
 CN: simplified chinese localization xml file  
 
 Useage:  
-Download the "CN\ folder, and copy all the files to the game folder "Stationeers\rocketstation_Data\StreamingAssets\Language\" and overwrite.  
+Download the "CN" folder, and copy all the files to the game folder "Stationeers\rocketstation_Data\StreamingAssets\Language\" and overwrite.  
 
 
 Original english xml file from Game Version: Beta 24409  
