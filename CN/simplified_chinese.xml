@@ -6231,22 +6231,22 @@ AIMEe有7种模式：
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeBass</Key>
-      <Value>音色卡贝斯</Value>
+      <Value>音色卡(贝斯)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeDrums</Key>
-      <Value>音色卡鼓</Value>
+      <Value>音色卡(鼓)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeLeads</Key>
-      <Value>音色卡电音</Value>
+      <Value>音色卡(电音)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeSynth</Key>
-      <Value>音色卡合成</Value>
+      <Value>音色卡(合成)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
