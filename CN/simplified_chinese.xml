@@ -20675,7 +20675,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ProcessedMoles</Key>
-      <Value>处理速度: {LOCAL:Moles} 摩尔</Value>
+      <Value>处理速度: {LOCAL:Moles}</Value>
     </Record>
     <Record>
       <Key>PressureDifferential</Key>
