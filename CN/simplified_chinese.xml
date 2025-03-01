@@ -7926,49 +7926,49 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructureSmallDirectHeatExchangeLiquidtoGas</Key>
       <Value>小型间板式换热器(气体+液体)</Value>
-      <Description>通过直接接触均衡两个输入管道网络的温度</Description>
+      <Description>直接均衡两个输入管道网络的温度</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSmallDirectHeatExchangeGastoGas</Key>
       <Value>小型间板式换热器(气体+气体)</Value>
-      <Description>通过直接接触均衡两个输入管道网络的温度</Description>
+      <Description>直接均衡两个输入管道网络的温度</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSmallDirectHeatExchangeLiquidtoLiquid</Key>
       <Value>小型间板式换热器(液体+液体)</Value>
-      <Description>通过直接接触均衡两个输入管道网络的温度</Description>
+      <Description>直接均衡两个输入管道网络的温度</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeDirectHeatExchangeGastoGas</Key>
       <Value>大型间板式换热器(气体+气体)</Value>
-      <Description>通过直接接触均衡两个输入管道网络的温度</Description>
+      <Description>直接均衡两个输入管道网络的温度</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeDirectHeatExchangeGastoLiquid</Key>
       <Value>大型间板式换热器(气体+液体)</Value>
-      <Description>通过直接接触均衡两个输入管道网络的温度</Description>
+      <Description>直接均衡两个输入管道网络的温度</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeDirectHeatExchangeLiquidtoLiquid</Key>
       <Value>大型间板式换热器(液体+液体)</Value>
-      <Description>通过直接接触均衡两个输入管道网络的温度</Description>
+      <Description>直接均衡两个输入管道网络的温度</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassthroughHeatExchangerLiquidToLiquid</Key>
       <Value>逆流式换热器(液体+液体)</Value>
-      <Description>通过调节输出端泵或调节器的压力降并控制输入压力, 实现两个逆向流动管道网络之间的有效热交换. 
+      <Description>通过调节输出端泵或调节器的压力降并控制输入压力, 实现两个逆向流动的管道网络之间的有效热交换.
 平衡两个输入端的流量是获得良好热交换效果的关键</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassthroughHeatExchangerGasToLiquid</Key>
       <Value>逆流式换热器(气体+液体)</Value>
-      <Description>通过调节输出端泵或调节器的压力降并控制输入压力, 实现两个逆向流动管道网络之间的有效热交换. 
+      <Description>通过调节输出端泵或调节器的压力降并控制输入压力, 实现两个逆向流动的管道网络之间的有效热交换.
 平衡两个输入端的流量是获得良好热交换效果的关键</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassthroughHeatExchangerGasToGas</Key>
       <Value>逆流式换热器(气体+气体)</Value>
-      <Description>通过调节输出端泵或调节器的压力降并控制输入压力, 实现两个逆向流动管道网络之间的有效热交换. 
+      <Description>通过调节输出端泵或调节器的压力降并控制输入压力, 实现两个逆向流动的管道网络之间的有效热交换.
 平衡两个输入端的流量是获得良好热交换效果的关键</Description>
     </RecordThing>
     <RecordThing>
