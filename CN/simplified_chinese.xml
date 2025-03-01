@@ -1599,7 +1599,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPowerConnector</Key>
-      <Value>(套件)便携式发电机连接件</Value>
+      <Value>(套件)便携式发电机连接器</Value>
       <Description>该套件能够建造一个 {THING:StructurePowerConnector}</Description>
     </RecordThing>
     <RecordThing>
@@ -15948,7 +15948,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>SetDestinationButton</Key>
-      <Value>设置目标</Value>
+      <Value>设为目标</Value>
     </Record>
     <Record>
       <Key>ButtonLocation</Key>
