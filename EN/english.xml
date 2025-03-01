@@ -10698,6 +10698,34 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Terrain Test - Grand Canyon</Value>
     </Record>
     <Record>
+      <Key>64Test</Key>
+      <Value>Terrain Test - 64M</Value>
+    </Record>
+    <Record>
+      <Key>128Test</Key>
+      <Value>Terrain Test - 128M</Value>
+    </Record>
+    <Record>
+      <Key>512Test</Key>
+      <Value>Terrain Test - 512M</Value>
+    </Record>
+    <Record>
+      <Key>1024Test</Key>
+      <Value>Terrain Test - 1024M</Value>
+    </Record>
+    <Record>
+      <Key>4096Test</Key>
+      <Value>Terrain Test - 4096M</Value>
+    </Record>
+    <Record>
+      <Key>8192Test</Key>
+      <Value>Terrain Test - 8192M</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldArea4KMars</Key>
+      <Value>Terrain Test - 4K Mars</Value>
+    </Record>
+    <Record>
       <Key>NewWorldAreaLowEarthOrbit</Key>
       <Value>Low Earth Orbit</Value>
     </Record>
@@ -11995,6 +12023,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>NewWorldGrandCanyonShortDesc</Key>
       <Value>For testing new terrain system</Value>
+    </Record>
+    <Record>
+      <Key>NewWorld4KTerrainDesc</Key>
+      <Value>4K testing Map for new terrain system</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
