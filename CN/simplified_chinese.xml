@@ -4044,12 +4044,12 @@ Output=1导出内部物品及最终主物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicCircuit</Key>
-      <Value>(套件)IC外壳</Value>
+      <Value>(套件)IC封装</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureCircuitHousing</Key>
-      <Value>IC外壳</Value>
+      <Value>IC封装</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemIntegratedCircuit10</Key>
