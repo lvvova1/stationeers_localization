@@ -51,7 +51,7 @@
     </RecordReagent>
     <RecordReagent>
       <Key>Hydrocarbon</Key>
-      <Value>焦炭</Value>
+      <Value>碳</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -2969,11 +2969,11 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     </RecordThing>
     <RecordThing>
       <Key>StructureSign1x1</Key>
-      <Value>标志1x1</Value>
+      <Value>标志1×1</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSign2x1</Key>
-      <Value>标志2x1</Value>
+      <Value>标志2×1</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED5Large</Key>
@@ -7376,7 +7376,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_2x2CenterPiece01</Key>
-      <Value>着陆场(2x2中心)</Value>
+      <Value>着陆场(2×2中心)</Value>
       <Description>推荐大型贸易商船, 支持构建带对称舱门的4x4/6x6着陆区</Description>
     </RecordThing>
     <RecordThing>
@@ -7471,7 +7471,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>ItemSolidFuel</Key>
-      <Value>固体燃料(焦炭)</Value>
+      <Value>固体燃料</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -10994,7 +10994,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>SaveLocationBroken</Key>
-      <Value>无法访问存档路径. 您是否使用了非法字符?请尝试在Setting. xml中修改存档路径</Value>
+      <Value>无法访问存档路径. 您是否使用了非法字符?请尝试在Setting.xml中修改存档路径</Value>
     </Record>
     <Record>
       <Key>PlayerIsConnecting</Key>
@@ -13646,7 +13646,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ElectronicReaderHydrocarbon</Key>
-      <Value>焦炭</Value>
+      <Value>碳</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderSilver</Key>
@@ -16172,11 +16172,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>WorldObjectiveBuildFramePlatform</Key>
-      <Value>建造一个2x3大小的框架平台</Value>
+      <Value>建造一个2×3大小的框架平台</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuild6Frames</Key>
-      <Value>使用 {THING:StructureFrameIron} 建造一个2x3大小的框架平台. 框架能够为大多数设备提供支撑</Value>
+      <Value>使用 {THING:StructureFrameIron} 建造一个2×3大小的框架平台. 框架能够为大多数设备提供支撑</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveWeldFrames</Key>

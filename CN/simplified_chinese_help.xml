@@ -388,7 +388,7 @@
     
     <StationpediaPage>
       <Key>LogicTypePageTemplate</Key>
-      <Text> {0}</Text>
+      <Text>{0}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
@@ -398,12 +398,12 @@
     
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
-      <Text> {0} .  {1} Type {2}</Text>
+      <Text> {0} . {1} Type {2}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>ThingStackTemplate</Key>
-      <Text> {0}</Text>
+      <Text>{0}</Text>
     </StationpediaPage>
 
     <StationpediaPage>
@@ -413,7 +413,7 @@
     
     <StationpediaPage>
       <Key>ThingNutritionTemplate</Key>
-      <Text> {0}</Text>
+      <Text>{0}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
@@ -424,22 +424,22 @@
 
     <StationpediaPage>
       <Key>DeviceTemplate</Key>
-      <Text> {0} W</Text>
+      <Text>{0} W</Text>
     </StationpediaPage>
 
     <StationpediaPage>
       <Key>GasCanisterTemplate</Key>
-      <Text> {0}</Text>
+      <Text>{0}</Text>
     </StationpediaPage>
 
     <StationpediaPage>
       <Key>AtmosphericsTemplate</Key>
-      <Text> {0}</Text>
+      <Text>{0}</Text>
     </StationpediaPage>
 
     <StationpediaPage>
       <Key>NutritionPageTemplate</Key>
-      <Text> {0}</Text>
+      <Text>{0}</Text>
     </StationpediaPage>
 
     <StationpediaPage>
