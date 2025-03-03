@@ -20591,7 +20591,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CondensationInGasPipe</Key>
-      <Value>管道中发生冷凝</Value>
+      <Value>管道中发生凝结</Value>
     </Record>
     <Record>
       <Key>LiquidInGasPipe</Key>
