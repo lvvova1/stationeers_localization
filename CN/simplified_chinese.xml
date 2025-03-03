@@ -21263,7 +21263,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ProduceQuantityOfResource</Key>
-      <Value>将生产 {LOCAL:Quantity} 的 {LOCAL:Resource} {LOCAL:Thing}</Value>
+      <Value>将生产 {LOCAL:Quantity} 单位 {LOCAL:Resource} {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ProduceResource</Key>
