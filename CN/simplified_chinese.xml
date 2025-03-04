@@ -3488,7 +3488,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPlating</Key>
-      <Value>填充墙(简易)</Value>
+      <Value>填充墙(镀层)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallSimple</Key>
