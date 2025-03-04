@@ -19700,7 +19700,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>PlantNotGrowingMature</Key>
-      <Value>{LOCAL:Plant} &lt;color=red&gt;没有生长&lt;/color&gt;, 并且永远无法成熟</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;停止生长&lt;/color&gt;, 并且永远无法成熟</Value>
     </Record>
     <Record>
       <Key>PlantBarelyGrowingMature</Key>
@@ -19716,11 +19716,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>PlantThrivingMature</Key>
-      <Value>{LOCAL:Plant} 的状况非常好, 正在成熟</Value>
+      <Value>{LOCAL:Plant} 的生长状况非常好, 正在成熟</Value>
     </Record>
     <Record>
       <Key>PlantNotGrowingSeed</Key>
-      <Value>{LOCAL:Plant} &lt;color=red&gt;没有生长&lt;/color&gt;, 并且永远无法结出种子</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;停止生长&lt;/color&gt;, 并且永远无法结出种子</Value>
     </Record>
     <Record>
       <Key>PlantBarelyGrowingSeed</Key>
