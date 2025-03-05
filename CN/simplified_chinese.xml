@@ -1999,7 +1999,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteJunction</Key>
-      <Value>滑槽(连接)</Value>
+      <Value>滑槽(合并)</Value>
       <Description>{LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难. 
 滑槽连接器是滑槽网络的核心组件, 可实现网络合并或分流. 配合编程的 {THING:StructureSorter} , 可将物品沿不同路径输送至配备 {LINK:ImportExportPage;物流进出口} 槽位的各类设备</Description>
     </RecordThing>
