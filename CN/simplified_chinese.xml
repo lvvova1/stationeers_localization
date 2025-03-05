@@ -18529,7 +18529,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>DeleteBackSavePrompt</Key>
       <Value>你确定吗?
-这将&lt;color=red&gt;删除 {LOCAL:WorldSaveName} &lt;/color&gt;所有的备份</Value>
+这将&lt;color=red&gt;删除备份 {LOCAL:WorldSaveName} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DaysPassedPlayerMessage</Key>
