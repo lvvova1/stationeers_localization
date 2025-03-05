@@ -940,7 +940,7 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterVolatiles</Key>
-      <Value>便携储罐(挥发性有机物)</Value>
+      <Value>便携储罐(可燃物)</Value>
       <Description>便携储罐用于储存气体. 补充时请使用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上, 再接入管道网络. 除非您钟爱复杂易燃的紧急状况, 否则请勿超过10MPa压力. 可将 {THING:ItemGasCanisterVolatiles} 放入罐体条纹区域进行分装. 也可用 {THING:ItemWrench} 将其安装到火箭上, 带它环游太阳系</Description>
     </RecordThing>
     <RecordThing>
@@ -1234,17 +1234,17 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogen</Key>
-      <Value>滤芯(氮气)</Value>
+      <Value>滤芯(氮)</Value>
       <Description>用于捕获各类气体以便处理或再利用.  {GAS:Nitrogen} 是熔炼矿石（尤其是 {THING:ItemNitrice} ）的副产品, 可与 {GAS:Oxygen} 混合制造可呼吸且显著降低可燃性的大气环境</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygen</Key>
-      <Value>滤芯(氧气)</Value>
+      <Value>滤芯(氧)</Value>
       <Description>{LINK:Sinotai;Sinotai} 垄断了滤芯设计市场. 其专利模板易于打印且能高效捕获气体, 便于处置或再利用.  {GAS:Oxygen} 是熔炼矿石的常见副产品, 但需通过本滤芯及 {THING:ItemDynamicScrubber} 等设备过滤 {GAS:Nitrogen} 等杂质</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
-      <Value>滤芯(燃气)</Value>
+      <Value>滤芯(可燃物)</Value>
       <Description>用于捕获各类气体以便处理或再利用.  {GAS:Volatiles} 由 {THING:ItemVolatiles} 受热产生, 可收集后与 {GAS:Oxygen} 混合制造燃料, 或在 {THING:StructureFurnace} 中用来熔炼矿石以生产 {LINK:IngotPage;合金}</Description>
     </RecordThing>
     <RecordThing>
@@ -6415,7 +6415,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureAdvancedComposter</Key>
       <Value>高级肥料制造机</Value>
-      <Description>高级堆肥机可将 {LINK:OrganicPage;食物} 、 {THING:DecayedFood} 或 {THING:ItemBiomass} 转化为 {THING:Fertilizer} . 需消耗 {GAS:Water} 与电力以加速肥料制造过程, 运作时释放氮气、挥发性气体及少量热量. 
+      <Description>高级堆肥机可将 {LINK:OrganicPage;食物} 、 {THING:DecayedFood} 或 {THING:ItemBiomass} 转化为 {THING:Fertilizer} . 需消耗 {GAS:Water} 与电力以加速肥料制造过程, 运作时释放氮气、可燃气体及少量热量.
 
  {HEADER:肥料成分} 
 肥料与原料按1:3比例产出, 效果由原料配比决定：
@@ -6447,7 +6447,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>PortableComposter</Key>
       <Value>便携式肥料制造机</Value>
-      <Description>便携式肥料制造机可将 {LINK:OrganicPage;食物} 、 {THING:DecayedFood} 或 {THING:ItemBiomass} 转化为 {THING:Fertilizer} . 需装入满 {THING:ItemLiquidCanisterEmpty} 与电池以加速肥料制造过程, 运作时释放氮气、挥发性气体及少量热量. 
+      <Description>便携式肥料制造机可将 {LINK:OrganicPage;食物} 、 {THING:DecayedFood} 或 {THING:ItemBiomass} 转化为 {THING:Fertilizer} . 需装入满 {THING:ItemLiquidCanisterEmpty} 与电池以加速肥料制造过程, 运作时释放氮气、可燃气体及少量热量.
  {HEADER:堆肥成分} 
 肥料与原料按1:3比例产出, 效果由原料配比决定：
 - {LINK:OrganicPage;食物} 最多提升两倍植物产量
