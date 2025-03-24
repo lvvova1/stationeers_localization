@@ -7346,7 +7346,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Key>StructureSmallSatelliteDish</Key>
       <Value>小型卫星天线</Value>
       <Description>小型通信单元, 可以用来和附近的贸易商船通信. 
-将其连接到含有 {THING:MotherboardComms} 主板的 {THING:StructureComputer} 、 {THING:Landingpad_CenterPiece01} 及 {THING:StructureVendingMachine} 后, 可与附近贸易商船通讯. 水平/垂直角度可通过直接操作或逻辑控制调整</Description>
+将其连接到含有 {THING:MotherboardComms} 的 {THING:StructureComputer} 、 {THING:Landingpad_CenterPiece01} 及 {THING:StructureVendingMachine} 后, 可与附近贸易商船通讯. 水平/垂直角度可通过直接操作或逻辑控制调整</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSmallSatelliteDish</Key>
@@ -7357,7 +7357,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Key>StructureLargeSatelliteDish</Key>
       <Value>大型卫星天线</Value>
       <Description>大型通信单元, 可以用来和附近的贸易商船通信. 
-将其连接到含有 {THING:MotherboardComms} 主板的 {THING:StructureComputer} 、 {THING:Landingpad_CenterPiece01} 及 {THING:StructureVendingMachine} 后, 可与附近贸易商船通讯. 水平/垂直角度可通过直接操作或逻辑控制调整</Description>
+将其连接到含有 {THING:MotherboardComms} 的 {THING:StructureComputer} 、 {THING:Landingpad_CenterPiece01} 及 {THING:StructureVendingMachine} 后, 可与附近贸易商船通讯. 水平/垂直角度可通过直接操作或逻辑控制调整</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLargeSatelliteDish</Key>
@@ -20823,7 +20823,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ContainsItemInSlotAtQuantity</Key>
-      <Value>{LOCAL:Slot} 含有 {LOCAL:QuantityState} 单位 {LOCAL:Item}</Value>
+      <Value>{LOCAL:Slot} 槽位包含 {LOCAL:QuantityState} {LOCAL:Item}</Value>
     </Record>
     <Record>
       <Key>ConnectionGeneric</Key>
