@@ -3552,7 +3552,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction4</Key>
-      <Value>管道(4路)</Value>
+      <Value>管道(4角)</Value>
       <Description>使用 {THING:ItemKitInsulatedPipe} 和 {THING:ItemWrench} 可将此管道升级为 {THING:StructureInsulatedPipeCrossJunction4}</Description>
     </RecordThing>
     <RecordThing>
