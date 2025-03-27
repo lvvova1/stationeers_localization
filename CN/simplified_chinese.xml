@@ -1534,7 +1534,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction3</Key>
-      <Value>(套件)管道(3路)</Value>
+      <Value>(套件)管道(3角)</Value>
       <Description>该套件能够建造一个 {THING:StructurePipeCrossJunction3}</Description>
     </RecordThing>
     <RecordThing>
@@ -2263,7 +2263,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction3</Key>
-      <Value>管道(3路)</Value>
+      <Value>管道(3角)</Value>
       <Description>使用 {THING:ItemKitInsulatedPipe} 和 {THING:ItemWrench} 可将此管道升级为 {THING:StructureInsulatedPipeCorner}</Description>
     </RecordThing>
     <RecordThing>
@@ -4610,12 +4610,12 @@ AIMEe有7种模式：
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction3</Key>
-      <Value>隔热管道(3路)</Value>
+      <Value>隔热管道(3角)</Value>
       <Description>隔热管道能够大幅降低内容物气体的热量流失</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction4</Key>
-      <Value>隔热管道(4路)</Value>
+      <Value>隔热管道(4角)</Value>
       <Description>隔热管道能够大幅降低内容物气体的热量流失</Description>
     </RecordThing>
     <RecordThing>
@@ -5865,12 +5865,12 @@ AIMEe有7种模式：
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction3</Key>
-      <Value>液体管道(3路)</Value>
+      <Value>液体管道(3角)</Value>
       <Description>你可以使用 {THING:ItemKitInsulatedLiquidPipe} 和 {THING:ItemWrench} 将其升级为 {THING:StructureInsulatedPipeLiquidCrossJunction3}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction4</Key>
-      <Value>液体管道(4路)</Value>
+      <Value>液体管道(4角)</Value>
       <Description>你可以使用 {THING:ItemKitInsulatedLiquidPipe} 和 {THING:ItemWrench} 将其升级为 {THING:StructureInsulatedPipeLiquidCrossJunction4}</Description>
     </RecordThing>
     <RecordThing>
@@ -6618,12 +6618,12 @@ AIMEe有7种模式：
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCrossJunction3</Key>
-      <Value>隔热液体管道(3路)</Value>
+      <Value>隔热液体管道(3角)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCrossJunction4</Key>
-      <Value>隔热液体管道(4路)</Value>
+      <Value>隔热液体管道(4角)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -6658,12 +6658,12 @@ AIMEe有7种模式：
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction4</Key>
-      <Value>隔热液体管道(3路)</Value>
+      <Value>隔热液体管道(3角)</Value>
       <Description>与外界热交换率极低的液体管道</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeInsulatedLiquidCrossJunction</Key>
-      <Value>隔热液体管道(4路)</Value>
+      <Value>隔热液体管道(4角)</Value>
       <Description>与外界热交换率极低的液体管道</Description>
     </RecordThing>
     <RecordThing>
@@ -7561,12 +7561,12 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCrossJunction3</Key>
-      <Value>小容量液体管道(3路)</Value>
+      <Value>小容量液体管道(3角)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCrossJunction4</Key>
-      <Value>小容量液体管道(4路)</Value>
+      <Value>小容量液体管道(4角)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -7606,12 +7606,12 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCrossJunction3</Key>
-      <Value>小容量管道(3路)</Value>
+      <Value>小容量管道(3角)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCrossJunction4</Key>
-      <Value>小容量管道(4路)</Value>
+      <Value>小容量管道(4角)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
