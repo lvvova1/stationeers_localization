@@ -3460,7 +3460,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     </RecordThing>
     <RecordThing>
       <Key>StructureWallGeometryTMirrored</Key>
-      <Value>几何墙(T型M)</Value>
+      <Value>几何墙(T型镜像)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallPaddedArch</Key>
