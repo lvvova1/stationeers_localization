@@ -3560,6 +3560,10 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
       <Value>创造工具</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemTerrainEditor</Key>
+      <Value>地形编辑工具</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketEngineDestroyed</Key>
       <Value>火箭发动机(残骸)</Value>
     </RecordThing>
@@ -3795,6 +3799,10 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
       <Value>头灯</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemDebugHeadlamp</Key>
+      <Value>Debug头灯</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureTurbineGenerator</Key>
       <Value>涡轮发电机</Value>
     </RecordThing>
@@ -4008,6 +4016,11 @@ Output=1导出内部物品及最终主物品</Description>
       <Description>{LINK:Norsec;Norsec} 喷气背包从"技术上"来说不是喷气背包, 而是气体推进器. 只要 {LINK:AtmosphericsPage;canister} 内部气压高于外部环境压力, 即可使用任何气体作为动力. 若外部压力更高, 空间背包将无法运作. 调整推力值可改变加速度, 激活稳定器后可在特定高度悬停. 
 此款强化喷气背包速度远超 {THING:ItemJetpackBasic} （最高达15米/秒）, 是建造、采矿和移动的必备工具, 提供14个存储槽. 
 使用方式：'J'激活；空格键上升；左Ctrl下降；WASD移动</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemDebugJetpack</Key>
+      <Value>Debug喷气背包</Value>
+      <Description/>
     </RecordThing>
     <RecordThing>
       <Key>DynamicHydroponics</Key>
@@ -10613,8 +10626,52 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>小行星带</Value>
     </Record>
     <Record>
-      <Key>NewWorldAreaGrandCanyon</Key>
-      <Value>地形测试-大峡谷</Value>
+      <Key>NewWorldAlienWorld</Key>
+      <Value>地形测试 - 外星人世界</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon1kWorld</Key>
+      <Value>地形测试 - 月球1k</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon2kWorld</Key>
+      <Value>地形测试 - 月球2k</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon4kWorld</Key>
+      <Value>地形测试 - 月球4k</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon8kWorld</Key>
+      <Value>地形测试 - 月球8k</Value>
+    </Record>
+    <Record>
+      <Key>64Test</Key>
+      <Value>地形测试 - 64M</Value>
+    </Record>
+    <Record>
+      <Key>128Test</Key>
+      <Value>地形测试 - 128M</Value>
+    </Record>
+    <Record>
+      <Key>512Test</Key>
+      <Value>地形测试 - 512M</Value>
+    </Record>
+    <Record>
+      <Key>1024Test</Key>
+      <Value>地形测试 - 1024M</Value>
+    </Record>
+    <Record>
+      <Key>4096Test</Key>
+      <Value>地形测试 - 4096M</Value>
+    </Record>
+    <Record>
+      <Key>8192Test</Key>
+      <Value>地形测试 - 8192M</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldArea4KMars</Key>
+      <Value>地形测试 - 4K火星</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaLowEarthOrbit</Key>
@@ -10999,6 +11056,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>PlayerIsConnecting</Key>
       <Value>玩家正在连接</Value>
+    </Record>
+    <Record>
+      <Key>PlayerHasConnected</Key>
+      <Value>玩家已连接</Value>
     </Record>
     <Record>
       <Key>GamePaused</Key>
@@ -11907,8 +11968,28 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>一颗红色的荒漠星球——火星. 它地形起伏多变, 有些高山甚至直指天空. 这颗星球还拥有寒冷且无法呼吸的大气层, 但它或许并非一无是处</Value>
     </Record>
     <Record>
-      <Key>NewWorldGrandCanyonShortDesc</Key>
+      <Key>NewWorldAlienWorldShortDesc</Key>
       <Value>用于测试新的地形系统</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon1kShortDesc</Key>
+      <Value>方圆1km × 1km的月球地图</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon2kShortDesc</Key>
+      <Value>方圆1km × 1km的月球地图</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon4kShortDesc</Key>
+      <Value>方圆1km × 1km的月球地图</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon8kShortDesc</Key>
+      <Value>方圆1km × 1km的月球地图</Value>
+    </Record>
+    <Record>
+      <Key>NewWorld4KTerrainDesc</Key>
+      <Value>用于新地形系统的4K测试地图</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
@@ -16125,6 +16206,14 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>DefaultStartConditionDescription</Key>
       <Value>您将与一个装满板条箱和包裹的着陆器一起开始, 包含建立一个远程基地所需的基本要素</Value>
+    </Record>
+    <Record>
+      <Key>TerrainEditStartCondition</Key>
+      <Value>编辑地形</Value>
+    </Record>
+    <Record>
+      <Key>TerrainEditStartConditionDescription</Key>
+      <Value>快速开始带有Debug工具的地形编辑</Value>
     </Record>
     <Record>
       <Key>DefaultScenarioStartCondition</Key>
