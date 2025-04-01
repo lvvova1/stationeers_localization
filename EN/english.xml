@@ -3598,6 +3598,10 @@ Note that transformers operate as data isolators, preventing data flowing into a
       <Value>Authoring Tool</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemTerrainEditor</Key>
+      <Value>Terrain Editor Tool</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketEngineDestroyed</Key>
       <Value>Rocket Engine (Destroyed)</Value>
     </RecordThing>
@@ -3834,6 +3838,10 @@ Note that transformers operate as data isolators, preventing data flowing into a
       <Value>Headlamp</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemDebugHeadlamp</Key>
+      <Value>Debug Headlamp</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureTurbineGenerator</Key>
       <Value>Turbine Generator</Value>
     </RecordThing>
@@ -4048,6 +4056,11 @@ Output = 1 exporting items inside and eventually the main item.</Description>
       <Description>The {LINK:Norsec;Norsec} jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
 The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensable for building, mining and general movement, it has fourteen storage slots.
 USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemDebugJetpack</Key>
+      <Value>Debug Jetpack</Value>
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicHydroponics</Key>
@@ -10694,8 +10707,24 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Asteroid Belt</Value>
     </Record>
     <Record>
-      <Key>NewWorldAreaGrandCanyon</Key>
-      <Value>Terrain Test - Grand Canyon</Value>
+      <Key>NewWorldAlienWorld</Key>
+      <Value>Terrain Test - Alien World</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon1kWorld</Key>
+      <Value>Terrain Test - Moon 1k</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon2kWorld</Key>
+      <Value>Terrain Test - Moon 2k</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon4kWorld</Key>
+      <Value>Terrain Test - Moon 4k</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon8kWorld</Key>
+      <Value>Terrain Test - Moon 8k</Value>
     </Record>
     <Record>
       <Key>64Test</Key>
@@ -11108,6 +11137,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>PlayerIsConnecting</Key>
       <Value>Player is connecting</Value>
+    </Record>
+    <Record>
+      <Key>PlayerHasConnected</Key>
+      <Value>Player Connected</Value>
     </Record>
     <Record>
       <Key>GamePaused</Key>
@@ -12021,8 +12054,24 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>A desolate dusty red ball, Mars features more varied terrain that can reach into the sky, and a chilly atmosphere that's no good for breathing, but maybe it can be used for something...</Value>
     </Record>
     <Record>
-      <Key>NewWorldGrandCanyonShortDesc</Key>
+      <Key>NewWorldAlienWorldShortDesc</Key>
       <Value>For testing new terrain system</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon1kShortDesc</Key>
+      <Value>1km by 1km test moon map</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon2kShortDesc</Key>
+      <Value>1km by 1km test moon map</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon4kShortDesc</Key>
+      <Value>1km by 1km test moon map</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoon8kShortDesc</Key>
+      <Value>1km by 1km test moon map</Value>
     </Record>
     <Record>
       <Key>NewWorld4KTerrainDesc</Key>
@@ -16251,6 +16300,14 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>DefaultStartConditionDescription</Key>
       <Value>You will start with the basics you need to establish a remote base, organized systematically in a lander stocked with crates and packages.</Value>
+    </Record>
+    <Record>
+      <Key>TerrainEditStartCondition</Key>
+      <Value>Terrain Edit</Value>
+    </Record>
+    <Record>
+      <Key>TerrainEditStartConditionDescription</Key>
+      <Value>Start with debug tools to quickly edit terrain.</Value>
     </Record>
     <Record>
       <Key>DefaultScenarioStartCondition</Key>
