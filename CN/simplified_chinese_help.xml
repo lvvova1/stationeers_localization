@@ -26,12 +26,12 @@
     <StationpediaPage>
       <Key>AirlockDevicePage</Key>
       <Title>气闸设备</Title>
-      <Text> {LIST_OF_AIRLOCK_DEVICES}</Text>
+      <Text>{LIST_OF_AIRLOCK_DEVICES}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>LogicUnitPage</Key>
       <Title>逻辑单元</Title>
-      <Text> {LIST_OF_LOGIC_UNITS}  {LIST_OF_MOTHERBOARD}</Text>
+      <Text>{LIST_OF_LOGIC_UNITS}  {LIST_OF_MOTHERBOARD}</Text>
     </StationpediaPage>
         <StationpediaPage>
       <Key>CartridgePage</Key>
@@ -42,39 +42,39 @@
     <StationpediaPage>
       <Key>StructurePage</Key>
       <Title>结构</Title>
-      <Text> {LIST_OF_STRUCTURES}</Text>
+      <Text>{LIST_OF_STRUCTURES}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ElectronicPage</Key>
       <Title>电子元件</Title>
-      <Text> {LIST_OF_ELECTRONICS}</Text>
+      <Text>{LIST_OF_ELECTRONICS}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>OrganicPage</Key>
       <Title>有机物</Title>
-      <Text> {LIST_OF_ORGANICS}</Text>
+      <Text>{LIST_OF_ORGANICS}</Text>
     </StationpediaPage>
 
         <StationpediaPage>
       <Key>AtmosphericPage</Key>
       <Title>气体设备</Title>
-      <Text> {LIST_OF_ATMOSPHERICS}</Text>
+      <Text>{LIST_OF_ATMOSPHERICS}</Text>
     </StationpediaPage>
      <StationpediaPage>
       <Key>RubbishPage</Key>
       <Title>垃圾</Title>
-      <Text> {LIST_OF_ELECTRONICS}</Text>
+      <Text>{LIST_OF_ELECTRONICS}</Text>
     </StationpediaPage> 
     <StationpediaPage>
       <Key>FurniturePage</Key>
       <Title>家具</Title>
-      <Text> {LIST_OF_FURNITURES}</Text>
+      <Text>{LIST_OF_FURNITURES}</Text>
     </StationpediaPage> 
         <StationpediaPage>
       <Key>LorePage</Key>
       <DisplayFilter>Lore</DisplayFilter>
       <Title>阵营</Title>
-      <Text> {LIST_OF_FACTIONS}</Text>
+      <Text>{LIST_OF_FACTIONS}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FabricatorPage</Key>
@@ -99,7 +99,7 @@
       <Key>SmeltingPage</Key>
 	  <DisplayFilter>Guides</DisplayFilter>
       <Title>冶金</Title>
-      <Text>当你拥有 {LINK:OrePage;矿石} , 你需要将其冶炼成 {LINK:IngotPage;金属锭} 来运动其中包含的 {LINK:ReagentPage;原料成分} . 冶金的副产物还包括 {LINK:GasPage;气体} . 使用 {THING:StructureArcFurnace} 制造简单金属,  {THING:StructureFurnace} 制造复杂的 {LINK:AlloyPage;合金} ,  {THING:StructureAdvancedFurnace} 制造更复杂的 {LINK:SuperAlloyPage;超级合金} . 想制造复杂的合金, 你需要精确控制材料的配比成分, 以及 {LINK:TemperaturePage;温度} 和 {LINK:PressurePage;气压} </Text>
+      <Text>当你拥有 {LINK:OrePage;矿石} , 你需要将其冶炼成 {LINK:IngotPage;金属锭} 来运动其中包含的 {LINK:ReagentPage;原料成分} . 冶金的副产物还包括 {LINK:GasPage;气体} . 使用 {THING:StructureArcFurnace} 制造简单金属,  {THING:StructureFurnace} 制造复杂的 {LINK:AlloyPage;合金} ,  {THING:StructureAdvancedFurnace} 制造更复杂的 {LINK:SuperAlloyPage;超级合金} . 想制造复杂的合金, 你需要精确控制材料的配比成分, 以及 {LINK:TemperaturePage;温度} 和 {LINK:PressurePage;气压}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>MiningPage</Key>
@@ -125,7 +125,7 @@
       <Key>ConstructionPage</Key>
       <Title>建设</Title>
       <DisplayFilter>Guides</DisplayFilter>
-      <Text> {HEADER:入门指南} 
+      <Text>{HEADER:入门指南}
 通常使用 {LINK:KitPage;建造套件} 启动建设, 随后借助各类 {LINK:ToolPage;工具} 与 {LINK:ResourcePage;资源} 完成建造. 请密切注意所选结构需消耗的套件数量, 部分结构会消耗同类多个套件. 某些套件提供多种建造方案, 使用 {COLORRED:滚轮} 切换当前建造选项. 
 
  {HEADER:建造阶段} 
@@ -149,7 +149,7 @@
       <Key>MusicPage</Key>
       <Title>制造音乐</Title>
       <DisplayFilter>Guides</DisplayFilter>
-      <Text> {LINK:ODA;ODA} 并不赞成使用原声音乐或其他分散注意力的元素. 
+      <Text>{LINK:ODA;ODA} 并不赞成使用原声音乐或其他分散注意力的元素.
 因此,  {LINK:Stationeers;Stationeers} 不得不在建造和维护外星基础设施的繁重劳动中自己创造音乐伴奏. 
 这种消遣的核心是步进音序器, 它允许Stationeers师编排简短的音乐模式或循环. 
 
@@ -369,7 +369,7 @@
     
     <StationpediaPage>
       <Key>ThingTemplate</Key>
-      <Text> {0} 
+      <Text>{0}
 
  {HEADER:General} 
  {LIST} 预设哈希 {POS:300}  {1} 
@@ -378,7 +378,7 @@
     
     <StationpediaPage>
       <Key>ThingThermalTemplate</Key>
-      <Text> {HEADER:耐热极限} 
+      <Text>{HEADER:耐热极限}
  {LIST} 毁坏 {POS:300}  {0} 
 闪点 {POS:300}  {1} 
 自燃点 {POS:300}  {2}  {3}  {/LIST}</Text>
@@ -393,12 +393,12 @@
     
     <StationpediaPage>
       <Key>ThingSlotHeaderTemplate</Key>
-      <Text> {LIST}  {0}  {/LIST}</Text>
+      <Text>{LIST}  {0}  {/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
-      <Text> {0} . {1} Type {2}</Text>
+      <Text>{0} . {1} Type {2}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
@@ -444,27 +444,27 @@
 
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
-      <Text> {LIST}  {0}  {/LIST}</Text>
+      <Text>{LIST}  {0}  {/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>ConstructedByHeaderTemplate</Key>
-      <Text> {LIST}  {0}  {/LIST}</Text>
+      <Text>{LIST}  {0}  {/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>CreatedHeaderTemplate</Key>
-      <Text> {LIST}  {0}  {/LIST}</Text>
+      <Text>{LIST}  {0}  {/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>ConstructedHeaderTemplate</Key>
-      <Text> {LIST}  {0}  {/LIST}</Text>
+      <Text>{LIST}  {0}  {/LIST}</Text>
     </StationpediaPage>
 
     <StationpediaPage>
       <Key>LogicTransmitHeaderTemplate</Key>
-      <Text> {LIST}  {0}  {/LIST}</Text>
+      <Text>{LIST}  {0}  {/LIST}</Text>
     </StationpediaPage>
 
     <StationpediaPage>
@@ -476,27 +476,27 @@
 
     <StationpediaPage>
       <Key>CreatorTemplate</Key>
-      <Text> {LIST}  {0}  {1}  {/LIST}  {/LIST}</Text>
+      <Text>{LIST}  {0}  {1}  {/LIST}  {/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
-      <Text> {LIST}  {0}  {/LIST}</Text>
+      <Text>{LIST}  {0}  {/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>LogicTypeTemplate</Key>
-      <Text> {0}  {POS:300}  {1}  {2}</Text>
+      <Text>{0}  {POS:300}  {1}  {2}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>ModeStringHeaderTemplate</Key>
-      <Text> {LIST}  {0}  {/LIST}</Text>
+      <Text>{LIST}  {0}  {/LIST}</Text>
     </StationpediaPage>
         
     <StationpediaPage>
       <Key>CreatedGasesTemplate</Key>
-      <Text> {LIST}  {0}  {/LIST}</Text>
+      <Text>{LIST}  {0}  {/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
@@ -511,18 +511,18 @@
 
         <StationpediaPage>
       <Key>CreatedReagentTemplate</Key>
-      <Text> {LIST}  {0}  {/LIST}</Text>
+      <Text>{LIST}  {0}  {/LIST}</Text>
     </StationpediaPage>
     
     <StationpediaPage>
       <Key>ModeStringItemTemplate</Key>
-      <Text> {0} .  {1}</Text>
+      <Text>{0} .  {1}</Text>
     </StationpediaPage>
     
     
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
-      <Text> {LINK:ReagentPage;原料} , 它的 {LINK:IngotPage;金属锭} 形态十分有用. 
+      <Text>{LINK:ReagentPage;原料} , 它的 {LINK:IngotPage;金属锭} 形态十分有用.
 
 
  {LIST} Unit {1}  {/LIST} 
@@ -533,7 +533,7 @@
     
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
-      <Text> {LINK:GasPage;气体} ,  {LINK:SmeltingPage;冶炼} 通常会产出一些
+      <Text>{LINK:GasPage;气体} ,  {LINK:SmeltingPage;冶炼} 通常会产出一些
 
 
  {LIST} 比热容 {1}  {2}  {/LIST} 
@@ -551,7 +551,7 @@
       <Key>NutritionPage</Key>
       <Title>饥饿和营养</Title>
       <DisplayFilter>Guides</DisplayFilter>
-      <Text> {HEADER:HUNGER} 
+      <Text>{HEADER:HUNGER}
 
 Stationeer最终会感到饥饿, 但并非所有食物都能提供同等效果. 此外, 饥饿速率会根据设置和难度而变化. 进食仅消耗足以将饥饿值恢复至100%的食物部分. 
 
