@@ -869,7 +869,7 @@
       <Key>CircuitboardPowerControl</Key>
       <Value>电路板(电源控制)</Value>
       <Description>在遥远恒星与严苛环境下,  {LINK:Stationeers;Stationeer} 系统需要平衡可靠性、适应性与多功能性. 电源控制板可远程启用或禁用选定设备, 并断开手动操作. 
-该电路板具备两种模式："链接"模式可同时开启或关闭所有设备；"切换"模式可将所有设备交替切换状态</Description>
+该电路板具备两种模式: "链接"模式可同时开启或关闭所有设备；"切换"模式可将所有设备交替切换状态</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardShipDisplay</Key>
@@ -966,7 +966,7 @@
     <RecordThing>
       <Key>DynamicScrubber</Key>
       <Value>便携式空气过滤器</Value>
-      <Description>便携式空气过滤器的功能如其名：清除空气中的特定物质. 例如安装 {THING:ItemGasFilterCarbonDioxide} 可吸附周围环境中的 {GAS:CarbonDioxide} . 该设备配备1个电池槽和2个过滤器槽, 双过滤器可使运行速度翻倍. 当内部压力达到8106千帕时, 开关将闪烁错误信号提示清空. 可将其直接排放, 或通过 {THING:ItemTankConnector} 和 {THING:ItemWrench} 连接至管道网络处理</Description>
+      <Description>便携式空气过滤器的功能如其名: 清除空气中的特定物质. 例如安装 {THING:ItemGasFilterCarbonDioxide} 可吸附周围环境中的 {GAS:CarbonDioxide} . 该设备配备1个电池槽和2个过滤器槽, 双过滤器可使运行速度翻倍. 当内部压力达到8106千帕时, 开关将闪烁错误信号提示清空. 可将其直接排放, 或通过 {THING:ItemTankConnector} 和 {THING:ItemWrench} 连接至管道网络处理</Description>
     </RecordThing>
     <RecordThing>
       <Key>EffectSplatEgg</Key>
@@ -1056,7 +1056,7 @@
     <RecordThing>
       <Key>ItemCableCoil</Key>
       <Value>电缆</Value>
-      <Description>用身体作为隐喻虽然显得陈腐且过于人类中心, 但首任 {LINK:ODA;ODA} 行政官弗里达·斯图彭曾说："让电缆如同神经与血管, 在我们铸造的星际系统中传递电力与数据. "后世评论者认为, 她只不过是在为一项经济性存疑的技术披上浪漫外衣. 无论如何, 标准电缆是每位 {LINK:Stationeers;Stationeer} 构建网络的起点. 
+      <Description>用身体作为隐喻虽然显得陈腐且过于人类中心, 但首任 {LINK:ODA;ODA} 行政官弗里达·斯图彭曾说: "让电缆如同神经与血管, 在我们铸造的星际系统中传递电力与数据. "后世评论者认为, 她只不过是在为一项经济性存疑的技术披上浪漫外衣. 无论如何, 标准电缆是每位 {LINK:Stationeers;Stationeer} 构建网络的起点.
 普通的电缆能够通过的最大功率为5千瓦. 电流更高的使用场景请使用 {THING:ItemCableCoilHeavy}</Description>
     </RecordThing>
     <RecordThing>
@@ -1102,7 +1102,7 @@
     <RecordThing>
       <Key>ItemCrowbar</Key>
       <Value>撬棍</Value>
-      <Description>{LINK:Recurso;Recurso} 的入门级撬棍适用于 {LINK:Stationeers;Stationeer} 日常场景：开启 {THING:StructureAreaPowerControl} 和未供电的 {THING:StructureAirlock} , 或在必要时拍扁跨越维度而来的猎头蟹</Description>
+      <Description>{LINK:Recurso;Recurso} 的入门级撬棍适用于 {LINK:Stationeers;Stationeer} 日常场景: 开启 {THING:StructureAreaPowerControl} 和未供电的 {THING:StructureAirlock} , 或在必要时拍扁跨越维度而来的猎头蟹</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDataDisk</Key>
@@ -1117,7 +1117,7 @@
     <RecordThing>
       <Key>ItemDuctTape</Key>
       <Value>胶带</Value>
-      <Description>远古时期, 地球有位伟人教导一代"维修者"：胶带能解决所有问题.  {LINK:Stationeers;Stationeer} 证明这条真理依然有效——只要问题出在破损的 {THING:ItemEvaSuit} 、 {THING:ItemJetpackBasic} 、 {THING:ItemSpaceHelmet} 甚至 {THING:StructureSolarPanel} 上. 如果要用在自己身上, 用主手拿起胶带, 并按住右键就能自动修复损伤</Description>
+      <Description>远古时期, 地球有位伟人教导一代"维修者": 胶带能解决所有问题.  {LINK:Stationeers;Stationeer} 证明这条真理依然有效——只要问题出在破损的 {THING:ItemEvaSuit} 、 {THING:ItemJetpackBasic} 、 {THING:ItemSpaceHelmet} 甚至 {THING:StructureSolarPanel} 上. 如果要用在自己身上, 用主手拿起胶带, 并按住右键就能自动修复损伤</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamite</Key>
@@ -1280,12 +1280,12 @@
     <RecordThing>
       <Key>ItemGoldIngot</Key>
       <Value>金锭</Value>
-      <Description>在 {LINK:Stationeers;Stationeer} 计划的核心存在一个持久悖论：这个以"低成本太空探索"为理念的项目, 却将 {REAGENT:Gold} 作为制造大量装备物资的基础材料</Description>
+      <Description>在 {LINK:Stationeers;Stationeer} 计划的核心存在一个持久悖论: 这个以"低成本太空探索"为理念的项目, 却将 {REAGENT:Gold} 作为制造大量装备物资的基础材料</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGoldOre</Key>
       <Value>金矿石</Value>
-      <Description>太阳系中意外常见的 {REAGENT:Gold} 被认为源自超新星核心, 在恒星形成初期聚集成尘埃后融入行星体. 如今作为 {LINK:Stationeers;Stationeer} 建造的珍贵元素, 其价值不在美观而在于其可靠性：惰性、耐用、导电且高度稳定, 黄金的优势在于它"无所作为"</Description>
+      <Description>太阳系中意外常见的 {REAGENT:Gold} 被认为源自超新星核心, 在恒星形成初期聚集成尘埃后融入行星体. 如今作为 {LINK:Stationeers;Stationeer} 建造的珍贵元素, 其价值不在美观而在于其可靠性: 惰性、耐用、导电且高度稳定, 黄金的优势在于它"无所作为"</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGrenade</Key>
@@ -1300,7 +1300,7 @@
     <RecordThing>
       <Key>ItemHealPill</Key>
       <Value>治疗药片</Value>
-      <Description>三百年制药技术浓缩于易吞服小药片：治疗药片（又名质子片、快乐先生）含活性酶、治疗蛋白、改良菌株及哺乳动物细胞系类似物, 通过高纯度复合配方快速激发副交感免疫反应</Description>
+      <Description>三百年制药技术浓缩于易吞服小药片: 治疗药片（又名质子片、快乐先生）含活性酶、治疗蛋白、改良菌株及哺乳动物细胞系类似物, 通过高纯度复合配方快速激发副交感免疫反应</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHEMDroidRepairKit</Key>
@@ -1510,7 +1510,7 @@
     <RecordThing>
       <Key>ItemPillHeal</Key>
       <Value>药片(医疗)</Value>
-      <Description>三百年制药科技浓缩于小小药丸：治愈药片, 又称质子药片、快乐先生, 含活性酶、治疗蛋白、改良微生物菌株及哺乳动物细胞系模拟物, 单次高纯度、高效能、强效剂量可快速激发副交感免疫反应</Description>
+      <Description>三百年制药科技浓缩于小小药丸: 治愈药片, 又称质子药片、快乐先生, 含活性酶、治疗蛋白、改良微生物菌株及哺乳动物细胞系模拟物, 单次高纯度、高效能、强效剂量可快速激发副交感免疫反应</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPillStun</Key>
@@ -1653,7 +1653,7 @@
       <Value>太空背包</Value>
       <Description>标准 {LINK:CHAC;CHAC} 太空背包本质是一种气体推进器, 只要 {LINK:AtmosphericsPage;气罐} 内压高于环境气压即可工作. 
 配备10个储物格, 支持3米/秒飞行（弱于 {THING:ItemJetpackBasic} 和 {THING:ItemHardJetpack} ）. 推力值调节加速度, 启用稳定器后可在指定高度悬停. 
-操作：'J'启动；'空格'上升；'左Ctrl'下降；'WASD'移动. "</Description>
+操作: 'J'启动；'空格'上升；'左Ctrl'下降；'WASD'移动. "</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
@@ -1753,7 +1753,7 @@
     <RecordThing>
       <Key>ItemToolBelt</Key>
       <Value>工具腰带</Value>
-      <Description>象征 {LINK:Stationeers;Stationeer} 生活的标志性装备（编者注： {LINK:ODA;ODA} 调查显示, 被超压 {THING:StructureFurnace} 炸毁的基地残骸同样具有高辨识度）. 符合ODA安全标准, 八个插槽专用于存放工具和 {THING:ItemCableCoil} . 工具腰带设计符合最严格的ODA标准, 仅被设计为承载工具和 {THING:ItemCableCoil} , 不要将其与 {THING:ItemMiningBelt} 混淆</Description>
+      <Description>象征 {LINK:Stationeers;Stationeer} 生活的标志性装备（编者注:  {LINK:ODA;ODA} 调查显示, 被超压 {THING:StructureFurnace} 炸毁的基地残骸同样具有高辨识度）. 符合ODA安全标准, 八个插槽专用于存放工具和 {THING:ItemCableCoil} . 工具腰带设计符合最严格的ODA标准, 仅被设计为承载工具和 {THING:ItemCableCoil} , 不要将其与 {THING:ItemMiningBelt} 混淆</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
@@ -1842,13 +1842,13 @@
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>主动通风口</Value>
-      <Description>主动通风口是一种动力装置, 通过向管道网络泵入（或抽出）气体来维持 {LINK:GasPage;气体} 压力. 该通风口有两种模式："向外"模式会泵送气体至空间直到达到设定安全压力；"向内"模式会抽吸气体直到达到设定安全压力. 压力参数可通过连接的 {THING:StructureConsole} 设置. 向外模式默认压力为101kPa；向内模式默认压力为0kPa</Description>
+      <Description>主动通风口是一种动力装置, 通过向管道网络泵入（或抽出）气体来维持 {LINK:GasPage;气体} 压力. 该通风口有两种模式: "向外"模式会泵送气体至空间直到达到设定安全压力；"向内"模式会抽吸气体直到达到设定安全压力. 压力参数可通过连接的 {THING:StructureConsole} 设置. 向外模式默认压力为101kPa；向内模式默认压力为0kPa</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirConditioner</Key>
       <Value>空调机</Value>
       <Description>使用 {THING:ItemKitAtmospherics} 建造的 {LINK:ExMin;ExMin设计} 空调机用于升高或降低输入气体温度. 
-该设备有三个管道接口：输入口、输出口和废气口. 输入口的气体将被加热或冷却以达到目标温度, 而废气口连接的管道网络中的气体将发生相反的温度变化. 
+该设备有三个管道接口: 输入口、输出口和废气口. 输入口的气体将被加热或冷却以达到目标温度, 而废气口连接的管道网络中的气体将发生相反的温度变化.
 多个效率乘数会影响空调机的能耗, 这些参数可在设备的绿色信息面板查看. 随着输入与废气管温差增大, 温差效率乘数会降低. 若输入或废气管温度极高/极低, 运行温度效率也会下降. 若输入或废气管压力过低, 压力效率会降低. 
  {THING:StructurePipeRadiator} 有助于将极端管道温度调节至正常环境温度. 
 更多使用说明请参考 {LINK:TemperatureControlPage;温控} 指南页面. "</Description>
@@ -1861,18 +1861,18 @@
     <RecordThing>
       <Key>StructureAreaPowerControl</Key>
       <Value>区域电源控制器</Value>
-      <Description>"区域电源控制器（APC）具有三大功能：
+      <Description>"区域电源控制器（APC）具有三大功能:
 主要功能是调节电力流动, 确保设备与机械（尤其是功耗波动的设备）持续运行. 
 APC可创建子电网, 因APC远端设备在主电网不可见. 
-最后, APC可为电池充电, 在断电时为子电网提供备用电源. 注意：APC需要电池来稳定电力消耗. 另有两种变体, 每种仅允许单向电流. "</Description>
+最后, APC可为电池充电, 在断电时为子电网提供备用电源. 注意: APC需要电池来稳定电力消耗. 另有两种变体, 每种仅允许单向电流. "</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
       <Value>区域电源控制器</Value>
-      <Description>区域电源控制器（APC）具有三大功能：
+      <Description>区域电源控制器（APC）具有三大功能:
 主要功能是调节电力流动, 确保设备与机械（尤其是功耗波动的设备）持续运行. 
 APC亦能创建子电网, 位于APC下游的设备在主电网不可见. 
-最后, APC可为电池充电, 在断电时为子电网提供备用电源. 注意：APC需要电池来稳定电力消耗. 此外APC有两种变体, 电流的流向各不相同. "</Description>
+最后, APC可为电池充电, 在断电时为子电网提供备用电源. 注意: APC需要电池来稳定电力消耗. 此外APC有两种变体, 电流的流向各不相同. "</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
@@ -1903,14 +1903,14 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
       <Key>StructureBattery</Key>
       <Value>蓄电池</Value>
       <Description>作为大多数 {LINK:Stationeers;Stationeer} 基地的核心,  {LINK:Sinotai;Sinotai} 「电子」站用蓄电池提供大规模可靠电力存储. 
-使用蓄电池设计电力系统需注意诸多事项, 每位Stationeer都有故事可讲, 因此流传着这样的谚语：「电子能烹饪, 但也会煎炸. 」
+使用蓄电池设计电力系统需注意诸多事项, 每位Stationeer都有故事可讲, 因此流传着这样的谚语: 「电子能烹饪, 但也会煎炸. 」
  {HEADER:电力输出} 
 可存储高达3600000瓦电力, 其吞吐量无实际限制, 因此建议使用 {THING:ItemCableCoilHeavy} . 经验丰富的电气工程师会嘲笑那些未使用 {THING:StructureAreaPowerControl} 和 {THING:StructureTransformer} 隔离发电网络的人</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
       <Value>电池充电器</Value>
-      <Description>这款5槽位 {LINK:Xigo;Xigo} 充电器适配 {THING:ItemBatteryCell} 、 {THING:ItemBatteryCellLarge} 和 {THING:ItemBatteryCellNuclear} , 为连接电池提供每槽位最高500瓦的充电功率. 注意：旧款设计使该设备即使未充电时也有微量功耗（10瓦）</Description>
+      <Description>这款5槽位 {LINK:Xigo;Xigo} 充电器适配 {THING:ItemBatteryCell} 、 {THING:ItemBatteryCellLarge} 和 {THING:ItemBatteryCellNuclear} , 为连接电池提供每槽位最高500瓦的充电功率. 注意: 旧款设计使该设备即使未充电时也有微量功耗（10瓦）</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBench</Key>
@@ -2093,31 +2093,31 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
       <Key>StructureConveyorCorner</Key>
       <Value>输送带(拐角)</Value>
       <Description>由 {LINK:Recurso;Recurso} 为矿石搬运设计的柔性输送带系统可定制化, 用于构建高效物流网络. 简言之, 它们负责在两点间运输物品. 
-Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说：「我们正在努力解决. 」</Description>
+Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说: 「我们正在努力解决. 」</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorRiser</Key>
       <Value>输送带(上下)</Value>
       <Description>由 {LINK:Recurso;Recurso} 为矿石搬运设计的柔性输送带系统可定制化, 用于构建高效物流网络. 简言之, 它们负责在两点间运输物品. 
-Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说：「我们正在努力解决. 」</Description>
+Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说: 「我们正在努力解决. 」</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraight</Key>
       <Value>输送带(直行)</Value>
       <Description>由 {LINK:Recurso;Recurso} 为矿石搬运设计的柔性输送带系统可定制化, 用于构建高效物流网络. 简言之, 它们负责在两点间运输物品. 
-Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说：「我们正在努力解决. 」</Description>
+Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说: 「我们正在努力解决. 」</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraightLong</Key>
       <Value>输送带(加长)</Value>
       <Description>由 {LINK:Recurso;Recurso} 为矿石搬运设计的柔性输送带系统可定制化, 用于构建高效物流网络. 简言之, 它们负责在两点间运输物品. 
-Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说：「我们正在努力解决. 」</Description>
+Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说: 「我们正在努力解决. 」</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraightShort</Key>
       <Value>输送带(短的)</Value>
       <Description>由 {LINK:Recurso;Recurso} 为矿石搬运设计的柔性输送带系统可定制化, 用于构建高效物流网络. 简言之, 它们负责在两点间运输物品. 
-Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说：「我们正在努力解决. 」</Description>
+Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso历代客服的话说: 「我们正在努力解决. 」</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCryoTube</Key>
@@ -2284,7 +2284,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     <RecordThing>
       <Key>StructurePipeMeter</Key>
       <Value>管道仪表</Value>
-      <Description>尽管Stationeer计划至今鲜少激发古典诗词创作, 但火神星上的某块管道残骸上刻着这首讽刺俳句：
+      <Description>尽管Stationeer计划至今鲜少激发古典诗词创作, 但火神星上的某块管道残骸上刻着这首讽刺俳句:
 「谦卑管道表
 诉说真实传压力
 无问管道形」</Description>
@@ -2429,7 +2429,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
 管网气体与环境温差越大, 效率越低. 维持效率需用散热器排放管道积热（常见做法为将管道延伸至外部并安装散热器）. 
 效率越低功耗越小, 最大效率时功耗1010W. 可通过逻辑芯片设定触发温度. 
  {HEADER:错误} 
-闪烁报错可能原因：
+闪烁报错可能原因:
 未连接管道
 管道缺气或压力过低
 环境缺少空气或压力过低
@@ -2562,7 +2562,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
       <Key>StructureTransformer</Key>
       <Value>变压器(大型)</Value>
       <Description>大型 {LINK:Norsec;Norsec} 变压器是扩展 {LINK:ElectronicPage;电力网络} 的关键组件, 可设置0至50, 000W输出上限防止线路过载. 
-注意：变压器具有数据隔离功能, 阻断后续网络的数据传输</Description>
+注意: 变压器具有数据隔离功能, 阻断后续网络的数据传输</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTransformer</Key>
@@ -2573,7 +2573,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
       <Key>StructureTransformerSmall</Key>
       <Value>变压器(小型)</Value>
       <Description>小型变压器可设置0至5000W输出上限, 保护 {LINK:ElectronicPage;电力系统} 免受过载损害. 
-注意：变压器具有数据隔离功能, 阻断后续网络的数据传输</Description>
+注意: 变压器具有数据隔离功能, 阻断后续网络的数据传输</Description>
     </RecordThing>
     <RecordThing>
       <Key>WeaponPistolEnergy</Key>
@@ -2589,7 +2589,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
       <Value>电弧炉</Value>
       <Description>作为普通 {LINK:Stationeers;Stationeer} 最易获取的冶炼设备,  {LINK:Recurso;Recurso} 电弧炉诞生于太阳系深处, 原为勘探地质学家检测小行星矿藏纯度设计. 
 现被 {LINK:ODA;ODA} 改造用于生产纯金属锭. 冶炼过程会释放 {LINK:GasPage;气体} 副产物（主要为不同比例的 {GAS:Nitrogen} 、 {GAS:CarbonDioxide} 、 {GAS:Volatiles} 和 {GAS:Oxygen} ）, 需过滤回收且在密闭环境中存在风险. 
-注：无法像先进 {THING:StructureFurnace} 那样制造 {LINK:IngotPage;合金}</Description>
+注: 无法像先进 {THING:StructureFurnace} 那样制造 {LINK:IngotPage;合金}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAutolathe</Key>
@@ -2892,7 +2892,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     <RecordThing>
       <Key>StructureTransformerSmallReversed</Key>
       <Value>变压器(小型)</Value>
-      <Description>小型变压器可设置0至5000W输出上限, 保护 {LINK:ElectronicPage;电力系统} 免受过载损害. 注意：变压器具有数据隔离功能, 阻断后续网络的数据传输</Description>
+      <Description>小型变压器可设置0至5000W输出上限, 保护 {LINK:ElectronicPage;电力系统} 免受过载损害. 注意: 变压器具有数据隔离功能, 阻断后续网络的数据传输</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicUnit</Key>
@@ -3285,7 +3285,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     <RecordThing>
       <Key>StructureOrganicsPrinter</Key>
       <Value>有机物打印机</Value>
-      <Description>注意：有机物打印机已弃用, 现仅限创造模式生成</Description>
+      <Description>注意: 有机物打印机已弃用, 现仅限创造模式生成</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindowIron</Key>
@@ -4015,7 +4015,7 @@ Output=1导出内部物品及最终主物品</Description>
       <Value>强化喷气背包</Value>
       <Description>{LINK:Norsec;Norsec} 喷气背包从"技术上"来说不是喷气背包, 而是气体推进器. 只要 {LINK:AtmosphericsPage;canister} 内部气压高于外部环境压力, 即可使用任何气体作为动力. 若外部压力更高, 空间背包将无法运作. 调整推力值可改变加速度, 激活稳定器后可在特定高度悬停. 
 此款强化喷气背包速度远超 {THING:ItemJetpackBasic} （最高达15米/秒）, 是建造、采矿和移动的必备工具, 提供14个存储槽. 
-使用方式：'J'激活；空格键上升；左Ctrl下降；WASD移动</Description>
+使用方式: 'J'激活；空格键上升；左Ctrl下降；WASD移动</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDebugJetpack</Key>
@@ -4266,7 +4266,7 @@ Output=1导出内部物品及最终主物品</Description>
       <Value>AIMeE机器人</Value>
       <Description>由一位疑似喝醉了的 {LINK:Norsec;Norsec} 机器人专家设计, AIMeE（自动独立机械实体）可能成为 {LINK:Stationeers;太空工程师} 的挚友或烦人对手（或两者交替）. 需基础编程知识和 {THING:MotherboardProgrammableChip} 来操作其自动探矿功能. 
 
-AIMEe有7种模式：
+AIMEe有7种模式:
 0=待机
 1=跟随最近玩家
 2=直线移动至目标
@@ -4317,7 +4317,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>ItemAstroloyIngot</Key>
       <Value>阿斯楚洛伊合金锭</Value>
-      <Description>因原始手册坍缩成奇点, 阿斯楚洛伊合金配方被时空扭曲. 根据塑料图标记载的正确配方为：1.0铜 + 1.0钴 + 2.0钢</Description>
+      <Description>因原始手册坍缩成奇点, 阿斯楚洛伊合金配方被时空扭曲. 根据塑料图标记载的正确配方为: 1.0铜 + 1.0钴 + 2.0钢</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCobaltOre</Key>
@@ -4375,12 +4375,12 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureTransformerMedium</Key>
       <Value>变压器(中型)</Value>
-      <Description>变压器用于控制子电缆网络的最大传输功率, 防止 {LINK:ElectronicPage;电力} 系统过载. 中型变压器适用于需求超过5000W的大型装置, 最大输出可设置为25000W. 注：变压器同时充当数据隔离器, 阻止数据流向其后的任何网络</Description>
+      <Description>变压器用于控制子电缆网络的最大传输功率, 防止 {LINK:ElectronicPage;电力} 系统过载. 中型变压器适用于需求超过5000W的大型装置, 最大输出可设置为25000W. 注: 变压器同时充当数据隔离器, 阻止数据流向其后的任何网络</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMediumReversed</Key>
       <Value>变压器(中型)</Value>
-      <Description>变压器用于控制子电缆网络的最大传输功率, 防止 {LINK:ElectronicPage;电力} 系统过载. 中型变压器适用于需求超过5000W的大型装置, 最大输出可设置为25000W. 注：变压器同时充当数据隔离器, 阻止数据流向其后的任何网络</Description>
+      <Description>变压器用于控制子电缆网络的最大传输功率, 防止 {LINK:ElectronicPage;电力} 系统过载. 中型变压器适用于需求超过5000W的大型装置, 最大输出可设置为25000W. 注: 变压器同时充当数据隔离器, 阻止数据流向其后的任何网络</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium(Reversed)</Key>
@@ -4389,7 +4389,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>ItemJetpackBasic</Key>
       <Value>基础喷气背包</Value>
-      <Description>这款 {LINK:CHAC;CHAC} 基础背包'技术上'来说并非背包, 而是气体推进装置. 只要 {LINK:AtmosphericsPage;气瓶} 内部压力高于环境压力即可工作（外部压力过高时失效）. 具备10个储物槽, 使 {LINK:Stationeers;太空工程师} 能以3m/s飞行（弱于 {THING:ItemHardJetpack} ）, 适用于建造、采矿和移动. 调节推力值能够改变加速度, 启用稳定器可在达到指定高度时悬停. 操作：J键启动, 空格上升, 左Ctrl下降, WASD移动</Description>
+      <Description>这款 {LINK:CHAC;CHAC} 基础背包'技术上'来说并非背包, 而是气体推进装置. 只要 {LINK:AtmosphericsPage;气瓶} 内部压力高于环境压力即可工作（外部压力过高时失效）. 具备10个储物槽, 使 {LINK:Stationeers;太空工程师} 能以3m/s飞行（弱于 {THING:ItemHardJetpack} ）, 适用于建造、采矿和移动. 调节推力值能够改变加速度, 启用稳定器可在达到指定高度时悬停. 操作: J键启动, 空格上升, 左Ctrl下降, WASD移动</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRTGSurvival</Key>
@@ -4604,7 +4604,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>H2Combustor</Key>
       <Value>氢燃烧器</Value>
-      <Description>基于 {LINK:Recurso;Recurso} 原始设计改进, 通过燃烧 {GAS:Volatiles} 与 {GAS:Oxygen} 生成水, 适用于炎热/干旱环境. 注意：会产生大量废热, 且因燃烧室效率不足可能导致燃气自燃, 需处理残余废气</Description>
+      <Description>基于 {LINK:Recurso;Recurso} 原始设计改进, 通过燃烧 {GAS:Volatiles} 与 {GAS:Oxygen} 生成水, 适用于炎热/干旱环境. 注意: 会产生大量废热, 且因燃烧室效率不足可能导致燃气自燃, 需处理残余废气</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight</Key>
@@ -5058,7 +5058,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureBatteryLarge</Key>
       <Value>大型蓄电池</Value>
-      <Description>{LINK:Sinotai;Sinotai} 「大电池」大型站用蓄电池能够提供比 {THING:StructureBattery} 更强大的储能, 是 {LINK:Stationeers;Stationeer} 的核心设备. 需注意电路设计（老手常言：「电子会烹饪, 也会煎炸」）
+      <Description>{LINK:Sinotai;Sinotai} 「大电池」大型站用蓄电池能够提供比 {THING:StructureBattery} 更强大的储能, 是 {LINK:Stationeers;Stationeer} 的核心设备. 需注意电路设计（老手常言: 「电子会烹饪, 也会煎炸」）
  {HEADER:电力输出} 
 存能上限9000001瓦, 无输出功率限制. 
 建议使用 {THING:ItemCableCoilHeavy} 电缆, 并通过 {THING:StructureAreaPowerControl} 和 {THING:StructureTransformer} 隔离发电网络</Description>
@@ -5590,12 +5590,12 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureHarvieReversed</Key>
       <Value>农业机械臂</Value>
-      <Description>安装在 {THING:StructureHydroponicsTray} 或 {THING:StructureHydroponicsTrayData} 上方管理作物种植/收割. 按钮切换模式或连接逻辑系统, 模式能够显示当前生长状态：进口槽用于播种, 收割产物输送至出口槽</Description>
+      <Description>安装在 {THING:StructureHydroponicsTray} 或 {THING:StructureHydroponicsTrayData} 上方管理作物种植/收割. 按钮切换模式或连接逻辑系统, 模式能够显示当前生长状态: 进口槽用于播种, 收割产物输送至出口槽</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHarvie</Key>
       <Value>农业机械臂</Value>
-      <Description>安装在 {THING:StructureHydroponicsTray} 或 {THING:StructureHydroponicsTrayData} 上方管理作物种植/收割. 按钮切换模式或连接逻辑系统, 模式能够显示当前生长状态：进口槽用于播种, 收割产物输送至出口槽</Description>
+      <Description>安装在 {THING:StructureHydroponicsTray} 或 {THING:StructureHydroponicsTrayData} 上方管理作物种植/收割. 按钮切换模式或连接逻辑系统, 模式能够显示当前生长状态: 进口槽用于播种, 收割产物输送至出口槽</Description>
     </RecordThing>
     <RecordThing>
       <Key>SpecialBlocks</Key>
@@ -6101,7 +6101,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>ItemMKIIDuctTape</Key>
       <Value>胶带MkII</Value>
-      <Description>地球先贤曾教导一代'修理者'：胶带可解决一切问题.  {LINK:Stationeers;Stationeers} 证明此真理适用于修复 {THING:ItemEvaSuit} 、 {THING:ItemJetpackBasic} 、 {THING:ItemSpaceHelmet} 甚至 {THING:StructureSolarPanel} . 
+      <Description>地球先贤曾教导一代'修理者': 胶带可解决一切问题.  {LINK:Stationeers;Stationeers} 证明此真理适用于修复 {THING:ItemEvaSuit} 、 {THING:ItemJetpackBasic} 、 {THING:ItemSpaceHelmet} 甚至 {THING:StructureSolarPanel} .
 手持胶带时按住右键可自动修复自身损伤</Description>
     </RecordThing>
     <RecordThing>
@@ -6290,7 +6290,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>DecayedFood</Key>
       <Value>腐烂食物</Value>
-      <Description>当 {LINK:OrganicPage;食物} 腐烂时, 会变成此物质.  {LINK:ODA;ODA} 科学家曾试图分析其确切成分, 但它仍难以捉摸. 总之, 食用它是坏主意. 研究已确定腐烂速度受以下因素影响：
+      <Description>当 {LINK:OrganicPage;食物} 腐烂时, 会变成此物质.  {LINK:ODA;ODA} 科学家曾试图分析其确切成分, 但它仍难以捉摸. 总之, 食用它是坏主意. 研究已确定腐烂速度受以下因素影响:
 
 温度-冷藏可延缓腐烂, 但极端低压或高温会损坏食物. 最佳温度为0开尔文（-272°C）. 
 
@@ -6298,7 +6298,7 @@ AIMEe有7种模式：
 
 气压-压力低于1大气压（101kPa）时腐烂加速. 接近真空时腐烂呈指数级加快. 高压无影响. 
 
-大气成分-不同气体会改变腐烂速度. 混合大气中按气体比例计算衰减系数. 各气体全局倍率如下：
+大气成分-不同气体会改变腐烂速度. 混合大气中按气体比例计算衰减系数. 各气体全局倍率如下:
 
  {GAS:Oxygen} ×1. 3
  {GAS:Nitrogen} ×0. 6
@@ -6324,7 +6324,7 @@ AIMEe有7种模式：
       <Value>低频振荡器</Value>
       <Description>低频振荡器（LFO）通过改变 {THING:LogicStepSequencer8} 输出的波形形态, 使声音呈现阴暗、扭曲和粗粝质感. 
 
-设置LFO步骤：
+设置LFO步骤:
 
 放置LFO单元
 将LFO输出设为 {THING:PassiveSpeaker} 
@@ -6341,7 +6341,7 @@ AIMEe有7种模式：
 
 通过恒定内部大气, 酷乐冰箱维持最佳温度延缓 {LINK:OrganicPage;食物} 腐烂. 其功耗随外部温度变化, 需散热运作, 因此无法在真空中工作. 
 
-注意：勿长时间开门, 否则会与外界温度平衡, 并可能触发警报声. 
+注意: 勿长时间开门, 否则会与外界温度平衡, 并可能触发警报声.
 
 更多食物保存信息请访问站科全书的 {LINK:DecayPage;食物腐烂} 章节</Description>
     </RecordThing>
@@ -6363,7 +6363,7 @@ AIMEe有7种模式：
       <Description>冷藏OmniKool自动售货机是标准 {THING:StructureVendingMachine} 的升级版, 可维持-130°C恒温及最佳气压防止食物腐败, 最多容纳100组物品. 
 
 该设备内置 {THING:StructureStacker} , 允许玩家设定放入物品的堆叠数量, 默认堆叠量为50. 
-注意：调整堆叠量仅对后续放入的物品生效, 已有的堆叠不会更新</Description>
+注意: 调整堆叠量仅对后续放入的物品生效, 已有的堆叠不会更新</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachineRefrigerated</Key>
@@ -6418,7 +6418,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>Fertilizer</Key>
       <Value>肥料</Value>
-      <Description>肥料通过改变植物生长进程发挥作用, 由基础肥料机和 {THING:StructureAdvancedComposter} 利用 {LINK:OrganicPage;有机物} 制成. 其效果取决于成分比例：
+      <Description>肥料通过改变植物生长进程发挥作用, 由基础肥料机和 {THING:StructureAdvancedComposter} 利用 {LINK:OrganicPage;有机物} 制成. 其效果取决于成分比例:
 
 - {LINK:OrganicPage;食物} 最多提升两倍植物产量
 - {THING:DecayedFood} 最多提升两倍植物生长速度
@@ -6431,7 +6431,7 @@ AIMEe有7种模式：
       <Description>高级堆肥机可将 {LINK:OrganicPage;食物} 、 {THING:DecayedFood} 或 {THING:ItemBiomass} 转化为 {THING:Fertilizer} . 需消耗 {GAS:Water} 与电力以加速肥料制造过程, 运作时释放氮气、可燃气体及少量热量.
 
  {HEADER:肥料成分} 
-肥料与原料按1:3比例产出, 效果由原料配比决定：
+肥料与原料按1:3比例产出, 效果由原料配比决定:
 
 - {LINK:OrganicPage;食物} 最多提升两倍植物产量
 - {THING:DecayedFood} 最多提升两倍植物生长速度
@@ -6462,7 +6462,7 @@ AIMEe有7种模式：
       <Value>便携式肥料制造机</Value>
       <Description>便携式肥料制造机可将 {LINK:OrganicPage;食物} 、 {THING:DecayedFood} 或 {THING:ItemBiomass} 转化为 {THING:Fertilizer} . 需装入满 {THING:ItemLiquidCanisterEmpty} 与电池以加速肥料制造过程, 运作时释放氮气、可燃气体及少量热量.
  {HEADER:堆肥成分} 
-肥料与原料按1:3比例产出, 效果由原料配比决定：
+肥料与原料按1:3比例产出, 效果由原料配比决定:
 - {LINK:OrganicPage;食物} 最多提升两倍植物产量
 - {THING:DecayedFood} 最多提升两倍植物生长速度
 - {THING:ItemBiomass} 延长肥料生效的生长周期次数</Description>
@@ -6470,14 +6470,14 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>AppliancePackagingMachine</Key>
       <Value>打包机</Value>
-      <Description>{LINK:Xigo;Xigo} 罐头封装机需 {THING:ItemEmptyCan} 与烹制好的 {LINK:OrganicPage;食物} 来制作 {LINK:DecayPage;长效} 耐储存食品. 注意：必须固定在 {THING:StructureBench} 上获取电力, 且仅接受熟食与锡罐. 
+      <Description>{LINK:Xigo;Xigo} 罐头封装机需 {THING:ItemEmptyCan} 与烹制好的 {LINK:OrganicPage;食物} 来制作 {LINK:DecayPage;长效} 耐储存食品. 注意: 必须固定在 {THING:StructureBench} 上获取电力, 且仅接受熟食与锡罐.
  {HEADER:操作指南} 
 
 通过顶部进料口放入原料
 下拉手柄关闭设备
 激活设备
 从前端出口取出成品
-注意：若未关闭设备直接激活, 开关将闪烁报错</Description>
+注意: 若未关闭设备直接激活, 开关将闪烁报错</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPlanter</Key>
@@ -6502,7 +6502,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>ItemPowderedeggs</Key>
       <Value>鸡蛋粉</Value>
-      <Description>鸡蛋粉：这正是你奔赴太空的理由</Description>
+      <Description>鸡蛋粉: 这正是你奔赴太空的理由</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPoweredEggs</Key>
@@ -6707,12 +6707,12 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructurePipeOneWayValve</Key>
       <Value>单向阀(气体)</Value>
-      <Description>单向阀仅允许气体单向流动：从输入端到输出端. 仅在输入压力高于输出压力时允许流通</Description>
+      <Description>单向阀仅允许气体单向流动: 从输入端到输出端. 仅在输入压力高于输出压力时允许流通</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureOneWayValve</Key>
       <Value>单向阀(气体)</Value>
-      <Description>单向阀仅允许气体单向流动：从输入端到输出端. 仅在输入压力高于输出压力时允许流通</Description>
+      <Description>单向阀仅允许气体单向流动: 从输入端到输出端. 仅在输入压力高于输出压力时允许流通</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterPipeHeater</Key>
@@ -6772,7 +6772,7 @@ AIMEe有7种模式：
     <RecordThing>
       <Key>StructureLiquidPipeOneWayValve</Key>
       <Value>单向阀(液体)</Value>
-      <Description>单向阀仅允许液体单向流动：从输入端到输出端. 仅在输入压力高于输出压力时允许流通</Description>
+      <Description>单向阀仅允许液体单向流动: 从输入端到输出端. 仅在输入压力高于输出压力时允许流通</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWindowShutter</Key>
@@ -7269,10 +7269,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>植物基因分析仪</Value>
       <Description>处理完 {THING:ItemPlantSampler} 样本后, 点击搜索按钮可查看植物基因信息. 
 
-单基因值组件：
+单基因值组件:
 多数基因以滑动条显示最小值（左）与最大值（右）, 实际值以橙色居中显示. 
 
-多基因值组件：
+多基因值组件:
 温压范围基因四合一显示, 橙色值为生长阈值范围, 超出则停止生长直至死亡；蓝色值为理想生长范围, 实际生长条件位于蓝色区域内部时生长速度最快；白色值为可调控阈值极限</Description>
     </RecordThing>
     <RecordThing>
@@ -7283,16 +7283,16 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>AppliancePlantGeneticStabilizer</Key>
       <Value>植物基因稳定器</Value>
-      <Description>具备稳定与解稳两种模式：
-稳定：所有基因稳定性+50%
-解稳：指定基因稳定性-50%, 其余基因-10%</Description>
+      <Description>具备稳定与解稳两种模式:
+稳定: 所有基因稳定性+50%
+解稳: 指定基因稳定性-50%, 其余基因-10%</Description>
     </RecordThing>
     <RecordThing>
       <Key>AppliancePlantGeneticSplicer</Key>
       <Value>植物基因结合器</Value>
       <Description>将同类型'源'植物单个 {LINK:GeneticsPage;基因} 复制到'目标'植物, 此过程中源植物会被销毁. 
 
-操作步骤：
+操作步骤:
 左侧槽位放置源植物/种子袋, 右侧槽放置同类目标植物/种子袋, 箭头按钮选择想复制的基因. 选择完成后, 关闭滑门点击绿色激活按钮. 此过程需要约20分钟完成, 期间设备会被锁定. 如果想强制终止, 可以断电或拆卸设备</Description>
     </RecordThing>
     <RecordThing>
@@ -8951,7 +8951,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructureLogicSorter</Key>
       <Value>逻辑分拣机</Value>
-      <Description>内置存储器用于物品分拣判定. 当物品进入 {SLOT:Import} 槽时, 系统将检测堆栈数据指令：若结果为真则转移至 {SLOT:Export2} 槽, 否则转移至 {SLOT:Export} 槽. 默认检测模式为ALL（全匹配）, 即堆栈内所有数据指令均需返回真值</Description>
+      <Description>内置存储器用于物品分拣判定. 当物品进入 {SLOT:Import} 槽时, 系统将检测堆栈数据指令: 若结果为真则转移至 {SLOT:Export2} 槽, 否则转移至 {SLOT:Export} 槽. 默认检测模式为ALL（全匹配）, 即堆栈内所有数据指令均需返回真值</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemJetpackTurbine</Key>
@@ -13451,27 +13451,27 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>BlueField</Key>
-      <Value>蓝：</Value>
+      <Value>蓝: </Value>
     </Record>
     <Record>
       <Key>GreenField</Key>
-      <Value>绿：</Value>
+      <Value>绿: </Value>
     </Record>
     <Record>
       <Key>RedField</Key>
-      <Value>红：</Value>
+      <Value>红: </Value>
     </Record>
     <Record>
       <Key>HueField</Key>
-      <Value>色调：</Value>
+      <Value>色调: </Value>
     </Record>
     <Record>
       <Key>SaturationField</Key>
-      <Value>饱和度：</Value>
+      <Value>饱和度: </Value>
     </Record>
     <Record>
       <Key>BrightnessField</Key>
-      <Value>亮度：</Value>
+      <Value>亮度: </Value>
     </Record>
     <Record>
       <Key>RGBValues</Key>
@@ -13483,7 +13483,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ColourSelecter</Key>
-      <Value>颜色选择器：</Value>
+      <Value>颜色选择器: </Value>
     </Record>
     <Record>
       <Key>HasLavaField</Key>
@@ -13635,7 +13635,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderRecipeTitle</Key>
-      <Value>条目：</Value>
+      <Value>条目: </Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderRecipeOrder</Key>
@@ -13643,11 +13643,11 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoFlashTitle</Key>
-      <Value>闪点：</Value>
+      <Value>闪点: </Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoITitle</Key>
-      <Value>自燃点：</Value>
+      <Value>自燃点: </Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoHashTitle</Key>
@@ -15067,7 +15067,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Key>AsuraDesc</Key>
       <Value>Asura Biomedia由孟买万亿富豪阿山·古尔瓦贾创立于22世纪初叶. 虽以"生物科技"为名, 该企业对这一概念的诠释始终保持着惊人的延展性——其业务版图横跨制药工业与宠物食品两大极端领域.
 
-古尔瓦贾在生物工程领域的深厚积淀, 使公司刚刚建立便跻身生命科学技术的尖端. 其发展轨迹完美践行创始人的战略蓝图：通过迅速而坚定的并购, 迅速吞并一切规模较小的竞争对手. 
+古尔瓦贾在生物工程领域的深厚积淀, 使公司刚刚建立便跻身生命科学技术的尖端. 其发展轨迹完美践行创始人的战略蓝图: 通过迅速而坚定的并购, 迅速吞并一切规模较小的竞争对手.
 
 至世纪中叶, Asura Biomedia的野心已膨胀至统摄全球医疗体系. 通过垂直整合医院网络、基层诊疗、医疗器械供应链、制药工业、药品零售、临终关怀乃至殡葬服务, 这个巨物如今已成为地球上最大的医疗保健巨头. 
 
@@ -15188,9 +15188,9 @@ Recurso极少涉及非法小行星迁移、违反安全规定和商业侵权行�
     <Record>
       <Key>StationeersDesc</Key>
       <Value>22世纪初, 地球刚刚从一场巨大灾难中艰难的走出来. 资源枯竭, 人口锐减, 重建成为时代的主旋律. 
-由 {LINK:ODA;Offworld Development Agency} (ODA)于公元2095年发起的Stationeers计划, 致力于实现一个核心理念：指引人类继续仰望星空.
+由 {LINK:ODA;Offworld Development Agency} (ODA)于公元2095年发起的Stationeers计划, 致力于实现一个核心理念: 指引人类继续仰望星空.
 
-Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅配备有限的装备和工具, 接受用更少资源做更多事情的专业训练. 通过巧妙利用环境条件, 他们的使命是以传统太空计划极小部分的成本, 为太空人类提供基础设施支撑. 
+Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅配备有限的装备和工具, 接受用更少资源做更多事情的专业训练. 通过巧妙利用环境条件, 他们的使命是以传统太空计划极小部分的成本, 为太空人类提供基础设施支撑.
 
 从月球到土卫一乃至更遥远的天体, Stationeers能在任何地点建造维护基地, 堪称人类在宇宙中的先锋部队. 这些太空生存专家掌握着外星环境生存技术、采矿与建筑工艺、冶金、电子工程、火箭技术、水培农业以及诸多"神秘"的科学知识, 为求存续与发展无所不用其极. 
 
@@ -15472,11 +15472,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>StationpediaFlashpointHeader</Key>
-      <Value>闪点：</Value>
+      <Value>闪点: </Value>
     </Record>
     <Record>
       <Key>StationpediaAutoIgniteHeader</Key>
-      <Value>燃点：</Value>
+      <Value>燃点: </Value>
     </Record>
     <Record>
       <Key>FreezeTemperature</Key>
@@ -20700,11 +20700,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>StateChangePopup</Key>
-      <Value>气液状态变化更改：此存档来自版本0. 2. 4120. 19431或更早版本, 可能与新的大气状态变化系统不兼容. 您是否希望Stationeers尝试修改游戏存档中气体网络, 以防止由于液气状态变化而导致的立即爆炸和超压事件?（某些气体/液体可能会发生温度变化和/或会被删除）</Value>
+      <Value>气液状态变化更改: 此存档来自版本0. 2. 4120. 19431或更早版本, 可能与新的大气状态变化系统不兼容. 您是否希望Stationeers尝试修改游戏存档中气体网络, 以防止由于液气状态变化而导致的立即爆炸和超压事件?（某些气体/液体可能会发生温度变化和/或会被删除）</Value>
     </Record>
     <Record>
       <Key>PipeVolumeChangePopup</Key>
-      <Value>管道体积平衡更改：此存档来自版本0. 2. 4120. 19448或更早版本, 可能与管道体积的新平衡更改不兼容. 您是否希望Stationeers尝试修改游戏存档中的气体网络, 以防止由于这些更改而立即发生爆炸和超压事件?（此过程可能会删除某些气体/液体）</Value>
+      <Value>管道体积平衡更改: 此存档来自版本0. 2. 4120. 19448或更早版本, 可能与管道体积的新平衡更改不兼容. 您是否希望Stationeers尝试修改游戏存档中的气体网络, 以防止由于这些更改而立即发生爆炸和超压事件?（此过程可能会删除某些气体/液体）</Value>
     </Record>
     <Record>
       <Key>AttemptToFix</Key>
@@ -21404,7 +21404,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TransactionErrorNonTradable</Key>
-      <Value>库存中存在不可交易的物品：</Value>
+      <Value>库存中存在不可交易的物品: </Value>
     </Record>
     <Record>
       <Key>TransactionFailInventory</Key>
@@ -21544,7 +21544,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>HeatExchangerEnergyTransfer</Key>
-      <Value>换热速率： {LOCAL:EnergyResult}</Value>
+      <Value>换热速率:  {LOCAL:EnergyResult}</Value>
     </Record>
     <Record>
       <Key>FlowRateStatus</Key>
@@ -21596,7 +21596,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>DestinationCode</Key>
-      <Value>目标代码： {LOCAL:Code}</Value>
+      <Value>目标代码:  {LOCAL:Code}</Value>
     </Record>
     <Record>
       <Key>None</Key>
@@ -21628,19 +21628,19 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TimeToImpact</Key>
-      <Value>&lt;color=red&gt;撞击&lt;/color&gt;：</Value>
+      <Value>&lt;color=red&gt;撞击&lt;/color&gt;: </Value>
     </Record>
     <Record>
       <Key>TimeToArrest</Key>
-      <Value>着陆缓冲：</Value>
+      <Value>着陆缓冲: </Value>
     </Record>
     <Record>
       <Key>TimeToArrival</Key>
-      <Value>预计到达时间：</Value>
+      <Value>预计到达时间: </Value>
     </Record>
     <Record>
       <Key>RocketMapIconTooltip</Key>
-      <Value>火箭：&lt;color=green&gt; {LOCAL:name} &lt;/color&gt;</Value>
+      <Value>火箭: &lt;color=green&gt; {LOCAL:name} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>MediumRocketSize</Key>
@@ -21664,23 +21664,23 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>MiningHeadSpeedMultiplierTooltip</Key>
-      <Value>速度倍数：&lt;color=yellow&gt; {LOCAL:Multiplier} &lt;/color&gt;</Value>
+      <Value>速度倍数: &lt;color=yellow&gt; {LOCAL:Multiplier} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>MiningHeadReagentYieldMultiplierTooltip</Key>
-      <Value>材料产出倍数：&lt;color=yellow&gt; {LOCAL:Multiplier} &lt;/color&gt;</Value>
+      <Value>材料产出倍数: &lt;color=yellow&gt; {LOCAL:Multiplier} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>MiningHeadIceYieldMultiplierTooltip</Key>
-      <Value>冰产出倍数：&lt;color=yellow&gt; {LOCAL:Multiplier} &lt;/color&gt;</Value>
+      <Value>冰产出倍数: &lt;color=yellow&gt; {LOCAL:Multiplier} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>MiningHeadHealthMultiplierTooltip</Key>
-      <Value>耐久倍数：&lt;color=yellow&gt; {LOCAL:Multiplier} &lt;/color&gt;</Value>
+      <Value>耐久倍数: &lt;color=yellow&gt; {LOCAL:Multiplier} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>MiningHeadPowerConsuptionSpeedTooltip</Key>
-      <Value>能耗倍数：&lt;color=yellow&gt; {LOCAL:Multiplier} &lt;/color&gt;</Value>
+      <Value>能耗倍数: &lt;color=yellow&gt; {LOCAL:Multiplier} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ChartFailure</Key>
@@ -21972,7 +21972,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RocketLogCharted</Key>
-      <Value>新导航点已测绘： {LOCAL:ChartedName}</Value>
+      <Value>新导航点已测绘:  {LOCAL:ChartedName}</Value>
     </Record>
     <Record>
       <Key>RocketLogDeviceFull</Key>
@@ -22020,7 +22020,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>FailedToLoadGameData</Key>
-      <Value>加载游戏数据失败： {LOCAL:Path}</Value>
+      <Value>加载游戏数据失败:  {LOCAL:Path}</Value>
     </Record>
     <Record>
       <Key>RocketFuselageHasInternals</Key>
@@ -22036,11 +22036,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RocketScanActionInfo</Key>
-      <Value>扫描仪： {LOCAL:OnOff} , 扫描强度： {LOCAL:Strength} , 扫描周期： {LOCAL:CycleTime}</Value>
+      <Value>扫描仪:  {LOCAL:OnOff} , 扫描强度:  {LOCAL:Strength} , 扫描周期:  {LOCAL:CycleTime}</Value>
     </Record>
     <Record>
       <Key>RocketMineActionInfo</Key>
-      <Value>矿机： {LOCAL:OnOff} , 钻头耐久： {LOCAL:HeadQuality} , 下次产量： {LOCAL:Yield} 矿石</Value>
+      <Value>矿机:  {LOCAL:OnOff} , 钻头耐久:  {LOCAL:HeadQuality} , 下次产量:  {LOCAL:Yield} 矿石</Value>
     </Record>
     <Record>
       <Key>RocketScanNoHeadInfo</Key>
@@ -22088,11 +22088,11 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RocketActionMiningTotalOre</Key>
-      <Value>预估矿石量： {LOCAL:Total}</Value>
+      <Value>预估矿石量:  {LOCAL:Total}</Value>
     </Record>
     <Record>
       <Key>RocketActionMiningTotalOreMined</Key>
-      <Value>已开采矿石总量： {LOCAL:Total}</Value>
+      <Value>已开采矿石总量:  {LOCAL:Total}</Value>
     </Record>
     <Record>
       <Key>VeryHighConfidence</Key>
@@ -22132,15 +22132,15 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ConnectedRocketAvionics</Key>
-      <Value>航电系统： {LOCAL:Avionics}</Value>
+      <Value>航电系统:  {LOCAL:Avionics}</Value>
     </Record>
     <Record>
       <Key>ConnectedRocketUplinks</Key>
-      <Value>上行链路： {LOCAL:Uplinks}</Value>
+      <Value>上行链路:  {LOCAL:Uplinks}</Value>
     </Record>
     <Record>
       <Key>ConnectedRocketDownlink</Key>
-      <Value>下行链路： {LOCAL:Downlink}</Value>
+      <Value>下行链路:  {LOCAL:Downlink}</Value>
     </Record>
     <Record>
       <Key>TutorialDisabledTitle</Key>
@@ -22148,7 +22148,7 @@ Stationeers涵盖多重角色：他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TutorialDisabled</Key>
-      <Value>由于核心系统重大更新, 教程已临时禁用. 如需体验教程请切换到测试分支：previous-prephasechange</Value>
+      <Value>由于核心系统重大更新, 教程已临时禁用. 如需体验教程请切换到测试分支: previous-prephasechange</Value>
     </Record>
     <Record>
       <Key>OkayConfirmation</Key>
