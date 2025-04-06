@@ -86,7 +86,7 @@
     </RecordReagent>
     <RecordReagent>
       <Key>Solder</Key>
-      <Value>焊锡</Value>
+      <Value>焊料</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -2677,7 +2677,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     </RecordThing>
     <RecordThing>
       <Key>ItemSolderIngot</Key>
-      <Value>焊锡锭</Value>
+      <Value>焊料锭</Value>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceChemistryStation</Key>
@@ -13755,7 +13755,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ElectronicReaderSolder</Key>
-      <Value>焊锡</Value>
+      <Value>焊料</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderSilicon</Key>
