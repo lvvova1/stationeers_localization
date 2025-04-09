@@ -19297,11 +19297,11 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>GlobalVolume</Key>
-      <Value>体积&lt;color=green&gt; {0} &lt;/color&gt;</Value>
+      <Value>流量&lt;color=green&gt; {0} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalVolumeLitre</Key>
-      <Value>体积&lt;color=green&gt; {0} L&lt;/color&gt;</Value>
+      <Value>流量&lt;color=green&gt; {0} L&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalRadius</Key>
