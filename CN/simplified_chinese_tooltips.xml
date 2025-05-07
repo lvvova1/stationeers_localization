@@ -161,6 +161,10 @@
       <Value>当前健康度</Value>
     </Record>
     <Record>
+      <Key>StatusIconHealthDesc</Key>
+      <Value>健康度低</Value>
+    </Record>
+    <Record>
       <Key>StatusIconHydrationName</Key>
       <Value>当前水分</Value>
     </Record>
