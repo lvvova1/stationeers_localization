@@ -160,6 +160,10 @@
       <Value>Current Health</Value>
     </Record>
     <Record>
+      <Key>StatusIconHealthDesc</Key>
+      <Value>Health is low</Value>
+    </Record>
+    <Record>
       <Key>StatusIconHydrationName</Key>
       <Value>Current Hydration</Value>
     </Record>

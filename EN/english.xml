@@ -3606,23 +3606,255 @@ Note that transformers operate as data isolators, preventing data flowing into a
       <Value>Rocket Engine (Destroyed)</Value>
     </RecordThing>
     <RecordThing>
-      <Key>ItemWreckageConstructor</Key>
-      <Value>Debug Wreckage Constructor</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckage1</Key>
+      <Key>ItemWreckage</Key>
       <Value>Wreckage</Value>
     </RecordThing>
     <RecordThing>
-      <Key>ItemWreckage2</Key>
+      <Key>ItemWreckageAirlock</Key>
       <Value>Wreckage</Value>
     </RecordThing>
     <RecordThing>
-      <Key>ItemWreckage3</Key>
+      <Key>ItemWreckageArcFurnce</Key>
       <Value>Wreckage</Value>
     </RecordThing>
     <RecordThing>
-      <Key>ItemWreckage4</Key>
+      <Key>ItemWreckageAreaPowerControl1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAreaPowerControl2</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAutolathe</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageBin</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageBlastDoor</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCentrifuge1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCentrifuge2</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageChuteExport</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCoalGenerator1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCoalGenerator2</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoor1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoorGlass1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageDoorControlPanel</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElectrolysis</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElectronicPrinter</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElevator</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElevatorLevelFront1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageGasGenerator1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageGasGenerator2</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageH2Combustor1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHalfSteelBumper</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHydroponicsStation</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLargeExtendableRadiator</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLight1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLight2</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckagePowerPiece0</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckagePowerPiece1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageRecycler0</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageRecycler1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSatelliteDish0</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSatelliteDish1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSDBSilo</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSecurityPrinter</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSmallFan</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanelBase</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanelFragment</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanelLarge</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelBar</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelBumper</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCornerSmall</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelFragmentMedium</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelFragmentSmall</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPanel0</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPanel1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPanel2</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPanel3</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPieceMedium</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPlate0</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPlate1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPlate2</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelSlabSmall</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelStrip0</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelStrip1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelStrip2</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageStructureWeatherStation</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine2</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine1</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine2</Key>
+      <Value>Wreckage</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine3</Key>
       <Value>Wreckage</Value>
     </RecordThing>
     <RecordThing>
@@ -4060,7 +4292,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemDebugJetpack</Key>
       <Value>Debug Jetpack</Value>
-      <Description></Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicHydroponics</Key>
@@ -5121,520 +5353,6 @@ Able to store up to 9000001 watts of power, there are no practical limits to its
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemWreckageVendingMachine1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageVendingMachine2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageVendingMachine3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageVendingMachine4</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageArcFurnace1</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageArcFurnace2</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageArcFurnace3</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAreaPowerControl1</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAreaPowerControl2</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAreaPowerControlReversed1</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAreaPowerControlReversed2</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe1</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe6</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel1</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel2</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformer1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformer2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerMedium1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerMedium2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerSmall1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerSmall2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSecurityPrinter1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSecurityPrinter2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSecurityPrinter3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSecurityPrinter4</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSecurityPrinter5</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSecurityPrinter6</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe4</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe5</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe6</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe7</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter4</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter5</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter6</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCentrifuge1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCentrifuge2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCentrifuge3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCentrifuge4</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCentrifuge5</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageGasGenerator1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageGasGenerator2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageVent1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSatelliteDish1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSatelliteDish2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSatelliteDish3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectrolysis1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectrolysis2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLight1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLight2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLightLongAngled1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLightLongAngled2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLightLongWide1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLightLongWide2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWallLightBatteryPowered1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWallLightBatteryPowered2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageRecycler1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageRecycler2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageRecycler3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageRecycler4</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageRecycler5</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageRecycler6</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageFlashingLight1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageFlashingLight2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageActiveVent1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckagePassiveVent1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCoalGenerator1</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCoalGenerator2</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCoalGenerator3</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCoalGenerator4</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageH2Combustor1</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageHydroponicsAutomatic1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageHydroponicsAutomatic2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageHydroponicsAutomatic3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageHydroponicsStation1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageHydroponicsStation2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSDBSilo1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSDBSilo2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSDBSilo3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSDBSilo4</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSDBSilo5</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageShuttleLandingPad1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageShuttleLandingPad2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageShuttleLandingPad3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageShuttleLandingPad4</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageShuttleLandingPad5</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageBlastDoor1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageBlastDoor2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCompositeDoor1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCompositeDoor2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCompositeDoor3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAirlock1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAirlock2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCompositeDoorGlass1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCompositeDoorGlass2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElevatorShaftIndustrial1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElevatorShaftIndustrial2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElevatorShaftIndustrial3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElevatorLevelFront1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElevatorLevelFront2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>ItemKitHarvie</Key>
       <Value>Kit (Harvie)</Value>
       <Description />
@@ -5657,11 +5375,6 @@ Able to store up to 9000001 watts of power, there are no practical limits to its
     <RecordThing>
       <Key>StructureBlocker</Key>
       <Value>Blocker</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageHydroponicsTray1</Key>
-      <Value>Wreckage</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5728,46 +5441,6 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>Flag_ODA_4m</Key>
       <Value>Flag (ODA 4m)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureRTG1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTurbineGenerator1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTurbineGenerator2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTurbineGenerator3</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAirConditioner1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAirConditioner2</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWallCooler1</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWallCooler2</Key>
-      <Value>Wreckage</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5952,71 +5625,6 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
       <Key>StructurePipeLiquidTJunction</Key>
       <Value>Liquid Pipe (T Junction)</Value>
       <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidTJunction} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine001</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine002</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine003</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine004</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine005</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation001</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation002</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation003</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation004</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation005</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation006</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation007</Key>
-      <Value>Wreckage</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation008</Key>
-      <Value>Wreckage</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottle</Key>
@@ -7111,11 +6719,6 @@ The transmitter must be aligned to the base station in order to transmit any pow
       <Key>StructureLargeExtendableRadiator</Key>
       <Value>Large Extendable Radiator</Value>
       <Description>Optimized for radiating heat in vacuum and low pressure environments. If pointed at the sun it will heat its contents rapidly via solar heating. The panels can fold away to stop all heat radiation/solar heating and protect them from storms.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLargeExtendableRadiator01</Key>
-      <Value>Wreckage</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerPoweredBottom</Key>
@@ -9313,74 +8916,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>HARM Helmet</Value>
     </RecordThing>
     <RecordThing>
-      <Key>ItemWreckageCoalGenerator5</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCoalGenerator6</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel10</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel11</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel12</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel4</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel5</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel6</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel7</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel8</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel9</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerMedium3</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerMedium4</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerMedium5</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerMedium6</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerSmall3</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerSmall4</Key>
-      <Value>Wreckage</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>MonsterEgg</Key>
       <Value>Monster Egg</Value>
     </RecordThing>
@@ -9789,6 +9324,30 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>HopperSlot</Key>
       <Value>Hopper Slot</Value>
+    </Record>
+    <Record>
+      <Key>Wreckage</Key>
+      <Value>Wreckage</Value>
+    </Record>
+    <Record>
+      <Key>Appliance</Key>
+      <Value>Appliance</Value>
+    </Record>
+    <Record>
+      <Key>SoundCartridge</Key>
+      <Value>SoundCartridge</Value>
+    </Record>
+    <Record>
+      <Key>LiquidBottle</Key>
+      <Value>Water Bottle</Value>
+    </Record>
+    <Record>
+      <Key>Bottle</Key>
+      <Value>Spray Can</Value>
+    </Record>
+    <Record>
+      <Key>Flare</Key>
+      <Value>Flare</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -16190,6 +15749,14 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Sidereal Period</Value>
     </Record>
     <Record>
+      <Key>StationpediaGrowthParameters</Key>
+      <Value>Growth Parameters</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaGeneInfoTitle</Key>
+      <Value>Gene:</Value>
+    </Record>
+    <Record>
       <Key>StationpediaConstructableInRockets</Key>
       <Value>Constructable In Rockets:</Value>
     </Record>
@@ -17184,6 +16751,310 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>TradingSoldOut</Key>
       <Value>Sold Out</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyDescriptionCreative</Key>
+      <Value>Access item spawning functions and no resource usage. You will survive forever in toxic environments. Respawning is no issue</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyDescriptionEasy</Key>
+      <Value>A more relaxed game, with lower oxygen, food and water usage. You will survive longer in toxic environments. Respawning is no issue</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyDescriptionNormal</Key>
+      <Value>You will need to work hard to keep yourself alive. Planning into the future is key for survival, as food, water, and oxygen may be in short supply. Respawning will only provide you with limited equipment</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyDescriptionStationeer</Key>
+      <Value>A challenging experience. You will need vast life support and hydroponic systems to stay alive. One wrong breath may kill you. You respawn with no suit, and no equipment</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyCreative</Key>
+      <Value>Creative</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyEasy</Key>
+      <Value>Easy</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyNormal</Key>
+      <Value>Normal</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStationeer</Key>
+      <Value>Stationeer</Value>
+    </Record>
+    <Record>
+      <Key>WorldRatingBeginner</Key>
+      <Value>Beginner</Value>
+    </Record>
+    <Record>
+      <Key>WorldRatingIntermediate</Key>
+      <Value>Intermediate</Value>
+    </Record>
+    <Record>
+      <Key>WorldRatingChallenging</Key>
+      <Value>Challenging</Value>
+    </Record>
+    <Record>
+      <Key>WorldRatingExtreme</Key>
+      <Value>Extreme</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyEarth</Key>
+      <Value>Earth</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyMoon</Key>
+      <Value>Moon</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodySol</Key>
+      <Value>Sol</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyJanus</Key>
+      <Value>Janus</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyJupiter</Key>
+      <Value>Jupiter</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodySaturn</Key>
+      <Value>Saturn</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataFuelTank</Key>
+      <Value>Fuel Tank</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataOxygenTank</Key>
+      <Value>Oxygen Tank</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataNitrogenTank</Key>
+      <Value>Nitrogen Tank</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataLiquidNitrogenTank</Key>
+      <Value>Liquid Nitrogen Tank</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataLiquidOxygenTank</Key>
+      <Value>Liquid Oxygen Tank</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataLiquidVolatilesTank</Key>
+      <Value>Liquid Volatiles Tank</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataWaterTank</Key>
+      <Value>Water Tank</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataLanderCapsule</Key>
+      <Value>Lander Capsule</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataCapsuleDoor</Key>
+      <Value>Lander Capsule Door</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataConstructionSupplies</Key>
+      <Value>Construction Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataElectricalSupplies</Key>
+      <Value>Electrical Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataStirlingEngineSupplies</Key>
+      <Value>Stirling Engine Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataStirlingEngineGas</Key>
+      <Value>Stirling Engine Gas</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataAirlockSupplies</Key>
+      <Value>Airlock Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataAdvancedAirlockSupplies</Key>
+      <Value>Advanced Airlock Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataSurvivalSupplies</Key>
+      <Value>Survival Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataLiquidCO2Canister</Key>
+      <Value>Liquid Co2</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataOxygenCanister</Key>
+      <Value>Oxygen Canister</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataVolatilesCanister</Key>
+      <Value>Volatiles Canister</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataHydroponicsSupplies</Key>
+      <Value>Hydroponics Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataAtmosphericsSupplies</Key>
+      <Value>Atmospherics Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataTradingSupplies</Key>
+      <Value>Trading Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataMinimumSupplies</Key>
+      <Value>Minimum Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataRocketSupplies</Key>
+      <Value>Rocket Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataIngots</Key>
+      <Value>Ingots</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataProductionPackage</Key>
+      <Value>Production Package</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataSolarPowerPackage</Key>
+      <Value>Solar Power Package</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataHybridPowerPackage</Key>
+      <Value>Hybrid Power Package</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataGasPowerPackage</Key>
+      <Value>Gas Power Package</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataFuelCanister</Key>
+      <Value>Fuel Canister</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataWaterCanister</Key>
+      <Value>Water Canister</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataPortableGeneratorPackage</Key>
+      <Value>Portable Generator Package</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataPortableScrubberPackage</Key>
+      <Value>Portable Scrubber Package</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataPortableACPackage</Key>
+      <Value>Portable Air Conditioner Package</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataCoolantCanister</Key>
+      <Value>Coolant Canister</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataEggCartonFertilized</Key>
+      <Value>Egg Carton (Fertilized)</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataMiningSupplies</Key>
+      <Value>Mining Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataPneumaticFuel</Key>
+      <Value>Pneumatic Fuel</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataH2CombustorSupplies</Key>
+      <Value>H2 Combustor Supplies</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataRocketManufactoryPackage</Key>
+      <Value>Rocket Manufactory Package</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataPropellentCanister</Key>
+      <Value>Propellent Canister</Value>
+    </Record>
+    <Record>
+      <Key>InputPanelSearchPlaceHolderText</Key>
+      <Value>Search Filter</Value>
+    </Record>
+    <Record>
+      <Key>AirControlTitle</Key>
+      <Value>AIR CONTROL</Value>
+    </Record>
+    <Record>
+      <Key>AirControlSetupTitle</Key>
+      <Value>AIR CONTROL SETUP</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardHashDisplayConfigTitle</Key>
+      <Value>HASH DISPLAY SETUP</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardGraphDisplayConfigTitle</Key>
+      <Value>GRAPH DISPLAY SETUP</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardAdvAirlockConfigTitle</Key>
+      <Value>ADV AIRLOCK SETUP</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardAirlockConfigTitle</Key>
+      <Value>AIRLOCK SETUP</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardDoorControlConfigTitle</Key>
+      <Value>DOOR CONTROL SETUP</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardGasDisplayConfigTitle</Key>
+      <Value>GAS DISPLAY SETUP</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardModeControlConfigTitle</Key>
+      <Value>MODE CONTROL SETUP</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardPowerControlConfigTitle</Key>
+      <Value>POWER CONTROL SETUP</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControlConfigTitle</Key>
+      <Value>SOLAR CONTROL SETUP</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControlTitle</Key>
+      <Value>CONSOLE</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControlVerticalTitle</Key>
+      <Value>VERTICAL</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControlHorizontalTitle</Key>
+      <Value>HORIZONTAL</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControlGenerated</Key>
+      <Value>GENERATED</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSolarControlConnected</Key>
+      <Value>CONNECTED</Value>
     </Record>
   </Interface>
   <Colors>
@@ -22485,6 +22356,848 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>RoomTypeHydroponics</Key>
       <Value>Hydroponics</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSearch</Key>
+      <Value>Search</Value>
+    </Record>
+    <Record>
+      <Key>HeaderCreativeSpawnMenu</Key>
+      <Value>Creative Spawn Menu</Value>
+    </Record>
+    <Record>
+      <Key>EnabledLower</Key>
+      <Value>enabled</Value>
+    </Record>
+    <Record>
+      <Key>DisabledLower</Key>
+      <Value>disabled</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthDays</Key>
+      <Value> days, </Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthHours</Key>
+      <Value> hours, </Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMinutes</Key>
+      <Value> minutes, </Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthSeconds</Key>
+      <Value> seconds</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyValuePeriod</Key>
+      <Value>{LOCAL:Type} period {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyValueStatusAre</Key>
+      <Value>{LOCAL:Type} are {LOCAL:Status}</Value>
+    </Record>
+    <Record>
+      <Key>AltitudeDescription</Key>
+      <Value>The altitude that the rocket above the planet's surface. -1 if the rocket is in space.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTargetSlotIndex</Key>
+      <Value>The slot index that the target device that this device will try to interact with</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTargetPrefabHash</Key>
+      <Value>The prefab</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionExtended</Key>
+      <Value>Extended</Value>
+    </Record>
+    <Record>
+      <Key>AchievementUnlocked</Key>
+      <Value>Achievement '{LOCAL:Name}' unlocked</Value>
+    </Record>
+    <Record>
+      <Key>InteractableActionToState</Key>
+      <Value>Set {LOCAL:InteractableAction} {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>StructureIsCompleted</Key>
+      <Value>Must be fully constructed</Value>
+    </Record>
+    <Record>
+      <Key>StructureCanManufacture</Key>
+      <Value>BuildState can manufacture</Value>
+    </Record>
+    <Record>
+      <Key>PlantRecordCondition</Key>
+      <Value>{LOCAL:StatusType} record must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>PlantStatusCondition</Key>
+      <Value>{LOCAL:StatusType} status must be {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>GrowthStateCondition</Key>
+      <Value>Growth state must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>PreSpawnedCondition</Key>
+      <Value>Was pre-spawned: {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>HumanCondition</Key>
+      <Value>Player is {LOCAL:IsOnline} {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureComparableCondition</Key>
+      <Value>Temperature must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializeTerraformingValues</Key>
+      <Value>Deserializing Terraforming values</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingWorldObjectives</Key>
+      <Value>Deserializing World Objectives</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingTerrain</Key>
+      <Value>Loading Terrain Data</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenSeedingMinables</Key>
+      <Value>Seeding Minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenGeneratingMinables</Key>
+      <Value>Generating Minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenValidatingMinables</Key>
+      <Value>Validating Minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRegisteringMinables</Key>
+      <Value>Registering Minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenApplyingMinedMinables</Key>
+      <Value>Minable Deltas</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenPreparingTerrain</Key>
+      <Value>Preparing Terrain</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorAuthorInfo</Key>
+      <Value>Created by &lt;color=white&gt;{LOCAL:Author}&lt;/color&gt;
+{LOCAL:Description}</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorLoadTitle</Key>
+      <Value>Load Instructions</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorLoadDescription</Key>
+      <Value>Are you sure you want to load this script into your computer? This will replace whatever is on screen.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorOverwriteTitle</Key>
+      <Value>Overwrite Instructions</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorOverwriteDescription</Key>
+      <Value>Are you sure you want to overwrite this script with the data you have on the computer screen? This will replace what is in your source code library.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorPublishTitle</Key>
+      <Value>Publish Instructions</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorPublishDescription</Key>
+      <Value>Are you sure you want to publish this instruction set to the Steam Workshop?</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorDeleteTitle</Key>
+      <Value>Delete Instructions</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorDeleteDescription</Key>
+      <Value>Are you sure you want to delete this script from the library? You cannot undo this.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorInstructionCancelled</Key>
+      <Value>Instructions list query cancelled</Value>
+    </Record>
+    <Record>
+      <Key>InputKPA</Key>
+      <Value>Input &lt;color=green&gt;{0} kPa&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>InputVolumeRatio</Key>
+      <Value>Input fullness &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmBusy</Key>
+      <Value>Currently busy</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmObstructed</Key>
+      <Value>The arm is obstructed</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmCantSetPositionWhenClosed</Key>
+      <Value>Can't change position when bypassed</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmJunction</Key>
+      <Value>Station {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmTargetIndex</Key>
+      <Value>Target Index {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmCargoSetSlotIndex</Key>
+      <Value>Slot Index {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmSetStartingDock</Key>
+      <Value>Set starting dock</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmFull</Key>
+      <Value>The arm's storage is full</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmEmpty</Key>
+      <Value>The arm's storage is empty</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmExtended</Key>
+      <Value>Extended</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmMoving</Key>
+      <Value>Moving</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmDocked</Key>
+      <Value>Docked</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmFaceBlocked</Key>
+      <Value>Arm action blocked</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmFaceBlockedInfo</Key>
+      <Value>Arm action blocked. Not enough room for arm to extend</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmIdle</Key>
+      <Value>Idle</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmPosition</Key>
+      <Value>Position {LOCAL:Position}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmIndex</Key>
+      <Value>Destination Index {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmState</Key>
+      <Value>State {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmVentDirection</Key>
+      <Value>Vent Direction {LOCAL:direction}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmArmDisplayStateHasSpace</Key>
+      <Value>Storage Available</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmArmDisplayStateFull</Key>
+      <Value>Storage Full</Value>
+    </Record>
+    <Record>
+      <Key>TargetSlotInfo</Key>
+      <Value>Targeting {LOCAL:SlotName} {LOCAL:Occupant}</Value>
+    </Record>
+    <Record>
+      <Key>TargetSlot</Key>
+      <Value>Target Slot</Value>
+    </Record>
+    <Record>
+      <Key>Proxy</Key>
+      <Value>Proxy</Value>
+    </Record>
+    <Record>
+      <Key>SizeTwoDCondition</Key>
+      <Value>Size must be {LOCAL:Condition} {LOCAL:SizeX} x {LOCAL:SizeY}</Value>
+    </Record>
+    <Record>
+      <Key>BuildNetworkCondition</Key>
+      <Value>Build a {LOCAL:NetworkType} network</Value>
+    </Record>
+    <Record>
+      <Key>TraderContactCondition</Key>
+      <Value>{LOCAL:Action} a trader contact</Value>
+    </Record>
+    <Record>
+      <Key>ResolveAction</Key>
+      <Value>Resolve</Value>
+    </Record>
+    <Record>
+      <Key>InterrogateAction</Key>
+      <Value>Interrogate</Value>
+    </Record>
+    <Record>
+      <Key>LandAction</Key>
+      <Value>Land</Value>
+    </Record>
+    <Record>
+      <Key>PressureCondition</Key>
+      <Value>Pressure must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CreateThingCondition</Key>
+      <Value>Create a {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureCondition</Key>
+      <Value>Partial pressure {LOCAL:GasType} must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintExpand</Key>
+      <Value>Expand</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintCollapse</Key>
+      <Value>Collapse</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintDismiss</Key>
+      <Value>Dismiss</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintRestore</Key>
+      <Value>Restore</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintOpenStationpedia</Key>
+      <Value>Open Stationpedia</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintCreateThingCondition</Key>
+      <Value>Create a &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt;</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintContainsItem</Key>
+      <Value>Contains a &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt;</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintContainsItemInSlot</Key>
+      <Value>Contains a &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt; in the &lt;color=orange&gt;{LOCAL:SlotName}&lt;/color&gt; slot</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintRoomState</Key>
+      <Value>In a &lt;color=yellow&gt;{LOCAL:RoomType}&lt;/color&gt; room</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintAnyRoomState</Key>
+      <Value>Build a room</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintQuantityComparison</Key>
+      <Value>Quantity {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintPressureCondition</Key>
+      <Value>Pressure must be {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintRatioMustBeComparison</Key>
+      <Value> ratio must be {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintMustBeComparison</Key>
+      <Value> must be {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintPartialPressure</Key>
+      <Value>Partial pressure </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintDecayComparison</Key>
+      <Value>Decay {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintSpeciesState</Key>
+      <Value>Player Species </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintContainsComparison</Key>
+      <Value>Contains {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintHumanCondition</Key>
+      <Value>todo</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintInCellCondition</Key>
+      <Value>Thing is in cell: {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>NoRocketCargoBay</Key>
+      <Value>This Rocket has no cargo bay to deploy from</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployActionInfo</Key>
+      <Value>Cargo Bay: {LOCAL:OnOff}, State: {LOCAL:Open}, Progress: {LOCAL:Progress}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialYouDied</Key>
+      <Value>You Died</Value>
+    </Record>
+    <Record>
+      <Key>TutorialExitToMainMenu</Key>
+      <Value>Exit to Main Menu</Value>
+    </Record>
+    <Record>
+      <Key>RoomState</Key>
+      <Value>in a {LOCAL:RoomType}</Value>
+    </Record>
+    <Record>
+      <Key>BrutalStartConditionDescription</Key>
+      <Value>The bare minimum to survive</Value>
+    </Record>
+    <Record>
+      <Key>StartScreenHeaderInWorldSpawns</Key>
+      <Value>In-World Spawns</Value>
+    </Record>
+    <Record>
+      <Key>StartScreenHeaderPlayerLandingCapsule</Key>
+      <Value>Player Landing Capsule</Value>
+    </Record>
+    <Record>
+      <Key>ObjectiveIsCompletedCondition</Key>
+      <Value>{LOCAL:Objective} must first be completed</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeOn</Key>
+      <Value>Switch on</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeOff</Key>
+      <Value>Switch off</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeOpen</Key>
+      <Value>Must be open</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeClosed</Key>
+      <Value>Must be closed</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBePowered</Key>
+      <Value>Must be powered</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeUnpowered</Key>
+      <Value>Must be unpowered</Value>
+    </Record>
+    <Record>
+      <Key>CustomNameCondition</Key>
+      <Value>Name must be &lt;color=green&gt;{LOCAL:Name}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>RoomMinSizeCondition</Key>
+      <Value>Size greater than &lt;color=green&gt;{LOCAL:Size}&lt;/color&gt; grids</Value>
+    </Record>
+    <Record>
+      <Key>RoomMaxSizeCondition</Key>
+      <Value>Size less than &lt;color=green&gt;{LOCAL:Size}&lt;/color&gt; grids</Value>
+    </Record>
+    <Record>
+      <Key>Infinity</Key>
+      <Value>Infinity</Value>
+    </Record>
+    <Record>
+      <Key>SurvivalPropertyCondition</Key>
+      <Value>{LOCAL:Property} {LOCAL:ComparisonOperator} {LOCAL:PercentValue}</Value>
+    </Record>
+    <Record>
+      <Key>AtmosphereModeCondition</Key>
+      <Value>Target atmosphere is {LOCAL:Mode}</Value>
+    </Record>
+    <Record>
+      <Key>NoneSelected</Key>
+      <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>CarbonDioxideRatio</Key>
+      <Value>CarbonDioxide Ratio &lt;color=green&gt;{LOCAL:Ratio}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>StressedToFailure</Key>
+      <Value>&lt;color=red&gt;Stressed To Failure &lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>MachineTemperature</Key>
+      <Value>Machine Temperature</Value>
+    </Record>
+    <Record>
+      <Key>DispersalTowerNotEnoughPressure</Key>
+      <Value>The InternalPressure must be above {LOCAL:Target}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticCreativeMode</Key>
+      <Value>Creative mode</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticAchievements</Key>
+      <Value>Achievements</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticWeatherDamage</Key>
+      <Value>Weather damage</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticCalmWeather</Key>
+      <Value>Calm weather</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMetabolism</Key>
+      <Value>Metabolism</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHungerRate</Key>
+      <Value>Nutrition</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHydrationRate</Key>
+      <Value>Hydration</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticBreathing</Key>
+      <Value>Breathing</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticRobotBattery</Key>
+      <Value>Robot battery</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMoonReduction</Key>
+      <Value>Moon reduction</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHygeineReduction</Key>
+      <Value>Hygiene reduction</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticFoodDecay</Key>
+      <Value>Food decay</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticJetpackConsumption</Key>
+      <Value>Jetpack consumption</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMining</Key>
+      <Value>Mining</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticLungDamage</Key>
+      <Value>Lung damage</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticOfflineMetabolism</Key>
+      <Value>Offline metabolism</Value>
+    </Record>
+    <Record>
+      <Key>DownlinkConnectedToNothing</Key>
+      <Value>No connection</Value>
+    </Record>
+    <Record>
+      <Key>DownlinkConnectedTo</Key>
+      <Value>Connected to </Value>
+    </Record>
+    <Record>
+      <Key>AvionicsDeviceParentRocket</Key>
+      <Value>Parent {LOCAL:RocketName}</Value>
+    </Record>
+    <Record>
+      <Key>AvionicsDeviceRocketMass</Key>
+      <Value>Mass {LOCAL:Mass}</Value>
+    </Record>
+    <Record>
+      <Key>AvionicsDeviceRocketWeight</Key>
+      <Value>Weight {LOCAL:Weight}</Value>
+    </Record>
+    <Record>
+      <Key>AvionicsDeviceRocketThrustToWeight</Key>
+      <Value>Thrust to Weight {LOCAL:ThrustToWeight}</Value>
+    </Record>
+    <Record>
+      <Key>MolesPerHour</Key>
+      <Value>{LOCAL:Value} Moles per hour</Value>
+    </Record>
+    <Record>
+      <Key>InhaledGassesStationpedia</Key>
+      <Value>Inhaled Gasses</Value>
+    </Record>
+    <Record>
+      <Key>ExhaledGassesStationpedia</Key>
+      <Value>Exhaled Gasses</Value>
+    </Record>
+    <Record>
+      <Key>ToxicGassesStatiopedia</Key>
+      <Value>Toxic Gasses</Value>
+    </Record>
+    <Record>
+      <Key>StartGameFailurePromptTitle</Key>
+      <Value>Failure</Value>
+    </Record>
+    <Record>
+      <Key>StartGameFailurePromptEmptyName</Key>
+      <Value>Can not create a new save with empty name</Value>
+    </Record>
+    <Record>
+      <Key>StartGameFailurePromptNameExists</Key>
+      <Value>A save already exists with this name</Value>
+    </Record>
+    <Record>
+      <Key>OverwriteConfirmation</Key>
+      <Value>Overwrite</Value>
+    </Record>
+    <Record>
+      <Key>JetpackStabilizerState</Key>
+      <Value>Stabilizer {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>MiningDrillModeDefault</Key>
+      <Value>Default</Value>
+    </Record>
+    <Record>
+      <Key>MiningDrillModeFlatten</Key>
+      <Value>Flatten</Value>
+    </Record>
+    <Record>
+      <Key>FlashLightModeLowPower</Key>
+      <Value>Low Power</Value>
+    </Record>
+    <Record>
+      <Key>FlashLightModeHighPower</Key>
+      <Value>High Power</Value>
+    </Record>
+    <Record>
+      <Key>VentDirectionInward</Key>
+      <Value>Inward</Value>
+    </Record>
+    <Record>
+      <Key>VentDirectionOutward</Key>
+      <Value>Outward</Value>
+    </Record>
+    <Record>
+      <Key>InputPanelSelectRecipe</Key>
+      <Value>Select Recipe</Value>
+    </Record>
+    <Record>
+      <Key>GasTemperature</Key>
+      <Value>Temperature: {LOCAL:Value}K</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmInvalid</Key>
+      <Value>Invalid</Value>
+    </Record>
+    <Record>
+      <Key>RadiatorHeatingEfficiency</Key>
+      <Value>Heating Efficiency {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>ThingHealth</Key>
+      <Value>Health {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CannotPlaceOutsideRocket</Key>
+      <Value>Cannot place outside of a rocket</Value>
+    </Record>
+    <Record>
+      <Key>DamageTypeDecay</Key>
+      <Value>Decay</Value>
+    </Record>
+    <Record>
+      <Key>DamageTypeDamage</Key>
+      <Value>Damage</Value>
+    </Record>
+    <Record>
+      <Key>And</Key>
+      <Value> and </Value>
+    </Record>
+    <Record>
+      <Key>AdvancedComposterCurrentlyProcessing</Key>
+      <Value>Currently processing...</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedComposterItemsLeftToGrind</Key>
+      <Value>Items left to grind: {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedComposterItemsLeftToProcess</Key>
+      <Value>Items left to process: {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CableAnalyserActual</Key>
+      <Value>Actual {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CableAnalyserRequired</Key>
+      <Value>Required {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CableAnalyserPotential</Key>
+      <Value>Potential {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CableAnalyserNoCableNetworkFound</Key>
+      <Value>No cable network found</Value>
+    </Record>
+    <Record>
+      <Key>EntityDehydrated</Key>
+      <Value>Dehydrated</Value>
+    </Record>
+    <Record>
+      <Key>EntityWheezing</Key>
+      <Value>Wheezing</Value>
+    </Record>
+    <Record>
+      <Key>EntityHungry</Key>
+      <Value>Hungry</Value>
+    </Record>
+    <Record>
+      <Key>EntityHurt</Key>
+      <Value>Hurt</Value>
+    </Record>
+    <Record>
+      <Key>AirControlStatusOffline</Key>
+      <Value>OFFLINE</Value>
+    </Record>
+    <Record>
+      <Key>AirControlStatusPressure</Key>
+      <Value>PRESSURE</Value>
+    </Record>
+    <Record>
+      <Key>AirControlStatusDraught</Key>
+      <Value>DRAUGHT</Value>
+    </Record>
+    <Record>
+      <Key>AirControlStatusError</Key>
+      <Value>ERROR</Value>
+    </Record>
+    <Record>
+      <Key>AirControlModeButton</Key>
+      <Value>Mode
+&lt;b&gt;{LOCAL:Value}&lt;/b&gt;</Value>
+    </Record>
+    <Record>
+      <Key>AirControlVent</Key>
+      <Value>VENT</Value>
+    </Record>
+    <Record>
+      <Key>AirControlSensor</Key>
+      <Value>SENSOR</Value>
+    </Record>
+    <Record>
+      <Key>AirControlModeOffline</Key>
+      <Value>Offline</Value>
+    </Record>
+    <Record>
+      <Key>AirControlModeDraught</Key>
+      <Value>Draught</Value>
+    </Record>
+    <Record>
+      <Key>AirControlModePressure</Key>
+      <Value>Pressure</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardMasterLabel</Key>
+      <Value>MASTER</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSlaveLabel</Key>
+      <Value>SLAVE</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardMakeSlaveLabel</Key>
+      <Value>MAKE SLAVE</Value>
+    </Record>
+    <Record>
+      <Key>InputPanelFilterDevicesTitle</Key>
+      <Value>Filter Devices</Value>
+    </Record>
+    <Record>
+      <Key>SolarControlPanelsCount</Key>
+      <Value>{LOCAL:Value} PANELS</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModeButton</Key>
+      <Value>Mode: &lt;b&gt;{LOCAL:Value}&lt;/b&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModeTitlePressure</Key>
+      <Value>PRESSURE</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModeTitleTemperature</Key>
+      <Value>TEMPERATURE</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModePressure</Key>
+      <Value>Pressure</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModeTemperature</Key>
+      <Value>Temperature</Value>
+    </Record>
+    <Record>
+      <Key>NaN</Key>
+      <Value>NaN</Value>
+    </Record>
+    <Record>
+      <Key>AirlockErrorState</Key>
+      <Value>ERROR</Value>
+    </Record>
+    <Record>
+      <Key>AirlockInConfigString</Key>
+      <Value>IN CONFIG</Value>
+    </Record>
+    <Record>
+      <Key>AirlockCancelButton</Key>
+      <Value>CANCEL</Value>
+    </Record>
+    <Record>
+      <Key>AirlockPressurize</Key>
+      <Value>PRESURIZE</Value>
+    </Record>
+    <Record>
+      <Key>AirlockDepressurize</Key>
+      <Value>DEPRESSURIZE</Value>
+    </Record>
+    <Record>
+      <Key>AirlockCycle</Key>
+      <Value>CYCLE</Value>
+    </Record>
+    <Record>
+      <Key>AirlockToExterior</Key>
+      <Value>TO EXTERIOR</Value>
+    </Record>
+    <Record>
+      <Key>AirlockToInterior</Key>
+      <Value>TO INTERIOR</Value>
     </Record>
   </GameStrings>
   <GameTip />
