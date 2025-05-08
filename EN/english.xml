@@ -15813,6 +15813,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Speed:</Value>
     </Record>
     <Record>
+      <Key>StationpediaPowerMultiplierTitle</Key>
+      <Value>Power Use:</Value>
+    </Record>
+    <Record>
       <Key>StationpediaReagentYieldMultiplierTitle</Key>
       <Value>Ore Yield:</Value>
     </Record>
@@ -17055,6 +17059,46 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>CircuitboardSolarControlConnected</Key>
       <Value>CONNECTED</Value>
+    </Record>
+    <Record>
+      <Key>DustStorm</Key>
+      <Value>Dust Storm</Value>
+    </Record>
+    <Record>
+      <Key>SnowStorm</Key>
+      <Value>Snow Storm</Value>
+    </Record>
+    <Record>
+      <Key>AshStorm</Key>
+      <Value>Ash Storm</Value>
+    </Record>
+    <Record>
+      <Key>RainWeather</Key>
+      <Value>Rain</Value>
+    </Record>
+    <Record>
+      <Key>SnowWeather</Key>
+      <Value>Snow</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramPressureTitle</Key>
+      <Value>Pressure</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramTemperatureTitle</Key>
+      <Value>Temperature</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramSolid</Key>
+      <Value>Solid</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramLiquid</Key>
+      <Value>Liquid</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramGas</Key>
+      <Value>Gas</Value>
     </Record>
   </Interface>
   <Colors>
@@ -23198,6 +23242,162 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>AirlockToInterior</Key>
       <Value>TO INTERIOR</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlActive</Key>
+      <Value>ACTIVE</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlInactive</Key>
+      <Value>INACTIVE</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlMode</Key>
+      <Value>MODE</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlToggle</Key>
+      <Value>TOGGLE</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlPower</Key>
+      <Value>POWER</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlPowerOff</Key>
+      <Value>OFF</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlPowerOn</Key>
+      <Value>ON</Value>
+    </Record>
+    <Record>
+      <Key>SolarPanelEfficiency</Key>
+      <Value>Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateMax</Key>
+      <Value>Max</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateInwardsLimited</Key>
+      <Value>Inwards Limited</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateInwardsVeryLimited</Key>
+      <Value>Inwards Very Limited</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateOutwardsLimited</Key>
+      <Value>Outwards Limited</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateOutwardsVeryLimited</Key>
+      <Value>Outwards Very Limited</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateIdle</Key>
+      <Value>Idle</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizingInternal</Key>
+      <Value>Pressurizing Internal</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizedInternal</Key>
+      <Value>Pressurized Internal</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStateDepressurizingInternal</Key>
+      <Value>Depressurizing Internal</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizingExternal</Key>
+      <Value>Pressurizing External</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizedExternal</Key>
+      <Value>Pressurized External</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStateDepressurizingExternal</Key>
+      <Value>Depressurizing External</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateDisabled</Key>
+      <Value>Disabled</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStatePressurizing</Key>
+      <Value>Pressurizing</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStatePressurized</Key>
+      <Value>Pressurized</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateDepressurizing</Key>
+      <Value>Depressurizing</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateDepressurized</Key>
+      <Value>Depressurized</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateOverrideCount</Key>
+      <Value>Override Count</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateOverride</Key>
+      <Value>Override</Value>
+    </Record>
+    <Record>
+      <Key>IngotTypeBasic</Key>
+      <Value>Basic</Value>
+    </Record>
+    <Record>
+      <Key>IngotTypeAlloy</Key>
+      <Value>Alloy</Value>
+    </Record>
+    <Record>
+      <Key>IngotTypeSuperAlloy</Key>
+      <Value>Super Alloy</Value>
+    </Record>
+    <Record>
+      <Key>SPDASlotType</Key>
+      <Value>Type: </Value>
+    </Record>
+    <Record>
+      <Key>SPDASlotIndex</Key>
+      <Value>Index: </Value>
+    </Record>
+    <Record>
+      <Key>SPDAManufacturerRequirements</Key>
+      <Value>Requirements:</Value>
+    </Record>
+    <Record>
+      <Key>RecipeEnergy</Key>
+      <Value>Energy</Value>
+    </Record>
+    <Record>
+      <Key>RecipeReagentFrom</Key>
+      <Value> from </Value>
+    </Record>
+    <Record>
+      <Key>RecipeTemperatureRangeSeporator</Key>
+      <Value> to </Value>
+    </Record>
+    <Record>
+      <Key>ConstructableInRocketsTrue</Key>
+      <Value>True</Value>
+    </Record>
+    <Record>
+      <Key>YesPaintable</Key>
+      <Value>Yes</Value>
+    </Record>
+    <Record>
+      <Key>NoPaintable</Key>
+      <Value>No</Value>
     </Record>
   </GameStrings>
   <GameTip />

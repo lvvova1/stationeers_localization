@@ -692,7 +692,7 @@ Suits contains 6-8 slots:
 - Air tank (x1) - insert a canister or smart canister containing a breathable gas mix, eg {GAS:Oxygen} or {GAS:Nitrogen}/{GAS:Oxygen} 35/65.
 - Waste tank (x1) - collects gases removed by the filters
 - Life support (x1) - holds one battery, which powers your A/C, lights, etc.
-- {SLOT:GasFilter} (x3) - requires at least one {SLOT:ItemGasFilterCarbonDioxide} (if human), depending on your breathable gas mix. Note that a {THING:ItemHardSuit} has 4 filter slots.
+- {SLOT:GasFilter} (x3) - requires at least one {THING:ItemGasFilterCarbonDioxide} (if human), depending on your breathable gas mix. Note that a {THING:ItemHardSuit} has 4 filter slots.
 - IC - {THING:ItemHardSuit} only.
 
 Pressure: should be set to 50-100 KPa (0.5 to 1 Earth atmospheres). Humans in-game tolerate up to ~250kPa and can survive up to ~300kPA.
