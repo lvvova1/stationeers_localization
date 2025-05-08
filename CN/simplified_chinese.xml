@@ -8982,7 +8982,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>GasCanister</Key>
-      <Value>气罐</Value>
+      <Value>气瓶</Value>
     </Record>
     <Record>
       <Key>GasFilter</Key>
@@ -15051,7 +15051,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>MinLiquidPressure</Key>
-      <Value>临界压力:</Value>
+      <Value>最低液化压力:</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructedFrom</Key>
@@ -15717,6 +15717,10 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>StationpediaSpeedMultiplierTitle</Key>
       <Value>速度:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPowerMultiplierTitle</Key>
+      <Value>电力消耗:</Value>
     </Record>
     <Record>
       <Key>StationpediaReagentYieldMultiplierTitle</Key>
@@ -16961,6 +16965,46 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>CircuitboardSolarControlConnected</Key>
       <Value>已连接</Value>
+    </Record>
+    <Record>
+      <Key>DustStorm</Key>
+      <Value>沙尘暴</Value>
+    </Record>
+    <Record>
+      <Key>SnowStorm</Key>
+      <Value>暴风雪</Value>
+    </Record>
+    <Record>
+      <Key>AshStorm</Key>
+      <Value>火风暴</Value>
+    </Record>
+    <Record>
+      <Key>RainWeather</Key>
+      <Value>雨</Value>
+    </Record>
+    <Record>
+      <Key>SnowWeather</Key>
+      <Value>雪</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramPressureTitle</Key>
+      <Value>压强</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramTemperatureTitle</Key>
+      <Value>温度</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramSolid</Key>
+      <Value>固相</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramLiquid</Key>
+      <Value>液相</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPhaseChangeDiagramGas</Key>
+      <Value>气相</Value>
     </Record>
   </Interface>
   <Colors>
@@ -19600,7 +19644,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>AirLockIsCurrently</Key>
-      <Value>{LOCAL:Airlock} 正在进行&lt;color=yellow&gt; {LOCAL:AirLockState} &lt;/color&gt;</Value>
+      <Value>{LOCAL:Airlock} &lt;color=yellow&gt; {LOCAL:AirLockState} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
@@ -22976,7 +23020,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CannotPlaceOutsideRocket</Key>
-      <Value>无法在火箭外部署</Value>
+      <Value>无法在火箭外建造</Value>
     </Record>
     <Record>
       <Key>DamageTypeDecay</Key>
@@ -23008,7 +23052,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CableAnalyserRequired</Key>
-      <Value>实际功耗 {LOCAL:Value}</Value>
+      <Value>需求功耗 {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>CableAnalyserPotential</Key>
@@ -23145,11 +23189,167 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>AirlockToExterior</Key>
-      <Value>通向外部</Value>
+      <Value>至外部</Value>
     </Record>
     <Record>
       <Key>AirlockToInterior</Key>
-      <Value>通向内部</Value>
+      <Value>至内部</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlActive</Key>
+      <Value>激活</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlInactive</Key>
+      <Value>取消</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlMode</Key>
+      <Value>模式</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlToggle</Key>
+      <Value>切换</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlPower</Key>
+      <Value>供电</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlPowerOff</Key>
+      <Value>OFF</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlPowerOn</Key>
+      <Value>ON</Value>
+    </Record>
+    <Record>
+      <Key>SolarPanelEfficiency</Key>
+      <Value>效率</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateMax</Key>
+      <Value>最大</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateInwardsLimited</Key>
+      <Value>吸气受限</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateInwardsVeryLimited</Key>
+      <Value>吸气严重受限</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateOutwardsLimited</Key>
+      <Value>排气受限</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateOutwardsVeryLimited</Key>
+      <Value>排气严重受限</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateIdle</Key>
+      <Value>闲置</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizingInternal</Key>
+      <Value>内部正在加压</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizedInternal</Key>
+      <Value>完成内部加压</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStateDepressurizingInternal</Key>
+      <Value>内部正在减压</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizingExternal</Key>
+      <Value>外部正在加压</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizedExternal</Key>
+      <Value>完成外部加压</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStateDepressurizingExternal</Key>
+      <Value>外部正在减压</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateDisabled</Key>
+      <Value>禁用</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStatePressurizing</Key>
+      <Value>正在加压</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStatePressurized</Key>
+      <Value>加压完成</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateDepressurizing</Key>
+      <Value>正在减压</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateDepressurized</Key>
+      <Value>减压完成</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateOverrideCount</Key>
+      <Value>Override Count</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateOverride</Key>
+      <Value>Override</Value>
+    </Record>
+    <Record>
+      <Key>IngotTypeBasic</Key>
+      <Value>基础</Value>
+    </Record>
+    <Record>
+      <Key>IngotTypeAlloy</Key>
+      <Value>合金</Value>
+    </Record>
+    <Record>
+      <Key>IngotTypeSuperAlloy</Key>
+      <Value>超级合金</Value>
+    </Record>
+    <Record>
+      <Key>SPDASlotType</Key>
+      <Value>类型: </Value>
+    </Record>
+    <Record>
+      <Key>SPDASlotIndex</Key>
+      <Value>索引: </Value>
+    </Record>
+    <Record>
+      <Key>SPDAManufacturerRequirements</Key>
+      <Value>需求:</Value>
+    </Record>
+    <Record>
+      <Key>RecipeEnergy</Key>
+      <Value>电力</Value>
+    </Record>
+    <Record>
+      <Key>RecipeReagentFrom</Key>
+      <Value> 来自 </Value>
+    </Record>
+    <Record>
+      <Key>RecipeTemperatureRangeSeporator</Key>
+      <Value> 至 </Value>
+    </Record>
+    <Record>
+      <Key>ConstructableInRocketsTrue</Key>
+      <Value>可</Value>
+    </Record>
+    <Record>
+      <Key>YesPaintable</Key>
+      <Value>是</Value>
+    </Record>
+    <Record>
+      <Key>NoPaintable</Key>
+      <Value>否</Value>
     </Record>
   </GameStrings>
   <GameTip/>

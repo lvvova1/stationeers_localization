@@ -18,7 +18,7 @@
     </Record>
         <Record>
       <Key>StatusIconHydrationDesc</Key>
-      <Value>水分正在下降</Value>
+      <Value>水分下降</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationKey</Key>
@@ -94,7 +94,7 @@
     </Record>
     <Record>
       <Key>StatusIconPowerDesc</Key>
-      <Value>电池电量正在下降</Value>
+      <Value>电池电量低</Value>
     </Record>
     <Record>
       <Key>StatusIconGravityName</Key>
@@ -142,7 +142,7 @@
     </Record>
     <Record>
       <Key>StatusIconJetpackWarningDesc</Key>
-      <Value>推进剂正在下降</Value>
+      <Value>推进剂存量低</Value>
     </Record>
     <Record>
       <Key>StatusIconFilterName</Key>
