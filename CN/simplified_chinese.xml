@@ -7848,11 +7848,6 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Description/>
     </RecordThing>
     <RecordThing>
-      <Key>ItemKitRockets</Key>
-      <Value>(套件)火箭</Value>
-      <Description/>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemKitLaunchMount</Key>
       <Value>(套件)发射台支架</Value>
       <Description/>
@@ -8793,11 +8788,6 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Description>线性机械臂轨道网络的右螺旋组件, 与LArRE驻坞配合使用</Description>
     </RecordThing>
     <RecordThing>
-      <Key>StructurePassiveVentValve</Key>
-      <Value>被动通风口(阀门)</Value>
-      <Description>被动通风口（阀门）允许用户手动控制封闭空间与管道网络的气体交换时机（非动力设备）</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureManualFloorHatch</Key>
       <Value>手动地板舱门</Value>
       <Description/>
@@ -9233,10 +9223,6 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>门</Value>
     </Record>
     <Record>
-      <Key>Storage</Key>
-      <Value>储物</Value>
-    </Record>
-    <Record>
       <Key>ArmSlot</Key>
       <Value>手臂槽位</Value>
     </Record>
@@ -9267,6 +9253,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>Flare</Key>
       <Value>照明弹</Value>
+    </Record>
+    <Record>
+      <Key>Tablet</Key>
+      <Value>平板电脑</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -11515,10 +11505,6 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>输入设置</Value>
     </Record>
     <Record>
-      <Key>NewWorldAreaEuropa</Key>
-      <Value>木卫二</Value>
-    </Record>
-    <Record>
       <Key>NewWorldAreaMimas</Key>
       <Value>土卫一</Value>
     </Record>
@@ -11620,7 +11606,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ConnectionWaste</Key>
-      <Value>废物</Value>
+      <Value>废弃物</Value>
     </Record>
     <Record>
       <Key>ConnectionBreathing</Key>
@@ -12258,7 +12244,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
-      <Value>该值设置为物品的唯一标识符(物品哈希值)时, 将立刻从该设备请求对应物品</Value>
+      <Value>该值设置为物品的唯一标识符(物品预设哈希值)时, 将立刻从该设备请求对应物品</Value>
     </Record>
     <Record>
       <Key>LogicTypeCompletionRatio</Key>
@@ -12499,10 +12485,6 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>CollectableGoods</Key>
       <Value>根据当前火箭是否有能力在该地点上采集资源, 返回0或1</Value>
-    </Record>
-    <Record>
-      <Key>LogicTypeRequestHash</Key>
-      <Value>该值设置为物品的唯一标识符(物品哈希值)时, 将立刻从该设备请求对应物品</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePrefabHash</Key>
@@ -12758,7 +12740,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ContactTradeRequest</Key>
-      <Value>一个贸易商已请求着陆许可</Value>
+      <Value>贸易商已请求着陆许可</Value>
     </Record>
     <Record>
       <Key>TraderInUse</Key>
@@ -13281,24 +13263,8 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>钢</Value>
     </Record>
     <Record>
-      <Key>ElectronicReaderUranium</Key>
-      <Value>铀</Value>
-    </Record>
-    <Record>
       <Key>ElectronicReaderHydrocarbon</Key>
       <Value>碳</Value>
-    </Record>
-    <Record>
-      <Key>ElectronicReaderSilver</Key>
-      <Value>银</Value>
-    </Record>
-    <Record>
-      <Key>ElectronicReaderNickel</Key>
-      <Value>镍</Value>
-    </Record>
-    <Record>
-      <Key>ElectronicReaderLead</Key>
-      <Value>铅</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderElectrum</Key>
@@ -13315,10 +13281,6 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>ElectronicReaderSolder</Key>
       <Value>焊料</Value>
-    </Record>
-    <Record>
-      <Key>ElectronicReaderSilicon</Key>
-      <Value>硅</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderSalicylicAcid</Key>
@@ -13827,10 +13789,6 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>ScriptCommandBnaz</Key>
       <Value>当符合abs(a)&gt;float. epsilon*8, 则跳转到代码行号c</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandJr</Key>
-      <Value>跳转到代码行号(当前行号+a)行</Value>
     </Record>
     <Record>
       <Key>ScriptCommandJr</Key>
@@ -14579,10 +14537,6 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>CommandFillHealth</Key>
       <Value>治疗玩家. 用法:"/fillhealth"</Value>
-    </Record>
-    <Record>
-      <Key>CommandAddGas</Key>
-      <Value>向指定的储存容器或者管道网络内添加气体. 用法:"/addgas[refID][gasType1-8][molecount]"</Value>
     </Record>
     <Record>
       <Key>CommandAddGas</Key>
@@ -15739,10 +15693,6 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>耐久:</Value>
     </Record>
     <Record>
-      <Key>StationpediaNutritionQuality</Key>
-      <Value>营养质量:</Value>
-    </Record>
-    <Record>
       <Key>PhaseChangeCompareTo</Key>
       <Value>对比:</Value>
     </Record>
@@ -15776,7 +15726,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>DefaultStartConditionDescription</Key>
-      <Value>您将与一个装满板条箱和包裹的着陆器一起开始, 包含建立一个远程基地所需的基本要素</Value>
+      <Value>您将与一个装满板条箱和包裹的登陆舱一起开始, 包含建立一个远程基地所需的基本要素</Value>
     </Record>
     <Record>
       <Key>TerrainEditStartCondition</Key>
@@ -16519,16 +16469,8 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>气压危急</Value>
     </Record>
     <Record>
-      <Key>StatusCriticalPressureCritical</Key>
-      <Value>气压危急</Value>
-    </Record>
-    <Record>
       <Key>StatusCriticalSuitCritical</Key>
       <Value>太空服危急</Value>
-    </Record>
-    <Record>
-      <Key>StatusCriticalTemperatureCritical</Key>
-      <Value>温度危急</Value>
     </Record>
     <Record>
       <Key>StatusCriticalTemperatureCritical</Key>
@@ -16952,11 +16894,11 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CircuitboardSolarControlVerticalTitle</Key>
-      <Value>高度角</Value>
+      <Value>垂直角</Value>
     </Record>
     <Record>
       <Key>CircuitboardSolarControlHorizontalTitle</Key>
-      <Value>方位角</Value>
+      <Value>水平角</Value>
     </Record>
     <Record>
       <Key>CircuitboardSolarControlGenerated</Key>
@@ -17005,6 +16947,694 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>StationpediaPhaseChangeDiagramGas</Key>
       <Value>气相</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleGrowthEfficiency</Key>
+      <Value>生长速度</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleBreathingEfficiency</Key>
+      <Value>呼吸效率</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleTemperatureEfficiency</Key>
+      <Value>气温效率</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleMinIdealTemperature</Key>
+      <Value>最低理想气温</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleMaxIdealTemperature</Key>
+      <Value>最高理想气温</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleCurrentTemperature</Key>
+      <Value>当前气温</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitlePressureEfficiency</Key>
+      <Value>气压效率</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleMinIdealPressure</Key>
+      <Value>最低理想气压</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleMaxIdealPressure</Key>
+      <Value>最高理想气压</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleCurrentPressure</Key>
+      <Value>当前气压</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleLightEfficiency</Key>
+      <Value>光照效率</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleLightIntensity</Key>
+      <Value>光照强度</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleIlluminationStress</Key>
+      <Value>照明压力</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleLightDeficiency</Key>
+      <Value>光照需求</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleDarknessDeficiency</Key>
+      <Value>黑暗需求</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleHydrationEfficiency</Key>
+      <Value>水分效率</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleGasRequired</Key>
+      <Value>需求:</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleGasPresent</Key>
+      <Value>现存:</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleGasLimit</Key>
+      <Value>限度:</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockTitle</Key>
+      <Value>高级气闸控制</Value>
+    </Record>
+    <Record>
+      <Key>AirlockTitle</Key>
+      <Value>气闸控制</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataOxygenReplenishment</Key>
+      <Value>氧气补给</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataWaterReplenishment</Key>
+      <Value>水补给</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataShipRefuel</Key>
+      <Value>补充飞船燃料</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataFoodPackage</Key>
+      <Value>食品物资包</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataConsumablesPackage</Key>
+      <Value>消耗品物资包</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataMarineClothingPackage</Key>
+      <Value>水兵制服物资包</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataShipRepairPackage</Key>
+      <Value>飞船修理物资包</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataHardsuitPackage</Key>
+      <Value>高级太空服套装</Value>
+    </Record>
+    <Record>
+      <Key>SellDataRubbishCollection</Key>
+      <Value>一大捆垃圾</Value>
+    </Record>
+    <Record>
+      <Key>SellDataUnprocessedOre</Key>
+      <Value>未处理矿石</Value>
+    </Record>
+    <Record>
+      <Key>SellDataJunkOre</Key>
+      <Value>劣矿石</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataNitrousOxideFuelMix</Key>
+      <Value>一氧化二氮混合燃料</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataRegularFuelMix</Key>
+      <Value>常规混合燃料</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkCarbonDioxide</Key>
+      <Value>散装二氧化碳</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkWater</Key>
+      <Value>散装水</Value>
+    </Record>
+    <Record>
+      <Key>SellDataFernSeedPack</Key>
+      <Value>蕨类种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataMushroomSeedPack</Key>
+      <Value>蘑菇种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataCornSeedPack</Key>
+      <Value>玉米种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataPotatoSeedPack</Key>
+      <Value>土豆种块包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataPumpkinSeedPack</Key>
+      <Value>南瓜种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataRiceSeedPack</Key>
+      <Value>水稻种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSoybeanSeedPack</Key>
+      <Value>大豆种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSwitchgrassSeedPack</Key>
+      <Value>柳枝稷种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataTomatoSeedPack</Key>
+      <Value>番茄种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataWheatSeedPack</Key>
+      <Value>小麦种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSugarcaneSeedPack</Key>
+      <Value>甘蔗种段包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataCocoaSeedPack</Key>
+      <Value>可可豆种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataWatermelonSeedPack</Key>
+      <Value>西瓜种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBlueberrySeedPack</Key>
+      <Value>蓝莓种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataStrawberrySeedPack</Key>
+      <Value>草莓种子包</Value>
+    </Record>
+    <Record>
+      <Key>SellDataFastGrowingPotato</Key>
+      <Value>速生土豆</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkVolatiles</Key>
+      <Value>散装燃气</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkOxygen</Key>
+      <Value>散装氧气</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataEmptyGasCanister</Key>
+      <Value>空置气瓶</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkOxygen</Key>
+      <Value>散装氧气</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkNitrogen</Key>
+      <Value>散装氮气</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkCarbonDioxide</Key>
+      <Value>散装二氧化碳</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkVolatiles</Key>
+      <Value>散装燃气</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkPollutants</Key>
+      <Value>散装污染气</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkWater</Key>
+      <Value>散装水</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkNitrousOxide</Key>
+      <Value>散装一氧化二氮</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkDirtyVolatiles</Key>
+      <Value>散装低纯度燃气</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSteam</Key>
+      <Value>蒸汽</Value>
+    </Record>
+    <Record>
+      <Key>SellDataOxygenCanister</Key>
+      <Value>氧气瓶</Value>
+    </Record>
+    <Record>
+      <Key>SellDataFuelCanister</Key>
+      <Value>燃气瓶</Value>
+    </Record>
+    <Record>
+      <Key>SellDataWaterCanister</Key>
+      <Value>储水瓶</Value>
+    </Record>
+    <Record>
+      <Key>SellDataNitrogenCanister</Key>
+      <Value>氮气瓶</Value>
+    </Record>
+    <Record>
+      <Key>SellDataEmergencyWater</Key>
+      <Value>应急用水</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataEmptyLiquidCanister</Key>
+      <Value>空置液体瓶</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidNitrogen</Key>
+      <Value>散装液氮</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidOxygen</Key>
+      <Value>散装液氧</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidVolatiles</Key>
+      <Value>散装液化燃气</Value>
+    </Record>
+    <Record>
+      <Key>SellDataLiquidNitrogenCanister</Key>
+      <Value>液氮瓶</Value>
+    </Record>
+    <Record>
+      <Key>SellDataLiquidOxygenCanister</Key>
+      <Value>液氧瓶</Value>
+    </Record>
+    <Record>
+      <Key>SellDataLiquidVolatilesCanister</Key>
+      <Value>液化燃气瓶</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxofSprayCans</Key>
+      <Value>涂料喷罐箱</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxOfBatteryCells</Key>
+      <Value>电池箱</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxOfBatteryCellsLarge</Key>
+      <Value>电池(大)箱</Value>
+    </Record>
+    <Record>
+      <Key>SellDataWeldingFuel</Key>
+      <Value>焊枪燃料</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSetofRoadFlares</Key>
+      <Value>信号弹套装</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxofChemlights</Key>
+      <Value>荧光棒箱</Value>
+    </Record>
+    <Record>
+      <Key>SellDataAutolatheConstructionKit</Key>
+      <Value>自动车床建造套件</Value>
+    </Record>
+    <Record>
+      <Key>TraderMoreOreLess</Key>
+      <Value>超量矿物</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAssayers</Key>
+      <Value>小行星检测站</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCrush</Key>
+      <Value>宇宙粉碎机</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGravels</Key>
+      <Value>星河碎石</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNuggets</Key>
+      <Value>星云矿块</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitOreOasis</Key>
+      <Value>轨道矿物绿洲</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarStoneSupply</Key>
+      <Value>群星石材供应</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarExcavators</Key>
+      <Value>星际挖掘者</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVeinVendors</Key>
+      <Value>虚空矿脉商团</Value>
+    </Record>
+    <Record>
+      <Key>TraderPlanetaryPebbles</Key>
+      <Value>星际砾石</Value>
+    </Record>
+    <Record>
+      <Key>TraderAllAlloys</Key>
+      <Value>全量合金</Value>
+    </Record>
+    <Record>
+      <Key>TraderMetalMavens</Key>
+      <Value>金属行家</Value>
+    </Record>
+    <Record>
+      <Key>TraderAstroAlloyEmporium</Key>
+      <Value>宇航合金总汇</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicForge</Key>
+      <Value>宇际熔炉</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticMetallurgy</Key>
+      <Value>星河冶金</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitOreOutfitters</Key>
+      <Value>轨道矿石总成</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSmelter</Key>
+      <Value>群星冶金</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarIngots</Key>
+      <Value>星际锭材</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNucleus</Key>
+      <Value>星云核心</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceAlloySpecialists</Key>
+      <Value>太空合金专家</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarSmelter</Key>
+      <Value>恒星熔炉</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarlightSuppers</Key>
+      <Value>星光晚餐</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGroceries</Key>
+      <Value>星河杂货</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitingOrganics</Key>
+      <Value>轨道有机物</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCuisine</Key>
+      <Value>宇宙料理</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidEats</Key>
+      <Value>小行星美食</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNibbles</Key>
+      <Value>星云小食</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSnacks</Key>
+      <Value>群星零食</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarIngredients</Key>
+      <Value>星际食材</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSpices</Key>
+      <Value>太空香料</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVegetables</Key>
+      <Value>虚空蔬菜</Value>
+    </Record>
+    <Record>
+      <Key>TraderPlanetaryProduce</Key>
+      <Value>星际农贸</Value>
+    </Record>
+    <Record>
+      <Key>TraderGreenFutures</Key>
+      <Value>绿色未来</Value>
+    </Record>
+    <Record>
+      <Key>TraderAstroAgronomics</Key>
+      <Value>星际农经贸</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSprouts</Key>
+      <Value>群星萌芽</Value>
+    </Record>
+    <Record>
+      <Key>TraderHydroHarvestHaven</Key>
+      <Value>水培仓储</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitingOrchards</Key>
+      <Value>轨道果园</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGrowers</Key>
+      <Value>星河种植业</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmoCropConnect</Key>
+      <Value>宇宙作物联产</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSproutSuppliers</Key>
+      <Value>太空种芽供销</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNurturers</Key>
+      <Value>星云培育</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarSeedlings</Key>
+      <Value>星星幼苗</Value>
+    </Record>
+    <Record>
+      <Key>TraderEcoSphereEssentials</Key>
+      <Value>生态圈必需品</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarIrrigation</Key>
+      <Value>星际灌溉</Value>
+    </Record>
+    <Record>
+      <Key>TraderGasForLess</Key>
+      <Value>廉价气体</Value>
+    </Record>
+    <Record>
+      <Key>TraderAstroAether</Key>
+      <Value>星际以太</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicClouds</Key>
+      <Value>宇宙云气</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNectars</Key>
+      <Value>星云琼浆</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitingOxygens</Key>
+      <Value>轨道氧气</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGases</Key>
+      <Value>银河气体</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSteam</Key>
+      <Value>群星蒸汽</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInhalants</Key>
+      <Value>星际呼吸</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVapors</Key>
+      <Value>虚空蒸汽</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceGasStation</Key>
+      <Value>太空加油站</Value>
+    </Record>
+    <Record>
+      <Key>TraderBuildINC</Key>
+      <Value>建设公司</Value>
+    </Record>
+    <Record>
+      <Key>TraderPaylessLiquids</Key>
+      <Value>低价液体</Value>
+    </Record>
+    <Record>
+      <Key>TraderFrostyBarrels</Key>
+      <Value>霜冻罐装</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicConcoctions</Key>
+      <Value>宇宙调和</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGush</Key>
+      <Value>星河涌流</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitalOceans</Key>
+      <Value>轨道海洋</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarStreams</Key>
+      <Value>群星溪流</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarIcicles</Key>
+      <Value>星际冰凌</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVessels</Key>
+      <Value>虚空容器</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSprings</Key>
+      <Value>太空泉水</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarSippers</Key>
+      <Value>星星啜饮</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicToolsAndMore</Key>
+      <Value>宇宙工具展销</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGearworks</Key>
+      <Value>星河齿轮工坊</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSupplies</Key>
+      <Value>群星物资</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitOpsHardware</Key>
+      <Value>轨道活动硬件</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarImplements</Key>
+      <Value>星际器械</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVentures</Key>
+      <Value>虚空风险投资</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidArtisans</Key>
+      <Value>小行星工匠</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSpanners</Key>
+      <Value>太空扳手</Value>
+    </Record>
+    <Record>
+      <Key>TraderMeteorMechanics</Key>
+      <Value>流星技工</Value>
+    </Record>
+    <Record>
+      <Key>TraderAstroMart</Key>
+      <Value>宇航商城</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmosConvenience</Key>
+      <Value>宇宙便利店</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarStop</Key>
+      <Value>恒星驿站</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNecessities</Key>
+      <Value>星云必需品</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarEssentials</Key>
+      <Value>星际必需品</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVending</Key>
+      <Value>虚空购物</Value>
+    </Record>
+    <Record>
+      <Key>TraderMeteorMunchies</Key>
+      <Value>流星小吃店</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGadgets</Key>
+      <Value>银河小五金</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitronAppliances</Key>
+      <Value>轨道电器</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSystemsStore</Key>
+      <Value>群星系统商店</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSavvySolutions</Key>
+      <Value>太空智能方案</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInnovations</Key>
+      <Value>星际创新</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVisions</Key>
+      <Value>虚空视界</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAppliances</Key>
+      <Value>小行星电器</Value>
+    </Record>
+    <Record>
+      <Key>TradeError</Key>
+      <Value>交易出错</Value>
     </Record>
   </Interface>
   <Colors>
@@ -17204,7 +17834,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>Equals</Key>
-      <Value>0</Value>
+      <Value>=</Value>
     </Record>
     <Record>
       <Key>Greater</Key>
@@ -20071,23 +20701,23 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CompareLessThan</Key>
-      <Value>＜</Value>
+      <Value>小于</Value>
     </Record>
     <Record>
       <Key>CompareEqualOrLess</Key>
-      <Value>≤</Value>
+      <Value>小于等于</Value>
     </Record>
     <Record>
       <Key>CompareEqual</Key>
-      <Value>＝</Value>
+      <Value>等于</Value>
     </Record>
     <Record>
       <Key>CompareEqualOrGreater</Key>
-      <Value>≥</Value>
+      <Value>大于等于</Value>
     </Record>
     <Record>
       <Key>CompareGreater</Key>
-      <Value>＞</Value>
+      <Value>大于</Value>
     </Record>
     <Record>
       <Key>EnergyRatio</Key>
@@ -20503,7 +21133,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TraderEnteredRangeEvent</Key>
-      <Value>贸易商 {LOCAL:Name} 已离开信号检测范围</Value>
+      <Value>贸易商 {LOCAL:Name} 已进入信号检测范围</Value>
     </Record>
     <Record>
       <Key>Recharge</Key>
@@ -23350,6 +23980,230 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>NoPaintable</Key>
       <Value>否</Value>
+    </Record>
+    <Record>
+      <Key>SiloItemCount</Key>
+      <Value>筒仓物品数量: {LOCAL:TotalItemsCurrentlyStored}/{LOCAL:MaxItems}</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleNone</Key>
+      <Value>无</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleInput</Key>
+      <Value>输入</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleInput2</Key>
+      <Value>输入2</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleOutput</Key>
+      <Value>输出</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleOutput2</Key>
+      <Value>输出2</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleWaste</Key>
+      <Value>废弃物</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePipe</Key>
+      <Value>管道</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePower</Key>
+      <Value>供电</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeData</Key>
+      <Value>数据</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeChute</Key>
+      <Value>滑槽</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeElevator</Key>
+      <Value>电梯</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePipeLiquid</Key>
+      <Value>液体管道</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeLandingPad</Key>
+      <Value>着陆场</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeLaunchPad</Key>
+      <Value>发射台</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeRoboticArmRail</Key>
+      <Value>机械臂轨道</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePowerAndData</Key>
+      <Value>供电与数据</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeDefault</Key>
+      <Value>默认</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeHorizontal</Key>
+      <Value>水平</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeVertical</Key>
+      <Value>垂直</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorGridSunlight</Key>
+      <Value>光照 {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorSolarAngle</Key>
+      <Value>太阳角度 {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorSolarIrradiance</Key>
+      <Value>太阳辐照强度 {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorHorizontal</Key>
+      <Value>水平角 {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorVertical</Key>
+      <Value>垂直角 {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorMode</Key>
+      <Value>模式 {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeError</Key>
+      <Value>模式 {LOCAL:Value} 错误</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateEmpty</Key>
+      <Value>耗尽</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateCritical</Key>
+      <Value>危急</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateLow</Key>
+      <Value>较低</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateVeryLow</Key>
+      <Value>很低</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateMedium</Key>
+      <Value>中等</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateHigh</Key>
+      <Value>较高</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateFull</Key>
+      <Value>充满</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardCurrentlyTrading</Key>
+      <Value>交易进行中</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardTimeTillResolveUnknown</Key>
+      <Value>解析剩余时间未知</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardSecondsTillResolve</Key>
+      <Value>距完成解析还剩 {LOCAL:Value} 秒</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardDegreesFromContact</Key>
+      <Value>与目标夹角 {LOCAL:Value}°</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardPercentInterogated</Key>
+      <Value>通信进度 {LOCAL:Value} %</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardContacted</Key>
+      <Value>通信完成</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalInterrogationInProgressAnother</Key>
+      <Value>其他卫星天线正在与目标通信</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalInterrogationInProgress</Key>
+      <Value>正在通信</Value>
+    </Record>
+    <Record>
+      <Key>CommTerminalWattageOnContact</Key>
+      <Value>目标当前接收功率为 {LOCAL:Value}W/{LOCAL:Setting}W</Value>
+    </Record>
+    <Record>
+      <Key>CommTerminalEstimatedSecondsUntilInterrogated</Key>
+      <Value>预计还需 {LOCAL:Value} 秒完成解析</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalDishInUse</Key>
+      <Value>占用天线: {LOCAL:DishName}</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalLandTraderButton</Key>
+      <Value>允许着陆</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalContactingComplete</Key>
+      <Value>通信完成, 可以召唤贸易商</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalContactRequires</Key>
+      <Value>目标信号至少需要 {LOCAL:Value}W 发射功率并维持 {LOCAL:Time} 秒</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalDishBusy</Key>
+      <Value>最高功率天线正忙，请稍候, 或使用通信终端</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalInterrogateButton</Key>
+      <Value>通信</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalNotEnoughEnergy</Key>
+      <Value>指向该目标的能量不足，无法进行通信</Value>
+    </Record>
+    <Record>
+      <Key>TradeActionCharge</Key>
+      <Value>电量 {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LogicWrite</Key>
+      <Value>可写</Value>
+    </Record>
+    <Record>
+      <Key>LogicRead</Key>
+      <Value>可读</Value>
+    </Record>
+    <Record>
+      <Key>LogicReadWrite</Key>
+      <Value>可读写</Value>
+    </Record>
+    <Record>
+      <Key>MemoryAccessNone</Key>
+      <Value>无</Value>
     </Record>
   </GameStrings>
   <GameTip/>
