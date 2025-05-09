@@ -15578,11 +15578,11 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ButtonChart</Key>
-      <Value>勘测</Value>
+      <Value>测绘</Value>
     </Record>
     <Record>
       <Key>ButtonSurvey</Key>
-      <Value>调查</Value>
+      <Value>勘探</Value>
     </Record>
     <Record>
       <Key>ButtonIdle</Key>
@@ -17635,6 +17635,66 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>TradeError</Key>
       <Value>交易出错</Value>
+    </Record>
+    <Record>
+      <Key>RocketLocationPanelSelectRocket</Key>
+      <Value>选择火箭</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoDensityTitle</Key>
+      <Value>密度</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoRichnessTitle</Key>
+      <Value>丰度</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoSizeTitle</Key>
+      <Value>尺寸</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoCompositionTitle</Key>
+      <Value>成分</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoNameTitle</Key>
+      <Value>名称</Value>
+    </Record>
+    <Record>
+      <Key>NavPointDistanceTitle</Key>
+      <Value>距离</Value>
+    </Record>
+    <Record>
+      <Key>NavPointChartingProgressTitle</Key>
+      <Value>测绘进度</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTargetsTitle</Key>
+      <Value>勘探目标</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget10</Key>
+      <Value>10% 成分信息</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget30</Key>
+      <Value>30% 尺寸信息</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget60</Key>
+      <Value>60% 密度信息</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget100</Key>
+      <Value>100% 丰度信息</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget200</Key>
+      <Value>200% 采矿加速 (10%)</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget1000</Key>
+      <Value>1000% 采矿加速 (25%)</Value>
     </Record>
   </Interface>
   <Colors>
@@ -21617,7 +21677,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>LogicDescriptionSurvey</Key>
-      <Value>火箭对太空地图地点进行勘测时的状态, 返回一个量化后的值, 当100%勘测完成时等于1. 若未处于测绘状态, 返回-1</Value>
+      <Value>火箭对太空地图地点进行勘探时的状态, 返回一个量化后的值, 当100%勘探完成时等于1. 若未处于勘探状态, 返回-1</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionNavPoints</Key>
@@ -22177,7 +22237,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TimeToArrest</Key>
-      <Value>着陆缓冲: </Value>
+      <Value>着陆缓冲时间: </Value>
     </Record>
     <Record>
       <Key>TimeToArrival</Key>
@@ -22245,7 +22305,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>SurveyCompleted</Key>
-      <Value>勘测已完成于 {Local:DisplayName}</Value>
+      <Value>{Local:DisplayName} 已完成勘探</Value>
     </Record>
     <Record>
       <Key>SiteCapacityReached</Key>
@@ -22349,7 +22409,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RocketFuelTime</Key>
-      <Value>燃料持续时间</Value>
+      <Value>剩余燃料时间</Value>
     </Record>
     <Record>
       <Key>RocketAcceleration</Key>
@@ -22469,7 +22529,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>SurveyDifficultyTooltip</Key>
-      <Value>完全勘测本地点所需总点数</Value>
+      <Value>完全勘探本地点所需总点数</Value>
     </Record>
     <Record>
       <Key>DiscoverDifficultyTooltip</Key>
@@ -22489,7 +22549,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>SurveyProgressTooltip</Key>
-      <Value>本地点生成的总勘测点数</Value>
+      <Value>本地点生成的总勘探点数</Value>
     </Record>
     <Record>
       <Key>DiscoverProgressTooltip</Key>
@@ -22609,7 +22669,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RocketActionSurveying</Key>
-      <Value>勘测</Value>
+      <Value>勘探</Value>
     </Record>
     <Record>
       <Key>RocketActionDiscovering</Key>
@@ -22621,7 +22681,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RocketActionSurveyProgress</Key>
-      <Value>勘测进度</Value>
+      <Value>勘探进度</Value>
     </Record>
     <Record>
       <Key>RocketActionDiscoverProgress</Key>
@@ -24204,6 +24264,42 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>MemoryAccessNone</Key>
       <Value>无</Value>
+    </Record>
+    <Record>
+      <Key>RocketApex</Key>
+      <Value>折返点高度</Value>
+    </Record>
+    <Record>
+      <Key>RocketImpactVelocity</Key>
+      <Value>冲击速度</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileNone</Key>
+      <Value>无</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileLow</Key>
+      <Value>低</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileMedium</Key>
+      <Value>中</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileHigh</Key>
+      <Value>高</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileMax</Key>
+      <Value>最大</Value>
+    </Record>
+    <Record>
+      <Key>SpaceMapUknownDeltaV</Key>
+      <Value>???</Value>
+    </Record>
+    <Record>
+      <Key>RocketLocationCurrentAction</Key>
+      <Value>当前动作: {LOCAL:Mode}</Value>
     </Record>
   </GameStrings>
   <GameTip/>
