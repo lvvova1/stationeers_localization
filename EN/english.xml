@@ -7925,11 +7925,6 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemKitRockets</Key>
-      <Value>Rocket External Parts</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>ItemKitLaunchMount</Key>
       <Value>Kit (Launch Mount)</Value>
       <Description />
@@ -8874,11 +8869,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Description>A component of a linear rail network to be used in conjunction with LArRE docks.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>StructurePassiveVentValve</Key>
-      <Value>Passive Vent (Valve)</Value>
-      <Description> Passive vents (Valve) allow gasses to move into and out of pipe networks, which are closed systems unless connected to a device or structure. Passive vents are not powered, but allow the user to choose when to allow gases in an enclosed space to mix inside a pipe network.</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureManualFloorHatch</Key>
       <Value>Manual Floor Hatch</Value>
       <Description />
@@ -9314,10 +9304,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Door</Value>
     </Record>
     <Record>
-      <Key>Storage</Key>
-      <Value>Storage</Value>
-    </Record>
-    <Record>
       <Key>ArmSlot</Key>
       <Value>Arm Slot</Value>
     </Record>
@@ -9348,6 +9334,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>Flare</Key>
       <Value>Flare</Value>
+    </Record>
+    <Record>
+      <Key>Tablet</Key>
+      <Value>Tablet</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -11601,10 +11591,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Input Settings</Value>
     </Record>
     <Record>
-      <Key>NewWorldAreaEuropa</Key>
-      <Value>Europa</Value>
-    </Record>
-    <Record>
       <Key>NewWorldAreaMimas</Key>
       <Value>Mimas</Value>
     </Record>
@@ -12590,10 +12576,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Returns 0 or 1 based on whether or not the current rocket system has the ability to collect resources on the planet.</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRequestHash</Key>
-      <Value>When set to the unique identifier, requests an item of the provided type from the device</Value>
-    </Record>
-    <Record>
       <Key>LogicSlotTypePrefabHash</Key>
       <Value>returns the hash of the structure in the slot</Value>
     </Record>
@@ -13370,24 +13352,8 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Steel</Value>
     </Record>
     <Record>
-      <Key>ElectronicReaderUranium</Key>
-      <Value>Uranium</Value>
-    </Record>
-    <Record>
       <Key>ElectronicReaderHydrocarbon</Key>
       <Value>Hydrocarbon</Value>
-    </Record>
-    <Record>
-      <Key>ElectronicReaderSilver</Key>
-      <Value>Silver</Value>
-    </Record>
-    <Record>
-      <Key>ElectronicReaderNickel</Key>
-      <Value>Nickel</Value>
-    </Record>
-    <Record>
-      <Key>ElectronicReaderLead</Key>
-      <Value>Lead</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderElectrum</Key>
@@ -13404,10 +13370,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>ElectronicReaderSolder</Key>
       <Value>Solder</Value>
-    </Record>
-    <Record>
-      <Key>ElectronicReaderSilicon</Key>
-      <Value>Silicon</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderSalicylicAcid</Key>
@@ -13916,10 +13878,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>ScriptCommandBnaz</Key>
       <Value>Branch to line c if abs(a) &gt; float.epsilon * 8</Value>
-    </Record>
-    <Record>
-      <Key>ScriptCommandJr</Key>
-      <Value>Relative jump to line a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandJr</Key>
@@ -14668,10 +14626,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>CommandFillHealth</Key>
       <Value>heals a player. : "/fillhealth"</Value>
-    </Record>
-    <Record>
-      <Key>CommandAddGas</Key>
-      <Value>Adds gas's or liquids to a given tank or pipenetwork. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
     </Record>
     <Record>
       <Key>CommandAddGas</Key>
@@ -15833,10 +15787,6 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Durability:</Value>
     </Record>
     <Record>
-      <Key>StationpediaNutritionQuality</Key>
-      <Value>Quality:</Value>
-    </Record>
-    <Record>
       <Key>PhaseChangeCompareTo</Key>
       <Value>Compare to:</Value>
     </Record>
@@ -16613,16 +16563,8 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Pressure Critical</Value>
     </Record>
     <Record>
-      <Key>StatusCriticalPressureCritical</Key>
-      <Value>Pressure Critical</Value>
-    </Record>
-    <Record>
       <Key>StatusCriticalSuitCritical</Key>
       <Value>Suit Critical</Value>
-    </Record>
-    <Record>
-      <Key>StatusCriticalTemperatureCritical</Key>
-      <Value>Temperature Critical</Value>
     </Record>
     <Record>
       <Key>StatusCriticalTemperatureCritical</Key>
@@ -17099,6 +17041,694 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>StationpediaPhaseChangeDiagramGas</Key>
       <Value>Gas</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleGrowthEfficiency</Key>
+      <Value>Growth Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleBreathingEfficiency</Key>
+      <Value>Breathing Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleTemperatureEfficiency</Key>
+      <Value>Temperature Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleMinIdealTemperature</Key>
+      <Value>Min Ideal Temperature</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleMaxIdealTemperature</Key>
+      <Value>Max Ideal Temperature</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleCurrentTemperature</Key>
+      <Value>Current Temperature</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitlePressureEfficiency</Key>
+      <Value>Pressure Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleMinIdealPressure</Key>
+      <Value>Min Ideal Pressure</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleMaxIdealPressure</Key>
+      <Value>Max Ideal Pressure</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleCurrentPressure</Key>
+      <Value>Current Pressure</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleLightEfficiency</Key>
+      <Value>Light Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleLightIntensity</Key>
+      <Value>Light Intensity</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleIlluminationStress</Key>
+      <Value>Illumination Stress</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleLightDeficiency</Key>
+      <Value>Light Deficiency</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleDarknessDeficiency</Key>
+      <Value>Darkness Deficiency</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleHydrationEfficiency</Key>
+      <Value>Hydration Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleGasRequired</Key>
+      <Value>Required:</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleGasPresent</Key>
+      <Value>Present:</Value>
+    </Record>
+    <Record>
+      <Key>PlantAnalyserTitleGasLimit</Key>
+      <Value>Limit:</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockTitle</Key>
+      <Value>ADV AIRLOCK CONTROL</Value>
+    </Record>
+    <Record>
+      <Key>AirlockTitle</Key>
+      <Value>AIRLOCK CONTROL</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataOxygenReplenishment</Key>
+      <Value>Oxygen Replenishment</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataWaterReplenishment</Key>
+      <Value>Water Replenishment</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataShipRefuel</Key>
+      <Value>Ship Refuel</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataFoodPackage</Key>
+      <Value>Food Package</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataConsumablesPackage</Key>
+      <Value>Consumables Package</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataMarineClothingPackage</Key>
+      <Value>Marine Clothing Package</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataShipRepairPackage</Key>
+      <Value>Ship Repair Package</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataHardsuitPackage</Key>
+      <Value>Hardsuit Package</Value>
+    </Record>
+    <Record>
+      <Key>SellDataRubbishCollection</Key>
+      <Value>Rubbish Collection</Value>
+    </Record>
+    <Record>
+      <Key>SellDataUnprocessedOre</Key>
+      <Value>Unprocessed Ore</Value>
+    </Record>
+    <Record>
+      <Key>SellDataJunkOre</Key>
+      <Value>Junk Ore</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataNitrousOxideFuelMix</Key>
+      <Value>Nitrous Oxide Fuel Mix</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataRegularFuelMix</Key>
+      <Value>Regular Fuel Mix</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkCarbonDioxide</Key>
+      <Value>Bulk Carbon Dioxide</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkWater</Key>
+      <Value>Bulk Water</Value>
+    </Record>
+    <Record>
+      <Key>SellDataFernSeedPack</Key>
+      <Value>Fern Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataMushroomSeedPack</Key>
+      <Value>Mushroom Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataCornSeedPack</Key>
+      <Value>Corn Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataPotatoSeedPack</Key>
+      <Value>Potato Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataPumpkinSeedPack</Key>
+      <Value>Pumpkin Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataRiceSeedPack</Key>
+      <Value>Rice Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSoybeanSeedPack</Key>
+      <Value>Soybean Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSwitchgrassSeedPack</Key>
+      <Value>Switchgrass Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataTomatoSeedPack</Key>
+      <Value>Tomato Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataWheatSeedPack</Key>
+      <Value>Wheat Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSugarcaneSeedPack</Key>
+      <Value>Sugarcane Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataCocoaSeedPack</Key>
+      <Value>Cocoa Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataWatermelonSeedPack</Key>
+      <Value>Watermelon Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBlueberrySeedPack</Key>
+      <Value>Blueberry Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataStrawberrySeedPack</Key>
+      <Value>Strawberry Seed Pack</Value>
+    </Record>
+    <Record>
+      <Key>SellDataFastGrowingPotato</Key>
+      <Value>Fast Growing Potato</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkVolatiles</Key>
+      <Value>Bulk Volatiles</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkOxygen</Key>
+      <Value>Bulk Oxygen</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataEmptyGasCanister</Key>
+      <Value>Empty Gas Canister</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkOxygen</Key>
+      <Value>Bulk Oxygen</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkNitrogen</Key>
+      <Value>Bulk Nitrogen</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkCarbonDioxide</Key>
+      <Value>Bulk Carbon Dioxide</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkVolatiles</Key>
+      <Value>Bulk Volatiles</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkPollutants</Key>
+      <Value>Bulk Pollutants</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkWater</Key>
+      <Value>Bulk Water</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkNitrousOxide</Key>
+      <Value>Bulk Nitrous Oxide</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkDirtyVolatiles</Key>
+      <Value>Bulk Dirty Volatiles</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSteam</Key>
+      <Value>Steam</Value>
+    </Record>
+    <Record>
+      <Key>SellDataOxygenCanister</Key>
+      <Value>Oxygen Canister</Value>
+    </Record>
+    <Record>
+      <Key>SellDataFuelCanister</Key>
+      <Value>Fuel Canister</Value>
+    </Record>
+    <Record>
+      <Key>SellDataWaterCanister</Key>
+      <Value>Water Canister</Value>
+    </Record>
+    <Record>
+      <Key>SellDataNitrogenCanister</Key>
+      <Value>Nitrogen Canister</Value>
+    </Record>
+    <Record>
+      <Key>SellDataEmergencyWater</Key>
+      <Value>Emergency Water</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataEmptyLiquidCanister</Key>
+      <Value>Empty Liquid Canister</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidNitrogen</Key>
+      <Value>Bulk Liquid Nitrogen</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidOxygen</Key>
+      <Value>Bulk Liquid Oxygen</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidVolatiles</Key>
+      <Value>Bulk Liquid Volatiles</Value>
+    </Record>
+    <Record>
+      <Key>SellDataLiquidNitrogenCanister</Key>
+      <Value>Liquid Nitrogen Canister</Value>
+    </Record>
+    <Record>
+      <Key>SellDataLiquidOxygenCanister</Key>
+      <Value>Liquid Oxygen Canister</Value>
+    </Record>
+    <Record>
+      <Key>SellDataLiquidVolatilesCanister</Key>
+      <Value>Liquid Volatiles Canister</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxofSprayCans</Key>
+      <Value>Box of Spray Cans</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxOfBatteryCells</Key>
+      <Value>Box of Battery Cells</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxOfBatteryCellsLarge</Key>
+      <Value>Box of Battery Cells (Large)</Value>
+    </Record>
+    <Record>
+      <Key>SellDataWeldingFuel</Key>
+      <Value>Welding Fuel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataSetofRoadFlares</Key>
+      <Value>Set of Road Flares</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxofChemlights</Key>
+      <Value>Box of Chemlights</Value>
+    </Record>
+    <Record>
+      <Key>SellDataAutolatheConstructionKit</Key>
+      <Value>Autolathe Construction Kit</Value>
+    </Record>
+    <Record>
+      <Key>TraderMoreOreLess</Key>
+      <Value>More Ore Less</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAssayers</Key>
+      <Value>Asteroid Assayers</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCrush</Key>
+      <Value>Cosmic Crush</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGravels</Key>
+      <Value>Galactic Gravels</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNuggets</Key>
+      <Value>Nebula Nuggets</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitOreOasis</Key>
+      <Value>Orbit Ore Oasis</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarStoneSupply</Key>
+      <Value>Stellar Stone Supply</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarExcavators</Key>
+      <Value>Interstellar Excavators</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVeinVendors</Key>
+      <Value>Void Vein Vendors</Value>
+    </Record>
+    <Record>
+      <Key>TraderPlanetaryPebbles</Key>
+      <Value>Planetary Pebbles</Value>
+    </Record>
+    <Record>
+      <Key>TraderAllAlloys</Key>
+      <Value>All Alloys</Value>
+    </Record>
+    <Record>
+      <Key>TraderMetalMavens</Key>
+      <Value>Metal Mavens</Value>
+    </Record>
+    <Record>
+      <Key>TraderAstroAlloyEmporium</Key>
+      <Value>AstroAlloy Emporium</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicForge</Key>
+      <Value>Cosmic Forge</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticMetallurgy</Key>
+      <Value>Galactic Metallurgy</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitOreOutfitters</Key>
+      <Value>OrbitOre Outfitters</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSmelter</Key>
+      <Value>Stellar Smelter</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarIngots</Key>
+      <Value>Interstellar Ingots</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNucleus</Key>
+      <Value>Nebula Nucleus</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceAlloySpecialists</Key>
+      <Value>Space Alloy Specialists</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarSmelter</Key>
+      <Value>Star Smelter</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarlightSuppers</Key>
+      <Value>Starlight Suppers</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGroceries</Key>
+      <Value>Galactic Groceries</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitingOrganics</Key>
+      <Value>Orbiting Organics</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCuisine</Key>
+      <Value>Cosmic Cuisine</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidEats</Key>
+      <Value>Asteroid Eats</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNibbles</Key>
+      <Value>Nebula Nibbles</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSnacks</Key>
+      <Value>Stellar Snacks</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarIngredients</Key>
+      <Value>Interstellar Ingredients</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSpices</Key>
+      <Value>Space Spices</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVegetables</Key>
+      <Value>Void Vegetables</Value>
+    </Record>
+    <Record>
+      <Key>TraderPlanetaryProduce</Key>
+      <Value>Planetary Produce</Value>
+    </Record>
+    <Record>
+      <Key>TraderGreenFutures</Key>
+      <Value>Green Futures</Value>
+    </Record>
+    <Record>
+      <Key>TraderAstroAgronomics</Key>
+      <Value>AstroAgronomics</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSprouts</Key>
+      <Value>Stellar Sprouts</Value>
+    </Record>
+    <Record>
+      <Key>TraderHydroHarvestHaven</Key>
+      <Value>HydroHarvest Haven</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitingOrchards</Key>
+      <Value>Orbiting Orchards</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGrowers</Key>
+      <Value>Galactic Growers</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmoCropConnect</Key>
+      <Value>CosmoCrop Connect</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSproutSuppliers</Key>
+      <Value>Space Sprout Suppliers</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNurturers</Key>
+      <Value>Nebula Nurturers</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarSeedlings</Key>
+      <Value>Star Seedlings</Value>
+    </Record>
+    <Record>
+      <Key>TraderEcoSphereEssentials</Key>
+      <Value>EcoSphere Essentials</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarIrrigation</Key>
+      <Value>Interstellar Irrigation</Value>
+    </Record>
+    <Record>
+      <Key>TraderGasForLess</Key>
+      <Value>GasForLess</Value>
+    </Record>
+    <Record>
+      <Key>TraderAstroAether</Key>
+      <Value>AstroAether</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicClouds</Key>
+      <Value>Cosmic Clouds</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNectars</Key>
+      <Value>Nebula Nectars</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitingOxygens</Key>
+      <Value>Orbiting Oxygens</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGases</Key>
+      <Value>Galactic Gases</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSteam</Key>
+      <Value>Stellar Steam</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInhalants</Key>
+      <Value>Interstellar Inhalants</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVapors</Key>
+      <Value>Void Vapors</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceGasStation</Key>
+      <Value>Space Gas Station</Value>
+    </Record>
+    <Record>
+      <Key>TraderBuildINC</Key>
+      <Value>Build INC</Value>
+    </Record>
+    <Record>
+      <Key>TraderPaylessLiquids</Key>
+      <Value>Payless Liquids</Value>
+    </Record>
+    <Record>
+      <Key>TraderFrostyBarrels</Key>
+      <Value>Frosty Barrels</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicConcoctions</Key>
+      <Value>Cosmic Concoctions</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGush</Key>
+      <Value>Galactic Gush</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitalOceans</Key>
+      <Value>Orbital Oceans</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarStreams</Key>
+      <Value>Stellar Streams</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarIcicles</Key>
+      <Value>Interstellar Icicles</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVessels</Key>
+      <Value>Void Vessels</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSprings</Key>
+      <Value>Space Springs</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarSippers</Key>
+      <Value>Star Sippers</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicToolsAndMore</Key>
+      <Value>Cosmic Tools and More</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGearworks</Key>
+      <Value>Galactic Gearworks</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSupplies</Key>
+      <Value>Stellar Supplies</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitOpsHardware</Key>
+      <Value>OrbitOps Hardware</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarImplements</Key>
+      <Value>Interstellar Implements</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVentures</Key>
+      <Value>Void Ventures</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidArtisans</Key>
+      <Value>Asteroid Artisans</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSpanners</Key>
+      <Value>Space Spanners</Value>
+    </Record>
+    <Record>
+      <Key>TraderMeteorMechanics</Key>
+      <Value>Meteor Mechanics</Value>
+    </Record>
+    <Record>
+      <Key>TraderAstroMart</Key>
+      <Value>AstroMart</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmosConvenience</Key>
+      <Value>Cosmo's Convenience</Value>
+    </Record>
+    <Record>
+      <Key>TraderStarStop</Key>
+      <Value>StarStop</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNecessities</Key>
+      <Value>Nebula Necessities</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarEssentials</Key>
+      <Value>Interstellar Essentials</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVending</Key>
+      <Value>Void Vending</Value>
+    </Record>
+    <Record>
+      <Key>TraderMeteorMunchies</Key>
+      <Value>Meteor Munchies</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGadgets</Key>
+      <Value>Galactic Gadgets</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitronAppliances</Key>
+      <Value>Orbitron Appliances</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarSystemsStore</Key>
+      <Value>Stellar Systems Store</Value>
+    </Record>
+    <Record>
+      <Key>TraderSpaceSavvySolutions</Key>
+      <Value>Space Savvy Solutions</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInnovations</Key>
+      <Value>Interstellar Innovations</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVisions</Key>
+      <Value>Void Visions</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAppliances</Key>
+      <Value>Asteroid Appliances</Value>
+    </Record>
+    <Record>
+      <Key>TradeError</Key>
+      <Value>Trade Error</Value>
     </Record>
   </Interface>
   <Colors>
@@ -23398,6 +24028,230 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>NoPaintable</Key>
       <Value>No</Value>
+    </Record>
+    <Record>
+      <Key>SiloItemCount</Key>
+      <Value>Silo Item Count: {LOCAL:TotalItemsCurrentlyStored}/{LOCAL:MaxItems}</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleNone</Key>
+      <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleInput</Key>
+      <Value>Input</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleInput2</Key>
+      <Value>Input 2</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleOutput</Key>
+      <Value>Output</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleOutput2</Key>
+      <Value>Output 2</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleWaste</Key>
+      <Value>Waste</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePipe</Key>
+      <Value>Pipe</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePower</Key>
+      <Value>Power</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeData</Key>
+      <Value>Data</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeChute</Key>
+      <Value>Chute</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeElevator</Key>
+      <Value>Elevator</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePipeLiquid</Key>
+      <Value>Pipe Liquid</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeLandingPad</Key>
+      <Value>Landing Pad</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeLaunchPad</Key>
+      <Value>Launch Pad</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeRoboticArmRail</Key>
+      <Value>Robotic Arm Rail</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePowerAndData</Key>
+      <Value>Power and Data</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeDefault</Key>
+      <Value>Default</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeHorizontal</Key>
+      <Value>Horizontal</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeVertical</Key>
+      <Value>Vertical</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorGridSunlight</Key>
+      <Value>Grid Sunlight {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorSolarAngle</Key>
+      <Value>Solar Angle {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorSolarIrradiance</Key>
+      <Value>Solar Irradiance {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorHorizontal</Key>
+      <Value>Horizontal {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorVertical</Key>
+      <Value>Vertical {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorMode</Key>
+      <Value>Mode {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeError</Key>
+      <Value>Mode {LOCAL:Value} ERROR</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateEmpty</Key>
+      <Value>Empty</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateCritical</Key>
+      <Value>Critical</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateLow</Key>
+      <Value>Low</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateVeryLow</Key>
+      <Value>Very Low</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateMedium</Key>
+      <Value>Medium</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateHigh</Key>
+      <Value>High</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateFull</Key>
+      <Value>Full</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardCurrentlyTrading</Key>
+      <Value>Currently trading</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardTimeTillResolveUnknown</Key>
+      <Value>Time till resolve unknown</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardSecondsTillResolve</Key>
+      <Value>{LOCAL:Value} s till resolve</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardDegreesFromContact</Key>
+      <Value>{LOCAL:Value}° from contact</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardPercentInterogated</Key>
+      <Value>{LOCAL:Value} % interrogated</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardContacted</Key>
+      <Value>Contacted</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalInterrogationInProgressAnother</Key>
+      <Value>Interrogation in progress by another dish</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalInterrogationInProgress</Key>
+      <Value>Interrogation in progress</Value>
+    </Record>
+    <Record>
+      <Key>CommTerminalWattageOnContact</Key>
+      <Value>{LOCAL:Value}W/{LOCAL:Setting}W are reaching the contact</Value>
+    </Record>
+    <Record>
+      <Key>CommTerminalEstimatedSecondsUntilInterrogated</Key>
+      <Value>estimated {LOCAL:Value}s until interrogated</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalDishInUse</Key>
+      <Value>Dish in use: {LOCAL:DishName}</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalLandTraderButton</Key>
+      <Value>Land</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalContactingComplete</Key>
+      <Value>Contacting complete, continue to call down trader</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalContactRequires</Key>
+      <Value>Contact requires {LOCAL:Value}W for {LOCAL:Time}s</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalDishBusy</Key>
+      <Value>Highest wattage dish busy. Please wait, or use a separate Comms Terminal</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalInterrogateButton</Key>
+      <Value>Interrogate</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalNotEnoughEnergy</Key>
+      <Value>Not enough energy pointed at contact to interrogate</Value>
+    </Record>
+    <Record>
+      <Key>TradeActionCharge</Key>
+      <Value>Charge {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LogicWrite</Key>
+      <Value>Write</Value>
+    </Record>
+    <Record>
+      <Key>LogicRead</Key>
+      <Value>Read</Value>
+    </Record>
+    <Record>
+      <Key>LogicReadWrite</Key>
+      <Value>Read Write</Value>
+    </Record>
+    <Record>
+      <Key>MemoryAccessNone</Key>
+      <Value>None</Value>
     </Record>
   </GameStrings>
   <GameTip />
