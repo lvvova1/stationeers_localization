@@ -17730,6 +17730,66 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Key>TradeError</Key>
       <Value>Trade Error</Value>
     </Record>
+    <Record>
+      <Key>RocketLocationPanelSelectRocket</Key>
+      <Value>Select Rocket</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoDensityTitle</Key>
+      <Value>Density</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoRichnessTitle</Key>
+      <Value>Richness</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoSizeTitle</Key>
+      <Value>Size</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoCompositionTitle</Key>
+      <Value>Composition</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoNameTitle</Key>
+      <Value>Name</Value>
+    </Record>
+    <Record>
+      <Key>NavPointDistanceTitle</Key>
+      <Value>Distance</Value>
+    </Record>
+    <Record>
+      <Key>NavPointChartingProgressTitle</Key>
+      <Value>Charting Progress</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTargetsTitle</Key>
+      <Value>Survey Targets</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget10</Key>
+      <Value>10% Composition</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget30</Key>
+      <Value>30% Size</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget60</Key>
+      <Value>60% Density</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget100</Key>
+      <Value>100% Richness</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget200</Key>
+      <Value>200% Mining Boost (10%)</Value>
+    </Record>
+    <Record>
+      <Key>SurveyTarget1000</Key>
+      <Value>1000% Mining Boost (25%)</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
@@ -24252,6 +24312,42 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>MemoryAccessNone</Key>
       <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>RocketApex</Key>
+      <Value>Apex</Value>
+    </Record>
+    <Record>
+      <Key>RocketImpactVelocity</Key>
+      <Value>Impact Velocity</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileNone</Key>
+      <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileLow</Key>
+      <Value>Low</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileMedium</Key>
+      <Value>Medium</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileHigh</Key>
+      <Value>High</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileMax</Key>
+      <Value>Max</Value>
+    </Record>
+    <Record>
+      <Key>SpaceMapUknownDeltaV</Key>
+      <Value>???</Value>
+    </Record>
+    <Record>
+      <Key>RocketLocationCurrentAction</Key>
+      <Value>Current Action: {LOCAL:Mode}</Value>
     </Record>
   </GameStrings>
   <GameTip />
