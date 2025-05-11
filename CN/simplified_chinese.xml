@@ -23674,7 +23674,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>FlashLightModeLowPower</Key>
-      <Value>高功率模式</Value>
+      <Value>低功率模式</Value>
     </Record>
     <Record>
       <Key>FlashLightModeHighPower</Key>
