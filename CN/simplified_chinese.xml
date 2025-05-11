@@ -407,7 +407,7 @@
     </Record>
     <Record>
       <Key>Unpowered</Key>
-      <Value>已停电</Value>
+      <Value>未供电</Value>
     </Record>
     <Record>
       <Key>False</Key>
