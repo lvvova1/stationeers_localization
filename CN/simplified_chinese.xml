@@ -15362,7 +15362,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>NewGameSaveName</Key>
-      <Value>保存游戏</Value>
+      <Value>存档名称</Value>
     </Record>
     <Record>
       <Key>StartNewGameButton</Key>
@@ -19430,143 +19430,143 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeChunks</Key>
-      <Value>DeserializingChunks</Value>
+      <Value>反序列化区块</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingAtmospherics</Key>
-      <Value>DeserializingAtmospherics</Value>
+      <Value>反序列化大气系统</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeCableNetworks</Key>
-      <Value>DeserializingCableNetworks</Value>
+      <Value>反序列化电缆网络</Value>
     </Record>
     <Record>
       <Key>LoadingScreenPleaseWait</Key>
-      <Value>PleaseWait</Value>
+      <Value>请稍候</Value>
     </Record>
     <Record>
       <Key>LoadingScreenClientJoining</Key>
-      <Value>ClientJoining</Value>
+      <Value>客户端正在加入</Value>
     </Record>
     <Record>
       <Key>LoadingScreenReceivingJoinData</Key>
-      <Value>ReceivingJoinData</Value>
+      <Value>接收加入数据</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRegisteringPrefabs</Key>
-      <Value>RegisteringPrefabs</Value>
+      <Value>注册预制</Value>
     </Record>
     <Record>
       <Key>LoadingScreenConnectingToServer</Key>
-      <Value>ConnectingtoServer</Value>
+      <Value>正在连接服务器</Value>
     </Record>
     <Record>
       <Key>LoadingScreenReadyToJoin</Key>
-      <Value>ReadyToJoin</Value>
+      <Value>准备加入</Value>
     </Record>
     <Record>
       <Key>LoadingScreenGeneratingTerrain</Key>
-      <Value>GeneratingTerrain</Value>
+      <Value>生成地形</Value>
     </Record>
     <Record>
       <Key>LoadingScreenFinishingGeneratingTerrain</Key>
-      <Value>FinishedGeneratingTerrain</Value>
+      <Value>地形生成完成</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingChuteNetworks</Key>
-      <Value>DeserializingChuteNetworks</Value>
+      <Value>反序列化滑槽网络</Value>
     </Record>
     <Record>
       <Key>LoadingScreenProcessingThings</Key>
-      <Value>ProcessingThings</Value>
+      <Value>处理物品</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingNetworks</Key>
-      <Value>DeserializingNetworks</Value>
+      <Value>反序列化网络</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingPipeNetworks</Key>
-      <Value>DeserializingPipeNetworks</Value>
+      <Value>反序列化管道网络</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeRocketNetworks</Key>
-      <Value>DeserializingRocketNetworks</Value>
+      <Value>反序列化火箭网络</Value>
     </Record>
     <Record>
       <Key>LoadingScreenCalculatingMeshes</Key>
-      <Value>CalculatingMeshes</Value>
+      <Value>计算网格</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingStationContacts</Key>
-      <Value>DeserializingStationContacts</Value>
+      <Value>反序列化空间站联络信息</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializing</Key>
-      <Value>Initializing</Value>
+      <Value>正在初始化</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializingChunks</Key>
-      <Value>InitializingChunks</Value>
+      <Value>初始化区块</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingChunks</Key>
-      <Value>LoadingChunks</Value>
+      <Value>加载区块</Value>
     </Record>
     <Record>
       <Key>LoadingScreenGeneratingRecipes</Key>
-      <Value>GeneratingRecipes</Value>
+      <Value>生成配方</Value>
     </Record>
     <Record>
       <Key>LoadingScreenNewWorldMenu</Key>
-      <Value>NewWorldMenu</Value>
+      <Value>新世界菜单</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingStationpedia</Key>
-      <Value>LoadingStationpedia</Value>
+      <Value>加载空间站百科</Value>
     </Record>
     <Record>
       <Key>LoadingScreenCalculatingChunks</Key>
-      <Value>CalculatingChunks</Value>
+      <Value>计算区块</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingRooms</Key>
-      <Value>LoadingRooms</Value>
+      <Value>加载房间</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingAtmosphers</Key>
-      <Value>LoadingAtmospheres</Value>
+      <Value>加载大气系统</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRegeneratingTerrain</Key>
-      <Value>RegeneratingTerrain</Value>
+      <Value>重新生成地形</Value>
     </Record>
     <Record>
       <Key>LoadingScreenPopulatingInventory</Key>
-      <Value>PopulatingInventory</Value>
+      <Value>填充库存</Value>
     </Record>
     <Record>
       <Key>LoadingScreenSpawningThings</Key>
-      <Value>Spawningthings</Value>
+      <Value>生成物品</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializingDevices</Key>
-      <Value>InitializingDevices</Value>
+      <Value>初始化设备</Value>
     </Record>
     <Record>
       <Key>LoadingScreenValidatingPrefabs</Key>
-      <Value>ValidatingPrefabs</Value>
+      <Value>验证预制值</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRenderingChunks</Key>
-      <Value>RenderingChunks</Value>
+      <Value>渲染区块</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingThings</Key>
-      <Value>LoadingThings( {LOCAL:ThingCount} )</Value>
+      <Value>加载物品( {LOCAL:ThingCount} )</Value>
     </Record>
     <Record>
       <Key>LoadingScreenCleaningUpPrefabs</Key>
-      <Value>Cleaningupprefabs</Value>
+      <Value>清理预制</Value>
     </Record>
     <Record>
       <Key>SettingsFullScreenDisplayMode</Key>
