@@ -16677,6 +16677,122 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>土星</Value>
     </Record>
     <Record>
+      <Key>CelestialBodyMercury</Key>
+      <Value>水星</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyVenus</Key>
+      <Value>金星</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyMars</Key>
+      <Value>火星</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyPhobos</Key>
+      <Value>火卫一</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyDeimos</Key>
+      <Value>火卫二</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyIo</Key>
+      <Value>木卫一</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyGanymede</Key>
+      <Value>木卫三</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyCallisto</Key>
+      <Value>木卫四</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyHimalia</Key>
+      <Value>木卫六</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyMimas</Key>
+      <Value>土卫一</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyEnceladus</Key>
+      <Value>土卫二</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyTethys</Key>
+      <Value>土卫三</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyDione</Key>
+      <Value>土卫四</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyRhea</Key>
+      <Value>土卫五</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyTitan</Key>
+      <Value>土卫六</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyHyperion</Key>
+      <Value>土卫七</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyIapetus</Key>
+      <Value>土卫八</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyPhoebe</Key>
+      <Value>土卫九</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyUranus</Key>
+      <Value>天王星</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyNeptune</Key>
+      <Value>海王星</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyPluto</Key>
+      <Value>冥王星</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyEris</Key>
+      <Value>阋神星</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyHaumea</Key>
+      <Value>妊神星</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyVulcan</Key>
+      <Value>火神星</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyErebus</Key>
+      <Value>厄瑞玻斯</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyPrometheus</Key>
+      <Value>普罗米修斯</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyAcheron</Key>
+      <Value>阿刻戎</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyStyx</Key>
+      <Value>斯堤克斯</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyLethos</Key>
+      <Value>莱索斯</Value>
+    </Record>
+    <Record>
       <Key>SpawnDataFuelTank</Key>
       <Value>燃料罐</Value>
     </Record>
@@ -17695,6 +17811,18 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>SurveyTarget1000</Key>
       <Value>1000% 采矿加速 (25%)</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardRocketControlTitle</Key>
+      <Value>火箭控制</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardRocketControlOpenButton</Key>
+      <Value>打开操作界面</Value>
+    </Record>
+    <Record>
+      <Key>RocketLocationPanelError</Key>
+      <Value>无额外信息</Value>
     </Record>
   </Interface>
   <Colors>
@@ -24300,6 +24428,90 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>RocketLocationCurrentAction</Key>
       <Value>当前动作: {LOCAL:Mode}</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthInfiniteSeconds</Key>
+      <Value>无限</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthZeroSeconds</Key>
+      <Value>0 秒</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthLessThan1Millisecond</Key>
+      <Value>&lt; 1毫秒</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMillisecond</Key>
+      <Value>毫秒</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthSecond</Key>
+      <Value>秒</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMinute</Key>
+      <Value>分</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthHour</Key>
+      <Value>时</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthDay</Key>
+      <Value>天</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthWeek</Key>
+      <Value>周</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMonth</Key>
+      <Value>月</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthYear</Key>
+      <Value>年</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthCentury</Key>
+      <Value>世纪</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthCenturies</Key>
+      <Value>世纪</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMillennium</Key>
+      <Value>千年</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMillennia</Key>
+      <Value>千年</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthEon</Key>
+      <Value>亿年</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthAeons</Key>
+      <Value>亿年</Value>
+    </Record>
+    <Record>
+      <Key>FabricatorFindRecipe</Key>
+      <Value>查找配方</Value>
+    </Record>
+    <Record>
+      <Key>FabricatorUknownRecipe</Key>
+      <Value>未知配方</Value>
+    </Record>
+    <Record>
+      <Key>EntityDeceased</Key>
+      <Value>死亡</Value>
+    </Record>
+    <Record>
+      <Key>EntityUnconsious</Key>
+      <Value>失去意识</Value>
     </Record>
   </GameStrings>
   <GameTip/>
