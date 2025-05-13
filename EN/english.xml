@@ -16771,6 +16771,122 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Saturn</Value>
     </Record>
     <Record>
+      <Key>CelestialBodyMercury</Key>
+      <Value>Mercury</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyVenus</Key>
+      <Value>Venus</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyMars</Key>
+      <Value>Mars</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyPhobos</Key>
+      <Value>Phobos</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyDeimos</Key>
+      <Value>Deimos</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyIo</Key>
+      <Value>Io</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyGanymede</Key>
+      <Value>Ganymede</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyCallisto</Key>
+      <Value>Callisto</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyHimalia</Key>
+      <Value>Hamilia</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyMimas</Key>
+      <Value>Mimas</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyEnceladus</Key>
+      <Value>Enceladus</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyTethys</Key>
+      <Value>Tethys</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyDione</Key>
+      <Value>Dione</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyRhea</Key>
+      <Value>Rhea</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyTitan</Key>
+      <Value>Titan</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyHyperion</Key>
+      <Value>Hyperion</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyIapetus</Key>
+      <Value>Iapetus</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyPhoebe</Key>
+      <Value>Phoebe</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyUranus</Key>
+      <Value>Uranus</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyNeptune</Key>
+      <Value>Neptune</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyPluto</Key>
+      <Value>Pluto</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyEris</Key>
+      <Value>Eris</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyHaumea</Key>
+      <Value>Haumea</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyVulcan</Key>
+      <Value>Vulcan</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyErebus</Key>
+      <Value>Erebus</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyPrometheus</Key>
+      <Value>Prometheus</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyAcheron</Key>
+      <Value>Acheron</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyStyx</Key>
+      <Value>Styx</Value>
+    </Record>
+    <Record>
+      <Key>CelestialBodyLethos</Key>
+      <Value>Lethos</Value>
+    </Record>
+    <Record>
       <Key>SpawnDataFuelTank</Key>
       <Value>Fuel Tank</Value>
     </Record>
@@ -17789,6 +17905,18 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>SurveyTarget1000</Key>
       <Value>1000% Mining Boost (25%)</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardRocketControlTitle</Key>
+      <Value>Rocket Control</Value>
+    </Record>
+    <Record>
+      <Key>MotherboardRocketControlOpenButton</Key>
+      <Value>open ui</Value>
+    </Record>
+    <Record>
+      <Key>RocketLocationPanelError</Key>
+      <Value>NO ADDITIONAL INFO AVAILABLE</Value>
     </Record>
   </Interface>
   <Colors>
@@ -24348,6 +24476,90 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>RocketLocationCurrentAction</Key>
       <Value>Current Action: {LOCAL:Mode}</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthInfiniteSeconds</Key>
+      <Value>infinite seconds</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthZeroSeconds</Key>
+      <Value>0 seconds</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthLessThan1Millisecond</Key>
+      <Value>&lt; 1 millisecond</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMillisecond</Key>
+      <Value>millisecond</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthSecond</Key>
+      <Value>second</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMinute</Key>
+      <Value>minute</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthHour</Key>
+      <Value>hour</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthDay</Key>
+      <Value>day</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthWeek</Key>
+      <Value>week</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMonth</Key>
+      <Value>month</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthYear</Key>
+      <Value>year</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthCentury</Key>
+      <Value>century</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthCenturies</Key>
+      <Value>centuries</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMillennium</Key>
+      <Value>millennium</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMillennia</Key>
+      <Value>millennia</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthEon</Key>
+      <Value>eon</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthAeons</Key>
+      <Value>aeons</Value>
+    </Record>
+    <Record>
+      <Key>FabricatorFindRecipe</Key>
+      <Value>Find Recipe</Value>
+    </Record>
+    <Record>
+      <Key>FabricatorUknownRecipe</Key>
+      <Value>Unknown Recipe</Value>
+    </Record>
+    <Record>
+      <Key>EntityDeceased</Key>
+      <Value>Deceased</Value>
+    </Record>
+    <Record>
+      <Key>EntityUnconsious</Key>
+      <Value>Unconscious</Value>
     </Record>
   </GameStrings>
   <GameTip />
