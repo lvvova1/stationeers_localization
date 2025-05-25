@@ -214,6 +214,21 @@
       <Value>Соя</Value>
       <Unit/>
     </RecordReagent>
+    <RecordReagent>
+      <Key>Mushroom</Key>
+      <Value>Грибы</Value>
+      <Unit>г</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Sugar</Key>
+      <Value>Сахар</Value>
+      <Unit>г</Unit>
+    </RecordReagent>
+    <RecordReagent>
+      <Key>Cocoa</Key>
+      <Value>Какао</Value>
+      <Unit>г</Unit>
+    </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
@@ -234,15 +249,63 @@
     </Record>
     <Record>
       <Key>Pollutant</Key>
-      <Value>Токсины</Value>
+      <Value>Токсин</Value>
     </Record>
     <Record>
       <Key>Water</Key>
       <Value>Вода</Value>
     </Record>
     <Record>
+      <Key>PollutedWater</Key>
+      <Value>Грязная вода</Value>
+    </Record>
+    <Record>
       <Key>NitrousOxide</Key>
       <Value>Закись азота</Value>
+    </Record>
+    <Record>
+      <Key>LiquidNitrogen</Key>
+      <Value>Жидкий азот</Value>
+    </Record>
+    <Record>
+      <Key>LiquidOxygen</Key>
+      <Value>Жидкий кислород</Value>
+    </Record>
+    <Record>
+      <Key>LiquidVolatiles</Key>
+      <Value>Жидкое летучее вещество</Value>
+    </Record>
+    <Record>
+      <Key>Steam</Key>
+      <Value>Пар</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCarbonDioxide</Key>
+      <Value>Жидкий углекислый газ</Value>
+    </Record>
+    <Record>
+      <Key>LiquidPollutant</Key>
+      <Value>Жидкий токсин</Value>
+    </Record>
+    <Record>
+      <Key>LiquidNitrousOxide</Key>
+      <Value>Жидкая закись азота</Value>
+    </Record>
+    <Record>
+      <Key>Hydrogen</Key>
+      <Value>Водород</Value>
+    </Record>
+    <Record>
+      <Key>LiquidHydrogen</Key>
+      <Value>Жидкий Водород</Value>
+    </Record>
+    <Record>
+      <Key>Air</Key>
+      <Value>Воздушная смесь</Value>
+    </Record>
+    <Record>
+      <Key>Fuel</Key>
+      <Value>Топливная смесь</Value>
     </Record>
   </Gases>
   <Actions>
@@ -299,8 +362,16 @@
       <Value>Употребить</Value>
     </Record>
     <Record>
+      <Key>ConsumeFail</Key>
+      <Value>Невозможно: шлем закрыт</Value>
+    </Record>
+    <Record>
       <Key>Plant</Key>
       <Value>Посадить</Value>
+    </Record>
+    <Record>
+      <Key>Water</Key>
+      <Value>Полить</Value>
     </Record>
     <Record>
       <Key>Harvest</Key>
@@ -420,7 +491,7 @@
     </Record>
     <Record>
       <Key>Vend</Key>
-      <Value>Получить</Value>
+      <Value>Выдать</Value>
     </Record>
     <Record>
       <Key>Link</Key>
@@ -666,15 +737,15 @@
     </RecordThing>
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
-      <Value>Анализатор атмосферы</Value>
+      <Value>Картридж (Анализатор атмосферы)</Value>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
-      <Value>Медицинский анализатор</Value>
+      <Value>Картридж (Медицинский анализатор)</Value>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
-      <Value>Сетевой анализатор</Value>
+      <Value>Картридж (Сетевой анализатор)</Value>
     </RecordThing>
     <RecordThing>
       <Key>Character</Key>
@@ -687,6 +758,10 @@
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
       <Value>Управление шлюзом</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ImGuiCircuitboardAirlockControl</Key>
+      <Value>Управление шлюзом (Эксперимент)</Value>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardCameraDisplay</Key>
@@ -742,11 +817,11 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterAir</Key>
-      <Value>Переносной резервуар (Воздух)</Value>
+      <Value>Переносной газовый резервуар (Воздух)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterCarbonDioxide</Key>
-      <Value>Переносной резервуар (CO2)</Value>
+      <Value>Переносной газовый резервуар (Углекислый газ)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterEmpty</Key>
@@ -754,27 +829,31 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterFuel</Key>
-      <Value>Переносной резервуар (Топливо)</Value>
+      <Value>Переносной газовый резервуар (Топливо)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrogen</Key>
-      <Value>Переносной резервуар (Азот)</Value>
+      <Value>Переносной газовый резервуар (Азот)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterOxygen</Key>
-      <Value>Переносной резервуар (Кислород)</Value>
+      <Value>Переносной газовый резервуар (Кислород)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterVolatiles</Key>
-      <Value>Переносной резервуар (Летучее вещество)</Value>
+      <Value>Переносной газовый резервуар (Летучее вещество)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
-      <Value>Переносной резервуар (Вода)</Value>
+      <Value>Переносной газовый резервуар (Вода)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicLiquidCanisterEmpty</Key>
+      <Value>Переносной жидкостный резервуар</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGenerator</Key>
-      <Value>Переносной электрогенератор</Value>
+      <Value>Переносной генератор</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLight</Key>
@@ -826,15 +905,15 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCell</Key>
-      <Value>Аккумулятор</Value>
+      <Value>Аккумулятор (Обычный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellLarge</Key>
-      <Value>Высокоёмкий аккумулятор</Value>
+      <Value>Аккумулятор (Высокоёмкий)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellNuclear</Key>
-      <Value>Ядерный аккумулятор</Value>
+      <Value>Аккумулятор (Ядерный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCharger</Key>
@@ -870,19 +949,11 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemCoalOre</Key>
-      <Value>Уголь</Value>
+      <Value>Руда (Уголь)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemCompositeFloorGrating</Key>
       <Value>Решётчатый настил</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemCopperIngot</Key>
-      <Value>Слиток меди</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemCopperOre</Key>
-      <Value>Медная руда</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemCorn</Key>
@@ -938,11 +1009,21 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemFlashingLight</Key>
-      <Value>Мигающая лампочка</Value>
+      <Value>Набор (Мигающая лампочка)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlour</Key>
       <Value>Мука</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCocoaPowder</Key>
+      <Value>Какао порошок</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSugar</Key>
+      <Value>Сахар</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
@@ -955,10 +1036,12 @@
     <RecordThing>
       <Key>ItemGasCanisterEmpty</Key>
       <Value>Газовый баллон</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterFuel</Key>
       <Value>Газовый баллон (Топливо)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
@@ -967,6 +1050,7 @@
     <RecordThing>
       <Key>ItemGasCanisterNitrogen</Key>
       <Value>Газовый баллон (Азот)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterOxygen</Key>
@@ -977,12 +1061,17 @@
       <Value>Жидкостный баллон (Вода)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemLiquidCanisterEmpty</Key>
+      <Value>Жидкостный баллон</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
       <Value>Фильтр (Углекислый газ)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutants</Key>
-      <Value>Фильтр (Токсины)</Value>
+      <Value>Фильтр (Токсин)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogen</Key>
@@ -1013,12 +1102,20 @@
       <Value>Лист стекла</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemCopperIngot</Key>
+      <Value>Слиток (Медь)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCopperOre</Key>
+      <Value>Руда (Медь)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemGoldIngot</Key>
-      <Value>Слиток золота</Value>
+      <Value>Слиток (Золото)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGoldOre</Key>
-      <Value>Золотая руда</Value>
+      <Value>Руда (Золото)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGrenade</Key>
@@ -1033,6 +1130,10 @@
       <Value>Медикамент</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemDisposableBatteryCharger</Key>
+      <Value>Одноразовое зарядное устройство</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemHydroponicTray</Key>
       <Value>Набор (Гидропонный Лоток)</Value>
     </RecordThing>
@@ -1042,7 +1143,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemIgniter</Key>
-      <Value>Воспламенитель</Value>
+      <Value>Набор (Воспламенитель)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulation</Key>
@@ -1050,59 +1151,71 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemIronIngot</Key>
-      <Value>Слиток железа</Value>
+      <Value>Слиток (Железа)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronOre</Key>
-      <Value>Железная руда</Value>
+      <Value>Руда (Железо)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlock</Key>
       <Value>Набор (Дверь шлюза)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAtmospherics</Key>
       <Value>Набор (Атмосфера)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBattery</Key>
       <Value>Набор (Батарея)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCentrifuge</Key>
       <Value>Набор (Центрифуга)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitChute</Key>
       <Value>Набор (Транспортная труба)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitComputer</Key>
       <Value>Набор (Компьютер)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConsole</Key>
       <Value>Набор (Консоль)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConveyor</Key>
       <Value>Набор (Конвейер)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCryoTube</Key>
       <Value>Набор (Криокапсула)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngine</Key>
       <Value>Набор (Двигатель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabricator</Key>
       <Value>Набор (Фабрикатор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurnace</Key>
       <Value>Набор (Печь)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurniture</Key>
@@ -1111,498 +1224,648 @@
     <RecordThing>
       <Key>ItemKitGyroscope</Key>
       <Value>Набор (Гироскоп)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRegulator</Key>
       <Value>Набор (Регулятор давления)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSensor</Key>
       <Value>Набор (Датчик)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSign</Key>
       <Value>Набор (Знак)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSleeper</Key>
-      <Value>Набор (Слипер)</Value>
+      <Value>Набор (Спальное место)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanel</Key>
       <Value>Набор (Солнечная панель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStairs</Key>
       <Value>Набор (Лестница)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStellarAnchor</Key>
       <Value>Набор (Звёздный якорь)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStorage</Key>
       <Value>Набор (Хранилище)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTank</Key>
       <Value>Набор (Резервуар)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTorpedoTube</Key>
       <Value>Набор (Торпедный аппарат)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurret</Key>
       <Value>Набор (Турель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWall</Key>
       <Value>Набор (Стена)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemLabeller</Key>
       <Value>Маркировщик</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemLightSword</Key>
       <Value>Световой меч</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMilk</Key>
       <Value>Молоко</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBelt</Key>
       <Value>Пояс шахтёра</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningDrill</Key>
-      <Value>Бур</Value>
+      <Value>Шахтёрский бур</Value>
+      <Description>The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick digging. Modeled on a classic {LINK:Recurso;Recurso} zero-g design, it functions equally well in vacuum and atmosphere, with cemented carbide bits to increase resilience and bearing life, and reduce spalling. As Jenk Murtons once said, 'The Topo don't stopo.'</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMuffin</Key>
       <Value>Маффин</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemPassiveVent</Key>
-      <Value>Пассивная вентиляция</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPickaxe</Key>
       <Value>Кирка</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPillHeal</Key>
-      <Value>Лечащая таблетка</Value>
+      <Value>Таблетка (Лечение)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPillStun</Key>
-      <Value>Оглушающая таблетка</Value>
+      <Value>Таблетка (Оглушение)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeAnalyizer</Key>
-      <Value>Анализатор атмосферы</Value>
+      <Value>Набор (Анализатор атмосферы труб)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCorner</Key>
-      <Value>Труба (Угловая)</Value>
+      <Value>Набор (Труба угловая)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction</Key>
-      <Value>Труба (Крестовая)</Value>
+      <Value>Набор (Труба Х-образная)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction3</Key>
-      <Value>Труба (Угловая 3-конечная)</Value>
+      <Value>Набор (Труба 3-конечная)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction5</Key>
-      <Value>Труба (5-конечная)</Value>
+      <Value>Набор (Труба 5-конечная)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction6</Key>
-      <Value>Труба (6-конечная)</Value>
+      <Value>Набор (Труба 6-конечная)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeDigitalValve</Key>
-      <Value>Электровентиль</Value>
+      <Value>Набор (Электрический клапан)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeGasMixer</Key>
-      <Value>Газовый смеситель</Value>
+      <Value>Набор (Газовый смеситель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeLabel</Key>
-      <Value>Наклейка для трубы</Value>
+      <Value>Набор (Наклейка для трубы)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeMeter</Key>
-      <Value>Манометр</Value>
+      <Value>Набор (Манометр)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeRadiator</Key>
-      <Value>Радиатор</Value>
+      <Value>Набор (Радиатор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeStraight</Key>
-      <Value>Труба (прямая)</Value>
+      <Value>Набор (Труба прямая)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeTJunction</Key>
-      <Value>Труба (3-конечная)</Value>
+      <Value>Набор (Труба Т-образная)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeValve</Key>
-      <Value>Вентиль</Value>
+      <Value>Набор (Газовый вентиль)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeVolumePump</Key>
-      <Value>Насос</Value>
+      <Value>Набор (Компрессор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeValve</Key>
-      <Value>Набор (Жидкостная труба с вентилем)</Value>
+      <Value>Набор (Жидкостный вентиль)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPowerConnector</Key>
-      <Value>Коннектор (Силовой)</Value>
+      <Value>Набор (Коннектор питания)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemReagentMix</Key>
       <Value>Смесь реагентов</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRoadFlare</Key>
       <Value>Сигнальный огонь</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRTG</Key>
       <Value>Набор (Креатив РИТЭГ)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRTGSurvival</Key>
       <Value>Набор (РИТЭГ)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemScanner</Key>
       <Value>Ручной сканер</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemScrewdriver</Key>
       <Value>Отвёртка</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSecurityCamera</Key>
       <Value>Камера видеоконтроля</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSpaceCleaner</Key>
       <Value>Чистящее средство</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSpaceHelmet</Key>
       <Value>Шлем</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSpacepack</Key>
       <Value>Реактивный ранец</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
       <Value>Баллончик с краской (Чёрный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlue</Key>
       <Value>Баллончик с краской (Синий)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBrown</Key>
       <Value>Баллончик с краской (Коричневый)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGreen</Key>
       <Value>Баллончик с краской (Зеленый)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGrey</Key>
       <Value>Баллончик с краской (Серый)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanKhaki</Key>
       <Value>Баллончик с краской (Хаки)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanOrange</Key>
       <Value>Баллончик с краской (Оранжевый)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPink</Key>
       <Value>Баллончик с краской (Розовый)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPurple</Key>
       <Value>Баллончик с краской (Фиолетовый)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanRed</Key>
       <Value>Баллончик с краской (Красный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanWhite</Key>
       <Value>Баллончик с краской (Белый)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanYellow</Key>
       <Value>Баллончик с краской (Жёлтый)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelFrames</Key>
       <Value>Стальные каркасы</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelIngot</Key>
-      <Value>Слиток стали</Value>
+      <Value>Слиток (Сталь)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelSheets</Key>
-      <Value>Лист стали</Value>
+      <Value>Стальные листы</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitStorage</Key>
-      <Value>Стойка для скафандра</Value>
+      <Value>Набор (Стойка для скафандра)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemTablet</Key>
       <Value>Планшет</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemTankConnector</Key>
       <Value>Набор (Коннектор для большого баллона)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemTankConnectorLiquid</Key>
       <Value>Набор (Коннектор для большого жидкостного баллона)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemToolBelt</Key>
       <Value>Пояс для инструментов</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
-      <Value>Урановая руда</Value>
+      <Value>Руда (Уран)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWallCooler</Key>
-      <Value>Охладитель воздуха</Value>
+      <Value>Набор (Настенный охладитель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWallHeater</Key>
-      <Value>Обогреватель</Value>
+      <Value>Набор (Настенный обогреватель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWallLight</Key>
-      <Value>Лампа</Value>
+      <Value>Набор (Лампы)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWeldingTorch</Key>
       <Value>Газовая горелка</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWheat</Key>
       <Value>Пшеница</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWireCutters</Key>
       <Value>Кусачки</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWrench</Key>
       <Value>Разводной ключ</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>MotherboardLogic</Key>
-      <Value>Логический контроллер</Value>
+      <Value>Логическая материнская плата</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>MotherboardManufacturing</Key>
       <Value>Производство</Value>
+      <Description>Устарело.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardSorter</Key>
-      <Value>Сортировщик</Value>
+      <Value>Сортировочная материнская плата</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>MothershipCore</Key>
       <Value>Ядро космического корабля</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>NPCDummyCharacter</Key>
       <Value>NPC Персонаж</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>NpcGrounder</Key>
       <Value>NPC Жук</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>OrganBrain</Key>
       <Value>Мозг</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>OrganLungs</Key>
       <Value>Лёгкие</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>SpaceShuttle</Key>
       <Value>Космический шаттл</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>Активная вентиляция</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureAirConditioner</Key>
       <Value>Кондиционер</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlock</Key>
       <Value>Дверь шлюза</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControl</Key>
       <Value>ИБП</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
       <Value>ИБП</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
       <Value>Регулятор обратного давления</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructurePurgeValve</Key>
+      <Value>Клапан продувки</Value>
+      <Description>Allows for removal of pressurant gas and evaporated liquids from a liquid pipe. Similar in function to a {THING:StructureBackPressureRegulator} the {THING:StructurePurgeValve} moves gas from the input liquid pipe to the output gas pipe aiming to keep the pressure of the input at the target setting.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePressurantValve</Key>
+      <Value>Клапан нагнетания</Value>
+      <Description>Pumps gas into a liquid pipe in order to raise the pressure</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCondensationValve</Key>
+      <Value>Конденсационный клапан</Value>
+      <Description>Allows for the removal of any liquids from a gas pipe into a liquid pipe. Only allows liquids to pass in one direction.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureExpansionValve</Key>
+      <Value>Испарительный клапан</Value>
+      <Description>Allows for moving liquids from a liquid pipe into a gas pipe. Only allows liquids to pass in one direction. Typically this is done to allow the liquid to evaporate into a gas as part of an airconditioning loop.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBattery</Key>
+      <Value>Station Battery</Value>
+      <Description>Providing large-scale, reliable power storage, the {LINK:Sinotai;Sinotai} 'Dianzi' station battery is the heart of most {LINK:Stationeers;Stationeer} bases.
+        There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.'
+        {HEADER:POWER OUTPUT}
+        Able to store up to 3600000W of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureBatteryCharger</Key>
       <Value>Зарядное устройство</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBench</Key>
-      <Value>Электрический Верстак</Value>
+      <Value>Электрический верстак</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBlastDoor</Key>
       <Value>Усиленная дверь</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner</Key>
       <Value>Кабель (Угловой)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3</Key>
       <Value>Кабель (Угловой 3-конечный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction</Key>
       <Value>Кабель (3-конечный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4</Key>
       <Value>Кабель (4-конечный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6</Key>
       <Value>Кабель (6-конечный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraight</Key>
       <Value>Кабель (Прямой)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCamera</Key>
       <Value>Камера видеоконтроля</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCentrifuge</Key>
       <Value>Центрифуга</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureChair</Key>
       <Value>Стул</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteBin</Key>
-      <Value>Транспортная труба (корзина)</Value>
+      <Value>Транспортная труба (Импорт)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteCorner</Key>
-      <Value>Транспортная труба (Угловая)</Value>
+      <Value>Транспортная труба (Угол)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteInlet</Key>
-      <Value>Транспортная труба (приёмник)</Value>
+      <Value>Транспортная труба (Приёмник)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteJunction</Key>
-      <Value>Транспортная труба (соединение)</Value>
+      <Value>Транспортная труба (Соединение)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOutlet</Key>
-      <Value>Транспортная труба (раздатчик)</Value>
+      <Value>Транспортная труба (Раздатчик)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight</Key>
-      <Value>Транспортная труба (прямая)</Value>
+      <Value>Транспортная труба (Прямая)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeDoor</Key>
-      <Value>Композитная Дверь</Value>
+      <Value>Композитная дверь</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating</Key>
-      <Value>Композитный Решётчатый Настил</Value>
+      <Value>Композитный решётчатый настил</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWall</Key>
-      <Value>Композитная Стена (Тип 1)</Value>
+      <Value>Композитная стена (Тип 1)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWallRound</Key>
+      <Value>Композитная стена (Закруглённая)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType1</Key>
-      <Value>Композитная Стена (Тип 1)</Value>
+      <Value>Композитная стена (Тип 1)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType2</Key>
-      <Value>Композитная Стена (Тип 2)</Value>
+      <Value>Композитная стена (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType3</Key>
-      <Value>Композитная Стена (Тип 3)</Value>
+      <Value>Композитная стена (Тип 3)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType4</Key>
-      <Value>Композитная Стена (Тип 4)</Value>
+      <Value>Композитная стена (Тип 4)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindow</Key>
-      <Value>Окно</Value>
+      <Value>Композитное окно</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureComputer</Key>
-      <Value>Компьютер</Value>
+      <Value>Компьютер (Современный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureConsole</Key>
       <Value>Консоль</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleDual</Key>
       <Value>Консоль (Раздельные порты)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleMonitor</Key>
       <Value>Консоль (Монитор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureControlChair</Key>
       <Value>Сиденье пилота</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorCorner</Key>
@@ -1627,14 +1890,17 @@
     <RecordThing>
       <Key>StructureCryoTube</Key>
       <Value>Криокапсула</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureDaylightSensor</Key>
       <Value>Датчик дневного света</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureDigitalValve</Key>
-      <Value>Электровентиль</Value>
+      <Value>Электрический клапан</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFabricator</Key>
@@ -1643,46 +1909,67 @@
     <RecordThing>
       <Key>StructureFiltration</Key>
       <Value>Воздушный фильтр</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureWaterPurifier</Key>
+      <Value>Очиститель воды</Value>
+      <Description>Cleans {GAS:PollutedWater} and outputs {GAS:Water}. The purification process requires {THING:ItemCharcoal} which can be added to the machine via the import bin. The procesing throughput can be improved by increasing the gas pressure of the input pipe relative to the gas pressure of the output pipe.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitWaterPurifier</Key>
+      <Value>Набор (Очиститель воды)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFlashingLight</Key>
       <Value>Мигающая лампочка</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFrame</Key>
-      <Value>Стальной Каркас</Value>
+      <Value>Стальной каркас</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameCorner</Key>
-      <Value>Стальной Каркас (Угол)</Value>
+      <Value>Стальной каркас (Угол)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameSide</Key>
-      <Value>Стальной Каркас (Склон)</Value>
+      <Value>Стальной каркас (Склон)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFurnace</Key>
       <Value>Печь</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureGasMixer</Key>
       <Value>Газовый смеситель</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureGasSensor</Key>
       <Value>Газовый датчик</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureGasTankStorage</Key>
       <Value>Стойка для газового баллона</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankStorage</Key>
       <Value>Стойка для жидкостного баллона</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureGlassDoor</Key>
       <Value>Стеклянная дверь</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureGunTurret</Key>
@@ -1691,82 +1978,107 @@
     <RecordThing>
       <Key>StructureGyroscope</Key>
       <Value>Гироскоп</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTray</Key>
       <Value>Гидропонный лоток</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureIgniter</Key>
       <Value>Воспламенитель</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLocker</Key>
       <Value>Шкафчик</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureMotionSensor</Key>
       <Value>Датчик движения</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveVent</Key>
       <Value>Пассивная вентиляция</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePassiveVentValve</Key>
+      <Value>Пассивная вентиляция (Вентиль)</Value>
+      <Description>Passive vents (Valve) allow gasses to move into and out of pipe networks, which are closed systems unless connected to a device or structure. Passive vents are not powered, but allow the user to choose when to allow gases in an enclosed space to mix inside a pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
-      <Value>Анализатор атмосферы трубы</Value>
+      <Value>Трубный анализатор газа</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCorner</Key>
       <Value>Труба (Угловая)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction</Key>
-      <Value>Труба (4-конечная)</Value>
+      <Value>Труба (Х-образная)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction3</Key>
       <Value>Труба (Угловая 3-конечная)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction5</Key>
       <Value>Труба (5-конечная)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction6</Key>
       <Value>Труба (6-конечная)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLabel</Key>
       <Value>Наклейка на трубу</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeMeter</Key>
       <Value>Манометр</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiator</Key>
-      <Value>Радиатор</Value>
+      <Value>Газовый конвекционный радиатор</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeStraight</Key>
       <Value>Труба (Прямая)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeTJunction</Key>
-      <Value>Труба (3-конечная)</Value>
+      <Value>Труба (Т-образная)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerConnector</Key>
-      <Value>Коннектор (Силовой)</Value>
+      <Value>Коннектор питания</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePressureRegulator</Key>
       <Value>Регулятор давления</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRailing</Key>
       <Value>Перила Индустриальные (Тип 1)</Value>
+      <Description>"Безопасность потом."</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketEngine</Key>
@@ -1783,26 +2095,31 @@
     <RecordThing>
       <Key>StructureRTG</Key>
       <Value>Креатив РИТЭГ</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeper</Key>
-      <Value>Слипер</Value>
+      <Value>Спальное место</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel</Key>
       <Value>Солнечная панель</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureSorter</Key>
       <Value>Сортировщик</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureStacker</Key>
       <Value>Стакер</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureStackerReverse</Key>
       <Value>Стакер</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2</Key>
@@ -1815,14 +2132,17 @@
     <RecordThing>
       <Key>StructureSuitStorage</Key>
       <Value>Стойка для скафандра</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureTankConnector</Key>
-      <Value>Коннектор (Большой баллон)</Value>
+      <Value>Коннектор переносного резервуара</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureTankConnectorLiquid</Key>
-      <Value>Коннектор (Большой Жидкостный Баллон)</Value>
+      <Value>Коннектор переносного жидкостного резервуара</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmall</Key>
@@ -1846,23 +2166,26 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureValve</Key>
-      <Value>Вентиль</Value>
+      <Value>Газовый вентиль</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureVolumePump</Key>
-      <Value>Насос</Value>
+      <Value>Компрессор</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidValve</Key>
-      <Value>Жидкостный Вентиль</Value>
+      <Value>Жидкостный вентиль</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallCooler</Key>
-      <Value>Охладитель воздуха</Value>
+      <Value>Настенный охладитель</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWallHeater</Key>
-      <Value>Обогреватель</Value>
+      <Value>Настенный обогреватель</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWallLight</Key>
@@ -1886,7 +2209,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWasteIngot</Key>
-      <Value>Слиток шлака</Value>
+      <Value>Слиток (Шлак)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraightBurnt</Key>
@@ -1914,15 +2237,17 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureSolidFuelGenerator</Key>
-      <Value>Твердотопливный генератор</Value>
+      <Value>Генератор (Твердотопливный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGenerator</Key>
       <Value>Набор (Генератор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCableFuse</Key>
-      <Value>Набор (Предохранитель)</Value>
+      <Value>Набор (Предохранители)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraightH</Key>
@@ -1983,14 +2308,17 @@
     <RecordThing>
       <Key>StructureTransformer</Key>
       <Value>Трансформатор (Большой)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTransformer</Key>
       <Value>Набор (Большой трансформатор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerSmall</Key>
       <Value>Трансформатор (Маленький)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>WeaponPistolEnergy</Key>
@@ -1998,31 +2326,37 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteWindow</Key>
-      <Value>Транспортная труба (С окном)</Value>
+      <Value>Транспортная труба (Окно)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureArcFurnace</Key>
       <Value>Дуговая печь</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureAutolathe</Key>
       <Value>Автолат</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabrication</Key>
       <Value>Набор (Фабрикатор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipe</Key>
       <Value>Набор (Труба)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>CartridgeElectronicReader</Key>
-      <Value>Справочник</Value>
+      <Value>Картридж (Справочник)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemCableCoilHeavy</Key>
-      <Value>Моток силового кабеля</Value>
+      <Value>Моток кабеля (Силовой)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameIron</Key>
@@ -2034,19 +2368,22 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemIronSheets</Key>
-      <Value>Лист железа</Value>
+      <Value>Железные листы</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemSilverOre</Key>
-      <Value>Серебряная руда</Value>
+      <Value>Руда (Серебро)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemNickelOre</Key>
-      <Value>Никелевая руда</Value>
+      <Value>Руда (Никель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemLeadOre</Key>
-      <Value>Свинцовая руда</Value>
+      <Value>Руда (Свинец)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>WeaponRifleEnergy</Key>
@@ -2054,31 +2391,31 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemElectrumIngot</Key>
-      <Value>Слиток электрума</Value>
+      <Value>Слиток (Электрум)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemSilverIngot</Key>
-      <Value>Слиток серебра</Value>
+      <Value>Слиток (Серебро)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemLeadIngot</Key>
-      <Value>Слиток свинца</Value>
+      <Value>Слиток (Свинец)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemNickelIngot</Key>
-      <Value>Слиток никеля</Value>
+      <Value>Слиток (Никель)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemInvarIngot</Key>
-      <Value>Слиток инвара</Value>
+      <Value>Слиток (Инвар)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemConstantanIngot</Key>
-      <Value>Слиток константана</Value>
+      <Value>Слиток (Константан)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemSolderIngot</Key>
-      <Value>Слиток припоя</Value>
+      <Value>Слиток (Припой)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceChemistryStation</Key>
@@ -2091,38 +2428,81 @@
     <RecordThing>
       <Key>ItemSoybean</Key>
       <Value>Соевые бобы</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemAngleGrinder</Key>
       <Value>Болгарка</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSiliconOre</Key>
-      <Value>Кремниевая руда</Value>
+      <Value>Руда (Кремний)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSiliconIngot</Key>
-      <Value>Слиток кремния</Value>
+      <Value>Слиток (Кремний)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemFern</Key>
       <Value>Папоротник</Value>
+      <Description>There was a time, when Stationeers had to make {THING:ReagentFenoxitone} using the {THING:ApplianceReagentProcessor}. Recent advances in technology allow you to use equivalent quantities of fern directly in recipes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCerealBar</Key>
       <Value>Злаковый батончик</Value>
+      <Description>Sustains, without decay. If only all our relationships were so well balanced.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChocolateBar</Key>
+      <Value>Шоколадный батончик</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChocolateCake</Key>
+      <Value>Шоколадный торт</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPlainCake</Key>
+      <Value>Торт</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemChocolateCerealBar</Key>
+      <Value>Шоколадный злаковый батончик</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureElectronicsPrinter</Key>
       <Value>Принтер электроники</Value>
+      <Description>The electronic printer will create any {LINK:ElectronicPage;electronic} part you need. From circuit boards and electronic devices to solar panels. The choice is yours. Upgrade the device using a {THING:ElectronicPrinterMod} for additional recipes and faster processing speeds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemVolatiles</Key>
       <Value>Лёд (Летучее вещество)</Value>
+      <Description>An extremely reactive ice with numerous hydrocarbons trapped inside. For simplicity's sake, these are often displayed as H2 by devices like the {THING:CartridgeAtmosAnalyser}.
+
+        {GAS:Volatiles} combust in a 2:1 ratio with {GAS:Oxygen}, creating {GAS:CarbonDioxide} and pollutants. However when catalysed via devices such as the {THING:H2Combustor} in the presence of {GAS:Oxygen}, they produce
+        {GAS:Steam} and heat with a modicum of {GAS:CarbonDioxide} and {GAS:Pollutant} due to the autoignition of the volatiles in the chamber. Along with {GAS:Oxygen}, volatiles gas is also the major component of fuel for such devices as the {THING:ItemWeldingTorch}.
+      </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemOxite</Key>
       <Value>Лёд (Оксит)</Value>
+      <Description>Oxite ice is largely composed of frozen {GAS:Oxygen}, and found on many planets in the Solar System. Highly valuable and sought after, not all planets a {LINK:Stationeers;Stationeer} visits will have some.
+
+        Highly sensitive to temperature, oxite will begin to melt as soon as it is mined, unless the temperature is below zero, or it is stored in the {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} or devices like the {THING:StructureIceCrusher} or {THING:StructureFridgeSmall}. When melting, oxite produces a mixture of {GAS:Oxygen} and {GAS:Nitrogen}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSpaceIce</Key>
+      <Value>Космический лёд</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSpaceOre</Key>
+      <Value>Грязная руда</Value>
+      <Description>Ore mined from asteroids via the {THING:StructureRocketMiner} which then must be processed in the {THING:StructureCentrifuge}, or {THING:StructureCombustionCentrifuge} to produce smeltable ores.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallIron</Key>
@@ -2131,6 +2511,7 @@
     <RecordThing>
       <Key>ItemKitWallIron</Key>
       <Value>Набор (Железная стена)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureStorageLocker</Key>
@@ -2143,6 +2524,7 @@
     <RecordThing>
       <Key>ItemKitCube</Key>
       <Value>Набор (Куб)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>Cube</Key>
@@ -2150,27 +2532,33 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTransformerSmall</Key>
-      <Value>Набор (Трансформатор)</Value>
+      <Value>Набор (Маленький трансформатор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSuitStorage</Key>
       <Value>Набор (Стойка для скафандра)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolidGenerator</Key>
       <Value>Набор (Твердотопливный генератор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLocker</Key>
       <Value>Набор (Шкафчик)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngineSmall</Key>
       <Value>Набор (Малый двигатель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngineMedium</Key>
       <Value>Набор (Средний двигатель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngineLarge</Key>
@@ -2179,46 +2567,55 @@
     <RecordThing>
       <Key>ItemKitElectronicsPrinter</Key>
       <Value>Набор (Принтер электроники)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDoor</Key>
       <Value>Набор (Дверь)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutolathe</Key>
       <Value>Набор (Автолат)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBlastDoor</Key>
       <Value>Набор (Усиленная дверь)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitArcFurnace</Key>
       <Value>Набор (Дуговая печь)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureHydraulicPipeBender</Key>
       <Value>Гидравлический сгибатель труб</Value>
+      <Description>A go-to tool for all your atmospheric and plumbing needs, the {LINK:ExMin;ExMin} Atmoprinter will create everything from pipes, pumps and tanks, to vents and filters, ensuring your survival in any environment. Upgrade the Atmoprinter using a {THING:PipeBenderMod} for additional recipes and faster processing speeds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHydraulicPipeBender</Key>
       <Value>Набор (Гидравлический сгибатель труб)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSorter</Key>
       <Value>Набор (Сортировщик)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStacker</Key>
       <Value>Набор (Стакер)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>CartridgeTracker</Key>
-      <Value>Навигатор</Value>
+      <Value>Картридж (Навигатор)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasSensor</Key>
-      <Value>Газовый датчик</Value>
+      <Value>Набор (Газовый датчик)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemBeacon</Key>
@@ -2226,15 +2623,20 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureToolManufactory</Key>
-      <Value>Производитель инструментов</Value>
+      <Value>Фабрика инструментов</Value>
+      <Description>No mission can be completed without the proper tools. The {LINK:Norsec;Norsec} ThuulDek manufactory can fabricate almost any tool or hand-held device a {LINK:Stationeer;Stationeer} may need to complete their mission, as well as a variety of delightful paints.
+        Upgrade the device using a {THING:ToolPrinterMod} for additional recipes and faster processing speeds.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitToolManufactory</Key>
-      <Value>Набор (Производитель инструментов)</Value>
+      <Value>Набор (Фабрика инструментов)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerSmallReversed</Key>
       <Value>Трансформатор (Маленький)</Value>
+      <Description>Transformers control the maximum power that will flow down a cable subnetwork, to prevent overloading {LINK:ElectronicPage;electrical} systems. Output on small transformers can be set from 0 to 5000W.
+      Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicUnit</Key>
@@ -2271,18 +2673,22 @@
     <RecordThing>
       <Key>ItemKitLogicProcessor</Key>
       <Value>Набор (Чип обработки)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicMemory</Key>
       <Value>Набор (Чип памяти)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicInputOutput</Key>
       <Value>Набор (Чип ввода-вывода)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicSwitch</Key>
       <Value>Набор (Логический переключатель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicSwitch</Key>
@@ -2319,6 +2725,7 @@
     <RecordThing>
       <Key>StructureSolarPanelDual</Key>
       <Value>Солнечная Панель (Двойная)</Value>
+      <Description>{LINK:Sinotai;Sinotai} dual solar panels are used for generating power from sunlight, with dedicated data and power ports. They can be connected to {{LINK:LogicPage;Logic} systems, in order to track sunlight, but their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicBatchWriter</Key>
@@ -2339,10 +2746,12 @@
     <RecordThing>
       <Key>StructureRecycler</Key>
       <Value>Утилизатор</Value>
+      <Description>A device for collecting the raw resources while destroying an item. Produces {THING:ItemReagentMix} containing packages of reagents. Pass these through the {THING:StructureCentrifuge} to gain back the source ores. Plants and organic matter passed through will create Biomass, which when passed through the {THING:StructureCentrifuge} will produce {THING:ItemBiomass}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRecycler</Key>
       <Value>Набор (Утилизатор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCableAnalyser</Key>
@@ -2355,6 +2764,7 @@
     <RecordThing>
       <Key>StructureLogicDial</Key>
       <Value>Регулятор</Value>
+      <Description>An assignable dial with up to 1000 modes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED1x2</Key>
@@ -2383,6 +2793,7 @@
     <RecordThing>
       <Key>ItemKitBeacon</Key>
       <Value>Набор (Стационарный маяк)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureTankBig</Key>
@@ -2391,10 +2802,54 @@
     <RecordThing>
       <Key>ItemPotato</Key>
       <Value>Картофель</Value>
+      <Description> Potatoes are a simple, fast growing crop that can keep Stationeers alive in emergencies.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemStrawberry</Key>
+      <Value>Клубника</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Strawberry</Key>
+      <Value>Семена клубники</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBlueberry</Key>
+      <Value>Черника</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Blueberry</Key>
+      <Value>Семена черники</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWatermelon</Key>
+      <Value>Арбуз</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Watermelon</Key>
+      <Value>Семена арбуза</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemTomato</Key>
       <Value>Томат</Value>
+      <Description>Tomato plants are perennial, and will produce multiple harvests without needing to be replanted. Once the plant is mature, it will fruit at a moderate pace.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGrass</Key>
+      <Value>Трава</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFlax</Key>
+      <Value>Лён</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGorse</Key>
+      <Value>Утёсник</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasGenerator</Key>
@@ -2403,14 +2858,12 @@
     <RecordThing>
       <Key>ItemKitGasGenerator</Key>
       <Value>Набор (Газовый электрогенератор)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>DynamicGPR</Key>
-      <Value>Георадар (GPR)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>CartridgeOreScanner</Key>
-      <Value>Георадар</Value>
+      <Value>Картридж (Георадар)</Value>
+      <Description>When inserted into a {THING:ItemTablet} the scanner will display minerals hidden underground on the tablet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPotatoBaked</Key>
@@ -2419,10 +2872,15 @@
     <RecordThing>
       <Key>ItemTomatoSoup</Key>
       <Value>Томатный суп</Value>
+      <Description>Made using {THING:ItemCookedTomato}s and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoyOil</Key>
       <Value>Соевое масло</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFries</Key>
+      <Value>Картофель фри</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerH3</Key>
@@ -2502,7 +2960,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingSphericalCorner</Key>
-      <Value>Композитное покрытие (Сферическрй угол)</Value>
+      <Value>Композитное покрытие (Сферический угол)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingSphericalCap</Key>
@@ -2527,6 +2985,7 @@
     <RecordThing>
       <Key>ItemKitCompositeCladding</Key>
       <Value>Набор (Композитное покрытие)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingAngledCornerLongR</Key>
@@ -2539,6 +2998,7 @@
     <RecordThing>
       <Key>ItemKitDockingPort</Key>
       <Value>Набор (Док-порт)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureDockShipSide</Key>
@@ -2563,14 +3023,16 @@
     <RecordThing>
       <Key>ItemKitOrganicsPrinter</Key>
       <Value>Набор (Принтер органики)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureOrganicsPrinter</Key>
       <Value>Принтер органики</Value>
+      <Description>Обратите внимание, что принтер органики устарел - теперь он доступен только в Креативе.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindowIron</Key>
-      <Value>Железное Окно</Value>
+      <Value>Железное окно</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeFloorGrating1</Key>
@@ -2595,6 +3057,7 @@
     <RecordThing>
       <Key>ItemKitWallPanels</Key>
       <Value>Набор (Настенные панели)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallPanelling1</Key>
@@ -2603,6 +3066,7 @@
     <RecordThing>
       <Key>ItemKitCompositeFloorGrating</Key>
       <Value>Набор (Напольный настил)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>CompositeRollCover</Key>
@@ -2611,6 +3075,7 @@
     <RecordThing>
       <Key>ItemKitLadder</Key>
       <Value>Набор (Вертикальная лестница)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameCornerCut</Key>
@@ -2803,18 +3268,22 @@
     <RecordThing>
       <Key>ItemKitWallArch</Key>
       <Value>Набор (Арочная стена)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallFlat</Key>
       <Value>Набор (Плоская стена)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallGeometry</Key>
       <Value>Набор (Геометрическая стена)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallPadded</Key>
       <Value>Набор (Обитая стена)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLadder</Key>
@@ -2822,38 +3291,276 @@
     </RecordThing>
     <RecordThing>
       <Key>CartridgeGuide</Key>
-      <Value>Руководство</Value>
+      <Value>Картридж (Руководство)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction4</Key>
       <Value>Труба (Угловая 4-конечная)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeCrossJunction4} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAuthoringTool</Key>
       <Value>Инструмент для творчества</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemTerrainEditor</Key>
+      <Value>Инструмент редактирования ландшафта</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketEngineDestroyed</Key>
-      <Value>Разрушенный ракетный двигатель</Value>
+      <Value>Ракетный двигатель (Уничтожен)</Value>
     </RecordThing>
+
     <RecordThing>
-      <Key>ItemWreckageConstructor</Key>
-      <Value>Набор (Разрушенные структуры)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckage1</Key>
+      <Key>ItemWreckage</Key>
       <Value>Обломок</Value>
     </RecordThing>
     <RecordThing>
-      <Key>ItemWreckage2</Key>
+      <Key>ItemWreckageAirlock</Key>
+      <Value>Обломок шлюза</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageArcFurnce</Key>
+      <Value>Обломок дуговой печи</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageAreaPowerControl1</Key>
       <Value>Обломок</Value>
     </RecordThing>
     <RecordThing>
-      <Key>ItemWreckage3</Key>
+      <Key>ItemWreckageAreaPowerControl2</Key>
       <Value>Обломок</Value>
     </RecordThing>
     <RecordThing>
-      <Key>ItemWreckage4</Key>
+      <Key>ItemWreckageAutolathe</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageBin</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageBlastDoor</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCentrifuge1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCentrifuge2</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageChuteExport</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCoalGenerator1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCoalGenerator2</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoor1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCompositeDoorGlass1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageDoorControlPanel</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElectrolysis</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElectronicPrinter</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElevator</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageElevatorLevelFront1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageGasGenerator1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageGasGenerator2</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageH2Combustor1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHalfSteelBumper</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageHydroponicsStation</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLargeExtendableRadiator</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLight1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageLight2</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckagePowerPiece0</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckagePowerPiece1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageRecycler0</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageRecycler1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSatelliteDish0</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSatelliteDish1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSDBSilo</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSecurityPrinter</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSmallFan</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanelBase</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanelFragment</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSolarPanelLarge</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelBar</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelBumper</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageCornerSmall</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelFragmentMedium</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelFragmentSmall</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPanel0</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPanel1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPanel2</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPanel3</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPieceMedium</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPlate0</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPlate1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelPlate2</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelSlabSmall</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelStrip0</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelStrip1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageSteelStrip2</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageStructureWeatherStation</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageVendingMachine2</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine1</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine2</Key>
+      <Value>Обломок</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWreckageWindTurbine3</Key>
       <Value>Обломок</Value>
     </RecordThing>
     <RecordThing>
@@ -2894,11 +3601,11 @@
     </RecordThing>
     <RecordThing>
       <Key>AccessCardPurple</Key>
-      <Value>Карта доступа (Фиолетавая)</Value>
+      <Value>Карта доступа (Фиолетовая)</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardRed</Key>
-      <Value>Карта доступа (Красаня)</Value>
+      <Value>Карта доступа (Красная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>AccessCardWhite</Key>
@@ -2911,10 +3618,13 @@
     <RecordThing>
       <Key>StructureSecurityPrinter</Key>
       <Value>Принтер безопасности</Value>
+      <Description>Any {LINK:Stationeer;Stationeer} concerned about security needs the {LINK:Harkwell;Harkwell-designed} Vigilant-E security printer. Use the Vigilant-E to create a {THING:CartridgeAccessController}, in order to restrict access to different parts of your base via keycards like the {THING:AccessCardBlue}. The printer also makes a variety of weapons and ammunitions to defend your base against any hostile, aggressive or just slightly rude entites you encounter as you explore the Solar System.
+      </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSecurityPrinter</Key>
       <Value>Набор (Принтер безопасности)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>Handgun</Key>
@@ -2939,14 +3649,17 @@
     <RecordThing>
       <Key>StructureElectrolyzer</Key>
       <Value>Электролизёр</Value>
+      <Description>The {LINK:Norsec;Norsec-designed} Electrolyzer splits {GAS:Water} into hydrogen and {GAS:Oxygen}. Employing unknown proprietary technology, the device uses water's latent heat as the energy to drive the electrosis process. If there is a downside to this near-miraculous fission, it's that the device is limited by the quantity of power available, which is used to maintain the temperature output. In other words, the machine works best with hot gas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureElevatorShaft</Key>
-      <Value>Шахта лифта</Value>
+      <Value>Шахта лифта (С кабелем)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitElevator</Key>
       <Value>Набор (Лифт)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ElevatorCarrage</Key>
@@ -2954,7 +3667,8 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureElevatorLevelFront</Key>
-      <Value>Этаж лифта</Value>
+      <Value>Этаж лифта (С кабелем)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCrateMount</Key>
@@ -2963,6 +3677,7 @@
     <RecordThing>
       <Key>ItemKitCrateMount</Key>
       <Value>Набор (Подставка для ящика)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicMirror</Key>
@@ -2979,6 +3694,7 @@
     <RecordThing>
       <Key>ItemKitHydroponicStation</Key>
       <Value>Набор (Гидропонная станция)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureDiodeSlide</Key>
@@ -2990,11 +3706,12 @@
     </RecordThing>
     <RecordThing>
       <Key>CartridgeConfiguration</Key>
-      <Value>Конфигуратор</Value>
+      <Value>Картридж (Конфигуратор)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrate</Key>
       <Value>Набор (Переносной ящик)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGraphDisplay</Key>
@@ -3003,6 +3720,7 @@
     <RecordThing>
       <Key>ItemKitMotherShipCore</Key>
       <Value>Набор (Ядро космического корабля)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamicScrubber</Key>
@@ -3015,18 +3733,22 @@
     <RecordThing>
       <Key>ItemKitPipeValve</Key>
       <Value>Клапан</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicGenerator</Key>
-      <Value>Набор (Переносной электрогенератор)</Value>
+      <Value>Набор (Переносной генератор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureVendingMachine</Key>
       <Value>Склад</Value>
+      <Description>The {LINK:Xigo;Xigo-designed} 'Slot Mate' vending machine allows storage of almost any item, while also operating as a distribution point for working with {LINK:TradingPage;Traders}. You cannot trade without a vending machine, or its more advanced equivalent, the {THING:StructureRefrigeratedVendingMachine}. Each vending machine can hold up to 100 stacks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachine</Key>
       <Value>Набор (Склад)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicSlotReader</Key>
@@ -3053,12 +3775,17 @@
       <Value>Налобный фонарь</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemDebugHeadlamp</Key>
+      <Value>Отладочный налобный фонарь</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureTurbineGenerator</Key>
       <Value>Турбогенератор</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurbineGenerator</Key>
       <Value>Набор (Турбогенератор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ReagentSilver</Key>
@@ -3083,6 +3810,10 @@
     <RecordThing>
       <Key>StructureUnloader</Key>
       <Value>Извлекатель</Value>
+      <Description>The {LINK:Xigo;Xigo} Re:Gurge is a handy unit for unloading any items inserted into it, and feeding them into a chute network. For instance, if you add a full {THING:ItemMiningBelt}, the Re:Gurge will empty a mining belt of its contents, insert them into the chute network, then insert the mining belt itself. A {THING:StructureSorter} is recommended to reclaim the mining belt.
+
+        Output = 0 exporting the main item
+        Output = 1 exporting items inside and eventually the main item.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ReagentFenoxitone</Key>
@@ -3098,7 +3829,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureLockerSmall</Key>
-      <Value>Малый шкафчик</Value>
+      <Value>Шкафчик (Маленький)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicBatchSlotReader</Key>
@@ -3111,6 +3842,7 @@
     <RecordThing>
       <Key>ItemKitPressurePlate</Key>
       <Value>Набор (Нажимная пластина)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePressurePlateLarge</Key>
@@ -3127,26 +3859,28 @@
     <RecordThing>
       <Key>ItemKitDynamicCanister</Key>
       <Value>Набор (Переносной газовый резервуар)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicLiquidCanister</Key>
       <Value>Набор (Переносной жидкостной резервуар)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemFlowerBlue</Key>
-      <Value>Синий цветок</Value>
+      <Value>Цветок (Синий)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlowerOrange</Key>
-      <Value>Оранжевый цветок</Value>
+      <Value>Цветок (Оранжевый)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlowerRed</Key>
-      <Value>Красный цветок</Value>
+      <Value>Цветок (Красный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlowerYellow</Key>
-      <Value>Желтый цветок</Value>
+      <Value>Цветок (Желтый)</Value>
     </RecordThing>
     <RecordThing>
       <Key>AppliancePaintMixer</Key>
@@ -3154,7 +3888,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ReagentColorBlue</Key>
-      <Value>Синий краситель</Value>
+      <Value>Краситель (Синий)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ReagentCarbon</Key>
@@ -3162,23 +3896,23 @@
     </RecordThing>
     <RecordThing>
       <Key>ReagentColorGreen</Key>
-      <Value>Зеленый краситель</Value>
+      <Value>Краситель (Зеленый)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ReagentColorOrange</Key>
-      <Value>Оранжевый краситель</Value>
+      <Value>Краситель (Оранжевый)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ReagentColorRed</Key>
-      <Value>Красный краситель</Value>
+      <Value>Краситель (Красный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ReagentColorYellow</Key>
-      <Value>Желтый краситель</Value>
+      <Value>Краситель (Желтый)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlowerGreen</Key>
-      <Value>Зеленый цветок</Value>
+      <Value>Краситель (Зеленый)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideL</Key>
@@ -3231,14 +3965,17 @@
     <RecordThing>
       <Key>ItemMushroom</Key>
       <Value>Гриб</Value>
+      <Description>A tasty food item. Unlike normal plants, it consumes {GAS:Oxygen} and outputs {GAS:CarbonDioxide}. Mushrooms will only mature at a moderate rate in darkness, and prolonged light will kill it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPumpkin</Key>
       <Value>Тыква</Value>
+      <Description>Pumpkins are a perennial plant, with both a long growth time, and a long time between harvests.  Its low requirement for darkness allows for accelerated growing if provided with extra light.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRice</Key>
       <Value>Рис</Value>
+      <Description>Rice grows at a moderate rate as long as its supplied with plenty of water.  Being more dependant on water, rice plants can easily die during periods of drought.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPumpkinPie</Key>
@@ -3247,10 +3984,19 @@
     <RecordThing>
       <Key>ItemHardBackpack</Key>
       <Value>Прочный рюкзак</Value>
+      <Description>This backpack can be useful when you are working inside and don't need to fly around.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHardJetpack</Key>
-      <Value>Прочный реакивный ранец</Value>
+      <Value>Прочный реактивный ранец</Value>
+      <Description>The {LINK:Norsec;Norsec} jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
+        The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensable for building, mining and general movement, it has fourteen storage slots.
+        USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemDebugJetpack</Key>
+      <Value>Отладочный реактивный ранец</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicHydroponics</Key>
@@ -3259,18 +4005,22 @@
     <RecordThing>
       <Key>ItemKitDynamicHydroponics</Key>
       <Value>Набор (Переносная гидропонная установка)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureKlaxon</Key>
       <Value>Громкоговоритель</Value>
+      <Description>Klaxons allow you to play over 50 announcements and sounds, depending on your {LINK:LogicPage;Logic} set-up. Set the mode to select the output.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSpeaker</Key>
       <Value>Набор (Громкоговоритель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>CartridgeOreScannerColor</Key>
-      <Value>Георадар (Цветной)</Value>
+      <Value>Картридж (Георадар цветной)</Value>
+      <Description>When inserted into a {THING:ItemTablet} the scanner will display minerals hidden underground in different colors on the tablet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicWriterSwitch</Key>
@@ -3278,11 +4028,13 @@
     </RecordThing>
     <RecordThing>
       <Key>MotherboardProgrammableChip</Key>
-      <Value>Программатор IC</Value>
+      <Value>Материнская плата (Программатор IC)</Value>
+      <Description>When placed in a {THING:StructureComputer}, the IC Editor allows players to write and edit IC code, which can then be uploaded to a {THING:ItemIntegratedCircuit10} if housed in an {THING:StructureCircuitHousing}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicCircuit</Key>
       <Value>Набор (Сокет)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCircuitHousing</Key>
@@ -3330,7 +4082,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemNVG</Key>
-      <Value>ПНВ</Value>
+      <Value>Прибор ночного видения</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGlasses</Key>
@@ -3343,6 +4095,7 @@
     <RecordThing>
       <Key>StructureShuttleLandingPad</Key>
       <Value>Посадочная площадка</Value>
+      <Description>Landing pad capable of handling a small trade shuttle. When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} enables the ability to trade with suppliers. You need a communications signal of 95% or above to establish reliable communications with a trader.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPad</Key>
@@ -3350,15 +4103,18 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureSatelliteDish</Key>
-      <Value>Спутниковая тарелка</Value>
+      <Value>Средняя спутниковая тарелка</Value>
+      <Description>This medium communications unit can be used to communicate with nearby trade vessels.
+
+        When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms} motherboard, a {THING:Landingpad_CenterPiece01}, and a {THING:StructureVendingMachine}, this allows Stationeers to contact traders. Adjust its horizontal and vertical attributes either directly or through logic.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSatelliteDish</Key>
-      <Value>Набор (Спутниковая тарелка)</Value>
+      <Value>Набор (Средняя спутниковая тарелка)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlasticSheets</Key>
-      <Value>Лист пластика</Value>
+      <Value>Пластиковые листы</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemAlienMushroom</Key>
@@ -3366,23 +4122,24 @@
     </RecordThing>
     <RecordThing>
       <Key>MotherboardComms</Key>
-      <Value>Связь</Value>
+      <Value>Материнская плата (Связь)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMarineBodyArmor</Key>
-      <Value>Десантная Броня</Value>
+      <Value>Десантная броня</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMarineHelmet</Key>
-      <Value>Военный шлем</Value>
+      <Value>Десантный шлем</Value>
     </RecordThing>
     <RecordThing>
       <Key>UniformMarine</Key>
-      <Value>Десантная Униформа</Value>
+      <Value>Десантная униформа</Value>
     </RecordThing>
     <RecordThing>
       <Key>CardboardBox</Key>
       <Value>Картонная коробка</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWallLightBattery</Key>
@@ -3398,7 +4155,13 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningDrillHeavy</Key>
-      <Value>Мощный бур</Value>
+      <Value>Мощный шахтёрский бур</Value>
+      <Description>Sometimes mining trips require something a little bigger to bring home the goods. This scaled up version of the {LINK:Recurso;Recurso} 'Topo' design {THING:ItemMiningDrill} can literally move mountains. The heavy mining drill will remove more ground and mine {LINK:OrePage;ore} more quickly than the standard mining drill. The heavy mining drill is also resilient to temperature and pressure. So no matter what planet or extreme weather conditions may be present, the Recurso heavy mining drill will get the job done.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidVacuum</Key>
+      <Value>Жидкосос</Value>
+      <Description>When set to Inwards mode the {THING:ItemLiquidVacuum} removes liquid from the world and into its internal tank. When set to outwards mode it empties its internal tank back into the world. Empty it over {THING:StructureFloorDrain} to get your liquid back into a pipe.</Description>
     </RecordThing>
     <RecordThing>
       <Key>RoverCargo</Key>
@@ -3415,6 +4178,7 @@
     <RecordThing>
       <Key>ItemKitRoverFrame</Key>
       <Value>Набор (Каркас планетохода)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2Rails</Key>
@@ -3463,6 +4227,7 @@
     <RecordThing>
       <Key>StructureSolarPanelFused</Key>
       <Value>Солнечная панель</Value>
+      <Description>Used for generating power from sunlight. Efficiency is reduced during storms and when damaged. You can repair it using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCoffeeMug</Key>
@@ -3471,6 +4236,23 @@
     <RecordThing>
       <Key>Robot</Key>
       <Value>AIMeE Бот</Value>
+      <Description>Designed by - presumably drunk - {LINK:Norsec;Norsec} roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a {LINK:Stationeers;Stationeer's} best friend, or tiresome nemesis, or both several times in the same day.
+
+        Intended to unearth and retrieve ores automatically, the unit requires basic programming knowledge to operate, and {THING:MotherboardProgrammableChip}.
+
+        AIMEe has 7 modes:
+
+        RobotMode.None = 0 = Do nothing
+        RobotMode.None = 1 = Follow nearest player
+        RobotMode.None = 2 = Move to target in straight line
+        RobotMode.None = 3 = Wander around looking for ores in 15 co-ords radius
+        RobotMode.None = 4 = Unload in chute input or chute bin within 3 meters / 1.5 large grids
+        RobotMode.None = 5 = Path(find) to target
+        RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>CartridgeGPS</Key>
+      <Value>Картридж (GPS)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicTransmitter</Key>
@@ -3479,42 +4261,47 @@
     <RecordThing>
       <Key>ItemKitLogicTransmitter</Key>
       <Value>Набор (Логический передатчик)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedFurnace</Key>
       <Value>Улучшенная печь</Value>
+      <Description>The advanced furnace comes with integrated inlet and outlet pumps for controlling the unit's internal pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedFurnace</Key>
       <Value>Набор (Улучшенная печь)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemStelliteIngot</Key>
-      <Value>Слиток стеллита</Value>
+      <Value>Слиток (Стеллит)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaspaloyIngot</Key>
-      <Value>Слиток васпалоя</Value>
+      <Value>Слиток (Васпалой)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemHastelloyIngot</Key>
-      <Value>Слиток хастеллоя</Value>
+      <Value>Слиток (Хастеллой)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemInconelIngot</Key>
-      <Value>Слиток инконеля</Value>
+      <Value>Слиток (Инконель)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemAstroloyIngot</Key>
-      <Value>Слиток астролоя</Value>
+      <Value>Слиток (Астролой)</Value>
+      <Description>Due to the original Stationeer manual collapsing into a singularity, Astroloy recipes have been warped by spacetime contortions. The correct Astroloy recipe, as memorialized for all time in a series of charming plastic icons, is 1.0 Copper, 1.0 Cobalt, and 2.0 Steel.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCobaltOre</Key>
-      <Value>Кобальт</Value>
+      <Value>Руда (Кобальт)</Value>
+      <Description>Cobalt is a chemical element with the symbol "Co" and is typically found in only small deposits. Cobalt is a rare substance, but used create the {THING:ItemHealPill} and several  {LINK:IngotPage;alloys}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCobaltIngot</Key>
-      <Value>Слиток кобальта</Value>
+      <Value>Слиток (Кобальт)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ReagentCobalt</Key>
@@ -3543,26 +4330,36 @@
     <RecordThing>
       <Key>ElectronicPrinterMod</Key>
       <Value>Модуль принтера электроники</Value>
+      <Description>Apply to an {THING:StructureElectronicsPrinter} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
       <Key>AutolathePrinterMod</Key>
       <Value>Модуль улучшения автолата</Value>
+      <Description>Apply to an {THING:StructureAutolathe} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
       <Key>PipeBenderMod</Key>
       <Value>Модуль гидравлического сгибателя труб</Value>
+      <Description>Apply to an {THING:StructureHydraulicPipeBender} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ToolPrinterMod</Key>
       <Value>Модуль принтера инструментов</Value>
+      <Description>Apply to an {THING:StructureToolManufactory} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium</Key>
-      <Value>Трансформатор (средний)</Value>
+      <Value>Трансформатор (Средний)</Value>
+      <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading {LINK:ElectronicPage;electrical} systems.
+        Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
+        Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMediumReversed</Key>
-      <Value>Трансформатор Обратный (Средний)</Value>
+      <Value>Трансформатор (Средний обратный)</Value>
+      <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading {LINK:ElectronicPage;electrical} systems.
+        Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
+        Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium(Reversed)</Key>
@@ -3571,6 +4368,9 @@
     <RecordThing>
       <Key>ItemJetpackBasic</Key>
       <Value>Базовый реактивный ранец</Value>
+      <Description>The basic {LINK:CHAC;CHAC} jetpack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.
+        Indispensable for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stabilizer causes the spacepack to hover when a given height is reached.
+        USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRTGSurvival</Key>
@@ -3610,11 +4410,11 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemEmergencyScrewdriver</Key>
-      <Value>Запасная отвертка</Value>
+      <Value>Запасная отвёртка</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemEmergencyEvaSuit</Key>
-      <Value>Запасной cкафандр</Value>
+      <Value>Запасной скафандр</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemEmergencySpaceHelmet</Key>
@@ -3631,6 +4431,10 @@
     <RecordThing>
       <Key>ItemKitResearchMachine</Key>
       <Value>Набор (Исследовательская машина)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ManualGetResearchPodsRequired</Key>
+      <Value>PodTypeToSearchFor</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureResearchMachine</Key>
@@ -3739,6 +4543,7 @@
     <RecordThing>
       <Key>ItemKitPictureFrame</Key>
       <Value>Набор рамка</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemVoxelTool</Key>
@@ -3747,10 +4552,12 @@
     <RecordThing>
       <Key>ItemKitAIMeE</Key>
       <Value>Набор (AIMeE)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
       <Value>Небольшой Автоматический Рудокоп</Value>
+      <Description>The {LINK:Recurso;Recurso} SquareDig autominer is a structure that when built will mine a vertical 2x2 shaft until it hits bedrock. The autominer can be connected to a chute system, and is controllable by a logic network. Note that the autominer outputs more {LINK:OrePage;ore} than a conventional {THING:ItemMiningDrill} over the same area.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
@@ -3763,26 +4570,11 @@
     <RecordThing>
       <Key>ItemDirtCanister</Key>
       <Value>Канистра с грунтом</Value>
+      <Description>A container the will fill with Dirt when using a {THING:ItemMiningDrill} when placed inside a {THING:ItemMiningBelt}. You can then use this {SLOT:DirtCanister} with the {THING:ItemTerrainManipulator} to adjust the terrain to suit your needs.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTerrainManipulator</Key>
       <Value>Манипулятор Ландшафта</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureLaunchPad</Key>
-      <Value>Модуль Ракетной Площадки Запуска</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketCargo01</Key>
-      <Value>Модуль Ракетный Грузовой</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketCommand01</Key>
-      <Value>Модуль Управления Ракетой</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>DynamicModularRocketCommand01</Key>
-      <Value>Модуль Управления Ракетой</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureReverseElectrolyzer</Key>
@@ -3790,75 +4582,80 @@
     </RecordThing>
     <RecordThing>
       <Key>H2Combustor</Key>
-      <Value>H2 Сжигатель</Value>
+      <Value>Сжигатель H2</Value>
+      <Description>Adapted slightly from its original {LINK:Recurso;Recurso} design, the {GAS:Volatiles} Combustor does exactly what its name suggests - it burns a mixture of volatiles and {GAS:Oxygen} to create water. Extremely useful in hot or arid environments, users need to be aware that the combustor outputs considerable waste heat. The device is also less than perfectly efficient, resulting in the autoignition of volatiles in the chamber, and the production of waste gases which must be dealt with.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight</Key>
-      <Value>Изолированная Труба (Прямая)</Value>
+      <Value>Изолированная труба (Прямая)</Value>
+      <Description>Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCorner</Key>
-      <Value>Изолированная Труба (Угловая)</Value>
+      <Value>Изолированная труба (Угловая)</Value>
+      <Description>Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction</Key>
-      <Value>Изолированная Труба (Крестовая)</Value>
+      <Value>Изолированная труба (Х-образная)</Value>
+      <Description>Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction3</Key>
-      <Value>Изолированная Труба (Угловая 3-конечная)</Value>
+      <Value>Изолированная труба (Угловая 3-конечная)</Value>
+      <Description>Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction4</Key>
-      <Value>Изолированная Труба (Угловая 4-конечная)</Value>
+      <Value>Изолированная труба (Угловая 4-конечная)</Value>
+      <Description>Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction5</Key>
-      <Value>Изолированная Труба (5-конечная)</Value>
+      <Value>Изолированная труба (5-конечная)</Value>
+      <Description>Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction6</Key>
-      <Value>Изолированная Труба (6-конечная)</Value>
+      <Value>Изолированная труба (6-конечная)</Value>
+      <Description>Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeTJunction</Key>
-      <Value>Изолированная Труба (3-конечная)</Value>
+      <Value>Изолированная труба (Т-образная)</Value>
+      <Description>Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAdvancedTablet</Key>
       <Value>Улучшенный Планшет</Value>
+      <Description>The advanced {LINK:Xigo;Xigo} Padi 2 tablet is an improved version of the basic {THING:ItemTablet}, boasting two {LINK:CartridgePage;cartridge} slots. The Padi 2 accepts {THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, and various other cartridges.
+
+        With a {THING:ItemIntegratedCircuit10} in the {SLOT:ProgrammableChip}, you can access variable slots on the carrying human using the device numbers (d0, d1, etc...), so long as the item can be access via logic, such as the {THING:ItemHardSuit}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipe</Key>
       <Value>Набор (Изолированная труба)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketEngine01</Key>
-      <Value>Модуль Ракетный Двигатель</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketFueltank01</Key>
-      <Value>Модуль Ракетный Топливный Бак</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitStructureModularRocketCommand01</Key>
-      <Value>Набор (Модуль Управления Ракетой)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCargo01</Key>
       <Value>Набор (Модуль Грузовой Ракетный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureLaunchPad</Key>
       <Value>Набор (Площадка Запуска)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketEngine01</Key>
       <Value>Набор (Модуль Ракетный Двигатель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketFueltank01</Key>
       <Value>Набор (Модуль Ракетный Топливный Бак)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWallIron02</Key>
@@ -3903,6 +4700,7 @@
     <RecordThing>
       <Key>ItemKitRailing</Key>
       <Value>Набор (Перила)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchCornerRound</Key>
@@ -3975,14 +4773,16 @@
     <RecordThing>
       <Key>StructurePipeOrgan</Key>
       <Value>Труба Органа</Value>
+      <Description>The pipe organ can be attached to one end of a {THING:ItemPipeValve}. The length of the pipe after the pipe organ changes the pitch of the note it will play when the valve is opened. Use {LINK:LogicPage;Logic} to open and close the valves to create some custom tunes for your base or an audible warning.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeOrgan</Key>
       <Value>Набор (Орган)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterRocketFuel</Key>
-      <Value>Активный газовый баллон Ракетного топлива</Value>
+      <Value>Переносной резервуар (Ракетное топливо)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ModularRocketCommand01Lander</Key>
@@ -3994,31 +4794,36 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorProcessingUnitOreScanner</Key>
-      <Value>Блок обработки датчиков (Сканер Руд)</Value>
+      <Value>Блок обработки данных (Георадар)</Value>
+      <Description>The Sensor Processing unit can be inserted into {THING:ItemSensorLenses} to reveal underground minerals in a HUD.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorLenses</Key>
       <Value>Сенсорные линзы</Value>
+      <Description>These {LINK:Norsec;Norsec} glasses might not be the most fashionable thing, but when a {THING:ItemSensorProcessingUnitOreScanner} is inserted, Stationeers can use these handy glasses to x-ray the ground and find ores that are hidden beneath the surface.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryChargerSmall</Key>
-      <Value>Зарядное устройство (малое)</Value>
+      <Value>Малое зарядное устройство</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryChargerSmall</Key>
-      <Value>Зарядное устройство (малое)</Value>
+      <Value>Набор (Малое зарядное устройство)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlat</Key>
-      <Value>Солнечная Панель (Плоская)</Value>
+      <Value>Солнечная панель (Плоская)</Value>
+      <Description>{LINK:Sinotai;Sinotai} basic solar panels generate power from sunlight. They lie flat to the ground, and their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45</Key>
-      <Value>Солнечная Панель (Угловая)</Value>
+      <Value>Солнечная панель (Угловая)</Value>
+      <Description>{LINK:Sinotai;Sinotai} basic solar panels generate power from sunlight, sitting at 45 degrees to the ground. Their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasic</Key>
-      <Value>Набор (Базовая Солнечная панель)</Value>
+      <Value>Набор (Базовая солнечная панель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureSDBHopperAdvanced</Key>
@@ -4031,30 +4836,36 @@
     <RecordThing>
       <Key>ItemKitSDBHopper</Key>
       <Value>Набор (SDB Загрузочная воронка)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureSDBSilo</Key>
       <Value>SDB Хранилище</Value>
+      <Description>The majestic silo holds large quantities of almost anything. While it is doing that, it cannot be deconstructed. Note also, that any food you put into a silo is likely to {LINK:DecayPage;decay} extremely rapidly. The silo can hold up to 600 stacks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitSDBSilo</Key>
       <Value>Набор (SDB Хранилище)</Value>
+      <Description>This kit creates a {THING:StructureSDBSilo}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallInsulated</Key>
-      <Value>Бак Малый (Изолированный)</Value>
+      <Value>Малый резервуар (Изолированный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureTankBigInsulated</Key>
-      <Value>Бак Большой (Изолированный)</Value>
+      <Value>Большой резервуар (Изолированный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTankInsulated</Key>
-      <Value>Набор (Изолированный бак)</Value>
+      <Value>Набор (Изолированный резервуар)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDebug</Key>
       <Value>Набор (Отладчик)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureChairThickSingle</Key>
@@ -4103,6 +4914,7 @@
     <RecordThing>
       <Key>ItemKitTables</Key>
       <Value>Набор (Столы)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>KitchenTableTall</Key>
@@ -4151,658 +4963,298 @@
     <RecordThing>
       <Key>ItemKitChairs</Key>
       <Value>Набор (Стулья)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBeds</Key>
-      <Value>Набор (Кровать)</Value>
+      <Value>Набор (Кровати)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLightRoundAngled</Key>
       <Value>Круглый Светильник (Наклонный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLightRound</Key>
       <Value>Круглый Светильник</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLightRoundSmall</Key>
       <Value>Круглый Светильник (Маленький)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureSingleBed</Key>
       <Value>Односпальная кровать</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBlockBed</Key>
       <Value>Кровать</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>TriggerZone</Key>
       <Value>Зона срабатывания</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEmergencyButton</Key>
       <Value>Важная кнопка</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAccessBridge</Key>
+      <Value>Мост доступа</Value>
+      <Description>Extendable bridge that spans three grids</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLaunchMount</Key>
+      <Value>Пусковая установка</Value>
+      <Description>The first piece to place whern building a rocket. Rockets can be constructed and/or landed here. Each Launch Mount will be allocated a slot on the Space Map and assigned a Location Code.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlockGate</Key>
       <Value>Набор (Ангарный шлюз)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlockGate</Key>
-      <Value>Ангарный шлюз</Value>
+      <Value>Малая ангарная дверь</Value>
+      <Description>1 x 1 modular door piece for building hangar doors.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureMediumHangerDoor</Key>
+      <Value>Средняя ангарная дверь</Value>
+      <Description>1 x 2 modular door piece for building hangar doors.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLargeHangerDoor</Key>
+      <Value>Большая ангарная дверь</Value>
+      <Description>1 x 3 modular door piece for building hangar doors.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBatteryLarge</Key>
+      <Value>Станционная батарея (Большая)</Value>
+      <Description>Providing even better large-scale, reliable power storage than the {THING;StructureBattery}, the {LINK:Sinotai;Sinotai} 'Da Dianchi' large station battery is the heart of most {LINK:Stationeers;Stationeer} bases.
+        There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.'
+        {HEADER:POWER OUTPUT}
+        Able to store up to 9000001 watts of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}. </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBatteryLarge</Key>
       <Value>Набор (Большая батарея)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageVendingMachine1</Key>
-      <Value>Разрушенный Склад</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageVendingMachine2</Key>
-      <Value>Разрушенный Склад</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageVendingMachine3</Key>
-      <Value>Разрушенный Склад</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageVendingMachine4</Key>
-      <Value>Разрушенный Склад</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageArcFurnace1</Key>
-      <Value>Обломки Дуговой Печи</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageArcFurnace2</Key>
-      <Value>Обломки Дуговой Печи</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageArcFurnace3</Key>
-      <Value>Обломки Дуговой Печи</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAreaPowerControl1</Key>
-      <Value>Обломки ИБП</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAreaPowerControl2</Key>
-      <Value>Обломки ИБП</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAreaPowerControlReversed1</Key>
-      <Value>Обломки Обратного ИБП</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAreaPowerControlReversed2</Key>
-      <Value>Обломки Обратного ИБП</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel1</Key>
-      <Value>Обломки Солнечной Панели</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel2</Key>
-      <Value>Обломки Солнечной Панели</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSolarPanel3</Key>
-      <Value>Обломки Солнечной Панели</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformer1</Key>
-      <Value>Обломки Трансформатора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformer2</Key>
-      <Value>Обломки Трансформатора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerMedium1</Key>
-      <Value>Обломки Среднего Трансформатора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerMedium2</Key>
-      <Value>Обломки Среднего Трансформатора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerSmall1</Key>
-      <Value>Обломки Малого Трансформатора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTransformerSmall2</Key>
-      <Value>Обломки Малого Трансформатора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSecurityPrinter1</Key>
-      <Value>Обломки Принтера Безопасности</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSecurityPrinter2</Key>
-      <Value>Обломки Принтера Безопасности</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSecurityPrinter3</Key>
-      <Value>Обломки Принтера Безопасности</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSecurityPrinter4</Key>
-      <Value>Обломки Принтера Безопасности</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSecurityPrinter5</Key>
-      <Value>Обломки Принтера Безопасности</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSecurityPrinter6</Key>
-      <Value>Обломки Принтера Безопасности</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe1</Key>
-      <Value>Обломки Автолата</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe2</Key>
-      <Value>Обломки Автолата</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe3</Key>
-      <Value>Обломки Автолата</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe4</Key>
-      <Value>Обломки Автолата</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe5</Key>
-      <Value>Обломки Автолата</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe6</Key>
-      <Value>Обломки Автолата</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAutolathe7</Key>
-      <Value>Обломки Автолата</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter1</Key>
-      <Value>Обломок Принтера Электроники1</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter2</Key>
-      <Value>Обломок Принтера Электроники2</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter3</Key>
-      <Value>Обломок Принтера Электроники3</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter4</Key>
-      <Value>Обломок Принтера Электроники4</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter5</Key>
-      <Value>Обломок Принтера Электроники5</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectronicsPrinter6</Key>
-      <Value>Обломок Принтера Электроники6</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCentrifuge1</Key>
-      <Value>Обломки Центрифуги</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCentrifuge2</Key>
-      <Value>Обломки Центрифуги</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCentrifuge3</Key>
-      <Value>Обломки Центрифуги</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCentrifuge4</Key>
-      <Value>Обломки Центрифуги</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCentrifuge5</Key>
-      <Value>Обломки Центрифуги</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageGasGenerator1</Key>
-      <Value>Обломки газового генератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageGasGenerator2</Key>
-      <Value>Обломки газового генератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageVent1</Key>
-      <Value>Обломки Вентиляции</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSatelliteDish1</Key>
-      <Value>Обломки Спутниковой Тарелки</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSatelliteDish2</Key>
-      <Value>Обломки Спутниковой Тарелки</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSatelliteDish3</Key>
-      <Value>Обломки Спутниковой Тарелки</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectrolysis1</Key>
-      <Value>Обломки Электролиз</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElectrolysis2</Key>
-      <Value>Обломки Электролиз</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLight1</Key>
-      <Value>Обломки Лампы</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLight2</Key>
-      <Value>Обломки Лампы</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLightLongAngled1</Key>
-      <Value>Обломки Длинной Угловой Лампы</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLightLongAngled2</Key>
-      <Value>Обломки Длинной Угловой Лампы</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLightLongWide1</Key>
-      <Value>Обломки Длинной Широкой Лампы</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageLightLongWide2</Key>
-      <Value>Обломки Длинной Широкой Лампы</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWallLightBatteryPowered1</Key>
-      <Value>Обломки Настенной Аккумуляторной Лампы</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWallLightBatteryPowered2</Key>
-      <Value>Обломки Настенной Аккумуляторной Лампы</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageRecycler1</Key>
-      <Value>Обломки Утилизатора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageRecycler2</Key>
-      <Value>Обломки Утилизатора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageRecycler3</Key>
-      <Value>Обломки Утилизатора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageRecycler4</Key>
-      <Value>Обломки Утилизатора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageRecycler5</Key>
-      <Value>Обломки Утилизатора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageRecycler6</Key>
-      <Value>Обломки Утилизатора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageFlashingLight1</Key>
-      <Value>Обломки Мигающей Лампы</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageFlashingLight2</Key>
-      <Value>Обломки Мигающей Лампы</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageActiveVent1</Key>
-      <Value>Обломки Активной Вентиляции</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckagePassiveVent1</Key>
-      <Value>Обломки Пассивной Вентиляции</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCoalGenerator1</Key>
-      <Value>Обломки Твердотопливного Генератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCoalGenerator2</Key>
-      <Value>Обломки Твердотопливного Генератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCoalGenerator3</Key>
-      <Value>Обломки Твердотопливного Генератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageH2Combustor1</Key>
-      <Value>Обломки H2 Сжигателя</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageHydroponicsAutomatic1</Key>
-      <Value>Обломки Автоматической Гидропоники</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageHydroponicsAutomatic2</Key>
-      <Value>Обломки Автоматической Гидропоники</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageHydroponicsAutomatic3</Key>
-      <Value>Обломки Автоматической Гидропоники</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageHydroponicsStation1</Key>
-      <Value>Обломки Гидропонной Станции</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageHydroponicsStation2</Key>
-      <Value>Обломки Гидропонной Станции</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSDBSilo1</Key>
-      <Value>Обломки SDB Хранилища</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSDBSilo2</Key>
-      <Value>Обломки SDB Хранилища</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSDBSilo3</Key>
-      <Value>Обломки SDB Хранилища</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSDBSilo4</Key>
-      <Value>Обломки SDB Хранилища</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageSDBSilo5</Key>
-      <Value>Обломки SDB Хранилища</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageShuttleLandingPad1</Key>
-      <Value>Обломки посадочной площадки шаттлов</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageShuttleLandingPad2</Key>
-      <Value>Обломки Посадочной Площадки Шаттлов</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageShuttleLandingPad3</Key>
-      <Value>Обломки Посадочной Площадки Шаттлов</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageShuttleLandingPad4</Key>
-      <Value>Обломки Посадочной Площадки Шаттлов</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageShuttleLandingPad5</Key>
-      <Value>Обломки Посадочной Площадки Шаттлов</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageBlastDoor1</Key>
-      <Value>Обломки Усиленной Двери</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageBlastDoor2</Key>
-      <Value>Обломки Усиленной Двери</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCompositeDoor1</Key>
-      <Value>Обломки Композитной Двери</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCompositeDoor2</Key>
-      <Value>Обломки Композитной Двери</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCompositeDoor3</Key>
-      <Value>Обломки Композитной Двери</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAirlock1</Key>
-      <Value>Обломки Шлюза</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAirlock2</Key>
-      <Value>Обломки шлюза</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCompositeDoorGlass1</Key>
-      <Value>Обломки Композитной Двери</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageCompositeDoorGlass2</Key>
-      <Value>Обломки Композитной Стеклянной Двери</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElevatorShaftIndustrial1</Key>
-      <Value>Обломки шахты лифта</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElevatorShaftIndustrial2</Key>
-      <Value>Обломки шахты лифта</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElevatorShaftIndustrial3</Key>
-      <Value>Обломки шахты лифта</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElevatorLevelFront1</Key>
-      <Value>Обломки этажа лифта</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageElevatorLevelFront2</Key>
-      <Value>Обломки этажа лифта</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHarvie</Key>
       <Value>Набор (Харви)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureHarvieReversed</Key>
       <Value>Харви</Value>
+      <Description>Use above a {THING:StructureHydroponicsTray} or {THING:StructureHydroponicsTrayData} to manage the planting and harvest of your crops. It contains a button that will allow you to activate it's modes, or connect it to a logic system to do this for you. The modes indicate current growth status of the plant below. Import is used for planting, and harvested plants are sent to export.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHarvie</Key>
       <Value>Харви</Value>
+      <Description>Use above a {THING:StructureHydroponicsTray} or {THING:StructureHydroponicsTrayData} to manage the planting and harvest of your crops. It contains a button that will allow you to activate it's modes, or connect it to a logic system to do this for you. The modes indicate current growth status of the plant below. Import is used for planting, and harvested plants are sent to export.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SpecialBlocks</Key>
       <Value>Спец Блоки</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemWreckageHydroponicsTray1</Key>
-      <Value>Обломки Гидропонного Лотка</Value>
+      <Key>StructureBlocker</Key>
+      <Value>Blocker</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvanced</Key>
-      <Value>Газовый резервуар MK2</Value>
+      <Value>Улучшенный переносной резервуар</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicGasTankAdvanced</Key>
-      <Value>Набор (Переносной газовый резервуар MK2)</Value>
+      <Value>Набор (Улучшенный переносной резервуар)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePlinth</Key>
       <Value>Постамент</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>Rover_MkI</Key>
       <Value>Планетоход МК1</Value>
+      <Description>A distant cousin of the jeep, the Mk I {{LINK:Sinotai;Sinotai} electric rover is one of the most simple and durable light vehicles in the known universe. Able to carry two passengers and cargo such as the {THING:DynamicGasCanisterAir} or {THING:Crate}, it is powered by up to three batteries, accepting everything including {THING:ItemBatteryCellNuclear}.
+        A quad-array of hub-mounted electric engines propels the reinforced aluminium frame over most terrain and modest obstacles. While the Mk I is designed for stability in low-horizontality circumstances, if it rolls, try using your {THING:ItemCrowbar} to put it right way up.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSpawnPoint</Key>
-      <Value>Точка Возрождения</Value>
+      <Value>Точка возрождения</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>RespawnPoint</Key>
-      <Value>Место Возрождения</Value>
+      <Value>Точка возрождения</Value>
+      <Description>Place a respawn point to set a player entry point to your base when loading in, or returning from the dead.</Description>
     </RecordThing>
     <RecordThing>
       <Key>RespawnPointWallMounted</Key>
-      <Value>Точка Возрождения (Фиксированная)</Value>
+      <Value>Точка возрождения (Фиксированная)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRespawnPointWallMounted</Key>
-      <Value>Набор (Возрождение)</Value>
+      <Value>Набор (Точка возрождения)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFlagODA</Key>
       <Value>Набор (Флаг ODA)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_10m</Key>
       <Value>Флаг (ODA 10м)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_8m</Key>
       <Value>Флаг (ODA 8м)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_6m</Key>
       <Value>Флаг (ODA 6м)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_4m</Key>
       <Value>Флаг (ODA 4м)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureRTG1</Key>
-      <Value>Обломки РИТЭГ</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTurbineGenerator1</Key>
-      <Value>Обломки Турбинного Генератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTurbineGenerator2</Key>
-      <Value>Обломки Турбинного Генератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageTurbineGenerator3</Key>
-      <Value>Обломки Турбинного Генератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAirConditioner1</Key>
-      <Value>Обломок Воздушного Кондиционера</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageAirConditioner2</Key>
-      <Value>Обломок Воздушного Кондиционера</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWallCooler1</Key>
-      <Value>Обломки Настенного Охлаждения</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWallCooler2</Key>
-      <Value>Обломки Настенного Охлаждения</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRoverMKI</Key>
       <Value>Набор (Каркас планетохода МК1)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>Rover_MkI_build_states</Key>
       <Value>Планетоход МКI</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureGrowLight</Key>
-      <Value>Освещение для растений</Value>
+      <Value>Фитолампа</Value>
+      <Description>{LINK:Agrizero;Agrizero's} leading hydroponic lighting system, the GrowUp UV light supplements sunshine in low light or sun-distant conditions. The unit adds growability over the space of a grid, so requires proximate placement to work. </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGrowLight</Key>
-      <Value>Набор (Освещение для растений)</Value>
+      <Value>Набор (Фитолампа)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWeatherStation</Key>
       <Value>Метеостанция</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWeatherStation</Key>
       <Value>Набор (Метеостанция)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitUprightWindTurbine</Key>
-      <Value>Набор (Вертикальная ветряная турбина)</Value>
+      <Value>Набор (Вертикальный ветрогенератор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureUprightWindTurbine</Key>
-      <Value>Вертикальная ветряная турбина</Value>
+      <Value>Вертикальный ветрогенератор</Value>
+      <Description>Norsec's basic wind turbine is an easily fabricated, rapidly deployed design that is strong enough to withstand the worst that environments can throw at it.
+        While the wind turbine is optimized to produce power even on low atmosphere worlds (up to 200W), it performs best in denser environments. Output varies with wind speed, and during storms, may increase dramatically (up to 800W), so be careful to design your power networks with that in mind.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CrateMkII</Key>
       <Value>Ящик MK II</Value>
+      <Description>A more heavily reinforced version of the iconic {THING:DynamicCrate}, the Crate Mk II is resistant to incredibly high pressures and temperatures. Short of disposing of it in a black hole, the Mk II is about as safe as luggage gets.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrateMkII</Key>
       <Value>Набор (Ящик MK II)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemEmptyCan</Key>
-      <Value>Пустая Банка</Value>
+      <Value>Пустая банка</Value>
+      <Description>Used for making soups when combined with food in the {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPumpkinSoup</Key>
-      <Value>Тыквенный Суп</Value>
+      <Value>Тыквенный суп</Value>
+      <Description>Made using {THING:ItemCookedPumpkin} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCornSoup</Key>
-      <Value>Кукурузовый Суп</Value>
+      <Value>Кукурузный суп</Value>
+      <Description>Made using {THING:ItemCookedCorn} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Faily high in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBreadLoaf</Key>
-      <Value>Буханка Хлеба</Value>
+      <Value>Буханка хлеба</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemBiomass</Key>
       <Value>Биомасса</Value>
+      <Description>Diced organic material that is returned when food and organic matter is passed through the {THING:StructureRecycler} and {THING:StructureCentrifuge}. Can be burned in a {THING:StructureFurnace} into {THING:ItemCharcoal} for use in the {THING:StructureSolidFuelGenerator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTrayData</Key>
-      <Value>Гидропонная Установка</Value>
+      <Value>Гидропонная установка</Value>
+      <Description>The {LINK:Agrizero;Agrizero} hydroponics device is the ideal vessel for growing a range of {LINK:OrganicPage;plantlife}. It must be supplied with {GAS:Water} using a pipe network, and sufficient light to generate photosynthesis.
+        It can be automated using the {THING:StructureHarvie}. Note that unlike the {THING:StructureHydroponicsTray}, these cannot be placed consecutively as they are considered devices rather than pure pipes. They do, however, allow data interrogation for logic systems.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCharcoal</Key>
       <Value>Древесный уголь</Value>
+      <Description>Charcoal is a lightweight, black carbon residue produced by heating {THING:ItemBiomass} in a {THING:StructureArcFurnace}. It contains less energy potential than {THING:ItemCoalOre}, but can be used as a basic fuel source. Charcoal can also be substituted for coal in {LINK:IngotPage;alloy} recipes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelReinforced</Key>
-      <Value>Набор (Тяжелая Солнечная Панель)</Value>
+      <Value>Набор (Усиленная солнечная панель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasicReinforced</Key>
-      <Value>Набор (Базовая Тяжелая Солнечная панель)</Value>
+      <Value>Набор (Базовая усиленная солнечная панель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45Reinforced</Key>
-      <Value>Солнечная Панель (Тяжелая Угловая)</Value>
+      <Value>Солнечная панель (Усиленная угловая)</Value>
+      <Description>Эта солнечная панель устойчива к повреждениям от шторма.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelDualReinforced</Key>
-      <Value>Солнечная Панель (Тяжелая Двойная)</Value>
+      <Value>Солнечная панель (Усиленная двойная)</Value>
+      <Description>Эта солнечная панель устойчива к повреждениям от шторма.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlatReinforced</Key>
-      <Value>Солнечная Панель (Тяжелая Плоская)</Value>
+      <Value>Солнечная панель (Усиленная плоская)</Value>
+      <Description>Эта солнечная панель устойчива к повреждениям от шторма.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelReinforced</Key>
-      <Value>Солнечная Панель (Тяжелая)</Value>
+      <Value>Солнечная панель (Усиленная)</Value>
+      <Description>Эта солнечная панель устойчива к повреждениям от шторма.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
@@ -4810,326 +5262,700 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBeltAdvanced</Key>
-      <Value>Пояс Шахтёра (Улучшенный)</Value>
+      <Value>Улучшенный пояс шахтёра</Value>
+      <Description>The Mk II mining belt is similar to the {THING:ItemMiningBelt}, but has 13 slots instead of the basic 8, to increase the length of your mining trips. It also has space for two tools.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWindTurbine</Key>
       <Value>Ветрогенератор</Value>
+      <Description>The Stationeers wind turbine was first designed by Norsec atmospheric engineers, looking to create a wind-driven power generation system that would operate even on exceedingly low atmosphere worlds. The ultra-light blades respond to exceedingly low atmospheric densities, while being strong enough to function even under huge strain in much more demanding environments.
+        While the wind turbine is optimized to produce power (up to 500W) even on low atmosphere worlds, it performs best in denser environments. Output varies with wind speed and, during storms, may increase dramatically (up to 10,000W), so be careful to design your power networks with that in mind.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindTurbine</Key>
       <Value>Набор (Ветрогенератор)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeLiquid</Key>
       <Value>Набор (Жидкостная труба)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction</Key>
-      <Value>Жидкостная Труба Перекресток</Value>
+      <Value>Жидкостная труба (Х-образная)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructurePipeInsulatedLiquidCrossJunction} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidStraight</Key>
-      <Value>Жидкостная труба (прямая)</Value>
+      <Value>Жидкостная труба (Прямая)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidStraight} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCorner</Key>
       <Value>Жидкостная труба (Угловая)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidStraight} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction3</Key>
-      <Value>Жидкостная Труба Перекресток3</Value>
+      <Value>Жидкостная труба (3-конечная)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidStraight} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction4</Key>
-      <Value>Жидкостная Труба Перекресток4</Value>
+      <Value>Жидкостная труба (4-конечная)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidCrossJunction4} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction5</Key>
-      <Value>Жидкостная Труба Перекресток5</Value>
+      <Value>Жидкостная труба (5-конечная)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidCrossJunction5} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction6</Key>
-      <Value>Жидкостная Труба Перекресток6</Value>
+      <Value>Жидкостная труба (6-конечная)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidCrossJunction6} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidTJunction</Key>
-      <Value>Жидкостная Труба Т-образная</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine001</Key>
-      <Value>Обломки ветрогенератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine002</Key>
-      <Value>Обломки ветрогенератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine003</Key>
-      <Value>Обломки ветрогенератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine004</Key>
-      <Value>Обломки ветрогенератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageWindTurbine005</Key>
-      <Value>Обломки ветрогенератора</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation001</Key>
-      <Value>Обломки Метеостанции</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation002</Key>
-      <Value>Обломки Метеостанции</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation003</Key>
-      <Value>Обломки Метеостанции</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation004</Key>
-      <Value>Обломки Метеостанции</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation005</Key>
-      <Value>Обломки Метеостанции</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation006</Key>
-      <Value>Обломки Метеостанции</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation007</Key>
-      <Value>Обломки Метеостанции</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWreckageStructureWeatherStation008</Key>
-      <Value>Обломки Метеостанции</Value>
+      <Value>Жидкостная труба (Т-образная)</Value>
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidTJunction} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottle</Key>
-      <Value>Бутылка Для Воды</Value>
+      <Value>Бутылка для воды</Value>
+      <Description>Delicious and pure H20, refined from local sources as varied as Venusian ice and trans-Solar comets. Empty bottles can be refilled using the {THING:StructureWaterBottleFiller}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottleFiller</Key>
-      <Value>Разливочная Машина Воды</Value>
+      <Value>Разливочная машина</Value>
+      <Description>As its somewhat uninspired name suggests, this device refills a {THING:ItemWaterBottle}, when connected to a liquid pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFiller</Key>
-      <Value>Разливочная Машина Воды</Value>
+      <Value>Разливочная машина Воды</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureIceCrusher</Key>
       <Value>Измельчитель льда</Value>
+      <Description>The {LINK:Recurso;Recurso} KoolAuger converts various ices into their respective {LINK:GasPage;gases} and liquids.
+        A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either outlet, it will only function if the correct network is attached. It will also only pass gas or liquid into a network if it is powered and turned on.
+        If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitIceCrusher</Key>
       <Value>Набор (Измельчитель льда)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvancedOxygen</Key>
-      <Value>Портативный газовый резервуар MK2 (Кислород)</Value>
+      <Value>Улучшенный переносной резервуар (Кислород)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvancedWater</Key>
       <Value>Переносной жидкостной резервуар MK2 (Вода)</Value>
+      <Description>An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, you are able to store water in this {SLOT:GasCanister} without them gaining or losing temperature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeRadiator</Key>
-      <Value>Радиатор для жидкостных труб</Value>
+      <Value>Жидкостный конвекционный радиатор</Value>
+      <Description>A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added to the liquid within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated.
+        The speed of heat gain or loss will depend on the liquid in question. Adding multiple radiators will speed up heat transfer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeLiquidRadiator</Key>
-      <Value>Набор (Радиатор для жидкостных труб)</Value>
+      <Value>Набор (Жидкостный радиатор)</Value>
+      <Description>This kit creates a {THING:StructureLiquidPipeRadiator}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicMKIILiquidCanisterEmpty</Key>
+      <Value>Улучшенный жидкостный переносной резервуар</Value>
+      <Description>An empty, insulated liquid {SLOT:GasCanister}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
-      <Value>Набор (Переносной жидкостной резервуар MK2)</Value>
+      <Value>Набор (Улучшенный жидкостный переносной резервуар)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterWater</Key>
-      <Value>Переносной жидкостной резервуар MK2 (Вода)</Value>
+      <Value>Улучшенный жидкостный переносной резервуар (Вода)</Value>
+      <Description>An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
       <Value>Насос для жидкости</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeVolumePump</Key>
       <Value>Набор (Насос для жидкости)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidRegulator</Key>
-      <Value>Набор (Регулятор давления жидкости)</Value>
+      <Value>Набор (Регулятор уровня жидкости)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureBackLiquidPressureRegulator</Key>
+      <Value>Регулятор обратного уровня жидкости</Value>
+      <Description>Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed as percentage where 100 is totally full and 0 is empty.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPressureRegulator</Key>
-      <Value>Регулятор давления жидкости</Value>
+      <Value>Регулятор уровня жидкости</Value>
+      <Description>Regulates the volume ratio of liquid in the output Liquid pipe. This is expressed as percentage where 100 is totally full and 0 is empty.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterSmart</Key>
-      <Value>Баллон для жидкости (Электронный)</Value>
+      <Value>Жидкостный баллон (Электронный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIScrewdriver</Key>
-      <Value>Mk II Отвертка</Value>
+      <Value>Улучшенная отвёртка</Value>
+      <Description>This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definitely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units. The MK II is more resistant to temperature and pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIAngleGrinder</Key>
-      <Value>Mk II Болгарка</Value>
+      <Value>Улучшенная болгарка</Value>
+      <Description>Angles-be-gone with the trusty angle grinder. The MK II is more resistant to temperature and pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIICrowbar</Key>
-      <Value>Mk II Лом</Value>
+      <Value>Улучшенный лом</Value>
+      <Description>{LINK:Recurso;Recurso's} entry-level crowbar is useful in a variety of everyday {LINK:Stationeers;Stationeer} settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise. The MK II is more resistant to temperature and pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIArcWelder</Key>
-      <Value>Mk II Дуговой сварщик</Value>
+      <Value>Улучшенный дуговой сварщик</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
-      <Value>Mk II Дрель</Value>
+      <Value>Улучшенная дрель</Value>
+      <Description>The {LINK:ExMin;ExMin} Off-whirled Hand Drill has been a companion to {LINK:Stationeers;Stationeers} for decades. Essential for assembling and deconstructing various items and structures, regardless of gravity, pressure or temperature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
-      <Value>Mk II Шахтерский бур</Value>
+      <Value>Улучшенный шахтерский бур</Value>
+      <Description>The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick digging. Modeled on a classic {LINK:Recurso;Recurso} zero-g design, it functions equally well in vacuum and atmosphere, with cemented carbide bits to increase resilience and bearing life, and reduce spalling. As Jenk Murtons once said, 'The Topo don't stopo.' The MK II is more resistant to temperature and pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWireCutters</Key>
-      <Value>Mk II Кусачки</Value>
+      <Value>Улучшенные кусачки</Value>
+      <Description>Wirecutters allow you to deconstruct various {LINK:StructurePage;structures}, as well as cross-lay cables when held in your non-active hand, and defuse explosives as needed. Wirecutters are stored in the {THING:ItemToolBelt}, along with other essential {LINK:ToolPage;tools}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIWrench</Key>
-      <Value>Mk II Гаечный Ключ</Value>
+      <Value>Улучшенный разводной ключ</Value>
+      <Description>One of humanity's enduring contributions to the cosmos, the wrench represents the essence of our species. A simple, effective and spiritually barren tool, use it to build and deconstruct a variety of {LINK:StructurePage;structures} The MK II is more resistant to temperature and pressure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDuctTape</Key>
-      <Value>Mk II Клейкая лента</Value>
+      <Value>Улучшенная клейкая лента</Value>
+      <Description>In the distant past, one of Earth's great champions taught a generation of 'Fix-It People' that duct tape was the answer to any problem. {LINK:Stationeers;Stationeers} have demonstrated that this is truth holds strong, so long as the problem is a damaged {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet}, or even a {THING:StructureSolarPanel}.
+        To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON to automatically repair damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
-      <Value>Набор (Разливочная Машина Воды)</Value>
+      <Value>Набор (Разливочная машина)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankBig</Key>
-      <Value>Большой жидкостной резервуар</Value>
+      <Value>Большой жидкостный резервуар</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankSmall</Key>
-      <Value>Малый жидкостной резервуар</Value>
+      <Value>Малый жидкостный резервуар</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidTank</Key>
-      <Value>Набор (Жидкостной резервуар)</Value>
+      <Value>Набор (Жидкостный резервуар)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
-      <Key>StructureModularRocketLiquidTank</Key>
-      <Value>Модуль Хранения Жидкостей Автоматической Ракеты</Value>
+      <Key>ItemKitLiquidTankInsulated</Key>
+      <Value>Kit (Изолированный жидкостный резервуар)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
-      <Key>StructureRocketModuleSilo</Key>
-      <Value>Модуль хранилища автоматической ракеты</Value>
+      <Key>StructureLiquidTankBigInsulated</Key>
+      <Value>Большой жидкостный резервуар (Изолированный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
-      <Key>StructureRocketModuleBattery</Key>
-      <Value>Модуль Хранения Энергии Автоматической Ракеты</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureRocketModuleGasCollector</Key>
-      <Value>Модуль Добычи Газа Автоматической Ракеты</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureRocketModuleEnergyGenerator</Key>
-      <Value>Модуль Добычи Энергии Автоматической Ракеты</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureRocketModuleMiningJunk</Key>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureRocketModuleMiningOre</Key>
-      <Value>Добывающий модуль автоматической ракеты</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketAutonomous</Key>
-      <Value>Автоматическая модульная ракета</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureRocketModuleCollectorLiquid</Key>
-      <Value>Модуль Сбора Жидкостей Автоматической Ракеты</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketAutomation</Key>
-      <Value>Автоматический Ракетный Модуль Автопилота</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketCouplingDown</Key>
-      <Value>Соединительный модуль автоматической ракеты (низ)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketCouplingUp</Key>
-      <Value>Соединительный модуль автоматической ракеты (верх)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitModularRocketOreStorage</Key>
-      <Value>Набор (Модуль хранилища автоматической ракеты)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitModularRocketCoupling</Key>
-      <Value>Набор (Соединительный модуль автоматической ракеты)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitModularRocketAutomation</Key>
-      <Value>Набор (Управляющий модуль автоматической ракеты)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitModularRocketOreMining</Key>
-      <Value>Набор (Модуль добычи руды автоматизированной ракеты)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketIceMining</Key>
-      <Value>Модуль Добычи Льда Автоматизированной Ракеты</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitModularRocketIceMining</Key>
-      <Value>Набор (Модуль Добычи Льда Автоматизированной Ракеты)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureModularRocketScrapMining</Key>
-      <Value>Модуль Сбора Вторсырья Автоматической Ракеты</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitModularRocketScrapMining</Key>
-      <Value>Набор (Модуль Сбора Вторсырья Автоматической Ракеты)</Value>
+      <Key>StructureLiquidTankSmallInsulated</Key>
+      <Value>Малый жидкостный резервуар (Изолированный)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeMeter</Key>
       <Value>Набор (Жидкостный манометр)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterPipeMeter</Key>
       <Value>Жидкостный манометр</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeDigitalValve</Key>
-      <Value>Набор (Жидкостный Электровентиль)</Value>
+      <Value>Набор (Жидкостный электрический клапан)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterDigitalValve</Key>
-      <Value>Жидкостный Электровентиль</Value>
+      <Value>Жидкостный электрический клапан</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterWallCooler</Key>
-      <Value>Набор (Жидкостный Настенный Охладитель)</Value>
+      <Value>Набор (Жидкостный настенный охладитель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterWallCooler</Key>
-      <Value>Жидкостный Настенный Охладитель</Value>
+      <Value>Жидкостный настенный охладитель</Value>
+      <Description />>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerBottom</Key>
-      <Value>Разливочная Машина Воды Книзу</Value>
+      <Value>Разливочная Машина (Снизу)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidDrain</Key>
+      <Value>Набор (Слив жидкости)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidDrain</Key>
+      <Value>Активный водосброс</Value>
+      <Description>Когда подключен к питанию И активирован, перекачивает жидкость из жидкостной трубы в мир.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFloorDrain</Key>
+      <Value>Пассивный водосток</Value>
+      <Description>A passive liquid floor inlet that quickly removes liquids in one direction from the world into the connected pipe network and equalises gasses with the world atmosphere.
+        It will remove liquids from grids at the same level up to 6 Grids away.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidPipeAnalyzer</Key>
+      <Value>Набор (Трубный анализатор жидкости)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidPipeAnalyzer</Key>
+      <Value>Трубный анализатор жидкости</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureHeatExchangeLiquidAndGas</Key>
+      <Value>Теплообменник Жидкость и газ</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>LogicStepSequencer8</Key>
+      <Value>Логический пошаговый секвенсор</Value>
+      <Description>The {LINK:ODA;ODA} does not approve of soundtracks or other distractions.
+        As such, {LINK:Stationeers;Stationeers} have had to create their own musical accompaniment to the demanding labor of building and maintaining off-world infrastructure.
+        Central to this pastime is the step sequencer, which allows Stationeers to sequence short musical patterns or loops.
+
+        {HEADER:DIY MUSIC - GETTING STARTED}
+
+        1: Connect 8 {THING:DeviceStepUnit}s to your step sequencer via the data port on the left hand side.
+
+        2: Label each step unit, then assign step units 1 through 8 on the step sequencer using the screwdriver.
+
+        3: Select the output speaker (eg {THING:PassiveSpeaker}) where the sequencer will play the sounds. This needs to be connected to the logic network on the right hand side of the sequencer.
+
+        4: Place a {THING:StopWatch} and use a {THING:StructureLogicReader} and {THING:StructureLogicWriter} to write the time to the time variable on the sequencer.
+
+        5: Set the BPM on the sequencer using a {THING:StructureLogicDial} and a {THING:StructureLogicWriter} to write to the sequencer's BPM variable. A higher bpm will play the sequence faster.
+
+        6: Insert a sound cartridge of your choosing and select which variant of sound you wish to play by pushing the arrow buttons located above and below the sound cartridge slot.
+
+        7: Choose the pitch of the sounds to play by setting the dial on each of your 8 step units to the desired note. With drums, each note is a different drum sounds. You can trial your sounds by pushing the activate button on each step unit (with the sequencer inactive).
+
+        8: Get freaky with the {THING:DeviceLfoVolume}.
+
+        9: Finally, activate the sequencer, Vibeoneer.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DeviceStepUnit</Key>
+      <Value>Шаговый блок</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StopWatch</Key>
+      <Value>Секундомер</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeBass</Key>
+      <Value>Звуковой картридж (Бас)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeDrums</Key>
+      <Value>Звуковой картридж (Барабаны)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeLeads</Key>
+      <Value>Звуковой картридж (Ведущий)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSoundCartridgeSynth</Key>
+      <Value>Звуковой картридж (Синтезатор)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitMusicMachines</Key>
+      <Value>Набор (Музыкальные машины)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInsulatedTankConnector</Key>
+      <Value>Набор (Изолированный коннектор переносного резервуара)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedTankConnector</Key>
+      <Value>Изолированный коннектор переносного резервуара</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInsulatedTankConnectorLiquid</Key>
+      <Value>Набор (Изолированный коннектор переносного жидкостного резервуара)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedTankConnectorLiquid</Key>
+      <Value>Изолированный коннектор переносного жидкостного резервуара</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DecayedFood</Key>
+      <Value>Разложившаяся пища</Value>
+      <Description>When your {LINK:OrganicPage;food} decays, it turns into this. {LINK:ODA;ODA} scientists have attempted to determine the exact constituents of this substance, but it remains evasive and mysterious. Suffice to say, eating it is a bad idea. Research has determined, however, that The exact speed of decay varies individually by:
+
+        - TEMPERATURE - Refrigeration will slow decay, but many foods will be damaged by exposure to extreme low pressure, as well as extreme heat. The optimum temperature is 0 kelvin (-272 C).
+
+        - FOOD TYPE - Each {LINK:OrganicPage;food} type has its own decay properties. {THING:ItemTomatoSoup} lasts a lot longer than a {THING:ItemTomato}, for instance.
+
+        - PRESSURE - Food decays faster when the pressure drops below 1 atmosphere (101kPa). Decay happens exponentially more quickly as the atmosphere approaches a perfect vacuum. There is no effect from higher pressures.
+
+        - ATMOSPHERE - Different gases can slow and accelerate the decay process. The process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier. The following rates apply across all foods:
+
+        &gt; {GAS:Oxygen} x 1.3
+        &gt; {GAS:Nitrogen} x 0.6
+        &gt; {GAS:CarbonDioxide} x 0.8
+        &gt; {GAS:Volatiles} x 1
+        &gt; {GAS:Pollutant} x 3
+        &gt; {GAS:NitrousOxide} x 1.5
+        &gt; {GAS:Steam} x 2
+        &gt; Vacuum (see PRESSURE above)
+
+      </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureShelfMedium</Key>
+      <Value>Средняя полка</Value>
+      <Description>A shelf for putting things on, so you can see them.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>PassiveSpeaker</Key>
+      <Value>Пассивные колонки</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DeviceLfoVolume</Key>
+      <Value>Генератор низкой частоты</Value>
+      <Description>The low frequency oscillator (or LFO) makes everything sound dark, twisted and crunchy by altering the shape of the waves output by a {THING:LogicStepSequencer8}.
+
+        To set up an LFO:
+
+        1. Place the LFO unit
+        2. Set the LFO output to a {THING:PassiveSpeaker}
+        2. Set a sequencers' output to LFO - so the sequencer's signal runs through the LFO to a speaker.
+        3. Place a {THING:StopWatch} or use an existing one, then use a {THING:StructureLogicWriter} to write it to the LFO.
+        4. Use another logic writer to write the BPM to the LFO.
+        5. You are ready. This is the future. You're in space. Make it sound cool.
+
+        For more info, check out the {LINK:MusicPage;music page}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFridgeBig</Key>
+      <Value>Большая морозильная камера</Value>
+      <Description>The {LINK:Xigo;Xigo} Koolaid fridge is a self-cooling storage device with 15 slots that preserves food when powered and turned on. While many users have complained about the placement of the power switch, its place in the pantheon of off-world whiteware is unquestioned.
+
+        With its own permanent internal atmosphere, the Koolaid fridge slows the decay of {LINK:OrganicPage;food} by maintaining an optimal internal temperature. Its power usage varies on the external temperature against which it must balance its internal temperature. As such, it must shed heat to operate, so the Koolaid fridge DOES NOT work in a vacuum.
+
+        Also, don't leave the door open, as it will equalize with the current world temperature. And maybe start to beep.
+
+        For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFridgeBig</Key>
+      <Value>Набор (Большая морозильная камера)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFridgeSmall</Key>
+      <Value>Малая морозильная камера</Value>
+      <Description>Essentially a heavily insulated box that allows users to pipe in any desired atmosphere, the {LINK:Recurso;Recurso} Minibar fridge was a simple solution to the problem of {LINK:NutritionPage;food decay}. It stores a small number of items, at any temperature you can muster.
+
+        For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRefrigeratedVendingMachine</Key>
+      <Value>Холодильный склад</Value>
+      <Description>The refrigerated OmniKool vending machine is an advanced version of the standard {THING:StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -130 degrees C, to prevent food spoilage. It can hold up to 100 stacks.
+        The OmniKool also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items ADDED to the device. The unit's default stack size is 50.
+        NOTE: altering stack sizes DOES NOT update existing stacks within the machine, only those subsequently added. </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitVendingMachineRefrigerated</Key>
+      <Value>Набор (Холодильный склад)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Potato</Key>
+      <Value>Семена картофеля</Value>
+      <Description>Grow a {THING:ItemPotato}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Corn</Key>
+      <Value>Семена кукурузы</Value>
+      <Description>Grow a {THING:ItemCorn}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Wheet</Key>
+      <Value>Семена пшеницы</Value>
+      <Description>Grow some {THING:ItemWheat}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Tomato</Key>
+      <Value>Семена томата</Value>
+      <Description>Grow a {THING:ItemTomato}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Soybean</Key>
+      <Value>Семена сои</Value>
+      <Description>Grow some {THING:ItemSoybean}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Rice</Key>
+      <Value>Семена риса</Value>
+      <Description>Grow some {THING:ItemRice}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Pumpkin</Key>
+      <Value>Семена тыквы</Value>
+      <Description>Grow a {THING:ItemPumpkin}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Fern</Key>
+      <Value>Семена папоротника</Value>
+      <Description>Grow a {THING:ItemFern}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_Mushroom</Key>
+      <Value>Споры грибов</Value>
+      <Description>Grow a {THING:ItemMushroom}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>Fertilizer</Key>
+      <Value>Удобрение</Value>
+      <Description>Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using {LINK:OrganicPage;organic} matter.
+        Fertilizer's affects depend on its ingredients:
+
+        - {LINK:OrganicPage;Food} increases PLANT YIELD up to two times
+        - {THING:DecayedFood} increases plant GROWTH SPEED up to two times
+        - {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for
+
+        The effect of these ingredients depends on their respective proportions in the composter when processing is activated. </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAdvancedComposter</Key>
+      <Value>Улучшенный компостер</Value>
+      <Description>The advanced composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires {GAS:Water} and power to operate, accelerating the natural composting process.
+        When processing, it releases nitrogen and volatiles, as well a small amount of heat.
+
+        {HEADER:Compost composition}
+        Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
+
+        - {LINK:OrganicPage;Food} increases PLANT YIELD up to two times
+        - {THING:DecayedFood} increases plant GROWTH SPEED up to two times
+        - {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times
+      </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAdvancedComposter</Key>
+      <Value>Набор (Улучшенный компостер)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFridgeSmall</Key>
+      <Value>Набор (Малая морозильная камера)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePlanter</Key>
+      <Value>Сеялка</Value>
+      <Description>A small planter for decorative or hydroponic purposes. Can be connected to {GAS:Water}, or watered manually using a {THING:ItemWaterBottle} or {THING:ItemGasCanisterWater}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>KitPlanter</Key>
+      <Value>Набор (Сеялка)</Value>
+      <Description>Places a {THING:StructurePlanter}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>PortableComposter</Key>
+      <Value>Переносной компостер</Value>
+      <Description>A simple composting device, the basic composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires a full {THING:ItemLiquidCanisterEmpty} and a battery to operate, accelerating the natural composting process.
+        When processing, it releases nitrogen and volatiles, as well a small amount of heat.
+
+        {HEADER:Compost composition}
+        Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
+
+        - {LINK:OrganicPage;food} increases PLANT YIELD up to two times
+        - {THING:DecayedFood} increases plant GROWTH SPEED up to two times
+        - {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>AppliancePackagingMachine</Key>
+      <Value>Базовая упаковочная машина</Value>
+      <Description>The {LINK:Xigo;Xigo} Cannifier requires {THING:ItemEmptyCan} and cooked {LINK:OrganicPage;food} to create {LINK:DecayPage;long-lasting}, easily stored sustenance. Note that the Cannifier must be bolted to a {THING:StructureBench} for power, and only accepts cooked food and tin cans.
+
+        {HEADER:OPERATION}
+
+        1. Add the correct ingredients to the device via the hopper in the TOP.
+
+        2. Close the device using the dropdown handle.
+
+        3. Activate the device.
+
+        4. Remove canned goods from the outlet in the FRONT.
+
+        Note: the Cannifier will flash an error on its activation switch if you attempt to activate it before closing it.
+
+
+      </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPlanter</Key>
+      <Value>Набор (Сеялка)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAutomatedOven</Key>
+      <Value>Автоматизированная микроволновая печь</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitInsulatedWaterPipe</Key>
+      <Value>Набор (Изолированная водяная труба)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitInsulatedLiquidPipe</Key>
+      <Value>Набор (Изолированная жидкостная труба)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidCorner</Key>
+      <Value>Изолированная жидкостная труба (Угол)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidCrossJunction</Key>
+      <Value>Изолированная жидкостная труба (3-конечная)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidCrossJunction4</Key>
+      <Value>Изолированная жидкостная труба (4-конечная)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeInsulatedLiquidCrossJunction</Key>
+      <Value>Изолированная жидкостная труба (Х-образная)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidCrossJunction5</Key>
+      <Value>Изолированная жидкостная труба (5-конечная)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidCrossJunction6</Key>
+      <Value>Изолированная жидкостная труба (6-конечная)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight</Key>
+      <Value>Изолированная жидкостная труба (Прямая)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidTJunction</Key>
+      <Value>Изолированная жидкостная труба (T-образная)</Value>
+      <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeHeater</Key>
+      <Value>Трубный газовый нагреватель</Value>
+      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeOneWayValve</Key>
+      <Value>Газовый обратный клапан</Value>
+      <Description>The one way valve moves gas in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure.
+      </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeHeater</Key>
+      <Value>Набор (Газовый обратный клапан)</Value>
+      <Description>Creates a {THING:StructurePipeHeater}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemLiquidPipeHeater</Key>
+      <Value>Набор (Трубный жидкостный нагреватель)</Value>
+      <Description>Creates a {THING:StructureLiquidPipeHeater}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidPipeHeater</Key>
+      <Value>Трубный жидкостный нагреватель</Value>
+      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTurboVolumePump</Key>
+      <Value>Турбокомпрессор</Value>
+      <Description>Shifts 10 times more gas than a basic {THING:StructureVolumePump}, with a mode that can be set to flow in either direction.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitTurboVolumePump</Key>
+      <Value>Набор (Турбокомпрессор)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTurboVolumePump</Key>
+      <Value>Турбонасос для жидкости</Value>
+      <Description>Shifts 10 times more liquid than a basic {THING:StructureVolumePump}, with a mode that can be set to flow in either direction.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidTurboVolumePump</Key>
+      <Value>Набор (Турбонасос для жидкости)</Value>
+      <Description />
     </RecordThing>
   </Things>
   <Slots>
