@@ -183,5 +183,13 @@
       <Key>DeconstructCanisterFull</Key>
       <Value>无法拆除. 需要先清空储罐</Value>
     </Record>
+    <Record>
+      <Key>StatusIconLeavingAreaName</Key>
+      <Value>离开任务区域</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeavingAreaDesc</Key>
+      <Value>已越界, 立刻折返</Value>
+    </Record>
   </ScreenSpaceToolTips>
 </Language>

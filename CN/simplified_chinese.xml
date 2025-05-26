@@ -10051,6 +10051,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>创意工坊</Value>
     </Record>
     <Record>
+      <Key>MainMenuLocal</Key>
+      <Value>本地</Value>
+    </Record>
+    <Record>
       <Key>MainMenuSettings</Key>
       <Value>设置</Value>
     </Record>
@@ -10188,7 +10192,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>NewWorldMoon4kWorld</Key>
-      <Value>地形测试 - 月球4k</Value>
+      <Value>月球</Value>
     </Record>
     <Record>
       <Key>NewWorldMoon8kWorld</Key>
@@ -11526,7 +11530,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>NewWorldMoon4kShortDesc</Key>
-      <Value>方圆1km × 1km的月球地图</Value>
+      <Value>4km × 4km</Value>
     </Record>
     <Record>
       <Key>NewWorldMoon8kShortDesc</Key>
@@ -11658,7 +11662,11 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ButtonLoad</Key>
-      <Value>加载</Value>
+      <Value>载入</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLoadLatest</Key>
+      <Value>载入最新</Value>
     </Record>
     <Record>
       <Key>HeadingEdit</Key>
@@ -15090,6 +15098,10 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>StatusIconHydrationKey</Key>
       <Value>水分低</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningLeavingMissionArea</Key>
+      <Value>离开任务区域</Value>
     </Record>
     <Record>
       <Key>HydrationCaution</Key>
@@ -19317,7 +19329,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>SaveButtonGameString</Key>
-      <Value>快速保存&lt;i&gt; {LOCAL:WorldName} &lt;/i&gt;</Value>
+      <Value>保存&lt;i&gt; {LOCAL:WorldName} &lt;/i&gt;</Value>
     </Record>
     <Record>
       <Key>SaveAsButtonGameString</Key>
@@ -19345,8 +19357,8 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>DeleteSavePrompt</Key>
-      <Value>你确定吗?
-这将&lt;color=red&gt;删除 {LOCAL:WorldSaveName} &lt;/color&gt;和它所有的备份</Value>
+      <Value>你确定要删除
+&lt;color=red&gt; {LOCAL:WorldSaveName} &lt;/color&gt;吗</Value>
     </Record>
     <Record>
       <Key>DeleteBackSavePrompt</Key>
