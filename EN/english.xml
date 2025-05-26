@@ -10132,6 +10132,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Workshop</Value>
     </Record>
     <Record>
+      <Key>MainMenuLocal</Key>
+      <Value>Local</Value>
+    </Record>
+    <Record>
       <Key>MainMenuSettings</Key>
       <Value>Settings</Value>
     </Record>
@@ -10269,7 +10273,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>NewWorldMoon4kWorld</Key>
-      <Value>Terrain Test - Moon 4k</Value>
+      <Value>Moon</Value>
     </Record>
     <Record>
       <Key>NewWorldMoon8kWorld</Key>
@@ -11052,7 +11056,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>PromptDeleteTitle</Key>
-      <Value>Delete Entire Save</Value>
+      <Value>Delete Save</Value>
     </Record>
     <Record>
       <Key>PromptDeleteBody</Key>
@@ -11612,7 +11616,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>NewWorldMoon4kShortDesc</Key>
-      <Value>1km by 1km test moon map</Value>
+      <Value>4km by 4km</Value>
     </Record>
     <Record>
       <Key>NewWorldMoon8kShortDesc</Key>
@@ -11745,6 +11749,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>ButtonLoad</Key>
       <Value>Load</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLoadLatest</Key>
+      <Value>Load Latest</Value>
     </Record>
     <Record>
       <Key>HeadingEdit</Key>
@@ -15181,6 +15189,10 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>StatusIconHydrationKey</Key>
       <Value>Hydration Low</Value>
+    </Record>
+    <Record>
+      <Key>StatusWarningLeavingMissionArea</Key>
+      <Value>Leaving Mission Area</Value>
     </Record>
     <Record>
       <Key>HydrationCaution</Key>
@@ -19368,7 +19380,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>SaveButtonGameString</Key>
-      <Value>Quick Save &lt;i&gt;{LOCAL:WorldName}&lt;/i&gt;</Value>
+      <Value>Save &lt;i&gt;{LOCAL:WorldName}&lt;/i&gt;</Value>
     </Record>
     <Record>
       <Key>SaveAsButtonGameString</Key>
@@ -19396,8 +19408,8 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>DeleteSavePrompt</Key>
-      <Value>Are you sure?
-This will &lt;color=red&gt;delete {LOCAL:WorldSaveName}&lt;/color&gt; and all it's backups.</Value>
+      <Value>Are you sure you want to delete:
+&lt;color=red&gt;{LOCAL:WorldSaveName}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeleteBackSavePrompt</Key>
