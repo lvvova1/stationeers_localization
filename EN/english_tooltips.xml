@@ -183,5 +183,13 @@
       <Key>DeconstructCanisterFull</Key>
       <Value>Cannot deconstruct. Canister needs to be empty</Value>
     </Record>
+    <Record>
+      <Key>StatusIconLeavingAreaName</Key>
+      <Value>Leaving Mission Area</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeavingAreaDesc</Key>
+      <Value>Out of bounds, turn around</Value>
+    </Record>
   </ScreenSpaceToolTips>
 </Language>
