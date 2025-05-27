@@ -1321,7 +1321,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTank</Key>
-      <Value>Набор (Резервуар)</Value>
+      <Value>Набор (Газовая цистерна)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -2134,15 +2134,15 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmall</Key>
-      <Value>Малый резервуар</Value>
+      <Value>Газовая цистерна</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallAir</Key>
-      <Value>Малый резервуар (Воздух)</Value>
+      <Value>Газовая цистерна (Воздух)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallFuel</Key>
-      <Value>Малый резервуар (Топливо)</Value>
+      <Value>Газовая цистерна (Топливо)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureValve</Key>
@@ -2746,7 +2746,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureTankBig</Key>
-      <Value>Большая цистерна</Value>
+      <Value>Газовая цистерна (Большая)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemPotato</Key>
@@ -4754,7 +4754,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTankInsulated</Key>
-      <Value>Набор (Изолированная цистерна)</Value>
+      <Value>Набор (Изолированная газовая цистерна)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5348,7 +5348,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidTankInsulated</Key>
-      <Value>Набор (Изолированная цистерна)</Value>
+      <Value>Набор (Изолированная жидкостная цистерна)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
