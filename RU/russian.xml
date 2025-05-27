@@ -297,7 +297,7 @@
     </Record>
     <Record>
       <Key>LiquidHydrogen</Key>
-      <Value>Жидкий Водород</Value>
+      <Value>Жидкий водород</Value>
     </Record>
     <Record>
       <Key>Air</Key>
@@ -1211,7 +1211,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemHydroponicTray</Key>
-      <Value>Набор (Гидропонный Лоток)</Value>
+      <Value>Набор (Гидропонный лоток)</Value>
       <Description>This kits creates a {THING:StructureHydroponicsTray} for growing various plants.</Description>
     </RecordThing>
     <RecordThing>
@@ -2065,7 +2065,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureRailing</Key>
-      <Value>Перила Индустриальные (Тип 1)</Value>
+      <Value>Перила (Индустриальные тип 1)</Value>
       <Description>"Безопасность потом."</Description>
     </RecordThing>
     <RecordThing>
@@ -2673,7 +2673,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelDual</Key>
-      <Value>Солнечная Панель (Двойная)</Value>
+      <Value>Солнечная панель (Двойная)</Value>
       <Description>{LINK:Sinotai;Sinotai} dual solar panels are used for generating power from sunlight, with dedicated data and power ports. They can be connected to {{LINK:LogicPage;Logic} systems, in order to track sunlight, but their efficiency is reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
@@ -3015,7 +3015,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameCornerCut</Key>
-      <Value>Стальной Каркас (Скошенный)</Value>
+      <Value>Стальной каркас (Скошенный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeWallPanelling1</Key>
@@ -4122,7 +4122,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMiner</Key>
-      <Value>Набор (Автоматический Рудокоп)</Value>
+      <Value>Набор (Автоматический рудокоп)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4368,75 +4368,75 @@
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountLandscapeLarge</Key>
-      <Value>Фоторамка Тонкая Пейзаж Большая</Value>
+      <Value>Большая фоторамка (Тонкая горизонтальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountLandscapeSmall</Key>
-      <Value>Фоторамка Тонкая Пейзаж Маленькая</Value>
+      <Value>Маленькая фоторамка (Тонкая горизонтальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountPortraitLarge</Key>
-      <Value>Фоторамка Тонкая Портрет Большой</Value>
+      <Value>Большая фоторамка (Тонкая вертикальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinMountPortraitSmall</Key>
-      <Value>Фоторамка Тонкая Портрет Маленький</Value>
+      <Value>Маленькая фоторамка (Тонкая вертикальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinPortraitSmall</Key>
-      <Value>Фоторамка Тонкая Портрет Маленький</Value>
+      <Value>Маленькая фоторамка (Тонкая вертикальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinLandscapeSmall</Key>
-      <Value>Фоторамка Тонкая Пейзаж Маленький</Value>
+      <Value>Маленькая фоторамка (Тонкая горизонтальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinLandscapeLarge</Key>
-      <Value>Фоторамка Тонкая Пейзаж Большой</Value>
+      <Value>Большая фоторамка (Тонкая горизонтальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickPortraitSmall</Key>
-      <Value>Фоторамка Толстая Портрет Маленький</Value>
+      <Value>Маленькая фоторамка (Толстая вертикальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickMountPortraitSmall</Key>
-      <Value>Фоторамка Толстая Горный Портрет Маленький</Value>
+      <Value>Маленькая фоторамка (Толстая вертикальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickMountPortraitLarge</Key>
-      <Value>Фоторамка Толстая Горный Портрет Большой</Value>
+      <Value>Большая фоторамка (Толстая вертикальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickMountLandscapeSmall</Key>
-      <Value>Фоторамка Толстая Пейзаж Маленький</Value>
+      <Value>Маленькая фоторамка (Толстая горизонтальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickMountLandscapeLarge</Key>
-      <Value>Фоторамка Толстая Пейзаж Большой</Value>
+      <Value>Большая фоторамка (Толстая горизонтальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickLandscapeSmall</Key>
-      <Value>Фоторамка Толстая Пейзаж Маленький</Value>
+      <Value>Маленькая фоторамка (Толстая горизонтальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickLandscapeLarge</Key>
-      <Value>Фоторамка Толстая Пейзаж Большой</Value>
+      <Value>Большая фоторамка (Толстая горизонтальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThickPortraitLarge</Key>
-      <Value>Фоторамка Толстый портрет Большой</Value>
+      <Value>Большая фоторамка (Толстый вертикальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructurePictureFrameThinPortraitLarge</Key>
-      <Value>Фоторамка Тонкая Портрет Большой</Value>
+      <Value>Большая фоторамка (Тонкая вертикальная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceDeskLampLeft</Key>
-      <Value>Лампа настольная левая</Value>
+      <Value>Лампа настольная (Левая)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceDeskLampRight</Key>
-      <Value>Лампа настольная правая</Value>
+      <Value>Лампа настольная (Правая)</Value>
     </RecordThing>
     <RecordThing>
       <Key>QuarryDrillBitBasic</Key>
@@ -4444,23 +4444,23 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemResearchCapsuleRed</Key>
-      <Value>Исследовательская капсула Красная</Value>
+      <Value>Исследовательская капсула (Красная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemResearchCapsuleYellow</Key>
-      <Value>Исследовательская капсула Желтая</Value>
+      <Value>Исследовательская капсула (Желтая)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemResearchCapsuleGreen</Key>
-      <Value>Исследовательская капсула Зеленая</Value>
+      <Value>Исследовательская капсула (Зеленая)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemResearchCapsule</Key>
-      <Value>Исследовательская капсула Синяя</Value>
+      <Value>Исследовательская капсула (Синяя)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPictureFrame</Key>
-      <Value>Набор рамка</Value>
+      <Value>Набор (Фоторамка)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4474,7 +4474,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
-      <Value>Небольшой Автоматический Рудокоп</Value>
+      <Value>Небольшой автоматический рудокоп</Value>
       <Description>The {LINK:Recurso;Recurso} SquareDig autominer is a structure that when built will mine a vertical 2x2 shaft until it hits bedrock. The autominer can be connected to a chute system, and is controllable by a logic network. Note that the autominer outputs more {LINK:OrePage;ore} than a conventional {THING:ItemMiningDrill} over the same area.</Description>
     </RecordThing>
     <RecordThing>
@@ -4493,7 +4493,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemTerrainManipulator</Key>
-      <Value>Манипулятор Ландшафта</Value>
+      <Value>Манипулятор ландшафта</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureReverseElectrolyzer</Key>
@@ -4546,7 +4546,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemAdvancedTablet</Key>
-      <Value>Улучшенный Планшет</Value>
+      <Value>Улучшенный планшет</Value>
       <Description>The advanced {LINK:Xigo;Xigo} Padi 2 tablet is an improved version of the basic {THING:ItemTablet}, boasting two {LINK:CartridgePage;cartridge} slots. The Padi 2 accepts {THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, and various other cartridges.
 
         With a {THING:ItemIntegratedCircuit10} in the {SLOT:ProgrammableChip}, you can access variable slots on the carrying human using the device numbers (d0, d1, etc...), so long as the item can be access via logic, such as the {THING:ItemHardSuit}.</Description>
@@ -4558,43 +4558,43 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureWallIron02</Key>
-      <Value>Железная Стена (Тип 2)</Value>
+      <Value>Железная стена (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallIron03</Key>
-      <Value>Железная Стена (Тип 3)</Value>
+      <Value>Железная стена (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallIron04</Key>
-      <Value>Железная Стена (Тип 4)</Value>
+      <Value>Железная стена (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWall02</Key>
-      <Value>Композитная Стена (Тип 2)</Value>
+      <Value>Композитная стена (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWall03</Key>
-      <Value>Композитная Стена (Тип 3)</Value>
+      <Value>Композитная стена (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWall04</Key>
-      <Value>Композитная Стена (Тип 4)</Value>
+      <Value>Композитная стена (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallWindow</Key>
-      <Value>Композитное Окно</Value>
+      <Value>Композитное окно</Value>
     </RecordThing>
     <RecordThing>
       <Key>RailingElegant01</Key>
-      <Value>Перила Элегантные (Тип 1)</Value>
+      <Value>Перила (Элегантные тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>RailingElegant02</Key>
-      <Value>Перила Элегантные (Тип 2)</Value>
+      <Value>Перила (Элегантные тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>RailingIndustrial02</Key>
-      <Value>Перила Индустриальные (Тип 2)</Value>
+      <Value>Перила (Индустриальные тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRailing</Key>
@@ -6207,7 +6207,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteFlipFlopSplitter</Key>
-      <Value>Транспортная труба (Перекидной разделитель</Value>
+      <Value>Транспортная труба (Перекидной разделитель)</Value>
       <Description>A chute that toggles between two outputs</Description>
     </RecordThing>
     <RecordThing>
