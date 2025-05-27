@@ -1098,7 +1098,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterPollutants</Key>
-      <Value>Газовый баллон (Токсины)</Value>
+      <Value>Газовый баллон (Токсин)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4107,11 +4107,11 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutantsL</Key>
-      <Value>Большой фильтр (Токсины)</Value>
+      <Value>Большой фильтр (Токсин)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutantsM</Key>
-      <Value>Средний фильтр (Токсины)</Value>
+      <Value>Средний фильтр (Токсин)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatilesL</Key>
@@ -4383,7 +4383,7 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterPollutants</Key>
-      <Value>Резервуар (Токсины)</Value>
+      <Value>Резервуар (Токсин)</Value>
     </RecordThing>
     <RecordThing>
       <Key>Lander</Key>
@@ -6788,7 +6788,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutantsInfinite</Key>
-      <Value>Каталитический фильтр (Токсины)</Value>
+      <Value>Каталитический фильтр (Токсин)</Value>
       <Description>A filter that selectively targets Pollutants. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
     </RecordThing>
     <RecordThing>
