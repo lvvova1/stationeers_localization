@@ -936,12 +936,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemActiveVent</Key>
-      <Value>Активная вентиляция</Value>
+      <Value>Набор (Активная вентиляция)</Value>
       <Description>When constructed, this kit places an {THING:StructureActiveVent} on any support structure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAreaPowerControl</Key>
-      <Value>ИБП</Value>
+      <Value>Набор (ИБП)</Value>
       <Description>This kit places a {THING:StructureAreaPowerControl} (APC) on any support structure. The APC kit has two options, selecting which direction you would like the APC power to flow.</Description>
     </RecordThing>
     <RecordThing>
@@ -1538,7 +1538,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemSecurityCamera</Key>
-      <Value>Камера видеоконтроля</Value>
+      <Value>Набор (Камера видеоконтроля)</Value>
       <Description>Security cameras can be paired with a {THING:StructureMotionSensor}, then connected to a {THING:StructureConsole} fitted with a {THING:CircuitboardCameraDisplay} for that 'always watched' feeling.</Description>
     </RecordThing>
     <RecordThing>
@@ -1621,7 +1621,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelFrames</Key>
-      <Value>Стальные каркасы</Value>
+      <Value>Набор (Стальные каркасы)</Value>
       <Description>An advanced and stronger version of {THING:ItemIronFrames}, steel frames are placed by right-clicking. To complete construction, use {THING:ItemSteelSheets} and a {THING:ItemWeldingTorch} in your active hand.</Description>
     </RecordThing>
     <RecordThing>
@@ -2530,7 +2530,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemIronFrames</Key>
-      <Value>Железные каркасы</Value>
+      <Value>Набор (Железные каркасы)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronSheets</Key>
