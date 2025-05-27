@@ -1205,14 +1205,6 @@
       <Description>Invented by the Romans, who threw Greek Fire at their enemies in ceramic jars, the word 'grenade' is derived from the Old French word for 'pomegranate', as many modern grenades resemble this round, many-seeded fruit. Also like many grenades before it, this one goes boom and breaks stuff.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemHat</Key>
-      <Value>Бейсболка</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemHealPill</Key>
-      <Value>Медикамент</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemDisposableBatteryCharger</Key>
       <Value>Одноразовое зарядное устройство</Value>
       <Description>Consumable battery the recharges your suit battery. If used on a HEM-Droid it will recharge the HEM-Droids internal battery.</Description>
@@ -1231,10 +1223,6 @@
       <Key>ItemIgniter</Key>
       <Value>Набор (Воспламенитель)</Value>
       <Description>This kit creates an {THING:ItemIgniter} unit.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemInsulation</Key>
-      <Value>Изоляция</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronIngot</Key>
@@ -1292,16 +1280,6 @@
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemKitEngine</Key>
-      <Value>Набор (Двигатель)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitFabricator</Key>
-      <Value>Набор (Фабрикатор)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>ItemKitFurnace</Key>
       <Value>Набор (Печь)</Value>
       <Description />
@@ -1309,11 +1287,6 @@
     <RecordThing>
       <Key>ItemKitFurniture</Key>
       <Value>Набор (Мебель)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitGyroscope</Key>
-      <Value>Набор (Гироскоп)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -1347,28 +1320,8 @@
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemKitStellarAnchor</Key>
-      <Value>Набор (Звёздный якорь)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitStorage</Key>
-      <Value>Набор (Хранилище)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>ItemKitTank</Key>
       <Value>Набор (Резервуар)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitTorpedoTube</Key>
-      <Value>Набор (Торпедный аппарат)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitTurret</Key>
-      <Value>Набор (Турель)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -1380,11 +1333,6 @@
       <Key>ItemLabeller</Key>
       <Value>Маркировщик</Value>
       <Description>A labeller lets you set names and values on a variety of devices and structures, including {THING:StructureConsole} and {LINK:LogicPage;Logic}.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemLightSword</Key>
-      <Value>Световой меч</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemMilk</Key>
@@ -1427,31 +1375,6 @@
       <Description>This kit creates a {THING:StructurePipeAnalysizer}.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemPipeCorner</Key>
-      <Value>Набор (Труба угловая)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemPipeCrossJunction</Key>
-      <Value>Набор (Труба Х-образная)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemPipeCrossJunction3</Key>
-      <Value>Набор (Труба 3-конечная)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemPipeCrossJunction5</Key>
-      <Value>Набор (Труба 5-конечная)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemPipeCrossJunction6</Key>
-      <Value>Набор (Труба 6-конечная)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>ItemPipeDigitalValve</Key>
       <Value>Набор (Электрический клапан)</Value>
       <Description>This kit creates a {THING:StructureDigitalValve}.</Description>
@@ -1475,16 +1398,6 @@
       <Key>ItemPipeRadiator</Key>
       <Value>Набор (Радиатор)</Value>
       <Description>This kit creates a {THING:StructurePipeRadiator}.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemPipeStraight</Key>
-      <Value>Набор (Труба прямая)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemPipeTJunction</Key>
-      <Value>Набор (Труба Т-образная)</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeValve</Key>
@@ -1527,11 +1440,6 @@
       <Description>This kit creates a {THING:ItemRTGSurvival}.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemScanner</Key>
-      <Value>Ручной сканер</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>ItemScrewdriver</Key>
       <Value>Отвёртка</Value>
       <Description>This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definitely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units.</Description>
@@ -1540,11 +1448,6 @@
       <Key>ItemSecurityCamera</Key>
       <Value>Набор (Камера видеоконтроля)</Value>
       <Description>Security cameras can be paired with a {THING:StructureMotionSensor}, then connected to a {THING:StructureConsole} fitted with a {THING:CircuitboardCameraDisplay} for that 'always watched' feeling.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemSpaceCleaner</Key>
-      <Value>Чистящее средство</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSpaceHelmet</Key>
@@ -1636,24 +1539,9 @@
       <Description>An advanced building material, {THING:ItemSteelIngot} sheets are used when constructing a {THING:StructureFrame} and several other {LINK:StructuresPage;wall} types.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemSuitStorage</Key>
-      <Value>Набор (Стойка для скафандра)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>ItemTablet</Key>
       <Value>Планшет</Value>
       <Description>The {LINK:Xigo;Xigo} handheld 'Padi' tablet is an all-purpose data platform, provided as standard issue to all {LINK:Stationeers;Stationeers}. A dynamic multi-tool that accepts a range of {LINK:CartridgePage;cartridges}, the Padi becomes an {THING:CartridgeAtmosAnalyser} or {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, and various other functions.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemTankConnector</Key>
-      <Value>Набор (Коннектор для большого баллона)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemTankConnectorLiquid</Key>
-      <Value>Набор (Коннектор для большого жидкостного баллона)</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemToolBelt</Key>
@@ -1718,36 +1606,6 @@
       <Value>Сортировочная материнская плата</Value>
       <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
         The {LINK:Norsec;Norsec-designed} K-cops 10-10 sorter motherboard permits {LINK:Stationeers;Stationeers} to control which items a {THING:StructureSorter} does, and does not, permit to pass.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>MothershipCore</Key>
-      <Value>Ядро космического корабля</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>NPCDummyCharacter</Key>
-      <Value>NPC Персонаж</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>NpcGrounder</Key>
-      <Value>NPC Жук</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>OrganBrain</Key>
-      <Value>Мозг</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>OrganLungs</Key>
-      <Value>Лёгкие</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>SpaceShuttle</Key>
-      <Value>Космический шаттл</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureActiveVent</Key>
@@ -2034,10 +1892,6 @@
       <Description>The digital valve allows {LINK:Stationeers;Stationeers} to create {LINK:LogicPage;logic-controlled} valves and pipe networks.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>StructureFabricator</Key>
-      <Value>Фабрикатор</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureFiltration</Key>
       <Value>Воздушный фильтр</Value>
       <Description>The Filtration Unit is based on a long-standing {LINK:ExMin;ExMin} system, itself based on older designs of uncertain provenance. It is available in the {THING:ItemKitAtmospherics}.
@@ -2105,15 +1959,6 @@
     <RecordThing>
       <Key>StructureGlassDoor</Key>
       <Value>Стеклянная дверь</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureGunTurret</Key>
-      <Value>Турель</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureGyroscope</Key>
-      <Value>Гироскоп</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -2271,10 +2116,6 @@
       <Value>Лестница</Value>
     </RecordThing>
     <RecordThing>
-      <Key>StructureStellarAnchor</Key>
-      <Value>Звёздный якорь</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureSuitStorage</Key>
       <Value>Стойка для скафандра</Value>
       <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}.
@@ -2302,14 +2143,6 @@
     <RecordThing>
       <Key>StructureTankSmallFuel</Key>
       <Value>Малый резервуар (Топливо)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureTorpedoRack</Key>
-      <Value>Стойка для торпед</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureTorpedoTube</Key>
-      <Value>Торпедный аппарат</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureValve</Key>
@@ -2358,18 +2191,6 @@
     <RecordThing>
       <Key>UniformOrangeJumpSuit</Key>
       <Value>Комбинезон (Оранжевый)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>WeaponEnergy</Key>
-      <Value>Энергетическое оружие</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>WeaponTorpedo</Key>
-      <Value>Торпеда</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemWasteIngot</Key>
-      <Value>Слиток (Шлак)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraightBurnt</Key>
@@ -2483,10 +2304,6 @@
         Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>WeaponPistolEnergy</Key>
-      <Value>Энергетический пистолет</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureChuteWindow</Key>
       <Value>Транспортная труба (Окно)</Value>
       <Description>Chute's with windows let you see what's passing through your {LINK:ImportExportPage;import/export} network. But be warned, they are not insulated as other chutes are. Ices will melt.</Description>
@@ -2504,11 +2321,6 @@
       <Value>Автолат</Value>
       <Description>The foundation of most {LINK:Stationeers;Stationeer} fabrication systems, the {LINK:ExMin;ExMin} autolathe is a multi-axis molecular compositional system. Its complexity demands considerable time to assemble, but it remains an indispensable creation tool. Upgrade the device using a {THING:AutolathePrinterMod} for additional recipes and faster processing speeds.
       </Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitFabrication</Key>
-      <Value>Набор (Фабрикатор)</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipe</Key>
@@ -2550,10 +2362,6 @@
       <Key>ItemLeadOre</Key>
       <Value>Руда (Свинец)</Value>
       <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>WeaponRifleEnergy</Key>
-      <Value>Энергетическая винтовка</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemElectrumIngot</Key>
@@ -2717,20 +2525,6 @@
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemKitEngineSmall</Key>
-      <Value>Набор (Малый двигатель)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitEngineMedium</Key>
-      <Value>Набор (Средний двигатель)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitEngineLarge</Key>
-      <Value>Набор (Большой двигатель)</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemKitElectronicsPrinter</Key>
       <Value>Набор (Принтер электроники)</Value>
       <Description />
@@ -2866,16 +2660,8 @@
       <Value>Чип (Min/Max)</Value>
     </RecordThing>
     <RecordThing>
-      <Key>StructureLogicDisplay5</Key>
-      <Value>Светодиодный дисплей (Маленький)</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureConsoleLED5</Key>
       <Value>Светодиодный дисплей (Маленький)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureConsoleLED8Large</Key>
-      <Value>Светодиодный дисплей (Большой)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSign1x1</Key>
@@ -2884,10 +2670,6 @@
     <RecordThing>
       <Key>StructureSign2x1</Key>
       <Value>Знак 2x1</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureConsoleLED5Large</Key>
-      <Value>Светодиодный дисплей (Средний)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelDual</Key>
@@ -3159,19 +2941,6 @@
       <Value>Композитное покрытие (Отраженный длинной угловой скос)</Value>
     </RecordThing>
     <RecordThing>
-      <Key>StructureDockPortSide</Key>
-      <Value>Док-порт</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitDockingPort</Key>
-      <Value>Набор (Док-порт)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureDockShipSide</Key>
-      <Value>Док-порт корабля</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureLightLong</Key>
       <Value>Светильник (Длинный)</Value>
     </RecordThing>
@@ -3331,10 +3100,6 @@
     <RecordThing>
       <Key>CompositeWallPanelling21</Key>
       <Value>Композитная настенная панель 21</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>Corner1</Key>
-      <Value>Угол</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallFlat</Key>
@@ -3801,18 +3566,6 @@
       <Value>Патронный ящик</Value>
     </RecordThing>
     <RecordThing>
-      <Key>HandgunMagazine</Key>
-      <Value>Магазин для пистолета</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>SMGMagazine</Key>
-      <Value>Магазин для пистолета-пулемёта </Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>FireArmSMG</Key>
-      <Value>Пистолет-пулемёт </Value>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureElectrolyzer</Key>
       <Value>Электролизёр</Value>
       <Description>The {LINK:Norsec;Norsec-designed} Electrolyzer splits {GAS:Water} into hydrogen and {GAS:Oxygen}. Employing unknown proprietary technology, the device uses water's latent heat as the energy to drive the electrosis process. If there is a downside to this near-miraculous fission, it's that the device is limited by the quantity of power available, which is used to maintain the temperature output. In other words, the machine works best with hot gas.</Description>
@@ -3895,11 +3648,6 @@
     <RecordThing>
       <Key>ItemDynamicAirCon</Key>
       <Value>Набор (Переносной кондиционер)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitPipeValve</Key>
-      <Value>Клапан</Value>
-      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicGenerator</Key>
@@ -4607,10 +4355,6 @@
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ManualGetResearchPodsRequired</Key>
-      <Value>PodTypeToSearchFor</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureResearchMachine</Key>
       <Value>Исследовательская машина</Value>
     </RecordThing>
@@ -4813,26 +4557,6 @@
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemKitStructureModularRocketCargo01</Key>
-      <Value>Набор (Модуль Грузовой Ракетный)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitStructureLaunchPad</Key>
-      <Value>Набор (Площадка Запуска)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitStructureModularRocketEngine01</Key>
-      <Value>Набор (Модуль Ракетный Двигатель)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemKitStructureModularRocketFueltank01</Key>
-      <Value>Набор (Модуль Ракетный Топливный Бак)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>StructureWallIron02</Key>
       <Value>Железная Стена (Тип 2)</Value>
     </RecordThing>
@@ -4958,10 +4682,6 @@
     <RecordThing>
       <Key>DynamicGasCanisterRocketFuel</Key>
       <Value>Резервуар (Ракетное топливо)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ModularRocketCommand01Lander</Key>
-      <Value>Посадочный Модуль Ракеты</Value>
     </RecordThing>
     <RecordThing>
       <Key>ModularRocketCargo01</Key>
@@ -5264,12 +4984,6 @@
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>Rover_MkI</Key>
-      <Value>Планетоход МК1</Value>
-      <Description>A distant cousin of the jeep, the Mk I {{LINK:Sinotai;Sinotai} electric rover is one of the most simple and durable light vehicles in the known universe. Able to carry two passengers and cargo such as the {THING:DynamicGasCanisterAir} or {THING:Crate}, it is powered by up to three batteries, accepting everything including {THING:ItemBatteryCellNuclear}.
-        A quad-array of hub-mounted electric engines propels the reinforced aluminium frame over most terrain and modest obstacles. While the Mk I is designed for stability in low-horizontality circumstances, if it rolls, try using your {THING:ItemCrowbar} to put it right way up.</Description>
-    </RecordThing>
-    <RecordThing>
       <Key>StructureSpawnPoint</Key>
       <Value>Точка возрождения</Value>
       <Description />
@@ -5499,16 +5213,6 @@
       <Description>Delicious and pure H20, refined from local sources as varied as Venusian ice and trans-Solar comets. Empty bottles can be refilled using the {THING:StructureWaterBottleFiller}.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemWaterBottleFiller</Key>
-      <Value>Разливочная машина</Value>
-      <Description>As its somewhat uninspired name suggests, this device refills a {THING:ItemWaterBottle}, when connected to a liquid pipe network.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureWaterBottleFiller</Key>
-      <Value>Разливочная машина Воды</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>StructureIceCrusher</Key>
       <Value>Измельчитель льда</Value>
       <Description>The {LINK:Recurso;Recurso} KoolAuger converts various ices into their respective {LINK:GasPage;gases} and liquids.
@@ -5519,16 +5223,6 @@
       <Key>ItemKitIceCrusher</Key>
       <Value>Набор (Измельчитель льда)</Value>
       <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>DynamicGasTankAdvancedOxygen</Key>
-      <Value>Улучшенный переносной резервуар (Кислород)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>DynamicGasTankAdvancedWater</Key>
-      <Value>Переносной жидкостной резервуар MK2 (Вода)</Value>
-      <Description>An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, you are able to store water in this {SLOT:GasCanister} without them gaining or losing temperature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeRadiator</Key>
@@ -5698,10 +5392,6 @@
       <Description />>
     </RecordThing>
     <RecordThing>
-      <Key>StructureWaterBottleFillerBottom</Key>
-      <Value>Разливочная Машина (Снизу)</Value>
-    </RecordThing>
-    <RecordThing>
       <Key>ItemLiquidDrain</Key>
       <Value>Набор (Слив жидкости)</Value>
       <Description />
@@ -5725,11 +5415,6 @@
     <RecordThing>
       <Key>StructureLiquidPipeAnalyzer</Key>
       <Value>Трубный анализатор жидкости</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureHeatExchangeLiquidAndGas</Key>
-      <Value>Теплообменник Жидкость и газ</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6087,12 +5772,6 @@
       <Key>StructurePipeHeater</Key>
       <Value>Трубный газовый нагреватель</Value>
       <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructurePipeOneWayValve</Key>
-      <Value>Газовый обратный клапан</Value>
-      <Description>The one way valve moves gas in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure.
-      </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeHeater</Key>
