@@ -2323,6 +2323,11 @@
       </Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureTerraformingManufactory</Key>
+      <Value>Фабрика по терраформированию</Value>
+      <Description>Prints kits for building terraforming structures.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitPipe</Key>
       <Value>Набор (Труба)</Value>
       <Description />
@@ -6496,6 +6501,11 @@
       <Description />
     </RecordThing>
     <RecordThing>
+      <Key>Landingpad_2x2CenterPiece01</Key>
+      <Value>Посадочная площадка 2x2</Value>
+      <Description>Recommended for larger traders. This allows for the creation of 4x4 and 6x6 landing areas with symetrical doors</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureTraderWaypoint</Key>
       <Value>Путевая точка для торговца</Value>
       <Description />
@@ -6638,6 +6648,51 @@
     <RecordThing>
       <Key>StructureBatteryMedium</Key>
       <Value>Ракетный аккумулятор (Средний)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLowVolumeLiquidPipeCorner</Key>
+      <Value>Тонкая жидкостная труба (Угол)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLowVolumeLiquidPipeCrossJunction</Key>
+      <Value>Тонкая жидкостная труба (Cross Junction)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLowVolumeLiquidPipeCrossJunction3</Key>
+      <Value>Тонкая жидкостная труба (3-Way Junction)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLowVolumeLiquidPipeCrossJunction4</Key>
+      <Value>Тонкая жидкостная труба (4-Way Junction)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLowVolumeLiquidPipeCrossJunction5</Key>
+      <Value>Тонкая жидкостная труба (5-Way Junction)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLowVolumeLiquidPipeCrossJunction6</Key>
+      <Value>Тонкая жидкостная труба (6-Way Junction)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLowVolumeLiquidPipeStraight</Key>
+      <Value>Тонкая жидкостная труба (Straight)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLowVolumeLiquidPipeTJunction</Key>
+      <Value>Тонкая жидкостная труба (T Junction)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLowVolumeLiquidPipes</Key>
+      <Value>Набор (Тонкая жидкостная труба)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7447,6 +7502,246 @@
       <Description />
     </RecordThing>
     <RecordThing>
+      <Key>ItemRocketScanningHead</Key>
+      <Value>Голова ракетного сканера</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePortablesConnector</Key>
+      <Value>Коннектор резервуара</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPortablesConnector</Key>
+      <Value>Набор (Коннектор резервуара)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_BlankPiece</Key>
+      <Value>Посадочная площадка</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketCircuitHousing</Key>
+      <Value>Ракетный сокет</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRocketCircuitHousing</Key>
+      <Value>Набор (Ракетный сокет)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ApplianceTabletDock</Key>
+      <Value>Планшетная зарядная станция</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemHorticultureBelt</Key>
+      <Value>Пояс садовода</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSugarCane</Key>
+      <Value>Сахарный тростник</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketTransformerSmall</Key>
+      <Value>Трансформатор (Маленький ракетный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRocketTransformerSmall</Key>
+      <Value>Набор (Трансформатор: Маленький ракетный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemMiningDrillPneumatic</Key>
+      <Value>Пневматический шахтёрский бур</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemRocketMiningDrillHeadIce</Key>
+      <Value>Бурильная головка (Лёд)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemRocketMiningDrillHeadMineral</Key>
+      <Value>Бурильная головка (Руда)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemRocketMiningDrillHeadDurable</Key>
+      <Value>Бурильная головка (Прочная)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemRocketMiningDrillHeadLongTerm</Key>
+      <Value>Бурильная головка (Долгосрочная)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemRocketMiningDrillHeadHighSpeedIce</Key>
+      <Value>Бурильная головка (Лёд, быстрая)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemRocketMiningDrillHeadHighSpeedMineral</Key>
+      <Value>Бурильная головка (Руда, быстрая)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRoboticArmDock</Key>
+      <Value>Станция Ларри</Value>
+      <Description>The Linear Articulated Rail Entity or LArRE can be used to plant, harvest and fertilize plants in plant trays. It can also grab items from a {THING:StructureChuteExportBin} and drop them in a {THING:StructureChuteBin}. LArRE can interact with plant trays or chute bins built under a linear rail station or built under its dock.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemIcarusSuit</Key>
+      <Value>Скафандр Икара</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemIcarusHelmet</Key>
+      <Value>Шлем Икара</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>FlareGun</Key>
+      <Value>Сигнальный пистолет</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitMesonScanner</Key>
+      <Value>Блок обработки данных (Терагерцовый сканер)</Value>
+      <Description>The T-Ray Scanner Sensor Processing Unit can be inserted into the {THING:ItemSensorLenses} to show an overlay of pipes and cables. This can be useful when building behind walls or other structures.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketCelestialTracker</Key>
+      <Value>Ракетный небесный трекер</Value>
+      <Description>The Celestial Tracker can be placed in Rockets and when turned on will provide data that can be used to orientate devices such as the {THING:StructureGroundBasedTelescope}. The Horizontal and Vertical output is localized to the orientation of the tracker. You can calibrate your alignment by comparing the result for the primary body with the output from the {THING:StructureDaylightSensor}. Full functionality will only be available in orbit, but you can configure using the primary body. For aligning with the telescope, have the face plate facing up and the cables facing in the same direction as for the telescope and the output values will be aligned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRocketCelestialTracker</Key>
+      <Value>Набор (Ракетный небесный трекер)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSensorProcessingUnitCelestialScanner</Key>
+      <Value>Блок обработки данных (Небесный сканер)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitGroundTelescope</Key>
+      <Value>Набор (Телескоп)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureGroundBasedTelescope</Key>
+      <Value>Телескоп</Value>
+      <Description>A telescope that can be oriented to observe Celestial Bodies. When within full alignment will show orbital information for that celestial object. Atmospheric conditions may disrupt the ability to observe some objects at some times of day. To collect Horizontal and Vertical values you can use a {THING:StructureRocketCelestialTracker} while it is in orbit, or a {THING:StructureDaylightSensor} for primary body data.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureElevatorShaftIndustrial</Key>
+      <Value>Шахта лифта</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureElevatorLevelIndustrial</Key>
+      <Value>Этаж лифта</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPassiveVentInsulated</Key>
+      <Value>Набор (Пассивная вентиляция: Изолированная)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePassiveVentInsulated</Key>
+      <Value>Пассивная вентиляция (Изолированная)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDrinkingFountain</Key>
+      <Value>Питьевой фонтан</Value>
+      <Description>The Drinking Fountain can be interacted with directly to increase hydration. It needs a {GAS:Water} supply.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDrinkingFountain</Key>
+      <Value>Набор (Питьевой фонтан)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitShower</Key>
+      <Value>Набор (Душ)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureShower</Key>
+      <Value>Душ (Обычный)</Value>
+      <Description>The fastest way to remove low hygiene. You must remove your {THING:UniformOrangeJumpSuit} and {THING:ItemEvaSuit} when using the {THING:StructureShower}. It outputs {GAS:PollutedWater} when in use. {GAS:PollutedWater} will interfere with many other {GAS:Water} systems so make sure to collect and treat it using a {THING:StructureWaterPurifier} or dump it.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemHandSanitizer</Key>
+      <Value>Дезинфицирующее средство</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemReusableFireExtinguisher</Key>
+      <Value>Огнетушитель (Многоразовый)</Value>
+      <Description>Requires a canister filled with any inert liquid to opperate.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureShowerPowered</Key>
+      <Value>Душ (С подключением)</Value>
+      <Description>The fastest way to remove low hygiene. You must remove your {THING:UniformOrangeJumpSuit} and {THING:ItemEvaSuit} when using the {THING:StructureShowerPowered}. It outputs {GAS:PollutedWater} when in use. {GAS:PollutedWater} will interfere with many other {GAS:Water} systems so make sure to collect and treat it using a {THING:StructureWaterPurifier} or dump it.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFlashlight</Key>
+      <Value>Фонарик</Value>
+      <Description>A flashlight with a narrow and wide beam options.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeIgniter</Key>
+      <Value>Трубный воспламенитель</Value>
+      <Description>Ignites the atmosphere inside the attached pipe network.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPipeIgniter</Key>
+      <Value>Набор (Трубный воспламенитель)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankGas1x1</Key>
+      <Value>Газовый трубопроводный баллон (Изолированный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankGas1x2</Key>
+      <Value>Газовый трубопроводный баллон (Изолированный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankLiquid1x1</Key>
+      <Value>Жидкостный трубопроводный баллон (Изолированный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankLiquid1x2</Key>
+      <Value>Жидкостный трубопроводный баллон (Изолированный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitInsulatedPipeUtilityLiquid</Key>
+      <Value>Набор (Изолированное трубное оборудование: жидкость)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitInsulatedPipeUtility</Key>
+      <Value>Набор (Изолированное трубное оборудование: газ)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
       <Key>ItemAdhesiveInsulation</Key>
       <Value>Клейкая изоляция</Value>
       <Description />
@@ -7555,6 +7850,192 @@
       <Key>StructureChuteExportBin</Key>
       <Value>Транспортная труба (Экспорт)</Value>
       <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRoboticArmRailOuterCorner</Key>
+      <Value>Линейный рельс (Внешний угол)</Value>
+      <Description>A component of a linear rail network to be used in conjunction with LArRE docks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRoboticArmRailInnerCorner</Key>
+      <Value>Линейный рельс (Внутренний угол)</Value>
+      <Description>A component of a linear rail network to be used in conjunction with LArRE docks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureReinforcedWall</Key>
+      <Value>Укреплённая стена</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCompositeWindowShutterConnector</Key>
+      <Value>Композитные рольставни (Коннектор)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeOneWayValveLever</Key>
+      <Value>Газовый обратный клапан</Value>
+      <Description>The one way valve moves gas in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure.
+      </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidOneWayValveLever</Key>
+      <Value>Жидкостный обратный клапан</Value>
+      <Description>The one way valve moves liquid in one direction only: from input side to output side. It only permits flow if the input pressure is higher than output pressure..</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRobotArmDoor</Key>
+      <Value>Набор (Линейный рельс: Дверь)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRobotArmDoor</Key>
+      <Value>Линейный рельс (Дверь)</Value>
+      <Description>The linear rail door allows LArRE arms to pass through while travelling along a rail network.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTutorialSpawnPoint</Key>
+      <Value>Точка возрождения (Tutorial)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLarreDockAtmos</Key>
+      <Value>Набор (Станция Ларри: Атмосферная)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLarreDockBypass</Key>
+      <Value>Набор (Станция Ларри: Обходная)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLarreDockHydroponics</Key>
+      <Value>Набор (Станция Ларри: Гидропонная)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLarreDockCargo</Key>
+      <Value>Kit (Станция Ларри: Грузовая)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLarreDockCollector</Key>
+      <Value>Набор (Станция Ларри: Сборочная)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLarreDockBypass</Key>
+      <Value>Станция Ларри (Обходная)</Value>
+      <Description>The bypass dock allows LArRE arms to move off the main rail so that others may pass. Pressing activate on a dock while its arm is at a bypass will cause the arm to move into the bypass' off-rail position.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLarreDockAtmos</Key>
+      <Value>Станция Ларри (Атмосферная)</Value>
+      <Description>The atmospherics LArRE can pump gas into and out of its storage canister. When lowered over a {THING:StructurePassiveVent}, the atmospherics LArRE will connect with it and pump gas into and out of the connected pipe network.
+
+        Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.
+
+        The base atmospheric logic values point to LArRE's internal gas storage. The Input atmospheric logic values point to the grid that LArRE is in OR the pipe network that LArRE is docked to via a {THING:StructurePassiveVent}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLarreDockCargo</Key>
+      <Value>Станция Ларри (Грузовая)</Value>
+      <Description>The cargo LArRE can take things out of and put things into slots on devices. The dial on the front panel indicates which slot on the device to interact with. The slot variables of the item in the target slot can be read using the Proxy Slot Index (255)
+
+        Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLarreDockCollector</Key>
+      <Value>Станция Ларри (Сборочная)</Value>
+      <Description>The collector LArRE can suck up nearby loose items when its mode is set to inward and eject stored items when its mode is set to outward. When set to suck up items, the collector LArRE will automatically stop and retract when full.
+
+        Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLarreDockHydroponics</Key>
+      <Value>Станция Ларри (Гидропонная)</Value>
+      <Description>The hydroponics LArRE can plant and harvest plants as well as place fertiliser into plant trays. It has an additional hopper slot which will feed items into the 'hand' slot when the hand slot is empty. Harvesting a different plant while the hand slot is full will be possible if the hopper slot is empty. In which case the plant in the hand will be moved into the hopper slot and the new plant will be harvested into the hand slot.
+        The slot variables of a plant in the plant tray below can be read using the Proxy Slot Index (255).
+        Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureComputerUpright</Key>
+      <Value>Компьютер (Ретро)</Value>
+      <Description>This unit operates with a wide range of {LINK:LogicUnitPage;motherboards}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ApplianceBobbleHeadMarine</Key>
+      <Value>Болванчик (Морпех)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRoboticArmRailScrewLeft</Key>
+      <Value>Линейный рельс (Левый поворот)</Value>
+      <Description>A component of a linear rail network to be used in conjunction with LArRE docks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRoboticArmRailScrewRight</Key>
+      <Value>Линейный рельс (Правый поворот)</Value>
+      <Description>A component of a linear rail network to be used in conjunction with LArRE docks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureManualFloorHatch</Key>
+      <Value>Ручной люк (Напольный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasMask</Key>
+      <Value>Противогаз</Value>
+      <Description>This mask will mix with the world atmosphere but filter out the gasses based on the filters in its two slots.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureGasMaskStorage</Key>
+      <Value>Хранилище для газовой маски</Value>
+      <Description>The Gas Mask Storage is a designated shelf specifically designed to hold a gas mask.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFireExtinguisherStorage</Key>
+      <Value>Хранилище огнетушителя</Value>
+      <Description>The Fire Extinguisher Storage is a designated shelf specifically designed to hold a fire extinguisher.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicGPR</Key>
+      <Value>Георадар (GPR)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>MonsterEgg</Key>
+      <Value>Яйцо монстра</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>MonsterQueen</Key>
+      <Value>Королева монстров</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>MotherboardMissionControl</Key>
+      <Value>Материнская плата (Управление миссией)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableCorner3HBurnt</Key>
+      <Value>Сгоревший силовой кабель (3-конечный)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCarbonSequester</Key>
+      <Value>Уловитель углерода</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCarbonSequesterTopExtension</Key>
+      <Value>Уловитель углерода (Расширение вверх)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCarbonSequesterVentExtension</Key>
+      <Value>Уловитель углерода (Вентиляционное расширение)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDispersalTower</Key>
+      <Value>Башня рассеивания</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDispersalTowerChimneyExtension</Key>
+      <Value>Башня рассеивания (Удлинитель дымохода)</Value>
     </RecordThing>
   </Things>
   <Slots>
