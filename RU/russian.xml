@@ -1592,18 +1592,18 @@
     </RecordThing>
     <RecordThing>
       <Key>MotherboardLogic</Key>
-      <Value>Логическая материнская плата</Value>
+      <Value>Материнская плата (Логика)</Value>
       <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
         The {LINK:Norsec;Norsec-designed} K-cops logic motherboard allows {LINK:Stationeers;Stationeers} to set variables and actions on specific {LINK:LogicUnitPage;logic}-controlled items.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardManufacturing</Key>
-      <Value>Производство</Value>
+      <Value>Материнская плата (Производство)</Value>
       <Description>Устарело.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardSorter</Key>
-      <Value>Сортировочная материнская плата</Value>
+      <Value>Материнская плата (Сортировщик)</Value>
       <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
         The {LINK:Norsec;Norsec-designed} K-cops 10-10 sorter motherboard permits {LINK:Stationeers;Stationeers} to control which items a {THING:StructureSorter} does, and does not, permit to pass.</Description>
     </RecordThing>
@@ -4021,7 +4021,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureSatelliteDish</Key>
-      <Value>Средняя спутниковая тарелка</Value>
+      <Value>Спутниковая тарелка (Средняя)</Value>
       <Description>This medium communications unit can be used to communicate with nearby trade vessels.
 
         When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms} motherboard, a {THING:Landingpad_CenterPiece01}, and a {THING:StructureVendingMachine}, this allows Stationeers to contact traders. Adjust its horizontal and vertical attributes either directly or through logic.</Description>
@@ -4250,22 +4250,22 @@
     </RecordThing>
     <RecordThing>
       <Key>ElectronicPrinterMod</Key>
-      <Value>Модуль принтера электроники</Value>
+      <Value>Улучшение (Принтер электроники)</Value>
       <Description>Apply to an {THING:StructureElectronicsPrinter} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
       <Key>AutolathePrinterMod</Key>
-      <Value>Модуль улучшения автолата</Value>
+      <Value>Улучшение (Автолат)</Value>
       <Description>Apply to an {THING:StructureAutolathe} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
       <Key>PipeBenderMod</Key>
-      <Value>Модуль гидравлического сгибателя труб</Value>
+      <Value>Улучшение (Гидравлический сгибатель труб)</Value>
       <Description>Apply to an {THING:StructureHydraulicPipeBender} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ToolPrinterMod</Key>
-      <Value>Модуль принтера инструментов</Value>
+      <Value>Улучшение (Фабрика инструментов)</Value>
       <Description>Apply to an {THING:StructureToolManufactory} with a {THING:ItemWeldingTorch} or {THING:ItemArcWelder} to upgrade for increased processing speed and more recipe options.</Description>
     </RecordThing>
     <RecordThing>
@@ -4912,22 +4912,22 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlockGate</Key>
-      <Value>Набор (Ангарный шлюз)</Value>
+      <Value>Набор (Ангарная дверь)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlockGate</Key>
-      <Value>Малая ангарная дверь</Value>
+      <Value>Ангарная дверь</Value>
       <Description>1 x 1 modular door piece for building hangar doors.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureMediumHangerDoor</Key>
-      <Value>Средняя ангарная дверь</Value>
+      <Value>Ангарная дверь (Средняя)</Value>
       <Description>1 x 2 modular door piece for building hangar doors.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeHangerDoor</Key>
-      <Value>Большая ангарная дверь</Value>
+      <Value>Ангарная дверь (Большая)</Value>
       <Description>1 x 3 modular door piece for building hangar doors.</Description>
     </RecordThing>
     <RecordThing>
