@@ -4282,14 +4282,14 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMediumReversed</Key>
-      <Value>Трансформатор (Средний обратный)</Value>
+      <Value>Трансформатор (Средний)</Value>
       <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading {LINK:ElectronicPage;electrical} systems.
         Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
         Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium(Reversed)</Key>
-      <Value>Трансформатор Обратный (Средний)</Value>
+      <Value>Трансформатор (Средний)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemJetpackBasic</Key>
