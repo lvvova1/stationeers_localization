@@ -1673,7 +1673,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureBattery</Key>
-      <Value>Station Battery</Value>
+      <Value>Станционная батарея</Value>
       <Description>Providing large-scale, reliable power storage, the {LINK:Sinotai;Sinotai} 'Dianzi' station battery is the heart of most {LINK:Stationeers;Stationeer} bases.
         There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.'
         {HEADER:POWER OUTPUT}
@@ -4694,7 +4694,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorLenses</Key>
-      <Value>Сенсорные линзы</Value>
+      <Value>Сенсорные очки</Value>
       <Description>These {LINK:Norsec;Norsec} glasses might not be the most fashionable thing, but when a {THING:ItemSensorProcessingUnitOreScanner} is inserted, Stationeers can use these handy glasses to x-ray the ground and find ores that are hidden beneath the surface.</Description>
     </RecordThing>
     <RecordThing>
@@ -5072,12 +5072,12 @@
     </RecordThing>
     <RecordThing>
       <Key>CrateMkII</Key>
-      <Value>Ящик MK II</Value>
+      <Value>Переносной ящик (Улучшенный)</Value>
       <Description>A more heavily reinforced version of the iconic {THING:DynamicCrate}, the Crate Mk II is resistant to incredibly high pressures and temperatures. Short of disposing of it in a black hole, the Mk II is about as safe as luggage gets.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrateMkII</Key>
-      <Value>Набор (Ящик MK II)</Value>
+      <Value>Набор (Улучшенный переносной ящик)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6816,7 +6816,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeDirectHeatExchangeLiquidtoLiquid</Key>
-      <Value>Large Теплообменник (Жидкость + жидкость)</Value>
+      <Value>Большой теплообменник (Жидкость + жидкость)</Value>
       <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
     </RecordThing>
     <RecordThing>
@@ -7148,7 +7148,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCargoStorageMedium</Key>
-      <Value>Хранилище грузов (Средне)</Value>
+      <Value>Хранилище грузов (Среднее)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7533,7 +7533,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureRoboticArmRailCornerStop</Key>
-      <Value>Линейный рельс (Угловая станция)</Value>
+      <Value>Линейный рельс (Угловая остановка)</Value>
       <Description>A component of a linear rail network to be used in conjunction with LArRE docks. The corner station creates a stopping point for LArRE arms along the rail.</Description>
     </RecordThing>
     <RecordThing>
@@ -7543,7 +7543,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureRoboticArmRailStraightStop</Key>
-      <Value>Линейный рельс (Прямая станция)</Value>
+      <Value>Линейный рельс (Прямая остановка)</Value>
       <Description>A component of a linear rail network to be used in conjunction with LArRE docks. The straight station creates a stopping point for LArRE arms along the rail.</Description>
     </RecordThing>
     <RecordThing>
