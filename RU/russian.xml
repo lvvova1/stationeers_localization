@@ -513,7 +513,7 @@
   <Things>
     <RecordThing>
       <Key>ApplianceMicrowave</Key>
-      <Value>Микроволновая печь</Value>
+      <Value>Микроволновка</Value>
       <Description>While countless 'better' ways of cooking {LINK:FoodPage;Food} have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from {LINK:Xigo;Xigo}, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates {GAS:Water} molecules more than adequately.
         Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it, follow the recipe, and you're cooking.</Description>
     </RecordThing>
@@ -1406,7 +1406,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeVolumePump</Key>
-      <Value>Набор (Компрессор)</Value>
+      <Value>Набор (Газовый компрессор)</Value>
       <Description>This kit creates a {THING:StructureVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1795,7 +1795,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating</Key>
-      <Value>Композитный решётчатый настил</Value>
+      <Value>Композитный настил</Value>
       <Description>While aesthetics rank low on the ladder of {LINK:Stationeers;Stationeer} concerns, composite gratings allow the concealment of unsightly cables on floors, walls and ceilings.</Description>
     </RecordThing>
     <RecordThing>
@@ -2150,7 +2150,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureVolumePump</Key>
-      <Value>Компрессор</Value>
+      <Value>Газовый компрессор</Value>
       <Description>The volume pump pumps pumpable gases. It also separates out pipe networks into separate networks.</Description>
     </RecordThing>
     <RecordThing>
@@ -2972,23 +2972,23 @@
     </RecordThing>
     <RecordThing>
       <Key>CompositeFloorGrating1</Key>
-      <Value>Композитный напольный настил (Тип 1)</Value>
+      <Value>Композитный настил (Тип 1)</Value>
     </RecordThing>
     <RecordThing>
       <Key>CompositeFloorGrating2</Key>
-      <Value>Композитный напольный настил (Тип 2)</Value>
+      <Value>Композитный настил (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating2</Key>
-      <Value>Композитный напольный настил  (Тип 2)</Value>
+      <Value>Композитный настил (Тип 2)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating3</Key>
-      <Value>Композитный напольный настил  (Тип 3)</Value>
+      <Value>Композитный настил (Тип 3)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating4</Key>
-      <Value>Композитный Напольный Настил  (Тип 4)</Value>
+      <Value>Композитный настил (Тип 4)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallPanels</Key>
@@ -5030,12 +5030,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRoverMKI</Key>
-      <Value>Набор (Каркас планетохода МК1)</Value>
+      <Value>Набор (Планетоход)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Rover_MkI_build_states</Key>
-      <Value>Планетоход МКI</Value>
+      <Value>Планетоход</Value>
       <Description>A distant cousin of the jeep, the Mk I {{LINK:Sinotai;Sinotai} electric rover is one of the most simple and durable light vehicles in the known universe. Able to carry two passengers and cargo such as the {THING:DynamicGasCanisterAir} or {THING:Crate}, it is powered by up to three batteries, accepting everything including {THING:ItemBatteryCellNuclear}.
         A quad-array of hub-mounted electric engines propels the reinforced aluminium frame over most terrain and modest obstacles. While the Mk I is designed for stability in low-horizontality circumstances, if it rolls, try using your {THING:ItemCrowbar} to put it right way up.</Description>
     </RecordThing>
@@ -5252,12 +5252,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
-      <Value>Насос для жидкости</Value>
+      <Value>Жидкостный насос</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeVolumePump</Key>
-      <Value>Набор (Насос для жидкости)</Value>
+      <Value>Набор (Жидкостный насос)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5551,7 +5551,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeBig</Key>
-      <Value>Большая морозильная камера</Value>
+      <Value>Морозилка (Большая)</Value>
       <Description>The {LINK:Xigo;Xigo} Koolaid fridge is a self-cooling storage device with 15 slots that preserves food when powered and turned on. While many users have complained about the placement of the power switch, its place in the pantheon of off-world whiteware is unquestioned.
 
         With its own permanent internal atmosphere, the Koolaid fridge slows the decay of {LINK:OrganicPage;food} by maintaining an optimal internal temperature. Its power usage varies on the external temperature against which it must balance its internal temperature. As such, it must shed heat to operate, so the Koolaid fridge DOES NOT work in a vacuum.
@@ -5562,12 +5562,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFridgeBig</Key>
-      <Value>Набор (Большая морозильная камера)</Value>
+      <Value>Набор (Большая морозилка)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeSmall</Key>
-      <Value>Малая морозильная камера</Value>
+      <Value>Морозилка</Value>
       <Description>Essentially a heavily insulated box that allows users to pipe in any desired atmosphere, the {LINK:Recurso;Recurso} Minibar fridge was a simple solution to the problem of {LINK:NutritionPage;food decay}. It stores a small number of items, at any temperature you can muster.
 
         For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia.</Description>
@@ -5662,7 +5662,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFridgeSmall</Key>
-      <Value>Набор (Малая морозильная камера)</Value>
+      <Value>Набор (Морозилка)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5770,42 +5770,42 @@
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeHeater</Key>
-      <Value>Трубный газовый нагреватель</Value>
+      <Value>Обогреватель трубы (Газ)</Value>
       <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeHeater</Key>
-      <Value>Набор (Газовый обратный клапан)</Value>
+      <Value>Набор (Обогреватель газовой трубы)</Value>
       <Description>Creates a {THING:StructurePipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeHeater</Key>
-      <Value>Набор (Трубный жидкостный нагреватель)</Value>
+      <Value>Набор (Обогреватель жидкостной трубы)</Value>
       <Description>Creates a {THING:StructureLiquidPipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeHeater</Key>
-      <Value>Трубный жидкостный нагреватель</Value>
+      <Value>Обогреватель трубы (Жидкость)</Value>
       <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTurboVolumePump</Key>
-      <Value>Турбокомпрессор</Value>
+      <Value>Газовый турбокомпрессор</Value>
       <Description>Shifts 10 times more gas than a basic {THING:StructureVolumePump}, with a mode that can be set to flow in either direction.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurboVolumePump</Key>
-      <Value>Набор (Турбокомпрессор)</Value>
+      <Value>Набор (Газовый турбокомпрессор)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTurboVolumePump</Key>
-      <Value>Турбонасос для жидкости</Value>
+      <Value>Жидкостный турбонасос</Value>
       <Description>Shifts 10 times more liquid than a basic {THING:StructureVolumePump}, with a mode that can be set to flow in either direction.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidTurboVolumePump</Key>
-      <Value>Набор (Турбонасос для жидкости)</Value>
+      <Value>Набор (Жидкостный турбонасос)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5835,7 +5835,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningCharge</Key>
-      <Value>Шахтёрский заряд</Value>
+      <Value>Шахтёрская взрывчатка</Value>
       <Description>A low cost, high yield explosive with a 10 second timer.</Description>
     </RecordThing>
     <RecordThing>
@@ -6492,12 +6492,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGratingOpen</Key>
-      <Value>Композитный напольный настил с отверстием</Value>
+      <Value>Композитный настил с отверстием</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGratingOpenRotated</Key>
-      <Value>Композитный напольный настил с отверстием</Value>
+      <Value>Композитный настил с отверстием</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6566,12 +6566,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeUtility</Key>
-      <Value>Набор (Трубопроводное оборудование: газ)</Value>
+      <Value>Набор (Трубное оборудование: газ)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeUtilityLiquid</Key>
-      <Value>Набор (Трубопроводное оборудование: жидкость)</Value>
+      <Value>Набор (Трубное оборудование: жидкость)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6581,7 +6581,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankGas1x2</Key>
-      <Value>Газовый трубопроводный баллон (Большой)</Value>
+      <Value>Газовый трубопроводный баллон</Value>
       <Description>A small expansion tank that increases the volume of a pipe network.</Description>
     </RecordThing>
     <RecordThing>
@@ -6591,7 +6591,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankLiquid1x2</Key>
-      <Value>Жидкостный трубопроводный баллон (Большой)</Value>
+      <Value>Жидкостный трубопроводный баллон</Value>
       <Description>A small expansion tank that increases the volume of a pipe network.</Description>
     </RecordThing>
     <RecordThing>
