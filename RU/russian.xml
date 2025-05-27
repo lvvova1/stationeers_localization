@@ -17,7 +17,7 @@
     <RecordReagent>
       <Key>Egg</Key>
       <Value>Яйцо</Value>
-      <Unit>шт.</Unit>
+      <Unit>шт</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
@@ -117,12 +117,12 @@
     <RecordReagent>
       <Key>Potato</Key>
       <Value>Картофель</Value>
-      <Unit>шт.</Unit>
+      <Unit>шт</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Tomato</Key>
       <Value>Томат</Value>
-      <Unit>шт.</Unit>
+      <Unit>шт</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Fenoxitone</Key>
@@ -157,7 +157,7 @@
     <RecordReagent>
       <Key>Pumpkin</Key>
       <Value>Тыква</Value>
-      <Unit>шт.</Unit>
+      <Unit>шт</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Rice</Key>
