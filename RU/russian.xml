@@ -839,32 +839,32 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterAir</Key>
-      <Value>Переносной газовый резервуар (Воздух)</Value>
+      <Value>Газовый резервуар (Воздух)</Value>
       <Description>Portable gas tanks do one thing: store gas. But there's lots you can do with them. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere. They also attach to rovers and rockets. Alternatively, kick it over and practice barrel rolling. The possibilities are endless.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterCarbonDioxide</Key>
-      <Value>Переносной газовый резервуар (Углекислый газ)</Value>
+      <Value>Газовый резервуар (Углекислый газ)</Value>
       <Description>Portable gas tanks do one thing: store gas. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or... boom. Once it's full, you can refill a {THING:ItemGasCanisterCarbonDioxide} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere... of sorts.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterEmpty</Key>
-      <Value>Переносной газовый резервуар</Value>
+      <Value>Газовый резервуар</Value>
       <Description>Portable gas tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterFuel</Key>
-      <Value>Переносной газовый резервуар (Топливо)</Value>
+      <Value>Газовый резервуар (Топливо)</Value>
       <Description>Portable tanks store gas. They're good at it. If you need to refill a tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or things get messy. You can refill a {THING:ItemGasCanisterFuel} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later. It's really up to you.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrogen</Key>
-      <Value>Переносной газовый резервуар (Азот)</Value>
+      <Value>Газовый резервуар (Азот)</Value>
       <Description>Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or you'll end up with {GAS:Nitrogen} in places you weren't expecting. You can refill a {THING:ItemGasCanisterNitrogen} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterOxygen</Key>
-      <Value>Переносной газовый резервуар (Кислород)</Value>
+      <Value>Газовый резервуар (Кислород)</Value>
       <Description>Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or you'll be picking tank shards out of your face. You can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere. Or even paint it pink, call it Steve and fill that sad space in your heart.</Description>
     </RecordThing>
     <RecordThing>
@@ -874,14 +874,14 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
-      <Value>Переносной газовый резервуар (Вода)</Value>
+      <Value>Газовый резервуар (Вода)</Value>
       <Description>This portable tank stores liquid, and liquid only. You just have to fill it up. To do this, bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid to a network.
         Try to keep pressure under 10 MPa, or you'll end up wet, hurt and sorry, without any of the fun.
         You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLiquidCanisterEmpty</Key>
-      <Value>Переносной жидкостный резервуар</Value>
+      <Value>Жидкостный резервуар</Value>
       <Description>This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnectorLiquid} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
@@ -2283,14 +2283,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureTankConnector</Key>
-      <Value>Коннектор переносного резервуара</Value>
-      <Description />
+      <Value>Коннектор резервуара</Value>
       <Description>Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicGasCanisterEmpty} to a gas pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankConnectorLiquid</Key>
-      <Value>Коннектор переносного жидкостного резервуара</Value>
-      <Description />
+      <Value>Коннектор жидкостного резервуара</Value>
       <Description>These basic mounting devices allow you to attach a {THING:DynamicLiquidCanisterEmpty} to a liquid pipe network.</Description>
     </RecordThing>
     <RecordThing>
@@ -4027,12 +4025,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicCanister</Key>
-      <Value>Набор (Переносной газовый резервуар)</Value>
+      <Value>Набор (Газовый резервуар)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicLiquidCanister</Key>
-      <Value>Набор (Переносной жидкостной резервуар)</Value>
+      <Value>Набор (Жидкостный резервуар)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4381,11 +4379,11 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrousOxide</Key>
-      <Value>Переносной резервуар (Закись азота)</Value>
+      <Value>Резервуар (Закись азота)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterPollutants</Key>
-      <Value>Переносной резервуар (Токсины)</Value>
+      <Value>Резервуар (Токсины)</Value>
     </RecordThing>
     <RecordThing>
       <Key>Lander</Key>
@@ -4959,7 +4957,7 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterRocketFuel</Key>
-      <Value>Переносной резервуар (Ракетное топливо)</Value>
+      <Value>Резервуар (Ракетное топливо)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ModularRocketCommand01Lander</Key>
@@ -5252,12 +5250,12 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvanced</Key>
-      <Value>Улучшенный переносной резервуар</Value>
+      <Value>Улучшенный резервуар</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicGasTankAdvanced</Key>
-      <Value>Набор (Улучшенный переносной резервуар)</Value>
+      <Value>Набор (Улучшенный резервуар)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5545,17 +5543,17 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
-      <Value>Улучшенный жидкостный переносной резервуар</Value>
+      <Value>Улучшенный жидкостный резервуар</Value>
       <Description>An empty, insulated liquid {SLOT:GasCanister}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
-      <Value>Набор (Улучшенный жидкостный переносной резервуар)</Value>
+      <Value>Набор (Улучшенный жидкостный резервуар)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterWater</Key>
-      <Value>Улучшенный жидкостный переносной резервуар (Вода)</Value>
+      <Value>Улучшенный жидкостный резервуар (Вода)</Value>
       <Description>An insulated version of the {THING:DynamicMKIILiquidCanisterWater}, for storing liquids without them gaining or losing temperature.</Description>
     </RecordThing>
     <RecordThing>
@@ -5798,22 +5796,22 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedTankConnector</Key>
-      <Value>Набор (Изолированный коннектор переносного резервуара)</Value>
+      <Value>Набор (Изолированный коннектор резервуара)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedTankConnector</Key>
-      <Value>Изолированный коннектор переносного резервуара</Value>
+      <Value>Изолированный коннектор резервуара</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedTankConnectorLiquid</Key>
-      <Value>Набор (Изолированный коннектор переносного жидкостного резервуара)</Value>
+      <Value>Набор (Изолированный коннектор жидкостного резервуара)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedTankConnectorLiquid</Key>
-      <Value>Изолированный коннектор переносного жидкостного резервуара</Value>
+      <Value>Изолированный коннектор жидкостного резервуара</Value>
       <Description />
     </RecordThing>
     <RecordThing>
