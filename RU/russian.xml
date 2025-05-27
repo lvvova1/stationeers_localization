@@ -1176,7 +1176,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGlassSheets</Key>
-      <Value>Лист стекла</Value>
+      <Value>Стеклянные листы</Value>
       <Description>A fundamental construction component, glass sheets are created from {REAGENT:Silicon}. Fabricated on the {THING:StructureAutolathe}, they are used to make {THING:StructureSolarPanel;Solar Panels}, {THING:StructureAirlock;Airlocks} and many other structures.</Description>
     </RecordThing>
     <RecordThing>
@@ -1296,7 +1296,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSensor</Key>
-      <Value>Набор (Датчик)</Value>
+      <Value>Набор (Датчики)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -1306,7 +1306,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSleeper</Key>
-      <Value>Набор (Спальное место)</Value>
+      <Value>Набор (Спальник)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -1326,7 +1326,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWall</Key>
-      <Value>Набор (Стена)</Value>
+      <Value>Набор (Композитная стена)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -1371,7 +1371,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeAnalyizer</Key>
-      <Value>Набор (Анализатор атмосферы труб)</Value>
+      <Value>Набор (Анализатор газа в трубе)</Value>
       <Description>This kit creates a {THING:StructurePipeAnalysizer}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1566,7 +1566,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWallLight</Key>
-      <Value>Набор (Лампы)</Value>
+      <Value>Набор (Светильники)</Value>
       <Description>This kit creates any one of ten {THING:ItemWallLight} variants.</Description>
     </RecordThing>
     <RecordThing>
@@ -1995,7 +1995,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
-      <Value>Трубный анализатор газа</Value>
+      <Value>Анализатор газа в трубе</Value>
       <Description>Allegedly the outcome of a weekend father-daughter electronics project by an overzealous {{LINK:ExMin;ExMin} engineer, the pipe analyzer is essentially a more advanced version of the {THING:StructurePipeMeter}.
         Displaying the internal pressure of pipe networks, it  also reads out temperature and gas contents, and can be connected to a {THING:StructureConsole} or {THING:StructureComputer} via a {{LINK:LogicPage;Logic} system.</Description>
     </RecordThing>
@@ -2082,12 +2082,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureRTG</Key>
-      <Value>Креатив РИТЭГ</Value>
+      <Value>Креативный РИТЭГ</Value>
       <Description>The {LINK:Norsec;Norsec}RTG (radioisotope thermoelectric generator) uses the heat output of radioactive decay to generate voltage via a temperature differential across a thermocouple. Normally restricted to low energy devices, the RTG is rumored to exploit Zrillian engineering to achieve its improbably high power output.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeper</Key>
-      <Value>Спальное место</Value>
+      <Value>Спальник</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel</Key>
@@ -2717,11 +2717,11 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED1x2</Key>
-      <Value>ЖК дисплей (Средний)</Value>
+      <Value>Светодиодный дисплей (Средний)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED1x3</Key>
-      <Value>ЖК дисплей (Большой)</Value>
+      <Value>Светодиодный дисплей (Большой)</Value>
     </RecordThing>
     <RecordThing>
       <Key>NpcChick</Key>
@@ -5148,7 +5148,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
-      <Value>Лист Астролоя</Value>
+      <Value>Астролойные листы</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5409,12 +5409,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeAnalyzer</Key>
-      <Value>Набор (Трубный анализатор жидкости)</Value>
+      <Value>Набор (Анализатор жидкости в трубе)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeAnalyzer</Key>
-      <Value>Трубный анализатор жидкости</Value>
+      <Value>Анализатор жидкости в трубе</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5980,7 +5980,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemStelliteGlassSheets</Key>
-      <Value>Лист стеллитового стекла</Value>
+      <Value>Стеклянные листы (Стеллит)</Value>
       <Description>A stronger glass substitute.</Description>
     </RecordThing>
     <RecordThing>
