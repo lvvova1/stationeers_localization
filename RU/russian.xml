@@ -514,10 +514,13 @@
     <RecordThing>
       <Key>ApplianceMicrowave</Key>
       <Value>Микроволновая печь</Value>
+      <Description>While countless 'better' ways of cooking {LINK:FoodPage;Food} have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from {LINK:Xigo;Xigo}, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates {GAS:Water} molecules more than adequately.
+        Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it, follow the recipe, and you're cooking.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
       <Value>Процессор реагентов</Value>
+      <Description>Sitting somewhere between a high powered juicer and an alchemist's alembic, the {LINK:Xigo;Xigo} reagent processor turns certain raw materials and food items into cooking and crafting ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmL</Key>
@@ -738,14 +741,17 @@
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
       <Value>Картридж (Анализатор атмосферы)</Value>
+      <Description>The Lorenz atmos analyzer is a multi-functional mass-spectrometer designed by {LINK:ExMin;ExMin} for use with the OreCore {THING:ItemTablet}. It displays the pressure, concentration and molar quantity of {LINK:GasPage;gas} in rooms, tanks, or pipe networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
       <Value>Картридж (Медицинский анализатор)</Value>
+      <Description>When added to the OreCore {THING:ItemTablet}, {LINK:Asura;Asura's}'s ReadyMed medical analyzer reveals the health, or otherwise, of users various organs. Due to a design flaw, older models were notorious for producing quasar-like levels of x-ray radiation. Recent advances in shielding have more than halved the risk to users.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
       <Value>Картридж (Сетевой анализатор)</Value>
+      <Description>A minor masterpiece of micro-electronic engineering, the network analyzer displays the current, voltage and wattage of a cable network, as well as any devices connected to it. Based on a widely-copied {LINK:Sinotai;Sinotai} design, it's used in conjunction with the OreCore {THING:ItemTablet}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Character</Key>
@@ -754,10 +760,14 @@
     <RecordThing>
       <Key>CircuitboardAirControl</Key>
       <Value>Управление атмосферой</Value>
+      <Description>When added to a {THING:StructureConsole}, air control circuit boards allow you to program an {THING:StructureActiveVent}. As with small dogs and 83% of people, air control circuits have only three modes: Pressure, Draft and Offline. Pressure mode maintains a 100kPa atmosphere, switching the active vent between inward and outward flow until target pressure is achieved. Draft mode allows you to pair active vents to circulate air. Offline mode deactivates the vent. </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
       <Value>Управление шлюзом</Value>
+      <Description>Rumored to have been first sketched on a {LINK:Norsec;Norsec} toilet wall by a disgruntled engineer, the Exgress airlock control circuit board’s versatility and ease of fabrication has made it the {LINK:Stationeers;Stationeers} control system of choice for {THING:StructureAirlock} cycling protocols.
+
+        To enter setup mode, insert the board into a {THING:StructureConsole} along with a data disk. In this mode, you can see all data-accessible objects currently connected to the {THING:StructureConsole}. Doors, lights, gas sensors and slave consoles can be selected (highlighted green), and will be controlled once the data disk is removed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ImGuiCircuitboardAirlockControl</Key>
@@ -766,42 +776,54 @@
     <RecordThing>
       <Key>CircuitboardCameraDisplay</Key>
       <Value>Видеонаблюдение</Value>
+      <Description>Surveillance is sometimes necessary when building bases in highly hostile environments. The camera display circuit board allows wary Stationeers to turn a {THING:StructureConsole} into a security display when connected to a {THING:StructureCamera}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardDoorControl</Key>
       <Value>Управление дверями</Value>
+      <Description>A basic tool of {LINK:Stationeers;Stationeer} base construction, this circuit board provides a way to open and close a {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} or {THING:StructureGlassDoor} remotely, when connected to a {THING:StructureConsole}. This system can be further linked to {THING:StructureMotionSensor} to create automatic doors.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
       <Value>Параметры Атмосферы</Value>
+      <Description>Information is power. Place this circuitboard into a {THING:StructureConsole} to create a display that shows gas pressure or temperature of any connected tank, storage cannister, {THING:ItemPipeAnalyizer} or {THING:ItemGasSensor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardModeControl</Key>
       <Value>Управление режимом</Value>
+      <Description>Can't decide which mode you love most? This circuit board allows you to switch any connected device between operation modes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardPowerControl</Key>
       <Value>Управление питанием</Value>
+      <Description>Under distant suns and demanding environments, {LINK:Stationeers;Stationeer} systems need to balance reliability, resilience and versatility. The power control board allows remote enabling and disabling of selected devices, disconnecting manual operation.
+
+        The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle' switches each device to their alternate state. </Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardShipDisplay</Key>
       <Value>Параметры корабля</Value>
+      <Description>When the original {LINK:Stationeers;Stationeer} Handbook collapsed under its own weight into a singularity, certain information was irretrievably lost. Amongst this mysterious corpus of knowledge is the exact purpose of the ship display board.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardSolarControl</Key>
-      <Value>Управление солнечными панелями</Value>
+      <Value>Плата (Управление солнечными панелями)</Value>
+      <Description>Adding a solar control board to a {THING:StructureConsole} lets you manually control the horizontal and vertical angles of any connected {THING:StructureSolarPanel}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicAirConditioner</Key>
       <Value>Переносной кондиционер</Value>
+      <Description>The {LINK:Sinotai;Sinotai}-designed Huxi portable air conditioner cools by drawing heat from the atmosphere and storing it, or adding heat to the atmosphere from its internal tank. With a max internal pressure of 8106kPa, its capacity is relatively limited, physics being clear on this subject. To extend its temperature storage ability, bolt the Huxi to a {THING:StructureTankConnector}, then connect it to a pipe network supplying hot or cold {LINK:GasPage;gases}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrate</Key>
       <Value>Переносной ящик</Value>
+      <Description>The humble dynamic crate has become a symbol of {LINK:Stationeers;Stationeer} invention and independence. With twelve slots and handles at either end for ease of carriage, it's both standard issue and critical kit for cadets and Commanders alike.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateBuildingSupplies</Key>
       <Value>Ящик (Строительные принадлежности)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateCableSupplies</Key>
@@ -818,202 +840,246 @@
     <RecordThing>
       <Key>DynamicGasCanisterAir</Key>
       <Value>Переносной газовый резервуар (Воздух)</Value>
+      <Description>Portable gas tanks do one thing: store gas. But there's lots you can do with them. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere. They also attach to rovers and rockets. Alternatively, kick it over and practice barrel rolling. The possibilities are endless.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterCarbonDioxide</Key>
       <Value>Переносной газовый резервуар (Углекислый газ)</Value>
+      <Description>Portable gas tanks do one thing: store gas. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or... boom. Once it's full, you can refill a {THING:ItemGasCanisterCarbonDioxide} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere... of sorts.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterEmpty</Key>
       <Value>Переносной газовый резервуар</Value>
+      <Description>Portable gas tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterFuel</Key>
       <Value>Переносной газовый резервуар (Топливо)</Value>
+      <Description>Portable tanks store gas. They're good at it. If you need to refill a tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or things get messy. You can refill a {THING:ItemGasCanisterFuel} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later. It's really up to you.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrogen</Key>
       <Value>Переносной газовый резервуар (Азот)</Value>
+      <Description>Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or you'll end up with {GAS:Nitrogen} in places you weren't expecting. You can refill a {THING:ItemGasCanisterNitrogen} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterOxygen</Key>
       <Value>Переносной газовый резервуар (Кислород)</Value>
+      <Description>Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or you'll be picking tank shards out of your face. You can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere. Or even paint it pink, call it Steve and fill that sad space in your heart.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterVolatiles</Key>
       <Value>Переносной газовый резервуар (Летучее вещество)</Value>
+      <Description>Portable tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Don't fill it above 10 MPa, unless you're the sort who loves complicated, flammable emergencies. You can refill a {THING:ItemGasCanisterVolatiles} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach to a rocket and show it around the Solar System.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
       <Value>Переносной газовый резервуар (Вода)</Value>
+      <Description>This portable tank stores liquid, and liquid only. You just have to fill it up. To do this, bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid to a network.
+        Try to keep pressure under 10 MPa, or you'll end up wet, hurt and sorry, without any of the fun.
+        You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLiquidCanisterEmpty</Key>
       <Value>Переносной жидкостный резервуар</Value>
+      <Description>This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnectorLiquid} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Переносной генератор</Value>
+      <Description>Every {LINK:Stationeers;Stationeer's} best friend, the portable generator gets you up and running, fast. Fill it with a {THING:ItemGasCanisterFuel} to power up and charge a {THING:ItemBatteryCell}, or attach it to a {THING:StructurePowerConnector} to link it into your electrical network. It's pressure driven, so functions more efficiently at lower temperatures, and REALLY efficiently if supercooled. Perfecting your fuel mix also makes a big difference.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLight</Key>
       <Value>Переносной светильник</Value>
+      <Description>Philippe Starck might not applaud, but this battery-powered light source undarkens the corners when illumination's lacking. Powered by any battery, it's a 'no-frills' {LINK:Xigo;Xigo} design that can be cheaply fabricated with the minimum of fuss. Unless you like fuss. In which case, fuss all you like.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicScrubber</Key>
       <Value>Переносной воздушный фильтр</Value>
+      <Description>A portable scrubber does just what it sounds like: removes specific substances from the air. For instance, attaching a {THING:ItemGasFilterCarbonDioxide} will pull {GAS:CarbonDioxide} from the surrounding atmosphere. Note that the scrubber has room for one battery and two filters, which will double its operating speed. Neat. When it reaches an internal pressure of 8106kPA, an error signal will flash on the switch, indicating it needs to be emptied. Either vent it directly, or attach it to a pipe network via a {THING:ItemTankConnector} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityAlien</Key>
       <Value>Существо (Инопланетянин)</Value>
+      <Description>The answer to the age-old question, 'Is there life on other planets?', is 'I guess so.'</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChick</Key>
       <Value>Существо (Цыпленок)</Value>
+      <Description>Once a chick is hatched, it gets hungry. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChickenBrown</Key>
       <Value>Существо (Коричневая курица)</Value>
+      <Description>Like so many of its brethren, this is a chicken. A brown one. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChickenWhite</Key>
       <Value>Существо (Белая курица)</Value>
+      <Description>It's a chicken, as white as moondust. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityGraylien</Key>
       <Value>Существо (Грейлин)</Value>
+      <Description>While humanity has historically referred to these creatures as 'Greys', they prefer the more inclusive 'Trans-beige' label.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityRoosterBlack</Key>
       <Value>Существо (Черный петух)</Value>
+      <Description>This is a rooster. It is black. There is dignity in this.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityRoosterBrown</Key>
       <Value>Существо (Коричневый петух)</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>GasTankAir</Key>
-      <Value>Газовый резервуар (Воздух)</Value>
+      <Description>The common brown rooster. Don't let it hear you say that.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemActiveVent</Key>
       <Value>Активная вентиляция</Value>
+      <Description>When constructed, this kit places an {THING:StructureActiveVent} on any support structure.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAreaPowerControl</Key>
       <Value>ИБП</Value>
+      <Description>This kit places a {THING:StructureAreaPowerControl} (APC) on any support structure. The APC kit has two options, selecting which direction you would like the APC power to flow.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCell</Key>
       <Value>Аккумулятор (Обычный)</Value>
+      <Description>Harnessing a design pioneered in the early 21st century, the small battery cell is the {LINK:Stationeers;Stationeer's} basic unit of portable electrical power. While it lacks the charge of a {THING:ItemBatteryCellLarge} or {THING:ItemBatteryCellNuclear}, it has the humble advantage of being fabricated from basic resources.
+
+        {HEADER:POWER OUTPUT}
+        The small cell stores up to 36000 watts of power.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellLarge</Key>
       <Value>Аккумулятор (Высокоёмкий)</Value>
+      <Description>First mass-produced by {LINK:Xigo;Xigo} in 2155 on the basis of a unattributed prototype, the classic silicon anode solid-state design extends its optimum temperature range.
+
+        {HEADER:POWER OUTPUT}
+        The large power cell can discharge 288kW of power.
+      </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellNuclear</Key>
       <Value>Аккумулятор (Ядерный)</Value>
+      <Description>Illegal on Earth since the Chengdu Event, Norsec nuclear power cells found a new and drastically less safety-conscious market offworld.
+
+        {HEADER:POWER OUTPUT}
+        Pushing the power-weight balance to its limits, the 'nuke' has a 2.3 megawatt charge (2304000W), reflecting its reliance on exotic {LINK:IngotPage;superalloys}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCharger</Key>
       <Value>Набор (Зарядное устройство)</Value>
+      <Description>This kit produces a 5-slot {THING:ItemBatteryCharger}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBook</Key>
       <Value>Книга</Value>
+      <Description>Unlike 8-tracks, laser-disks and email, books never totally vanished. Technology may have evolved, but something about the texture and sexiness of the physical book has seen them endure in a unique, if slightly irrational informational niche.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCableCoil</Key>
       <Value>Моток кабеля</Value>
+      <Description>Bodily metaphors are tired and anthropocentric, but it was Frida Stuppen, the first {LINK:ODA;ODA} Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any {LINK:Stationeers;Stationeer's} network begins.
+        Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightBlue</Key>
       <Value>Хемилюминесцентный источник света (Синий)</Value>
+      <Description>A safe and slightly rave-some source of blue light. Snap to activate.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightGreen</Key>
       <Value>Хемилюминесцентный источник света (Зеленый)</Value>
+      <Description>Enliven the dreariest, airless rock with this glowy green light. Snap to activate.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightRed</Key>
       <Value>Хемилюминесцентный источник света (Красный)</Value>
+      <Description>A red glowstick. Snap to activate. Then reach for the lasers.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightWhite</Key>
       <Value>Хемилюминесцентный источник света (Белый)</Value>
+      <Description>Snap the glowstick to activate a pale radiance that keeps the darkness at bay.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightYellow</Key>
       <Value>Хемилюминесцентный источник света (Жёлтый)</Value>
+      <Description>Dispel the darkness with this yellow glowstick.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCoalOre</Key>
       <Value>Руда (Уголь)</Value>
+      <Description>Humanity wouldn't have got to space without humble, combustible coal. Burn it in a {THING:SolidFuelGenerator}, smelt it in the {THING:StructureFurnace} to create {LINK:AlloysPage;alloys}, or use it in the {THING:ApplianceReagentProcessor} to make  {THING:ItemSprayCanBlack}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCompositeFloorGrating</Key>
       <Value>Решётчатый настил</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCorn</Key>
       <Value>Кукуруза</Value>
+      <Description>A long growth time staple crop. Its low requirement for darkness allows for accelerated growing if provided with extra light.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCrowbar</Key>
       <Value>Лом</Value>
+      <Description>{LINK:Recurso;Recurso's} entry-level crowbar is useful in a variety of everyday {LINK:Stationeers;Stationeer} settings, from opening {THING:StructureAreaPowerControl}s and unpowered {THING:StructureAirlock}s, to splatting pan-dimensional headcrabs, should the need arise.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDataDisk</Key>
       <Value>Диск (Настройка)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemDrill</Key>
       <Value>Дрель</Value>
+      <Description>The {LINK:ExMin;ExMin} Off-whirled Hand Drill has been a companion to {LINK:Stationeers;Stationeers} for decades. Essential for assembling and deconstructing various items and structures, regardless of gravity, pressure or temperature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDuctTape</Key>
       <Value>Клейкая лента</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemDynamite</Key>
-      <Value>Динамит</Value>
+      <Description>In the distant past, one of Earth's great champions taught a generation of 'Fix-It People' that duct tape was the answer to any problem. {LINK:Stationeers;Stationeers} have demonstrated that this is truth holds strong, so long as the problem is a damaged {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet}, or even a {THING:StructureSolarPanel}.
+        To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON to automatically repair damage.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEgg</Key>
       <Value>Яйцо</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemEggBottom</Key>
-      <Value>Нижняя часть скорлупы</Value>
+      <Description>Layed by {THING:NpcChicken} about once per day and can used in cooking.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEggCarton</Key>
       <Value>Упаковка для яиц</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>ItemEggTop</Key>
-      <Value>Верхняя часть скорлупы</Value>
+      <Description>Within, eggs reside in mysterious, marmoreal silence.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEvaSuit</Key>
       <Value>Скафандр</Value>
+      <Description>The Extravehicular Mobility Unit suit is the basic suit {LINK:Stationeers;Stationeers} need to survive in the inhospitable environment of space. For more information on EVA suits, consult the {LINK:EVAPage;EVA suit} guide.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFertilizedEgg</Key>
       <Value>Оплодотворённое яйцо</Value>
+      <Description>To hatch it requires an incubation temperature of between 35 and 45 degrees Celsius and will hatch into a {THING:NpcChick}. If the egg is exposed to tepratures below 10 degrees it will no longer be viable.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFireExtinguisher</Key>
       <Value>Огнетушитель</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemFlashingLight</Key>
       <Value>Набор (Мигающая лампочка)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemFlour</Key>
       <Value>Мука</Value>
+      <Description>Pulverized {THING:ItemWheat}, a key ingredient in many foods created by the {THING:ApplianceMicrowave} and the {THING:ItemKitAutomatedOven}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCocoaPowder</Key>
@@ -1028,10 +1094,12 @@
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
       <Value>Газовый баллон (Углекислый газ)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterPollutants</Key>
       <Value>Газовый баллон (Токсины)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterEmpty</Key>
@@ -1059,6 +1127,7 @@
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Жидкостный баллон (Вода)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterEmpty</Key>
@@ -1068,58 +1137,72 @@
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
       <Value>Фильтр (Углекислый газ)</Value>
+      <Description>Given humanity's obsession with exhaling {GAS:CarbonDioxide}, all {LINK:Stationeers;Stationeers} are issued two basic {LINK:Sinotai;Sinotai} {GAS:CarbonDioxide} {SLOT:GasFilter} as part of their standard deployment kit (SDK). These filters allow passage of {GAS:CarbonDioxide} into the suit's waste {THING:ItemGasCanisterEmpty}, but are also critical components of the {THING:DynamicScrubber} and the {THING:StructureFiltration}. The {THING:ItemGasFilterCarbonDioxideM} and {THING:ItemGasFilterCarbonDioxideL} are also available.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutants</Key>
       <Value>Фильтр (Токсин)</Value>
+      <Description>Filters are used to capture various gases, such as waste emissions from a {THING:StructureFurnace} or {THING:StructureArcFurnace}. Adding {LINK:Sinotai;Sinotai}-designed {GAS:Pollutant} filters to a {THING:ItemDynamicScrubber} allows you to isolate this gas, then add it to a pipe network and employ its excellent coolant properties in a {THING:StructureWallCooler}. Try not to inhale.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogen</Key>
       <Value>Фильтр (Азот)</Value>
+      <Description>Filters are used to capture various gases, which can be disposed of or used elsewhere. {GAS:Nitrogen} is a byproduct of smelting various ores, notably {THING:ItemNitrice}, which may be combined with {GAS:Oxygen} to make a breathable - and considerably less flammable - atmosphere.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygen</Key>
       <Value>Фильтр (Кислород)</Value>
+      <Description>{LINK:Sinotai;Sinotai} have cornered the market in filter design. Their trademarked templates are simple to print and highly efficient at capturing various gases, which can be disposed of or used elsewhere. {GAS:Oxygen} is a common byproduct of smelting various ores, but must be filtered of such impurities as {GAS:Nitrogen} using this filter and various devices, such as the {THING:ItemDynamicScrubber}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
       <Value>Фильтр (Летучее вещество)</Value>
+      <Description>Filters are used to capture various gases, which can be disposed of or used elsewhere. {GAS:Volatiles} are created by exposing {THING:ItemVolatiles} to heat. The product can then be collected and combined with {GAS:Oxygen} to create fuel, or used within a {THING:StructureFurnace} to smelt ores and create {LINK:IngotPage;alloys}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
       <Value>Фильтр (Вода)</Value>
+      <Description>{LINK:Sinotai;Sinotai} filters are used to capture various gases, which can be disposed of, or used elsewhere. {GAS:Water} can be collected by filtering smelted {THING:ItemIce}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
       <Value>Набор (Стойка для баллона)</Value>
+      <Description>Deprecated. This kit produces a {THING:ItemGasTankStorage} for refilling a {THING:ItemGasCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidTankStorage</Key>
       <Value>Набор (Стойка для жидкостного баллона)</Value>
+      <Description>Deprecated. This kit produces a {THING:ItemLiquidTankStorage} for refilling a {THING:ItemLiquidCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGlassSheets</Key>
       <Value>Лист стекла</Value>
+      <Description>A fundamental construction component, glass sheets are created from {REAGENT:Silicon}. Fabricated on the {THING:StructureAutolathe}, they are used to make {THING:StructureSolarPanel;Solar Panels}, {THING:StructureAirlock;Airlocks} and many other structures.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperIngot</Key>
       <Value>Слиток (Медь)</Value>
+      <Description>Copper ingots are created by smelting {THING:ItemCopperOre} in the {THING:StructureFurnace} and {THING:StructureArcFurnace}, and used to create a variety of items.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperOre</Key>
       <Value>Руда (Медь)</Value>
+      <Description>Copper is a chemical element with the symbol "Cu". This common and highly conductive material is found on most astronomical bodies and is used in a variety of manufacturing processes including electronic components, alloys, and wires.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGoldIngot</Key>
       <Value>Слиток (Золото)</Value>
+      <Description>There is an enduring paradox at the heart of the {LINK:Stationeers;Stationeers} project: An initiative conceived as 'cut-price space exploration' uses {REAGENT:Gold} as a fundamental ingredient in fabricating so much of its equipment and materiel. </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGoldOre</Key>
       <Value>Руда (Золото)</Value>
+      <Description>Surprisingly common throughout the Solar System, {REAGENT:Gold} is thought to originate in the heart of supernovas, gathering as dust in the early stages of solar formation, then incorporating into the slowly accreting planetary bodies. Now a prized element in {LINK:Stationeers;Stationeer} construction, {REAGENT:Gold} is valued not for its beauty, but its reliability: inert, durable, conductive and highly stable, gold's strength is that it does nothing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGrenade</Key>
       <Value>Граната</Value>
+      <Description>Invented by the Romans, who threw Greek Fire at their enemies in ceramic jars, the word 'grenade' is derived from the Old French word for 'pomegranate', as many modern grenades resemble this round, many-seeded fruit. Also like many grenades before it, this one goes boom and breaks stuff.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHat</Key>
@@ -1132,18 +1215,22 @@
     <RecordThing>
       <Key>ItemDisposableBatteryCharger</Key>
       <Value>Одноразовое зарядное устройство</Value>
+      <Description>Consumable battery the recharges your suit battery. If used on a HEM-Droid it will recharge the HEM-Droids internal battery.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHydroponicTray</Key>
       <Value>Набор (Гидропонный Лоток)</Value>
+      <Description>This kits creates a {THING:StructureHydroponicsTray} for growing various plants.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIce</Key>
       <Value>Лёд (Вода)</Value>
+      <Description>Water ice can be found on most planets in the Solar System, though not all worlds visited by {LINK:Stationeers;Stationeers} possess this resource. Highly sensitive to temperature, ice will begin to melt as soon as it is mined, unless kept in the {THING:ItemMiningBelt}. When melting, ice produces a mixture of {GAS:Steam} and {GAS:Nitrogen} gas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIgniter</Key>
       <Value>Набор (Воспламенитель)</Value>
+      <Description>This kit creates an {THING:ItemIgniter} unit.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulation</Key>
@@ -1152,10 +1239,12 @@
     <RecordThing>
       <Key>ItemIronIngot</Key>
       <Value>Слиток (Железа)</Value>
+      <Description>The most basic unit of construction available to {LINK:Stationeers;Stationeer}-kind, iron ingots are created by smelting {THING:ItemIronOre} in the {THING:StructureFurnace} and {THING:StructureArcFurnace}, and used to create a variety of items.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronOre</Key>
       <Value>Руда (Железо)</Value>
+      <Description>Abundant throughout the Solar System, iron is the {LINK:OrePage;ore} most commonly used by {LINK:Stationeers;Stationeers} constructing offworld bases. It can be smelted into both {THING:ItemIronIngot}s and {THING:ItemSteelIngot}s.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlock</Key>
@@ -1220,6 +1309,7 @@
     <RecordThing>
       <Key>ItemKitFurniture</Key>
       <Value>Набор (Мебель)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGyroscope</Key>
@@ -1289,7 +1379,7 @@
     <RecordThing>
       <Key>ItemLabeller</Key>
       <Value>Маркировщик</Value>
-      <Description />
+      <Description>A labeller lets you set names and values on a variety of devices and structures, including {THING:StructureConsole} and {LINK:LogicPage;Logic}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLightSword</Key>
@@ -1299,12 +1389,12 @@
     <RecordThing>
       <Key>ItemMilk</Key>
       <Value>Молоко</Value>
-      <Description />
+      <Description>Full disclosure, it's not actually 'milk', but an {LINK:Agrizero;Agrizero-invented} synthesis of 5ml {THING:ItemSoyOil} and 5g {THING:ItemFern}, delicately blended in the {THING:ApplianceChemistryStation}. Surprisingly filling, it can be used as an ingredient to cook other {LINK:FoodPage;food} in the {THING:ApplianceMicrowave} or {THING:StructureAutomatedOven}. Think, {THING:ItemMuffin}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBelt</Key>
       <Value>Пояс шахтёра</Value>
-      <Description />
+      <Description>Originally developed by {LINK:Recurso;Recurso Espaciais} for asteroid mining, the {LINK:Stationeers;Stationeer's} mining belt has room for two {LINK:ToolPage;tools} and eight {LINK:OrePage;ore} stacks. While wearing the belt, {LINK:OrePage;ore} is automatically stored there when mined. Volatile and temperature-dependent remain stable in the environmentally controlled unit.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningDrill</Key>
@@ -1314,27 +1404,27 @@
     <RecordThing>
       <Key>ItemMuffin</Key>
       <Value>Маффин</Value>
-      <Description />
+      <Description>A delicious, semi-healthful snack, nothing comforts a {LINK:Stationeers;Stationeer} 800 million kilometers from home like a hand-made muffin.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPickaxe</Key>
       <Value>Кирка</Value>
-      <Description />
+      <Description>When the sun sets and the {THING:ItemMiningDrill} runs dead, its batteries drained and your {THING:StructureSolarPanel} cold and lifeless, the {THING:StructureAutolathe} empty, the way forward unclear, one thing holds back the endless night of defeat: the trusty pickaxe.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPillHeal</Key>
       <Value>Таблетка (Лечение)</Value>
-      <Description />
+      <Description>Three centuries of pharmaceutical technology compressed into one small, easy to ingest pill: the Heal Pill, aka the Proton Pill, aka Mr Happy contains active enzymes, therapeutic proteins, modified microbial strains, and mammalian cell line analogues in a single-dose boost of high purity, efficacy, and potency that potentiates a swift parasympathetic immune response.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPillStun</Key>
       <Value>Таблетка (Оглушение)</Value>
-      <Description />
+      <Description>Through rarely publicized, the existence of this pill is an open secret. For use when all else has failed, the Sayonara Suppository immobilizes and rapidly ends the average {LINK:Stationeers;Stationeer}. The delivery mode ensures that if a Stationeer chooses to take this pill, they really have to want it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeAnalyizer</Key>
       <Value>Набор (Анализатор атмосферы труб)</Value>
-      <Description />
+      <Description>This kit creates a {THING:StructurePipeAnalysizer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCorner</Key>
@@ -1364,27 +1454,27 @@
     <RecordThing>
       <Key>ItemPipeDigitalValve</Key>
       <Value>Набор (Электрический клапан)</Value>
-      <Description />
+      <Description>This kit creates a {THING:StructureDigitalValve}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeGasMixer</Key>
       <Value>Набор (Газовый смеситель)</Value>
-      <Description />
+      <Description>This kit creates a {THING:StructureGasMixer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeLabel</Key>
       <Value>Набор (Наклейка для трубы)</Value>
-      <Description />
+      <Description>This kit creates a {THING:StructurePipeLabel}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeMeter</Key>
       <Value>Набор (Манометр)</Value>
-      <Description />
+      <Description>This kit creates a {THING:StructurePipeMeter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeRadiator</Key>
       <Value>Набор (Радиатор)</Value>
-      <Description />
+      <Description>This kit creates a {THING:StructurePipeRadiator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeStraight</Key>
@@ -1399,42 +1489,42 @@
     <RecordThing>
       <Key>ItemPipeValve</Key>
       <Value>Набор (Газовый вентиль)</Value>
-      <Description />
+      <Description>This kit creates a {THING:StructureValve}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeVolumePump</Key>
       <Value>Набор (Компрессор)</Value>
-      <Description />
+      <Description>This kit creates a {THING:StructureVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeValve</Key>
       <Value>Набор (Жидкостный вентиль)</Value>
-      <Description />
+      <Description>This kit creates a {THING:StructureLiquidValve}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPowerConnector</Key>
       <Value>Набор (Коннектор питания)</Value>
-      <Description />
+      <Description>This kit creates a {THING:StructurePowerConnector}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemReagentMix</Key>
       <Value>Смесь реагентов</Value>
-      <Description />
+      <Description>Reagent mix is pure potential. A slurry of undifferentiated {LINK:OrePage;ores}, it is output by the {THING:StructureRecycler} and can be fed into the {THING:StructureCentrifuge} to separate and recover the individual materials. Reagent mix is also output by the {THING:StructureFurnace} when the current contents are ejected without smelting a specific ingot.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRoadFlare</Key>
       <Value>Сигнальный огонь</Value>
-      <Description />
+      <Description>Designed to burn anywhere in the Solar System, the EZC magnesium fusee supplies its own oxygen to fuel combustion, and dispel the eternal night of space.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRTG</Key>
-      <Value>Набор (Креатив РИТЭГ)</Value>
-      <Description />
+      <Value>Набор (Креативный РИТЭГ)</Value>
+      <Description>This kit creates that miracle of modern science, a {THING:ItemRTG}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRTGSurvival</Key>
       <Value>Набор (РИТЭГ)</Value>
-      <Description />
+      <Description>This kit creates a {THING:ItemRTGSurvival}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemScanner</Key>
@@ -1444,12 +1534,12 @@
     <RecordThing>
       <Key>ItemScrewdriver</Key>
       <Value>Отвёртка</Value>
-      <Description />
+      <Description>This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definitely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on {LINK:LogicUnitPage;logic} units.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSecurityCamera</Key>
       <Value>Камера видеоконтроля</Value>
-      <Description />
+      <Description>Security cameras can be paired with a {THING:StructureMotionSensor}, then connected to a {THING:StructureConsole} fitted with a {THING:CircuitboardCameraDisplay} for that 'always watched' feeling.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSpaceCleaner</Key>
@@ -1459,87 +1549,91 @@
     <RecordThing>
       <Key>ItemSpaceHelmet</Key>
       <Value>Шлем</Value>
-      <Description />
+      <Description>The basic space helmet insulates {LINK:Stationeers;Stationeers} against everything from hard vacuum to weird cooking smells. Providing a pressure-controlled, breathable atmosphere, it comes with a built-in light powered by your {THING:ItemEvaSuit} {THING:ItemBatteryCell}.
+        It also incorporates a lock/unlock feature to avoid accidental opening, as well as a flush function to expel and replace the internal atmosphere. If damaged, use {THING:ItemDuctTape} to fix it, or paint it any color you like using the {THING:AppliancePaintMixer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSpacepack</Key>
       <Value>Реактивный ранец</Value>
-      <Description />
+      <Description>The basic {LINK:CHAC;CHAC} spacepack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.
+        Indispensable for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemJetpackBasic} or {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
+        USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
       <Value>Баллончик с краской (Чёрный)</Value>
-      <Description />
+      <Description>Go classic, clandestine or just plain Gothic with black paint, which can be applied to most items. Each can has 20 uses.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlue</Key>
       <Value>Баллончик с краской (Синий)</Value>
-      <Description />
+      <Description>What kind of a color is blue? The kind of of color that says, 'Hey, what about me?'</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBrown</Key>
       <Value>Баллончик с краской (Коричневый)</Value>
-      <Description />
+      <Description>In more artistic {LINK:Stationeers;Stationeers} circles, the absence of brown is often lamented, but seldom changed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGreen</Key>
       <Value>Баллончик с краской (Зеленый)</Value>
-      <Description />
+      <Description>Green is the color of life, and longing. Paradoxically, it's also the color of envy, and tolerance. It denotes sickness, youth, and wealth. But really, it's just what light does at around 500 billionths of a meter.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanGrey</Key>
       <Value>Баллончик с краской (Серый)</Value>
-      <Description />
+      <Description>Arguably the most popular color in the universe, grey was invented so designers had something to do.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanKhaki</Key>
       <Value>Баллончик с краской (Хаки)</Value>
-      <Description />
+      <Description>Not so much a single color, as a category of boredom, khaki is the pigmentation equivalent of a mild depressive episode.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanOrange</Key>
       <Value>Баллончик с краской (Оранжевый)</Value>
-      <Description />
+      <Description>Orange is fun, but also suggestive of hazards. Sitting proudly in the middle of the visual spectrum, it has nothing to prove.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPink</Key>
       <Value>Баллончик с краской (Розовый)</Value>
-      <Description />
+      <Description>With the invention of enduring chemical dyes, the 20th century bestowed associations with innocence and tenderness upon this pale tint of red. Yet classically, it was the color of seduction and eroticism. Things change.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanPurple</Key>
       <Value>Баллончик с краской (Фиолетовый)</Value>
-      <Description />
+      <Description>Purple is a curious color. You need to be careful with purple. It can be very good, or go horribly, horribly wrong.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanRed</Key>
       <Value>Баллончик с краской (Красный)</Value>
-      <Description />
+      <Description>The king of colors, red is perhaps the defining tone of the universe. Linked to blood, royalty, fire and damnation, it is the chromatic expression of power.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanWhite</Key>
       <Value>Баллончик с краской (Белый)</Value>
-      <Description />
+      <Description>White looks clean, sharp and nice. But {LINK:Stationeers;Stationeering} can be a dirty job. White tends to scuff.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanYellow</Key>
       <Value>Баллончик с краской (Жёлтый)</Value>
-      <Description />
+      <Description>A caricature of light itself, yellow lacks the self-confidence of red, or the swagger of purple. It's less fun than orange, but less emotionally limp than khaki. It's hard to know when yellow is appropriate, but it persists as a primary color regardless. Suggesting that yellow gonna yellow, no matter what anyone thinks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelFrames</Key>
       <Value>Стальные каркасы</Value>
-      <Description />
+      <Description>An advanced and stronger version of {THING:ItemIronFrames}, steel frames are placed by right-clicking. To complete construction, use {THING:ItemSteelSheets} and a {THING:ItemWeldingTorch} in your active hand.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelIngot</Key>
       <Value>Слиток (Сталь)</Value>
-      <Description />
+      <Description>Steel ingots are a metal alloy, crafted in a {THING:StructureFurnace} by smelting {THING:ItemIronOre} and {THING:ItemCoalOre} at a ratio of 3:1.
+        It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be combined at a ratio of 1:2 in a furnace to create the necessary gas mixture for smelting.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelSheets</Key>
       <Value>Стальные листы</Value>
-      <Description />
+      <Description>An advanced building material, {THING:ItemSteelIngot} sheets are used when constructing a {THING:StructureFrame} and several other {LINK:StructuresPage;wall} types.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitStorage</Key>
@@ -1549,7 +1643,7 @@
     <RecordThing>
       <Key>ItemTablet</Key>
       <Value>Планшет</Value>
-      <Description />
+      <Description>The {LINK:Xigo;Xigo} handheld 'Padi' tablet is an all-purpose data platform, provided as standard issue to all {LINK:Stationeers;Stationeers}. A dynamic multi-tool that accepts a range of {LINK:CartridgePage;cartridges}, the Padi becomes an {THING:CartridgeAtmosAnalyser} or {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, and various other functions.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTankConnector</Key>
@@ -1564,52 +1658,55 @@
     <RecordThing>
       <Key>ItemToolBelt</Key>
       <Value>Пояс инструментов</Value>
-      <Description />
+      <Description>If there's one piece of equipment that embodies {LINK:Stationeers;Stationeer} life above all else, it's the humble toolbelt (Editor's note: a recent {LINK:ODA;ODA} survey of iconic Stationeer equipment also rated the smoking, toxic ruins of an over-pressurized {THING:StructureFurnace} lying amid the charred remains of your latest base very highly).
+        Designed to meet the most strict-ish ODA safety standards, the toolbelt's eight slots hold one thing: tools, and {THING:ItemCableCoil}. Not to be confused with the {THING:ItemMiningBelt}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
       <Value>Руда (Уран)</Value>
-      <Description />
+      <Description>In 1934, Enrico Fermi noticed that bombarding uranium with neutrons produced a burst of beta rays, and a new material. This process was named 'nuclear fission', and resulted in cheap energy, the Cold War, and countless thousand deaths. While reasonably common throughout the Solar System, {LINK:Stationeers;Stationeers} are wary of the material.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWallCooler</Key>
       <Value>Набор (Настенный охладитель)</Value>
-      <Description />
+      <Description>This kit creates a {THING:StructureWallCooler}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWallHeater</Key>
       <Value>Набор (Настенный обогреватель)</Value>
-      <Description />
+      <Description>This kit creates a {THING:ItemWallHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWallLight</Key>
       <Value>Набор (Лампы)</Value>
-      <Description />
+      <Description>This kit creates any one of ten {THING:ItemWallLight} variants.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWeldingTorch</Key>
       <Value>Газовая горелка</Value>
-      <Description />
+      <Description>Stored in the standard issue {LINK:Stationeers;Stationeers} {THING:ItemToolBelt}, the Arlite welding torch is used to construct a range of essential structures.
+        An upgraded version of the classic 'Zairo' model first manufactured by {LINK:ExMin;ExMin} for modular space habitat assembly, the Arlite is powered by a single {THING:ItemGasCanisterFuel} and designed to function equally well in deep space and deep gravity wells.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWheat</Key>
       <Value>Пшеница</Value>
-      <Description />
+      <Description>A classical symbol of growth and new life, wheat takes a moderate time to grow. Its main use is to create {LINK:ReagentPage;flour} using the {THING:ApplianceReagentProcessor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWireCutters</Key>
       <Value>Кусачки</Value>
-      <Description />
+      <Description>Wirecutters allow you to deconstruct various {LINK:StructurePage;structures}, as well as cross-lay cables when held in your non-active hand, and defuse explosives as needed. Wirecutters are stored in the {THING:ItemToolBelt}, along with other essential {LINK:ToolPage;tools}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWrench</Key>
       <Value>Разводной ключ</Value>
-      <Description />
+      <Description>One of humanity's enduring contributions to the cosmos, the wrench represents the essence of our species. A simple, effective and spiritually barren tool, use it to build and deconstruct a variety of {LINK:StructurePage;structures}</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardLogic</Key>
       <Value>Логическая материнская плата</Value>
-      <Description />
+      <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
+        The {LINK:Norsec;Norsec-designed} K-cops logic motherboard allows {LINK:Stationeers;Stationeers} to set variables and actions on specific {LINK:LogicUnitPage;logic}-controlled items.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardManufacturing</Key>
@@ -1619,7 +1716,8 @@
     <RecordThing>
       <Key>MotherboardSorter</Key>
       <Value>Сортировочная материнская плата</Value>
-      <Description />
+      <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
+        The {LINK:Norsec;Norsec-designed} K-cops 10-10 sorter motherboard permits {LINK:Stationeers;Stationeers} to control which items a {THING:StructureSorter} does, and does not, permit to pass.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MothershipCore</Key>
@@ -1654,31 +1752,46 @@
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>Активная вентиляция</Value>
-      <Description />
+      <Description>The active vent is a powered device for maintaining {LINK:GasPage;gas} pressure by pumping gas into (or out of) a pipe network. The vent has two modes: 'Outward' sets it to pump gas into a space until pressure is reached; 'Inward' sets it to pump gas out until pressure is reached. The pressure parameter can be set on a connected {THING:StructureConsole}. Default pressure is 101kPa for Outward; 0kPa for Inward...</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirConditioner</Key>
       <Value>Кондиционер</Value>
-      <Description />
+      <Description>Built using the {THING:ItemKitAtmospherics}, the {LINK:ExMin;ExMin-designed} air conditioner is used to raise or lower input gas temperature.
+
+        The unit has three pipe connections: input, output, and waste. Gas fed into the input will be heated or cooled to reach the target temperature, while the opposite will happen to gas on the waste network.
+
+        Multiple Efficiency Multipliers can effect the amount of energy the Air Conditioner uses, and these can be view on the unit's green Information Panel. As the temperature difference between input and waste increases, the Temperature Differential Efficiency Multiplier will decrease. If input or waste temperature is extremely hot or cold, the Operational Temperature Efficiency will decrease. If the input or waste pipe has approach low pressures, the Pressure Efficiency will decrease.
+
+        {THING:StructurePipeRadiator}s may be useful in bringing extreme pipe temperatures back towards normal world temperatures.
+
+        For more information on using the air conditioner, consult the {LINK:TemperatureControlPage;temperature control} Guides page.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlock</Key>
       <Value>Дверь шлюза</Value>
-      <Description />
+      <Description>The standard airlock is a powered portal that forms the main component of an airlock chamber. As long as the airlock is not locked, it can be manually opened using a crowbar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControl</Key>
       <Value>ИБП</Value>
-      <Description />
+      <Description>An Area Power Control (APC) has three main functions:
+        Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw.
+        APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network.
+        Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
       <Value>ИБП</Value>
-      <Description />
+      <Description>An Area Power Control (APC) has three main functions.
+        Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw.
+        APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network.
+        Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
       <Value>Регулятор обратного давления</Value>
+      <Description>Unlike the {THING:StructurePressureRegulator}, which closes when the input exceeds a given pressure, the back pressure regulator opens when input pressure reaches a given value.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePurgeValve</Key>
@@ -1711,161 +1824,179 @@
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
       <Value>Зарядное устройство</Value>
-      <Description />
+      <Description>The 5-slot {LINK:Xigo;Xigo} battery charger fits the {THING:ItemBatteryCell}, {THING:ItemBatteryCellLarge} and {THING:ItemBatteryCellNuclear}, providing up to 500W to any connected cell. Note: the older design means this device has minor power draw (10W) even when not charging.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBench</Key>
       <Value>Электрический стол</Value>
-      <Description />
+      <Description>When it's time to sit, nothing supports you like a bench. This bench is powered, so you can use appliances like the {THING:ApplianceMicrowave}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBlastDoor</Key>
       <Value>Усиленная дверь</Value>
-      <Description />
+      <Description>Airtight and almost undamageable, the original 'Millmar' series of blast door was designed by off-world mining giant {LINK:Recurso;Recurso} to protect asteroid-mining facilities from nuclear-incident-level explosive decompression.
+        Short of a pocket-sized singularity blinking into the local space-time frame, there is effectively no limit to the pressure these blast doors can contain - ideal for constructing airlocks in pressure-sensitive environments.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner</Key>
       <Value>Кабель (Угловой)</Value>
-      <Description />
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
+        Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3</Key>
       <Value>Кабель (Угловой 3-конечный)</Value>
-      <Description />
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
+        Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction</Key>
       <Value>Кабель (3-конечный)</Value>
-      <Description />
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
+        Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4</Key>
       <Value>Кабель (4-конечный)</Value>
-      <Description />
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
+        Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6</Key>
       <Value>Кабель (6-конечный)</Value>
-      <Description />
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
+        Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraight</Key>
       <Value>Кабель (Прямой)</Value>
-      <Description />
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
+        Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCamera</Key>
       <Value>Камера видеоконтроля</Value>
-      <Description />
+      <Description>Nothing says 'I care' like a security camera that's been linked a {THING:StructureMotionSensor} and a {THING:StructureConsole} fitted with a {THING:CircuitboardCameraDisplay}.
+        Be there, even when you're not.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCentrifuge</Key>
       <Value>Центрифуга</Value>
-      <Description />
+      <Description>If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs {LINK:ReagentPage;reagent} mixture rather than the desired {LINK:IngotPage;ingots}, a centrifuge allows you to reclaim the raw {LINK:OrePage;ore}.
+        It also refines {THING:ItemDirtyOre} produced from the {THING:StructureDeepMiner} and {THING:ItemSpaceOre} produced from the {THING:StructureRocketMiner}.
+        Its bigger brother {THING:StructureCombustionCentrifuge} can be used to process items significantly faster. Items processed by the centrifuge will be de-gassed.
+        If openned while powered on, the centrifuge will enter an errored state and reduce its rpm to 0 and then export any items.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChair</Key>
       <Value>Стул</Value>
-      <Description />
+      <Description>One of the universe's many chairs, optimized for bipeds with somewhere between zero and two upper limbs.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteBin</Key>
       <Value>Транспортная труба (Импорт)</Value>
-      <Description />
+      <Description>The {LINK:Stationeers;Stationeer's} goal is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+        Like most {LINK:Recurso;Recurso}-designed systems, chute bins are simple and robust powered items, allowing items to be manually passed into chute networks by pulling a lever. They can also be programmed with {LINK:LogicUnitPage;logic} to operate automatically, although full automation requires the use items such as a {THING:StructureSDBHopper}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteCorner</Key>
       <Value>Транспортная труба (Угол)</Value>
-      <Description />
+      <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+        The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+        Chute corners are fundamental components of chute networks, which allow the transport of items between machines with {LINK:ImportExportPage;import/export} slots, such as the {THING:StructureFurnace} and other automatable structures.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteInlet</Key>
       <Value>Транспортная труба (Приёмник)</Value>
-      <Description />
+      <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+        The chute inlet is an aperture by which items can be introduced to {LINK:ImportExportPage;import/export} networks. Note that its origins in zero-gravity mining means chute inlets are unpowered and permanently open, rather than interactable, allowing objects to be thrown in. They can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteJunction</Key>
       <Value>Транспортная труба (Соединение)</Value>
-      <Description />
+      <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+        Chute junctions are fundamental components of chute networks, allowing merging or splitting of these networks. When combined with a programmed {THING:StructureSorter}, items can be sent down different paths to various machines with {LINK:ImportExportPage;import/export} slots.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOutlet</Key>
       <Value>Транспортная труба (Раздатчик)</Value>
-      <Description />
+      <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+        Chute junctions are fundamental components of chute networks, allowing merging or splitting of these networks. When combined with a programmed {THING:StructureSorter}, items can be sent down different paths to various machines with {LINK:ImportExportPage;import/export} slots.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight</Key>
       <Value>Транспортная труба (Прямая)</Value>
-      <Description />
+      <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+        The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+        Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeDoor</Key>
       <Value>Композитная дверь</Value>
-      <Description />
+      <Description>{LINK:Recurso;Recurso's} composite doors are rated to 300kPa, which is more than sufficient for most purposes they were designed for. However, steep pressure differentials are not your friend.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGrating</Key>
       <Value>Композитный решётчатый настил</Value>
-      <Description />
+      <Description>While aesthetics rank low on the ladder of {LINK:Stationeers;Stationeer} concerns, composite gratings allow the concealment of unsightly cables on floors, walls and ceilings.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWall</Key>
       <Value>Композитная стена (Тип 1)</Value>
-      <Description />
+      <Description>Air-tight and resistant to extreme temperatures, composite walls favor form over function, coming in a range of slightly different, functionally identical varieties.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallRound</Key>
       <Value>Композитная стена (Закруглённая)</Value>
-      <Description />
+      <Description>Air-tight and resistant to extreme temperatures, composite walls favor form over function, coming in a range of slightly different, functionally identical varieties.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType1</Key>
       <Value>Композитная стена (Тип 1)</Value>
-      <Description />
+      <Description>Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType2</Key>
       <Value>Композитная стена (Тип 2)</Value>
+      <Description>Air-tight and resistant to extreme temperatures, composite walls come several charming, near identical varieties - reflecting their focus on form over function.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType3</Key>
       <Value>Композитная стена (Тип 3)</Value>
-      <Description />
+      <Description>Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their focus on form over function.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallType4</Key>
       <Value>Композитная стена (Тип 4)</Value>
-      <Description />
+      <Description>Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindow</Key>
       <Value>Композитное окно</Value>
-      <Description />
+      <Description>Air-tight and resistant to extreme temperatures, composite walls come in several charming, near identical varieties - reflecting their designer's focus on form over function.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureComputer</Key>
       <Value>Компьютер (Современный)</Value>
-      <Description />
+      <Description>This unit operates with a wide range of {LINK:LogicUnitPage;motherboards}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsole</Key>
       <Value>Консоль</Value>
-      <Description />
+      <Description>This {LINK:Norsec;Norsec-designed} control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} and {THING:StructureCompositeDoor}, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has a shared data/power port.
+        A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleDual</Key>
       <Value>Консоль (Раздельные порты)</Value>
-      <Description />
+      <Description>This {LINK:Norsec;Norsec-designed} control box manages devices such as the {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} and others, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has separate data and power ports.
+        A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleMonitor</Key>
       <Value>Консоль (Монитор)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureControlChair</Key>
-      <Value>Сиденье пилота</Value>
-      <Description />
+      <Description>This {LINK:Norsec;Norsec-designed} control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} and {THING:StructureCompositeDoor}, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has a shared data/power port, and a charming sloped interface.
+        A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorCorner</Key>
@@ -1890,17 +2021,17 @@
     <RecordThing>
       <Key>StructureCryoTube</Key>
       <Value>Криокапсула</Value>
-      <Description />
+      <Description>The exact operation of the Longsleep cryotube remains a commercial secret, with {LINK:Norsec;Norsec} merely licensing the design. Able to regenerate organ damage when supplied with power and an atmosphere, the Longsleep is a minor miracle of modern medical technology.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDaylightSensor</Key>
       <Value>Датчик дневного света</Value>
-      <Description />
+      <Description>Daylight sensors provide data on whether the current region of your base is in sunlight, and report the exact solar angle. Note that the orientation of the sensor alters the reported solar angle, while {LINK:LogicPage;Logic} systems can be used to offset it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDigitalValve</Key>
       <Value>Электрический клапан</Value>
-      <Description />
+      <Description>The digital valve allows {LINK:Stationeers;Stationeers} to create {LINK:LogicPage;logic-controlled} valves and pipe networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFabricator</Key>
@@ -1909,7 +2040,9 @@
     <RecordThing>
       <Key>StructureFiltration</Key>
       <Value>Воздушный фильтр</Value>
-      <Description />
+      <Description>The Filtration Unit is based on a long-standing {LINK:ExMin;ExMin} system, itself based on older designs of uncertain provenance. It is available in the {THING:ItemKitAtmospherics}.
+        The device has nonetheless proven indispensable for {LINK:Stationeers;Stationeer} atmospheric systems, as it can filter two {LINK:GasPage;gases} simultaneously from a single pipe network using a dual filter array. The unit has an input, and a filter output as well as an unfiltered outlet for any residual gases.
+      </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterPurifier</Key>
@@ -1924,47 +2057,50 @@
     <RecordThing>
       <Key>StructureFlashingLight</Key>
       <Value>Мигающая лампочка</Value>
-      <Description />
+      <Description>Few objects or ideas are as clearly and transparently named as the Flashing Light, although fans of scrupulous accuracy have been known to refer to it by its full, official title: 'Default Yellow Flashing Light'.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrame</Key>
       <Value>Стальной каркас</Value>
-      <Description />
+      <Description>More durable than the {THING:StructureFrameIron}, steel frames also have several variations for more complex constructions, such as the {THING:StructureFrameCorner} and {THING:StructureFrameCornerCut}. Like iron frames, they are placed then completed by welding {THING:ItemSteelSheets} to the open framework.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameCorner</Key>
       <Value>Стальной каркас (Угол)</Value>
-      <Description />
+      <Description>More durable than the {THING:StructureFrameIron}, steel frames also offer several variations for more complex lattice constructions.
+        With a little patience and maneuvering, the corner frame's Gothic-inspired silhouette allows the creation of ogival arches and even more ambitious architecture, although they are not airtight and cannot be built on.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameSide</Key>
       <Value>Стальной каркас (Склон)</Value>
-      <Description />
+      <Description>More durable than the {THING:StructureFrameIron}, steel frames also provide variations for more ornate constructions.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFurnace</Key>
       <Value>Печь</Value>
-      <Description />
+      <Description>The Zhurong furnace employs a high-temperature gas mixture of {GAS:Oxygen} and {GAS:Volatiles} to smelt {LINK:IngotPage;ingots} and a range of {LINK:IngotPage;alloys} as raw materials for {LINK:FabricatorPage;fabricators}.
+        A basic gas mixture can be achieved by adding {THING:ItemOxite} and {THING:ItemVolatiles} in a 1:2 ratio directly to the furnace, but more complex alloys will require careful management of a dedicated gas mixing network. Exact ingredient ratios must be observed. Likewise, smelting ores at insufficient temperatures will produce {LINK:ReagentPage;reagents}, which must be recycled.
+        If liquids are present in the furnace, they will gather there until the furnace is connected to a liquid pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasMixer</Key>
       <Value>Газовый смеситель</Value>
-      <Description />
+      <Description>Indispensable for producing precise atmospheric ratios, this gas mixer blends two gases in proportions ranging anywhere from 0-100%.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasSensor</Key>
       <Value>Газовый датчик</Value>
-      <Description />
+      <Description>Gas sensors are designed to monitor and report basic atmospheric information, including temperature, pressure, and gas ratios. They also make wonderful wedding presents.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasTankStorage</Key>
       <Value>Стойка для газового баллона</Value>
-      <Description />
+      <Description>When connected to a pipe network, the tank storage unit allows you to refill a {THING:ItemGasCanisterEmpty}, as well as read various atmospheric data from the {SLOT:GasCanister}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankStorage</Key>
       <Value>Стойка для жидкостного баллона</Value>
-      <Description />
+      <Description>When connected to a liquid pipe network, the tank storage unit allows you to refill a {THING:ItemLiquidCanisterEmpty}, as well as read various atmospheric data from the {SLOT:GasCanister}. It will not accept gas canisters.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGlassDoor</Key>
@@ -1983,27 +2119,29 @@
     <RecordThing>
       <Key>StructureHydroponicsTray</Key>
       <Value>Гидропонный лоток</Value>
-      <Description />
+      <Description>The {LINK:Agrizero;Agrizero} hydroponics tray is the ideal vessel for growing a range of {LINK:OrganicPage;plantlife}. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis.
+        It can be automated using the {THING:StructureHarvie}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureIgniter</Key>
       <Value>Воспламенитель</Value>
-      <Description />
+      <Description>It gets the party started. Especially if that party is an explosive gas mixture.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLocker</Key>
       <Value>Шкафчик</Value>
-      <Description />
+      <Description>If a tidy base is the sign of a ordered mind, lockers are the righteous post upon which that sign hangs.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureMotionSensor</Key>
       <Value>Датчик движения</Value>
-      <Description />
+      <Description>Originally developed to monitor dance marathons, the motion sensor can also be connected to {LINK:LogicPage;Logic} systems for security purposes, automatic lighting, doors and various other applications.
+        The sensor activates whenever a player enters the grid it is placed on.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveVent</Key>
       <Value>Пассивная вентиляция</Value>
-      <Description />
+      <Description>Passive vents allow gases to move into and out of pipe networks, which are closed systems unless connected to a device or structure. Passive vents are not powered, merely an aperture, essentially turning an enclosed space into part of the pipe network. </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveVentValve</Key>
@@ -2013,67 +2151,72 @@
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
       <Value>Трубный анализатор газа</Value>
-      <Description />
+      <Description>Allegedly the outcome of a weekend father-daughter electronics project by an overzealous {{LINK:ExMin;ExMin} engineer, the pipe analyzer is essentially a more advanced version of the {THING:StructurePipeMeter}.
+        Displaying the internal pressure of pipe networks, it  also reads out temperature and gas contents, and can be connected to a {THING:StructureConsole} or {THING:StructureComputer} via a {{LINK:LogicPage;Logic} system.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCorner</Key>
       <Value>Труба (Угловая)</Value>
-      <Description />
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeCorner} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction</Key>
       <Value>Труба (Х-образная)</Value>
-      <Description />
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeCrossJunction} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction3</Key>
       <Value>Труба (Угловая 3-конечная)</Value>
-      <Description />
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeCrossJunction3} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction5</Key>
       <Value>Труба (5-конечная)</Value>
-      <Description />
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeCrossJunction5} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction6</Key>
       <Value>Труба (6-конечная)</Value>
-      <Description />
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeCrossJunction6} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLabel</Key>
       <Value>Наклейка на трубу</Value>
-      <Description />
+      <Description>As its perspicacious name suggests, the pipe label is designed to be attached to a straight stretch of pipe. Users can then label the label with the {THING:ItemLabeller}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeMeter</Key>
       <Value>Манометр</Value>
-      <Description />
+      <Description>While the Stationeers program has, thus far, inspired little in the way of classical poetry, the following haiku was found etched, ironically, on a piece of pipe wreckage found on Vulcan:
+        "Humble pipe meter
+        speaks the truth, transmits pressure
+        within any pipe"</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiator</Key>
       <Value>Газовый конвекционный радиатор</Value>
-      <Description />
+      <Description>A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added the gas within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated.
+        The speed of heat gain or loss will depend on the gas in question. Adding multiple radiators will speed up heat transfer.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeStraight</Key>
       <Value>Труба (Прямая)</Value>
-      <Description />
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeStraight} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeTJunction</Key>
       <Value>Труба (Т-образная)</Value>
-      <Description />
+      <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeTJunction} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerConnector</Key>
       <Value>Коннектор питания</Value>
-      <Description />
+      <Description>Attaches a {THING:ItemKitDynamicGenerator} to a power network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePressureRegulator</Key>
       <Value>Регулятор давления</Value>
-      <Description />
+      <Description>Controlling the flow of gas between two pipe networks, pressure regulators shift gas until a set pressure on the outlet side is achieved, or the gas supply is exhausted. The back pressure regulator, by contrast, will only operate when pressure on the intake side exceeds the set value. With a max pressure of over 20,000kPa, it requires power to operate.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRailing</Key>
@@ -2095,7 +2238,7 @@
     <RecordThing>
       <Key>StructureRTG</Key>
       <Value>Креатив РИТЭГ</Value>
-      <Description />
+      <Description>The {LINK:Norsec;Norsec}RTG (radioisotope thermoelectric generator) uses the heat output of radioactive decay to generate voltage via a temperature differential across a thermocouple. Normally restricted to low energy devices, the RTG is rumored to exploit Zrillian engineering to achieve its improbably high power output.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeper</Key>
@@ -2104,22 +2247,24 @@
     <RecordThing>
       <Key>StructureSolarPanel</Key>
       <Value>Солнечная панель</Value>
-      <Description />
+      <Description>{LINK:Sinotai;Sinotai's} standard solar panels are used for generating power from sunlight. They can be connected to {LINK:LogicPage;Logic} systems, in order to track sunlight, but their reduced during storms and when damaged. You can repair these using some trusty {THING:ItemDuctTape}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSorter</Key>
       <Value>Сортировщик</Value>
-      <Description />
+      <Description>No amount of automation is complete without some way of moving different items to different parts of a system. The {LINK:Xigo;Xigo} A2B sorter can be programmed via a computer with a {THING:MotherboardSorter} to direct various items into different chute networks. Filtered items are always passed out the righthand side of the sorter, while non filtered items continue straight through.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStacker</Key>
       <Value>Стакер</Value>
-      <Description />
+      <Description>A stacker is an important part of any automated chute network. The {LINK:Xigo;Xigo} ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs.
+        The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots}, as well as splitting stacks into appropriate sizes as needed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStackerReverse</Key>
       <Value>Стакер</Value>
-      <Description />
+      <Description>A stacker is an important part of any automated chute network. The {LINK:Xigo;Xigo} ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs.
+        The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots}, as well as splitting stacks into appropriate sizes as needed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2</Key>
@@ -2132,17 +2277,21 @@
     <RecordThing>
       <Key>StructureSuitStorage</Key>
       <Value>Стойка для скафандра</Value>
-      <Description />
+      <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}.
+        When powered and connected to {THING:Oxygen} and {THING:Propellant}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasFilterNitrogen} {SLOT:GasCanister}. The wastetank will be pumped out to the pipe connected to the waste outlet.
+        All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankConnector</Key>
       <Value>Коннектор переносного резервуара</Value>
       <Description />
+      <Description>Tank connectors are basic mounting devices that allow you to attach a {THING:DynamicGasCanisterEmpty} to a gas pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankConnectorLiquid</Key>
       <Value>Коннектор переносного жидкостного резервуара</Value>
       <Description />
+      <Description>These basic mounting devices allow you to attach a {THING:DynamicLiquidCanisterEmpty} to a liquid pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmall</Key>
@@ -2171,7 +2320,7 @@
     <RecordThing>
       <Key>StructureVolumePump</Key>
       <Value>Компрессор</Value>
-      <Description />
+      <Description>The volume pump pumps pumpable gases. It also separates out pipe networks into separate networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidValve</Key>
@@ -2180,12 +2329,25 @@
     <RecordThing>
       <Key>StructureWallCooler</Key>
       <Value>Настенный охладитель</Value>
-      <Description />
+      <Description>The {LINK:Xigo;Xigo} Freezy Boi wall cooler complements the wall heater, which can only raise the temperature. The wall cooler functions by drawing heat from the surrounding atmosphere and adding that heat into its pipe network.
+        In order to run the wall cooler properly, you will need to connect pipes to the wall cooler and fill the connected pipe network with any type of gas. The gas's heat capacity and volume will determine how fast it reacts to temperature changes.
+
+        {HEADER:EFFICIENCY}
+        The higher the difference in temperature between the gas stored in the pipes and the room, the less efficient the wall cooler will be. So to keep the wall cooler running at an acceptable efficiency you will need to get rid of the heat that accumulates in the pipes connected to it. A common practice would be to run the pipes to the outside and use radiators on the outside section of the pipes to get rid of the heat.
+        The less efficient the wall cooler, the less power it consumes. It will consume 1010W at max efficiency. The wall cooler can be controlled by logic chips to run when the temperature hits a certain degree.
+        {HEADER:ERRORS}
+        If the wall cooler is flashing an error then it is missing one of the following:
+
+        - Pipe connection to the wall cooler.
+        - Gas in the connected pipes, or pressure is too low.
+        - Atmosphere in the surrounding environment or pressure is too low.
+
+        For more information about how to control temperatures, consult the {LINK:TemperatureControlPage;temperature control} Guides page.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallHeater</Key>
       <Value>Настенный обогреватель</Value>
-      <Description />
+      <Description>The {LINK:Xigo;Xigo} wall heater is a simple device that can be installed on a wall or frame and connected to power. When switched on, it will start heating the surrounding environment. It consumes 1010W of power and can be controlled by logic chips to run when the temperature hits a certain level.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallLight</Key>
@@ -2238,7 +2400,7 @@
     <RecordThing>
       <Key>StructureSolidFuelGenerator</Key>
       <Value>Генератор (Твердотопливный)</Value>
-      <Description />
+      <Description>The mainstay of power generation for Stationeers, this device provides 20kW of power. Multiple solid resources can be loaded. While operating, the device will output its maximum power regardless of whether you have captured it or not. Watch for blown wires! It will output much more power than your regular {THING:ItemCableCoil} can handle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGenerator</Key>
@@ -2308,7 +2470,8 @@
     <RecordThing>
       <Key>StructureTransformer</Key>
       <Value>Трансформатор (Большой)</Value>
-      <Description />
+      <Description>The large {LINK:Norsec;Norsec} transformer is a critical component of extended {LINK:ElectronicPage;electrical} networks, controlling the maximum power that will flow down a cable. To prevent overloading, output can be set from 0 to 50,000W.
+        Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTransformer</Key>
@@ -2318,7 +2481,8 @@
     <RecordThing>
       <Key>StructureTransformerSmall</Key>
       <Value>Трансформатор (Маленький)</Value>
-      <Description />
+      <Description>Transformers control the maximum power that will flow down a cable subnetwork, to prevent overloading {LINK:ElectronicPage;electrical} systems. Output on small transformers can be set from 0 to 5000W.
+        Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>WeaponPistolEnergy</Key>
@@ -2327,17 +2491,21 @@
     <RecordThing>
       <Key>StructureChuteWindow</Key>
       <Value>Транспортная труба (Окно)</Value>
-      <Description />
+      <Description>Chute's with windows let you see what's passing through your {LINK:ImportExportPage;import/export} network. But be warned, they are not insulated as other chutes are. Ices will melt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureArcFurnace</Key>
       <Value>Дуговая печь</Value>
-      <Description />
+      <Description>The simplest smelting system available to the average {LINK:Stationeers;Stationeer}, {LINK:Recurso;Recurso's} arc furnace was forged itself in the depths of the Solar System to help explorational geologists determine the purity of potential asteroidal mining targets.
+        Co-opted by the {LINK:ODA;ODA}, it now provides Stationeers with a way to produce pure ingots of various resources.
+        The smelting process also releases a range of by product {LINK:GasPage;gases}, principally {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Volatiles} and {GAS:Oxygen} in differing ratios. These can be recaptured from the atmosphere by filtering, but also make the arc furnace a risk in closed environments.
+        Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create {LINK:IngotPage;alloys}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAutolathe</Key>
       <Value>Автолат</Value>
-      <Description />
+      <Description>The foundation of most {LINK:Stationeers;Stationeer} fabrication systems, the {LINK:ExMin;ExMin} autolathe is a multi-axis molecular compositional system. Its complexity demands considerable time to assemble, but it remains an indispensable creation tool. Upgrade the device using a {THING:AutolathePrinterMod} for additional recipes and faster processing speeds.
+      </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabrication</Key>
@@ -2356,7 +2524,7 @@
     <RecordThing>
       <Key>ItemCableCoilHeavy</Key>
       <Value>Моток кабеля (Силовой)</Value>
-      <Description />
+      <Description>Use heavy cable coil for power systems with large draws. Unlike {THING:ItemCableCoil}, which can only safely conduct 5kW, heavy cables can transmit up to 100kW.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameIron</Key>
@@ -2373,12 +2541,12 @@
     <RecordThing>
       <Key>ItemSilverOre</Key>
       <Value>Руда (Серебро)</Value>
-      <Description />
+      <Description>Silver is a chemical element with the symbol "Ag". Valued by many {LINK:Stationeers;Stationeers} for its attractive luster and sheen, it is also used in a variety of {LINK:ElectronicPage;electronics} components and {LINK:IngotPage;alloys}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemNickelOre</Key>
       <Value>Руда (Никель)</Value>
-      <Description />
+      <Description>Nickel is a chemical element with the symbol "Ni" and is a rare metal commonly used as a plating to prevent corrosion. Sought after by many {LINK:Stationeers;Stationeers}, Nickel is also commonly used to create several {LINK:IngotPage;alloys}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLeadOre</Key>
@@ -2428,17 +2596,17 @@
     <RecordThing>
       <Key>ItemSoybean</Key>
       <Value>Соевые бобы</Value>
-      <Description />
+      <Description> Soybeans grow at a moderate rate, but require atmospheric {GAS:Nitrogen} to grow.  Its main use is to create {THING:ItemSoyOil}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAngleGrinder</Key>
       <Value>Болгарка</Value>
-      <Description />
+      <Description>Angles-be-gone with the trusty angle grinder.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSiliconOre</Key>
       <Value>Руда (Кремний)</Value>
-      <Description />
+      <Description>Silicon is a chemical element with the symbol "Si" and is one of the most useful elements to {LINK:Stationeers;Stationeers}. Readily available throughout the universe, silicon is used in a range of {LINK:IngotPage;alloys}, glass, plastics and various electronic components a Stationeer may  need to complete their mission.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSiliconIngot</Key>
@@ -2645,6 +2813,7 @@
     <RecordThing>
       <Key>ItemKitLogic</Key>
       <Value>Набор (Чип)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicReader</Key>
@@ -3310,7 +3479,6 @@
       <Key>StructureRocketEngineDestroyed</Key>
       <Value>Ракетный двигатель (Уничтожен)</Value>
     </RecordThing>
-
     <RecordThing>
       <Key>ItemWreckage</Key>
       <Value>Обломок</Value>
@@ -3769,6 +3937,7 @@
     <RecordThing>
       <Key>ItemHardsuitHelmet</Key>
       <Value>Прочный шлем</Value>
+      <Description>The Hardsuit Helmet is similar to the {THING:ItemSpaceHelmet}, but can withstand higher temperatures and pressures. It's perfect for enduring harsh environments like Venus and Vulcan.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWearLamp</Key>
@@ -4051,6 +4220,7 @@
     <RecordThing>
       <Key>ItemKitHydroponicAutomated</Key>
       <Value>Набор (Автоматическая гидропонная станция)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemBasketBall</Key>
@@ -4059,6 +4229,7 @@
     <RecordThing>
       <Key>ItemKitBasket</Key>
       <Value>Набор (Баскетбол)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBasketHoop</Key>
@@ -4100,6 +4271,7 @@
     <RecordThing>
       <Key>ItemKitLandingPad</Key>
       <Value>Набор (Посадочная площадка)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureSatelliteDish</Key>
@@ -4111,6 +4283,7 @@
     <RecordThing>
       <Key>ItemKitSatelliteDish</Key>
       <Value>Набор (Средняя спутниковая тарелка)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemPlasticSheets</Key>
@@ -4123,6 +4296,7 @@
     <RecordThing>
       <Key>MotherboardComms</Key>
       <Value>Материнская плата (Связь)</Value>
+      <Description>When placed in a {THING:StructureComputer} and connected to a {THING:Landingpad_DataConnectionPiece}, a {THING:StructureSatelliteDish}, and a {THING:StructureVendingMachine} allows Stationeers to trade with suppliers. Adjust the horizontal and vertical attributes of the {THING:StructureSatelliteDish} either directly or through logic. You need a communications signal of 95% or above to establish reliable communications with a trader. A minimum of a 3x3 clear pad area with a {THING:Landingpad_CenterPiece01} at the center is required for a trader to land.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMarineBodyArmor</Key>
@@ -4203,6 +4377,7 @@
     <RecordThing>
       <Key>ItemKitAutoMiner</Key>
       <Value>Набор (Автоматический Рудокоп)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrousOxide</Key>
@@ -4431,6 +4606,7 @@
     <RecordThing>
       <Key>ItemKitResearchMachine</Key>
       <Value>Набор (Исследовательская машина)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ManualGetResearchPodsRequired</Key>
@@ -4562,6 +4738,7 @@
     <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
       <Value>Набор (Небольшой автоматический рудокоп)</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemDirtCannister</Key>
@@ -5147,7 +5324,8 @@
     <RecordThing>
       <Key>Rover_MkI_build_states</Key>
       <Value>Планетоход МКI</Value>
-      <Description />
+      <Description>A distant cousin of the jeep, the Mk I {{LINK:Sinotai;Sinotai} electric rover is one of the most simple and durable light vehicles in the known universe. Able to carry two passengers and cargo such as the {THING:DynamicGasCanisterAir} or {THING:Crate}, it is powered by up to three batteries, accepting everything including {THING:ItemBatteryCellNuclear}.
+        A quad-array of hub-mounted electric engines propels the reinforced aluminium frame over most terrain and modest obstacles. While the Mk I is designed for stability in low-horizontality circumstances, if it rolls, try using your {THING:ItemCrowbar} to put it right way up.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGrowLight</Key>
@@ -5259,6 +5437,7 @@
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
       <Value>Лист Астролоя</Value>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWindTurbine</Key>
@@ -6210,12 +6389,12 @@
     <RecordThing>
       <Key>StructureWaterBottleFillerPoweredBottom</Key>
       <Value>Водомат</Value>
-      <Description />
+      <Description>As its somewhat uninspired name suggests, this device refills a {THING:ItemWaterBottle}, when connected to a liquid pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerPowered</Key>
       <Value>Водомат</Value>
-      <Description />
+      <Description>As its somewhat uninspired name suggests, this device refills a {THING:ItemWaterBottle}, when connected to a liquid pipe network.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemNitrice</Key>
