@@ -121,7 +121,7 @@
     </RecordReagent>
     <RecordReagent>
       <Key>Tomato</Key>
-      <Value>Томат</Value>
+      <Value>Помидор</Value>
       <Unit>шт</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -1351,7 +1351,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemMuffin</Key>
-      <Value>Маффин</Value>
+      <Value>Кекс</Value>
       <Description>A delicious, semi-healthful snack, nothing comforts a {LINK:Stationeers;Stationeer} 800 million kilometers from home like a hand-made muffin.</Description>
     </RecordThing>
     <RecordThing>
@@ -2785,7 +2785,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemTomato</Key>
-      <Value>Томат</Value>
+      <Value>Помидор</Value>
       <Description>Tomato plants are perennial, and will produce multiple harvests without needing to be replanted. Once the plant is mature, it will fruit at a moderate pace.</Description>
     </RecordThing>
     <RecordThing>
@@ -2820,7 +2820,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemTomatoSoup</Key>
-      <Value>Томатный суп</Value>
+      <Value>Консервы (Суп из помидоров)</Value>
       <Description>Made using {THING:ItemCookedTomato}s and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}.</Description>
     </RecordThing>
     <RecordThing>
@@ -5087,12 +5087,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPumpkinSoup</Key>
-      <Value>Тыквенный суп</Value>
+      <Value>Консервы (Тыквенная каша)</Value>
       <Description>Made using {THING:ItemCookedPumpkin} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not {LINK:DecayPage;decay}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCornSoup</Key>
-      <Value>Кукурузный суп</Value>
+      <Value>Консервы (Кукуруза)</Value>
       <Description>Made using {THING:ItemCookedCorn} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Faily high in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
@@ -5601,7 +5601,7 @@
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Tomato</Key>
-      <Value>Семена томата</Value>
+      <Value>Семена помидоров</Value>
       <Description>Grow a {THING:ItemTomato}.</Description>
     </RecordThing>
     <RecordThing>
@@ -5690,7 +5690,7 @@
     </RecordThing>
     <RecordThing>
       <Key>AppliancePackagingMachine</Key>
-      <Value>Базовая упаковочная машина</Value>
+      <Value>Простая упаковочная машина</Value>
       <Description>The {LINK:Xigo;Xigo} Cannifier requires {THING:ItemEmptyCan} and cooked {LINK:OrganicPage;food} to create {LINK:DecayPage;long-lasting}, easily stored sustenance. Note that the Cannifier must be bolted to a {THING:StructureBench} for power, and only accepts cooked food and tin cans.
 
         {HEADER:OPERATION}
@@ -5715,7 +5715,112 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureAutomatedOven</Key>
-      <Value>Автоматизированная микроволновая печь</Value>
+      <Value>Автоматическая микроволновка</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAutomatedOven</Key>
+      <Value>Набор (Автоматическая микроволновка)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCannedMushroom</Key>
+      <Value>Консервы (Грибной суп)</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedMushroom}  and a {THING:ItemEmptyCan}, delicious mushroom soup is fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFrenchFries</Key>
+      <Value>Консервы (Картофель фри)</Value>
+      <Description>Because space would suck without 'em.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCannedRicePudding</Key>
+      <Value>Консервы (Рисовый пудинг)</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedRice} and an {THING:ItemEmptyCan}, canned rice pudding is a sweet treat, fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCannedCondensedMilk</Key>
+      <Value>Консервы (Сгущённое молоко)</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedCondensedMilk} and an {THING:ItemEmptyCan}, canned condensed milk is fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCannedEdamame</Key>
+      <Value>Консервы (Варёные соевые бобы)</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedSoybean} and an {THING:ItemEmptyCan}, canned edamame beans are fairly high in nutrition, and do not {LINK:DecayPage;decay}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCannedPowderedEggs</Key>
+      <Value>Консервы (Яичный порошок)</Value>
+      <Description>Made in an {THING:StructureAdvancedPackagingMachine} or {THING:AppliancePackagingMachine}, using {THING:ItemCookedPowderedEggs}  and an {THING:ItemEmptyCan}, canned powdered eggs are an exciting, dynamic food that's fairly high in nutrition, and does not {LINK:DecayPage;decay}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAdvancedPackagingMachine</Key>
+      <Value>Улучшенная упаковочная машина</Value>
+      <Description>The {LINK:Xigo;Xigo} Advanced Cannifier Multi-Plus Pro is an automateable packaging machine that uses {THING:ItemEmptyCan}s and cooked {LINK:OrganicPage;food} to create canned sustenance that does not decay. Note that the ACMPP only accepts cooked food and tin cans.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitAdvancedPackagingMachine</Key>
+      <Value>Набор (Улучшенная упаковочная машина)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedSoybean</Key>
+      <Value>Варёные соевые бобы</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedTomato</Key>
+      <Value>Тушёные помидоры</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedCorn</Key>
+      <Value>Варёная кукуруза</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedRice</Key>
+      <Value>Варёный рис</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedPumpkin</Key>
+      <Value>Печёная тыква</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedMushroom</Key>
+      <Value>Тушёные грибы</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedPowderedEggs</Key>
+      <Value>Яичный порошок</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCookedCondensedMilk</Key>
+      <Value>Сгущённое молоко</Value>
+      <Description>A high-nutrient cooked food, which can be canned.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemTropicalPlant</Key>
+      <Value>Антуриум </Value>
+      <Description>(Мужское счастье) An anthurium, evolved in the jungles of South America, which will tolerate higher temperatures than most plants.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPeaceLily</Key>
+      <Value>Спатифиллум</Value>
+      <Description>(Женское счастье)A fetching lily with greater resistance to cold temperatures.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemFilterFern</Key>
+      <Value>Дарга-папоротник</Value>
+      <Description>A fern adapted by {LINK:Agrizero;Agrizero}to process a much greater volume of {GAS:CarbonDioxide} into {GAS:Oxygen} than an average plant.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>SeedBag_DargaFern</Key>
+      <Value>Семена дарга-папоротника</Value>
       <Description />
     </RecordThing>
     <RecordThing>
