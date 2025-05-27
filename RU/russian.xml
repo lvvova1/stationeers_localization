@@ -1703,19 +1703,19 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3</Key>
-      <Value>Кабель (Угловой 3-конечный)</Value>
-      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
-        Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureCableJunction</Key>
       <Value>Кабель (3-конечный)</Value>
       <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
         Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureCableJunction</Key>
+      <Value>Кабель (Т-образный)</Value>
+      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
+        Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureCableJunction4</Key>
-      <Value>Кабель (4-конечный)</Value>
+      <Value>Кабель (Х-образный)</Value>
       <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
         Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
@@ -2011,7 +2011,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction3</Key>
-      <Value>Труба (Угловая 3-конечная)</Value>
+      <Value>Труба (3-конечная)</Value>
       <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeCrossJunction3} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2198,7 +2198,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3Burnt</Key>
-      <Value>Сгоревший кабель (Угловой 3-конечный)</Value>
+      <Value>Сгоревший кабель (3-конечный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerBurnt</Key>
@@ -2206,7 +2206,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4Burnt</Key>
-      <Value>Сгоревший кабель (4-конечный)</Value>
+      <Value>Сгоревший кабель (Х-образный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6Burnt</Key>
@@ -2214,7 +2214,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionBurnt</Key>
-      <Value>Сгоревший кабель (3-конечный)</Value>
+      <Value>Сгоревший кабель (Т-образный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolidFuelGenerator</Key>
@@ -2240,11 +2240,11 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH4</Key>
-      <Value>Силовой кабель (4-конечный)</Value>
+      <Value>Силовой кабель (Х-образный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH</Key>
-      <Value>Силовой кабель (3-конечный)</Value>
+      <Value>Силовой кабель (Т-образный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6HBurnt</Key>
@@ -2252,7 +2252,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4HBurnt</Key>
-      <Value>Сгоревший силовой кабель (Угловой 4-конечный)</Value>
+      <Value>Сгоревший силовой кабель (Х-образный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraightHBurnt</Key>
@@ -2260,11 +2260,11 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionHBurnt</Key>
-      <Value>Сгоревший силовой кабель (Угловой 3-конечный)</Value>
+      <Value>Сгоревший силовой кабель (Т-образный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerHBurnt</Key>
-      <Value>Сгоревший кабель (Угловой)</Value>
+      <Value>Сгоревший силовой кабель (Угловой)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerH</Key>
@@ -2833,15 +2833,15 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerH3</Key>
-      <Value>Силовой кабель (Угловой 3-конечный)</Value>
+      <Value>Силовой кабель (3-конечный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerH4</Key>
-      <Value>Силовой кабель (Угловой 4-конечный)</Value>
+      <Value>Силовой кабель (4-конечный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner4HBurnt</Key>
-      <Value>Сгоревший силовой кабель (Угловой 4-конечная)</Value>
+      <Value>Сгоревший силовой кабель (4-конечная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>PortableSolarPanel</Key>
@@ -2853,7 +2853,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner4</Key>
-      <Value>Кабель (Угловой 4-конечный)</Value>
+      <Value>Кабель (4-конечный)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner4Burnt</Key>
@@ -3227,7 +3227,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction4</Key>
-      <Value>Труба (Угловая 4-конечная)</Value>
+      <Value>Труба (4-конечная)</Value>
       <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeCrossJunction4} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
@@ -4521,12 +4521,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction3</Key>
-      <Value>Изолированная труба (Угловая 3-конечная)</Value>
+      <Value>Изолированная труба (3-конечная)</Value>
       <Description>Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction4</Key>
-      <Value>Изолированная труба (Угловая 4-конечная)</Value>
+      <Value>Изолированная труба (4-конечная)</Value>
       <Description>Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
     </RecordThing>
     <RecordThing>
