@@ -1,161 +1,263 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Code>FR</Code>
-  <ScreenSpaceToolTips>
-    <Record>
-      <Key>StatusIconToxinName</Key>
-      <Value>Toxines</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconToxinDesc</Key>
-      <Value>Niveau actuel de toxicité</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconToxinWarning</Key>
-      <Value>Besoin d’attention</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconHydrationDesc</Key>
-      <Value>L’hydratation est faible</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconHydrationKey</Key>
-      <Value>Hydratation est basse</Value>
-    </Record>
-    <Record>
-      <Key>HydrationCaution</Key>
-      <Value>Attention à l’hydratation</Value>
-    </Record>
-    <Record>
-      <Key>HydrationCritical</Key>
-      <Value>Déhydratation</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconToxinCritical</Key>
-      <Value>Dans un état critique</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconOxygenName</Key>
-      <Value>Approvisionnement en oxygène</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconOxygenDesc</Key>
-      <Value>L&apos;atmosphère que vous respirez peut causer des dommages à vos poumons.</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconOxygenWarning</Key>
-      <Value>Le réservoir de la combinaison est de plus en plus bas et a besoin d’attention</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconOxyegnCritical</Key>
-      <Value>Le réservoir de la combinaison est critique, remplacez votre réservoir d’oxygène</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconPressureName</Key>
-      <Value>Pression interne</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconPressureDesc</Key>
-      <Value>Niveau de pression actuel, vérifier la pression de la combinaison</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconPressureWarning</Key>
-      <Value>La pression de la combinaison est faible</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconPressureCritical</Key>
-      <Value>La pression de la combinaison est extrêmement faible</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconTemperatureName</Key>
-      <Value>Température interne</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconTemperatureDesc</Key>
-      <Value>Température actuelle à l’intérieur de votre combinaison</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconTempuratureWarning</Key>
-      <Value>Affiche le niveau de toxicité actuel</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconTempuratureCritical</Key>
-      <Value>Affiche le niveau de toxicité actuel</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconLeakingName</Key>
-      <Value>Fuite de la combinaison</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconPowerName</Key>
-      <Value>Alimentation de la combinaison</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconGravityName</Key>
-      <Value>Apesanteur</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconJetpackName</Key>
-      <Value>Jetpack Actif</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconClimbingName</Key>
-      <Value>Escalade</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconLightName</Key>
-      <Value>Commuter la  lampe frontale</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconInternalsName</Key>
-      <Value>Commuter le casque ouvert/fermer</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconHandPowerName</Key>
-      <Value>Commuter l&apos;objet en main On/Off</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconInSlotName</Key>
-      <Value>Vous êtes à l’intérieur d’un emplacement</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconHungerName</Key>
-      <Value>Faim actuelle</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconStunName</Key>
-      <Value>Pourcentage d’étourdissements</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconAirTankName</Key>
-      <Value>Capacité AirTank actuelle</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconJetpackWarningName</Key>
-      <Value>Capacité de propergol</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconFilterName</Key>
-      <Value>Capacité de filtre</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconWasteName</Key>
-      <Value>Capacité de déchets</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconHealthName</Key>
-      <Value>Santé actuelle</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconHydrationName</Key>
-      <Value>Hydratation actuelle</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconUnconsciousName</Key>
-      <Value>Inconscient</Value>
-    </Record>
-    <Record>
-      <Key>DeconstructCanisterFull</Key>
-      <Value>Impossible de déconstruire. Le réservoir doit être vide</Value>
-    </Record>
-  </ScreenSpaceToolTips>
+	<Name>French</Name>
+	<Code>FR</Code>
+	<Font>font_extended</Font>
+	<ScreenSpaceToolTips>
+		<Record>
+			<Key>StatusIconToxinName</Key>
+			<Value>Toxines</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconToxinDesc</Key>
+			<Value>Niveau de toxines élevé</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconToxinDescription</Key>
+			<Value>Niveau de toxines élevé</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconToxinWarning</Key>
+			<Value>Attention : Niveau de toxines élevé</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconHydrationDesc</Key>
+			<Value>Le niveau d’hydratation est faible</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconHydrationKey</Key>
+			<Value>Hydratation faible</Value>
+		</Record>
+		<Record>
+			<Key>HydrationCaution</Key>
+			<Value>Attention : Niveau de l'hydratation faible</Value>
+		</Record>
+		<Record>
+			<Key>HydrationCritical</Key>
+			<Value>Hydratation critique</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconToxinCritical</Key>
+			<Value>Niveau de toxines critique</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconOxygenName</Key>
+			<Value>Approvisionnement en oxygène</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconOxygenDesc</Key>
+			<Value>L'atmosphère que vous respirez peut causer des dégâts à vos poumons</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconOxygenWarning</Key>
+			<Value>Attention : Le niveau du réservoir de la combinaison est de plus en plus bas</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconOxyegnCritical</Key>
+			<Value>Réservoir d’oxygène critique, remplacez-le immédiatement</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconPressureName</Key>
+			<Value>Pression interne</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconPressureDesc</Key>
+			<Value>Niveau de pression actuel. Vérifiez les paramètres de la combinaison</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconPressureWarning</Key>
+			<Value>Attention : La pression de la combinaison est faible</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconPressureCritical</Key>
+			<Value>La pression de la combinaison est extrêmement faible</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconTemperatureName</Key>
+			<Value>Température interne</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconTemperatureDesc</Key>
+			<Value>Température à l’intérieur de votre combinaison</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconTempuratureWarning</Key>
+			<Value>Attention : Température anormale détectée</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconTempuratureCritical</Key>
+			<Value>Température critique</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconLeakingName</Key>
+			<Value>Fuite de la combinaison</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconLeakingDesc</Key>
+			<Value>La combinaison est percée, réparez-la avec du ruban adhésif</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconPowerName</Key>
+			<Value>Alimentation de la combinaison</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconPowerDesc</Key>
+			<Value>L'énergie est presque épuisée</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconGravityName</Key>
+			<Value>Apesanteur</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconJetpackName</Key>
+			<Value>Propulseurs actifs</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconClimbingName</Key>
+			<Value>Grimper</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconLightName</Key>
+			<Value>Activer/Désactiver la lampe frontale</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconInternalsName</Key>
+			<Value>Ouverture/fermeture du casque</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconHandPowerName</Key>
+			<Value>Activer/Désactiver l'objet en main</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconInSlotName</Key>
+			<Value>Vous êtes à l’intérieur d’un emplacement</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconInSlotDesc</Key>
+			<Value>Cliquez sur la touche correspondante pour sortir de l'emplacement</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconHungerName</Key>
+			<Value>Faim</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconHungerDesc</Key>
+			<Value>Le niveau de faim est élevé</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconHungerKey</Key>
+			<Value>Faim importante</Value>
+		</Record>
+		<Record>
+			<Key>HungerCaution</Key>
+			<Value>Attention : Niveau de faim élevé</Value>
+		</Record>
+		<Record>
+			<Key>HungerCritical</Key>
+			<Value>État de famine</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconStunName</Key>
+			<Value>Pourcentage d’étourdissements</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconStunDesc</Key>
+			<Value>Le niveau d’étourdissement est élevé</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconStunKey</Key>
+			<Value>Étourdissement important</Value>
+		</Record>
+		<Record>
+			<Key>StunCaution</Key>
+			<Value>Attention : Niveau d’étourdissement élevé</Value>
+		</Record>
+		<Record>
+			<Key>StunCritical</Key>
+			<Value>État d’étourdissement critique</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconAirTankName</Key>
+			<Value>Capacité du réservoir d'air</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconAirTankDesc</Key>
+			<Value>Le réservoir d'air est presque épuisé</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconJetpackWarningName</Key>
+			<Value>Attention : Capacité du propulseur</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconJetpackWarningDesc</Key>
+			<Value>Le propulseur est presque épuisé</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconFilterName</Key>
+			<Value>Capacité de filtre</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconFilterDesc</Key>
+			<Value>Les filtres sont presque épuisés</Value>
+		</Record>
+		<Record>
+			<Key>StatucIconFilterDesc</Key>
+			<Value>Les filtres sont presque épuisés</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconWasteName</Key>
+			<Value>Capacité de déchets</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconWasteDesc</Key>
+			<Value>Le réservoir de déchets est presque plein</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconHealthName</Key>
+			<Value>Santé</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconHealthDesc</Key>
+			<Value>Le niveau de la santé est faible</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconHealthKey</Key>
+			<Value>Santé faible</Value>
+		</Record>
+		<Record>
+			<Key>HealthCaution</Key>
+			<Value>Attention : Niveau de la santé est faible</Value>
+		</Record>
+		<Record>
+			<Key>HealthCritical</Key>
+			<Value>Santé critique</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconHydrationName</Key>
+			<Value>Hydratation</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconUnconsciousName</Key>
+			<Value>Inconscient</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconMoodName</Key>
+			<Value>Humeur</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconHygieneName</Key>
+			<Value>Hygiène</Value>
+		</Record>
+		<Record>
+			<Key>DeconstructCanisterFull</Key>
+			<Value>Impossible de déconstruire. Le réservoir doit être vide</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconLeavingAreaName</Key>
+			<Value>Hors zone de mission</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconLeavingAreaDesc</Key>
+			<Value>Faites demi-tour</Value>
+		</Record>
+	</ScreenSpaceToolTips>
 </Language>
