@@ -10,11 +10,11 @@ Overwrite the existing files when prompted.<br/>
 
 ### Contribution:
 
-|      Code     |       Language       |    Contributor   |
-| ------------- | -------------------- | ---------------- |
-| CN            | Simplefied Chinese   | MRhythm          |
-| RU            | Russian              | AlexusYT         |
-| FR            | French               | Gosti_FR         |
+|      Code     |       Language       |        Contributor         |
+| ------------- | -------------------- | -------------------------- |
+| CN            | Simplefied Chinese   | MRhythm                    |
+| RU            | Russian              | AlexusYT                   |
+| FR            | French               | CedricDx, Gosti_FR         |
 
 
 
