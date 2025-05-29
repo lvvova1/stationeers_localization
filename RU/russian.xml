@@ -10768,7 +10768,7 @@
     </Record>
     <Record>
       <Key>ButtonLoadLatest</Key>
-      <Value>Загрузить последний</Value>
+      <Value>Загрузить</Value>
     </Record>
     <Record>
       <Key>HeadingEdit</Key>
@@ -12249,15 +12249,15 @@
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserConvectedTitle</Key>
-      <Value>CONVECTED</Value>
+      <Value>КОНВЕКЦИЯ</Value>
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserLiquidTitle</Key>
-      <Value>LIQUID</Value>
+      <Value>ЖИДКОСТЬ</Value>
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserRadiatedTitle</Key>
-      <Value>RADIATED</Value>
+      <Value>ИЗЛУЧЕНИЕ</Value>
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserTitle</Key>
@@ -12265,7 +12265,7 @@
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserCapacityTitle</Key>
-      <Value>CAPACITY</Value>
+      <Value>ОБЪЁМ</Value>
     </Record>
     <Record>
       <Key>BigWarning</Key>
@@ -14070,7 +14070,7 @@
     </Record>
     <Record>
       <Key>StationpediaLatentHeatHeader</Key>
-      <Value>Latent Heat:</Value>
+      <Value>Скрытая теплота:</Value>
     </Record>
     <Record>
       <Key>StationpediaMolesPerLitreHeader</Key>
@@ -14626,11 +14626,11 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserStressTitle</Key>
-      <Value>STRESS</Value>
+      <Value>СТРЕСС</Value>
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserLatentTitle</Key>
-      <Value>LATENT</Value>
+      <Value>СКРЫТАЯ ТЕПЛОТА</Value>
     </Record>
     <Record>
       <Key>PhaseChangeLogScale</Key>
@@ -14888,27 +14888,27 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>WorldObjectiveBuildPower</Key>
-      <Value>Build a basic power setup</Value>
+      <Value>Постройте простую систему электроснабжения</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildFramePlatform</Key>
-      <Value>Build a 2x3 platform with frames</Value>
+      <Value>Постройте платформу 2x3 из каркасов</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuild6Frames</Key>
-      <Value>Build a 2x3 platform with {THING:StructureFrameIron}. Frames provide a mounting point for most large devices.</Value>
+      <Value>Постройте платформу 2x3 из &lt;link="StructureFrameIron"&gt;&lt;color=green&gt;Железных каркасов&lt;/color&gt;&lt;/link&gt;. Каркасы служат точкой опоры для больших и тяжёлых устройств.</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveWeldFrames</Key>
-      <Value>An {THING:StructureFrameIron} is finished by using a {THING:ItemWeldingTorch} in your active hand, and {THING:ItemIronSheets} in your other hand.</Value>
+      <Value>Чтобы завершить постройку &lt;link="StructureFrameIron"&gt;&lt;color=green&gt;Железного каркаса&lt;/color&gt;&lt;/link&gt;, используйте &lt;link="ItemWeldingTorch"&gt;&lt;color=green&gt;Газовую горелку&lt;/color&gt;&lt;/link&gt; в одной руке (активной) и {THING:ItemIronSheets} в другой.</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildArcFurnace</Key>
-      <Value>Build and Power Auto-lathe and Arc-Furnace</Value>
+      <Value>Постройте и запитайте автолат и дуговую печь</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveSmeltIron</Key>
-      <Value>Smelt Iron in Arc Furnace</Value>
+      <Value>Переплавьте железо в Дуговой печи</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildPrinters</Key>
@@ -14916,35 +14916,35 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>WorldObjectiveBuildStacker</Key>
-      <Value>Build a Stacker</Value>
+      <Value>Постройте Стакер</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveSmeltSteel</Key>
-      <Value>Smelt some Steel</Value>
+      <Value>Сделайте немного стали</Value>
     </Record>
     <Record>
       <Key>SmeltSteelVulcanInfo</Key>
-      <Value>The Vulcan air at midday is hot enough to smelt steel</Value>
+      <Value>Воздух Вулкана днём настолько горячий, что может плавить сталь</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveVacuumRoom</Key>
-      <Value>Vacuum out room</Value>
+      <Value>Создайте вакуум в комнате</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveVacuumRoomInfo</Key>
-      <Value>Vent all the gas from the room using a {THING:StructureActiveVent}</Value>
+      <Value>Для этого используйте {THING:StructureActiveVent}</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveCombustion</Key>
-      <Value>Avoid fires</Value>
+      <Value>Не допускайте возгораний</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveCombustionInfo</Key>
-      <Value>During the day any oxygen released into the Vulcan atmosphere will immediately combust</Value>
+      <Value>Любой кислород, выпущенный в атмосферу Вулкана в течение светового дня, сразу же загорится</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveUpgradeElectronicsPrinter</Key>
-      <Value>Upgrade ElectronicsPrinter</Value>
+      <Value>Улучшите Принтер электроники</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveUpgradeManufacturing</Key>
@@ -14952,47 +14952,47 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>WorldObjectiveBuildFurnace</Key>
-      <Value>Build an Advanced Furnace</Value>
+      <Value>Постройте Улучшенную печь</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildCentrifuge</Key>
-      <Value>Build a Recycler and Centrifuge</Value>
+      <Value>Постройте Утилизатор и Центрифугу</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveDeepMiners</Key>
-      <Value>Deep Miners and Rockets can mine resources for you</Value>
+      <Value>Глубинные рудокопы и ракеты могут добывать ресурсы за вас</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildRoom</Key>
-      <Value>Build a room with a door</Value>
+      <Value>Постройте комнату с дверью</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveFillOxygen</Key>
-      <Value>Fill a room with Oxygen</Value>
+      <Value>Наполните комнату кислородом</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveGrowFood</Key>
-      <Value>Grow plants for Oxygen and Food</Value>
+      <Value>Выращивайте растения для кислорода и еды</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveRefillBottle</Key>
-      <Value>Refill Water Bottle</Value>
+      <Value>Заполните бутылку водой</Value>
     </Record>
     <Record>
       <Key>WorldObjectivePlantsLight</Key>
-      <Value>Plants need light to grow</Value>
+      <Value>Растениям для роста нужен свет</Value>
     </Record>
     <Record>
       <Key>WorldObjectivePlantsDarkness</Key>
-      <Value>Plants need to rest in darkness to grow</Value>
+      <Value>Растениям для роста нужен отдых в темноте</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveSwitchOffYourGrowLight</Key>
-      <Value>Switch off {THING:StructureGrowLight}</Value>
+      <Value>Выключите {THING:StructureGrowLight}</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveCookPotato</Key>
-      <Value>Cook a baked potato</Value>
+      <Value>Приготовьте печёный картофель</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveAcknowledgeAndDismiss</Key>
@@ -15000,23 +15000,23 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>WorldObjectiveOfflinePlayers</Key>
-      <Value>Keep off-line players alive</Value>
+      <Value>Поддерживайте жизнь персонажей вышедших игроков</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveFiltration</Key>
-      <Value>Make your room atmosphere safe to breathe</Value>
+      <Value>Сделайте воздух в комнате безопасным для дыхания</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveManageTemperature</Key>
-      <Value>Manage room temperature</Value>
+      <Value>Управляйте температурой в комнате</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildPad</Key>
-      <Value>Build and power a 3x3 trader landing pad</Value>
+      <Value>Постройте Посадочную площадку размером 3x3 и запитайте её</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveConnectPad</Key>
-      <Value>Connect a Computer and Vending Machine to the Landing Pad</Value>
+      <Value>Подключите Компьютер и Склад к Посадочной площадке</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveResolveContact</Key>
@@ -15028,59 +15028,59 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>WorldObjectiveBuildPowerInfo</Key>
-      <Value>An Area Power Controller (APC) has a battery slot for power storage and a switch to turn on power to the output network. Open it with a {THING:ItemCrowbar}</Value>
+      <Value>Для управления питанием вашей базы пока сгодится ИБП, то есть источник бесперебойного питания. У него есть слот для аккумулятора, чтобы запитывать потребителей при отключении внешнего питания, а также рычаг включения. Используйте {THING:ItemCrowbar}, чтобы открыть его переднюю панель и получить к ним доступ.</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildFurnaceInfo</Key>
-      <Value>An Advanced Furnace is required to smelt super alloys</Value>
+      <Value>Для плавки супер сплавов требуется Улучшенная печь</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveDeepMinersInfo</Key>
-      <Value>{THING:StructureDeepMiner} can be used to harvest a steady flow of resources. {THING:StructureRocketManufactory} can print the parts to build a mining rocket for gathering ore and ices from nearby asteroids</Value>
+      <Value>Для получения постоянного потока ресурсов можно использовать {THING:StructureDeepMiner}. {THING:StructureRocketManufactory} может печатать детали для постройки ракеты, которая будет приносить руды и льды с ближайших астероидов</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildStackerInfo</Key>
-      <Value>Connect to the output of your {THING:StructureAutolathe} with {THING:StructureChuteStraight}</Value>
+      <Value>Подключите выход &lt;link="StructureAutolathe"&gt;&lt;color=green&gt;Автолата&lt;/color&gt;&lt;/link&gt; к Стакеру с помощью &lt;link="StructureChuteStraight"&gt;&lt;color=green&gt;Прямой транспортной турбы&lt;/color&gt;&lt;/link&gt;</Value>
     </Record>
     <Record>
       <Key>HelperHints</Key>
-      <Value>Helper Hints</Value>
+      <Value>Подсказки</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveCanisters</Key>
-      <Value>Refill Oxygen Canister</Value>
+      <Value>Заправьте кислородный баллон</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveCanistersInfo</Key>
-      <Value>{THING:ItemGasCanisterEmpty} can be refilled by inserting into a {THING:DynamicGasCanisterEmpty} or a {THING:StructureGasTankStorage}</Value>
+      <Value>{THING:ItemGasCanisterEmpty} можно заправить, вставив его в {THING:DynamicGasCanisterEmpty} или в &lt;link="StructureGasTankStorage"&gt;&lt;color=green&gt;Стойку для газового баллона&lt;/color&gt;&lt;/link&gt;</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveOfflinePlayersInfo</Key>
-      <Value>Offline players can be kept alive in a {THING:StructureSleeperVertical}</Value>
+      <Value>Если вы играете на сервере, то даже после выхода из игры персонаж продолжит потреблять еду, воду и кислород. Для замедления этого эффекта нужно построить {THING:StructureSleeperVertical}</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveCablesBurn</Key>
-      <Value>A power network overloaded! Replace burnt cable</Value>
+      <Value>Электрическая сеть перегружена! Замените сгоревший кабель</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveCablesBurnInfo</Key>
-      <Value>Power cables can burn out if overloaded or if a battery is shorted. Use a {THING:StructureCableFuse5k} to isolate failures. Limit power throughput with a {THING:StructureTransformerSmall} or upgrade high power networks to {THING:ItemCableCoilHeavy}</Value>
+      <Value>Электрические кабели могут выгореть, если их перегрузить. Также, они могут сгореть, если закоротить батарею. Используйте {THING:StructureCableFuse5k} для защиты цепей питания. Еще, можно ограничить ток через {THING:StructureTransformerSmall} или улучшить сеть, используя &lt;link="ItemCableCoilHeavy"&gt;&lt;color=green&gt;Силовые кабели&lt;/color&gt;&lt;/link&gt;</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveSmeltIce</Key>
-      <Value>Mine Ice for Gasses</Value>
+      <Value>Добывайте лёд для получения газов</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveSmeltIceInfo</Key>
-      <Value>Ices can be melted for useful gasses and liquids. Place in an {THING:StructureIceCrusher} or just use direct sunlight or warm air above 6kPa.</Value>
+      <Value>Льды можно плавить, чтобы получить полезные газы и жидкости. Поставьте {THING:StructureIceCrusher}, используйте прямые солнечные лучи или поместите лёд в помещение с теплым воздухом и давлением выше 6 кПа.</Value>
     </Record>
     <Record>
       <Key>DismissCompletedButton</Key>
-      <Value>Dismiss Completed</Value>
+      <Value>Закрыть завершённые</Value>
     </Record>
     <Record>
       <Key>ShowDismissedButton</Key>
-      <Value>Show Dismissed</Value>
+      <Value>Показывать закрытые</Value>
     </Record>
     <Record>
       <Key>RenderDistanceMultiplierSetting</Key>
@@ -15496,7 +15496,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>AutoExpandToggle</Key>
-      <Value>Auto Expand</Value>
+      <Value>Автораскрытие</Value>
     </Record>
     <Record>
       <Key>ButtonHostServer</Key>
@@ -15504,7 +15504,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserSelected</Key>
-      <Value>WORLD</Value>
+      <Value>ОКРУЖЕНИЕ</Value>
     </Record>
     <Record>
       <Key>WorldInfoTextPlayers</Key>
@@ -18420,7 +18420,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
   <GameStrings>
     <Record>
       <Key>ToolRequiredToDeconstruct</Key>
-      <Value>{LOCAL:Tool} required to &lt;color=red&gt;deconstruct&lt;/color&gt;</Value>
+      <Value>{LOCAL:Tool} требуется для &lt;color=red&gt;разборки&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>FurnaceCurrentlySmelting</Key>
@@ -18436,15 +18436,15 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>SuitContextAirConState</Key>
-      <Value>A/C {LOCAL:IsTurnedOn}</Value>
+      <Value>Кондиционер {LOCAL:IsTurnedOn}</Value>
     </Record>
     <Record>
       <Key>SuitContextAirPumpState</Key>
-      <Value>Air {LOCAL:IsTurnedOn}</Value>
+      <Value>Воздух {LOCAL:IsTurnedOn}</Value>
     </Record>
     <Record>
       <Key>SuitContextFilterState</Key>
-      <Value>Filter {LOCAL:IsTurnedOn}</Value>
+      <Value>Фильтрация {LOCAL:IsTurnedOn}</Value>
     </Record>
     <Record>
       <Key>SaveButtonGameString</Key>
@@ -18486,7 +18486,7 @@ This will &lt;color=red&gt;delete {LOCAL:WorldSaveName}&lt;/color&gt; backup onl
     </Record>
     <Record>
       <Key>DaysPassedPlayerMessage</Key>
-      <Value>{LOCAL:DaysPassed} days have passed. Your character has survived {LOCAL:DaysLived} without dying.</Value>
+      <Value>{LOCAL:DaysPassed} дней прошло. Ваш персонаж прожил {LOCAL:DaysLived} без смертей.</Value>
     </Record>
     <Record>
       <Key>DaysPassedHudText</Key>
@@ -18494,11 +18494,11 @@ This will &lt;color=red&gt;delete {LOCAL:WorldSaveName}&lt;/color&gt; backup onl
     </Record>
     <Record>
       <Key>CustomSkeletonName</Key>
-      <Value>Human Skeleton({LOCAL:UserName})</Value>
+      <Value>Скелет человека ({LOCAL:UserName})</Value>
     </Record>
     <Record>
       <Key>CustomSkullName</Key>
-      <Value>Human Skull({LOCAL:UserName})</Value>
+      <Value>Череп человека ({LOCAL:UserName})</Value>
     </Record>
     <Record>
       <Key>RatioTooltip</Key>
@@ -18561,91 +18561,91 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeChunks</Key>
-      <Value>Deserializing Chunks</Value>
+      <Value>Десериализация чанков</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingAtmospherics</Key>
-      <Value>Deserializing Atmospherics</Value>
+      <Value>Десериализация атмосферных машин</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeCableNetworks</Key>
-      <Value>Deserializing Cable Networks</Value>
+      <Value>Десериализация кабельных сетей</Value>
     </Record>
     <Record>
       <Key>LoadingScreenPleaseWait</Key>
-      <Value>Please Wait</Value>
+      <Value>Пожалуйста, подождите</Value>
     </Record>
     <Record>
       <Key>LoadingScreenClientJoining</Key>
-      <Value>Client Joining</Value>
+      <Value>Клиент присоединяется</Value>
     </Record>
     <Record>
       <Key>LoadingScreenReceivingJoinData</Key>
-      <Value>Receiving Join Data</Value>
+      <Value>Получение данных присоединения</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRegisteringPrefabs</Key>
-      <Value>Registering Prefabs</Value>
+      <Value>Регистрация префабов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenConnectingToServer</Key>
-      <Value>Connecting to Server</Value>
+      <Value>Подключение к серверу</Value>
     </Record>
     <Record>
       <Key>LoadingScreenReadyToJoin</Key>
-      <Value>Ready To Join</Value>
+      <Value>Готов к присоединению</Value>
     </Record>
     <Record>
       <Key>LoadingScreenGeneratingTerrain</Key>
-      <Value>Generating Terrain</Value>
+      <Value>Генерация ландшафта</Value>
     </Record>
     <Record>
       <Key>LoadingScreenFinishingGeneratingTerrain</Key>
-      <Value>Finished Generating Terrain</Value>
+      <Value>Генерация ландшафта завершена</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingChuteNetworks</Key>
-      <Value>Deserializing Chute Networks</Value>
+      <Value>Десериализация сетей транспортных труб</Value>
     </Record>
     <Record>
       <Key>LoadingScreenProcessingThings</Key>
-      <Value>Processing Things</Value>
+      <Value>Обработка вещей</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingNetworks</Key>
-      <Value>Deserializing Networks</Value>
+      <Value>Десериализация сетей</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingPipeNetworks</Key>
-      <Value>Deserializing Pipe Networks</Value>
+      <Value>Десериализация сетей труб</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeRocketNetworks</Key>
-      <Value>Deserializing Rocket Networks</Value>
+      <Value>Десериализация ракетных сетей</Value>
     </Record>
     <Record>
       <Key>LoadingScreenCalculatingMeshes</Key>
-      <Value>Calculating Meshes</Value>
+      <Value>Расчёт вершинных сеток</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingStationContacts</Key>
-      <Value>Deserializing Station Contacts</Value>
+      <Value>Десериализация контрактов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializing</Key>
-      <Value>Initializing</Value>
+      <Value>Инициализация</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializingChunks</Key>
-      <Value>Initializing Chunks</Value>
+      <Value>Инициализация чанков</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingChunks</Key>
-      <Value>Loading Chunks</Value>
+      <Value>Загрузка чанков</Value>
     </Record>
     <Record>
       <Key>LoadingScreenGeneratingRecipes</Key>
-      <Value>Generating Recipes</Value>
+      <Value>Генерация рецептов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenNewWorldMenu</Key>
@@ -18653,51 +18653,51 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingStationpedia</Key>
-      <Value>Loading Stationpedia</Value>
+      <Value>Загрузка Станциопедии</Value>
     </Record>
     <Record>
       <Key>LoadingScreenCalculatingChunks</Key>
-      <Value>Calculating Chunks</Value>
+      <Value>Просчёт чанков</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingRooms</Key>
-      <Value>Loading Rooms</Value>
+      <Value>Загрузка комнат</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingAtmosphers</Key>
-      <Value>Loading Atmospheres</Value>
+      <Value>Загрузка атмосфер</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRegeneratingTerrain</Key>
-      <Value>Regenerating Terrain</Value>
+      <Value>Регенерация ландшафта</Value>
     </Record>
     <Record>
       <Key>LoadingScreenPopulatingInventory</Key>
-      <Value>Populating Inventory</Value>
+      <Value>Заполнение инвентаря</Value>
     </Record>
     <Record>
       <Key>LoadingScreenSpawningThings</Key>
-      <Value>Spawning things</Value>
+      <Value>Создание вещей</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializingDevices</Key>
-      <Value>Initializing Devices</Value>
+      <Value>Инициализация устройств</Value>
     </Record>
     <Record>
       <Key>LoadingScreenValidatingPrefabs</Key>
-      <Value>Validating Prefabs</Value>
+      <Value>Проверка префабов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRenderingChunks</Key>
-      <Value>Rendering Chunks</Value>
+      <Value>Отрисовка чанков</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingThings</Key>
-      <Value>Loading Things ({LOCAL:ThingCount})</Value>
+      <Value>Загрузка {LOCAL:ThingCount} вещей</Value>
     </Record>
     <Record>
       <Key>LoadingScreenCleaningUpPrefabs</Key>
-      <Value>Cleaning up prefabs</Value>
+      <Value>Очистка префабов</Value>
     </Record>
     <Record>
       <Key>SettingsFullScreenDisplayMode</Key>
@@ -19317,7 +19317,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingToFarAwayForDrag</Key>
-      <Value>{LOCAL:Thing} is too far away to be dragged</Value>
+      <Value>{LOCAL:Thing} слишком далеко, чтобы можно было перетащить</Value>
     </Record>
     <Record>
       <Key>ThingCanNotBeDraggedWithSomethingIn</Key>
@@ -19353,7 +19353,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StructureIsNotDamaged</Key>
-      <Value>{LOCAL:Structure} is not damaged</Value>
+      <Value>{LOCAL:Structure} не повреждён</Value>
     </Record>
     <Record>
       <Key>WeldingTorchNoFuel</Key>
@@ -19889,7 +19889,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NotApplicableString</Key>
-      <Value>N/A</Value>
+      <Value>Н/Д</Value>
     </Record>
     <Record>
       <Key>SlotFull</Key>
@@ -20017,23 +20017,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CompareLessThan</Key>
-      <Value>less than</Value>
+      <Value>меньше, чем</Value>
     </Record>
     <Record>
       <Key>CompareEqualOrLess</Key>
-      <Value>less or equal to</Value>
+      <Value>меньше или равно</Value>
     </Record>
     <Record>
       <Key>CompareEqual</Key>
-      <Value>equal to</Value>
+      <Value>равно</Value>
     </Record>
     <Record>
       <Key>CompareEqualOrGreater</Key>
-      <Value>greater or equal to</Value>
+      <Value>больше или равно</Value>
     </Record>
     <Record>
       <Key>CompareGreater</Key>
-      <Value>greater than</Value>
+      <Value>больше, чем</Value>
     </Record>
     <Record>
       <Key>EnergyRatio</Key>
@@ -20317,7 +20317,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>EntityIsCurrentlyState</Key>
-      <Value>{LOCAL:Thing} is currently &lt;color=yellow&gt;{LOCAL:State}&lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} сейчас &lt;color=yellow&gt;{LOCAL:State}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>EntityIsDead</Key>
@@ -20361,7 +20361,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeWorldLog</Key>
-      <Value>Deserializing World Log</Value>
+      <Value>Десериализация журнала мира</Value>
     </Record>
     <Record>
       <Key>ActionFixLeak</Key>
@@ -20397,15 +20397,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RequiredContinueConstruction</Key>
-      <Value>required to &lt;color=yellow&gt;continue construction&lt;/color&gt;</Value>
+      <Value>требуется для &lt;color=yellow&gt;продолжения строительства&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>RequiredUpgradeDevice</Key>
-      <Value>required to &lt;color=yellow&gt;upgrade the device&lt;/color&gt;</Value>
+      <Value>требуется для &lt;color=yellow&gt;улучшения устройства&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>RequiredToRepair</Key>
-      <Value>required to &lt;color=yellow&gt;repair&lt;/color&gt;</Value>
+      <Value>требуется для &lt;color=yellow&gt;починки&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>OnlyHumansCanDragThings</Key>
@@ -20461,7 +20461,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Repair</Key>
-      <Value>Repair</Value>
+      <Value>Починить</Value>
     </Record>
     <Record>
       <Key>HandSlotOccupied</Key>
@@ -20521,7 +20521,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NotEnoughSprayPaint</Key>
-      <Value>Not enough paint in {LOCAL:SprayCanister}</Value>
+      <Value>Недостаточно краски в {LOCAL:SprayCanister}</Value>
     </Record>
     <Record>
       <Key>ThingWillBeSprayed</Key>
@@ -20541,15 +20541,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CondensationInGasPipe</Key>
-      <Value>Condensation is happening in the pipe</Value>
+      <Value>В трубе происходит конденсация газа</Value>
     </Record>
     <Record>
       <Key>LiquidInGasPipe</Key>
-      <Value>There is &lt;color=red&gt;Liquid&lt;/color&gt; in the pipe</Value>
+      <Value>В газовой трубе находится &lt;color=red&gt;жидкость&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PipeStressed</Key>
-      <Value>The pressure of the pipe is dangerously high</Value>
+      <Value>Опасно высокое давление газа в трубе</Value>
     </Record>
     <Record>
       <Key>LiquidStress</Key>
@@ -20605,15 +20605,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PipeDamageModePressure</Key>
-      <Value>Damaged by an &lt;color=red&gt;overpressure&lt;/color&gt; event</Value>
+      <Value>Труба была повреждена &lt;color=red&gt;высоким давлением&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PipeDamageModeLiquid</Key>
-      <Value>Damaged due to the &lt;color=red&gt;presence of liquid&lt;/color&gt;</Value>
+      <Value>Труба была повреждена из-за &lt;color=red&gt;образования в ней жидкости&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PipeDamageModeFrozen</Key>
-      <Value>Damaged due to &lt;color=red&gt;liquids or gasses freezing&lt;/color&gt;</Value>
+      <Value>Труба была повреждена из-за &lt;color=red&gt;замерзания в ней жидкости или газа&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlacementBlockedByRocket</Key>
@@ -20629,15 +20629,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PipeFailModePressure</Key>
-      <Value>Destroyed due to an &lt;color=red&gt;overpressure&lt;/color&gt; event</Value>
+      <Value>Труба была уничтожена &lt;color=red&gt;высоким давлением&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PipeFailModeLiquid</Key>
-      <Value>Destroyed due to the &lt;color=red&gt;presence of liquid&lt;/color&gt;</Value>
+      <Value>Труба была уничтожена из-за &lt;color=red&gt;образования в ней жидкости&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PipeFailModeFrozen</Key>
-      <Value>Destroyed due to &lt;color=red&gt;liquids or gasses freezing&lt;/color&gt;</Value>
+      <Value>Труба была уничтожена из-за &lt;color=red&gt;замерзания в ней жидкости или газа&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>TargetPressureKPA</Key>
@@ -20665,7 +20665,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CodeEditorFileSize</Key>
-      <Value>Size {LOCAL:Size} / {LOCAL:MaxSize} bytes</Value>
+      <Value>Размер {LOCAL:Size} / {LOCAL:MaxSize} байтов</Value>
     </Record>
     <Record>
       <Key>UplinkConnectedTo</Key>
@@ -20757,7 +20757,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingDamageIsAt</Key>
-      <Value>{LOCAL:DamageType} is at {LOCAL:Percent}</Value>
+      <Value>{LOCAL:DamageType}: {LOCAL:Percent}</Value>
     </Record>
     <Record>
       <Key>DirtCanisterDirtIsAt</Key>
@@ -21129,19 +21129,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingSpaceMap</Key>
-      <Value>Deserializing Space Map</Value>
+      <Value>Десериализация карты космоса</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingRockets</Key>
-      <Value>Deserializing Rockets</Value>
+      <Value>Десериализация ракет</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingRocketLog</Key>
-      <Value>Deserializing Rocket Log</Value>
+      <Value>Десериализация журнала ракет</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeRocketLog</Key>
-      <Value>Deserializing Rocket Log</Value>
+      <Value>Десериализация журнала ракет</Value>
     </Record>
     <Record>
       <Key>CantPaintSameColour</Key>
@@ -21281,15 +21281,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TradeOperatorAny</Key>
-      <Value>Any of the following</Value>
+      <Value>Что-то из списка ниже</Value>
     </Record>
     <Record>
       <Key>TradeOperatorNone</Key>
-      <Value>None of the following</Value>
+      <Value>Ничего, что есть в списке ниже</Value>
     </Record>
     <Record>
       <Key>TradeOperatorAll</Key>
-      <Value>All of the following</Value>
+      <Value>Всё из списка ниже</Value>
     </Record>
     <Record>
       <Key>TradeItemStackChild</Key>
@@ -22305,7 +22305,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HeaderCreativeSpawnMenu</Key>
-      <Value>Creative Spawn Menu</Value>
+      <Value>Творческое меню создания</Value>
     </Record>
     <Record>
       <Key>EnabledLower</Key>
@@ -22357,7 +22357,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AchievementUnlocked</Key>
-      <Value>Achievement '{LOCAL:Name}' unlocked</Value>
+      <Value>Достижение '{LOCAL:Name}' разблокировано</Value>
     </Record>
     <Record>
       <Key>InteractableActionToState</Key>
@@ -22365,7 +22365,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StructureIsCompleted</Key>
-      <Value>Must be fully constructed</Value>
+      <Value>Устройство должно быть полностью построено</Value>
     </Record>
     <Record>
       <Key>StructureCanManufacture</Key>
@@ -22381,7 +22381,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GrowthStateCondition</Key>
-      <Value>Growth state must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+      <Value>Стадия роста должна быть {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>PreSpawnedCondition</Key>
@@ -22393,43 +22393,43 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TemperatureComparableCondition</Key>
-      <Value>Temperature must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+      <Value>Температура должна быть {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeTerraformingValues</Key>
-      <Value>Deserializing Terraforming values</Value>
+      <Value>Десериализация значений терраформирования</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingWorldObjectives</Key>
-      <Value>Deserializing World Objectives</Value>
+      <Value>Десериализация мировых целей</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingTerrain</Key>
-      <Value>Loading Terrain Data</Value>
+      <Value>Загрузка ландшафта</Value>
     </Record>
     <Record>
       <Key>LoadingScreenSeedingMinables</Key>
-      <Value>Seeding Minables</Value>
+      <Value>Размещение ресурсов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenGeneratingMinables</Key>
-      <Value>Generating Minables</Value>
+      <Value>Генерация ресурсов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenValidatingMinables</Key>
-      <Value>Validating Minables</Value>
+      <Value>Проверка ресурсов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRegisteringMinables</Key>
-      <Value>Registering Minables</Value>
+      <Value>Регистрация ресурсов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenApplyingMinedMinables</Key>
-      <Value>Minable Deltas</Value>
+      <Value>Определение уже добытых ресурсов</Value>
     </Record>
     <Record>
       <Key>LoadingScreenPreparingTerrain</Key>
-      <Value>Preparing Terrain</Value>
+      <Value>Подготовка ландшафта</Value>
     </Record>
     <Record>
       <Key>ScriptEditorAuthorInfo</Key>
@@ -22438,35 +22438,35 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ScriptEditorLoadTitle</Key>
-      <Value>Load Instructions</Value>
+      <Value>Загрузить инструкции</Value>
     </Record>
     <Record>
       <Key>ScriptEditorLoadDescription</Key>
-      <Value>Are you sure you want to load this script into your computer? This will replace whatever is on screen.</Value>
+      <Value>Вы действительно хотите загрузить этот скрипт на компьютер? Это заменит всё, что есть сейчас в редакторе.</Value>
     </Record>
     <Record>
       <Key>ScriptEditorOverwriteTitle</Key>
-      <Value>Overwrite Instructions</Value>
+      <Value>Перезаписать инструкции</Value>
     </Record>
     <Record>
       <Key>ScriptEditorOverwriteDescription</Key>
-      <Value>Are you sure you want to overwrite this script with the data you have on the computer screen? This will replace what is in your source code library.</Value>
+      <Value>Вы действительно хотите перезаписать сохранённый скрипт данными из редактора? Это заменит содержимое скрипта, которое находится в библиотеке.</Value>
     </Record>
     <Record>
       <Key>ScriptEditorPublishTitle</Key>
-      <Value>Publish Instructions</Value>
+      <Value>Опубликовать инструкции</Value>
     </Record>
     <Record>
       <Key>ScriptEditorPublishDescription</Key>
-      <Value>Are you sure you want to publish this instruction set to the Steam Workshop?</Value>
+      <Value>Вы действительно хотите опубликовать этот набор инструкций в Steam Workshop?</Value>
     </Record>
     <Record>
       <Key>ScriptEditorDeleteTitle</Key>
-      <Value>Delete Instructions</Value>
+      <Value>Удалить инструкции</Value>
     </Record>
     <Record>
       <Key>ScriptEditorDeleteDescription</Key>
-      <Value>Are you sure you want to delete this script from the library? You cannot undo this.</Value>
+      <Value>Вы действительно хотите удалить этот скрипт из библиотеки? Это действие нельзя будет отменить.</Value>
     </Record>
     <Record>
       <Key>ScriptEditorInstructionCancelled</Key>
@@ -22610,19 +22610,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PartialPressureCondition</Key>
-      <Value>Partial pressure {LOCAL:GasType} must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+      <Value>Парциальное давление &lt;link="LOCAL:GasType"&gt;&lt;color=cyan&gt;Кислорода&lt;/color&gt;&lt;/link&gt; {LOCAL:GasType} должно быть {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>HelperHintExpand</Key>
-      <Value>Expand</Value>
+      <Value>Раскрыть</Value>
     </Record>
     <Record>
       <Key>HelperHintCollapse</Key>
-      <Value>Collapse</Value>
+      <Value>Свернуть</Value>
     </Record>
     <Record>
       <Key>HelperHintDismiss</Key>
-      <Value>Dismiss</Value>
+      <Value>Закрыть</Value>
     </Record>
     <Record>
       <Key>HelperHintRestore</Key>
@@ -22630,11 +22630,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintOpenStationpedia</Key>
-      <Value>Open Stationpedia</Value>
+      <Value>Открыть Станциопедию</Value>
     </Record>
     <Record>
       <Key>HelperHintCreateThingCondition</Key>
-      <Value>Create a &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt;</Value>
+      <Value>Построить &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt;</Value>
     </Record>
     <Record>
       <Key>HelperHintContainsItem</Key>
@@ -22642,7 +22642,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintContainsItemInSlot</Key>
-      <Value>Contains a &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt; in the &lt;color=orange&gt;{LOCAL:SlotName}&lt;/color&gt; slot</Value>
+      <Value>Устройство должно содержать &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt; в слоте &lt;color=orange&gt;{LOCAL:SlotName}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>HelperHintRoomState</Key>
@@ -22650,7 +22650,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintAnyRoomState</Key>
-      <Value>Build a room</Value>
+      <Value>Постройте комнату</Value>
     </Record>
     <Record>
       <Key>HelperHintQuantityComparison</Key>
@@ -22658,7 +22658,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintPressureCondition</Key>
-      <Value>Pressure must be {LOCAL:ComparisonOperator} </Value>
+      <Value>Давление должно быть {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintRatioMustBeComparison</Key>
@@ -22666,11 +22666,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintMustBeComparison</Key>
-      <Value> must be {LOCAL:ComparisonOperator} </Value>
+      <Value> должно быть {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintPartialPressure</Key>
-      <Value>Partial pressure </Value>
+      <Value>Парциальное давление </Value>
     </Record>
     <Record>
       <Key>HelperHintDecayComparison</Key>
@@ -22726,11 +22726,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>InteractableMustBeOn</Key>
-      <Value>Switch on</Value>
+      <Value>Устройство должно быть включено</Value>
     </Record>
     <Record>
       <Key>InteractableMustBeOff</Key>
-      <Value>Switch off</Value>
+      <Value>Устройство должно быть выключено</Value>
     </Record>
     <Record>
       <Key>InteractableMustBeOpen</Key>
@@ -22742,23 +22742,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>InteractableMustBePowered</Key>
-      <Value>Must be powered</Value>
+      <Value>Устройство должно быть запитано</Value>
     </Record>
     <Record>
       <Key>InteractableMustBeUnpowered</Key>
-      <Value>Must be unpowered</Value>
+      <Value>Устройство должно быть обесточено</Value>
     </Record>
     <Record>
       <Key>CustomNameCondition</Key>
-      <Value>Name must be &lt;color=green&gt;{LOCAL:Name}&lt;/color&gt;</Value>
+      <Value>Устройство должно быть &lt;color=green&gt;{LOCAL:Name}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>RoomMinSizeCondition</Key>
-      <Value>Size greater than &lt;color=green&gt;{LOCAL:Size}&lt;/color&gt; grids</Value>
+      <Value>Площадью больше чем &lt;color=green&gt;{LOCAL:Size}&lt;/color&gt; каркасов</Value>
     </Record>
     <Record>
       <Key>RoomMaxSizeCondition</Key>
-      <Value>Size less than &lt;color=green&gt;{LOCAL:Size}&lt;/color&gt; grids</Value>
+      <Value>Площадью меньше чем &lt;color=green&gt;{LOCAL:Size}&lt;/color&gt; каркасов</Value>
     </Record>
     <Record>
       <Key>Infinity</Key>
@@ -22914,7 +22914,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>JetpackStabilizerState</Key>
-      <Value>Stabilizer {LOCAL:State}</Value>
+      <Value>Стабилизатор {LOCAL:State}</Value>
     </Record>
     <Record>
       <Key>MiningDrillModeDefault</Key>
@@ -22970,11 +22970,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DamageTypeDamage</Key>
-      <Value>Damage</Value>
+      <Value>Повреждение</Value>
     </Record>
     <Record>
       <Key>And</Key>
-      <Value> and </Value>
+      <Value> и </Value>
     </Record>
     <Record>
       <Key>AdvancedComposterCurrentlyProcessing</Key>
@@ -23006,19 +23006,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>EntityDehydrated</Key>
-      <Value>Dehydrated</Value>
+      <Value>хочет пить</Value>
     </Record>
     <Record>
       <Key>EntityWheezing</Key>
-      <Value>Wheezing</Value>
+      <Value>задыхается</Value>
     </Record>
     <Record>
       <Key>EntityHungry</Key>
-      <Value>Hungry</Value>
+      <Value>голоден</Value>
     </Record>
     <Record>
       <Key>EntityHurt</Key>
-      <Value>Hurt</Value>
+      <Value>ранен</Value>
     </Record>
     <Record>
       <Key>AirControlStatusOffline</Key>
