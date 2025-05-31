@@ -8897,11 +8897,11 @@
     </Record>
     <Record>
       <Key>GeneticsHeader</Key>
-      <Value>Genes</Value>
+      <Value>Гены</Value>
     </Record>
     <Record>
       <Key>GeneticDevices</Key>
-      <Value>Genetic Devices</Value>
+      <Value>Генетические устройства</Value>
     </Record>
     <Record>
       <Key>TradingDevices</Key>
@@ -11885,7 +11885,7 @@
     </Record>
     <Record>
       <Key>PanelPlantGeneticsTitle</Key>
-      <Value>Genetic Information</Value>
+      <Value>Генная информация</Value>
     </Record>
     <Record>
       <Key>TraderElectronics</Key>
@@ -14324,19 +14324,19 @@
     </Record>
     <Record>
       <Key>StationpediaNutrition</Key>
-      <Value>Nutrition:</Value>
+      <Value>Насыщение:</Value>
     </Record>
     <Record>
       <Key>StationpediaNutritionQuality</Key>
-      <Value>Quality:</Value>
+      <Value>Качество:</Value>
     </Record>
     <Record>
       <Key>StationpediaMoodBonus</Key>
-      <Value>Mood Bonus:</Value>
+      <Value>Бонус к настроению:</Value>
     </Record>
     <Record>
       <Key>StationpediaGrowthTime</Key>
-      <Value>Growth Time:</Value>
+      <Value>Время роста:</Value>
     </Record>
     <Record>
       <Key>MoleOxygenDescription</Key>
@@ -14538,7 +14538,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>CartridgePlantAnalyserTitle</Key>
-      <Value>PLANT ANALYSER</Value>
+      <Value>АНАЛИЗАТОР РАСТЕНИЙ</Value>
     </Record>
     <Record>
       <Key>ContactItemLostContact</Key>
@@ -14716,11 +14716,11 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>StationpediaGrowthParameters</Key>
-      <Value>Growth Parameters</Value>
+      <Value>Параметры роста</Value>
     </Record>
     <Record>
       <Key>StationpediaGeneInfoTitle</Key>
-      <Value>Gene:</Value>
+      <Value>Ген:</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructableInRockets</Key>
@@ -16172,79 +16172,79 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>PlantAnalyserTitleGrowthEfficiency</Key>
-      <Value>Growth Efficiency</Value>
+      <Value>Эффективность роста</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleBreathingEfficiency</Key>
-      <Value>Breathing Efficiency</Value>
+      <Value>Эффективность дыхания</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleTemperatureEfficiency</Key>
-      <Value>Temperature Efficiency</Value>
+      <Value>Температурная эффективность</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleMinIdealTemperature</Key>
-      <Value>Min Ideal Temperature</Value>
+      <Value>Минимальная идеальная температура</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleMaxIdealTemperature</Key>
-      <Value>Max Ideal Temperature</Value>
+      <Value>Максимальная идеальная температура</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleCurrentTemperature</Key>
-      <Value>Current Temperature</Value>
+      <Value>Текущая температура</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitlePressureEfficiency</Key>
-      <Value>Pressure Efficiency</Value>
+      <Value>Эффективность давления</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleMinIdealPressure</Key>
-      <Value>Min Ideal Pressure</Value>
+      <Value>Минимальное идеальное давление</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleMaxIdealPressure</Key>
-      <Value>Max Ideal Pressure</Value>
+      <Value>Максимальное идеальное давление</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleCurrentPressure</Key>
-      <Value>Current Pressure</Value>
+      <Value>Текущее давление</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleLightEfficiency</Key>
-      <Value>Light Efficiency</Value>
+      <Value>Эффективность света</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleLightIntensity</Key>
-      <Value>Light Intensity</Value>
+      <Value>Интенсивность света</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleIlluminationStress</Key>
-      <Value>Illumination Stress</Value>
+      <Value>Стресс от освещённости </Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleLightDeficiency</Key>
-      <Value>Light Deficiency</Value>
+      <Value>Недостаток света</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleDarknessDeficiency</Key>
-      <Value>Darkness Deficiency</Value>
+      <Value>Недостаток темноты</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleHydrationEfficiency</Key>
-      <Value>Hydration Efficiency</Value>
+      <Value>Эффективность полива</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleGasRequired</Key>
-      <Value>Required:</Value>
+      <Value>Нужно:</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleGasPresent</Key>
-      <Value>Present:</Value>
+      <Value>Есть:</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleGasLimit</Key>
-      <Value>Limit:</Value>
+      <Value>Лимит:</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockTitle</Key>
@@ -18713,19 +18713,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlantSamplerAction</Key>
-      <Value>Sample {LOCAL:Plant}</Value>
+      <Value>Взять пробу {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>ActionClearPlant</Key>
-      <Value>Clear {LOCAL:Plant}</Value>
+      <Value>Убрать {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>ActionHarvestPlant</Key>
-      <Value>Harvest {LOCAL:Plant} Plant</Value>
+      <Value>Собрать {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>ActionHarvestSeed</Key>
-      <Value>Harvest {LOCAL:Plant} Seed</Value>
+      <Value>Собрать семена {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>AlreadyFertalised</Key>
@@ -18773,11 +18773,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SomethingPlantedHere</Key>
-      <Value>There is already something planted here</Value>
+      <Value>Здесь уже что-то посажено</Value>
     </Record>
     <Record>
       <Key>SomethingInThisSlot</Key>
-      <Value>There is already something in this slot</Value>
+      <Value>В этом слоте уже что-то есть</Value>
     </Record>
     <Record>
       <Key>Fertiliser</Key>
@@ -18789,103 +18789,103 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GrowthTemperatureRange</Key>
-      <Value>Growth temperature range</Value>
+      <Value>Диапазон температуры</Value>
     </Record>
     <Record>
       <Key>GrowthPressureRange</Key>
-      <Value>Growth pressure range</Value>
+      <Value>Диапазон давления</Value>
     </Record>
     <Record>
       <Key>GrowthSpeedMultiplier</Key>
-      <Value>Growth speed multiplier</Value>
+      <Value>Скорость роста</Value>
     </Record>
     <Record>
       <Key>LightPerDay</Key>
-      <Value>Light per day</Value>
+      <Value>Продолжительность дня</Value>
     </Record>
     <Record>
       <Key>DarknessPerDay</Key>
-      <Value>Darkness per day</Value>
+      <Value>Продолжительность ночи</Value>
     </Record>
     <Record>
       <Key>GasProduction</Key>
-      <Value>Gas production</Value>
+      <Value>Производство газа</Value>
     </Record>
     <Record>
       <Key>WaterUsage</Key>
-      <Value>Water usage</Value>
+      <Value>Потребление воды</Value>
     </Record>
     <Record>
       <Key>UndesiredGasResistance</Key>
-      <Value>Undesired gas resistance</Value>
+      <Value>Устойчивость к токсинам</Value>
     </Record>
     <Record>
       <Key>TimeUntilDehydrationDamage</Key>
-      <Value>Time until drought damage</Value>
+      <Value>Время до повреждения засухой</Value>
     </Record>
     <Record>
       <Key>TimeUntilUndesiredGasDamage</Key>
-      <Value>Time until toxin damage</Value>
+      <Value>Время до повреждения токсинами</Value>
     </Record>
     <Record>
       <Key>TimeUntilFrozenDamage</Key>
-      <Value>Time until frozen damage</Value>
+      <Value>Время до повреждения замерзанием</Value>
     </Record>
     <Record>
       <Key>TimeUntilOverheatDamage</Key>
-      <Value>Time until overheat damage</Value>
+      <Value>Время до повреждения перегревом</Value>
     </Record>
     <Record>
       <Key>TimeUntilSuffocateDamage</Key>
-      <Value>Time until suffocate damage</Value>
+      <Value>Время до повреждения недостатком газа</Value>
     </Record>
     <Record>
       <Key>TimeUntilLowPressureDamage</Key>
-      <Value>Time until low pressure damage</Value>
+      <Value>Время до повреждения низким давлением</Value>
     </Record>
     <Record>
       <Key>TimeUntilHighPressureDamage</Key>
-      <Value>Time until high pressure damage</Value>
+      <Value>Время до повреждения высоким давлением</Value>
     </Record>
     <Record>
       <Key>TimeUntilLightDamage</Key>
-      <Value>Time until light damage</Value>
+      <Value>Время до повреждения светом</Value>
     </Record>
     <Record>
       <Key>TimeUntilDarknessDamage</Key>
-      <Value>Time until darkness damage</Value>
+      <Value>Время до повреждения темнотой</Value>
     </Record>
     <Record>
       <Key>MinGrowTemperature</Key>
-      <Value>Min grow temperature</Value>
+      <Value>Минимальная температура</Value>
     </Record>
     <Record>
       <Key>MaxGrowTemperature</Key>
-      <Value>Max grow temperature</Value>
+      <Value>Максимальная температура</Value>
     </Record>
     <Record>
       <Key>MinIdealGrowTemperature</Key>
-      <Value>Min ideal grow temperature</Value>
+      <Value>Минимальная идеальная температура</Value>
     </Record>
     <Record>
       <Key>MaxIdealGrowTemperature</Key>
-      <Value>Max ideal grow temperature</Value>
+      <Value>Максимальная идеальная температура</Value>
     </Record>
     <Record>
       <Key>MinGrowPressure</Key>
-      <Value>Min grow pressure</Value>
+      <Value>Минимальное давление</Value>
     </Record>
     <Record>
       <Key>MaxGrowPressure</Key>
-      <Value>Max grow pressure</Value>
+      <Value>Максимальное давление</Value>
     </Record>
     <Record>
       <Key>MinIdealGrowPressure</Key>
-      <Value>Min ideal grow pressure</Value>
+      <Value>Минимальное идеальное давление</Value>
     </Record>
     <Record>
       <Key>MaxIdealGrowPressure</Key>
-      <Value>Max ideal grow pressure</Value>
+      <Value>Минимальное идеальное давление</Value>
     </Record>
     <Record>
       <Key>NoSprayPaint</Key>
@@ -18897,155 +18897,155 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneGrowthSpeedMultiplier</Key>
-      <Value>Growth speed</Value>
+      <Value>Скорость роста</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionGrowthSpeedMultiplier</Key>
-      <Value>Increases the growth speed of the plant. Plants with a higher Growth speed multiplier will take less time to grow.</Value>
+      <Value>Увеличивает скорость роста растения. Чем выше множитель, тем меньше времени нужно растению, чтобы вырасти.</Value>
     </Record>
     <Record>
       <Key>GeneDarkPerDay</Key>
-      <Value>Darkness per day</Value>
+      <Value>Продолжительность ночи</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionDarkPerDay</Key>
-      <Value>The length of time a plant needs to be in darkness each day-cycle to thrive. The standard length day-cycle is 20 minutes.</Value>
+      <Value>Время, необходимое растению для сна. В течение этого промежутка на растение не должен падать солнечный свет или свет от &lt;link="StructureGrowLight"&gt;&lt;color=green&gt;фитолампы&lt;/color&gt;&lt;/link&gt;, чтобы оно могло отдохнуть. Для этого, в среднем, растениям достаточно 5-и минут.</Value>
     </Record>
     <Record>
       <Key>GeneLightPerDay</Key>
-      <Value>Light per day</Value>
+      <Value>Продолжительность дня</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLightPerDay</Key>
-      <Value>The length of time a plant needs to be lit by the sun or a grow light each day-cycle to thrive. The standard length day-cycle is 20 minutes.</Value>
+      <Value>Время, необходимое растению для бодрствования. В течение этого промежутка на растение должен падать либо солнечный свет, либо свет от &lt;link="StructureGrowLight"&gt;&lt;color=green&gt;фитолампы&lt;/color&gt;&lt;/link&gt;. В среднем, растениям нужно 8-10 минут освещения для роста.</Value>
     </Record>
     <Record>
       <Key>GeneDroughtTolerance</Key>
-      <Value>Drought tolerance</Value>
+      <Value>Терпимость к недостатку воды</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionDroughtTolerance</Key>
-      <Value>The length of time a plant can be dehydrated before it starts taking damage.</Value>
+      <Value>Время, в течение которого растение может прожить без воды. Далее, растение начнет погибать.</Value>
     </Record>
     <Record>
       <Key>GeneWaterUsage</Key>
-      <Value>Water usage</Value>
+      <Value>Потребление воды</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionWaterUsage</Key>
-      <Value>The amount of water this plant consumes.</Value>
+      <Value>Количество воды, которое потребляет растение.</Value>
     </Record>
     <Record>
       <Key>GeneGasProduction</Key>
-      <Value>Gas production</Value>
+      <Value>Генерация газов</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionGasProduction</Key>
-      <Value>The amount of gas the plant inhales and exhales.</Value>
+      <Value>Количество газа, которое потребляет растение для жизни.</Value>
     </Record>
     <Record>
       <Key>GeneSuffocationTolerance</Key>
-      <Value>Suffocation tolerance</Value>
+      <Value>Терпимость к недостатку газа</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionSuffocationTolerance</Key>
-      <Value>The length of time a plant can be starved of its inhaled gas requirements before it starts taking damage.</Value>
+      <Value>Время, в течение которого растение может прожить без необходимого для жизни газа. Далее, оно начнет погибать.</Value>
     </Record>
     <Record>
       <Key>GeneLowPressureResistance</Key>
-      <Value>Low pressure resistance</Value>
+      <Value>Устойчивость к низкому давлению</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLowPressureResistance</Key>
-      <Value>The lower limit of pressure that the plant is able to grow at.</Value>
+      <Value>Минимальное давление. Его дальнейшее снижение, приведёт к гибели растения спустя определённый промежуток времени (ген Терпимость к низкому давлению).</Value>
     </Record>
     <Record>
       <Key>GeneLowPressureTolerance</Key>
-      <Value>Low pressure tolerance</Value>
+      <Value>Терпимость к низкому давлению</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLowPressureTolerance</Key>
-      <Value>The length of time a plant can stay below its low pressure limit before it starts taking damage.</Value>
+      <Value>Время, в течение которого растение может прожить в атмосфере с низким для него давлением. Далее, оно начнет погибать.</Value>
     </Record>
     <Record>
       <Key>GeneLowTemperatureResistance</Key>
-      <Value>Low temperature resistance</Value>
+      <Value>Устойчивость к низкой температуре</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLowTemperatureResistance</Key>
-      <Value>The lower limit of temperature that the plant is able to grow at.</Value>
+      <Value>Минимальная температура. Её дальнейшее снижение, приведёт к гибели растения спустя определённый промежуток времени (ген Терпимость к низкой температуре).</Value>
     </Record>
     <Record>
       <Key>GeneLowTemperatureTolerance</Key>
-      <Value>Low temperature tolerance</Value>
+      <Value>Терпимость к низкой температуре</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLowTemperatureTolerance</Key>
-      <Value>The length of time a plant can stay below its low temperature limit before it starts taking damage.</Value>
+      <Value>Время, в течение которого растение может прожить в атмосфере с низкой для него температурой. Далее, оно начнет погибать.</Value>
     </Record>
     <Record>
       <Key>GeneUndesiredGasResistance</Key>
-      <Value>Toxins resistance</Value>
+      <Value>Устойчивость к токсинам</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionUndesiredGasResistance</Key>
-      <Value>The partial pressure threshold of toxic gases that the plant is able to grow in.</Value>
+      <Value>Превышение парциального давления токсичного газа выше допустимого приведет к гибели растения спустя определённый промежуток времени (ген Терпимость к токсинам).</Value>
     </Record>
     <Record>
       <Key>GeneUndesiredGasTolerance</Key>
-      <Value>Toxins tolerance</Value>
+      <Value>Терпимость к токсинам</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionUndesiredGasTolerance</Key>
-      <Value>The length of time a plant can stay above its toxins resistance threshold before taking damage.</Value>
+      <Value>Время, в течение которого растение может прожить в токсичной атмосфере. Далее, оно начнет погибать.</Value>
     </Record>
     <Record>
       <Key>GeneHighPressureResistance</Key>
-      <Value>High pressure resistance</Value>
+      <Value>Устойчивость к высокому давлению</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionHighPressureResistance</Key>
-      <Value>The upper limit of pressure that the plant is able to grow at.</Value>
+      <Value>Максимальное давление, превышение которого приведёт к гибели растения спустя определённый промежуток времени (ген Терпимость к высокому давлению).</Value>
     </Record>
     <Record>
       <Key>GeneHighPressureTolerance</Key>
-      <Value>High pressure tolerance</Value>
+      <Value>Терпимость к высокому давлению</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionHighPressureTolerance</Key>
-      <Value>The length of time a plant can stay above its high pressure limit before it starts taking damage.</Value>
+      <Value>Время, в течение которого растение может прожить в атмосфере с высоким для него давлением. Далее, оно начнет погибать.</Value>
     </Record>
     <Record>
       <Key>GeneHighTemperatureResistance</Key>
-      <Value>High temperature resistance</Value>
+      <Value>Устойчивость к высокой температуре</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionHighTemperatureResistance</Key>
-      <Value>The upper limit of temperature that the plant is able to grow at.</Value>
+      <Value>Максимальная температура. Её дальнейшее повышение, приведёт к гибели растения спустя определённый промежуток времени (ген Терпимость к высокой температуре).</Value>
     </Record>
     <Record>
       <Key>GeneHighTemperatureTolerance</Key>
-      <Value>High temperature tolerance</Value>
+      <Value>Терпимость к высокой температуре</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionHighTemperatureTolerance</Key>
-      <Value>The length of time a plant can stay above its high temperature limit before it starts taking damage.</Value>
+      <Value>Время, в течение которого растение может прожить в атмосфере с высокой для него температурой. Далее, оно начнет погибать.</Value>
     </Record>
     <Record>
       <Key>GeneLightTolerance</Key>
-      <Value>Light tolerance</Value>
+      <Value>Терпимость к свету</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLightTolerance</Key>
-      <Value>The length of time a plant can stay in light before it starts taking damage.</Value>
+      <Value>Время, в течение которого растение может прожить при свете. Далее, оно начнет погибать.</Value>
     </Record>
     <Record>
       <Key>GeneDarknessTolerance</Key>
-      <Value>Darkness tolerance</Value>
+      <Value>Терпимость к темноте</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionDarknessTolerance</Key>
-      <Value>The length of time a plant can stay in darkness before it starts taking damage.</Value>
+      <Value>Время, в течение которого растение может прожить в темноте. Далее, оно начнет погибать.</Value>
     </Record>
     <Record>
       <Key>GeneCurrentSelected</Key>
@@ -19637,111 +19637,111 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlantSamplerNoSample</Key>
-      <Value>No completed sample to view</Value>
+      <Value>Нет проанализированного образца</Value>
     </Record>
     <Record>
       <Key>PlantViewSampleInfo</Key>
-      <Value>&lt;color=green&gt;Left click&lt;/color&gt; to view completed sample information</Value>
+      <Value>&lt;color=green&gt;Кликните&lt;/color&gt; чтобы изучить образец</Value>
     </Record>
     <Record>
       <Key>PlantHoldToClear</Key>
-      <Value>Hold &lt;color=yellow&gt;{KEY:QuantityModifier}&lt;/color&gt; to clear {LOCAL:Plant}</Value>
+      <Value>Зажмите &lt;color=yellow&gt;{KEY:QuantityModifier}&lt;/color&gt; чтобы убрать {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>PlantNotGrowingMature</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is not growing&lt;/color&gt; and will never fruit</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;не растёт&lt;/color&gt; и не будет плодоносить</Value>
     </Record>
     <Record>
       <Key>PlantBarelyGrowingMature</Key>
-      <Value>The {LOCAL:Plant} is barely growing toward fruiting</Value>
+      <Value>{LOCAL:Plant} едва ли растёт, пока не плодоносит</Value>
     </Record>
     <Record>
       <Key>PlantGrowingPoorlyMature</Key>
-      <Value>The {LOCAL:Plant} is growing poorly toward fruiting</Value>
+      <Value>{LOCAL:Plant} растёт слабо, пока не плодоносит</Value>
     </Record>
     <Record>
       <Key>PlantGrowingModeratelyMature</Key>
-      <Value>The {LOCAL:Plant} is growing moderately well toward fruiting</Value>
+      <Value>{LOCAL:Plant} растёт умеренно, пока не плодоносит</Value>
     </Record>
     <Record>
       <Key>PlantThrivingMature</Key>
-      <Value>The {LOCAL:Plant} is thriving toward fruiting</Value>
+      <Value>{LOCAL:Plant} растёт активно, пока не плодоносит</Value>
     </Record>
     <Record>
       <Key>PlantNotGrowingSeed</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is not growing&lt;/color&gt; and will never seed</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;не растёт&lt;/color&gt; и никогда не даст семена</Value>
     </Record>
     <Record>
       <Key>PlantBarelyGrowingSeed</Key>
-      <Value>The {LOCAL:Plant} is barely growing toward seeding</Value>
+      <Value>{LOCAL:Plant} едва ли растёт, пока не даёт семена</Value>
     </Record>
     <Record>
       <Key>PlantGrowingPoorlySeed</Key>
-      <Value>The {LOCAL:Plant} is growing poorly toward seeding</Value>
+      <Value>{LOCAL:Plant} растёт слабо, пока не даёт семена</Value>
     </Record>
     <Record>
       <Key>PlantGrowingModeratelySeed</Key>
-      <Value>The {LOCAL:Plant} is growing moderately well toward seeding</Value>
+      <Value>{LOCAL:Plant} растёт умеренно, пока не даёт семена</Value>
     </Record>
     <Record>
       <Key>PlantThrivingSeed</Key>
-      <Value>The {LOCAL:Plant} is thriving toward seeding</Value>
+      <Value>{LOCAL:Plant} растёт активно, пока не даёт семена</Value>
     </Record>
     <Record>
       <Key>PlantNotEnoughLight</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is not receiving the correct amount of light per day&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;не получает достаточного количества света в день&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantAtmosphereTooHot</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;atmosphere is too hot&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} находится в &lt;color=red&gt;слишком горячей атмосфере&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantAtmosphereTooCold</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;atmosphere is too cold&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} находится в &lt;color=red&gt;слишком холодной атмосфере&lt;/color&gt; </Value>
     </Record>
     <Record>
       <Key>PlantWaterTooHot</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;water is too hot&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} поливается &lt;color=red&gt;слишком горячей водой&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterTooCold</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;water is too cold&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} поливается &lt;color=red&gt;слишком холодной водой&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterNeeds</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;needs water&lt;/color&gt;</Value>
+      <Value>Для {LOCAL:Plant} &lt;color=red&gt;требуется вода&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantNotCorrectAtmosphere</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;does not have the correct atmosphere gas composition&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} находится в атмосфере с &lt;color=red&gt;неподходящим составом&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsPollutedByAir</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is being polluted from the air&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;отравляется воздухом&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsReceivingLight</Key>
-      <Value>The {LOCAL:Plant} is receiving light</Value>
+      <Value>{LOCAL:Plant} получает свет</Value>
     </Record>
     <Record>
       <Key>PlantIsInDarkness</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is in darkness&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} &lt;color=red&gt;в темноте&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsInLowPressureEnvironment</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is in a low pressure environment&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} находится в &lt;color=red&gt;слишком разреженной атмосфере&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantIsInHighPressureEnvironment</Key>
-      <Value>The {LOCAL:Plant} &lt;color=red&gt;is in a high pressure environment&lt;/color&gt;</Value>
+      <Value>{LOCAL:Plant} находится в &lt;color=red&gt;слишком плотной атмосфере&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantCreate</Key>
-      <Value>This will create &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; x {LOCAL:Plant}</Value>
+      <Value>Сбор даст &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; шт.  {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>PlantCreateSeeds</Key>
-      <Value>This will create &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; x {LOCAL:Plant} seeds</Value>
+      <Value>Сбор даст &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; шт. семян {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>OreNoMiningBelt</Key>
@@ -20381,15 +20381,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LightDeficient</Key>
-      <Value>Light Deficient</Value>
+      <Value>Есть</Value>
     </Record>
     <Record>
       <Key>DarknessDeficient</Key>
-      <Value>Dark Deficient</Value>
+      <Value>Есть</Value>
     </Record>
     <Record>
       <Key>NoDeficiency</Key>
-      <Value>No Deficiency</Value>
+      <Value>Нет</Value>
     </Record>
     <Record>
       <Key>RequiredContinueConstruction</Key>
@@ -22878,19 +22878,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>MolesPerHour</Key>
-      <Value>{LOCAL:Value} Moles per hour</Value>
+      <Value>{LOCAL:Value} моль/час</Value>
     </Record>
     <Record>
       <Key>InhaledGassesStationpedia</Key>
-      <Value>Inhaled Gasses</Value>
+      <Value>Потребляемые газы</Value>
     </Record>
     <Record>
       <Key>ExhaledGassesStationpedia</Key>
-      <Value>Exhaled Gasses</Value>
+      <Value>Выделяемые газы</Value>
     </Record>
     <Record>
       <Key>ToxicGassesStatiopedia</Key>
-      <Value>Toxic Gasses</Value>
+      <Value>Токсичные газы</Value>
     </Record>
     <Record>
       <Key>StartGameFailurePromptTitle</Key>
