@@ -5333,7 +5333,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
-      <Value>Набор (Разливочная машина)</Value>
+      <Value>Набор (Водомат)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7783,7 +7783,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedCanisterPackage</Key>
-      <Value>Изолированная упаковка для канистры</Value>
+      <Value>Изолированная упаковка для баллона</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8285,11 +8285,11 @@
     </Record>
     <Record>
       <Key>SensorProcessingUnit</Key>
-      <Value>Блок Обработки Датчиков</Value>
+      <Value>Блок обработки данных</Value>
     </Record>
     <Record>
       <Key>LiquidCanister</Key>
-      <Value>Канистра для жидкости</Value>
+      <Value>Жидкостный баллон</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>
@@ -8297,7 +8297,7 @@
     </Record>
     <Record>
       <Key>BottleSlot</Key>
-      <Value>Слот для Бутылки</Value>
+      <Value>Слот для бутылки</Value>
     </Record>
     <Record>
       <Key>SourcePlant</Key>
@@ -8893,7 +8893,7 @@
   <Interface>
     <Record>
       <Key>OkayConfirmation</Key>
-      <Value>Okay</Value>
+      <Value>Хорошо</Value>
     </Record>
     <Record>
       <Key>GeneticsHeader</Key>
@@ -13413,7 +13413,7 @@
     </Record>
     <Record>
       <Key>DeconstructToolTipText</Key>
-      <Value>{0} требуется для разборки</Value>
+      <Value>Для разборки требуется {0}</Value>
     </Record>
     <Record>
       <Key>SettingsDoubleClickDelay</Key>
@@ -13421,7 +13421,7 @@
     </Record>
     <Record>
       <Key>SettingsServerAdminPassword</Key>
-      <Value>Пароль Администратора Сервера</Value>
+      <Value>Пароль администратора сервера</Value>
     </Record>
     <Record>
       <Key>ScoreboardPlayer</Key>
@@ -18416,7 +18416,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
   <GameStrings>
     <Record>
       <Key>ToolRequiredToDeconstruct</Key>
-      <Value>{LOCAL:Tool} требуется для &lt;color=red&gt;разборки&lt;/color&gt;</Value>
+      <Value>Для &lt;color=red&gt;разборки&lt;/color&gt; требуется {LOCAL:Tool}</Value>
     </Record>
     <Record>
       <Key>FurnaceCurrentlySmelting</Key>
@@ -19173,15 +19173,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Pressure</Key>
-      <Value>Pressure</Value>
+      <Value>Давление</Value>
     </Record>
     <Record>
       <Key>Temperature</Key>
-      <Value>Temperature</Value>
+      <Value>Температура</Value>
     </Record>
     <Record>
       <Key>ProgrammableChipErrorCode</Key>
-      <Value>Error {LOCAL:ErrorType} at line {LOCAL:LineNumber}</Value>
+      <Value>Ошибка {LOCAL:ErrorType} в строке {LOCAL:LineNumber}</Value>
     </Record>
     <Record>
       <Key>OutputLitres</Key>
@@ -19193,7 +19193,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>OutputKPA</Key>
-      <Value>Output &lt;color=green&gt;{0} kPa&lt;/color&gt;</Value>
+      <Value>Выход &lt;color=green&gt;{0} kPa&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>OutputWatts</Key>
@@ -19277,7 +19277,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingIsNotType</Key>
-      <Value>{LOCAL:Thing0} is not type {LOCAL:Thing1}</Value>
+      <Value>{LOCAL:Thing0} не является {LOCAL:Thing1}</Value>
     </Record>
     <Record>
       <Key>ThingInteractionDisabled</Key>
@@ -19317,7 +19317,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingCanNotBeDraggedWithSomethingIn</Key>
-      <Value>Cannot be dragged with something in {LOCAL:Thing}</Value>
+      <Value>Нельзя перетащить, потому что что-то находится в {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ThingAlreadyDraggedBy</Key>
@@ -19437,7 +19437,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceNoPower</Key>
-      <Value>Cannot interact as the device is not powered</Value>
+      <Value>Нельзя взаимодействовать с незапитанным устройством</Value>
     </Record>
     <Record>
       <Key>DeviceNotOpen</Key>
@@ -19449,7 +19449,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceNotOn</Key>
-      <Value>Cannot interact as the device is not turned on</Value>
+      <Value>Нельзя взаимодействовать с выключенным устройством</Value>
     </Record>
     <Record>
       <Key>DeviceCanNotAdd</Key>
@@ -19629,11 +19629,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HoldForSmallIncrements</Key>
-      <Value>Hold {KEY:QuantityModifier} for smaller increments</Value>
+      <Value>Зажмите {KEY:QuantityModifier} для уменьшения шага </Value>
     </Record>
     <Record>
       <Key>UseLabelerToSet</Key>
-      <Value>Use a &lt;color=yellow&gt;Labeler&lt;/color&gt; to directly enter a value</Value>
+      <Value>Используйте &lt;color=yellow&gt;Маркировщик&lt;/color&gt;, чтобы ввести число напрямую</Value>
     </Record>
     <Record>
       <Key>PlantSamplerNoSample</Key>
@@ -20205,7 +20205,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CurrentlyOnFire</Key>
-      <Value>Currently &lt;color=red&gt;On Fire&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Горит!&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>IsDestroyed</Key>
@@ -20217,7 +20217,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TypeOfSlot</Key>
-      <Value>This is a &lt;color=yellow&gt;{LOCAL:SlotType}&lt;/color&gt; slot</Value>
+      <Value>Это слот для &lt;color=yellow&gt;{LOCAL:SlotType}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ItemInSlotStack</Key>
@@ -20225,7 +20225,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ItemInSlotValue</Key>
-      <Value>The {LOCAL:Thing} is at &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} заполнен на &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DoorIsWelded</Key>
@@ -20433,7 +20433,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlantDead</Key>
-      <Value>The {LOCAL:Plant} is &lt;color=red&gt;dead&lt;/color&gt;</Value>
+      <Value>Растение &lt;color=red&gt;погибло&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>TraderCrashedEvent</Key>
@@ -20801,7 +20801,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CanBeUnfastenedWithWrench</Key>
-      <Value>A &lt;color=green&gt;Wrench&lt;/color&gt; can be used to unfasten</Value>
+      <Value>Используйте &lt;color=green&gt;Гаечный ключ&lt;/color&gt;, чтобы отсоединить</Value>
     </Record>
     <Record>
       <Key>ThingCanBeDestroyedByWeather</Key>
@@ -21145,11 +21145,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AtmosphereVolume</Key>
-      <Value>Capacity</Value>
+      <Value>Объём</Value>
     </Record>
     <Record>
       <Key>LiquidsVolume</Key>
-      <Value>Liquids Volume</Value>
+      <Value>Объём жидкости</Value>
     </Record>
     <Record>
       <Key>StirlingTemperatureHot</Key>
@@ -21189,7 +21189,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingIsFastenedIn</Key>
-      <Value>Fastened in {LOCAL:Slot} on {LOCAL:Parent}</Value>
+      <Value>Присоединён в {LOCAL:Slot} к {LOCAL:Parent}</Value>
     </Record>
     <Record>
       <Key>ThingIsState</Key>
@@ -21337,7 +21337,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TradeChildItem</Key>
-      <Value>Contains a {LOCAL:Item}</Value>
+      <Value>Содержать {LOCAL:Item}</Value>
     </Record>
     <Record>
       <Key>TradeChildItemInSlot</Key>
@@ -22005,7 +22005,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>OkayConfirmation</Key>
-      <Value>Okay</Value>
+      <Value>Хорошо</Value>
     </Record>
     <Record>
       <Key>PlayerStatsMoodDeltaState</Key>
@@ -22634,7 +22634,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintContainsItem</Key>
-      <Value>Contains a &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt;</Value>
+      <Value>Устройство должно содержать &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt;</Value>
     </Record>
     <Record>
       <Key>HelperHintContainsItemInSlot</Key>
@@ -22894,19 +22894,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StartGameFailurePromptTitle</Key>
-      <Value>Failure</Value>
+      <Value>Ошибка</Value>
     </Record>
     <Record>
       <Key>StartGameFailurePromptEmptyName</Key>
-      <Value>Can not create a new save with empty name</Value>
+      <Value>Нельзя создавать сохранения без названия</Value>
     </Record>
     <Record>
       <Key>StartGameFailurePromptNameExists</Key>
-      <Value>A save already exists with this name</Value>
+      <Value>Сохранение с таким названием уже существует</Value>
     </Record>
     <Record>
       <Key>OverwriteConfirmation</Key>
-      <Value>Overwrite</Value>
+      <Value>Перезаписать</Value>
     </Record>
     <Record>
       <Key>JetpackStabilizerState</Key>
@@ -22942,7 +22942,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GasTemperature</Key>
-      <Value>Temperature: {LOCAL:Value}K</Value>
+      <Value>Температура: {LOCAL:Value}K</Value>
     </Record>
     <Record>
       <Key>RoboticArmInvalid</Key>
