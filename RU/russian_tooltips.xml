@@ -10,28 +10,12 @@
       <Value>Окружающий вас воздух содержит смертельную концентрацию токсина и/или закиси азота</Value>
     </Record>
     <Record>
-      <Key>StatusIconToxinWarning</Key>
-      <Value>Требуется внимание</Value>
-    </Record>
-    <Record>
       <Key>StatusIconHydrationDesc</Key>
       <Value>Сильное обезвоживание. Выпейте немного воды.</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationKey</Key>
       <Value>Низкий уровень воды в организме</Value>
-    </Record>
-    <Record>
-      <Key>HydrationCaution</Key>
-      <Value>Предупреждение об обезвоживании</Value>
-    </Record>
-    <Record>
-      <Key>HydrationCritical</Key>
-      <Value>Критический уровень обезвоживания</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconToxinCritical</Key>
-      <Value>В критическом состоянии</Value>
     </Record>
     <Record>
       <Key>StatusIconOxygenName</Key>
@@ -42,14 +26,6 @@
       <Value>Вдыхаемый вами воздух повреждает ваши лёгкие.</Value>
     </Record>
     <Record>
-      <Key>StatusIconOxygenWarning</Key>
-      <Value>Низкое давление в кислородном баллоне скафандра</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconOxyegnCritical</Key>
-      <Value>Низкое давление в кислородном баллоне скафандра</Value>
-    </Record>
-    <Record>
       <Key>StatusIconPressureName</Key>
       <Value>Неподходящее давление окружающего воздуха</Value>
     </Record>
@@ -58,28 +34,12 @@
       <Value>Давление окружающей атмосферы не подходит для жизни человека</Value>
     </Record>
     <Record>
-      <Key>StatusIconPressureWarning</Key>
-      <Value>Низкое давление в скафандре</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconPressureCritical</Key>
-      <Value>Критически низкое давление в скафандре</Value>
-    </Record>
-    <Record>
       <Key>StatusIconTemperatureName</Key>
       <Value>Неподходящая температура окружающего воздуха</Value>
     </Record>
     <Record>
       <Key>StatusIconTemperatureDesc</Key>
       <Value>Текущая температура вашего окружения не подходит для жизни человека</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconTempuratureWarning</Key>
-      <Value>Показывает Текущий Уровень Токсичности</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconTempuratureCritical</Key>
-      <Value>Показывает Текущий Уровень Токсичности</Value>
     </Record>
     <Record>
       <Key>StatusIconLeakingName</Key>
@@ -98,32 +58,12 @@
       <Value>Аккумулятор в скафандре разрядился. Зарядите его в Зарядном устройстве как можно скорее!</Value>
     </Record>
     <Record>
-      <Key>StatusIconGravityName</Key>
-      <Value>Нулевая гравитация</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconJetpackName</Key>
-      <Value>Реактивный ранец активен</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconClimbingName</Key>
-      <Value>Альпинизм</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconLightName</Key>
-      <Value>Переключатель налобного фонаря</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconInternalsName</Key>
-      <Value>Переключатель шлема Отркыто/Закрыто</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconHandPowerName</Key>
-      <Value>Включение/выключение предмета в руке</Value>
-    </Record>
-    <Record>
       <Key>StatusIconInSlotName</Key>
-      <Value>Вы внутри слота</Value>
+      <Value>Вы сидите</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconInSlotDesc</Key>
+      <Value>Вы находитесь в транспорте или сидите на стуле. Вам удобно?</Value>
     </Record>
     <Record>
       <Key>StatusIconHungerName</Key>
@@ -135,7 +75,11 @@
     </Record>
     <Record>
       <Key>StatusIconStunName</Key>
-      <Value>Процент оглушения</Value>
+      <Value>Оглушение</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunDesc</Key>
+      <Value>Вы теряете сознание</Value>
     </Record>
     <Record>
       <Key>StatusIconAirTankName</Key>
@@ -171,39 +115,35 @@
     </Record>
     <Record>
       <Key>StatusIconHealthName</Key>
-      <Value>Текущее здоровье</Value>
+      <Value>Низкий уровень здоровья</Value>
     </Record>
     <Record>
       <Key>StatusIconHealthDesc</Key>
-      <Value>Health is low</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconHydrationName</Key>
-      <Value>Текущая гидратация</Value>
+      <Value>Ваш организм поврежден. Со временем он восстановится, также можно съесть таблетку (Лечение) для быстрого восстановления</Value>
     </Record>
     <Record>
       <Key>StatusIconUnconsciousName</Key>
       <Value>Без сознания</Value>
     </Record>
     <Record>
+      <Key>StatusIconUnconsciousDesc</Key>
+      <Value>Одно из двух: вы либо спите, либо мертвы</Value>
+    </Record>
+    <Record>
       <Key>StatusIconMoodName</Key>
-      <Value>Current Mood</Value>
+      <Value>Плохое настроение</Value>
     </Record>
     <Record>
       <Key>StatusIconHygieneName</Key>
-      <Value>Current Hygiene</Value>
-    </Record>
-    <Record>
-      <Key>DeconstructCanisterFull</Key>
-      <Value>Невозможно разобрать. Канистра должна быть пустой</Value>
+      <Value>Плохая гигиена</Value>
     </Record>
     <Record>
       <Key>StatusIconLeavingAreaName</Key>
-      <Value>Leaving Mission Area</Value>
+      <Value>За границей миссии</Value>
     </Record>
     <Record>
     <Key>StatusIconLeavingAreaDesc</Key>
-    <Value>Out of bounds, turn around</Value>
+    <Value>Вы вышли из зоны миссии, поверните назад</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>
