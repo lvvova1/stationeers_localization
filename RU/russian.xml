@@ -9304,10 +9304,6 @@
       <Value>Тест ландшафта - Луна 2k</Value>
     </Record>
     <Record>
-      <Key>NewWorldMoon4kWorld</Key>
-      <Value>Луна</Value>
-    </Record>
-    <Record>
       <Key>NewWorldMoon8kWorld</Key>
       <Value>Тест ландшафта - Луна 8k</Value>
     </Record>
@@ -9796,7 +9792,7 @@
       <Value>Отображать портрет</Value>
     </Record>
     <Record>
-      <Key>NewWorldAreaMoon</Key>
+      <Key>WorldLunar</Key>
       <Value>Луна</Value>
     </Record>
     <Record>
@@ -10643,7 +10639,7 @@
       <Value>4K testing Map for new terrain system</Value>
     </Record>
     <Record>
-      <Key>NewWorldMoonShortDesc</Key>
+      <Key>NewWorldLunarShortDesc</Key>
       <Value>Хотя присутствие угля не характерно для земной луны, относительно ровная местность, полная различных кратеров и отсутствие атмосферы может быть более знакомо в этом сером ландшафте. Отличное место для начинающего путешественника, с меньшим количеством опасностей и сложностей относительно более экзотических миров</Value>
     </Record>
     <Record>
@@ -23636,6 +23632,14 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>EntityUnconsious</Key>
       <Value>Unconscious</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRequestingCharacter</Key>
+      <Value>Получение персонажа</Value>
+    </Record>
+    <Record>
+      <Key>SaveInvalidTerrainDataModified</Key>
+      <Value>Для этой карты были изменены данные ландшафта. Сохранение больше недействительно.</Value>
     </Record>
   </GameStrings>
   <GameTip />
