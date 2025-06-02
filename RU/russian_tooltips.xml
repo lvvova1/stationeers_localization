@@ -119,7 +119,7 @@
     </Record>
     <Record>
       <Key>StatusIconHealthDesc</Key>
-      <Value>Ваш организм поврежден. Со временем он восстановится, также можно съесть таблетку (Лечение) для быстрого восстановления</Value>
+      <Value>Ваш организм повреждён. Со временем он восстановится сам, но вы можете принять таблетку (Лечение) для ускорения</Value>
     </Record>
     <Record>
       <Key>StatusIconUnconsciousName</Key>
@@ -136,6 +136,10 @@
     <Record>
       <Key>StatusIconHygieneName</Key>
       <Value>Плохая гигиена</Value>
+    </Record>
+    <Record>
+      <Key>DeconstructCanisterFull</Key>
+      <Value>Нельзя разобрать резервуар, пока в нем есть содержимое.</Value>
     </Record>
     <Record>
       <Key>StatusIconLeavingAreaName</Key>
