@@ -8041,7 +8041,7 @@
   <Slots>
     <Record>
       <Key>SprayCan</Key>
-      <Value>Spray Can</Value>
+      <Value>Баллончик с краской</Value>
     </Record>
     <Record>
       <Key>Output</Key>
@@ -8157,11 +8157,11 @@
     </Record>
     <Record>
       <Key>Appliance1</Key>
-      <Value>Устройство 1</Value>
+      <Value>Прибор 1</Value>
     </Record>
     <Record>
       <Key>Appliance2</Key>
-      <Value>Устройство 2</Value>
+      <Value>Прибор 2</Value>
     </Record>
     <Record>
       <Key>Import</Key>
@@ -8361,23 +8361,23 @@
     </Record>
     <Record>
       <Key>Appliance</Key>
-      <Value>Appliance</Value>
+      <Value>Прибор</Value>
     </Record>
     <Record>
       <Key>SoundCartridge</Key>
-      <Value>SoundCartridge</Value>
+      <Value>Звуковой картридж</Value>
     </Record>
     <Record>
       <Key>LiquidBottle</Key>
-      <Value>Water Bottle</Value>
+      <Value>Бутылка для воды</Value>
     </Record>
     <Record>
       <Key>Bottle</Key>
-      <Value>Spray Can</Value>
+      <Value>Баллончик с краской</Value>
     </Record>
     <Record>
       <Key>Flare</Key>
-      <Value>Flare</Value>
+      <Value>Сигнальный огонь</Value>
     </Record>
     <Record>
       <Key>Tablet</Key>
@@ -13437,7 +13437,7 @@
     </Record>
     <Record>
       <Key>SiloDeconstruct</Key>
-      <Value>Ваше хранилище должно быть опустошено перед разборкой.</Value>
+      <Value>Хранилище должно быть опустошено перед разборкой.</Value>
     </Record>
     <Record>
       <Key>PressEnterToContinue</Key>
@@ -13746,8 +13746,8 @@
     <Record>
       <Key>ODADesc</Key>
       <Value>После Земного кризиса, внимание человечества к космосу уменьшилось. Однако многие считали, что без амбиций за пределами родной планеты, наш вид может идти неуверенно.
-Созданное в 2070 году недавно обновленной Организацией Объединенных Наций  - Агентство Внеземного Развития (ODA) имело конкретную цель  - направлять и поощрять освоение космоса человеком.
-Она открыла программу &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; в 2095 году. Понимая, что финансирование будет затруднено, ODA задумала программу как медленно действующую и низкозатратную космическую инициативу. Тем временем некоторые высмеивали Stationeers как «космических изгоев по сниженным ценам». Успех программы показал мудрость и прагматизм Агенства ODA.</Value>
+Созданное в 2070 году недавно обновленной Организацией Объединенных Наций  - Агентство Внеземного Развития (АВР) имело конкретную цель  - направлять и поощрять освоение космоса человеком.
+Она открыла программу &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; в 2095 году. Понимая, что финансирование будет затруднено, ODA задумала программу как медленно действующую и низкозатратную космическую инициативу. Тем временем некоторые высмеивали Stationeers как «космических изгоев по сниженным ценам». Успех программы показал мудрость и прагматизм Агентства ODA.</Value>
     </Record>
     <Record>
       <Key>Recurso</Key>
@@ -14442,7 +14442,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>GameMenuPauseGameButton</Key>
-      <Value>Pause Game</Value>
+      <Value>Приостановить игру</Value>
     </Record>
     <Record>
       <Key>WorldConfigurationDifficultyTitle</Key>
@@ -16060,11 +16060,11 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>SpawnDataPropellentCanister</Key>
-      <Value>Propellent Canister</Value>
+      <Value>Баллон с пропеллентом</Value>
     </Record>
     <Record>
       <Key>InputPanelSearchPlaceHolderText</Key>
-      <Value>Search Filter</Value>
+      <Value>Поиск</Value>
     </Record>
     <Record>
       <Key>AirControlTitle</Key>
@@ -18468,7 +18468,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>InteractableAction</Key>
-      <Value>Set {LOCAL:InteractableAction}</Value>
+      <Value>Установить {LOCAL:InteractableAction}</Value>
     </Record>
     <Record>
       <Key>DeleteSavePrompt</Key>
@@ -19089,7 +19089,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GlobalChangeSettingTo</Key>
-      <Value>Cycle to {0}</Value>
+      <Value>Переключить на {0}</Value>
     </Record>
     <Record>
       <Key>GlobalChangeSettingToAll</Key>
@@ -19133,15 +19133,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GlobalIncrease</Key>
-      <Value>Increase</Value>
+      <Value>Увеличить</Value>
     </Record>
     <Record>
       <Key>GlobalDecrease</Key>
-      <Value>Decrease</Value>
+      <Value>Уменьшить</Value>
     </Record>
     <Record>
       <Key>GlobalStackSize</Key>
-      <Value>Stacksize &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Количество: &lt;color=green&gt;{0}&lt;/color&gt; шт.</Value>
     </Record>
     <Record>
       <Key>GlobalMaxMode</Key>
@@ -19161,7 +19161,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GlobalVolumeLitre</Key>
-      <Value>Volume &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+      <Value>Объем &lt;color=green&gt;{0} л&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalRadius</Key>
@@ -19185,27 +19185,27 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>OutputLitres</Key>
-      <Value>Output &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+      <Value>Вывод &lt;color=green&gt;{0} л&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>InputLitres</Key>
-      <Value>Input &lt;color=green&gt;{0} L&lt;/color&gt;</Value>
+      <Value>Ввод &lt;color=green&gt;{0} л&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>OutputKPA</Key>
-      <Value>Выход &lt;color=green&gt;{0} kPa&lt;/color&gt;</Value>
+      <Value>Вывод &lt;color=green&gt;{0} кПа&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>OutputWatts</Key>
-      <Value>Output &lt;color=green&gt;{0} W&lt;/color&gt;</Value>
+      <Value>Вывод &lt;color=green&gt;{0} Вт&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>Input1Ratio</Key>
-      <Value>Input 1 &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+      <Value>Ввод 1 &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>Input2Ratio</Key>
-      <Value>Input 2 &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+      <Value>Ввод 2 &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>VerticalDegrees</Key>
@@ -19285,23 +19285,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingCurrentlyFlashingError</Key>
-      <Value>Currently flashing an error</Value>
+      <Value>Сейчас мигает светодиод ошибки</Value>
     </Record>
     <Record>
       <Key>ThingCycleTo</Key>
-      <Value>Cycle to {LOCAL:Thing}</Value>
+      <Value>Сменить на {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ThingNotEnoughReagents</Key>
-      <Value>Not enough reagents for current plan</Value>
+      <Value>Недостаточно реагентов для текущего плана</Value>
     </Record>
     <Record>
       <Key>ThingSelectRecipeFromList</Key>
-      <Value>Select Recipe from List</Value>
+      <Value>Выберите рецепт из списка</Value>
     </Record>
     <Record>
       <Key>ThingClearUnknownRecipe</Key>
-      <Value>Clear Unknown Recipe</Value>
+      <Value>Убрать неизвестный рецепт</Value>
     </Record>
     <Record>
       <Key>ThingCreateThing</Key>
@@ -19309,7 +19309,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingCanNotManufacture</Key>
-      <Value>Cannot manufacture {LOCAL:Thing} without all required reagents</Value>
+      <Value>Невозможно произвести {LOCAL:Thing}: отсутствуют необходимые реагенты</Value>
     </Record>
     <Record>
       <Key>ThingToFarAwayForDrag</Key>
@@ -19521,7 +19521,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceNothingToChangeTo</Key>
-      <Value>Nothing inside to change to</Value>
+      <Value>Внутри ничего нет</Value>
     </Record>
     <Record>
       <Key>DeviceNothingSelectedToDispense</Key>
@@ -20197,7 +20197,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>IngotIsType</Key>
-      <Value>This is a &lt;color=yellow&gt;{LOCAL:Type}&lt;/color&gt;</Value>
+      <Value>Это &lt;color=yellow&gt;{LOCAL:Type}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CannotBePickedUpRightNow</Key>
@@ -20309,7 +20309,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>MergeRequiresTool</Key>
-      <Value>Merging requires &lt;color=green&gt;{LOCAL:Tool}&lt;/color&gt; in other hand</Value>
+      <Value>Для объединения требуется &lt;color=green&gt;{LOCAL:Tool}&lt;/color&gt; в другой руке</Value>
     </Record>
     <Record>
       <Key>EntityIsCurrentlyState</Key>
@@ -20769,19 +20769,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ConnectionGeneric</Key>
-      <Value>Connection</Value>
+      <Value>Соединение</Value>
     </Record>
     <Record>
       <Key>CanConnectTo</Key>
-      <Value>Provides {LOCAL:NetworkType} connection</Value>
+      <Value>Подключение для {LOCAL:NetworkType}</Value>
     </Record>
     <Record>
       <Key>ConnectionForThing</Key>
-      <Value>Connection for {LOCAL:ParentThing}</Value>
+      <Value>Соединение для {LOCAL:ParentThing}</Value>
     </Record>
     <Record>
       <Key>ConnectionToThing</Key>
-      <Value>Connected to {LOCAL:ConnectedThing}</Value>
+      <Value>Подключено к {LOCAL:ConnectedThing}</Value>
     </Record>
     <Record>
       <Key>ThingIsHeating</Key>
@@ -21185,7 +21185,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SlotContainsItem</Key>
-      <Value>{LOCAL:Slot} contains {LOCAL:Item}</Value>
+      <Value>Слот {LOCAL:Slot} содержит {LOCAL:Item}</Value>
     </Record>
     <Record>
       <Key>ThingIsFastenedIn</Key>
@@ -21293,7 +21293,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TradeItemNutrition</Key>
-      <Value>Provides {LOCAL:Value} nutrition</Value>
+      <Value>Даёт {LOCAL:Value} насыщения</Value>
     </Record>
     <Record>
       <Key>TradeItemQuantity</Key>
@@ -21861,11 +21861,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ToolRequiredToOpen</Key>
-      <Value>&lt;color=green&gt;{Local:Tool}&lt;/color&gt; required to open</Value>
+      <Value>Для открытия требуется &lt;color=green&gt;{Local:Tool}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ToolRequiredToClose</Key>
-      <Value>&lt;color=green&gt;{Local:Tool}&lt;/color&gt; required to close</Value>
+      <Value>Для закрытия требуется &lt;color=green&gt;{Local:Tool}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>RocketTowerPlacementRule</Key>
@@ -22650,7 +22650,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintQuantityComparison</Key>
-      <Value>Quantity {LOCAL:ComparisonOperator} </Value>
+      <Value>Количество должно быть {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintPressureCondition</Key>
@@ -22914,11 +22914,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>MiningDrillModeDefault</Key>
-      <Value>Default</Value>
+      <Value>Обычный</Value>
     </Record>
     <Record>
       <Key>MiningDrillModeFlatten</Key>
-      <Value>Flatten</Value>
+      <Value>Плоский</Value>
     </Record>
     <Record>
       <Key>FlashLightModeLowPower</Key>
@@ -22938,7 +22938,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>InputPanelSelectRecipe</Key>
-      <Value>Select Recipe</Value>
+      <Value>Выберите рецепт</Value>
     </Record>
     <Record>
       <Key>GasTemperature</Key>
@@ -23247,11 +23247,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>IngotTypeAlloy</Key>
-      <Value>Alloy</Value>
+      <Value>Сплав</Value>
     </Record>
     <Record>
       <Key>IngotTypeSuperAlloy</Key>
-      <Value>Super Alloy</Value>
+      <Value>Суперсплав</Value>
     </Record>
     <Record>
       <Key>SPDASlotType</Key>
@@ -23295,55 +23295,55 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ConnectionRoleNone</Key>
-      <Value>None</Value>
+      <Value>Нет</Value>
     </Record>
     <Record>
       <Key>ConnectionRoleInput</Key>
-      <Value>Input</Value>
+      <Value>Вход</Value>
     </Record>
     <Record>
       <Key>ConnectionRoleInput2</Key>
-      <Value>Input 2</Value>
+      <Value>Вход 2</Value>
     </Record>
     <Record>
       <Key>ConnectionRoleOutput</Key>
-      <Value>Output</Value>
+      <Value>Выход</Value>
     </Record>
     <Record>
       <Key>ConnectionRoleOutput2</Key>
-      <Value>Output 2</Value>
+      <Value>Выход 2</Value>
     </Record>
     <Record>
       <Key>ConnectionRoleWaste</Key>
-      <Value>Waste</Value>
+      <Value>Отходы</Value>
     </Record>
     <Record>
       <Key>NetworkTypePipe</Key>
-      <Value>Pipe</Value>
+      <Value>Газовая труба</Value>
     </Record>
     <Record>
       <Key>NetworkTypePower</Key>
-      <Value>Power</Value>
+      <Value>Питание</Value>
     </Record>
     <Record>
       <Key>NetworkTypeData</Key>
-      <Value>Data</Value>
+      <Value>Данные</Value>
     </Record>
     <Record>
       <Key>NetworkTypeChute</Key>
-      <Value>Chute</Value>
+      <Value>Транспортная  труба</Value>
     </Record>
     <Record>
       <Key>NetworkTypeElevator</Key>
-      <Value>Elevator</Value>
+      <Value>Лифт</Value>
     </Record>
     <Record>
       <Key>NetworkTypePipeLiquid</Key>
-      <Value>Pipe Liquid</Value>
+      <Value>Жидкостная труба</Value>
     </Record>
     <Record>
       <Key>NetworkTypeLandingPad</Key>
-      <Value>Landing Pad</Value>
+      <Value>Посадочная площадка</Value>
     </Record>
     <Record>
       <Key>NetworkTypeLaunchPad</Key>
@@ -23399,31 +23399,31 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateEmpty</Key>
-      <Value>Empty</Value>
+      <Value>Заряд: Нет</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateCritical</Key>
-      <Value>Critical</Value>
+      <Value>Заряд: Критический</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateLow</Key>
-      <Value>Low</Value>
+      <Value>Заряд: Низкий</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateVeryLow</Key>
-      <Value>Very Low</Value>
+      <Value>Заряд: Очень низкий</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateMedium</Key>
-      <Value>Medium</Value>
+      <Value>Заряд: Средний</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateHigh</Key>
-      <Value>High</Value>
+      <Value>Заряд: Высокий</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateFull</Key>
-      <Value>Полный</Value>
+      <Value>Заряд: Полный</Value>
     </Record>
     <Record>
       <Key>CommsMotherboardCurrentlyTrading</Key>
@@ -23619,11 +23619,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>FabricatorFindRecipe</Key>
-      <Value>Find Recipe</Value>
+      <Value>Найти рецепт</Value>
     </Record>
     <Record>
       <Key>FabricatorUknownRecipe</Key>
-      <Value>Unknown Recipe</Value>
+      <Value>Неизвестный рецепт</Value>
     </Record>
     <Record>
       <Key>EntityDeceased</Key>
