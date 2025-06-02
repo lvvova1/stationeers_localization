@@ -20516,7 +20516,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlantDead</Key>
-      <Value>Растение &lt;color=red&gt;погибло&lt;/color&gt;</Value>
+      <Value>Растение {LOCAL:Plant} &lt;color=red&gt;погибло&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>TraderCrashedEvent</Key>
