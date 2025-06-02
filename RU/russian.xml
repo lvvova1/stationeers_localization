@@ -6845,6 +6845,81 @@
       <Description>Moves liquids from a pipe network to the world atmosphere.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemClothingBagOveralls_Aus</Key>
+      <Value>Спецодежда (Австралия)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Brazil</Key>
+      <Value>Спецодежда (Бразилия)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Canada</Key>
+      <Value>Спецодежда (Канада)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_China</Key>
+      <Value>Спецодежда (Китай)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_EU</Key>
+      <Value>Спецодежда (Европа)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_France</Key>
+      <Value>Спецодежда (Франция)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Germany</Key>
+      <Value>Спецодежда (Германия)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Japan</Key>
+      <Value>Спецодежда (Япония)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Korea</Key>
+      <Value>Спецодежда (Корея)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_NZ</Key>
+      <Value>Спецодежда (Новая Зеландия)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Russia</Key>
+      <Value>Спецодежда (Россия)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_SouthAfrica</Key>
+      <Value>Спецодежда (Южная Африка)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_UK</Key>
+      <Value>Спецодежда (Объединённое Королевство)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Ukraine</Key>
+      <Value>Спецодежда (Украина)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_US</Key>
+      <Value>Спецодежда (США)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
       <Key>StructureSmallDirectHeatExchangeLiquidtoGas</Key>
       <Value>Теплообменник (Газ + жидкость) </Value>
       <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
@@ -8362,6 +8437,14 @@
     <Record>
       <Key>Appliance</Key>
       <Value>Прибор</Value>
+    </Record>
+    <Record>
+      <Key>Circuitboard</Key>
+      <Value>Плата</Value>
+    </Record>
+    <Record>
+      <Key>DrillHead</Key>
+      <Value>Бурильная головка</Value>
     </Record>
     <Record>
       <Key>SoundCartridge</Key>
