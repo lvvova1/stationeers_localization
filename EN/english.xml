@@ -9160,7 +9160,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Occupant</Value>
     </Record>
     <Record>
-      <Key>PortableSlot</Key>
+      <Key>Portables</Key>
       <Value>Portable Slot</Value>
     </Record>
     <Record>
@@ -9204,7 +9204,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Circuit</Value>
     </Record>
     <Record>
-      <Key>CircuitBoard</Key>
+      <Key>Circuitboard</Key>
       <Value>Circuit Board</Value>
     </Record>
     <Record>
@@ -11665,6 +11665,138 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>NewWorldMimasShortDesc</Key>
       <Value>A barren rock nestled under the wing of Saturn's spectacular rings. Mimas tiny stature is reflected in its extremely low gravity, and the Mimantean surface is saturated with impact craters from wayward ring occupants. It's distance from the sun provides little power from solar devices.Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the extremely low gravity.</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarDorsumCaradus</Key>
+      <Value>Dorsum Caradus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarLacusJaewoo</Key>
+      <Value>Lacus Jaewoo</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarPromontoriumSolis</Key>
+      <Value>Promontorium Solis</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMareSimonis</Key>
+      <Value>Mare Simonis</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMontesUmbrarum</Key>
+      <Value>Montes Umbrarum</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarVallisLiama</Key>
+      <Value>Vallis Liama</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterVeritas</Key>
+      <Value>Crater Veritas</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarLabyrinthusPetr</Key>
+      <Value>Labyrinthus Petr</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarTerraDylan</Key>
+      <Value>Terra Dylan</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarFossaMyers</Key>
+      <Value>Fossa Myers</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarDorsumMcLean</Key>
+      <Value>Dorsum McLean</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarPalusAeternus</Key>
+      <Value>Palus Aeternus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMonsArcanus</Key>
+      <Value>Mons Arcanus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterElissae</Key>
+      <Value>Crater Elissae</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarSinusTenebrae</Key>
+      <Value>Sinus Tenebrae</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterVesper</Key>
+      <Value>Crater Vesper</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarPlanitiaSolstitia</Key>
+      <Value>Planitia Solstitia</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMontesFulgur</Key>
+      <Value>Montes Fulgur</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarVallisCineris</Key>
+      <Value>Vallis Cineris</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarDorsumBorealis</Key>
+      <Value>Dorsum Borealis</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarLacusGelidus</Key>
+      <Value>Lacus Gelidus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarPromontoriumZenith</Key>
+      <Value>Promontorium Zenith</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarTerraFerruginea</Key>
+      <Value>Terra Ferruginea</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarFossaAbyssus</Key>
+      <Value>Fossa Abyssus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMareSomnii</Key>
+      <Value>Mare Somnii</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarRimaSerpentis</Key>
+      <Value>Rima Serpentis</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarLacusBellus</Key>
+      <Value>Lacus Bellus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarVallisOblivionis</Key>
+      <Value>Vallis Oblivionis</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterNox</Key>
+      <Value>Crater Nox</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterSolaris</Key>
+      <Value>Crater Solaris</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterNovus</Key>
+      <Value>Crater Novus</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarRupesMagna</Key>
+      <Value>Rupes Magna</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarSpeculaObservans</Key>
+      <Value>Specula Observans</Value>
     </Record>
     <Record>
       <Key>SettingsTitleAudioAlerts</Key>
