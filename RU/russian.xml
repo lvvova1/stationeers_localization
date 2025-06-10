@@ -9240,7 +9240,7 @@
     </Record>
     <Record>
       <Key>MainMenuWorkshop</Key>
-      <Value>Мастерская</Value>
+      <Value>&lt;size=85%&gt;Мастерская&lt;/size&gt;</Value>
     </Record>
     <Record>
       <Key>MainMenuLocal</Key>
@@ -9316,11 +9316,11 @@
     </Record>
     <Record>
       <Key>JoinMenuButtonJoin</Key>
-      <Value>Присоединиться</Value>
+      <Value>Зайти на сервер</Value>
     </Record>
     <Record>
       <Key>JoinMenuButtonDirectConnect</Key>
-      <Value>Прямое подключение</Value>
+      <Value>&lt;size=85%&gt;Прямое подключение&lt;/size&gt;</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerListName</Key>
@@ -10971,7 +10971,7 @@
     </Record>
     <Record>
       <Key>ButtonLoad</Key>
-      <Value>Загрузить</Value>
+      <Value>&lt;size=80%&gt;Загрузить&lt;/size&gt;</Value>
     </Record>
     <Record>
       <Key>ButtonLoadLatest</Key>
