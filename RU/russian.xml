@@ -15059,19 +15059,19 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>DefaultStartConditionVulcan</Key>
-      <Value>Standard (Vulcan)</Value>
+      <Value>Стандартные (Вулкан)</Value>
     </Record>
     <Record>
       <Key>DefaultStartConditionEuropa</Key>
-      <Value>Standard (Europa)</Value>
+      <Value>Стандартные (Европа)</Value>
     </Record>
     <Record>
       <Key>DefaultStartConditionMimas</Key>
-      <Value>Standard (Mimas)</Value>
+      <Value>Стандартные (Мимас)</Value>
     </Record>
     <Record>
       <Key>DefaultStartConditionVenus</Key>
-      <Value>Standard (Venus)</Value>
+      <Value>Стандартные (Венера)</Value>
     </Record>
     <Record>
       <Key>BrutalStartCondition</Key>
@@ -15079,15 +15079,15 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>BrutalStartConditionEuropa</Key>
-      <Value>Brutal (Europa)</Value>
+      <Value>Жестокие (Европа)</Value>
     </Record>
     <Record>
       <Key>BrutalStartConditionMimas</Key>
-      <Value>Brutal (Mimas)</Value>
+      <Value>Жестокие (Мимас)</Value>
     </Record>
     <Record>
       <Key>BrutalStartConditionVulcan</Key>
-      <Value>Brutal (Hot Planet)</Value>
+      <Value>Жестокие (Вулкан)</Value>
     </Record>
     <Record>
       <Key>BrutalStartConditionDescription</Key>
@@ -16343,15 +16343,15 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>DustStorm</Key>
-      <Value>Dust Storm</Value>
+      <Value>Пылевая буря</Value>
     </Record>
     <Record>
       <Key>SnowStorm</Key>
-      <Value>Snow Storm</Value>
+      <Value>Снежная буря</Value>
     </Record>
     <Record>
       <Key>AshStorm</Key>
-      <Value>Ash Storm</Value>
+      <Value>Пепельная буря</Value>
     </Record>
     <Record>
       <Key>RainWeather</Key>
@@ -18683,7 +18683,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>DeleteSavePrompt</Key>
-      <Value>Are you sure you want to delete:
+      <Value>Вы уверены, что хотите удалить
 &lt;color=red&gt;{LOCAL:WorldSaveName}&lt;/color&gt;</Value>
     </Record>
     <Record>
@@ -20960,7 +20960,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>WorldInfoPlanetWeather</Key>
-      <Value>Will experience {LOCAL:Weather} events</Value>
+      <Value>Погодные явления: {LOCAL:Weather}</Value>
     </Record>
     <Record>
       <Key>ThingDamageIsAt</Key>
@@ -21052,11 +21052,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyThingStatus</Key>
-      <Value>{LOCAL:Type} to {LOCAL:Thing} is {LOCAL:Status}</Value>
+      <Value>{LOCAL:Type} для {LOCAL:Thing}: {LOCAL:Status}</Value>
     </Record>
     <Record>
       <Key>DifficultyThingValueRate</Key>
-      <Value>{LOCAL:Type} to {LOCAL:Thing} rate {LOCAL:Value}</Value>
+      <Value>{LOCAL:Type} для {LOCAL:Thing}: {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>PassedMolesDescription</Key>
@@ -22540,7 +22540,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyValuePeriod</Key>
-      <Value>{LOCAL:Type} period {LOCAL:Value}</Value>
+      <Value>Период {LOCAL:Type}: {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>DifficultyValueStatusAre</Key>
