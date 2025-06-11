@@ -9125,11 +9125,11 @@
     </Record>
     <Record>
       <Key>FrozenOreHeader</Key>
-      <Value>Замороженные руды</Value>
+      <Value>Льды</Value>
     </Record>
     <Record>
       <Key>PureIceHeader</Key>
-      <Value>Pure Ices</Value>
+      <Value>Чистые льды</Value>
     </Record>
     <Record>
       <Key>CartridgeCategory</Key>
@@ -9141,7 +9141,7 @@
     </Record>
     <Record>
       <Key>PersonalToolbelt</Key>
-      <Value>Пояса для инструментов</Value>
+      <Value>Поясы</Value>
     </Record>
     <Record>
       <Key>Other</Key>
@@ -14258,7 +14258,7 @@
     </Record>
     <Record>
       <Key>StationpediaPrefabHash</Key>
-      <Value>Prefab Hash:</Value>
+      <Value>Хэш структуры:</Value>
     </Record>
     <Record>
       <Key>StationpediaPaintable</Key>
@@ -14286,11 +14286,11 @@
     </Record>
     <Record>
       <Key>StationpediaMolesPerLitreHeader</Key>
-      <Value>Mols per Litre:</Value>
+      <Value>Молей в литре:</Value>
     </Record>
     <Record>
       <Key>StationpediaMolesPerLitreInWorldHeader</Key>
-      <Value>Mols per Litre In-World:</Value>
+      <Value>Молей в литре в мире:</Value>
     </Record>
     <Record>
       <Key>StationpediaShatterHeader</Key>
@@ -14306,23 +14306,23 @@
     </Record>
     <Record>
       <Key>FreezeTemperature</Key>
-      <Value>Freezing Temperature:</Value>
+      <Value>Точка замерзания:</Value>
     </Record>
     <Record>
       <Key>BoilingTemperature</Key>
-      <Value>Boiling Temperature:</Value>
+      <Value>Точка кипения:</Value>
     </Record>
     <Record>
       <Key>MaxLiquidTemperature</Key>
-      <Value>Max Liquid Temperature:</Value>
+      <Value>Макс температура жидкости:</Value>
     </Record>
     <Record>
       <Key>MinLiquidPressure</Key>
-      <Value>Min Condensation Pressure:</Value>
+      <Value>Мин давление конденсации:</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructedFrom</Key>
-      <Value>Построено С</Value>
+      <Value>Построено из</Value>
     </Record>
     <Record>
       <Key>StationpediaSlotsHeader</Key>
@@ -14330,11 +14330,11 @@
     </Record>
     <Record>
       <Key>StationpediaHowToManufacture</Key>
-      <Value>Как Произвести</Value>
+      <Value>Делается в</Value>
     </Record>
     <Record>
       <Key>StationpediaBuildStates</Key>
-      <Value>Этапы Строительства</Value>
+      <Value>Этапы строительства</Value>
     </Record>
     <Record>
       <Key>StationpediaMachineVersion</Key>
@@ -14342,11 +14342,11 @@
     </Record>
     <Record>
       <Key>StationpediaGasHeader</Key>
-      <Value>Газы</Value>
+      <Value>Содержит газы</Value>
     </Record>
     <Record>
       <Key>StationpediaResoucesHeader</Key>
-      <Value>Используемые Ресурсы</Value>
+      <Value>Используемые ресурсы</Value>
     </Record>
     <Record>
       <Key>StationpediaUsedIn</Key>
@@ -14375,8 +14375,7 @@
     </Record>
     <Record>
       <Key>StationpediaLogicSlotHeader</Key>
-      <Value>Логические Слоты
-</Value>
+      <Value>Логические слоты</Value>
     </Record>
     <Record>
       <Key>StationpediaTutorialListHeader</Key>
@@ -14528,15 +14527,15 @@
     </Record>
     <Record>
       <Key>StationpediaBasePowerUsage</Key>
-      <Value>Base Power Usage:</Value>
+      <Value>Базовое потребление энергии:</Value>
     </Record>
     <Record>
       <Key>StationpediaMaxPressure</Key>
-      <Value>Max Pressure:</Value>
+      <Value>Максимальное давление:</Value>
     </Record>
     <Record>
       <Key>StationpediaVolume</Key>
-      <Value>Volume:</Value>
+      <Value>Объём:</Value>
     </Record>
     <Record>
       <Key>StationpediaNutrition</Key>
@@ -14798,7 +14797,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>StationpediaConnectionsHeader</Key>
-      <Value>Connections</Value>
+      <Value>Соединения</Value>
     </Record>
     <Record>
       <Key>StationpediaTypeName</Key>
@@ -14806,7 +14805,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>StationpediaPrefabName</Key>
-      <Value>Prefab Name:</Value>
+      <Value>Префаб:</Value>
     </Record>
     <Record>
       <Key>StationpediaTypeHash</Key>
@@ -14846,21 +14845,21 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>PhaseChangeLogScale</Key>
-      <Value>Log Scale</Value>
+      <Value>Логарифм</Value>
     </Record>
     <Record>
       <Key>PhaseDiagramTemperatureDisplay</Key>
-      <Value>Temperature:
+      <Value>Температура:
 </Value>
     </Record>
     <Record>
       <Key>PhaseDiagramPressuredisplay</Key>
-      <Value>Pressure:
+      <Value>Давление:
 </Value>
     </Record>
     <Record>
       <Key>PhaseChangeCelsius</Key>
-      <Value>Use Celsius</Value>
+      <Value>Градусы Цельсия</Value>
     </Record>
     <Record>
       <Key>SetDestinationButton</Key>
@@ -15016,7 +15015,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>PhaseChangeCompareTo</Key>
-      <Value>Compare to:</Value>
+      <Value>Сравнить с:</Value>
     </Record>
     <Record>
       <Key>StationpediaLogicInstructions</Key>
@@ -15028,15 +15027,15 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>StationpediaInternalMemory</Key>
-      <Value>Internal Memory</Value>
+      <Value>Внутренняя память</Value>
     </Record>
     <Record>
       <Key>StationpediaMemoryHeader</Key>
-      <Value>Size:</Value>
+      <Value>Размер:</Value>
     </Record>
     <Record>
       <Key>StationpediaMemoryAccessHeader</Key>
-      <Value>Access:</Value>
+      <Value>Доступ:</Value>
     </Record>
     <Record>
       <Key>InventorySlotSuitBack</Key>
@@ -20725,7 +20724,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ManufacturesAtTier</Key>
-      <Value>Manufactures at &lt;color=yellow&gt;{LOCAL:MachineTier}&lt;/color&gt;</Value>
+      <Value>Производится на &lt;color=yellow&gt;{LOCAL:MachineTier}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>StationpediaBuildStateUpgrade</Key>
@@ -23463,15 +23462,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SPDASlotType</Key>
-      <Value>Type: </Value>
+      <Value>Тип: </Value>
     </Record>
     <Record>
       <Key>SPDASlotIndex</Key>
-      <Value>Index: </Value>
+      <Value>Индекс: </Value>
     </Record>
     <Record>
       <Key>SPDAManufacturerRequirements</Key>
-      <Value>Requirements:</Value>
+      <Value>Требования:</Value>
     </Record>
     <Record>
       <Key>RecipeEnergy</Key>
@@ -23479,7 +23478,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RecipeReagentFrom</Key>
-      <Value> from </Value>
+      <Value> из </Value>
     </Record>
     <Record>
       <Key>RecipeTemperatureRangeSeporator</Key>
@@ -23487,15 +23486,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ConstructableInRocketsTrue</Key>
-      <Value>True</Value>
+      <Value>Да</Value>
     </Record>
     <Record>
       <Key>YesPaintable</Key>
-      <Value>Yes</Value>
+      <Value>Да</Value>
     </Record>
     <Record>
       <Key>NoPaintable</Key>
-      <Value>No</Value>
+      <Value>Нет</Value>
     </Record>
     <Record>
       <Key>SiloItemCount</Key>
@@ -23707,15 +23706,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LogicWrite</Key>
-      <Value>Write</Value>
+      <Value>Запись</Value>
     </Record>
     <Record>
       <Key>LogicRead</Key>
-      <Value>Read</Value>
+      <Value>Чтение</Value>
     </Record>
     <Record>
       <Key>LogicReadWrite</Key>
-      <Value>Read Write</Value>
+      <Value>Чтение/Запись</Value>
     </Record>
     <Record>
       <Key>MemoryAccessNone</Key>
