@@ -8993,6 +8993,11 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>StructureRocketSpotCamera</Key>
       <Value>Rocket Spot Camera</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>CartridgeDeepMiner</Key>
+      <Value>Cartridge (Deep Miner)</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -18076,7 +18081,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>NewWorldLunarShortDesc</Key>
-      <Value></Value>
+      <Value />
     </Record>
   </Interface>
   <Colors>
@@ -24728,6 +24733,22 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>SaveInvalidTerrainDataModified</Key>
       <Value>The Terrain data for this map has been modified. This save is no longer valid.</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMoodReduction</Key>
+      <Value>Mood reduction</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHygieneReduction</Key>
+      <Value>Hygiene reduction</Value>
+    </Record>
+    <Record>
+      <Key>PressToExit</Key>
+      <Value>Press {KEY:ExitKey} to exit</Value>
+    </Record>
+    <Record>
+      <Key>LeavingPlayableArea</Key>
+      <Value>Leaving playable area</Value>
     </Record>
   </GameStrings>
   <GameTip />
