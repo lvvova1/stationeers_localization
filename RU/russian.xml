@@ -8112,6 +8112,11 @@
       <Key>StructureDispersalTowerChimneyExtension</Key>
       <Value>Башня рассеивания (Удлинитель дымохода)</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>CartridgeDeepMiner</Key>
+      <Value>Картридж (Глубинный рудокоп)</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -10751,135 +10756,135 @@
     </Record>
     <Record>
       <Key>GeoNameLunarDorsumCaradus</Key>
-      <Value>Dorsum Caradus</Value>
+      <Value>Хребет Карадуса</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarLacusJaewoo</Key>
-      <Value>Lacus Jaewoo</Value>
+      <Value>Озеро Джейву</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarPromontoriumSolis</Key>
-      <Value>Promontorium Solis</Value>
+      <Value>Мыс Солнца</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarMareSimonis</Key>
-      <Value>Mare Simonis</Value>
+      <Value>Море Саймона</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarMontesUmbrarum</Key>
-      <Value>Montes Umbrarum</Value>
+      <Value>Горы Теней</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarVallisLiama</Key>
-      <Value>Vallis Liama</Value>
+      <Value>Долина Лиама</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterVeritas</Key>
-      <Value>Crater Veritas</Value>
+      <Value>Чаша Истины</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarLabyrinthusPetr</Key>
-      <Value>Labyrinthus Petr</Value>
+      <Value>Лабиринт Петра</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarTerraDylan</Key>
-      <Value>Terra Dylan</Value>
+      <Value>Земля Дилана</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarFossaMyers</Key>
-      <Value>Fossa Myers</Value>
+      <Value>Ров Майерса</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarDorsumMcLean</Key>
-      <Value>Dorsum McLean</Value>
+      <Value>Хребет Маклина</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarPalusAeternus</Key>
-      <Value>Palus Aeternus</Value>
+      <Value>Болото Вечности</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarMonsArcanus</Key>
-      <Value>Mons Arcanus</Value>
+      <Value>Гора Тайны</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterElissae</Key>
-      <Value>Crater Elissae</Value>
+      <Value>Чаша Элизы</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarSinusTenebrae</Key>
-      <Value>Sinus Tenebrae</Value>
+      <Value>Бухта Тьмы</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterVesper</Key>
-      <Value>Crater Vesper</Value>
+      <Value>Чаша Вечера</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarPlanitiaSolstitia</Key>
-      <Value>Planitia Solstitia</Value>
+      <Value>Равнина Солнцестояния</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarMontesFulgur</Key>
-      <Value>Montes Fulgur</Value>
+      <Value>Горы Молний</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarVallisCineris</Key>
-      <Value>Vallis Cineris</Value>
+      <Value>Долина Пепла</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarDorsumBorealis</Key>
-      <Value>Dorsum Borealis</Value>
+      <Value>Хребет Северный</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarLacusGelidus</Key>
-      <Value>Lacus Gelidus</Value>
+      <Value>Озеро Прохлады</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarPromontoriumZenith</Key>
-      <Value>Promontorium Zenith</Value>
+      <Value>Мыс Зенита</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarTerraFerruginea</Key>
-      <Value>Terra Ferruginea</Value>
+      <Value>Земля Железа</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarFossaAbyssus</Key>
-      <Value>Fossa Abyssus</Value>
+      <Value>Ров Бездны</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarMareSomnii</Key>
-      <Value>Mare Somnii</Value>
+      <Value>Море Грёз</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarRimaSerpentis</Key>
-      <Value>Rima Serpentis</Value>
+      <Value>Разлом Змеи</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarLacusBellus</Key>
-      <Value>Lacus Bellus</Value>
+      <Value>Озеро Милости</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarVallisOblivionis</Key>
-      <Value>Vallis Oblivionis</Value>
+      <Value>Долина Забвения</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterNox</Key>
-      <Value>Crater Nox</Value>
+      <Value>Чаша Ночи</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterSolaris</Key>
-      <Value>Crater Solaris</Value>
+      <Value>Чаша Солнца</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterNovus</Key>
-      <Value>Crater Novus</Value>
+      <Value>Чаша Молодости</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarRupesMagna</Key>
-      <Value>Rupes Magna</Value>
+      <Value>Обрыв Магны</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarSpeculaObservans</Key>
-      <Value>Specula Observans</Value>
+      <Value>Очки Наблюдения</Value>
     </Record>
     <Record>
       <Key>SettingsTitleAudioAlerts</Key>
@@ -23036,14 +23041,6 @@ Status: {LOCAL:StatusValue}</Value>
       <Value>Расход батареи робота</Value>
     </Record>
     <Record>
-      <Key>DifficultyStatisticMoonReduction</Key>
-      <Value>Снижение настроения</Value>
-    </Record>
-    <Record>
-      <Key>DifficultyStatisticHygeineReduction</Key>
-      <Value>Снижение гигиены</Value>
-    </Record>
-    <Record>
       <Key>DifficultyStatisticFoodDecay</Key>
       <Value>Разложение пищи</Value>
     </Record>
@@ -23851,6 +23848,22 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>SaveInvalidTerrainDataModified</Key>
       <Value>Для этой карты были изменены данные ландшафта. Сохранение больше недействительно.</Value>
+    </Record>
+    <Record>
+      <Key>PressToExit</Key>
+      <Value>Press {KEY:ExitKey} to exit</Value>
+    </Record>
+    <Record>
+      <Key>LeavingPlayableArea</Key>
+      <Value>Вы покидаете игровую зону</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMoodReduction</Key>
+      <Value>Снижение настроения</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHygieneReduction</Key>
+      <Value>Снижение гигиены</Value>
     </Record>
   </GameStrings>
   <GameTip />
