@@ -14817,23 +14817,23 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>SaveVersionWarning</Key>
-      <Value>WARNING. Old save version detected</Value>
+      <Value>ВНИМАНИЕ. Обнаружена старая версия сохранения</Value>
     </Record>
     <Record>
       <Key>StateChangePopup</Key>
-      <Value>State Change: Would you like Stationeers to attempt to modify the contents of atmospheric networks in the loaded game to prevent immediate explosions and overpressure events due to liquid-gas-solid state change?</Value>
+      <Value>Фазовые изменения: Хотите ли вы, чтобы игра попыталась модифицировать содержимое атмосферных сетей и систем, чтобы предотвратить взрывы и превышение давления в трубах из-за фазовых переходов веществ?</Value>
     </Record>
     <Record>
       <Key>PipeVolumeChangePopup</Key>
-      <Value>Pipe Volume Change: Would you like Stationeers to attempt to modify the contents of all pipe networks to prevent pipes bursting?</Value>
+      <Value>Изменение объема труб: Хотите ли вы, чтобы игра попыталась модифицировать содержимое всех сетей труб, чтобы предотвратить их разрывы?</Value>
     </Record>
     <Record>
       <Key>AttemptToFix</Key>
-      <Value>Attempt To Fix</Value>
+      <Value>Попытаться исправить</Value>
     </Record>
     <Record>
       <Key>DoNothing</Key>
-      <Value>Do Nothing</Value>
+      <Value>Ничего не делать</Value>
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserStressTitle</Key>
