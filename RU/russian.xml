@@ -7174,7 +7174,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHead</Key>
-      <Value>Бурильная головка (Простая)</Value>
+      <Value>Буровое долото (Простое)</Value>
       <Description>Replaceable drill head for {THING:StructureRocketMiner}</Description>
     </RecordThing>
     <RecordThing>
@@ -7578,7 +7578,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketScanningHead</Key>
-      <Value>Голова ракетного сканера</Value>
+      <Value>Сканирующая головка</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7638,32 +7638,32 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadIce</Key>
-      <Value>Бурильная головка (Лёд)</Value>
+      <Value>Буровое долото (Лёд)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadMineral</Key>
-      <Value>Бурильная головка (Руда)</Value>
+      <Value>Буровое долото (Руда)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadDurable</Key>
-      <Value>Бурильная головка (Прочная)</Value>
+      <Value>Буровое долото (Прочное)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadLongTerm</Key>
-      <Value>Бурильная головка (Долгосрочная)</Value>
+      <Value>Буровое долото (Долгосрочное)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadHighSpeedIce</Key>
-      <Value>Бурильная головка (Лёд, быстрая)</Value>
+      <Value>Буровое долото (Быстрое, лёд)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadHighSpeedMineral</Key>
-      <Value>Бурильная головка (Руда, быстрая)</Value>
+      <Value>Буровое долото (Быстрое, руда)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8265,11 +8265,11 @@
     </Record>
     <Record>
       <Key>DrillSlot</Key>
-      <Value>Drill Head Slot</Value>
+      <Value>Буровое долото</Value>
     </Record>
     <Record>
       <Key>ScannerSlot</Key>
-      <Value>Scanner Head Slot</Value>
+      <Value>Сканирующая головка</Value>
     </Record>
     <Record>
       <Key>Motherboard</Key>
@@ -8465,7 +8465,7 @@
     </Record>
     <Record>
       <Key>Tablet</Key>
-      <Value>Tablet</Value>
+      <Value>Планшет</Value>
     </Record>
   </Slots>
   <Interactables>
