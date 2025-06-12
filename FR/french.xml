@@ -10229,6 +10229,10 @@ Le module doit être connecté à un module de stockage de ressources de fusée 
 			<Key>Appliance</Key>
 			<Value>Appareil</Value>
 		</Record>
+		    <Record>
+      			<Key>DrillHead</Key>
+      			<Value>Tête de foreuse</Value>
+    		</Record>
 		<Record>
 			<Key>SoundCartridge</Key>
 			<Value>Cassette audio</Value>
