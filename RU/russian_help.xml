@@ -334,27 +334,30 @@
       <Title>Rockets</Title>
       <DisplayFilter>Guides</DisplayFilter>
       <Text>
-Rocket parts are printed on the {THING:StructureRocketManufactory}.
+Части ракеты печатаются в {THING:StructureRocketManufactory}.
 
-{THING:StructureFuselageTypeA1} must be built upon a {THING:StructureLaunchMount}. A {THING:StructureGovernedGasEngine} must be placed in an {THING:StructureEngineMountTypeA1}.
+{HEADER:ПОСТРОЙКА}
+Сначала постройте {THING:StructureLaunchMount}, затем разместите на ней {THING:StructureEngineMountTypeA1}. На это крепление поставьте {THING:StructureGovernedGasEngine} или любой другой ракетный двигатель. Также, на крепление можно ставить {THING:StructureFuselageTypeA1} и другие фюзеляжи.
+Далее, вам нужно построить {THING:StructureRocketTower} для снабжения ракеты ресурсами. Чтобы подключить ракету к энергии, вам нужно поставить {THING:StructurePowerUmbilicalMale} на эту башню, а на ракету - {THING:StructurePowerUmbilicalFemale}. Важно расположить их на одной высоте.
+Для передачи газообразного топлива используйте {THING:StructureGasUmbilicalMale} и {THING:StructureGasUmbilicalFemale}.
+Для жидкого - {THING:StructureLiquidUmbilicalMale} и {THING:StructureLiquidUmbilicalFemale}.
+Ресурсы можно передать с помощью {THING:StructureChuteUmbilicalMale} и {THING:StructureChuteUmbilicalFemale}.
 
-Resource Umbilicals are placed on the {THING:StructureRocketTower} and connect between {THING:StructureGasUmbilicalMale} and {THING:StructureGasUmbilicalFemale} placed inside the rocket.
+{HEADER:СВЯЗЬ}
+Чтобы управлять ракетой, постройте {THING:StructureComputer} и вставьте в него {THING:MotherboardRockets}.
+После этого, вам нужно установить канал связи между ракетой и базой. Для этого вам понадобится {THING:StructureLogicRocketUplink} на базе и {THING:StructureLogicRocketDownlink} на ракете. На восходящем передатчике вам нужно будет с помощью отвёртки выбрать нисходящий передатчик ракеты, которой вы хотите управлять.
+Затем, установите на ракету {THING:StructureRocketAvionics}, которая будет выступать главным ракетным контроллером.
 
-A {THING:StructureComputer} with the {THING:MotherboardRockets} provides a user interface to control the rocket.
+{HEADER:НАСТРОЙКА И ЗАПУСК}
+В компьютере на карте можно выбрать пункт назначения для ракеты, после чего можно включить ракетный двигатель и ракета начнёт свой полёт.
+Если нужно узнать о расходе топлива ракетой в ваших текущих погодных и гравитационных условиях, запустите двигатель без выбранного пункта назначения.
+В зависимости от разных условий (массы ракеты, мощности двигателя, силы притяжения планеты и так далее) ракета может расходовать от 5 кМоль до 20кМоль топлива на один полёт в обе стороны.
 
-A Pair of datalinks are used to create a planet-side {THING:StructureLogicRocketUplink} and a rocket-side {THING:StructureLogicRocketDownlink} which must be hooked up to the {THING:StructureComputer}.
+{HEADER:ДОБЫЧА И РАЗВЕДКА}
+Ракета, оборудованная {THING:StructureRocketScanner}, может разведывать неизвестные месторождения полезных ископаемых на астероидах и в скоплениях.
+Чтобы добывать эти ресурсы, вам нужен {THING:StructureRocketMiner} и {THING:StructureCargoStorageSmall}.
 
-An {THING:StructureRocketAvionics} should be placed in the rocket to act as the main rocket controller.
-
-On the {THING:MotherboardRockets} Map Screen you can set the rocket destination.
-
-Igniting the rocket without a destination set allows you to see rocket performance and fuel usage without launching the rocket.
-
-Expect to use 5-20Kmol of fuel per rocket trip, depending on rocket size.
-
-A {THING:StructureRocketScanner} is used to chart unknown locations and discover minable asteroids.
-
-More complex rockets may use {THING:StructureRocketMiner} and {THING:StructureCargoStorageSmall}.
+Успехов в изобретении своего Старшипа!
 {LIST_OF_ROCKET}
       </Text>
     </StationpediaPage>

@@ -503,7 +503,7 @@
     </Record>
     <Record>
       <Key>ForceFeed</Key>
-      <Value>Принудительно Покормить</Value>
+      <Value>Принудительно покормить</Value>
     </Record>
     <Record>
       <Key>FlipRover</Key>
@@ -6697,7 +6697,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureBatterySmall</Key>
-      <Value>Ракетный аккумулятор </Value>
+      <Value>Ракетный аккумулятор</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -12205,7 +12205,7 @@
     </Record>
     <Record>
       <Key>ButtonAbandonRocket</Key>
-      <Value>Abandon</Value>
+      <Value>Бросить ракету</Value>
     </Record>
     <Record>
       <Key>SettingsShowSlotTooltips</Key>
@@ -14762,19 +14762,19 @@
     </Record>
     <Record>
       <Key>ButtonClose</Key>
-      <Value>Close</Value>
+      <Value>Закрыть</Value>
     </Record>
     <Record>
       <Key>ButtonRocket</Key>
-      <Value>Rocket</Value>
+      <Value>Ракета</Value>
     </Record>
     <Record>
       <Key>ButtonMap</Key>
-      <Value>Map</Value>
+      <Value>Карта</Value>
     </Record>
     <Record>
       <Key>ButtonReCenter</Key>
-      <Value>Re-center Map</Value>
+      <Value>Центрировать карту</Value>
     </Record>
     <Record>
       <Key>SettingsVoiceLanguage</Key>
@@ -14856,19 +14856,19 @@
     </Record>
     <Record>
       <Key>SetDestinationButton</Key>
-      <Value>Set Destination</Value>
+      <Value>Выбрать</Value>
     </Record>
     <Record>
       <Key>ButtonLocation</Key>
-      <Value>Location</Value>
+      <Value>Местоположение</Value>
     </Record>
     <Record>
       <Key>LocationInfoButton</Key>
-      <Value>Location Info</Value>
+      <Value>Информация</Value>
     </Record>
     <Record>
       <Key>TabResources</Key>
-      <Value>Resources</Value>
+      <Value>Ресурсы</Value>
     </Record>
     <Record>
       <Key>TabSiteDiscovery</Key>
@@ -14932,23 +14932,23 @@
     </Record>
     <Record>
       <Key>StationpediaConstructableInRockets</Key>
-      <Value>Constructable In Rockets:</Value>
+      <Value>Можно использовать в ракетах:</Value>
     </Record>
     <Record>
       <Key>StationpediaRocketMassContribution</Key>
-      <Value>Rocket Mass Contribution:</Value>
+      <Value>Вклад в массу ракеты:</Value>
     </Record>
     <Record>
       <Key>StationpediaRocketMaxThrust</Key>
-      <Value>Max Thrust:</Value>
+      <Value>Максимальная тяга:</Value>
     </Record>
     <Record>
       <Key>StationpediaRocketEfficiency</Key>
-      <Value>Efficiency:</Value>
+      <Value>Эффективность:</Value>
     </Record>
     <Record>
       <Key>StationpediaRocketExhaustVelocity</Key>
-      <Value>Exhaust Velocity:</Value>
+      <Value>Удельный импульс:</Value>
     </Record>
     <Record>
       <Key>NewWorldInformation</Key>
@@ -14964,7 +14964,7 @@
     </Record>
     <Record>
       <Key>RemoveNodeButton</Key>
-      <Value>Delete Location</Value>
+      <Value>Удалить</Value>
     </Record>
     <Record>
       <Key>RemoveNodeText</Key>
@@ -17068,7 +17068,7 @@
     </Record>
     <Record>
       <Key>RocketLocationPanelSelectRocket</Key>
-      <Value>Select Rocket</Value>
+      <Value>Выберите ракету</Value>
     </Record>
     <Record>
       <Key>SiteInfoDensityTitle</Key>
@@ -17128,15 +17128,15 @@
     </Record>
     <Record>
       <Key>MotherboardRocketControlTitle</Key>
-      <Value>Rocket Control</Value>
+      <Value>Управление ракетой</Value>
     </Record>
     <Record>
       <Key>MotherboardRocketControlOpenButton</Key>
-      <Value>open ui</Value>
+      <Value>открыть интерфейс</Value>
     </Record>
     <Record>
       <Key>RocketLocationPanelError</Key>
-      <Value>NO ADDITIONAL INFO AVAILABLE</Value>
+      <Value>НЕТ ДОПОЛНИТЕЛЬНОЙ ИНФОРМАЦИИ</Value>
     </Record>
   </Interface>
   <Colors>
@@ -19377,7 +19377,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GlobalAlreadyInUse</Key>
-      <Value>Already in use</Value>
+      <Value>Уже используется</Value>
     </Record>
     <Record>
       <Key>Pressure</Key>
@@ -19489,7 +19489,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingInteractionDisabled</Key>
-      <Value>Interaction temporary disabled on this object</Value>
+      <Value>Взаимодействие с этим объектом временно отключено</Value>
     </Record>
     <Record>
       <Key>ThingCurrentlyFlashingError</Key>
@@ -19801,7 +19801,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
-      <Value>Requires screwdriver</Value>
+      <Value>Требуется отвёртка</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriverOrLabeler</Key>
@@ -20445,15 +20445,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GridBlockedByStructure</Key>
-      <Value>Placement is blocked by &lt;color=green&gt;{LOCAL:Structure}&lt;/color&gt;</Value>
+      <Value>Размещение блокируется &lt;color=green&gt;{LOCAL:Structure}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>FaceBlockedByStructure</Key>
-      <Value>Placement is blocked by &lt;color=green&gt;{LOCAL:Structure}&lt;/color&gt;</Value>
+      <Value>Размещение блокируется &lt;color=green&gt;{LOCAL:Structure}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlacementBlockedByStructure</Key>
-      <Value>Placement is blocked by &lt;color=green&gt;{LOCAL:Structure}&lt;/color&gt;</Value>
+      <Value>Размещение блокируется &lt;color=green&gt;{LOCAL:Structure}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresHydroponicsTray</Key>
@@ -20477,7 +20477,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlacementBlockedBySmallGrid</Key>
-      <Value>Placement is blocked by &lt;color=green&gt;{LOCAL:SmallGrid}&lt;/color&gt;</Value>
+      <Value>Размещение блокируется &lt;color=green&gt;{LOCAL:SmallGrid}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresPipeValve</Key>
@@ -20741,7 +20741,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Thrust</Key>
-      <Value>Thrust</Value>
+      <Value>Сила тяги</Value>
     </Record>
     <Record>
       <Key>CondensationInGasPipe</Key>
@@ -20873,15 +20873,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>UplinkConnectedTo</Key>
-      <Value>Connected to {LOCAL:Downlink}</Value>
+      <Value>Подключен к {LOCAL:Downlink}</Value>
     </Record>
     <Record>
       <Key>UplinkNotConnected</Key>
-      <Value>Not connected to any downlink</Value>
+      <Value>Не подключен ни к одному передатчику нисходящего сигнала</Value>
     </Record>
     <Record>
       <Key>UplinkConnectedToRocket</Key>
-      <Value>Accessing {LOCAL:Rocket} via {LOCAL:RocketAvionics}</Value>
+      <Value>Есть доступ к {LOCAL:Rocket} через {LOCAL:RocketAvionics}</Value>
     </Record>
     <Record>
       <Key>CelestialTrackerSetTo</Key>
@@ -21305,7 +21305,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresFrame</Key>
-      <Value>Placement requires a &lt;color=green&gt;Frame&lt;/color&gt; below for support</Value>
+      <Value>Можно разместить только на &lt;color=green&gt;Каркас&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresFrameOrTower</Key>
@@ -21329,7 +21329,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CannotDeconstructLaunchMount</Key>
-      <Value>Cannot deconstruct {LOCAL:Mount} as {LOCAL:Rocket} is interacting with it</Value>
+      <Value>Нельзя разобрать {LOCAL:Mount}, потому что не ней стоит {LOCAL:Rocket}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingSpaceMap</Key>
@@ -21425,7 +21425,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TooltipDeviceUnpowered</Key>
-      <Value>Unpowered</Value>
+      <Value>Обесточено</Value>
     </Record>
     <Record>
       <Key>DeviceError</Key>
@@ -21561,15 +21561,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>FlowRate</Key>
-      <Value>Flow Rate</Value>
+      <Value>Скорость потока</Value>
     </Record>
     <Record>
       <Key>ExhaustVelocity</Key>
-      <Value>Exhaust Velocity</Value>
+      <Value>Удельный импульс</Value>
     </Record>
     <Record>
       <Key>ExhaustTemperature</Key>
-      <Value>Exhaust Temperature</Value>
+      <Value>Температура</Value>
     </Record>
     <Record>
       <Key>PipeFail</Key>
@@ -21625,11 +21625,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Rocket</Key>
-      <Value>Rocket {LOCAL:id}</Value>
+      <Value>Ракета {LOCAL:id}</Value>
     </Record>
     <Record>
       <Key>InvalidFuselagePlacement</Key>
-      <Value>Fuselage must be constructed on top of another fuselage</Value>
+      <Value>Фюзеляж можно строить только над другим фюзеляжем</Value>
     </Record>
     <Record>
       <Key>InvalidAdjacentFuselagePlacement</Key>
@@ -21637,7 +21637,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>InvalidFuselageDeconstruct</Key>
-      <Value>Fuselage cannot be deconstructed as it is supporting &lt;color=green&gt;{LOCAL:Other}&lt;/color&gt;</Value>
+      <Value>Нельзя разобрать фюзеляж, потому что он поддерживает &lt;color=green&gt;{LOCAL:Other}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>Left</Key>
@@ -21657,11 +21657,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DestinationCode</Key>
-      <Value>Destination Code: {LOCAL:Code}</Value>
+      <Value>Код пункта назначения: {LOCAL:Code}</Value>
     </Record>
     <Record>
       <Key>None</Key>
-      <Value>None</Value>
+      <Value>Нет</Value>
     </Record>
     <Record>
       <Key>TheGround</Key>
@@ -21673,7 +21673,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GroundVelocity</Key>
-      <Value>Ground Velocity</Value>
+      <Value>Курсовая скорость</Value>
     </Record>
     <Record>
       <Key>TransferVelocity</Key>
@@ -21681,7 +21681,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Orbit</Key>
-      <Value>Orbit</Value>
+      <Value>Орбита</Value>
     </Record>
     <Record>
       <Key>SpaceName</Key>
@@ -21697,7 +21697,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TimeToArrival</Key>
-      <Value>ETA:</Value>
+      <Value>Время прибытия</Value>
     </Record>
     <Record>
       <Key>RocketMapIconTooltip</Key>
@@ -21717,7 +21717,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>FuselageRequiresLaunchMount</Key>
-      <Value>Fuselage must be constructed on top of a fully constructed launch mount</Value>
+      <Value>Крепление двигателя можно строить только на полностью завершённой Пусковой установке</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresMultipleSupportPillars</Key>
@@ -21845,7 +21845,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NoRocketsConnected</Key>
-      <Value>No rockets connected</Value>
+      <Value>Нет подключенных ракет</Value>
     </Record>
     <Record>
       <Key>RocketLandAborted</Key>
@@ -21853,79 +21853,79 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketEnginePlacementRule</Key>
-      <Value>{LOCAL:Device} must be placed inside an &lt;color=yellow&gt;Engine Fuselage&lt;/color&gt;</Value>
+      <Value>{LOCAL:Device} должен быть установлен в &lt;color=yellow&gt;Крепление двигателя&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>RocketCurrentLocation</Key>
-      <Value>Current Location</Value>
+      <Value>Текущая точка</Value>
     </Record>
     <Record>
       <Key>RocketTargetLocation</Key>
-      <Value>Target Location</Value>
+      <Value>Целевая точка</Value>
     </Record>
     <Record>
       <Key>RocketFuelTime</Key>
-      <Value>Fuel Time</Value>
+      <Value>Топлива хватит на</Value>
     </Record>
     <Record>
       <Key>RocketAcceleration</Key>
-      <Value>Acceleration</Value>
+      <Value>Ускорение</Value>
     </Record>
     <Record>
       <Key>RocketGravity</Key>
-      <Value>Gravity</Value>
+      <Value>свободного падения</Value>
     </Record>
     <Record>
       <Key>RocketEngineAcceleration</Key>
-      <Value>Engines</Value>
+      <Value>от двигателей</Value>
     </Record>
     <Record>
       <Key>RocketTargetVelocity</Key>
-      <Value>Target Velocity</Value>
+      <Value>Целевая скорость</Value>
     </Record>
     <Record>
       <Key>RocketAltitude</Key>
-      <Value>Altitude</Value>
+      <Value>Высота</Value>
     </Record>
     <Record>
       <Key>RocketNextLocationETA</Key>
-      <Value>Next Location ETA</Value>
+      <Value>Время прибытия</Value>
     </Record>
     <Record>
       <Key>RocketNextLocation</Key>
-      <Value>Next Location</Value>
+      <Value>Следующая точка</Value>
     </Record>
     <Record>
       <Key>RocketMass</Key>
-      <Value>Mass</Value>
+      <Value>Полная масса</Value>
     </Record>
     <Record>
       <Key>RocketDryMass</Key>
-      <Value>Dry Mass</Value>
+      <Value>Сухая масса</Value>
     </Record>
     <Record>
       <Key>RocketThrust</Key>
-      <Value>Thrust</Value>
+      <Value>Сила тяги</Value>
     </Record>
     <Record>
       <Key>RocketWeight</Key>
-      <Value>Weight</Value>
+      <Value>Сила тяжести</Value>
     </Record>
     <Record>
       <Key>RocketThrustToWeight</Key>
-      <Value>Thrust to Weight</Value>
+      <Value>Тяга к тяжести</Value>
     </Record>
     <Record>
       <Key>RocketOxidizer</Key>
-      <Value>Oxidizer</Value>
+      <Value>Окислитель</Value>
     </Record>
     <Record>
       <Key>RocketVolatiles</Key>
-      <Value>Volatiles</Value>
+      <Value>Летучие вещества</Value>
     </Record>
     <Record>
       <Key>RocketBatteryPercentage</Key>
-      <Value>Battery</Value>
+      <Value>Заряд</Value>
     </Record>
     <Record>
       <Key>CentrifugeSpinningError</Key>
@@ -21973,15 +21973,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AutoShutOffTooltip</Key>
-      <Value>Auto-Shut Off</Value>
+      <Value>Автоматическое выключение</Value>
     </Record>
     <Record>
       <Key>AutoLandDisabledTooltip</Key>
-      <Value>Auto-Land is Disabled</Value>
+      <Value>Автоматическая посадка выключена</Value>
     </Record>
     <Record>
       <Key>AutoLandEnabledTooltip</Key>
-      <Value>Auto-Land is Enabled</Value>
+      <Value>Автоматическая посадка включена</Value>
     </Record>
     <Record>
       <Key>SurveyDifficultyTooltip</Key>
@@ -22021,15 +22021,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketLogOutOfFuel</Key>
-      <Value>{LOCAL:DisplayName} has run out of fuel</Value>
+      <Value>У {LOCAL:DisplayName} закончилось топливо</Value>
     </Record>
     <Record>
       <Key>RocketCrashed</Key>
-      <Value>{LOCAL:DisplayName} crashed into {LOCAL:CrashedInto}</Value>
+      <Value>{LOCAL:DisplayName} врезалась в {LOCAL:CrashedInto}</Value>
     </Record>
     <Record>
       <Key>RocketLogOutOfBattery</Key>
-      <Value>{LOCAL:DisplayName} has depleted its batteries</Value>
+      <Value>У {LOCAL:DisplayName} закончился заряд батарей</Value>
     </Record>
     <Record>
       <Key>RocketLogCharted</Key>
@@ -22049,7 +22049,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Throttle</Key>
-      <Value>Throttle</Value>
+      <Value>Мощность</Value>
     </Record>
     <Record>
       <Key>ImportCountTooltip</Key>
@@ -22077,7 +22077,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketTowerPlacementRule</Key>
-      <Value>{LOCAL:Thing} must be built inside a Rocket Tower</Value>
+      <Value>{LOCAL:Thing} должно строиться в Пусковой башне</Value>
     </Record>
     <Record>
       <Key>FailedToLoadGameData</Key>
@@ -22157,35 +22157,35 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>VeryHighConfidence</Key>
-      <Value>Very High</Value>
+      <Value>Очень высокая</Value>
     </Record>
     <Record>
       <Key>HighConfidence</Key>
-      <Value>High</Value>
+      <Value>Высокая</Value>
     </Record>
     <Record>
       <Key>ModerateConfidence</Key>
-      <Value>Moderate</Value>
+      <Value>Умеренная</Value>
     </Record>
     <Record>
       <Key>LowConfidence</Key>
-      <Value>Low</Value>
+      <Value>Низкая</Value>
     </Record>
     <Record>
       <Key>NoConfidence</Key>
-      <Value>Failure</Value>
+      <Value>Нет</Value>
     </Record>
     <Record>
       <Key>AutoLandNoConfidence</Key>
-      <Value>&lt;color=red&gt;Landing Aborted!&lt;/color&gt; Auto-Land has no confidence in achieving landing success</Value>
+      <Value>&lt;color=red&gt;Посадка прервана!&lt;/color&gt; Нет уверенности в успешном приземлении</Value>
     </Record>
     <Record>
       <Key>LandingBeginAltitudeToolTip</Key>
-      <Value>Landing Altitude {LOCAL:Altitude}</Value>
+      <Value>Высота посадки {LOCAL:Altitude}</Value>
     </Record>
     <Record>
       <Key>AutoLandThrustRequired</Key>
-      <Value>Confidence {LOCAL:Confidence} (at least {LOCAL:Thrust} of engine thrust required)</Value>
+      <Value>Уверенность {LOCAL:Confidence} (нужно как минимум {LOCAL:Thrust} тяги)</Value>
     </Record>
     <Record>
       <Key>NoDataLinkActive</Key>
@@ -22193,7 +22193,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ConnectedRocketAvionics</Key>
-      <Value>Avionics: {LOCAL:Avionics}</Value>
+      <Value>Авионика: {LOCAL:Avionics}</Value>
     </Record>
     <Record>
       <Key>ConnectedRocketUplinks</Key>
@@ -22201,7 +22201,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ConnectedRocketDownlink</Key>
-      <Value>Downlink: {LOCAL:Downlink}</Value>
+      <Value>Нисходящий сигнал от {LOCAL:Downlink}</Value>
     </Record>
     <Record>
       <Key>TutorialDisabledTitle</Key>
@@ -22966,7 +22966,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Infinity</Key>
-      <Value>Infinity</Value>
+      <Value>Inf</Value>
     </Record>
     <Record>
       <Key>SurvivalPropertyCondition</Key>
@@ -23054,27 +23054,27 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DownlinkConnectedToNothing</Key>
-      <Value>No connection</Value>
+      <Value>Нет подключения</Value>
     </Record>
     <Record>
       <Key>DownlinkConnectedTo</Key>
-      <Value>Connected to </Value>
+      <Value>Подключен к</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceParentRocket</Key>
-      <Value>Parent {LOCAL:RocketName}</Value>
+      <Value>Установлен на {LOCAL:RocketName}</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceRocketMass</Key>
-      <Value>Mass {LOCAL:Mass}</Value>
+      <Value>Масса {LOCAL:Mass}</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceRocketWeight</Key>
-      <Value>Weight {LOCAL:Weight}</Value>
+      <Value>Сила тяжести {LOCAL:Weight}</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceRocketThrustToWeight</Key>
-      <Value>Thrust to Weight {LOCAL:ThrustToWeight}</Value>
+      <Value>Отношение тяги к тяжести {LOCAL:ThrustToWeight}</Value>
     </Record>
     <Record>
       <Key>MolesPerHour</Key>
@@ -23158,7 +23158,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CannotPlaceOutsideRocket</Key>
-      <Value>Cannot place outside of a rocket</Value>
+      <Value>Нельзя разместить вне ракеты</Value>
     </Record>
     <Record>
       <Key>DamageTypeDecay</Key>
@@ -23599,31 +23599,31 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateEmpty</Key>
-      <Value>Заряд: Нет</Value>
+      <Value>Нет</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateCritical</Key>
-      <Value>Заряд: Критический</Value>
+      <Value>Критический</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateLow</Key>
-      <Value>Заряд: Низкий</Value>
+      <Value>Низкий</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateVeryLow</Key>
-      <Value>Заряд: Очень низкий</Value>
+      <Value>Очень низкий</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateMedium</Key>
-      <Value>Заряд: Средний</Value>
+      <Value>Средний</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateHigh</Key>
-      <Value>Заряд: Высокий</Value>
+      <Value>Высокий</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateFull</Key>
-      <Value>Заряд: Полный</Value>
+      <Value>Полный</Value>
     </Record>
     <Record>
       <Key>CommsMotherboardCurrentlyTrading</Key>
@@ -23715,31 +23715,31 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketApex</Key>
-      <Value>Apex</Value>
+      <Value>Апекс</Value>
     </Record>
     <Record>
       <Key>RocketImpactVelocity</Key>
-      <Value>Impact Velocity</Value>
+      <Value>Скорость столкновения</Value>
     </Record>
     <Record>
       <Key>ReEntryProfileNone</Key>
-      <Value>None</Value>
+      <Value>Нет</Value>
     </Record>
     <Record>
       <Key>ReEntryProfileLow</Key>
-      <Value>Low</Value>
+      <Value>Низко</Value>
     </Record>
     <Record>
       <Key>ReEntryProfileMedium</Key>
-      <Value>Medium</Value>
+      <Value>Нормально</Value>
     </Record>
     <Record>
       <Key>ReEntryProfileHigh</Key>
-      <Value>High</Value>
+      <Value>Высоко</Value>
     </Record>
     <Record>
       <Key>ReEntryProfileMax</Key>
-      <Value>Max</Value>
+      <Value>Максимум</Value>
     </Record>
     <Record>
       <Key>SpaceMapUknownDeltaV</Key>
@@ -23747,7 +23747,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketLocationCurrentAction</Key>
-      <Value>Current Action: {LOCAL:Mode}</Value>
+      <Value>Текущее действие: {LOCAL:Mode}</Value>
     </Record>
     <Record>
       <Key>TimeLengthInfiniteSeconds</Key>
