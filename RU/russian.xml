@@ -8345,11 +8345,11 @@
     </Record>
     <Record>
       <Key>Next</Key>
-      <Value>Вперед</Value>
+      <Value>Следующий</Value>
     </Record>
     <Record>
       <Key>Prev</Key>
-      <Value>Назад</Value>
+      <Value>Предыдущий</Value>
     </Record>
     <Record>
       <Key>Cartridge0</Key>
@@ -8381,19 +8381,19 @@
     </Record>
     <Record>
       <Key>SourcePlant</Key>
-      <Value>Source Plant</Value>
+      <Value>Исходное растение</Value>
     </Record>
     <Record>
       <Key>TargetPlant</Key>
-      <Value>Target Plant</Value>
+      <Value>Целевое растение</Value>
     </Record>
     <Record>
       <Key>Player</Key>
-      <Value>Player</Value>
+      <Value>Игрок</Value>
     </Record>
     <Record>
       <Key>Fertiliser</Key>
-      <Value>Fertiliser</Value>
+      <Value>Удобрение</Value>
     </Record>
     <Record>
       <Key>CoolantTank</Key>
@@ -8425,15 +8425,15 @@
     </Record>
     <Record>
       <Key>Door</Key>
-      <Value>Door</Value>
+      <Value>Дверь</Value>
     </Record>
     <Record>
       <Key>ArmSlot</Key>
-      <Value>Arm Slot</Value>
+      <Value>Рука</Value>
     </Record>
     <Record>
       <Key>HopperSlot</Key>
-      <Value>Hopper Slot</Value>
+      <Value>Воронка</Value>
     </Record>
     <Record>
       <Key>Wreckage</Key>
@@ -8445,7 +8445,7 @@
     </Record>
     <Record>
       <Key>DrillHead</Key>
-      <Value>Бурильная головка</Value>
+      <Value>Буровое долото</Value>
     </Record>
     <Record>
       <Key>SoundCartridge</Key>
@@ -22774,11 +22774,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TargetSlot</Key>
-      <Value>Target Slot</Value>
+      <Value>Целевой слот</Value>
     </Record>
     <Record>
       <Key>Proxy</Key>
-      <Value>Proxy</Value>
+      <Value>Посредник</Value>
     </Record>
     <Record>
       <Key>SizeTwoDCondition</Key>
