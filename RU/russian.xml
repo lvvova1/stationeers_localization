@@ -8989,7 +8989,7 @@
     </Record>
     <Record>
       <Key>TradingDevices</Key>
-      <Value>Trading Devices</Value>
+      <Value>Устройства для торговли</Value>
     </Record>
     <Record>
       <Key>Throttle</Key>
@@ -9029,35 +9029,35 @@
     </Record>
     <Record>
       <Key>KitCategory</Key>
-      <Value>Строительные Наборы</Value>
+      <Value>Наборы</Value>
     </Record>
     <Record>
       <Key>PipesCategory</Key>
-      <Value>Pipes</Value>
+      <Value>Трубы</Value>
     </Record>
     <Record>
       <Key>ChuteCategory</Key>
-      <Value>Chutes</Value>
+      <Value>Транспортные трубы</Value>
     </Record>
     <Record>
       <Key>UmbilicalCategory</Key>
-      <Value>Umbilicals</Value>
+      <Value>Наземное питание</Value>
     </Record>
     <Record>
       <Key>RocketPayloadCategory</Key>
-      <Value>Rocket Payloads</Value>
+      <Value>Ракетная полезная нагрузка</Value>
     </Record>
     <Record>
       <Key>CargoCategory</Key>
-      <Value>Rocket Payloads</Value>
+      <Value>Ракетная полезная нагрузка</Value>
     </Record>
     <Record>
       <Key>GasCanisterCategory</Key>
-      <Value>Canisters</Value>
+      <Value>Баллоны</Value>
     </Record>
     <Record>
       <Key>RocketEngineCategory</Key>
-      <Value>Engines</Value>
+      <Value>Ракетные двигатели</Value>
     </Record>
     <Record>
       <Key>DoorCategory</Key>
@@ -9065,11 +9065,11 @@
     </Record>
     <Record>
       <Key>ChairTableCategory</Key>
-      <Value>Chairs</Value>
+      <Value>Стулья</Value>
     </Record>
     <Record>
       <Key>PersonalSuits</Key>
-      <Value>Скафандр</Value>
+      <Value>Скафандры</Value>
     </Record>
     <Record>
       <Key>BatteryCategory</Key>
@@ -9077,7 +9077,7 @@
     </Record>
     <Record>
       <Key>CableCategory</Key>
-      <Value>Кабели и анализаторы</Value>
+      <Value>Кабели</Value>
     </Record>
     <Record>
       <Key>LightCategory</Key>
@@ -9097,7 +9097,7 @@
     </Record>
     <Record>
       <Key>SafetyCategory</Key>
-      <Value>Безопасность и Транспорт</Value>
+      <Value>Безопасность</Value>
     </Record>
     <Record>
       <Key>OrganicsCategory</Key>
@@ -9173,7 +9173,7 @@
     </Record>
     <Record>
       <Key>ApplianceCategory</Key>
-      <Value>Внешний вид</Value>
+      <Value>Приборы</Value>
     </Record>
     <Record>
       <Key>Fabricators</Key>
@@ -9181,23 +9181,19 @@
     </Record>
     <Record>
       <Key>Edibles</Key>
-      <Value>Edibles and food</Value>
+      <Value>Сырая и готовая еда</Value>
     </Record>
     <Record>
       <Key>Plants</Key>
-      <Value>Plants and Seeds</Value>
+      <Value>Растения и семена</Value>
     </Record>
     <Record>
       <Key>AirContitioningAtmos</Key>
-      <Value>Состояние на старте</Value>
+      <Value>Фильтры и атмосфера</Value>
     </Record>
     <Record>
       <Key>AtmosDevices</Key>
       <Value>Устройства для контроля атмосферы</Value>
-    </Record>
-    <Record>
-      <Key>GeneticAppliences</Key>
-      <Value>Genetic Appliances</Value>
     </Record>
     <Record>
       <Key>FireArm</Key>
@@ -9205,7 +9201,7 @@
     </Record>
     <Record>
       <Key>ManualTools</Key>
-      <Value>Ручные инструменты</Value>
+      <Value>Инструменты</Value>
     </Record>
     <Record>
       <Key>PowerTools</Key>
@@ -14142,7 +14138,7 @@
     </Record>
     <Record>
       <Key>ImportExportCategoryKey</Key>
-      <Value>Импорт/Экспорт</Value>
+      <Value>Трубы, импорт и экспорт</Value>
     </Record>
     <Record>
       <Key>TravelCategoryKey</Key>
@@ -14166,27 +14162,27 @@
     </Record>
     <Record>
       <Key>OrganicsCategoryKey</Key>
-      <Value>Органика и Пища</Value>
+      <Value>Органика</Value>
     </Record>
     <Record>
       <Key>RocketCategoryKey</Key>
-      <Value>Rockets</Value>
+      <Value>Ракеты</Value>
     </Record>
     <Record>
       <Key>GeneticsCategoryKey</Key>
-      <Value>Genetics</Value>
+      <Value>Генетика</Value>
     </Record>
     <Record>
       <Key>TradingCategoryKey</Key>
-      <Value>Trading</Value>
+      <Value>Торговля</Value>
     </Record>
     <Record>
       <Key>StructureCategoryKey</Key>
-      <Value>Конструкции</Value>
+      <Value>Структуры</Value>
     </Record>
     <Record>
       <Key>LogicCategoryKey</Key>
-      <Value>Логические Устройства</Value>
+      <Value>Логика и чипы</Value>
     </Record>
     <Record>
       <Key>PowerCategoryKey</Key>
@@ -14198,7 +14194,7 @@
     </Record>
     <Record>
       <Key>AtmopshericsCategoryKey</Key>
-      <Value>Атмосфера</Value>
+      <Value>Атмосферные машины</Value>
     </Record>
     <Record>
       <Key>ReagentsCategoryKey</Key>
@@ -14210,7 +14206,7 @@
     </Record>
     <Record>
       <Key>ConstructionKitsCategoryKey</Key>
-      <Value>Структурные Наборы</Value>
+      <Value>Наборы</Value>
     </Record>
     <Record>
       <Key>FabricatorCategoryKey</Key>
@@ -14226,7 +14222,7 @@
     </Record>
     <Record>
       <Key>PersonalCategoryKey</Key>
-      <Value>Персональные</Value>
+      <Value>Экипировка</Value>
     </Record>
     <Record>
       <Key>PressureKeySPDA</Key>
@@ -14302,7 +14298,7 @@
     </Record>
     <Record>
       <Key>StationpediaAutoIgniteHeader</Key>
-      <Value>Автозажигание:</Value>
+      <Value>Самовоспламенение:</Value>
     </Record>
     <Record>
       <Key>FreezeTemperature</Key>
@@ -23450,7 +23446,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>IngotTypeBasic</Key>
-      <Value>Basic</Value>
+      <Value>Слитки</Value>
     </Record>
     <Record>
       <Key>IngotTypeAlloy</Key>
@@ -23538,7 +23534,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NetworkTypeChute</Key>
-      <Value>Транспортная  труба</Value>
+      <Value>Транспортная труба</Value>
     </Record>
     <Record>
       <Key>NetworkTypeElevator</Key>

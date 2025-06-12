@@ -92,7 +92,7 @@
 		</StationpediaPage>
 		<StationpediaPage>
 			<Key>ImportExportPage</Key>
-			<Title>Транспортные трубы, импорт и экспорт</Title>
+			<Title>Трубы, импорт и экспорт</Title>
 			<Text>Эти структуры могут передавать друг другом предметы через транспортные трубы или помогать в этом. {LINK:ConstructionPage;Сборка} выполняется также, как и другие конструкции.
 				{LIST_OF_IMPORTEXPORT}
 			</Text>
@@ -306,7 +306,7 @@
 
 		<StationpediaPage>
 			<Key>ToolPage</Key>
-			<Title>Tools</Title>
+			<Title>Инструменты</Title>
 			<Text>These are items that can fit in a specialist tool slot, and are used for {LINK:ConstructionPage;Construction} and other tasks.
 
 				{LIST_OF_TOOLS}
