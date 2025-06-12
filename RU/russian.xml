@@ -14551,76 +14551,73 @@
     </Record>
     <Record>
       <Key>MoleOxygenDescription</Key>
-      <Value>Oxygen provides energy when released in combustion, and also bonds with hydrogen to create {GAS:Water}. It is created by {LINK:OrganicPage;plants}, as well as from processing {THING:ItemOxite}. It is highly flammable at low temperatures.</Value>
+      <Value>Смесь кислорода с {GAS:Volatiles} даёт очень взрывоопасную среду, но если поместить её в {THING:H2Combustor}, то можно получить водяной {GAS:Steam}. Кислород создается {LINK:OrganicPage;растениями}, а также в процессе переработки {THING:ItemOxite}. Очень пожароопасен при низких температурах.</Value>
     </Record>
     <Record>
       <Key>MoleNitrogenDescription</Key>
-      <Value>{GAS:Nitrogen} can be mixed with {GAS:Oxygen} to stabilize its flammability and avoid {GAS:Oxygen} toxicity, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 {GAS:Nitrogen} and {GAS:Oxygen}). The most efficient source of {GAS:Nitrogen} is from {THING:ItemNitrice} deposites found around the Solar System. You can Condense {GAS:Nitrogen} into {GAS:LiquidNitrogen} by lowering its temperature below its boiling point.</Value>
+      <Value>Азот можно смешать с {GAS:Oxygen}ом в пропорции 1 часть кислорода к 3-м частям азота и получить пригодную для дыхания атмосферу на базе. Самый эффективный источник азота - это {THING:ItemNitrice}. Азот можно сконденсировать в {GAS:LiquidNitrogen}, если понизить его температуру ниже точки кипения.</Value>
     </Record>
     <Record>
       <Key>MoleCarbonDioxideDescription</Key>
-      <Value>You breathe it out, {LINK:OrganicPage;plants} breath it in. They don't grow without it. You can use items placed in {SLOT:GasFilter} slots to remove this from the atmosphere.
-
-{GAS:CarbonDioxide} has a moderately high specific heat, meaning it makes a good coolant for devices like the
-{THING:StructureWallCooler}. {GAS:Water} is better, but usually has more important uses.</Value>
+      <Value>Газ, который выдыхаете вы и который вдыхают {LINK:OrganicPage;растения}. Для его удаления из атмосферы можно использовать {THING:ItemGasFilterCarbonDioxide}.
+У этого газа достаточно высокая удельная теплоёмкость, что делает его хорошим теплоносителем для таких устройств как {THING:StructureWallCooler}. Конечно, {GAS:Water} в этом плане еще лучше, но для неё есть более важные применения.</Value>
     </Record>
     <Record>
       <Key>MoleVolatilesDescription</Key>
-      <Value>Volatiles is a combustible fuel. It is refined from {THING:ItemVolatiles}</Value>
+      <Value>Летучие вещества - это топливо, которое можно использовать для производства воды, разогрева печей, сварки и так далее, но будьте осторожны: смесь с {GAS:Oxygen} или {GAS:NitrousOxide} очень взрывоопасна! Получить летучие вещества можно из {THING:ItemVolatiles}</Value>
     </Record>
     <Record>
       <Key>MolePollutantDescription</Key>
-      <Value>Also known as 'X', {GAS:Pollutant} is created when smelting certain metals. A concentration of 0.1 mol or greater will cause your suit to warn about poison in the atmosphere. Pollutant has a high specific heat, making it an excellent coolant. Unfortunately it is extremely bad for organic beings, and will severely damage the lungs of most {REAGENT:Carbon} based organisms.</Value>
+      <Value>Токсин (также известный как 'X') получается во время плавления некоторых металлов. Этот газ пагубно влияет на живые организмы. Скафандр предупредит, если количество вещества превысит 0.1 моля в окружающем вас воздухе. Токсин имеет высокую удельную теплоёмкость, что делает его хорошим теплоносителем.</Value>
     </Record>
     <Record>
       <Key>MoleWaterDescription</Key>
-      <Value>You can obtain water by smelting or crushing {THING:ItemIce} using a {THING:StructureFurnace} or an {THING:StructureIceCrusher}. {GAS:Water} is critical for {LINK:OrganicPage;plants} to stay alive, and grow {LINK:NutritionPage;food}.
-        It is also an exceptional coolant with a very high specific heat capacity. {GAS:Water} will evaporate into {GAS:Steam} if it's temperature is raised above its boiling point.</Value>
+      <Value>Воду можно получить, если измельчить {THING:ItemIce} в {THING:StructureIceCrusher} или расплавить используя обычную {THING:StructureFurnace}. Вода критически важна для роста {LINK:OrganicPage;растений} и выращивания {LINK:NutritionPage;еды}.
+Помимо этого, вода - это отличный теплоноситель, так как имеет самую высокую удельную теплоёмкость. Если нагреть воду выше температуры точки кипения, то она начнет испаряться, превращаясь в {GAS:Steam}.</Value>
     </Record>
     <Record>
       <Key>MolePollutedWaterDescription</Key>
-      <Value>Polluted water is a waste product from the use of {GAS:Water} in certain devices. It will freeze into {THING:ItemPureIcePollutedWater} but boil into {GAS:Steam}.
-A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.</Value>
+      <Value>Грязная вода - это отход производства, который выделяется некоторыми устройствами, использующими воду. Замерзание такой воды образует {THING:ItemPureIcePollutedWater}, а испарение - водяной {GAS:Steam}, который можно впоследствии сконденсировать и получить {GAS:Water} обратно. Также, для этого можно использовать {THING:StructureWaterPurifier}.</Value>
     </Record>
     <Record>
       <Key>MoleNitrousOxideDescription</Key>
-      <Value>Nitrous oxide is a reactive gas that will knock players out if inhaled.  It acts as an oxidizer for combustion, and allows volatiles to burn significantly hotter, faster, and at a lower autoignition temperature. It can be produced in an energy intensive process inside of a {THING:StructureNitrolyzer}.</Value>
+      <Value>Закись азота (также известный как веселящий газ) - это химическое вещество, вдыхая которое можно потерять сознание. Кроме этого, оксид азота может выступать прекрасным окислителем. {GAS:Volatiles} в его присутствии сгорают быстрее и при более высокой температуре, при этом поджечь такую смесь гораздо проще, чем {GAS:Oxygen}+{Gas:Volatiles} из-за более низкой температуры самовоспламенения. Закись азота можно произвести в {THING:StructureNitrolyzer}е, но это очень энергозатратный процесс.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidNitrogenDescription</Key>
-      <Value>{GAS:Nitrogen} in its liquid form. It can be created by lowering the temperature of {GAS:Nitrogen} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidNitrogen} introduced into the atmosphere will quickly evaporate back into {GAS:Nitrogen}.</Value>
+      <Value>Для получения этого вещества, нужно охладить {GAS:Nitrogen} ниже температуры точки кипения. Чтобы это сделать, постройте {THING:ItemKitSmallDirectHeatExchanger} или {THING:StructureAirConditioner}. Экспериментируя с этим, помните, что газовые трубы разрушаются из-за присутствия в них жидкости. Подсказка: взгляните на {THING:StructureCondensationValve}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidOxygenDescription</Key>
-      <Value>{GAS:Oxygen} in its liquid form. It can be created by lowering the temperature of {GAS:Oxygen} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidOxygen} introduced into the atmosphere will quickly evaporate back into {GAS:Oxygen}.</Value>
+      <Value>Для получения этого вещества, нужно охладить {GAS:Oxygen} ниже температуры точки кипения. Чтобы это сделать, постройте {THING:ItemKitSmallDirectHeatExchanger} или {THING:StructureAirConditioner}. Экспериментируя с этим, помните, что газовые трубы разрушаются из-за присутствия в них жидкости. Подсказка: взгляните на {THING:StructureCondensationValve}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidVolatilesDescription</Key>
-      <Value>{GAS:Volatiles} in its liquid form. It can be created by lowering the temperature of {GAS:Volatiles} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidVolatiles} introduced into the atmosphere will quickly evaporate back into {GAS:Volatiles}.</Value>
+      <Value>Для получения этого вещества, нужно охладить {GAS:Volatiles} ниже температуры точки кипения. Чтобы это сделать, постройте {THING:ItemKitSmallDirectHeatExchanger} или {THING:StructureAirConditioner}. Экспериментируя с этим, помните, что газовые трубы разрушаются из-за присутствия в них жидкости. Подсказка: взгляните на {THING:StructureCondensationValve}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidCarbonDioxideDescription</Key>
-      <Value>{GAS:CarbonDioxide} in its liquid form. It can be created by lowering the temperature of {GAS:CarbonDioxide} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidCarbonDioxide} introduced into the atmosphere will quickly evaporate back into {GAS:CarbonDioxide}.</Value>
+      <Value>Для получения этого вещества, нужно охладить {GAS:CarbonDioxide} ниже температуры точки кипения. Чтобы это сделать, постройте {THING:ItemKitSmallDirectHeatExchanger} или {THING:StructureAirConditioner}. Экспериментируя с этим, помните, что газовые трубы разрушаются из-за присутствия в них жидкости. Подсказка: взгляните на {THING:StructureCondensationValve}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidPollutantDescription</Key>
-      <Value>{GAS:Pollutant} in its liquid form. It can be created by lowering the temperature of {GAS:Pollutant} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidPollutant} introduced into the atmosphere will quickly evaporate back into {GAS:Pollutant}.</Value>
+      <Value>Для получения этого вещества, нужно охладить {GAS:Pollutant} ниже температуры точки кипения. Чтобы это сделать, постройте {THING:ItemKitSmallDirectHeatExchanger} или {THING:StructureAirConditioner}. Экспериментируя с этим, помните, что газовые трубы разрушаются из-за присутствия в них жидкости. Подсказка: взгляните на {THING:StructureCondensationValve}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidNitrousOxideDescription</Key>
-      <Value>{GAS:NitrousOxide} in its liquid form. It can be created by lowering the temperature of {GAS:NitrousOxide} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidNitrousOxide} introduced into the atmosphere will quickly evaporate back into {GAS:NitrousOxide}.</Value>
+      <Value>Для получения этого вещества, нужно охладить {GAS:NitrousOxide} ниже температуры точки кипения. Чтобы это сделать, постройте {THING:ItemKitSmallDirectHeatExchanger} или {THING:StructureAirConditioner}. Экспериментируя с этим, помните, что газовые трубы разрушаются из-за присутствия в них жидкости. Подсказка: взгляните на {THING:StructureCondensationValve}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidHydrogenDescription</Key>
-      <Value>{GAS:Hydrogen} in its liquid form. It can be created by lowering the temperature of {GAS:Hydrogen} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidHydrogen} introduced into the atmosphere will quickly evaporate back into {GAS:Hydrogen}.</Value>
+      <Value>Для получения этого вещества, нужно охладить {GAS:Hydrogen} ниже температуры точки кипения. Чтобы это сделать, постройте {THING:ItemKitSmallDirectHeatExchanger} или {THING:StructureAirConditioner}. Экспериментируя с этим, помните, что газовые трубы разрушаются из-за присутствия в них жидкости. Подсказка: взгляните на {THING:StructureCondensationValve}.</Value>
     </Record>
     <Record>
       <Key>MoleHydrogenDescription</Key>
-      <Value />
+      <Value>Отключено</Value>
     </Record>
     <Record>
       <Key>MoleSteamDescription</Key>
-      <Value>Evaporated {GAS:Water}. It can be created by rasing the temperature of {GAS:Water} to its boiling point. When introduced into a pipe {GAS:Steam} will condense back into {GAS:Water} if it's temperature is below it's boiling point. Steam can be created by combusting {GAS:Volatiles} and oxygen using the {THING:H2Combustor}</Value>
+      <Value>Водяной пар. {GAS:Water} при нагревании выше температуры точки кипения превращается в пар. Если охладить его, то он сконденсируется обратно в воду. Пар можно создать в {THING:H2Combustor}, если смешать 2 части {GAS:Volatiles} с 1 частью {GAS:Oxygen}</Value>
     </Record>
     <Record>
       <Key>SettingsSmoothTerrain</Key>
