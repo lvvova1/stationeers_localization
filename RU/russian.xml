@@ -10751,8 +10751,28 @@
       <Value>Бесплодная скала, укрытая под крылом захватывающих колец Сатурна. Небольшой размер Мимаса отражается в его чрезвычайно низкой гравитации, а поверхность испещерена кратерами от заблудших обитателей кольца. Такое расстояние до солнца дает мало энергии от солнечных устройств. Будьте очень осторожны при ходьбе или прыжках, так как вы можете далеко прыгать и набирать большую скорость из-за крайне низкой гравитации.</Value>
     </Record>
     <Record>
+      <Key>RandomSpawnLocation</Key>
+      <Value>Random</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnCraterVesper</Key>
+      <Value>Кратер Веспера</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnMontesUmbrarum</Key>
+      <Value>Горы Теней</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnCraterNox</Key>
+      <Value>Кратер Ночи</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnMonsArcanus</Key>
+      <Value>Пик Тайны</Value>
+    </Record>
+    <Record>
       <Key>GeoNameLunarDorsumCaradus</Key>
-      <Value>Хребет Карадуса</Value>
+      <Value>Гряда Карадуса</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarLacusJaewoo</Key>
@@ -10776,7 +10796,7 @@
     </Record>
     <Record>
       <Key>GeoNameLunarCraterVeritas</Key>
-      <Value>Чаша Истины</Value>
+      <Value>Кратер Истины</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarLabyrinthusPetr</Key>
@@ -10792,7 +10812,7 @@
     </Record>
     <Record>
       <Key>GeoNameLunarDorsumMcLean</Key>
-      <Value>Хребет Маклина</Value>
+      <Value>Гряда Маклина</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarPalusAeternus</Key>
@@ -10800,19 +10820,19 @@
     </Record>
     <Record>
       <Key>GeoNameLunarMonsArcanus</Key>
-      <Value>Гора Тайны</Value>
+      <Value>Пик Тайны</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterElissae</Key>
-      <Value>Чаша Элизы</Value>
+      <Value>Кратер Элизы</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarSinusTenebrae</Key>
-      <Value>Бухта Тьмы</Value>
+      <Value>Залив Тьмы</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterVesper</Key>
-      <Value>Чаша Вечера</Value>
+      <Value>Кратер Веспера</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarPlanitiaSolstitia</Key>
@@ -10828,7 +10848,7 @@
     </Record>
     <Record>
       <Key>GeoNameLunarDorsumBorealis</Key>
-      <Value>Хребет Северный</Value>
+      <Value>Гряда Северная</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarLacusGelidus</Key>
@@ -10852,7 +10872,7 @@
     </Record>
     <Record>
       <Key>GeoNameLunarRimaSerpentis</Key>
-      <Value>Разлом Змеи</Value>
+      <Value>Борозда Змеи</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarLacusBellus</Key>
@@ -10864,19 +10884,19 @@
     </Record>
     <Record>
       <Key>GeoNameLunarCraterNox</Key>
-      <Value>Чаша Ночи</Value>
+      <Value>Кратер Ночи</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterSolaris</Key>
-      <Value>Чаша Солнца</Value>
+      <Value>Кратер Солнца</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterNovus</Key>
-      <Value>Чаша Молодости</Value>
+      <Value>Кратер Молодости</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarRupesMagna</Key>
-      <Value>Обрыв Магны</Value>
+      <Value>Уступ Магны</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarSpeculaObservans</Key>
@@ -15952,19 +15972,19 @@
     </Record>
     <Record>
       <Key>WorldRatingBeginner</Key>
-      <Value>Beginner</Value>
+      <Value>Для начинающий</Value>
     </Record>
     <Record>
       <Key>WorldRatingIntermediate</Key>
-      <Value>Intermediate</Value>
+      <Value>Средняя</Value>
     </Record>
     <Record>
       <Key>WorldRatingChallenging</Key>
-      <Value>Challenging</Value>
+      <Value>Сложная</Value>
     </Record>
     <Record>
       <Key>WorldRatingExtreme</Key>
-      <Value>Extreme</Value>
+      <Value>Экстремальная</Value>
     </Record>
     <Record>
       <Key>CelestialBodyEarth</Key>
