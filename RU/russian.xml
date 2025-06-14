@@ -23086,11 +23086,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceRocketMass</Key>
-      <Value>Масса {LOCAL:Mass}</Value>
+      <Value>Сила тяжести {LOCAL:Mass}</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceRocketWeight</Key>
-      <Value>Сила тяжести {LOCAL:Weight}</Value>
+      <Value>Масса {LOCAL:Weight}</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceRocketThrustToWeight</Key>
