@@ -9797,15 +9797,15 @@
     </Record>
     <Record>
       <Key>PlayerIsConnecting</Key>
-      <Value>Player is connecting</Value>
+      <Value>Игрок подключается</Value>
     </Record>
     <Record>
       <Key>PlayerHasConnected</Key>
-      <Value>Player Connected</Value>
+      <Value>Игрок подключился</Value>
     </Record>
     <Record>
       <Key>GamePaused</Key>
-      <Value>Game Paused</Value>
+      <Value>Игра приостановлена</Value>
     </Record>
     <Record>
       <Key>AlertButtonClose</Key>
@@ -12445,7 +12445,7 @@
     </Record>
     <Record>
       <Key>CartridgeTrackerTitle</Key>
-      <Value>TRACKER</Value>
+      <Value>НАВИГАТОР</Value>
     </Record>
     <Record>
       <Key>CartridgeTrackerSelected</Key>
@@ -14710,11 +14710,11 @@
     </Record>
     <Record>
       <Key>StationpediaThermalConductivityConvection</Key>
-      <Value>Thermal Convection:</Value>
+      <Value>Коэффициент конвекции:</Value>
     </Record>
     <Record>
       <Key>StationpediaThermalConductivityRadiation</Key>
-      <Value>Thermal Radiation:</Value>
+      <Value>Коэффициент излучения:</Value>
     </Record>
     <Record>
       <Key>StationpediaMovementSpeedModifier</Key>
@@ -18586,7 +18586,7 @@
     </Record>
     <Record>
       <Key>Ice</Key>
-      <Value>Лёд</Value>
+      <Value>Водяной лёд</Value>
     </Record>
     <Record>
       <Key>Oxite</Key>
@@ -20409,7 +20409,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingOverPressure</Key>
-      <Value>The &lt;color=green&gt;{LOCAL:Thing}&lt;/color&gt; is &lt;color=red&gt;Over Pressure&lt;/color&gt;!</Value>
+      <Value>&lt;color=red&gt;Чрезмерное давление&lt;/color&gt; в &lt;color=green&gt;{LOCAL:Thing}&lt;/color&gt;!</Value>
     </Record>
     <Record>
       <Key>PressureSafteySetTo</Key>
@@ -20985,11 +20985,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DirtCanisterDirtIsAt</Key>
-      <Value>Currently contains {LOCAL:Quantity} of dirt</Value>
+      <Value>Содержит {LOCAL:Quantity} грунта</Value>
     </Record>
     <Record>
       <Key>IsCurrentlyMelting</Key>
-      <Value>Is currently &lt;color=yellow&gt;melting&lt;/color&gt;</Value>
+      <Value>&lt;color=yellow&gt;Плавится&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ContainsItemInSlotAtQuantity</Key>
@@ -21017,15 +21017,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ScrubberVentOpen</Key>
-      <Value>&lt;color=yellow&gt;Vent&lt;/color&gt; is &lt;color=green&gt;open&lt;/color&gt;, internal atmosphere will be released</Value>
+      <Value>&lt;color=yellow&gt;Вентиляция&lt;/color&gt; &lt;color=green&gt;открыта&lt;/color&gt;! Внутренняя атмосфера будет выпщена</Value>
     </Record>
     <Record>
       <Key>ScrubberNoFilters</Key>
-      <Value>No &lt;color=yellow&gt;Filters&lt;/color&gt; loaded, will pass all atmosphere</Value>
+      <Value>Не установлен ни один &lt;color=yellow&gt;фильтр&lt;/color&gt;! Все газы будут попадать внутрь</Value>
     </Record>
     <Record>
       <Key>ScrubberConnectToPipe</Key>
-      <Value>Connect to pipe network to release pressure.</Value>
+      <Value>Чтобы сбросить лишнее давление, подключите к трубе через &lt;color=yellow&gt;Коннектор резервура&lt;/color&gt;.</Value>
     </Record>
     <Record>
       <Key>CanBeUnfastenedWithWrench</Key>
@@ -21033,7 +21033,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingCanBeDestroyedByWeather</Key>
-      <Value>The {LOCAL:Thing} will be damaged by {LOCAL:WeatherEvent} events</Value>
+      <Value>{LOCAL:WeatherEvent} будет повреждать {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>HeatingEnergyAmount</Key>
@@ -21285,15 +21285,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HeatingFromInternal</Key>
-      <Value>The {LOCAL:Thing} is &lt;color=white&gt;Heating&lt;/color&gt; from {LOCAL:Source} at {LOCAL:Energy}</Value>
+      <Value>{LOCAL:Thing} &lt;color=white&gt;обогревает&lt;/color&gt;, забирая {LOCAL:Energy} тепловой энергии из {LOCAL:Source}</Value>
     </Record>
     <Record>
       <Key>HeatingFromElement</Key>
-      <Value>The {LOCAL:Thing} is &lt;color=white&gt;Heating&lt;/color&gt; from &lt;color=yellow&gt;Element&lt;/color&gt; at {LOCAL:Energy}</Value>
+      <Value>{LOCAL:Thing} &lt;color=white&gt;обогревает&lt;/color&gt; от &lt;color=yellow&gt;энергии батареи&lt;/color&gt;, потребляя {LOCAL:Energy}</Value>
     </Record>
     <Record>
       <Key>CoolantFrozen</Key>
-      <Value>The {LOCAL:Thing} is &lt;color=blue&gt;Frozen&lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} &lt;color=blue&gt;заморожен&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>WorldEnvironmentTooHot</Key>
@@ -21305,7 +21305,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CoolingFromInternal</Key>
-      <Value>The {LOCAL:Thing} is &lt;color=white&gt;Cooling&lt;/color&gt; from {LOCAL:Source} at {LOCAL:Energy}</Value>
+      <Value>{LOCAL:Thing} &lt;color=white&gt;охлаждает&lt;/color&gt;, закачивая {LOCAL:Energy} тепловой энергии в {LOCAL:Source}</Value>
     </Record>
     <Record>
       <Key>DeviceWorldGridBlocked</Key>
@@ -21313,11 +21313,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TemperatureTooHotForThing</Key>
-      <Value>The temperature is too hot for {LOCAL:Thing} to operate</Value>
+      <Value>Слишком &lt;color=white&gt;высокая&lt;/color&gt; температура для работы {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>TemperatureTooColdForThing</Key>
-      <Value>The temperature is too cold for {LOCAL:Thing} to operate</Value>
+      <Value>Слишком &lt;color=white&gt;низкая&lt;/color&gt; температура для работы {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ItemInSlot</Key>
@@ -22213,7 +22213,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ConnectedRocketAvionics</Key>
-      <Value>Авионика: {LOCAL:Avionics}</Value>
+      <Value>Управление ракетой от {LOCAL:Avionics}</Value>
     </Record>
     <Record>
       <Key>ConnectedRocketUplinks</Key>
