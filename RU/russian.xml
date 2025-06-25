@@ -8975,6 +8975,54 @@
     </Record>
   </Interactables>
   <Interface>
+	  <Record>
+		  <Key>LunarPoiRichOreCraterName</Key>
+		  <Value>Богатый рудой кратер</Value>
+	  </Record>
+	  <Record>
+		  <Key>LunarPoiRichOreCraterGoldSilverDescription</Key>
+		  <Value>Богат золотом и серебром</Value>
+	  </Record>
+	  <Record>
+		  <Key>LunarPoiRichOreCraterCobaltDescription</Key>
+		  <Value>Богат кобольтом</Value>
+	  </Record>
+	  <Record>
+		  <Key>LunarPoiRichOreCraterNickelLeadDescription</Key>
+		  <Value>Богат никелем и свинцом</Value>
+	  </Record>
+	  <Record>
+		  <Key>LunarPoiGrandCraterLacusBellusName</Key>
+		  <Value>Озеро Милости</Value>
+	  </Record>
+	  <Record>
+		  <Key>LunarPoiGrandCraterLacusBellusDescription</Key>
+		  <Value>Огромный кратер</Value>
+	  </Record>
+	  <Record>
+		  <Key>LunarPoiGrandCraterCraterVeritasName</Key>
+		  <Value>Кратер Истины</Value>
+	  </Record>
+	  <Record>
+		  <Key>LunarPoiGrandCraterCraterVeritasDescription</Key>
+		  <Value>Огромный кратер</Value>
+	  </Record>
+	  <Record>
+		  <Key>LunarPoiGrandCraterCraterVesperName</Key>
+		  <Value>Кратер Веспера</Value>
+	  </Record>
+	  <Record>
+		  <Key>LunarPoiGrandCraterCraterVesperDescription</Key>
+		  <Value>Огромный кратер</Value>
+	  </Record>
+	  <Record>
+		  <Key>LunarPoiGrandCraterCraterNoxName</Key>
+		  <Value>Кратер Ночи</Value>
+	  </Record>
+	  <Record>
+		  <Key>LunarPoiGrandCraterCraterNoxDescription</Key>
+		  <Value>Огромный кратер</Value>
+	  </Record>
     <Record>
       <Key>OkayConfirmation</Key>
       <Value>Хорошо</Value>
@@ -9873,7 +9921,7 @@
     </Record>
     <Record>
       <Key>WorldLunar</Key>
-      <Value>Луна</Value>
+      <Value>Лунное море</Value>
     </Record>
     <Record>
       <Key>SettingsAntialiasing</Key>
@@ -10720,7 +10768,7 @@
     </Record>
     <Record>
       <Key>NewWorldLunarShortDesc</Key>
-      <Value>Хотя присутствие угля не характерно для земной луны, относительно ровная местность, полная различных кратеров и отсутствие атмосферы может быть более знакомо в этом сером ландшафте. Отличное место для начинающего путешественника, с меньшим количеством опасностей и сложностей относительно более экзотических миров</Value>
+      <Value>Эта карта расположена на границе лунного моря, где древние лавовые равнины смыкаются с изрезанными высокогорьями. Рельеф сочетает в себе открытые участки и раздробленные гряды, образованные в результате ударов метеоритов и вулканической активности. Отсутствие атмосферы и равномерного солнечного света формирует жёсткие, но предсказуемые условия для деятельности на Луне.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceShortDesc</Key>
@@ -23859,7 +23907,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SaveInvalidTerrainDataModified</Key>
-      <Value>Для этой карты были изменены данные ландшафта. Сохранение больше недействительно.</Value>
+      <Value>В этом сохранении данные ландшафта повреждены или недействительны. Мир был модифицирован.</Value>
     </Record>
     <Record>
       <Key>PressToExit</Key>
@@ -23877,6 +23925,14 @@ Status: {LOCAL:StatusValue}</Value>
       <Key>DifficultyStatisticHygieneReduction</Key>
       <Value>Снижение гигиены</Value>
     </Record>
+	  <Record>
+		  <Key>ResetTerrainButton</Key>
+		  <Value>Сбросить ландшафт</Value>
+	  </Record>
+	  <Record>
+		  <Key>CancelLoadButton</Key>
+		  <Value>Отмена</Value>
+	  </Record>
   </GameStrings>
   <GameTip />
 </Language>

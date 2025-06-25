@@ -9853,6 +9853,55 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
   </Interactables>
   <Interface>
     <Record>
+      <Key>LunarPoiRichOreCraterName</Key>
+      <Value>Rich Ore Crater</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiRichOreCraterGoldSilverDescription</Key>
+      <Value>Rich in Gold and Silver</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiRichOreCraterCobaltDescription</Key>
+      <Value>Rich in Cobalt</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiRichOreCraterNickelLeadDescription</Key>
+      <Value>Rich in Nickel and Lead</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterLacusBellusName</Key>
+      <Value>Lacus Bellus</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterLacusBellusDescription</Key>
+      <Value>Grand Crater</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterVeritasName</Key>
+      <Value>Crater Veritas</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterVeritasDescription</Key>
+      <Value>Grand Crater</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterVesperName</Key>
+      <Value>Crater Vesper</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterVesperDescription</Key>
+      <Value>Grand Crater</Value>
+    </Record>
+
+    <Record>
+      <Key>LunarPoiGrandCraterCraterNoxName</Key>
+      <Value>Crater Nox</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterNoxDescription</Key>
+      <Value>Grand Crater</Value>
+    </Record>
+    <Record>
       <Key>OkayConfirmation</Key>
       <Value>Okay</Value>
     </Record>
@@ -11625,11 +11674,11 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>WorldLunar</Key>
-      <Value>Lunar</Value>
+      <Value>Lunar Mare</Value>
     </Record>
     <Record>
       <Key>NewWorldLunarShortDesc</Key>
-      <Value>While the presence of coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizable craters and lack of atmosphere may be more familiar in this grey landscape. A great location for the budding Stationeer to begin their journey, with fewer of the hazards and complexities offered on more exotic worlds</Value>
+      <Value>This map is set on the boundary of a lunar mare, where ancient lava plains meet the jagged highlands. The terrain is a mix of open flats and fractured ridges, shaped by impacts and volcanic history. With no atmosphere and consistent sunlight, it provides a stark but stable environment for lunar operations</Value>
     </Record>
     <Record>
       <Key>NewWorldMoon8kShortDesc</Key>
@@ -11672,12 +11721,12 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>A barren rock nestled under the wing of Saturn's spectacular rings. Mimas tiny stature is reflected in its extremely low gravity, and the Mimantean surface is saturated with impact craters from wayward ring occupants. It's distance from the sun provides little power from solar devices.Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the extremely low gravity.</Value>
     </Record>
     <Record>
-        <Key>RandomSpawnLocation</Key>
-        <Value>Random</Value>
+      <Key>RandomSpawnLocation</Key>
+      <Value>Random</Value>
     </Record>
     <Record>
-        <Key>LunarSpawnCraterVesper</Key>
-        <Value>Crater Vesper</Value>
+      <Key>LunarSpawnCraterVesper</Key>
+      <Value>Crater Vesper</Value>
     </Record>
     <Record>
       <Key>LunarSpawnMontesUmbrarum</Key>
@@ -18097,11 +18146,11 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>WorldLunar</Key>
-      <Value>Lunar</Value>
+      <Value>Lunar Mare</Value>
     </Record>
     <Record>
       <Key>NewWorldLunarShortDesc</Key>
-      <Value />
+      <Value>Set on the boundary of a lunar mare, where ancient lava plains meet the jagged highlands, the terrain is a mix of open flats and fractured ridges, shaped by impacts and volcanic history. With no atmosphere, it provides a stark but stable environment for lunar operations</Value>
     </Record>
   </Interface>
   <Colors>
@@ -24752,7 +24801,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SaveInvalidTerrainDataModified</Key>
-      <Value>The Terrain data for this map has been modified. This save is no longer valid.</Value>
+      <Value>Terrain save data invalid. This world has been been modified.</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticMoodReduction</Key>
@@ -24769,6 +24818,14 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>LeavingPlayableArea</Key>
       <Value>Leaving playable area</Value>
+    </Record>
+    <Record>
+      <Key>ResetTerrainButton</Key>
+      <Value>Reset Terrain</Value>
+    </Record>
+    <Record>
+      <Key>CancelLoadButton</Key>
+      <Value>Cancel</Value>
     </Record>
   </GameStrings>
   <GameTip />
