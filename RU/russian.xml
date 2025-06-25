@@ -1648,7 +1648,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
-      <Value>Регулятор обратного давления</Value>
+      <Value>Регулятор давления "до себя"</Value>
       <Description>Unlike the {THING:StructurePressureRegulator}, which closes when the input exceeds a given pressure, the back pressure regulator opens when input pressure reaches a given value.</Description>
     </RecordThing>
     <RecordThing>
@@ -2060,7 +2060,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructurePressureRegulator</Key>
-      <Value>Регулятор давления</Value>
+      <Value>Регулятор давления "после себя"</Value>
       <Description>Controlling the flow of gas between two pipe networks, pressure regulators shift gas until a set pressure on the outlet side is achieved, or the gas supply is exhausted. The back pressure regulator, by contrast, will only operate when pressure on the intake side exceeds the set value. With a max pressure of over 20,000kPa, it requires power to operate.</Description>
     </RecordThing>
     <RecordThing>
@@ -5272,12 +5272,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureBackLiquidPressureRegulator</Key>
-      <Value>Регулятор обратного уровня жидкости</Value>
+      <Value>Регулятор уровня жидкости "до себя"</Value>
       <Description>Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed as percentage where 100 is totally full and 0 is empty.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPressureRegulator</Key>
-      <Value>Регулятор уровня жидкости</Value>
+      <Value>Регулятор уровня жидкости "после себя"</Value>
       <Description>Regulates the volume ratio of liquid in the output Liquid pipe. This is expressed as percentage where 100 is totally full and 0 is empty.</Description>
     </RecordThing>
     <RecordThing>
@@ -9057,11 +9057,11 @@
     </Record>
     <Record>
       <Key>Rpm</Key>
-      <Value>Rpm</Value>
+      <Value>Об/мин</Value>
     </Record>
     <Record>
       <Key>Stress</Key>
-      <Value>Stress</Value>
+      <Value>Стресс</Value>
     </Record>
     <Record>
       <Key>SlotKey</Key>
@@ -19353,11 +19353,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GlobalThrottle</Key>
-      <Value>Throttle &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Дроссель &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalCombustionLimiter</Key>
-      <Value>Combustion Limiter &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Ограничитель горения &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalCurrentInstrument</Key>
