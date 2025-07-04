@@ -8976,6 +8976,122 @@
   </Interactables>
   <Interface>
 	  <Record>
+		  <Key>EuropaPoiRegionCallanishPeakName</Key>
+		  <Value>Пик Калланиша</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaPoiRegionCallanishPeakDescription</Key>
+		  <Value>Самая высокая точка в секторе</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaPoiRegionFalgasDescentName</Key>
+		  <Value>Склон Фальга</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaPoiRegionFalgasDescentDescription</Key>
+		  <Value>Крутой спуск к бассейну</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaPoiRegionBalgatanRidgeName</Key>
+		  <Value>Хребет Балгатана</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaPoiRegionBalgatanRidgeDescription</Key>
+		  <Value>Выходящий на северный бассейн</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaPoiRegionSouthCallanishPassName</Key>
+		  <Value>Южно-Калланишский перевал</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaPoiRegionSouthCallanishPassDescription</Key>
+		  <Value>Безопасный маршрут к высокогорью</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaPoiRegionSidonGullyName</Key>
+		  <Value>Овраг Сидона</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaPoiRegionSidonGullyDescription</Key>
+		  <Value>Защищённый большим бассейном рукав</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaPoiRegionMorensFellName</Key>
+		  <Value>Гора Морена</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaPoiRegionMorensFellDescription</Key>
+		  <Value>Обдуваемая ветрами ледяная пустыня</Value>
+	  </Record>
+	  <Record>
+		  <Key>GeoRegionEuropaRangesNorthName</Key>
+		  <Value>Северная горная цепь</Value>
+	  </Record>
+	  <Record>
+		  <Key>GeoRegionEuropaWestHighlandsName</Key>
+		  <Value>Западные высокогорья</Value>
+	  </Record>
+	  <Record>
+		  <Key>GeoRegionEuropaBalgatanPassName</Key>
+		  <Value>Перевал Балгатана</Value>
+	  </Record>
+	  <Record>
+		  <Key>GeoRegionEuropaRangesSouthName</Key>
+		  <Value>Южная горная цепь</Value>
+	  </Record>
+	  <Record>
+		  <Key>GeoRegionEuropaFingerNorthName</Key>
+		  <Value>Северный ледниковый рукав</Value>
+	  </Record>
+	  <Record>
+		  <Key>GeoRegionEuropaEastHighlandsName</Key>
+		  <Value>Восточное высокогорье</Value>
+	  </Record>
+	  <Record>
+		  <Key>GeoRegionEuropaFingerEastName</Key>
+		  <Value>Восточный ледниковый рукав</Value>
+	  </Record>
+	  <Record>
+		  <Key>GeoRegionEuropaFingerSouthName</Key>
+		  <Value>Южный ледниковый рукав</Value>
+	  </Record>
+	  <Record>
+		  <Key>GeoRegionEuropaFingerWestName</Key>
+		  <Value>Западный ледниковый рукав</Value>
+	  </Record>
+	  <Record>
+		  <Key>GeoRegionEuropaBasinName</Key>
+		  <Value>Большой ледниковый бассейн</Value>
+	  </Record>
+	  <Record>
+		  <Key>GeoRegionEuropaBasinNorthName</Key>
+		  <Value>Северный ледниковый бассейн</Value>
+	  </Record>
+	  <Record>
+		  <Key>GeoRegionEuropaTyreValleyName</Key>
+		  <Value>Долина Тир</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaSpawnIcyBasin</Key>
+		  <Value>Ледяной бассейн</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaSpawnGlacialChannel</Key>
+		  <Value>Ледниковый канал</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaSpawnBalgatanPass</Key>
+		  <Value>Перевал Балгатана</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaSpawnFrigidHighlands</Key>
+		  <Value>Холодное высокогорье</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaSpawnTyreValley</Key>
+		  <Value>Долина Тир</Value>
+	  </Record>
+	  <Record>
 		  <Key>LunarPoiRichOreCraterName</Key>
 		  <Value>Богатый рудой кратер</Value>
 	  </Record>
@@ -9778,6 +9894,10 @@
     <Record>
       <Key>SettingsShadows</Key>
       <Value>Тени</Value>
+    </Record>
+    <Record>
+	  <Key>SettingsDistantShadows</Key>
+	  <Value>Далёкие тени</Value>
     </Record>
     <Record>
       <Key>SettingsShadowResolution</Key>
@@ -15268,7 +15388,7 @@
     </Record>
     <Record>
       <Key>WorldObjectiveAcknowledgeAndDismiss</Key>
-      <Value>Dismiss to Acknowledge</Value>
+      <Value>Подтвердить и закрыть</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveOfflinePlayers</Key>
@@ -16020,7 +16140,7 @@
     </Record>
     <Record>
       <Key>WorldRatingBeginner</Key>
-      <Value>Для начинающий</Value>
+      <Value>Для начинающих</Value>
     </Record>
     <Record>
       <Key>WorldRatingIntermediate</Key>
@@ -22485,7 +22605,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StructureNetworkTypeLandingPad</Key>
-      <Value>Landing Pad</Value>
+      <Value>Посадочная площадка</Value>
     </Record>
     <Record>
       <Key>StructureNetworkTypePipe</Key>
@@ -22850,11 +22970,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SizeTwoDCondition</Key>
-      <Value>Size must be {LOCAL:Condition} {LOCAL:SizeX} x {LOCAL:SizeY}</Value>
+      <Value>Размер должен быть {LOCAL:Condition} {LOCAL:SizeX} x {LOCAL:SizeY}</Value>
     </Record>
     <Record>
       <Key>BuildNetworkCondition</Key>
-      <Value>Build a {LOCAL:NetworkType} network</Value>
+      <Value>Построить сеть из {LOCAL:NetworkType}</Value>
     </Record>
     <Record>
       <Key>TraderContactCondition</Key>

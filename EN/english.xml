@@ -9853,6 +9853,125 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
   </Interactables>
   <Interface>
     <Record>
+      <Key>EuropaPoiRegionCallanishPeakName</Key>
+      <Value>Callanish Peak</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionCallanishPeakDescription</Key>
+      <Value>Highest point in the sector</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionFalgasDescentName</Key>
+      <Value>Falga's Descent</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionFalgasDescentDescription</Key>
+      <Value>Steep climb down to the grand basin</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionBalgatanRidgeName</Key>
+      <Value>Balgatan Ridge</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionBalgatanRidgeDescription</Key>
+      <Value>Overlooking the northern basin</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSouthCallanishPassName</Key>
+      <Value>South Callanish Pass</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSouthCallanishPassDescription</Key>
+      <Value>Safer route into the highlands</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSidonGullyName</Key>
+      <Value>Sidon Gully</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSidonGullyDescription</Key>
+      <Value>Sheltered finger off the grand basin</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionMorensFellName</Key>
+      <Value>Moren's Fell</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionMorensFellDescription</Key>
+      <Value>Windswept ice desert</Value>
+    </Record>
+    
+    <Record>
+      <Key>GeoRegionEuropaRangesNorthName</Key>
+      <Value>Northern Ranges</Value>
+    </Record>
+    <Record>
+      <Key>GeoRegionEuropaWestHighlandsName</Key>
+      <Value>Western Highlands</Value>
+    </Record>
+    <Record>
+      <Key>GeoRegionEuropaBalgatanPassName</Key>
+      <Value>Balgatan Pass</Value>
+    </Record>
+    <Record>
+      <Key>GeoRegionEuropaRangesSouthName</Key>
+      <Value>Southern Ranges</Value>
+    </Record>
+    <Record>
+      <Key>GeoRegionEuropaFingerNorthName</Key>
+      <Value>North Glacial Finger</Value>
+    </Record>
+    <Record>
+      <Key>GeoRegionEuropaEastHighlandsName</Key>
+      <Value>Eastern Highlands</Value>
+    </Record>
+    <Record>
+      <Key>GeoRegionEuropaFingerEastName</Key>
+      <Value>East Glacial Finger</Value>
+    </Record>
+    <Record>
+      <Key>GeoRegionEuropaFingerSouthName</Key>
+      <Value>South Glacial Finger</Value>
+    </Record>
+    <Record>
+      <Key>GeoRegionEuropaFingerWestName</Key>
+      <Value>West Glacial Finger</Value>
+    </Record>
+    <Record>
+      <Key>GeoRegionEuropaBasinName</Key>
+      <Value>Grand Glacial Basin</Value>
+    </Record>
+    <Record>
+      <Key>GeoRegionEuropaBasinNorthName</Key>
+      <Value>Northern Glacial Basin</Value>
+    </Record>
+    <Record>
+      <Key>GeoRegionEuropaTyreValleyName</Key>
+      <Value>Tyre Valley</Value>
+    </Record>
+    
+    <Record>
+      <Key>EuropaSpawnIcyBasin</Key>
+      <Value>Icy Basin</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnGlacialChannel</Key>
+      <Value>Glacial Channel</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnBalgatanPass</Key>
+      <Value>Balgatan Pass</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnFrigidHighlands</Key>
+      <Value>Frigid Highlands</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnTyreValley</Key>
+      <Value>Tyre Valley</Value>
+    </Record>
+    
+    <Record>
       <Key>LunarPoiRichOreCraterName</Key>
       <Value>Rich Ore Crater</Value>
     </Record>
@@ -10676,6 +10795,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>SettingsShadows</Key>
       <Value>Shadows</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDistantShadows</Key>
+      <Value>Distant Shadows</Value>
     </Record>
     <Record>
       <Key>SettingsShadowResolution</Key>
