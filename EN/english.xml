@@ -9900,54 +9900,166 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>EuropaPoiRegionMorensFellDescription</Key>
       <Value>Windswept ice desert</Value>
     </Record>
-    
+
     <Record>
-      <Key>GeoRegionEuropaRangesNorthName</Key>
-      <Value>Northern Ranges</Value>
+      <Key>EuropaNamedRegionTyreSlopeName</Key>
+      <Value>Tyre Slope</Value>
     </Record>
     <Record>
-      <Key>GeoRegionEuropaWestHighlandsName</Key>
-      <Value>Western Highlands</Value>
+      <Key>EuropaNamedRegionIceDesertName</Key>
+      <Value>Ice Desert</Value>
     </Record>
     <Record>
-      <Key>GeoRegionEuropaBalgatanPassName</Key>
+      <Key>EuropaNamedRegionNorthEastRangeName</Key>
+      <Value>North East Range</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthernTroughName</Key>
+      <Value>Northern Trough</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthRangeName</Key>
+      <Value>North Range</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthWestRangeName</Key>
+      <Value>North West Range</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionTheDitchName</Key>
+      <Value>The Ditch</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionBasinViewName</Key>
+      <Value>Basin View</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthernRangesName</Key>
+      <Value>Southern Range</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionRupertsRestName</Key>
+      <Value>Rupert's Rest</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionPerpetuityName</Key>
+      <Value>Perpetuity</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionRupertsRangeName</Key>
+      <Value>Rupert's Range</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionRupertsValleyName</Key>
+      <Value>Rupert's Valley</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGlacialFingerWestName</Key>
+      <Value>Glacial Finger West</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGlacialFingerEastName</Key>
+      <Value>GlacialFingerEast</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGlacialFingerSouthName</Key>
+      <Value>Glacial Finger South</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGlacialFingerNorthName</Key>
+      <Value>Glacial Finger North</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGrandBasinWestName</Key>
+      <Value>Grand Basin West</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGrandBasinSouthName</Key>
+      <Value>Grand Basin South</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGrandBasinEastName</Key>
+      <Value>Grand Basin East</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGrandBasinNorthName</Key>
+      <Value>Grand Basin North</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionEastBalgatanRangeName</Key>
+      <Value>East Balgatan Range</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionWestBalgatanRangeName</Key>
+      <Value>West Balgatan Range</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionTyreValleyName</Key>
+      <Value>Tyre Valley</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionMorensCrossingName</Key>
+      <Value>Moren's Crossing</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionWesternIceFlatsName</Key>
+      <Value>Western Ice Flats</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionEasternIceFlatsName</Key>
+      <Value>Eastern Ice Flats</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionTheWallName</Key>
+      <Value>The Wall</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionCrescentValleyName</Key>
+      <Value>Crescent Valley</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthEastHighlandsName</Key>
+      <Value>South East Highlands</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthEastHighlandsName</Key>
+      <Value>North East Highlands</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthWestHighlandsName</Key>
+      <Value>South West Highlands</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthWestHighlandsName</Key>
+      <Value>North West Highlands</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionHeavensVaultName</Key>
+      <Value>Heaven's Vault</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionBalgatanPassName</Key>
       <Value>Balgatan Pass</Value>
     </Record>
     <Record>
-      <Key>GeoRegionEuropaRangesSouthName</Key>
-      <Value>Southern Ranges</Value>
+      <Key>EuropaNamedRegionPilgrimsPathName</Key>
+      <Value>Pilgrim's Path</Value>
     </Record>
     <Record>
-      <Key>GeoRegionEuropaFingerNorthName</Key>
-      <Value>North Glacial Finger</Value>
+      <Key>EuropaNamedRegionNorthWestOutlandsName</Key>
+      <Value>North West Outlands</Value>
     </Record>
     <Record>
-      <Key>GeoRegionEuropaEastHighlandsName</Key>
-      <Value>Eastern Highlands</Value>
+      <Key>EuropaNamedRegionSouthWestOutlandsName</Key>
+      <Value>South West Outlands</Value>
     </Record>
     <Record>
-      <Key>GeoRegionEuropaFingerEastName</Key>
-      <Value>East Glacial Finger</Value>
+      <Key>EuropaNamedRegionSouthEastOutlandsName</Key>
+      <Value>South East Outlands</Value>
     </Record>
     <Record>
-      <Key>GeoRegionEuropaFingerSouthName</Key>
-      <Value>South Glacial Finger</Value>
-    </Record>
-    <Record>
-      <Key>GeoRegionEuropaFingerWestName</Key>
-      <Value>West Glacial Finger</Value>
-    </Record>
-    <Record>
-      <Key>GeoRegionEuropaBasinName</Key>
-      <Value>Grand Glacial Basin</Value>
-    </Record>
-    <Record>
-      <Key>GeoRegionEuropaBasinNorthName</Key>
-      <Value>Northern Glacial Basin</Value>
-    </Record>
-    <Record>
-      <Key>GeoRegionEuropaTyreValleyName</Key>
-      <Value>Tyre Valley</Value>
+      <Key>EuropaNamedRegionSouthOutlandsName</Key>
+      <Value>South Outlands</Value>
     </Record>
     
     <Record>

@@ -9024,52 +9024,164 @@
 		  <Value>Обдуваемая ветрами ледяная пустыня</Value>
 	  </Record>
 	  <Record>
-		  <Key>GeoRegionEuropaRangesNorthName</Key>
+		  <Key>EuropaNamedRegionTyreSlopeName</Key>
+		  <Value>Склон Тир</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionIceDesertName</Key>
+		  <Value>Ледяная пустыня</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionNorthEastRangeName</Key>
+		  <Value>Северо-восточная горная цепь</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionNorthernTroughName</Key>
+		  <Value>Северный желоб</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionNorthRangeName</Key>
 		  <Value>Северная горная цепь</Value>
 	  </Record>
 	  <Record>
-		  <Key>GeoRegionEuropaWestHighlandsName</Key>
-		  <Value>Западные высокогорья</Value>
+		  <Key>EuropaNamedRegionNorthWestRangeName</Key>
+		  <Value>Северо-западная горная цепь</Value>
 	  </Record>
 	  <Record>
-		  <Key>GeoRegionEuropaBalgatanPassName</Key>
-		  <Value>Перевал Балгатана</Value>
+		  <Key>EuropaNamedRegionTheDitchName</Key>
+		  <Value>Канава</Value>
 	  </Record>
 	  <Record>
-		  <Key>GeoRegionEuropaRangesSouthName</Key>
+		  <Key>EuropaNamedRegionBasinViewName</Key>
+		  <Value>Вид на бассейн</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionSouthernRangesName</Key>
 		  <Value>Южная горная цепь</Value>
 	  </Record>
 	  <Record>
-		  <Key>GeoRegionEuropaFingerNorthName</Key>
-		  <Value>Северный ледниковый рукав</Value>
+		  <Key>EuropaNamedRegionRupertsRestName</Key>
+		  <Value>Обитель Руперта</Value>
 	  </Record>
 	  <Record>
-		  <Key>GeoRegionEuropaEastHighlandsName</Key>
-		  <Value>Восточное высокогорье</Value>
+		  <Key>EuropaNamedRegionPerpetuityName</Key>
+		  <Value>Вечность</Value>
 	  </Record>
 	  <Record>
-		  <Key>GeoRegionEuropaFingerEastName</Key>
-		  <Value>Восточный ледниковый рукав</Value>
+		  <Key>EuropaNamedRegionRupertsRangeName</Key>
+		  <Value>Горная цепь Руперта</Value>
 	  </Record>
 	  <Record>
-		  <Key>GeoRegionEuropaFingerSouthName</Key>
-		  <Value>Южный ледниковый рукав</Value>
+		  <Key>EuropaNamedRegionRupertsValleyName</Key>
+		  <Value>Долина Руперта</Value>
 	  </Record>
 	  <Record>
-		  <Key>GeoRegionEuropaFingerWestName</Key>
-		  <Value>Западный ледниковый рукав</Value>
+		  <Key>EuropaNamedRegionGlacialFingerWestName</Key>
+		  <Value>Ледниковый рукав (Запад)</Value>
 	  </Record>
 	  <Record>
-		  <Key>GeoRegionEuropaBasinName</Key>
-		  <Value>Большой ледниковый бассейн</Value>
+		  <Key>EuropaNamedRegionGlacialFingerEastName</Key>
+		  <Value>Ледниковый рукав (Восток)</Value>
 	  </Record>
 	  <Record>
-		  <Key>GeoRegionEuropaBasinNorthName</Key>
-		  <Value>Северный ледниковый бассейн</Value>
+		  <Key>EuropaNamedRegionGlacialFingerSouthName</Key>
+		  <Value>Ледниковый рукав (Юг)</Value>
 	  </Record>
 	  <Record>
-		  <Key>GeoRegionEuropaTyreValleyName</Key>
+		  <Key>EuropaNamedRegionGlacialFingerNorthName</Key>
+		  <Value>Ледниковый рукав (Север)</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionGrandBasinWestName</Key>
+		  <Value>Великий бассейн (Запад)</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionGrandBasinSouthName</Key>
+		  <Value>Великий бассейн (Юг)</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionGrandBasinEastName</Key>
+		  <Value>Великий бассейн (Восток)</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionGrandBasinNorthName</Key>
+		  <Value>Великий бассейн (Север)</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionEastBalgatanRangeName</Key>
+		  <Value>Восточная цепь Балгатана</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionWestBalgatanRangeName</Key>
+		  <Value>Западная цепь Балгатана</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionTyreValleyName</Key>
 		  <Value>Долина Тир</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionMorensCrossingName</Key>
+		  <Value>Переход Морена</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionWesternIceFlatsName</Key>
+		  <Value>Западные ледяные равнины</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionEasternIceFlatsName</Key>
+		  <Value>Восточные ледяные равнины</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionTheWallName</Key>
+		  <Value>Стена</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionCrescentValleyName</Key>
+		  <Value>Долина Полумесяца</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionSouthEastHighlandsName</Key>
+		  <Value>Юго-восточное нагорье</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionNorthEastHighlandsName</Key>
+		  <Value>Северо-восточное нагорье</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionSouthWestHighlandsName</Key>
+		  <Value>Юго-западное нагорье</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionNorthWestHighlandsName</Key>
+		  <Value>Северо-западное нагорье</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionHeavensVaultName</Key>
+		  <Value>Небесный свод</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionBalgatanPassName</Key>
+		  <Value>Перевал Балгатана</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionPilgrimsPathName</Key>
+		  <Value>Путь странника</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionNorthWestOutlandsName</Key>
+		  <Value>Северо-западные пустоши</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionSouthWestOutlandsName</Key>
+		  <Value>Юго-западные пустоши</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionSouthEastOutlandsName</Key>
+		  <Value>Юго-восточные пустоши</Value>
+	  </Record>
+	  <Record>
+		  <Key>EuropaNamedRegionSouthOutlandsName</Key>
+		  <Value>Южные пустоши</Value>
 	  </Record>
 	  <Record>
 		  <Key>EuropaSpawnIcyBasin</Key>
