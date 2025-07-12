@@ -9153,6 +9153,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Scanner Head Slot</Value>
     </Record>
     <Record>
+      <Key>PortableSlot</Key>
+      <Value>Portable slot</Value>
+    </Record>
+    <Record>
       <Key>Motherboard</Key>
       <Value>Motherboard</Value>
     </Record>
@@ -9209,8 +9213,8 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Circuit</Value>
     </Record>
     <Record>
-      <Key>Circuitboard</Key>
-      <Value>Circuit Board</Value>
+      <Key>CircuitBoard</Key>
+      <Value>Circuitboard</Value>
     </Record>
     <Record>
       <Key>ProgrammableChip</Key>
@@ -9900,7 +9904,250 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>EuropaPoiRegionMorensFellDescription</Key>
       <Value>Windswept ice desert</Value>
     </Record>
+    
+    <Record>
+      <Key>MimasPoiMarsdenCraterName</Key>
+      <Value>Marsden Crater</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiMarsdenCraterDescription</Key>
+      <Value>Shallow Lowlands Crater</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiDesolationName</Key>
+      <Value>Desolation</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiDesolationDescription</Key>
+      <Value>Deep and dusty crater</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiDustBowlName</Key>
+      <Value>Dust Bowl</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiDustBowlDescription</Key>
+      <Value>Vast barren crater</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiCraterFieldLookOutName</Key>
+      <Value>Crater Field Lookout</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiCraterFieldLookOutDescription</Key>
+      <Value>An elevated view of the crater field below</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiSouthHighlandsPassName</Key>
+      <Value>South Highlands Pass</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiSouthHighlandsPassDescription</Key>
+      <Value>Narrow valley into the highlands</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiShelteredCraterViewName</Key>
+      <Value>Sheltered Crater View</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiShelteredCraterViewDescription</Key>
+      <Value>View over the massive central crater</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiCentralMesaCraterName</Key>
+      <Value>Central Mesa Crater</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiCentralMesaCraterDescription</Key>
+      <Value>Crater within a crater within a crater</Value>
+    </Record>
+    
+    <Record>
+      <Key>MimasNamedRegionCressidasPointName</Key>
+      <Value>Cressida's Point</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCressidasFollyName</Key>
+      <Value>Cressida's Folly</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSouthBarrensName</Key>
+      <Value>South Barrens</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionWestBarrensName</Key>
+      <Value>West Barrens</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthBarrensName</Key>
+      <Value>North Barrens</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionEastBarrensName</Key>
+      <Value>East Barrens</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDustlandsWestName</Key>
+      <Value>Dustlands West</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDustlandsNorthName</Key>
+      <Value>Dustlands North</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDustlandsSouthName</Key>
+      <Value>Dustlands South</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCrumbsWatchName</Key>
+      <Value>Crumb's Watch</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthernEscarpmentName</Key>
+      <Value>Northern Escarpment</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthWesternHighlandsName</Key>
+      <Value>North Western Highlands</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthEasternHighlandsName</Key>
+      <Value>North Eastern Highlands</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthernHighlandsName</Key>
+      <Value>Northern Highlands</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSouthernHighlandsName</Key>
+      <Value>Southern Highlands</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionMarsdenCraterName</Key>
+      <Value>Marsden Crater</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionHarrietsDitchName</Key>
+      <Value>Harriet's Ditch</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionHarrietCraterName</Key>
+      <Value>Harriet Crater</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDesolationName</Key>
+      <Value>Desolation</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDustBowlName</Key>
+      <Value>Dust Bowl</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsNorthWestName</Key>
+      <Value>Lowlands North West</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsWestName</Key>
+      <Value>Lowlands West</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsSouthName</Key>
+      <Value>Lowlands South</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsEastName</Key>
+      <Value>Lowlands East</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsNorthName</Key>
+      <Value>Lowlands North</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldNorthWestName</Key>
+      <Value>Crater Field North West</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldWestName</Key>
+      <Value>Crater Field West</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldSouthWestName</Key>
+      <Value>Crater Field South West</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldSouthName</Key>
+      <Value>Crater Field South</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldSouthEastName</Key>
+      <Value>Crater Field South East</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldEastName</Key>
+      <Value>Crater Field East</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldNorthEastName</Key>
+      <Value>Crater Field North East</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldNorthName</Key>
+      <Value>Crater Field North</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterNorthWestName</Key>
+      <Value>Supercrater North West</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterWestName</Key>
+      <Value>Supercrater West</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterSouthWestName</Key>
+      <Value>Supercrater South West</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterSouthName</Key>
+      <Value>Supercrater South</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterSouthEastName</Key>
+      <Value>Supercrater South East</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterEastName</Key>
+      <Value>Supercrater East</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterNorthEastName</Key>
+      <Value>Supercrater North East</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterNorthName</Key>
+      <Value>Supercrater North</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCentralMesaName</Key>
+      <Value>Central Mesa</Value>
+    </Record>
 
+    <Record>
+      <Key>MimasSpawnCentralMesaName</Key>
+      <Value>Central Mesa</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnHarrietCraterName</Key>
+      <Value>Harriet Crater</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnCraterFieldName</Key>
+      <Value>Crater Field</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnDustBowlName</Key>
+      <Value>Dust Bowl</Value>
+    </Record>
+    
     <Record>
       <Key>EuropaNamedRegionTyreSlopeName</Key>
       <Value>Tyre Slope</Value>
@@ -11914,14 +12161,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>NewWorldLunarShortDesc</Key>
       <Value>This map is set on the boundary of a lunar mare, where ancient lava plains meet the jagged highlands. The terrain is a mix of open flats and fractured ridges, shaped by impacts and volcanic history. With no atmosphere and consistent sunlight, it provides a stark but stable environment for lunar operations</Value>
-    </Record>
-    <Record>
-      <Key>NewWorldMoon8kShortDesc</Key>
-      <Value>1km by 1km test moon map</Value>
-    </Record>
-    <Record>
-      <Key>NewWorld4KTerrainDesc</Key>
-      <Value>4K testing Map for new terrain system</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
@@ -18380,12 +18619,28 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>NO ADDITIONAL INFO AVAILABLE</Value>
     </Record>
     <Record>
+      <Key>WorldMimasHerschel</Key>
+      <Value>Mimas Herschel</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMimasHerschelShortDesc</Key>
+        <Value>Located in the Herschel crater on Mimas, this site features impact craters and the towering walls of the crater providing a dramatic backdrop</Value>
+    </Record>
+    <Record>
       <Key>WorldLunar</Key>
       <Value>Lunar Mare</Value>
     </Record>
     <Record>
       <Key>NewWorldLunarShortDesc</Key>
       <Value>Set on the boundary of a lunar mare, where ancient lava plains meet the jagged highlands, the terrain is a mix of open flats and fractured ridges, shaped by impacts and volcanic history. With no atmosphere, it provides a stark but stable environment for lunar operations</Value>
+    </Record>
+    <Record>
+      <Key>WorldMimasHerschel</Key>
+      <Value>Mimas</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMimasHerschelShortDesc</Key>
+      <Value>A barren rock nestled under the wing of Saturn's spectacular rings. Mimas tiny stature is reflected in its extremely low gravity, and the Mimantean surface is saturated with impact craters from wayward ring occupants. It's distance from the sun provides little power from solar devices.Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the extremely low gravity.</Value>
     </Record>
   </Interface>
   <Colors>
@@ -25036,7 +25291,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SaveInvalidTerrainDataModified</Key>
-      <Value>Terrain save data invalid. This world has been been modified.</Value>
+      <Value>Terrain save data invalid. This world has been modified.</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticMoodReduction</Key>
