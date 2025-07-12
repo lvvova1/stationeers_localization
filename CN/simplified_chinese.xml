@@ -8912,6 +8912,11 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Key>StructureRocketSpotCamera</Key>
       <Value>火箭摄像头</Value>
     </RecordThing>
+    <RecordThing>
+      <Key>CartridgeDeepMiner</Key>
+      <Value>功能卡(深层采矿机)</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -9067,6 +9072,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>扫描头槽位</Value>
     </Record>
     <Record>
+      <Key>PortableSlot</Key>
+      <Value>便携式槽位</Value>
+    </Record>
+    <Record>
       <Key>Motherboard</Key>
       <Value>主板</Value>
     </Record>
@@ -9079,7 +9088,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>人员</Value>
     </Record>
     <Record>
-      <Key>PortableSlot</Key>
+      <Key>Portables</Key>
       <Value>便携式槽位</Value>
     </Record>
     <Record>
@@ -9766,6 +9775,522 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
   </Interactables>
   <Interface>
+    <Record>
+      <Key>EuropaPoiRegionCallanishPeakName</Key>
+      <Value>卡拉尼什峰</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionCallanishPeakDescription</Key>
+      <Value>区域内最高点</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionFalgasDescentName</Key>
+      <Value>法尔加坡道</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionFalgasDescentDescription</Key>
+      <Value>通往大盆地的陡峭下行路</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionBalgatanRidgeName</Key>
+      <Value>巴尔加坦山脊</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionBalgatanRidgeDescription</Key>
+      <Value>俯瞰北部盆地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSouthCallanishPassName</Key>
+      <Value>南卡拉尼什隘口</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSouthCallanishPassDescription</Key>
+      <Value>进入高地的安全路线</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSidonGullyName</Key>
+      <Value>锡登沟壑</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSidonGullyDescription</Key>
+      <Value>大盆地延伸出的遮蔽山谷</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionMorensFellName</Key>
+      <Value>莫伦荒野</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionMorensFellDescription</Key>
+      <Value>狂风肆虐的冰荒漠</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiMarsdenCraterName</Key>
+      <Value>马斯登陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiMarsdenCraterDescription</Key>
+      <Value>低洼地层陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiDesolationName</Key>
+      <Value>荒寂</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiDesolationDescription</Key>
+      <Value>布满尘埃的深邃陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiDustBowlName</Key>
+      <Value>尘碗</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiDustBowlDescription</Key>
+      <Value>广袤的贫瘠陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiCraterFieldLookOutName</Key>
+      <Value>陨坑群了望台</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiCraterFieldLookOutDescription</Key>
+      <Value>一个俯瞰下方陨坑群的高处视点</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiSouthHighlandsPassName</Key>
+      <Value>南部高原隘口</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiSouthHighlandsPassDescription</Key>
+      <Value>通往高地的狭窄山谷</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiShelteredCraterViewName</Key>
+      <Value>避风陨坑观景点</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiShelteredCraterViewDescription</Key>
+      <Value>俯瞰巨大中心陨坑的景观</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiCentralMesaCraterName</Key>
+      <Value>中心平顶山陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasPoiCentralMesaCraterDescription</Key>
+      <Value>陨坑套陨坑的结构</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCressidasPointName</Key>
+      <Value>克蕾西达点</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCressidasFollyName</Key>
+      <Value>克蕾西达愚地</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSouthBarrensName</Key>
+      <Value>南部荒原</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionWestBarrensName</Key>
+      <Value>西部荒原</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthBarrensName</Key>
+      <Value>北部荒原</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionEastBarrensName</Key>
+      <Value>东部荒原</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDustlandsWestName</Key>
+      <Value>西部尘埃荒原</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDustlandsNorthName</Key>
+      <Value>北部尘埃荒原</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDustlandsSouthName</Key>
+      <Value>南部尘埃荒原</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCrumbsWatchName</Key>
+      <Value>克伦守望地</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthernEscarpmentName</Key>
+      <Value>北部陡坡</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthWesternHighlandsName</Key>
+      <Value>西北高地</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthEasternHighlandsName</Key>
+      <Value>东北高地</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionNorthernHighlandsName</Key>
+      <Value>北部高地</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSouthernHighlandsName</Key>
+      <Value>南部高地</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionMarsdenCraterName</Key>
+      <Value>马斯登陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionHarrietsDitchName</Key>
+      <Value>哈丽特渠谷</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionHarrietCraterName</Key>
+      <Value>哈丽特陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDesolationName</Key>
+      <Value>荒寂</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionDustBowlName</Key>
+      <Value>尘碗</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsNorthWestName</Key>
+      <Value>西北低地</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsWestName</Key>
+      <Value>西部低地</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsSouthName</Key>
+      <Value>南部低地</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsEastName</Key>
+      <Value>东部低地</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionLowlandsNorthName</Key>
+      <Value>北部低地</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldNorthWestName</Key>
+      <Value>西北陨坑区</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldWestName</Key>
+      <Value>西部陨坑区</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldSouthWestName</Key>
+      <Value>西南陨坑区</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldSouthName</Key>
+      <Value>南部陨坑区</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldSouthEastName</Key>
+      <Value>东南陨坑区</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldEastName</Key>
+      <Value>东部陨坑区</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldNorthEastName</Key>
+      <Value>东北陨坑区</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCraterFieldNorthName</Key>
+      <Value>北部陨坑区</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterNorthWestName</Key>
+      <Value>西北超级陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterWestName</Key>
+      <Value>西部超级陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterSouthWestName</Key>
+      <Value>西南超级陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterSouthName</Key>
+      <Value>南部超级陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterSouthEastName</Key>
+      <Value>东南超级陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterEastName</Key>
+      <Value>东部超级陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterNorthEastName</Key>
+      <Value>东北超级陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionSuperCraterNorthName</Key>
+      <Value>北部超级陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasNamedRegionCentralMesaName</Key>
+      <Value>中部平顶山</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnCentralMesaName</Key>
+      <Value>中央平顶山</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnHarrietCraterName</Key>
+      <Value>哈丽特陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnCraterFieldName</Key>
+      <Value>陨坑区</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnDustBowlName</Key>
+      <Value>尘碗</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionTyreSlopeName</Key>
+      <Value>泰尔斜坡</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionIceDesertName</Key>
+      <Value>寒冰荒漠</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthEastRangeName</Key>
+      <Value>东北山脉</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthernTroughName</Key>
+      <Value>北部谷地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthRangeName</Key>
+      <Value>北部山脉</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthWestRangeName</Key>
+      <Value>西北山脉</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionTheDitchName</Key>
+      <Value>谷地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionBasinViewName</Key>
+      <Value>盆地观景</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthernRangesName</Key>
+      <Value>南部山脉</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionRupertsRestName</Key>
+      <Value>鲁珀特停歇处</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionPerpetuityName</Key>
+      <Value>永继</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionRupertsRangeName</Key>
+      <Value>鲁珀特山脉</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionRupertsValleyName</Key>
+      <Value>鲁珀特山谷</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGlacialFingerWestName</Key>
+      <Value>冰川之指西部</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGlacialFingerEastName</Key>
+      <Value>冰川之指西部</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGlacialFingerSouthName</Key>
+      <Value>冰川之指南部</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGlacialFingerNorthName</Key>
+      <Value>冰川之指北部</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGrandBasinWestName</Key>
+      <Value>大盆地西部</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGrandBasinSouthName</Key>
+      <Value>大盆地南部</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGrandBasinEastName</Key>
+      <Value>大盆地东部</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionGrandBasinNorthName</Key>
+      <Value>大盆地北部</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionEastBalgatanRangeName</Key>
+      <Value>东巴尔加坦山脉</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionWestBalgatanRangeName</Key>
+      <Value>西巴尔加坦山脉</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionTyreValleyName</Key>
+      <Value>泰尔山谷</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionMorensCrossingName</Key>
+      <Value>莫伦路口</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionWesternIceFlatsName</Key>
+      <Value>西部冰原</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionEasternIceFlatsName</Key>
+      <Value>东部冰原</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionTheWallName</Key>
+      <Value>巨墙</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionCrescentValleyName</Key>
+      <Value>新月谷</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthEastHighlandsName</Key>
+      <Value>东南高地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthEastHighlandsName</Key>
+      <Value>东北高地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthWestHighlandsName</Key>
+      <Value>西南高地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthWestHighlandsName</Key>
+      <Value>西北高地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionHeavensVaultName</Key>
+      <Value>天穹拱顶</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionBalgatanPassName</Key>
+      <Value>巴尔加坦隘口</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionPilgrimsPathName</Key>
+      <Value>朝圣者之路</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionNorthWestOutlandsName</Key>
+      <Value>西北边地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthWestOutlandsName</Key>
+      <Value>西南边地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthEastOutlandsName</Key>
+      <Value>东南边地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaNamedRegionSouthOutlandsName</Key>
+      <Value>南部边地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnIcyBasin</Key>
+      <Value>冰寒盆地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnGlacialChannel</Key>
+      <Value>冰川水道</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnBalgatanPass</Key>
+      <Value>巴尔加坦隘口</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnFrigidHighlands</Key>
+      <Value>极寒高地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnTyreValley</Key>
+      <Value>泰尔山谷</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiRichOreCraterName</Key>
+      <Value>富矿陨坑</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiRichOreCraterGoldSilverDescription</Key>
+      <Value>富含金与银</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiRichOreCraterCobaltDescription</Key>
+      <Value>富含钴</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiRichOreCraterNickelLeadDescription</Key>
+      <Value>富含镍与铅</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterLacusBellusName</Key>
+      <Value>贝鲁斯湖</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterLacusBellusDescription</Key>
+      <Value>巨陨坑</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterVeritasName</Key>
+      <Value>维里塔斯陨坑</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterVeritasDescription</Key>
+      <Value>巨陨坑</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterVesperName</Key>
+      <Value>维斯珀陨坑</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterVesperDescription</Key>
+      <Value>巨陨坑</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterNoxName</Key>
+      <Value>诺克斯陨坑</Value>
+    </Record>
+    <Record>
+      <Key>LunarPoiGrandCraterCraterNoxDescription</Key>
+      <Value>巨陨坑</Value>
+    </Record>
     <Record>
       <Key>OkayConfirmation</Key>
       <Value>确定</Value>
@@ -10541,6 +11066,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>SettingsShadows</Key>
       <Value>阴影</Value>
+    </Record>
+    <Record>
+      <Key>SettingsDistantShadows</Key>
+      <Value>远景阴影</Value>
     </Record>
     <Record>
       <Key>SettingsShadowResolution</Key>
@@ -11533,12 +12062,12 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>4km × 4km</Value>
     </Record>
     <Record>
-      <Key>NewWorldMoon8kShortDesc</Key>
-      <Value>方圆1km × 1km的月球地图</Value>
+      <Key>WorldLunar</Key>
+      <Value>月球静海</Value>
     </Record>
     <Record>
-      <Key>NewWorld4KTerrainDesc</Key>
-      <Value>用于新地形系统的4K测试地图</Value>
+      <Key>NewWorldLunarShortDesc</Key>
+      <Value>位于月球静海边界, 古老的熔岩平原与嶙峋高地在此交汇. 地形融合了开阔荒原与断裂山脊, 由陨石撞击与火山活动共同塑造. 该区域无大气环境与持续阳光照射, 为月球作业提供了荒凉但稳定的基础条件</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
@@ -11571,6 +12100,158 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>NewWorldMimasShortDesc</Key>
       <Value>这是一颗与壮观的土星环伴行的荒凉岩石卫星, 土卫一体型娇小, 因此它的重力极低, 而且它的表面布满了大量来自星环的陨石留下的环形山. 由于与太阳的距离较远, 在这里太阳能设备几乎无法产生能量. 在你行走或跳跃的时候一定要加倍小心, 这里的低重力会使你轻易加速并跨过很长的距离</Value>
+    </Record>
+    <Record>
+      <Key>RandomSpawnLocation</Key>
+      <Value>随机位置</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnCraterVesper</Key>
+      <Value>维斯珀陨石坑</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnMontesUmbrarum</Key>
+      <Value>乌姆布拉伦山脉</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnCraterNox</Key>
+      <Value>诺克斯陨石坑</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnMonsArcanus</Key>
+      <Value>奥秘山</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarDorsumCaradus</Key>
+      <Value>卡拉杜斯山脊</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarLacusJaewoo</Key>
+      <Value>宰宇湖</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarPromontoriumSolis</Key>
+      <Value>索利斯岬</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMareSimonis</Key>
+      <Value>西蒙尼斯月海</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMontesUmbrarum</Key>
+      <Value>乌姆布拉伦山脉</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarVallisLiama</Key>
+      <Value>利亚玛月谷</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterVeritas</Key>
+      <Value>维里塔斯陨石坑</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarLabyrinthusPetr</Key>
+      <Value>彼得迷宫</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarTerraDylan</Key>
+      <Value>迪伦高地</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarFossaMyers</Key>
+      <Value>迈尔斯沟谷</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarDorsumMcLean</Key>
+      <Value>麦克莱恩山脊</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarPalusAeternus</Key>
+      <Value>永恒沼地</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMonsArcanus</Key>
+      <Value>奥秘山</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterElissae</Key>
+      <Value>埃利萨陨石坑</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarSinusTenebrae</Key>
+      <Value>特内布雷斯湾</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterVesper</Key>
+      <Value>维斯珀陨石坑</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarPlanitiaSolstitia</Key>
+      <Value>至日平原</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMontesFulgur</Key>
+      <Value>闪电山脉</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarVallisCineris</Key>
+      <Value>灰烬月谷</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarDorsumBorealis</Key>
+      <Value>北部山脊</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarLacusGelidus</Key>
+      <Value>寒冰湖</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarPromontoriumZenith</Key>
+      <Value>天顶岬</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarTerraFerruginea</Key>
+      <Value>铁锈高地</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarFossaAbyssus</Key>
+      <Value>深渊谷</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarMareSomnii</Key>
+      <Value>索姆尼月海</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarRimaSerpentis</Key>
+      <Value>蛇形月溪</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarLacusBellus</Key>
+      <Value>贝鲁斯湖</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarVallisOblivionis</Key>
+      <Value>遗忘月谷</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterNox</Key>
+      <Value>诺克斯陨石坑</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterSolaris</Key>
+      <Value>索拉利斯陨击坑</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarCraterNovus</Key>
+      <Value>诺乌斯陨击坑</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarRupesMagna</Key>
+      <Value>大断崖</Value>
+    </Record>
+    <Record>
+      <Key>GeoNameLunarSpeculaObservans</Key>
+      <Value>观察哨站</Value>
     </Record>
     <Record>
       <Key>SettingsTitleAudioAlerts</Key>
@@ -17836,6 +18517,26 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Key>RocketLocationPanelError</Key>
       <Value>无额外信息</Value>
     </Record>
+    <Record>
+      <Key>NewWorldMimasHerschelShortDesc</Key>
+      <Value>位于土卫一赫歇尔陨石坑内, 以壮观的坑壁为背景, 遍布陨石坑的地质景观</Value>
+    </Record>
+    <Record>
+      <Key>WorldLunar</Key>
+      <Value>月球静海</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldLunarShortDesc</Key>
+      <Value>位于月球静海边界, 古老的熔岩平原与嶙峋高地在此交汇. 地形融合了开阔荒原与断裂山脊, 由陨石撞击与火山活动共同塑造. 该区域无大气环境与持续阳光照射, 为月球作业提供了荒凉但稳定的基础条件</Value>
+    </Record>
+    <Record>
+      <Key>WorldMimasHerschel</Key>
+      <Value>土卫一</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMimasHerschelShortDesc</Key>
+      <Value>这颗荒芜岩星偎依在土星的壮丽光环下. 其微小体积导致重力极低, 表面布满来自光环碎片的陨石坑. 距离太阳遥远使得太阳能设备工作效率极低. 行动时请务必谨慎, 在跳跃和奔跑时, 极低的重力容易导致运动失控</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
@@ -22901,7 +23602,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>PlayerStatsMoodDeltaState</Key>
-      <Value>心情 {LOCAL:Delta}</Value>
+      <Value>情绪 {LOCAL:Delta}</Value>
     </Record>
     <Record>
       <Key>PlayerStatsHygieneDeltaState</Key>
@@ -24524,6 +25225,38 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>EntityUnconsious</Key>
       <Value>失去意识</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRequestingCharacter</Key>
+      <Value>请求角色</Value>
+    </Record>
+    <Record>
+      <Key>SaveInvalidTerrainDataModified</Key>
+      <Value>地形存档数据失效. 这个世界已被大幅修改.</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMoodReduction</Key>
+      <Value>情绪损耗</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHygieneReduction</Key>
+      <Value>卫生损耗</Value>
+    </Record>
+    <Record>
+      <Key>PressToExit</Key>
+      <Value>按 {KEY:ExitKey} 键退出</Value>
+    </Record>
+    <Record>
+      <Key>LeavingPlayableArea</Key>
+      <Value>已离开游戏区域</Value>
+    </Record>
+    <Record>
+      <Key>ResetTerrainButton</Key>
+      <Value>重置地形</Value>
+    </Record>
+    <Record>
+      <Key>CancelLoadButton</Key>
+      <Value>取消</Value>
     </Record>
   </GameStrings>
   <GameTip/>
