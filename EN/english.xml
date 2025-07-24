@@ -1097,7 +1097,7 @@ Normal coil has a maximum wattage of 5kW. For higher-current applications, use {
     <RecordThing>
       <Key>ItemCoalOre</Key>
       <Value>Ore (Coal)</Value>
-      <Description>Humanity wouldn't have got to space without humble, combustible coal. Burn it in a {THING:SolidFuelGenerator}, smelt it in the {THING:StructureFurnace} to create {LINK:AlloysPage;alloys}, or use it in the {THING:ApplianceReagentProcessor} to make  {THING:ItemSprayCanBlack}.</Description>
+      <Description>Humanity wouldn't have got to space without humble, combustible coal. Burn it in a {THING:StructureSolidFuelGenerator}, smelt it in the {THING:StructureFurnace} to create {LINK:AlloysPage;alloys}, or use it in the {THING:ApplianceReagentProcessor} to make  {THING:ItemSprayCanBlack}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCompositeFloorGrating</Key>
@@ -2037,6 +2037,27 @@ The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less
 Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureChuteStraight3</Key>
+      <Value>Chute (Straight 3)</Value>
+      <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+        The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+        Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteStraight5</Key>
+      <Value>Chute (Straight 5)</Value>
+      <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+        The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+        Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteStraight10</Key>
+      <Value>Chute (Straight 10)</Value>
+      <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+        The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+        Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureCompositeDoor</Key>
       <Value>Composite Door</Value>
       <Description>{LINK:Recurso;Recurso's} composite doors are rated to 300kPa, which is more than sufficient for most purposes they were designed for. However, steep pressure differentials are not your friend.</Description>
@@ -2324,6 +2345,21 @@ The speed of heat gain or loss will depend on the gas in question. Adding multip
       <Key>StructurePipeStraight</Key>
       <Value>Pipe (Straight)</Value>
       <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeStraight} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeStraight3</Key>
+      <Value>Pipe (Straight 3)</Value>
+      <Description>Long variant of the straight pipe. These variants cannot be merged or upgraded with insulation.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeStraight5</Key>
+      <Value>Pipe (Straight 5)</Value>
+      <Description>Long variant of the straight pipe. These variants cannot be merged or upgraded with insulation.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeStraight10</Key>
+      <Value>Pipe (Straight 10)</Value>
+      <Description>Long variant of the straight pipe. These variants cannot be merged or upgraded with insulation.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeTJunction</Key>
@@ -2996,14 +3032,17 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureLogicDisplay5</Key>
       <Value>LED Display (Small)</Value>
+      <Description>This LED console normally displays the raw numeric value of its setting. When you switch to String Mode, it treats that value as up to six ASCII characters, each packed in one byte by repeated 8-bit shifts and OR operations and renders them as text. Other modes offer alternative visualizations of the same underlying value.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED5</Key>
       <Value>LED Display (Small)</Value>
+      <Description>This LED console normally displays the raw numeric value of its setting. When you switch to String Mode, it treats that value as up to six ASCII characters, each packed in one byte by repeated 8-bit shifts and OR operations and renders them as text. Other modes offer alternative visualizations of the same underlying value.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED8Large</Key>
       <Value>LED Display (Large)</Value>
+      <Description>This LED console normally displays the raw numeric value of its setting. When you switch to String Mode, it treats that value as up to six ASCII characters, each packed in one byte by repeated 8-bit shifts and OR operations and renders them as text. Other modes offer alternative visualizations of the same underlying value.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSign1x1</Key>
@@ -4335,6 +4374,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureCircuitHousing</Key>
       <Value>IC Housing</Value>
+      <Description>Used to house a {THING:ItemIntegratedCircuit10} to run complex logic code.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIntegratedCircuit10</Key>
@@ -4895,6 +4935,21 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
       <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureInsulatedPipeStraight3</Key>
+      <Value>Insulated Pipe (Straight 3)</Value>
+      <Description>Long variant of the straight pipe. These variants cannot be merged. Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeStraight5</Key>
+      <Value>Insulated Pipe (Straight 5)</Value>
+      <Description>Long variant of the straight pipe. These variants cannot be merged. Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeStraight10</Key>
+      <Value>Insulated Pipe (Straight 10)</Value>
+      <Description>Long variant of the straight pipe. These variants cannot be merged. Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureInsulatedPipeCorner</Key>
       <Value>Insulated Pipe (Corner)</Value>
       <Description>Insulated pipes greatly reduce heat loss from gases stored in them.</Description>
@@ -5163,7 +5218,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTankInsulated</Key>
-      <Value>Kit (Tank Insulated)</Value>
+      <Value>Kit (Insulated Tank)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5595,6 +5650,21 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
       <Key>StructurePipeLiquidStraight</Key>
       <Value>Liquid Pipe (Straight)</Value>
       <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidStraight} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidStraight3</Key>
+      <Value>Liquid Pipe (Straight 3)</Value>
+      <Description>Long variant of liquid piping. These variants cannot be merged or upgraded with insulation.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidStraight5</Key>
+      <Value>Liquid Pipe (Straight 5)</Value>
+      <Description>Long variant of liquid piping. These variants cannot be merged or upgraded with insulation.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidStraight10</Key>
+      <Value>Liquid Pipe (Straight 10)</Value>
+      <Description>Long variant of liquid piping. These variants cannot be merged or upgraded with insulation.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCorner</Key>
@@ -6371,6 +6441,21 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>StructureInsulatedPipeLiquidStraight</Key>
       <Value>Insulated Liquid Pipe (Straight)</Value>
       <Description>Liquid piping with very low temperature loss or gain.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight3</Key>
+      <Value>Insulated Liquid Pipe (Straight 3)</Value>
+      <Description>Long variant of liquid piping with very low temperature loss or gain. These variants cannot be merged.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight5</Key>
+      <Value>Insulated Liquid Pipe (Straight 5)</Value>
+      <Description>Long variant of liquid piping with very low temperature loss or gain. These variants cannot be merged.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight10</Key>
+      <Value>Insulated Liquid Pipe (Straight 10)</Value>
+      <Description>Long variant of liquid piping with very low temperature loss or gain. These variants cannot be merged.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidTJunction</Key>
@@ -8998,6 +9083,16 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Cartridge (Deep Miner)</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>StructureCircuitHousingCompact</Key>
+      <Value>IC Housing (Compact)</Value>
+      <Description>Used to house a {THING:ItemIntegratedCircuit10} to run complex logic code.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitShuttleMKII</Key>
+      <Value>Kit Shuttle M K I I</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -9153,6 +9248,14 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Scanner Head Slot</Value>
     </Record>
     <Record>
+      <Key>DrillHead</Key>
+      <Value>Drill Head</Value>
+    </Record>
+    <Record>
+      <Key>ScanningHead</Key>
+      <Value>Scanning Head</Value>
+    </Record>
+    <Record>
       <Key>PortableSlot</Key>
       <Value>Portable slot</Value>
     </Record>
@@ -9197,6 +9300,14 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Magazine</Value>
     </Record>
     <Record>
+      <Key>Chamber</Key>
+      <Value>Chamber</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>Liquid Canister</Value>
+    </Record>
+    <Record>
       <Key>ContainerSlot</Key>
       <Value>Container Slot</Value>
     </Record>
@@ -9214,6 +9325,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>CircuitBoard</Key>
+      <Value>Circuitboard</Value>
+    </Record>
+    <Record>
+      <Key>Circuitboard</Key>
       <Value>Circuitboard</Value>
     </Record>
     <Record>
@@ -9347,6 +9462,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>Tablet</Key>
       <Value>Tablet</Value>
+    </Record>
+    <Record>
+      <Key>None</Key>
+      <Value>None</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -9904,7 +10023,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>EuropaPoiRegionMorensFellDescription</Key>
       <Value>Windswept ice desert</Value>
     </Record>
-    
     <Record>
       <Key>MimasPoiMarsdenCraterName</Key>
       <Value>Marsden Crater</Value>
@@ -9961,7 +10079,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>MimasPoiCentralMesaCraterDescription</Key>
       <Value>Crater within a crater within a crater</Value>
     </Record>
-    
     <Record>
       <Key>MimasNamedRegionCressidasPointName</Key>
       <Value>Cressida's Point</Value>
@@ -10130,7 +10247,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>MimasNamedRegionCentralMesaName</Key>
       <Value>Central Mesa</Value>
     </Record>
-
     <Record>
       <Key>MimasSpawnCentralMesaName</Key>
       <Value>Central Mesa</Value>
@@ -10147,7 +10263,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>MimasSpawnDustBowlName</Key>
       <Value>Dust Bowl</Value>
     </Record>
-    
     <Record>
       <Key>EuropaNamedRegionTyreSlopeName</Key>
       <Value>Tyre Slope</Value>
@@ -10308,7 +10423,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>EuropaNamedRegionSouthOutlandsName</Key>
       <Value>South Outlands</Value>
     </Record>
-    
     <Record>
       <Key>EuropaSpawnIcyBasin</Key>
       <Value>Icy Basin</Value>
@@ -10329,7 +10443,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>EuropaSpawnTyreValley</Key>
       <Value>Tyre Valley</Value>
     </Record>
-    
     <Record>
       <Key>LunarPoiRichOreCraterName</Key>
       <Value>Rich Ore Crater</Value>
@@ -10370,7 +10483,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>LunarPoiGrandCraterCraterVesperDescription</Key>
       <Value>Grand Crater</Value>
     </Record>
-
     <Record>
       <Key>LunarPoiGrandCraterCraterNoxName</Key>
       <Value>Crater Nox</Value>
@@ -11138,6 +11250,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>SettingsParticleQuality</Key>
       <Value>Particle Quality</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTerrainDetail</Key>
+      <Value>Terrain Detail</Value>
     </Record>
     <Record>
       <Key>SettingsSoftParticles</Key>
@@ -17947,6 +18063,38 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Oxygen Replenishment</Value>
     </Record>
     <Record>
+      <Key>BuyDataBoxOfMuffins</Key>
+      <Value>Box of Muffins</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfCornSoup</Key>
+      <Value>Box of Corn Soup</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfPumpkinSoup</Key>
+      <Value>Box of Pumpkin Soup</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfChocolates</Key>
+      <Value>Box of Chocolates</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataChocolateCakeInBox</Key>
+      <Value>Chocolate Cake in a Box</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfTomatoSoup</Key>
+      <Value>Box of Tomato Soup</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfRicePudding</Key>
+      <Value>Box of Rice Pudding</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfCannedEdamame</Key>
+      <Value>Box of Canned Edamame</Value>
+    </Record>
+    <Record>
       <Key>BuyDataWaterReplenishment</Key>
       <Value>Water Replenishment</Value>
     </Record>
@@ -18624,7 +18772,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>NewWorldMimasHerschelShortDesc</Key>
-        <Value>Located in the Herschel crater on Mimas, this site features impact craters and the towering walls of the crater providing a dramatic backdrop</Value>
+      <Value>Located in the Herschel crater on Mimas, this site features impact craters and the towering walls of the crater providing a dramatic backdrop</Value>
     </Record>
     <Record>
       <Key>WorldLunar</Key>
@@ -20829,7 +20977,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ProgrammableChipErrorCode</Key>
-      <Value>Error {LOCAL:ErrorType} at line {LOCAL:LineNumber}</Value>
+      <Value>Error &lt;color=red&gt;{LOCAL:ErrorType}&lt;/color&gt; at line {LOCAL:LineNumber}</Value>
     </Record>
     <Record>
       <Key>OutputLitres</Key>
@@ -21949,7 +22097,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CannotMergeIMergeable</Key>
-      <Value>This {LOCAL:IMergeable} cannot me merged</Value>
+      <Value>This {LOCAL:IMergeable} cannot be merged</Value>
     </Record>
     <Record>
       <Key>CannotMergeIMergeableOfDifferentType</Key>
