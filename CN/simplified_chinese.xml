@@ -2017,6 +2017,27 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
 滑槽是滑槽网络的基础组件, 可在配备 {LINK:ImportExportPage;进出口} 插槽的各类设备间运输物品</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureChuteStraight3</Key>
+      <Value>滑槽(直连3)</Value>
+      <Description>滑槽作为物品传输管道, 可连接 {LINK:ImportExportPage;物流进出口} 设备, 如 {THING:StructureVendingMachine} 和 {THING:StructureAutolathe} 打印机.
+        {LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难.
+        滑槽是滑槽网络的基础组件, 可在配备 {LINK:ImportExportPage;进出口} 插槽的各类设备间运输物品</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteStraight5</Key>
+      <Value>滑槽(直连5)</Value>
+      <Description>滑槽作为物品传输管道, 可连接 {LINK:ImportExportPage;物流进出口} 设备, 如 {THING:StructureVendingMachine} 和 {THING:StructureAutolathe} 打印机.
+        {LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难.
+        滑槽是滑槽网络的基础组件, 可在配备 {LINK:ImportExportPage;进出口} 插槽的各类设备间运输物品</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureChuteStraight10</Key>
+      <Value>滑槽(直连10)</Value>
+      <Description>滑槽作为物品传输管道, 可连接 {LINK:ImportExportPage;物流进出口} 设备, 如 {THING:StructureVendingMachine} 和 {THING:StructureAutolathe} 打印机.
+        {LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难.
+        滑槽是滑槽网络的基础组件, 可在配备 {LINK:ImportExportPage;进出口} 插槽的各类设备间运输物品</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureCompositeDoor</Key>
       <Value>复合门</Value>
       <Description>{LINK:Recurso;Recurso} 复合门额定承压300kPa, 完全满足设计用途需求. 但需注意剧烈压差仍具危险性</Description>
@@ -2122,7 +2143,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     <RecordThing>
       <Key>StructureCryoTube</Key>
       <Value>冷冻舱</Value>
-      <Description>Longsleep冷冻舱的精确运作机制仍是商业机密,  {LINK:Norsec;Norsec} 仅授权设计使用. 在通电和提供气体环境时, 该设备能修复器官损伤, 堪称现代医疗技术的小型奇迹</Description>
+      <Description>长眠冷冻舱的具体运作机制仍然是商业机密, {LINK:Norsec;Norsec}公司仅授权设计使用. 该设备提供一个管道接口, 通过呼吸管道与使用者相连以维持合适的内部大气环境; 当为其供应超冷的{GAS:LiquidNitrogen}时, 它能够修复器官损伤, 甚至复活死者</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDaylightSensor</Key>
@@ -2301,6 +2322,21 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
       <Description>使用 {THING:ItemKitInsulatedPipe} 和 {THING:ItemWrench} 可将此管道升级为 {THING:StructureInsulatedPipeCorner}</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructurePipeStraight3</Key>
+      <Value>管道(直线3)</Value>
+      <Description>直线管道的超长版本变体. 这些变体无法进行升级和融合.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeStraight5</Key>
+      <Value>管道(直线5)</Value>
+      <Description>直线管道的超长版本变体. 这些变体无法进行升级和融合.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeStraight10</Key>
+      <Value>管道(直线10)</Value>
+      <Description>直线管道的超长版本变体. 这些变体无法进行升级和融合.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructurePipeTJunction</Key>
       <Value>管道(T型)</Value>
       <Description>使用 {THING:ItemKitInsulatedPipe} 和 {THING:ItemWrench} 可将此管道升级为 {THING:StructureInsulatedPipeCorner}</Description>
@@ -2373,7 +2409,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
       <Key>StructureSuitStorage</Key>
       <Value>太空服收纳柜</Value>
       <Description>兼具实用与整洁的收纳柜可存放 {THING:ItemEvaSuit} 、 {THING:ItemSpaceHelmet} 和 {THING:ItemJetpackBasic} . 
-供电并连接 {THING:Oxygen} 与 {THING:Propellant} 后, 可为太空服电池充电、补充 {THING:ItemGasCanisterOxygen} 和 {THING:ItemGasFilterNitrogen}  {SLOT:GasCanister} , 同时将废物泵入排放管道. 
+供电并连接 {GAS:Oxygen} 和 {GAS:Nitrogen} 后, 可为太空服电池充电、补充 {THING:ItemGasCanisterOxygen} 和 {THING:ItemGasCanisterNitrogen}  {SLOT:GasCanister} , 同时将废物泵入排放管道.
 所有管道接口都必须连接, 否则报错（仍可充电）</Description>
     </RecordThing>
     <RecordThing>
@@ -2958,14 +2994,17 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     <RecordThing>
       <Key>StructureLogicDisplay5</Key>
       <Value>LED显示屏(小)</Value>
+      <Description>此LED显示屏通常显示其设置的原始数值. 当切换至字符串模式时, 它会将数值解析为最多六字节的ASCII字符(每个字符通过反复的8位移位和按位或(OR)运算单字节封装), 并将其以文本方式显示. 其他模式则提供对同一底层数值的多样化展示方式.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED5</Key>
       <Value>LED显示屏(小)</Value>
+      <Description>此LED显示屏通常显示其设置的原始数值. 当切换至字符串模式时, 它会将数值解析为最多六字节的ASCII字符(每个字符通过反复的8位移位和按位或(OR)运算单字节封装), 并将其以文本方式显示. 其他模式则提供对同一底层数值的多样化展示方式.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED8Large</Key>
       <Value>LED显示屏(大)</Value>
+      <Description>此LED显示屏通常显示其设置的原始数值. 当切换至字符串模式时, 它会将数值解析为最多六字节的ASCII字符(每个字符通过反复的8位移位和按位或(OR)运算单字节封装), 并将其以文本方式显示. 其他模式则提供对同一底层数值的多样化展示方式.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSign1x1</Key>
@@ -4295,6 +4334,7 @@ Output=1导出内部物品及最终主物品</Description>
     <RecordThing>
       <Key>StructureCircuitHousing</Key>
       <Value>IC封装</Value>
+      <Description>用来装载一个 {THING:ItemIntegratedCircuit10} 并可在其中运行较为复杂的逻辑代码.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIntegratedCircuit10</Key>
@@ -4842,6 +4882,21 @@ AIMEe有7种模式:
       <Key>StructureInsulatedPipeStraight</Key>
       <Value>隔热管道(直线)</Value>
       <Description>隔热管道能够大幅降低内容物气体的热量流失</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeStraight3</Key>
+      <Value>隔热管道(直线3)</Value>
+      <Description>直线管道的超长变体. 这些变体无法被融合. 隔热管道能够大幅降低内容物气体的热量流失.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeStraight5</Key>
+      <Value>隔热管道(直线5)</Value>
+      <Description>直线管道的超长变体. 这些变体无法被融合. 隔热管道能够大幅降低内容物气体的热量流失.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeStraight10</Key>
+      <Value>隔热管道(直线10)</Value>
+      <Description>直线管道的超长变体. 这些变体无法被融合. 隔热管道能够大幅降低内容物气体的热量流失.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCorner</Key>
@@ -5543,6 +5598,21 @@ AIMEe有7种模式:
       <Key>StructurePipeLiquidStraight</Key>
       <Value>液体管道(直线)</Value>
       <Description>你可以使用 {THING:ItemKitInsulatedLiquidPipe} 和 {THING:ItemWrench} 将其升级为 {THING:StructureInsulatedPipeLiquidStraight}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidStraight3</Key>
+      <Value>液体管道(直线3)</Value>
+      <Description>液体管道的超长变体. 这些变体无法被融合和升级到隔热版本.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidStraight5</Key>
+      <Value>液体管道(直线5)</Value>
+      <Description>液体管道的超长变体. 这些变体无法被融合和升级到隔热版本.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeLiquidStraight10</Key>
+      <Value>液体管道(直线10)</Value>
+      <Description>液体管道的超长变体. 这些变体无法被融合和升级到隔热版本.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCorner</Key>
@@ -6303,6 +6373,21 @@ AIMEe有7种模式:
       <Description>与外界热交换率极低的液体管道</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight3</Key>
+      <Value>隔热液体管道(直线3)</Value>
+      <Description>与外界热交换率极低的液体管道的超长变体. 这些变体无法被融合.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight5</Key>
+      <Value>隔热液体管道(直线5)</Value>
+      <Description>与外界热交换率极低的液体管道的超长变体. 这些变体无法被融合.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedPipeLiquidStraight10</Key>
+      <Value>隔热液体管道(直线10)</Value>
+      <Description>与外界热交换率极低的液体管道的超长变体. 这些变体无法被融合.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureInsulatedPipeLiquidTJunction</Key>
       <Value>隔热液体管道(T型)</Value>
       <Description>与外界热交换率极低的液体管道</Description>
@@ -6761,12 +6846,12 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructureCryoTubeVertical</Key>
       <Value>冷冻舱(立式)</Value>
-      <Description>立式冷冻舱, 需注入-150°C以下氮气环境, 可治疗玩家/器官并复活死者</Description>
+      <Description>长眠冷冻舱的具体操作方式仍属商业机密, {LINK:Norsec;Norsec}公司仅授权设计许可. 该设备提供管道接口, 通过呼吸管道维持使用者所需的内部大气环境; 当液体管道接入超冷的{GAS:LiquidNitrogen}时, 可以修复使用者的器官损伤, 甚至可复活死亡状态的使用者. 进入该设备时禁止穿戴任何装备.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCryoTubeHorizontal</Key>
       <Value>冷冻舱</Value>
-      <Description>水平冷冻舱, 需注入-150°C以下氮气环境, 可治疗玩家/器官并复活死者</Description>
+      <Description>长眠冷冻舱的具体操作方式仍属商业机密, {LINK:Norsec;Norsec}公司仅授权设计许可. 该设备提供管道接口, 通过呼吸管道维持使用者所需的内部大气环境; 当液体管道接入超冷的{GAS:LiquidNitrogen}时, 可以修复使用者的器官损伤, 甚至可复活死亡状态的使用者. 进入该设备时禁止穿戴任何装备.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDeepMiner</Key>
@@ -6945,7 +7030,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasCylinderTankPiece</Key>
-      <Value>着陆场(流体储罐)</Value>
+      <Value>着陆场(小型储罐)</Value>
       <Description>增加着陆场气体存储容量, 用于与贸易商进行散装流体货物交易</Description>
     </RecordThing>
     <RecordThing>
@@ -8917,11 +9002,94 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>功能卡(深层采矿机)</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>StructureCircuitHousingCompact</Key>
+      <Value>集成电路外壳（紧凑型）</Value>
+      <Description>用于装载一个{THING:ItemIntegratedCircuit10}集成电路以运行较为复杂的逻辑代码. </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitShuttleMKII</Key>
+      <Value>(套件)航天飞机MKII</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemHardHat</Key>
+      <Value>安全帽</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicPidController</Key>
+      <Value>PID控制器</Value>
+      <Description>提供闭环反馈机制的PID（比例积分微分）控制器, 可自动调节过程变量(如温度, 速度, 位置等)使其追踪目标设定值. 通过持续计算误差信号e(t)=设定值-测量值, 并施加比例, 积分和微分三重校正作用实现精确自动控制.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLargeRocketLiquidFuelTank</Key>
+      <Value>大型液体燃料舱</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLargeRocketGasFuelTank</Key>
+      <Value>大型气体燃料舱</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_LargeTank</Key>
+      <Value>着陆场燃料舱(大型)</Value>
+      <Description>增加着陆平台气体存储容量, 可用于与星际贸易商进行气体交易</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureAirlockWide</Key>
+      <Value>宽体气闸门</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>MotherboardMap</Key>
+      <Value>地图主板</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFuselageDoorsDual</Key>
+      <Value>机身舱门</Value>
+      <Description>配备双开门设计的火箭标准机身, 无需拆除整流罩即可快速访问机身内部部件.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCryoMask</Key>
+      <Value>低温面罩</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRocketAtmospherics</Key>
+      <Value>(套件)火箭大气系统</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketFiltrationGas</Key>
+      <Value>火箭气体过滤系统</Value>
+      <Description>为火箭提供基础气体过滤功能</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketGasCollector</Key>
+      <Value>火箭气体采集器</Value>
+      <Description>安装于火箭时, 可从各类星体环境中采集气态大气</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemRocketDeepScanningHead</Key>
+      <Value>火箭深层扫描头</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
       <Key>SprayCan</Key>
       <Value>涂料罐</Value>
+    </Record>
+    <Record>
+      <Key>GasMask</Key>
+      <Value>防毒面具</Value>
+    </Record>
+    <Record>
+      <Key>FireExtinguisher</Key>
+      <Value>灭火器</Value>
     </Record>
     <Record>
       <Key>Output</Key>
@@ -9072,6 +9240,14 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>扫描头槽位</Value>
     </Record>
     <Record>
+      <Key>DrillHead</Key>
+      <Value>钻头</Value>
+    </Record>
+    <Record>
+      <Key>ScanningHead</Key>
+      <Value>扫描头</Value>
+    </Record>
+    <Record>
       <Key>PortableSlot</Key>
       <Value>便携式槽位</Value>
     </Record>
@@ -9116,6 +9292,14 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>弹匣</Value>
     </Record>
     <Record>
+      <Key>Chamber</Key>
+      <Value>舱室</Value>
+    </Record>
+    <Record>
+      <Key>LiquidCanister</Key>
+      <Value>液瓶</Value>
+    </Record>
+    <Record>
       <Key>ContainerSlot</Key>
       <Value>储物箱槽位</Value>
     </Record>
@@ -9133,6 +9317,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>CircuitBoard</Key>
+      <Value>电路板</Value>
+    </Record>
+    <Record>
+      <Key>Circuitboard</Key>
       <Value>电路板</Value>
     </Record>
     <Record>
@@ -9266,6 +9454,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>Tablet</Key>
       <Value>平板电脑</Value>
+    </Record>
+    <Record>
+      <Key>None</Key>
+      <Value>无</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -9776,52 +9968,84 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
   </Interactables>
   <Interface>
     <Record>
-      <Key>EuropaPoiRegionCallanishPeakName</Key>
-      <Value>卡拉尼什峰</Value>
+      <Key>EuropaPoiRegionBluePeakName</Key>
+      <Value>蓝峰</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionCallanishPeakDescription</Key>
-      <Value>区域内最高点</Value>
+      <Key>EuropaPoiRegionBluePeakDescription</Key>
+      <Value>一座中高海拔山峰, 俯瞰着冰川山谷与雪丘群</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionFalgasDescentName</Key>
-      <Value>法尔加坡道</Value>
+      <Key>EuropaPoiRegionAncientLakeName</Key>
+      <Value>远古之湖</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionFalgasDescentDescription</Key>
-      <Value>通往大盆地的陡峭下行路</Value>
+      <Key>EuropaPoiRegionAncientLakeDescription</Key>
+      <Value>深藏高山之巅的古老冰川湖泊</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionBalgatanRidgeName</Key>
-      <Value>巴尔加坦山脊</Value>
+      <Key>EuropaPoiRegionSnowDuneValleyName</Key>
+      <Value>雪丘谷</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionBalgatanRidgeDescription</Key>
-      <Value>俯瞰北部盆地</Value>
+      <Key>EuropaPoiRegionSnowDuneValleyDescription</Key>
+      <Value>避风山谷中静卧着连绵的高大雪丘</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionSouthCallanishPassName</Key>
-      <Value>南卡拉尼什隘口</Value>
+      <Key>EuropaPoiRegionHighMountainName</Key>
+      <Value>擎天峰</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionSouthCallanishPassDescription</Key>
-      <Value>进入高地的安全路线</Value>
+      <Key>EuropaPoiRegionHighMountainDescription</Key>
+      <Value>巍然矗立于群山之巅的极高峰</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionSidonGullyName</Key>
-      <Value>锡登沟壑</Value>
+      <Key>EuropaPoiRegionErodedChasmName</Key>
+      <Value>蚀渊裂谷</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionSidonGullyDescription</Key>
-      <Value>大盆地延伸出的遮蔽山谷</Value>
+      <Key>EuropaPoiRegionErodedChasmDescription</Key>
+      <Value>俯瞰广袤雪原的狭窄侵蚀裂谷</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionMorensFellName</Key>
-      <Value>莫伦荒野</Value>
+      <Key>EuropaPoiRegionNeedlePeakName</Key>
+      <Value>针尖峰</Value>
     </Record>
     <Record>
-      <Key>EuropaPoiRegionMorensFellDescription</Key>
-      <Value>狂风肆虐的冰荒漠</Value>
+      <Key>EuropaPoiRegionNeedlePeakDescription</Key>
+      <Value>刺破苍穹的嶙峋尖峰</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionGlacialTrackName</Key>
+      <Value>冰川之路</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionGlacialTrackDescription</Key>
+      <Value>延伸向无垠雪原的巨型冰川轨迹</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionPlainsSentinelName</Key>
+      <Value>平原守望峰</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionPlainsSentinelDescription</Key>
+      <Value>矗立于茫茫雪原的孤绝峰峦</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSharpOverlookName</Key>
+      <Value>锐目崖</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionSharpOverlookDescription</Key>
+      <Value>陡峭峰顶俯瞰下方浩瀚冰原</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionDuneFieldName</Key>
+      <Value>雪丘平原</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiRegionDuneFieldDescription</Key>
+      <Value>崎岖地带遍布嶙峋高耸的雪丘</Value>
     </Record>
     <Record>
       <Key>MimasPoiMarsdenCraterName</Key>
@@ -10049,19 +10273,35 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>MimasSpawnCentralMesaName</Key>
-      <Value>中央平顶山</Value>
+      <Value>中部平顶山</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnCentralMesaDescription</Key>
+      <Value>这座超级陨石坑中心的隆起高地, 可将土卫一表面的壮阔景象尽收眼底.</Value>
     </Record>
     <Record>
       <Key>MimasSpawnHarrietCraterName</Key>
-      <Value>哈丽特陨坑</Value>
+      <Value>哈丽特陨石坑</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnHarrietCraterDescription</Key>
+      <Value>低地区域一处古老而平缓的陨坑遗迹.</Value>
     </Record>
     <Record>
       <Key>MimasSpawnCraterFieldName</Key>
-      <Value>陨坑区</Value>
+      <Value>陨石坑原</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnCraterFieldDescription</Key>
+      <Value>陡峭陨坑星罗棋布的区域, 俯瞰着超级陨石坑的巨大斜坡.</Value>
     </Record>
     <Record>
       <Key>MimasSpawnDustBowlName</Key>
-      <Value>尘碗</Value>
+      <Value>尘碗盆地</Value>
+    </Record>
+    <Record>
+      <Key>MimasSpawnDustBowlDescription</Key>
+      <Value>这片贫瘠中部地带的陨坑区域布满嶙峋的撞击坑痕.</Value>
     </Record>
     <Record>
       <Key>EuropaNamedRegionTyreSlopeName</Key>
@@ -10224,24 +10464,44 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>南部边地</Value>
     </Record>
     <Record>
-      <Key>EuropaSpawnIcyBasin</Key>
-      <Value>冰寒盆地</Value>
+      <Key>EuropaSpawnIcyBasinName</Key>
+      <Value>冰封盆地</Value>
     </Record>
     <Record>
-      <Key>EuropaSpawnGlacialChannel</Key>
-      <Value>冰川水道</Value>
+      <Key>EuropaSpawnIcyBasinDescription</Key>
+      <Value>广袤平坦的冰原地貌</Value>
     </Record>
     <Record>
-      <Key>EuropaSpawnBalgatanPass</Key>
-      <Value>巴尔加坦隘口</Value>
+      <Key>EuropaSpawnGlacialChannelName</Key>
+      <Value>冰川峡谷</Value>
     </Record>
     <Record>
-      <Key>EuropaSpawnFrigidHighlands</Key>
+      <Key>EuropaSpawnGlacialChannelDescription</Key>
+      <Value>两壁高山夹峙的狭窄冰道.</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnBalgatanPassName</Key>
+      <Value>巴尔加坦垭口</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnBalgatanPassDescription</Key>
+      <Value>穿越陡峭山脉的宽阔冰川通道</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnFrigidHighlandsName</Key>
       <Value>极寒高地</Value>
     </Record>
     <Record>
-      <Key>EuropaSpawnTyreValley</Key>
-      <Value>泰尔山谷</Value>
+      <Key>EuropaSpawnFrigidHighlandsDescription</Key>
+      <Value>高海拔的崎岖山地</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnTyreValleyName</Key>
+      <Value>提尔冰谷</Value>
+    </Record>
+    <Record>
+      <Key>EuropaSpawnTyreValleyDescription</Key>
+      <Value>锯齿状冰峰环抱的幽深山谷</Value>
     </Record>
     <Record>
       <Key>LunarPoiRichOreCraterName</Key>
@@ -10290,6 +10550,322 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>LunarPoiGrandCraterCraterNoxDescription</Key>
       <Value>巨陨坑</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionOuterBasinWestName</Key>
+      <Value>外盆地西区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionOuterBasinKnollName</Key>
+      <Value>外盆地圆丘</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionOuterBasinEastName</Key>
+      <Value>外盆地东区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionRockyRidgeName</Key>
+      <Value>岩脊</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionDusterPlainSouthName</Key>
+      <Value>尘暴平原南区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionDusterPlainNorthName</Key>
+      <Value>尘暴平原北区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionDusterRidgeName</Key>
+      <Value>尘暴山脊</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionShelterName</Key>
+      <Value>庇护所</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionShelteredFlatName</Key>
+      <Value>庇护平地</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionHesperianStripName</Key>
+      <Value>赫斯珀里亚条状带</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionHesperianPlainName</Key>
+      <Value>赫斯珀里亚平原</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionHellasCragsName</Key>
+      <Value>希腊平原峭壁</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionHellasPlainsWestName</Key>
+      <Value>希腊平原西区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionHellasPlainsEastName</Key>
+      <Value>希腊平原东区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionHellasPlainsSouthName</Key>
+      <Value>希腊平原南区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionJuniperFlatsName</Key>
+      <Value>杜松平地</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionJuniperHillsName</Key>
+      <Value>杜松丘陵</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionBeaconPlainsName</Key>
+      <Value>信标平原</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionArcadiaFlatsSouthName</Key>
+      <Value>阿卡迪亚平地南区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionArcadiaFlatsNorthName</Key>
+      <Value>阿卡迪亚平地北区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionTharsisRiseSouthName</Key>
+      <Value>塔尔西斯隆升南段</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionTharsisRiseWestName</Key>
+      <Value>塔尔西斯隆升西段</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionTharsisRiseEastName</Key>
+      <Value>塔尔西斯隆升东段</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionAeolisRidgeName</Key>
+      <Value>埃俄利斯山脊</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionButchersFlatName</Key>
+      <Value>屠夫平地</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionCrescentCliffsName</Key>
+      <Value>新月悬崖</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionButchersScoopName</Key>
+      <Value>屠夫勺地</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionBuckSaddleName</Key>
+      <Value>巴克鞍部</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionDavisRidgeName</Key>
+      <Value>戴维斯科斯特山脊</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionDavisPassName</Key>
+      <Value>戴维斯通道</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionArcadiaMonsName</Key>
+      <Value>阿卡迪亚山</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionJebSaddleName</Key>
+      <Value>杰布鞍部</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionJebCliffsNorthName</Key>
+      <Value>杰布悬崖北段</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionJebCliffsSouthName</Key>
+      <Value>杰布悬崖南段</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionEloKnollName</Key>
+      <Value>埃洛圆丘</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionDonutFlatsWestName</Key>
+      <Value>环形平地西区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionDonutFlatsEastName</Key>
+      <Value>环形平地东区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionDelosFlatsName</Key>
+      <Value>提洛平地</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionCrowesPassageName</Key>
+      <Value>克罗斯通道</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionCasiusRidgeName</Key>
+      <Value>卡西乌斯山脊</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionCrowesLookoutName</Key>
+      <Value>克罗斯观景台</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionOuterPlainsEastName</Key>
+      <Value>外平原东区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionCallistoCraterName</Key>
+      <Value>卡利斯托陨石坑</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionCallistoFlatsName</Key>
+      <Value>卡利斯托平地</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionSeleneRiseName</Key>
+      <Value>塞勒涅隆丘</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionEosRidgeName</Key>
+      <Value>厄俄斯山脊</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionOuterPlainsWestName</Key>
+      <Value>外平原西区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionOuterPlainsNorthEastName</Key>
+      <Value>外平原东北区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionOuterPlainsNorthName</Key>
+      <Value>外平原北区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionOuterPlainsNorthWestName</Key>
+      <Value>外平原西北区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionHoodCraterName</Key>
+      <Value>胡德陨石坑</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionCamdenCraterName</Key>
+      <Value>卡姆登陨石坑</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionGalenaCraterName</Key>
+      <Value>加莱纳陨石坑</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionTaosCraterName</Key>
+      <Value>陶斯陨石坑</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionFindersCanyonSouthName</Key>
+      <Value>发现者峡谷南区</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionFindersCanyonScarpName</Key>
+      <Value>发现者峡谷陡坡</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionCanyonOverlookName</Key>
+      <Value>峡谷观景台</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionFindersCanyonName</Key>
+      <Value>发现者峡谷</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionFindersCanyonWestName</Key>
+      <Value>发现者峡谷西段</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionFindersCanyonEastName</Key>
+      <Value>发现者峡谷东段</Value>
+    </Record>
+    <Record>
+      <Key>MarsNamedRegionFindersWatchName</Key>
+      <Value>发现者守望</Value>
+    </Record>
+    <Record>
+      <Key>MarsSpawnCanyonOverlookName</Key>
+      <Value>峡谷观景台</Value>
+    </Record>
+    <Record>
+      <Key>MarsSpawnCanyonOverlookDescription</Key>
+      <Value>俯瞰广袤发现者峡谷的高原边缘</Value>
+    </Record>
+    <Record>
+      <Key>MarsSpawnButchersFlatName</Key>
+      <Value>屠夫平地</Value>
+    </Record>
+    <Record>
+      <Key>MarsSpawnButchersFlatDescription</Key>
+      <Value>岩丘环抱的低洼平原地貌</Value>
+    </Record>
+    <Record>
+      <Key>MarsSpawnFindersCanyonName</Key>
+      <Value>发现者峡谷西段</Value>
+    </Record>
+    <Record>
+      <Key>MarsSpawnFindersCanyonDescription</Key>
+      <Value>巨大峡谷沟壑中高耸的陡峭绝壁</Value>
+    </Record>
+    <Record>
+      <Key>MarsSpawnHellasCragsName</Key>
+      <Value>希腊平原峭壁</Value>
+    </Record>
+    <Record>
+      <Key>MarsSpawnHellasCragsDescription</Key>
+      <Value>崎岖高地可将火星地表壮景尽收眼底</Value>
+    </Record>
+    <Record>
+      <Key>MarsSpawnDonutFlatsName</Key>
+      <Value>环形平地</Value>
+    </Record>
+    <Record>
+      <Key>MarsSpawnDonutFlatsDescription</Key>
+      <Value>风蚀平原向四面八方无尽延伸</Value>
+    </Record>
+    <Record>
+      <Key>MarsPoiCrowesLookoutName</Key>
+      <Value>克罗斯观景台</Value>
+    </Record>
+    <Record>
+      <Key>MarsPoiCrowesLookoutDescription</Key>
+      <Value>此区域最险峻的悬崖地带</Value>
+    </Record>
+    <Record>
+      <Key>MarsPoiCanyonOverlookPeakName</Key>
+      <Value>峡谷观景点</Value>
+    </Record>
+    <Record>
+      <Key>MarsPoiCanyonOverlookPeakDescription</Key>
+      <Value>多岩石的崖顶区域</Value>
+    </Record>
+    <Record>
+      <Key>MarsPoiFindersWatchPlateauName</Key>
+      <Value>发现者守望高原</Value>
+    </Record>
+    <Record>
+      <Key>MarsPoiFindersWatchPlateauDescription</Key>
+      <Value>区域内最高点</Value>
+    </Record>
+    <Record>
+      <Key>MarsPoiCamdenCraterKnollName</Key>
+      <Value>卡姆登陨坑圆丘</Value>
+    </Record>
+    <Record>
+      <Key>MarsPoiCamdenCraterKnollDescription</Key>
+      <Value>陨石坑中心区域</Value>
     </Record>
     <Record>
       <Key>OkayConfirmation</Key>
@@ -10486,6 +11062,18 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>LogicReadersCategory</Key>
       <Value>逻辑读取器</Value>
+    </Record>
+    <Record>
+      <Key>LogicProcessorsCategory</Key>
+      <Value>逻辑处理器</Value>
+    </Record>
+    <Record>
+      <Key>LogicIntegratedCircuitsCategory</Key>
+      <Value>IC集成电路</Value>
+    </Record>
+    <Record>
+      <Key>LogicInputCategory</Key>
+      <Value>逻辑输入</Value>
     </Record>
     <Record>
       <Key>LogicWriterCategory</Key>
@@ -10724,6 +11312,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>地形测试 - 月球8k</Value>
     </Record>
     <Record>
+      <Key>ButtonTest</Key>
+      <Value>测试</Value>
+    </Record>
+    <Record>
       <Key>64Test</Key>
       <Value>地形测试 - 64M</Value>
     </Record>
@@ -10825,7 +11417,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>NewWorldAreaEuropa2</Key>
-      <Value>木卫二</Value>
+      <Value>木卫二: 伽利略峰</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaVulcan2</Key>
@@ -10972,6 +11564,14 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>自动保存间隔(秒)</Value>
     </Record>
     <Record>
+      <Key>SettingsMaxAutoSaves</Key>
+      <Value>最大自动保存数</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMaxQuickSaves</Key>
+      <Value>最大快速保存数</Value>
+    </Record>
+    <Record>
       <Key>SettingsHUDScale</Key>
       <Value>HUD缩放</Value>
     </Record>
@@ -10997,7 +11597,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>SettingsTitleAutosave</Key>
-      <Value>自动保存设置</Value>
+      <Value>存档设置</Value>
     </Record>
     <Record>
       <Key>SettingsTitleScreen</Key>
@@ -11050,6 +11650,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>SettingsParticleQuality</Key>
       <Value>粒子质量</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTerrainDetail</Key>
+      <Value>地形曲面细分</Value>
     </Record>
     <Record>
       <Key>SettingsSoftParticles</Key>
@@ -12062,14 +12666,6 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>4km × 4km</Value>
     </Record>
     <Record>
-      <Key>WorldLunar</Key>
-      <Value>月球静海</Value>
-    </Record>
-    <Record>
-      <Key>NewWorldLunarShortDesc</Key>
-      <Value>位于月球静海边界, 古老的熔岩平原与嶙峋高地在此交汇. 地形融合了开阔荒原与断裂山脊, 由陨石撞击与火山活动共同塑造. 该区域无大气环境与持续阳光照射, 为月球作业提供了荒凉但稳定的基础条件</Value>
-    </Record>
-    <Record>
       <Key>NewWorldMoonShortDesc</Key>
       <Value>虽然存在煤炭不是很符合真实情况, 但大大小小相对平坦的陨石坑, 单调灰色的景色以及没有大气层都符合月球的一般印象. 一个危险性和变化都相对较小的地外星球, 对于刚入门的Stationeer来说, 这里是一个很合适的出发点</Value>
     </Record>
@@ -12102,24 +12698,64 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>这是一颗与壮观的土星环伴行的荒凉岩石卫星, 土卫一体型娇小, 因此它的重力极低, 而且它的表面布满了大量来自星环的陨石留下的环形山. 由于与太阳的距离较远, 在这里太阳能设备几乎无法产生能量. 在你行走或跳跃的时候一定要加倍小心, 这里的低重力会使你轻易加速并跨过很长的距离</Value>
     </Record>
     <Record>
+      <Key>EuropaWorldDescriptionShort</Key>
+      <Value>木卫二这片多山荒芜之地为Stationeers带来严峻的生存挑战</Value>
+    </Record>
+    <Record>
+      <Key>LunarWorldDescriptionShort</Key>
+      <Value>无大气层的月球表面布满陨坑, 为月面提供稳定的作业环境.</Value>
+    </Record>
+    <Record>
+      <Key>MarsWorldDescriptionShort</Key>
+      <Value>巨型峡谷与零散陨坑构成火星地貌, 大气稀薄无法呼吸且沙尘暴频发.</Value>
+    </Record>
+    <Record>
+      <Key>MimasWorldDescriptionShort</Key>
+      <Value>土卫一的极低重力塑造出悬崖林立, 陨坑遍地的壮绝景观.</Value>
+    </Record>
+    <Record>
+      <Key>VenusWorldDescriptionShort</Key>
+      <Value>这颗行星被剧毒大气包裹, 永恒高温与致命高气压构成一处死亡炼狱.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanWorldDescriptionShort</Key>
+      <Value>火神星碎裂的地表矿藏丰饶, 但地下深处却暗藏致命杀机.</Value>
+    </Record>
+    <Record>
       <Key>RandomSpawnLocation</Key>
       <Value>随机位置</Value>
     </Record>
     <Record>
-      <Key>LunarSpawnCraterVesper</Key>
-      <Value>维斯珀陨石坑</Value>
+      <Key>LunarSpawnCraterVesperName</Key>
+      <Value>韦斯珀环形山</Value>
     </Record>
     <Record>
-      <Key>LunarSpawnMontesUmbrarum</Key>
+      <Key>LunarSpawnCraterVesperDescription</Key>
+      <Value>低洼月海区域的巨型陨坑</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnMontesUmbrarumName</Key>
       <Value>乌姆布拉伦山脉</Value>
     </Record>
     <Record>
-      <Key>LunarSpawnCraterNox</Key>
-      <Value>诺克斯陨石坑</Value>
+      <Key>LunarSpawnMontesUmbrarumDescription</Key>
+      <Value>俯瞰广袤月海的陨坑状高地</Value>
     </Record>
     <Record>
-      <Key>LunarSpawnMonsArcanus</Key>
-      <Value>奥秘山</Value>
+      <Key>LunarSpawnCraterNoxName</Key>
+      <Value>诺克斯环形山</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnCraterNoxDescription</Key>
+      <Value>该地区规模最大的震撼级陨坑</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnMonsArcanusName</Key>
+      <Value>阿尔卡努斯山</Value>
+    </Record>
+    <Record>
+      <Key>LunarSpawnMonsArcanusDescription</Key>
+      <Value>高台断崖环抱的隐蔽区域</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarDorsumCaradus</Key>
@@ -16158,6 +16794,10 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>地图重新居中</Value>
     </Record>
     <Record>
+      <Key>ButtonToggleDeepMinables</Key>
+      <Value>切换深层可采集矿物</Value>
+    </Record>
+    <Record>
       <Key>SettingsVoiceLanguage</Key>
       <Value>语音</Value>
     </Record>
@@ -17299,19 +17939,19 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>DifficultyDescriptionCreative</Key>
-      <Value>可使用物品生成功能且无资源消耗。你可以在有毒环境中永久生存。重生无任何限制</Value>
+      <Value>可使用物品生成功能且无资源消耗. 你可以在有毒环境中永久生存. 重生无任何限制</Value>
     </Record>
     <Record>
       <Key>DifficultyDescriptionEasy</Key>
-      <Value>氧气、食物和水的消耗较低。你可在有毒环境中存活更久。重生无任何限制</Value>
+      <Value>氧气、食物和水的消耗较低. 你可在有毒环境中存活更久. 重生无任何限制</Value>
     </Record>
     <Record>
       <Key>DifficultyDescriptionNormal</Key>
-      <Value>需要努力工作以维持生存。食物、水和氧气可能短缺，长远规划至关重要。重生仅提供有限装备</Value>
+      <Value>需要努力工作以维持生存. 食物、水和氧气可能短缺, 长远规划至关重要. 重生仅提供有限装备</Value>
     </Record>
     <Record>
       <Key>DifficultyDescriptionStationeer</Key>
-      <Value>充满挑战性的体验. 需要庞大的生命维持系统和水培系统。一次呼吸失误就有可能致命。重生时无任何防护服和装备</Value>
+      <Value>充满挑战性的体验. 需要庞大的生命维持系统和水培系统. 一次呼吸失误就有可能致命. 重生时无任何防护服和装备</Value>
     </Record>
     <Record>
       <Key>DifficultyCreative</Key>
@@ -17844,6 +18484,38 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>BuyDataOxygenReplenishment</Key>
       <Value>氧气补给</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfMuffins</Key>
+      <Value>盒装松饼</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfCornSoup</Key>
+      <Value>盒装玉米浓汤</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfPumpkinSoup</Key>
+      <Value>盒装南瓜汤</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfChocolates</Key>
+      <Value>盒装巧克力</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataChocolateCakeInBox</Key>
+      <Value>盒装巧克力蛋糕</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfTomatoSoup</Key>
+      <Value>盒装番茄汤</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfRicePudding</Key>
+      <Value>盒装米饭布丁</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBoxOfCannedEdamame</Key>
+      <Value>盒装毛豆罐头</Value>
     </Record>
     <Record>
       <Key>BuyDataWaterReplenishment</Key>
@@ -18518,24 +19190,80 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>无额外信息</Value>
     </Record>
     <Record>
-      <Key>NewWorldMimasHerschelShortDesc</Key>
-      <Value>位于土卫一赫歇尔陨石坑内, 以壮观的坑壁为背景, 遍布陨石坑的地质景观</Value>
-    </Record>
-    <Record>
       <Key>WorldLunar</Key>
-      <Value>月球静海</Value>
+      <Value>月球: 静海</Value>
     </Record>
     <Record>
       <Key>NewWorldLunarShortDesc</Key>
-      <Value>位于月球静海边界, 古老的熔岩平原与嶙峋高地在此交汇. 地形融合了开阔荒原与断裂山脊, 由陨石撞击与火山活动共同塑造. 该区域没有大气环境, 日光持续稳定, 为月球作业提供了荒凉但稳定的基础条件</Value>
+      <Value>基地位于月海边界带, 远古熔岩平原与嶙峋高地在此交汇, 形成了开阔平地与断裂山脊交织的地貌景观. 这片由史前撞击与火山活动共同塑造的无大气区域, 为月面作业提供了荒芜却稳定的极端环境</Value>
     </Record>
     <Record>
       <Key>WorldMimasHerschel</Key>
-      <Value>土卫一</Value>
+      <Value>土卫一: 赫歇尔陨坑</Value>
     </Record>
     <Record>
       <Key>NewWorldMimasHerschelShortDesc</Key>
-      <Value>这颗荒芜岩星偎依在土星的壮丽光环下. 其微小体积导致地表重力很低, 星球表面布满因光环碎片坠落而产生的陨石坑. 距离太阳遥远使得太阳能设备在这颗星球上的工作效率极低. 行动时请务必谨慎, 在跳跃和奔跑时, 低重力十分容易导致运动失控</Value>
+      <Value>这颗荒芜岩星栖息在土星壮丽星环之下. 土卫一的微小体积造就了其极低重力环境, 表面遍布来自星环碎片的撞击坑痕. 远离太阳的位置使太阳能设备几乎失效. 请注意行走跳跃动作——极低重力环境下可能产生超长位移与危险加速度</Value>
+    </Record>
+    <Record>
+      <Key>MultiplayerCouldNotConnect</Key>
+      <Value>无法建立连接</Value>
+    </Record>
+    <Record>
+      <Key>MultiplayerCheckAddress</Key>
+      <Value>请检查地址格式</Value>
+    </Record>
+    <Record>
+      <Key>MultiplayerRejected</Key>
+      <Value>服务器拒绝连接</Value>
+    </Record>
+    <Record>
+      <Key>MultiplayerBanned</Key>
+      <Value>您已被该服务器封禁</Value>
+    </Record>
+    <Record>
+      <Key>MultiplayerPassword</Key>
+      <Value>密码错误</Value>
+    </Record>
+    <Record>
+      <Key>MultiplayerIncorrectVersion</Key>
+      <Value>版本不匹配</Value>
+    </Record>
+    <Record>
+      <Key>SteamP2PWarningTitle</Key>
+      <Value>正在使用Steam P2P</Value>
+    </Record>
+    <Record>
+      <Key>SteamP2PWarningMessage</Key>
+      <Value>Steam点对点连接无法满足大型基地的带宽需求. 建议尽可能使用TCP协议以获得更流畅体验</Value>
+    </Record>
+    <Record>
+      <Key>FailedToLoadGameMessageTitle</Key>
+      <Value>游戏加载失败</Value>
+    </Record>
+    <Record>
+      <Key>FailedToLoadGameMessageText</Key>
+      <Value>加载游戏时发生错误. 请按F3查看控制台获取完整日志</Value>
+    </Record>
+    <Record>
+      <Key>FailedToStartGameMessageTitle</Key>
+      <Value>游戏启动失败</Value>
+    </Record>
+    <Record>
+      <Key>FailedToStartGameMessageText</Key>
+      <Value>启动游戏时发生错误. 请按F3查看控制台获取完整日志</Value>
+    </Record>
+    <Record>
+      <Key>SiteInfoTypeTitle</Key>
+      <Value>类型</Value>
+    </Record>
+    <Record>
+      <Key>ButtonLinkToScanner</Key>
+      <Value>连接至扫描仪</Value>
+    </Record>
+    <Record>
+      <Key>AvailableScanners</Key>
+      <Value>可用扫描设备</Value>
     </Record>
   </Interface>
   <Colors>
@@ -20767,7 +21495,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ProgrammableChipErrorCode</Key>
-      <Value>在第 {LOCAL:LineNumber} 行出现 {LOCAL:ErrorType} 错误</Value>
+      <Value>在第 {LOCAL:LineNumber} 行出现 &lt;color=red&gt;{LOCAL:ErrorType}&lt;/color&gt; 错误</Value>
     </Record>
     <Record>
       <Key>OutputLitres</Key>
@@ -23570,7 +24298,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>AutoLandThrustRequired</Key>
-      <Value>可靠度 {LOCAL:Confidence} （需要发动机推力至少达到 {LOCAL:Thrust} ）</Value>
+      <Value>可靠度 {LOCAL:Confidence}. 当前预计推力为 {LOCAL:Thrust}, 推力至少需要达到 {LOCAL:ExpectedThrust}</Value>
     </Record>
     <Record>
       <Key>NoDataLinkActive</Key>
@@ -23934,7 +24662,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>LogicDescriptionTargetSlotIndex</Key>
-      <Value>目标设备的插槽索引，该设备将与对应索引的槽位进行交互</Value>
+      <Value>目标设备的插槽索引, 该设备将与对应索引的槽位进行交互</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionTargetPrefabHash</Key>
@@ -25076,7 +25804,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CommsTerminalDishBusy</Key>
-      <Value>最高功率天线正忙，请稍候, 或使用通信终端</Value>
+      <Value>最高功率天线正忙, 请稍候, 或使用通信终端</Value>
     </Record>
     <Record>
       <Key>CommsTerminalInterrogateButton</Key>
@@ -25084,7 +25812,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CommsTerminalNotEnoughEnergy</Key>
-      <Value>指向该目标的能量不足，无法进行通信</Value>
+      <Value>指向该目标的能量不足, 无法进行通信</Value>
     </Record>
     <Record>
       <Key>TradeActionCharge</Key>
