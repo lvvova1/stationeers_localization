@@ -51,7 +51,7 @@
     </RecordReagent>
     <RecordReagent>
       <Key>Hydrocarbon</Key>
-      <Value>碳</Value>
+      <Value>烃</Value>
       <Unit>g</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -14589,7 +14589,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ElectronicReaderHydrocarbon</Key>
-      <Value>碳</Value>
+      <Value>烃</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderElectrum</Key>
@@ -20800,7 +20800,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>DaysPassedHudText</Key>
-      <Value>第{LOCAL:DaysPassed}天</Value>
+      <Value>DAY {LOCAL:DaysPassed}</Value>
     </Record>
     <Record>
       <Key>CustomSkeletonName</Key>
@@ -20871,143 +20871,143 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeChunks</Key>
-      <Value>反序列化区块</Value>
+      <Value>Deserializing Chunks</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingAtmospherics</Key>
-      <Value>反序列化大气系统</Value>
+      <Value>Deserializing Atmospherics</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeCableNetworks</Key>
-      <Value>反序列化电缆网络</Value>
+      <Value>Deserializing Cable Networks</Value>
     </Record>
     <Record>
       <Key>LoadingScreenPleaseWait</Key>
-      <Value>请稍候</Value>
+      <Value>Please Wait</Value>
     </Record>
     <Record>
       <Key>LoadingScreenClientJoining</Key>
-      <Value>客户端正在加入</Value>
+      <Value>Client Joining</Value>
     </Record>
     <Record>
       <Key>LoadingScreenReceivingJoinData</Key>
-      <Value>接收加入数据</Value>
+      <Value>Receiving Join Data</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRegisteringPrefabs</Key>
-      <Value>注册预制</Value>
+      <Value>Registering Prefabs</Value>
     </Record>
     <Record>
       <Key>LoadingScreenConnectingToServer</Key>
-      <Value>正在连接服务器</Value>
+      <Value>Connecting to Server</Value>
     </Record>
     <Record>
       <Key>LoadingScreenReadyToJoin</Key>
-      <Value>准备加入</Value>
+      <Value>Ready To Join</Value>
     </Record>
     <Record>
       <Key>LoadingScreenGeneratingTerrain</Key>
-      <Value>生成地形</Value>
+      <Value>Generating Terrain</Value>
     </Record>
     <Record>
       <Key>LoadingScreenFinishingGeneratingTerrain</Key>
-      <Value>地形生成完成</Value>
+      <Value>Finished Generating Terrain</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingChuteNetworks</Key>
-      <Value>反序列化滑槽网络</Value>
+      <Value>Deserializing Chute Networks</Value>
     </Record>
     <Record>
       <Key>LoadingScreenProcessingThings</Key>
-      <Value>处理物品</Value>
+      <Value>Processing Things</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingNetworks</Key>
-      <Value>反序列化网络</Value>
+      <Value>Deserializing Networks</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingPipeNetworks</Key>
-      <Value>反序列化管道网络</Value>
+      <Value>Deserializing Pipe Networks</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeRocketNetworks</Key>
-      <Value>反序列化火箭网络</Value>
+      <Value>Deserializing Rocket Networks</Value>
     </Record>
     <Record>
       <Key>LoadingScreenCalculatingMeshes</Key>
-      <Value>计算网格</Value>
+      <Value>Calculating Meshes</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingStationContacts</Key>
-      <Value>反序列化空间站联络信息</Value>
+      <Value>Deserializing Station Contacts</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializing</Key>
-      <Value>正在初始化</Value>
+      <Value>Initializing</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializingChunks</Key>
-      <Value>初始化区块</Value>
+      <Value>Initializing Chunks</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingChunks</Key>
-      <Value>加载区块</Value>
+      <Value>Loading Chunks</Value>
     </Record>
     <Record>
       <Key>LoadingScreenGeneratingRecipes</Key>
-      <Value>生成配方</Value>
+      <Value>Generating Recipes</Value>
     </Record>
     <Record>
       <Key>LoadingScreenNewWorldMenu</Key>
-      <Value>新世界菜单</Value>
+      <Value>New World Menu</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingStationpedia</Key>
-      <Value>加载空间站百科</Value>
+      <Value>Loading Stationpedia</Value>
     </Record>
     <Record>
       <Key>LoadingScreenCalculatingChunks</Key>
-      <Value>计算区块</Value>
+      <Value>Calculating Chunks</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingRooms</Key>
-      <Value>加载房间</Value>
+      <Value>Loading Rooms</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingAtmosphers</Key>
-      <Value>加载大气系统</Value>
+      <Value>Loading Atmospheres</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRegeneratingTerrain</Key>
-      <Value>重新生成地形</Value>
+      <Value>Regenerating Terrain</Value>
     </Record>
     <Record>
       <Key>LoadingScreenPopulatingInventory</Key>
-      <Value>填充库存</Value>
+      <Value>Populating Inventory</Value>
     </Record>
     <Record>
       <Key>LoadingScreenSpawningThings</Key>
-      <Value>生成物品</Value>
+      <Value>Spawning things</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializingDevices</Key>
-      <Value>初始化设备</Value>
+      <Value>Initializing Devices</Value>
     </Record>
     <Record>
       <Key>LoadingScreenValidatingPrefabs</Key>
-      <Value>验证预制值</Value>
+      <Value>Validating Prefabs</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRenderingChunks</Key>
-      <Value>渲染区块</Value>
+      <Value>Rendering Chunks</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingThings</Key>
-      <Value>加载物品( {LOCAL:ThingCount} )</Value>
+      <Value>Loading Things ({LOCAL:ThingCount})</Value>
     </Record>
     <Record>
       <Key>LoadingScreenCleaningUpPrefabs</Key>
-      <Value>清理预制</Value>
+      <Value>Cleaning up prefabs</Value>
     </Record>
     <Record>
       <Key>SettingsFullScreenDisplayMode</Key>
@@ -22674,7 +22674,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeWorldLog</Key>
-      <Value>反序列化世界日志</Value>
+      <Value>Deserializing World Log</Value>
     </Record>
     <Record>
       <Key>ActionFixLeak</Key>
@@ -23446,19 +23446,19 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingSpaceMap</Key>
-      <Value>反序列化太空地图</Value>
+      <Value>Deserializing Space Map</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingRockets</Key>
-      <Value>反序列化火箭数据</Value>
+      <Value>Deserializing Rockets</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingRocketLog</Key>
-      <Value>反序列化火箭日志</Value>
+      <Value>Deserializing Rocket Log</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeRocketLog</Key>
-      <Value>反序列化火箭日志</Value>
+      <Value>Deserializing Rocket Log</Value>
     </Record>
     <Record>
       <Key>CantPaintSameColour</Key>
@@ -24717,36 +24717,40 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>反序列化地球化数值</Value>
     </Record>
     <Record>
+      <Key>LoadingScreenDeserializeTerraformingValues</Key>
+      <Value>Deserializing Terraforming values</Value>
+    </Record>
+    <Record>
       <Key>LoadingScreenDeserializingWorldObjectives</Key>
-      <Value>反序列化世界目标</Value>
+      <Value>Deserializing World Objectives</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingTerrain</Key>
-      <Value>加载地形数据</Value>
+      <Value>Loading Terrain Data</Value>
     </Record>
     <Record>
       <Key>LoadingScreenSeedingMinables</Key>
-      <Value>生成可采矿脉</Value>
+      <Value>Seeding Minables</Value>
     </Record>
     <Record>
       <Key>LoadingScreenGeneratingMinables</Key>
-      <Value>生成可采矿物</Value>
+      <Value>Generating Minables</Value>
     </Record>
     <Record>
       <Key>LoadingScreenValidatingMinables</Key>
-      <Value>校验可采矿物</Value>
+      <Value>Validating Minables</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRegisteringMinables</Key>
-      <Value>注册可采矿物</Value>
+      <Value>Registering Minables</Value>
     </Record>
     <Record>
       <Key>LoadingScreenApplyingMinedMinables</Key>
-      <Value>应用已采矿物差异</Value>
+      <Value>Minable Deltas</Value>
     </Record>
     <Record>
       <Key>LoadingScreenPreparingTerrain</Key>
-      <Value>准备地形</Value>
+      <Value>Preparing Terrain</Value>
     </Record>
     <Record>
       <Key>ScriptEditorAuthorInfo</Key>
@@ -25956,7 +25960,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>LoadingScreenRequestingCharacter</Key>
-      <Value>请求角色</Value>
+      <Value>Requesting Character</Value>
     </Record>
     <Record>
       <Key>SaveInvalidTerrainDataModified</Key>
