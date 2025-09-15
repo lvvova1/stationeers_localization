@@ -374,6 +374,17 @@ Tout objet dynamique laissé dehors pendant une tempête - sur Mars, Loulan, Vul
 De même, sachez que les panneaux solaires sont fragiles et peuvent avoir leur vitre brisée, ou même être détruits par une tempête suffisamment violente. Pendant les tempêtes, leur rendement est également considérablement réduit.
  </Text>
 		</StationpediaPage>
+		<StationpediaPage>
+  <Key>CableNetworkPage</Key>
+  <Title>Réseaux de Câbles</Title>
+  <Text>Lorsque vous placez des câbles avec {THING:ItemCableCoil}, vous créez des réseaux de câbles. Ceux-ci contiennent une mémoire volatile qui peut être lue ou écrite à l'aide d'un {THING:ItemIntegratedCircuit10}. Cela inclut une variété de variables logiques spéciales telles que {LOGICTYPE:Channel0} à {LOGICTYPE:Channel7}. Les réseaux possèdent également une mémoire lisible, contenant la liste de tous les dispositifs de données du réseau, et qui peut être utilisée avec GET pour trouver le {LOGICTYPE:ReferenceId} de ce dispositif.
+
+Pour connaître la quantité actuelle de dispositifs dans la pile, utilisez la variable {LOGICTYPE:StackSize} sur le réseau, car le réseau ajuste dynamiquement sa taille de pile en fonction des dispositifs qu’il contient. Les réseaux de câbles représentent une mémoire volatile, et leur ordre, contenu et données changent à chaque modification du réseau — il peut donc être nécessaire de vérifier et mettre à jour les informations en permanence.
+
+Pour y accéder, utilisez une notation supplémentaire sur vos références de dispositifs telles que {COLORYELLOW:d0}:{COLORYELLOW:1} pour accéder au réseau 1 du dispositif indiqué. Pour connaître le numéro de connexion, consultez la page Stationpedia de ce dispositif dans la section des connexions.
+  </Text>
+</StationpediaPage>
+
 		<!--
  ~~~~~~~~~~~~~~~~~~~~~~~~~
  | TEMPLATES |
