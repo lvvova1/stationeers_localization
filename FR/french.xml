@@ -2337,7 +2337,7 @@ Si des liquides sont présents dans le fourneau, ils s'accumuleront là jusqu'à
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureGunTurret</Key>
-			<Value>Emplacement pour arme</Value>
+			<Value>Emplacement d'arme</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureGyroscope</Key>
@@ -9568,6 +9568,10 @@ Il calcule en continu un signal d'erreur e(t) = consigne – mesure, puis appliq
 			<Description>Le distributeur automatique (petit) "Slot Mate" conçu par {LINK:Xigo;Xigo} permet le stockage de presque n'importe quel objet, tout en servant de point de distribution pour les échanges avec les {LINK:TradingPage;commerçants}. Vous ne pouvez pas effectuer de transactions sans un distributeur automatique, ou son équivalent plus avancé, le {THING:StructureRefrigeratedVendingMachine}. Chaque distributeur peut contenir jusqu'à 12 piles d'objets.</Description>
 		</RecordThing>
 		<RecordThing>
+			<Key>StructureVendingMachineSmall1</Key>
+			<Description>Le distributeur automatique (petit) "Slot Mate" conçu par {LINK:Xigo;Xigo} permet le stockage de presque n'importe quel objet, tout en servant de point de distribution pour les échanges avec les {LINK:TradingPage;commerçants}. Vous ne pouvez pas effectuer de transactions sans un distributeur automatique, ou son équivalent plus avancé, le {THING:StructureRefrigeratedVendingMachine}. Chaque distributeur peut contenir jusqu'à 12 piles d'objets.</Description>
+		</RecordThing>
+		<RecordThing>
 			<Key>ItemWreckageConstructor</Key>
 			<Value>Debug Constructeur de débris</Value>
 		</RecordThing>
@@ -10763,6 +10767,10 @@ Le module doit être connecté à un module de stockage de ressources de fusée 
 			<Value>Aucun</Value>
 		</Record>
 		<Record>
+			<Key>Crate</Key>
+			<Value>Emplacement de caisse</Value>
+		</Record>
+		<Record>
 			<Key>TargetSlot</Key>
 			<Value>Emplacement cible :</Value>
 		</Record>
@@ -10914,7 +10922,7 @@ Le module doit être connecté à un module de stockage de ressources de fusée 
 		</Record>
 		<Record>
 			<Key>SplitOne</Key>
-			<Value>En Prendre Un</Value>
+			<Value>En prendre 1</Value>
 		</Record>
 		<Record>
 			<Key>SplitHalf</Key>
@@ -14782,7 +14790,17 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>SettingsTerrainDetail</Key>
-			<Value>Détail du terrain</Value>
+			<Value>Détail du terrain proche
+ (Tessellation)</Value>
+		</Record>
+		<Record>
+			<Key>SettingsTerrainDistance</Key>
+			<Value>Détail du terrain lointain</Value>
+		</Record>
+		<Record>
+			<Key>SettingsMinableDistance</Key>
+			<Value>Distance d'affichage des
+ ressources exploitables</Value>
 		</Record>
 		<Record>
 			<Key>SettingsSoftParticles</Key>
@@ -21135,7 +21153,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockPowerPlaceAPC</Key>
-			<Value>Placez un {THING:StructureAreaPowerControl} à droite de la lumière connectée en entrée au câble d’alimentation vert. Faites attention à la direction des flèches sur le {THING:StructureAreaPowerControl}.</Value>
+			<Value>Placez un {THING:StructureAreaPowerControl} à droite de la lumière, en le connectant en entrée au câble d'alimentation vert. Faites attention à la direction des flèches sur le {THING:StructureAreaPowerControl}.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockAPCName</Key>
@@ -21175,7 +21193,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockInsertCardInfo</Key>
-			<Value>Les sas avancés sont utilisés lorsque l’atmosphère est présente des deux côtés, tandis que la carte de sas est utilisée lorsqu’un côté est dans le vide.</Value>
+			<Value>Le {THING:CircuitboardAdvAirlockControl} est utilisé lorsque l’atmosphère est présente des deux côtés, tandis que le {THING:CircuitboardAirlockControl} est utilisé lorsqu’un côté est dans le vide.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockInsertCardPutAdvAirlock</Key>
@@ -21191,15 +21209,15 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockVentilationInfo</Key>
-			<Value>Les sas avancés nécessitent une {THING:StructureActiveVent} pour chacun des côtés. Il existe plusieurs types de ventilations dans le jeu, telles que la {THING:StructurePoweredVent} et la {THING:StructurePoweredVentLarge} pour les très grands sas.</Value>
+			<Value>Le sas avancé nécessite une {THING:StructureActiveVent} de chaque côté. Plusieurs types de ventilations sont disponibles dans le jeu, comme la {THING:StructurePoweredVent} et la {THING:StructurePoweredVentLarge} pour les très grands sas.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockVentilationPlaceVents</Key>
-			<Value>Placez deux {THING:StructureActiveVent} sur le toit, chacun connecté à un câble rouge et à un tuyau jaune.</Value>
+			<Value>Placez deux {THING:StructureActiveVent} au plafond, chacun connecté à un câble rouge et à un tuyau jaune.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockBuildDoorsName</Key>
-			<Value>Assembler les 2 portes</Value>
+			<Value>Assembler les deux portes</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockBuildDoorsInfo</Key>
@@ -21207,7 +21225,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockBuildDoorsFinish</Key>
-			<Value>Terminez la construction par 2 {THING:StructureGlassDoor} pour le sas avec le matériel du casier.</Value>
+			<Value>Terminez la construction des deux {THING:StructureGlassDoor} pour le sas avec le matériel du casier.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockBuildDoorsWelderReminder</Key>
@@ -21231,7 +21249,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockProgramingPressureSettingNote</Key>
-			<Value>Le sas avancé permet de régler la pression de chaque côté. Réglez-la pour correspondre à la pression réelle. La carte de sas standard ne permet pas cette fonction.</Value>
+			<Value>Le {THING:CircuitboardAdvAirlockControl} permet de régler la pression de chaque côté. Réglez-la pour correspondre à la pression réelle. Le {THING:CircuitboardAirlockControl} ne permet pas cette fonction.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockProgramingChooseExteriorDoors</Key>
@@ -21259,11 +21277,11 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockActivateAirlockOperatingInfo</Key>
-			<Value>Le sas dépressurise d’abord la chambre, puis la represseurise selon la valeur définie dans l’écran de configuration.</Value>
+			<Value>Le sas dépressurise d’abord la pièce, puis la represseurise selon la valeur définie dans l’écran de configuration.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockActivateAirlockHowToIncreaseSpeed</Key>
-			<Value>Vous pouvez augmenter la vitesse du sas en augmentant la taille du réseau de tuyaux ou le volume. Ajoutez plus de tuyaux ou de réservoirs en ligne.</Value>
+			<Value>Vous pouvez augmenter la vitesse du sas en augmentant la taille du réseau de tuyaux ou le volume. Ajoutez plus de {THING:StructurePipeStraight} ou de {THING:StructureInLineTankGas1x1}.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockActivateAirlockCancellButton</Key>
@@ -21308,11 +21326,11 @@ Four</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialArcFurnaceInfo</Key>
-			<Value>Différents minerais nécessitent différentes quantités d'énergie pour être fondus, {THING:ItemGoldOre} étant le plus gourmand en énergie. Vous devrez peut-être protéger vos circuits lors de l'utilisation d'un four à arc.</Value>
+			<Value>Différents minerais nécessitent différentes quantités d'énergie pour être fondus, le {THING:ItemGoldOre} étant le plus gourmand en énergie. Vous devrez peut-être protéger vos circuits lors de l'utilisation d'un four à arc.</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialArcFurnaceTakeBackpack</Key>
-			<Value>Prenez le sac à dos orange {THING:ItemMiningBackPack} depuis le casier, ouvrez-le avec {KEY:ActiveHandSlot} et glissez un {THING:ItemIronOre} dans l'emplacement {SLOT:Import} du {THING:StructureArcFurnace}.</Value>
+			<Value>Prenez {THING:ItemMiningBackPack} orange depuis le casier, ouvrez-le avec {KEY:ActiveHandSlot} et glissez un {THING:ItemIronOre} dans l'emplacement {SLOT:Import} du {THING:StructureArcFurnace}.</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialArcFurnacePressButton</Key>
@@ -21324,11 +21342,11 @@ Four</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialFurnaceInfo</Key>
-			<Value>Certains minerais extraits contiennent des gaz qui se libèrent lors de la fusion. Certains peuvent être précieux ou utilisés comme carburant. Vous pouvez vérifier les gaz contenus dans chaque minerai via la Stationpedia {KEY:Help}.</Value>
+			<Value>Certains minerais extraits contiennent des gaz qui se libèrent lors de la fusion. Certains peuvent être précieux ou utilisés comme carburant. Vous pouvez vérifier les gaz contenus dans chaque minerai via la Stationpedia (touche {KEY:Help}).</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialFurnacePlaceFurnace</Key>
-			<Value>Retirez le {THING:StructureFurnace} du casier et placez-le au-dessus du cadre vert. Il est conseillé de le mettre sur le côté pour faciliter l'accès au slot d'entrée supérieur et éviter que la sortie ne dépasse du sol. Faites pivoter avec {KEY:RotateLeft}/{KEY:RotateRight}, {KEY:RotateUp}/{KEY:RotateDown}, {KEY:RotateRollLeft}/{KEY:RotateRollRight}.</Value>
+			<Value>Prenez le {THING:StructureFurnace} dans le casier et placez-le dans le vide au-dessus du cadre vert. Il est conseillé de l'orienter sur le côté pour faciliter l'accès à l'emplacement d'entrée et éviter que la sortie ne soit bloquée dans le sol. Pour le faire pivoter, utilisez les touches {KEY:RotateLeft}/{KEY:RotateRight}, {KEY:RotateUp}/{KEY:RotateDown}, {KEY:RotateRollLeft}/{KEY:RotateRollRight}.</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialFurnaceBuildFurnace</Key>
@@ -21360,7 +21378,7 @@ Four</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialFiringTheFurnaceTakeWhiteBackpack</Key>
-			<Value>Prenez le sac à dos blanc du casier. Transférez une pile de {THING:ItemOxite} dans votre main et séparez 1 {THING:ItemOxite} une fois que la température externe indique "Nul" en bas à droite.</Value>
+			<Value>Prenez le {THING:ItemMiningBackPack} blanc du casier. Transférez une pile de {THING:ItemOxite} dans votre main et séparez 1 {THING:ItemOxite} une fois que la température externe indique "Nul" en bas à droite.</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialFiringTheFurnacePutInOxite</Key>
@@ -21368,7 +21386,7 @@ Four</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialFiringTheFurnaceSplitVolatiles</Key>
-			<Value>Faites de même pour les {THING:ItemVolatiles} dans le sac rouge et séparez 2 {THING:ItemVolatiles}.</Value>
+			<Value>Faites de même pour les {THING:ItemVolatiles} dans le {THING:ItemMiningBackPack} rouge et séparez 2 {THING:ItemVolatiles}.</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialFiringTheFurnacePlaceVolatilesPressStart</Key>
@@ -21392,7 +21410,7 @@ Four</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialSmeltingOreProcessWindowInformation</Key>
-			<Value>Lorsque le four indique "Produira un lingot de cuivre" et que le bouton d'activation devient vert, ouvrez la poignée pour éjecter le {THING:ItemCopperIngot}.</Value>
+			<Value>Lorsque le four indique "Produira 50 g de Lingot de cuivre" et que le bouton d'activation devient vert, ouvrez la poignée pour éjecter le {THING:ItemCopperIngot}.</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialSmeltingOreCloseHandle</Key>
@@ -21436,7 +21454,7 @@ Four</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialResetOpenValveDrainFurnace</Key>
-			<Value>Ouvrez la {THING:StructureValve} pour évacuer le gaz du four jusqu'à moins de 500 kPa. Puis refermez la valve.</Value>
+			<Value>Ouvrez la {THING:StructureValve} pour évacuer le gaz du four jusqu'à moins de 500 kPa. Puis refermez la  {THING:StructureValve}.</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialResetCloseFurnaceHandle</Key>
@@ -21456,7 +21474,7 @@ Four</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialReHeatingInsertMoreFuel</Key>
-			<Value>Ajoutez plus de {THING:ItemVolatiles} et {THING:ItemOxite} dans le four et enflammez-le comme précédemment.</Value>
+			<Value>Ajoutez plus de {THING:ItemVolatiles} et de {THING:ItemOxite} dans le four et enflammez-le comme précédemment.</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialSteelReloadName</Key>
@@ -21488,7 +21506,7 @@ Four</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialPutThatAwayInfo</Key>
-			<Value>Laisser le four exposé fait perdre beaucoup de chaleur. Il est conseillé de l'enfermer dans une boîte avec ~150 kPa de gaz chaud pour économiser du carburant.</Value>
+			<Value>Laisser le four exposé fait perdre beaucoup de chaleur. Il est conseillé de l'enfermer dans une petite pièce avec ~150 kPa de gaz chaud pour économiser du carburant.</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialPutThatAwayPlaceIngotInLocker</Key>
@@ -21565,7 +21583,7 @@ Fabrication</Value>
 		</Record>
 		<Record>
 			<Key>ManufacturingTutorialSetupPipeBenderWhatsInside</Key>
-			<Value>L'{THING:StructureHydraulicPipeBender} contient la plupart des éléments atmosphériques comme les filtres, le {THING:ItemKitAtmospherics}, les ventilations, et il est beaucoup plus rapide pour imprimer des tuyaux que l'{THING:StructureAutolathe}.</Value>
+			<Value>L'{THING:StructureHydraulicPipeBender} contient la plupart des éléments atmosphériques comme le {THING:ItemGasFilterCarbonDioxide}, le {THING:ItemKitAtmospherics}, la {THING:StructureActiveVent}, et il est beaucoup plus rapide pour imprimer des tuyaux que l'{THING:StructureAutolathe}.</Value>
 		</Record>
 		<Record>
 			<Key>ManufacturingTutorialSetupPipeBenderConstructIt</Key>
@@ -21605,11 +21623,11 @@ Fabrication</Value>
 		</Record>
 		<Record>
 			<Key>ManufacturingTutorialSetupRocketPrinterInfo</Key>
-			<Value>L'{THING:StructureRocketManufactory} vous donnera accès à tout ce qui concerne la fuséologie.</Value>
+			<Value>L'{THING:StructureRocketManufactory} vous donnera accès à tout ce qui concerne les fusées.</Value>
 		</Record>
 		<Record>
 			<Key>ManufacturingTutorialSetupRocketPrinterRocketryForResources</Key>
-			<Value>La fuséologie est un excellent moyen d'obtenir beaucoup de glace et de minerai qui pourraient vous manquer sur votre planète.</Value>
+			<Value>La fusée est un excellent moyen d'obtenir beaucoup de glace et de minerai qui pourraient vous manquer sur votre planète.</Value>
 		</Record>
 		<Record>
 			<Key>ManufacturingTutorialSetupRocketPrinterConstructIt</Key>
@@ -21653,7 +21671,7 @@ Fabrication</Value>
 		</Record>
 		<Record>
 			<Key>ManufacturingTutorialFinishingUpInfo</Key>
-			<Value>Stationeers possède 2 autres fabricateurs que nous n'avons pas visités aujourd'hui : le {THING:StructureAutomatedOven} et le {THING:StructureAdvancedPackagingMachine}. Ils fonctionnent de manière similaire aux imprimantes que nous avons vues ici, mais pour les aliments. « On ne peut réussir qu'en imprimant, ou pas » -BigfootMSR</Value>
+			<Value>Stationeers possède 2 autres fabricateurs que nous n'avons pas vue aujourd'hui : le {THING:StructureAutomatedOven} et l'{THING:StructureAdvancedPackagingMachine}. Ils fonctionnent de manière similaire aux imprimantes que nous avons vues ici, mais pour les aliments. « On ne peut réussir qu'en imprimant, ou pas » -BigfootMSR</Value>
 		</Record>
 		<Record>
 			<Key>ManufacturingTutorialFinishingUpInstallRemainingMods</Key>
@@ -23143,7 +23161,7 @@ DU SAS</Value>
 		</Record>
 		<Record>
 			<Key>MotherboardRocketControlOpenButton</Key>
-			<Value>ouvrir l'interface</Value>
+			<Value>Ouvrir interface</Value>
 		</Record>
 		<Record>
 			<Key>RocketLocationPanelError</Key>
@@ -27330,7 +27348,10 @@ Exprimé sous forme de ratio entre 0 et 1.</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionGet</Key>
-			<Value>Registre = valeur du tableau à l'adresse fournie de l'appareil en utilisant la valeur d'index du support IC10 (d?).</Value>
+			<Value>Registre = valeur du tableau à l'adresse fournie d’un appareil qui est defini soit par : 
+- la valeur d’index du support IC10 (d?) 
+- un registre (r?) 
+- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionClr</Key>
@@ -28029,7 +28050,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>RocketThrustToWeight</Key>
-			<Value>Rapport poussée/poids :</Value>
+			<Value>Poussée/poids :</Value>
 		</Record>
 		<Record>
 			<Key>RocketOxidizer</Key>
@@ -29843,11 +29864,11 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>RocketApex</Key>
-			<Value>Apogée</Value>
+			<Value>Apogée :</Value>
 		</Record>
 		<Record>
 			<Key>RocketImpactVelocity</Key>
-			<Value>Vitesse d'impact</Value>
+			<Value>Vitesse d'impact :</Value>
 		</Record>
 		<Record>
 			<Key>ReEntryProfileNone</Key>
