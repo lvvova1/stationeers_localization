@@ -149,11 +149,11 @@
     </Record>
     <Record>
       <Key>StatusIconWasteName</Key>
-      <Value>水分容量</Value>
+      <Value>废气瓶容量</Value>
     </Record>
     <Record>
       <Key>StatusIconWasteDesc</Key>
-      <Value>储水瓶将满</Value>
+      <Value>废气瓶将满</Value>
     </Record>
     <Record>
       <Key>StatusIconHealthName</Key>
