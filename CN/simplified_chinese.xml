@@ -25618,7 +25618,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TradeDecay</Key>
-      <Value>鲜度 {LOCAL:ComparisonOperator}  {LOCAL:Value}</Value>
+      <Value>变质 {LOCAL:ComparisonOperator}  {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>TradeEnergyRatio</Key>
@@ -26959,11 +26959,11 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>HelperHintRatioMustBeComparison</Key>
-      <Value> 比率必须 {LOCAL:ComparisonOperator} </Value>
+      <Value>比率必须 {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintMustBeComparison</Key>
-      <Value> 必须 {LOCAL:ComparisonOperator} </Value>
+      <Value>必须 {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintPartialPressure</Key>
@@ -26971,7 +26971,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>HelperHintDecayComparison</Key>
-      <Value>新鲜度 {LOCAL:ComparisonOperator} </Value>
+      <Value>变质 {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintSpeciesState</Key>
@@ -27267,7 +27267,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>DamageTypeDecay</Key>
-      <Value>鲜度</Value>
+      <Value>变质</Value>
     </Record>
     <Record>
       <Key>DamageTypeDamage</Key>
