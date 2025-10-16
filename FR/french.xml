@@ -544,57 +544,57 @@ Il suffit de le boulonner à un {THING:StructureBench} avec une {THING:ItemWrenc
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautFemaleArmL</Key>
-			<Value>Bras gauche de femme</Value>
-			<Description>Comme bras gauche, il remplit bien son rôle, bien qu'il ne soit pas mémorable.</Description>
+			<Value>Bras gauche d'une astronaute</Value>
+			<Description>Comme bras gauche, il remplit bien son rôle, bien qu'il ne soit pas mémorable.  Il a connu des jours meilleurs.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautFemaleArmR</Key>
-			<Value>Bras droit de femme</Value>
+			<Value>Bras droit d'une astronaute</Value>
 			<Description>L'un d'une paire. L'autre est probablement à proximité.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautFemaleHead</Key>
-			<Value>Tête de femme</Value>
-			<Description>Si les yeux sont le miroir de l'âme, alors que révèle la tête ?</Description>
+			<Value>Tête d'une astronaute</Value>
+			<Description>Si les yeux sont le miroir de l'âme, alors, que révèle la tête ?</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautFemaleLegL</Key>
-			<Value>Jambe gauche de femme</Value>
+			<Value>Jambe gauche d'une astronaute</Value>
 			<Description>Une jambe reste une jambe.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautFemaleLegR</Key>
-			<Value>Jambe droite de femme</Value>
-			<Description>C'est la jambe droite d'une femme. Vu son état, elle semble avoir été en bonne santé, de taille moyenne, avec une tendance à marcher sur la pointe des pieds.</Description>
+			<Value>Jambe droite d'une astronaute</Value>
+			<Description>C'est la jambe droite d'une astronaute. Vu son état, elle semble avoir été en bonne santé, de taille moyenne, avec une tendance à marcher sur la pointe des pieds.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautFemaleTorso</Key>
-			<Value>Torse de femme</Value>
+			<Value>Torse d'une astronaute</Value>
 			<Description>Ce torse n’ira nulle part tout seul.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautMaleArmL</Key>
-			<Value>Bras gauche d'homme</Value>
+			<Value>Bras gauche d'un astronaute</Value>
 			<Description>Le bras est la quatrième partie du corps la plus importante.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautMaleArmR</Key>
-			<Value>Bras droit d'homme</Value>
+			<Value>Bras droit d'un astronaute</Value>
 			<Description>Pas de quoi rire avec cet humérus.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautMaleHead</Key>
-			<Value>Tête d'homme</Value>
+			<Value>Tête d'un astronaute</Value>
 			<Description>Les {LINK:Stationeers;Stationeers} doivent toujours garder leur tête.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautMaleLegL</Key>
-			<Value>Jambe gauche d'homme</Value>
+			<Value>Jambe gauche d'un astronaute</Value>
 			<Description>C'est une jambe. Quelqu'un la regrette probablement.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautMaleLegR</Key>
-			<Value>Jambe droite d'homme</Value>
+			<Value>Jambe droite d'un astronaute</Value>
 			<Description>Les jambes, c’est utile… mais des roues, ça aurait été stylé.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -946,7 +946,7 @@ Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialis
 		<RecordThing>
 			<Key>DynamicGasCanisterAir</Key>
 			<Value>Réservoir portable de gaz (Air)</Value>
-			<Description>Les réservoirs portables de gaz ont une seule fonction : stocker du gaz. Mais il y a beaucoup de choses à faire avec eux. Pour remplir le réservoir, fixez-le à un {THING:ItemTankConnector}, puis connectez-le à un réseau de tuyaux. Essayez d'éviter de dépasser 10 MPa, sinon des choses fâcheuses peuvent arriver. Une fois qu'il est plein, vous pouvez remplir une {THING:ItemGasCanisterOxygen} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ventiler la vanne à débit variable du réservoir dans une pièce et créer une atmosphère. Ils peuvent également être attachés à des rovers et des fusées. En alternative, renversez-le et entraînez-vous à faire des roulades. Les possibilités sont infinies.</Description>
+			<Description>Les réservoirs portables de gaz ont une seule fonction : stocker du gaz. Mais il y a beaucoup de choses à faire avec eux. Pour remplir le réservoir, fixez-le à un {THING:ItemTankConnector}, puis connectez-le à un réseau de tuyaux. Essayez d'éviter de dépasser 10 MPa, sinon des choses fâcheuses peuvent arriver. Une fois qu'il est plein, vous pouvez remplir une {THING:ItemGasCanisterOxygen} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ventiler la vanne à débit variable du réservoir dans une pièce et créer une atmosphère. Ils peuvent également être attachés à des rovers et des fusées. Comme alternative, renversez-le et entraînez-vous à faire des roulades. Les possibilités sont infinies.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterCarbonDioxide</Key>
@@ -1368,7 +1368,7 @@ Peut contenir jusqu'à 12,1 L de liquide.</Description>
 		<RecordThing>
 			<Key>ItemHEMDroidRepairKit</Key>
 			<Value>Kit de réparation (HEM-Droïde)</Value>
-			<Description>Répare les HEM-Droïdes endommagés pour qu'ils retrouvent leur pleine santé.</Description>
+			<Description>Répare les robots HEM-Droïdes endommagés pour qu'ils retrouvent leur pleine santé.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemDisposableBatteryCharger</Key>
@@ -1558,7 +1558,7 @@ Peut contenir jusqu'à 12,1 L de liquide.</Description>
 		<RecordThing>
 			<Key>ItemMiningDrill</Key>
 			<Value>Foreuse</Value>
-			<Description>La foreuse minière rotative à trois cônes "Topo" portative a été conçue pour une seule chose : creuser rapidement. Basée sur un design classique en gravité zéro de {LINK:Recurso;Recurso}, elle fonctionne aussi bien dans le vide que dans l'atmosphère, avec des embouts en carbure cémenté pour augmenter la résilience et la durée de vie des roulements, et réduire les éclats. Comme l'a dit Jenk Murtons un jour, "Le Topo ne s'arrête jamais."</Description>
+			<Description>La foreuse minière rotative à trois cônes "Taupe" portative a été conçue pour une seule chose : creuser rapidement. Basée sur un design classique en gravité zéro de {LINK:Recurso;Recurso}, elle fonctionne aussi bien dans le vide que dans l'atmosphère, avec des embouts en carbure cémenté pour augmenter la résilience et la durée de vie des roulements, et réduire les éclats. Comme l'a dit Jenk Murtons un jour, "La Taupe ne s'arrête jamais."</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMuffin</Key>
@@ -1674,7 +1674,7 @@ Peut contenir jusqu'à 12,1 L de liquide.</Description>
 			<Key>ItemRoadFlare</Key>
 			<Value>Fusée éclairante</Value>
 			<Description>Conçue pour brûler n'importe où dans le Système Solaire, la fusée magnésienne EZC fournit son propre oxygène pour alimenter la combustion et dissiper la nuit éternelle de l'espace. 
-Elle réchauffe également sont environement.</Description>
+Elle réchauffe également son environnement.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemRTG</Key>
@@ -1698,7 +1698,7 @@ Elle réchauffe également sont environement.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSecurityCamera</Key>
-			<Value>Caméra de Sécurité</Value>
+			<Value>Caméra de sécurité</Value>
 			<Description>Les caméras de sécurité peuvent être associées à un {THING:StructureMotionSensor}, puis connectées à une {THING:StructureConsole} équipée d'un {THING:CircuitboardCameraDisplay} pour cette sensation de "toujours surveillé".</Description>
 		</RecordThing>
 		<RecordThing>
@@ -1728,6 +1728,7 @@ et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</
 			<Key>ItemSprayCanBlack</Key>
 			<Value>Bombe de peinture noire</Value>
 			<Description>Optez pour le classique, le clandestin ou l'authentiquement gothique avec de la peinture noire, qui peut être appliquée sur la plupart des objets.
+			
 Chaque aérosol contient 20 utilisations.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -1816,7 +1817,7 @@ Chaque aérosol contient 20 utilisations.</Description>
 			<Key>ItemSteelIngot</Key>
 			<Value>Lingot d'acier</Value>
 			<Description>Les lingots d'acier sont un alliage métallique, fabriqué dans un {THING:StructureFurnace} en fondant {THING:ItemIronOre} et {THING:ItemCoalOre} dans un rapport de 3:1.
-Ce n'est peut-être pas élégant, mais la {THING:ItemOxite} et la {THING:ItemVolatiles} peuvent être combinés dans un four dans un rapport de 1:2 pour créer le mélange gazeux nécessaire pour la fonte.</Description>
+Ce n'est peut-être pas élégant, mais la {THING:ItemOxite} et la {THING:ItemVolatiles} peuvent être combinées dans un four dans un rapport de 1:2 pour créer le mélange gazeux nécessaire pour la fonte.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSteelSheets</Key>
@@ -1873,7 +1874,7 @@ Conçue pour respecter les normes de sécurité ODA les plus strictes, les huit 
 		<RecordThing>
 			<Key>ItemWeldingTorch</Key>
 			<Value>Chalumeau</Value>
-			<Description>Stocké dans la {THING:ItemToolBelt} standard des {LINK:Stationeers;Stationeers}, le chalumeau "Arlite" est utilisé pour soudager diverses structures essentielles.
+			<Description>Stocké dans la {THING:ItemToolBelt} standard des {LINK:Stationeers;Stationeers}, le chalumeau "Arlite" est utilisé pour souder diverses structures essentielles.
 Une version améliorée du modèle classique "Zairo" d'abord fabriqué par {LINK:ExMin;ExMin} pour l'assemblage de habitats spatiaux modulaires, l'Arlite est alimenté par une seule {THING:ItemGasCanisterFuel} et conçu pour fonctionner aussi bien dans l'espace profond que dans les puits de gravité profonde.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -1958,7 +1959,7 @@ Pour plus d'informations sur l'utilisation du climatiseur, consultez la page des
 		<RecordThing>
 			<Key>StructureAirlock</Key>
 			<Value>Porte renforcée</Value>
-			<Description>La porte renforcée est une porte motorisé qui constitue le principal composant d'un sas. Tant que la Porte renforcée n'est pas verrouillée, elle peut être ouverte manuellement à l'aide d'un pied-de-biche.</Description>
+			<Description>La porte renforcée est une porte motorisée qui constitue le principal composant d'un sas. Tant que la porte renforcée n'est pas verrouillée, elle peut être ouverte manuellement à l'aide d'un pied-de-biche.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureAreaPowerControl</Key>
@@ -2004,7 +2005,7 @@ Enfin, un APC charge les batteries, qui peuvent fournir une alimentation de seco
 		<RecordThing>
 			<Key>StructureBattery</Key>
 			<Value>Batterie de station (petite)</Value>
-			<Description>Offrant un stockage d'énergie fiable à grande échelle, la batterie de station (petite) de {LINK:Sinotai;Sinotai} surnomé "Batterie" est le coeur de la plupart des bases {LINK:Stationeers;Stationeer}.
+			<Description>Offrant un stockage d'énergie fiable à grande échelle, la batterie de station (petite) de {LINK:Sinotai;Sinotai} surnommée "Batterie" est le coeur de la plupart des bases {LINK:Stationeers;Stationeer}.
 Il existe diverses précautions pour la conception de systèmes électriques utilisant des batteries, et chaque stationnaire expérimenté a une histoire à raconter, d'où l'adage des stationnaires : "La batterie chauffe, mais elle peut aussi cramer." 
 
 {HEADER:PUISSANCE DE SORTIE}
@@ -2029,37 +2030,37 @@ Capable de stocker jusqu'à 3 600 000 Watts d'énergie, il n'y a pas de limites 
 		<RecordThing>
 			<Key>StructureCableCorner</Key>
 			<Value>Câble (coin)</Value>
-			<Description>Transportant à la fois l'énergie et les données. La bobine de câble est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence colaire décannuelle des {LINK:Stationeers;Stationeers}.
+			<Description>Transportant à la fois l'énergie et les données. La bobine de câble est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
 La bobine normale a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableCorner3</Key>
 			<Value>Câble (3 jonctions coin)</Value>
-			<Description>Transportant à la fois l'énergie et les données. La bobine de câble est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence colaire décannuelle des {LINK:Stationeers;Stationeers}.
+			<Description>Transportant à la fois l'énergie et les données. La bobine de câble est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
 La bobine normale a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableJunction</Key>
 			<Value>Câble (3 jonctions en T)</Value>
-			<Description>Transportant à la fois l'énergie et les données. La bobine de câble est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence colaire décannuelle des {LINK:Stationeers;Stationeers}.
+			<Description>Transportant à la fois l'énergie et les données. La bobine de câble est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
 La bobine normale a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableJunction4</Key>
 			<Value>Câble (4 jonctions en croix)</Value>
-			<Description>Transportant à la fois l'énergie et les données. La bobine de câble est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence colaire décannuelle des {LINK:Stationeers;Stationeers}.
+			<Description>Transportant à la fois l'énergie et les données. La bobine de câble est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
 La bobine normale a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableJunction6</Key>
 			<Value>Câble (6 jonctions)</Value>
-			<Description>Transportant à la fois l'énergie et les données. La bobine de câble est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence colaire décannuelle des {LINK:Stationeers;Stationeers}.
+			<Description>Transportant à la fois l'énergie et les données. La bobine de câble est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
 La bobine normale a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableStraight</Key>
 			<Value>Câble (droit)</Value>
-			<Description>Transportant à la fois l'énergie et les données. La bobine de câble est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence colaire décannuelle des {LINK:Stationeers;Stationeers}.
+			<Description>Transportant à la fois l'énergie et les données. La bobine de câble est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
 La bobine normale a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -2071,7 +2072,7 @@ Soyez là, même quand vous ne l'êtes pas.</Description>
 		<RecordThing>
 			<Key>StructureCentrifuge</Key>
 			<Value>Centrifugeuse</Value>
-			<Description>Si un {THING:StructureRecycler} ou un {THING:StructureFurnace} déséquilibré produit un {THING:ItemReagentMix} plutôt que les {LINK:IngotPage;lingots} souhaités, une centrifugeuse permet de récupérer les {LINK:OrePage;minerais} brutes. 
+			<Description>Si un {THING:StructureRecycler} ou un {THING:StructureFurnace} déséquilibré produit un {THING:ItemReagentMix} plutôt que les {LINK:IngotPage;lingots} souhaités, une centrifugeuse permet de récupérer les {LINK:OrePage;minerais} bruts. 
 Elle raffine également le {THING:ItemDirtyOre} produit par la {THING:StructureDeepMiner} et le {THING:ItemSpaceOre} produit par la {THING:StructureRocketMiner}. 
 Son grand frère, la {THING:StructureCombustionCentrifuge}, peut être utilisé pour traiter les objets de manière significativement plus rapide. Les objets traités par la centrifugeuse seront dégazés. 
 Si elle est ouverte alors qu’elle est sous tension, la centrifugeuse entrera dans un état d’erreur, réduira ses tours par minute (RPM) à 0, puis expulsera les objets.</Description>
@@ -2079,7 +2080,7 @@ Si elle est ouverte alors qu’elle est sous tension, la centrifugeuse entrera d
 		<RecordThing>
 			<Key>StructureChair</Key>
 			<Value>Fauteuil (avec dossier, 1 place)</Value>
-			<Description>Un des nombreuses fauteuils de l'univers, optimisée pour les bipèdes ayant entre zéro et deux membres supérieurs.</Description>
+			<Description>Un des nombreux fauteuils de l'univers, optimisé pour les bipèdes ayant entre zéro et deux membres supérieurs.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureChuteBin</Key>
@@ -2153,37 +2154,37 @@ Les gaines sont des composants fondamentaux des réseaux de gaines, qui permette
 		<RecordThing>
 			<Key>StructureCompositeWall</Key>
 			<Value>Mur composite (simple)</Value>
-			<Description>Étanche à l'air et résistante aux températures extrêmes, le mur composite privilégit la forme à la fonction, avec une variété légèrement différentes et fonctionnellement identiques.</Description>
+			<Description>Étanche à l'air et résistant aux températures extrêmes, le mur composite privilégie la forme à la fonction, avec une variété légèrement différentes et fonctionnellement identiques.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeWallRound</Key>
 			<Value>Mur composite (rond)</Value>
-			<Description>Étanche à l'air et résistante aux températures extrêmes, le mur composite privilégit la forme à la fonction, avec une variété légèrement différentes et fonctionnellement identiques.</Description>
+			<Description>Étanche à l'air et résistant aux températures extrêmes, le mur composite privilégie la forme à la fonction, avec une variété légèrement différentes et fonctionnellement identiques.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeWallType1</Key>
 			<Value>Mur composite (type 1)</Value>
-			<Description>Étanche à l'air et résistante aux températures extrêmes, le mur composite existent en plusieurs charmantes variétés presque identiques - reflétant l'accent du concepteur sur la forme plutôt que sur la fonction.</Description>
+			<Description>Étanche à l'air et résistant aux températures extrêmes, le mur composite existe en plusieurs charmantes variétés presque identiques - reflétant l'accent du concepteur sur la forme plutôt que sur la fonction.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeWallType2</Key>
 			<Value>Mur composite (type 2)</Value>
-			<Description>Étanche à l'air et résistante aux températures extrêmes, le mur composite existent en plusieurs charmantes variétés presque identiques - reflétant l'accent du concepteur sur la forme plutôt que sur la fonction.</Description>
+			<Description>Étanche à l'air et résistant aux températures extrêmes, le mur composite existe en plusieurs charmantes variétés presque identiques - reflétant l'accent du concepteur sur la forme plutôt que sur la fonction.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeWallType3</Key>
 			<Value>Mur composite (type 3)</Value>
-			<Description>Étanche à l'air et résistante aux températures extrêmes, le mur composite existent en plusieurs charmantes variétés presque identiques - reflétant l'accent du concepteur sur la forme plutôt que sur la fonction.</Description>
+			<Description>Étanche à l'air et résistant aux températures extrêmes, le mur composite existe en plusieurs charmantes variétés presque identiques - reflétant l'accent du concepteur sur la forme plutôt que sur la fonction.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeWallType4</Key>
 			<Value>Mur composite (type 4)</Value>
-			<Description>Étanche à l'air et résistante aux températures extrêmes, le mur composite existent en plusieurs charmantes variétés presque identiques - reflétant l'accent du concepteur sur la forme plutôt que sur la fonction.</Description>
+			<Description>Étanche à l'air et résistant aux températures extrêmes, le mur composite existe en plusieurs charmantes variétés presque identiques - reflétant l'accent du concepteur sur la forme plutôt que sur la fonction.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeWindow</Key>
 			<Value>Fenêtre composite</Value>
-			<Description>Étanche à l'air et résistante aux températures extrêmes, la fenêtre composite existent en plusieurs charmantes variétés presque identiques - reflétant l'accent du concepteur sur la forme plutôt que sur la fonction.</Description>
+			<Description>Étanche à l'air et résistante aux températures extrêmes, la fenêtre composite existe en plusieurs charmantes variétés presque identiques - reflétant l'accent du concepteur sur la forme plutôt que sur la fonction.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureComputer</Key>
@@ -2199,13 +2200,13 @@ Une console complète affiche tous les appareils connectés au réseau électriq
 		<RecordThing>
 			<Key>StructureConsoleDual</Key>
 			<Value>Console (double connexion)</Value>
-			<Description>Ce boîtier de contrôle {LINK:Norsec;Norsec-designed} gère des appareils tels que la {THING:StructureActiveVent}, le {THING:StructureGasSensor}, la {THING:StructureCompositeDoor} et d'autres, en fonction du {LINK:LogicPage;circuit imprimé} insérée dans l'unité. Il possède des ports de données et d'alimentation séparés.
+			<Description>Ce boîtier de contrôle {LINK:Norsec;Norsec-designed} gère des appareils tels que la {THING:StructureActiveVent}, le {THING:StructureGasSensor}, la {THING:StructureCompositeDoor} et d'autres, en fonction du {LINK:LogicPage;circuit imprimé} inséré dans l'unité. Il possède des ports de données et d'alimentation séparés.
 Une console complète affiche tous les appareils connectés au réseau d'alimentation actuel. Tous les appareils non liés à la carte de circuit installée seront grisés et inutilisables. Les consoles sont verrouillées une fois qu'une {THING:ItemDataDisk} est retirée.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureConsoleMonitor</Key>
 			<Value>Console (inclinée)</Value>
-			<Description>Ce boîtier de contrôle {LINK:Norsec;Norsec-designed} gère des appareils tels que la {THING:StructureActiveVent}, le {THING:StructureGasSensor} et la {THING:StructureCompositeDoor}, en fonction du {LINK:LogicPage;circuit imprimé} insérée dans l'unité. Il possède un port de données/alimentation partagé et une interface inclinée charmante.
+			<Description>Ce boîtier de contrôle {LINK:Norsec;Norsec-designed} gère des appareils tels que la {THING:StructureActiveVent}, le {THING:StructureGasSensor} et la {THING:StructureCompositeDoor}, en fonction du {LINK:LogicPage;circuit imprimé} inséré dans l'unité. Il possède un port de données/alimentation partagé et une interface inclinée charmante.
 Une console complète affiche tous les appareils connectés au réseau d'alimentation actuel. Tous les appareils non liés à la carte de circuit installée seront grisés et inutilisables. Les consoles sont verrouillées une fois qu'une {THING:ItemDataDisk} est retirée.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -2256,7 +2257,7 @@ Une plainte récurrente des {LINK:Stationeers;Stationeers} se concentre sur le f
 		<RecordThing>
 			<Key>StructureDigitalValve</Key>
 			<Value>Électrovanne (gaz)</Value>
-			<Description>L'électrovanne numérique permet aux {LINK:Stationeers;Stationeers} de créer des vannes et des réseaux de tuyaux {LINK:LogicPage;contrôlé par la logique}.</Description>
+			<Description>L'électrovanne numérique permet aux {LINK:Stationeers;Stationeers} de créer des vannes et des réseaux de tuyaux {LINK:LogicPage;contrôlés par la logique}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureFabricator</Key>
@@ -2266,7 +2267,7 @@ Une plainte récurrente des {LINK:Stationeers;Stationeers} se concentre sur le f
 		<RecordThing>
 			<Key>StructureFiltration</Key>
 			<Value>Filtreur (gaz)</Value>
-			<Description>Le Filtreur est basée sur un ancien système {LINK:ExMin;ExMin}, lui-même basé sur des conceptions plus anciennes d'origine incertaine. Elle est disponible dans le {THING:ItemKitAtmospherics}.
+			<Description>Le Filtreur est basé sur un ancien système {LINK:ExMin;ExMin}, lui-même basé sur des conceptions plus anciennes d'origine incertaine. Elle est disponible dans le {THING:ItemKitAtmospherics}.
 l'appareil s'est néanmoins révélé indispensable pour les systèmes atmosphériques des {LINK:Stationeers;Stationeer}, car il peut filtrer deux {LINK:GasPage;gaz} simultanément à partir d'un seul réseau de tuyaux à l'aide d'un réseau de filtres doubles. L'unité dispose d'une entrée et d'une sortie de filtre, ainsi que d'une sortie non filtrée pour les gaz résiduels.
 </Description>
 		</RecordThing>
@@ -2283,7 +2284,7 @@ l'appareil s'est néanmoins révélé indispensable pour les systèmes atmosphé
 		<RecordThing>
 			<Key>StructureFlashingLight</Key>
 			<Value>Gyrophare</Value>
-			<Description>Peu d'objets ou d'idées sont nommés aussi clairement et transparentes que le Gyrophare, bien que les amateurs de précision scrupuleuse le désignent parfois par son titre complet et officiel : 'Gyrophare Jaune Clignotant par Défaut'.</Description>
+			<Description>Peu d'objets ou d'idées sont nommés aussi clairs et transparents que le Gyrophare, bien que les amateurs de précision scrupuleuse le désignent parfois par son titre complet et officiel : 'Gyrophare Jaune Clignotant par Défaut'.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureFrame</Key>
@@ -2293,13 +2294,13 @@ l'appareil s'est néanmoins révélé indispensable pour les systèmes atmosphé
 		<RecordThing>
 			<Key>StructureFrameCorner</Key>
 			<Value>Cadre en acier (coin)</Value>
-			<Description>Plus résistants que le {THING:StructureFrameIron}, le cadre en acier offrent également plusieurs variations pour des constructions de treillis plus complexes.
-Avec un peu de patience et de manoeuvre, la silhouette inspirée du style gothique du cadre d'angle permet la création d'arches ogivales et d'architectures encore plus ambitieuses, bien qu'il ne soit pas étanche à l'air et ne puis pas avoir des constructions dessus.</Description>
+			<Description>Plus résistants que le {THING:StructureFrameIron}, le cadre en acier offre également plusieurs variations pour des constructions de treillis plus complexes.
+Avec un peu de patience et de manoeuvre, la silhouette inspirée du style gothique du cadre d'angle permet la création d'arches ogivales et d'architectures encore plus ambitieuses, bien qu'il ne soit pas étanche à l'air et ne puisse pas avoir des constructions dessus.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureFrameSide</Key>
 			<Value>Cadre en acier (côté)</Value>
-			<Description>Plus résistants que le {THING:StructureFrameIron}, le cadre en acier offrent également des variations pour des constructions plus ornées.</Description>
+			<Description>Plus résistants que le {THING:StructureFrameIron}, le cadre en acier offre également des variations pour des constructions plus ornées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureFurnace</Key>
@@ -2384,7 +2385,7 @@ Le capteur s'active chaque fois qu'un joueur entre dans la grille sur laquelle i
 		<RecordThing>
 			<Key>StructurePipeAnalysizer</Key>
 			<Value>Analyseur de tuyau (gaz)</Value>
-			<Description>Apparemment issu d'un projet électronique père-fille de week-end par un ingénieur ExMin zélé, l'analyseur de tuyaux est essentiellement une version plus avancée du {THING:StructurePipeMeter}.
+			<Description>Apparemment issu d'un projet électronique de week-end entre un ingénieur ExMin zélé et sa fille, l'analyseur de tuyaux est essentiellement une version plus avancée du {THING:StructurePipeMeter}.
 Affichant la pression interne des réseaux de tuyaux, il lit également la température et la composition des gaz, et peut être connecté à une {THING:StructureConsole} ou à un {THING:StructureComputer} via un système {LINK:LogicPage;logique}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -2463,7 +2464,7 @@ La vitesse de gain ou de perte de chaleur dépendra du gaz en question. L'ajout 
 			<Key>StructurePressureRegulator</Key>
 			<Value>Régulateur de pression (gaz)</Value>
 			<Description>Le régulateur de pression contrôle le débit de gaz entre deux réseaux de tuyaux, en transférant le gaz jusqu'à atteindre une pression configurée sur le côté de sortie ou jusqu'à épuisement de l'alimentation en gaz. 
-À l'inverse, le {THING:StructureBackPressureRegulator} ne s'active que lorsque la pression du côté d'entrée dépasse la valeur configuré. 
+À l'inverse, le {THING:StructureBackPressureRegulator} ne s'active que lorsque la pression du côté d'entrée dépasse la valeur configurée. 
 Capable de gérer une pression maximale de plus de 20 000 kPa, il nécessite une alimentation électrique pour fonctionner.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -2500,18 +2501,18 @@ Capable de gérer une pression maximale de plus de 20 000 kPa, il nécessite une
 		<RecordThing>
 			<Key>StructureSorter</Key>
 			<Value>Trieur</Value>
-			<Description>Aucun niveau d'automatisation n'est complet sans un moyen de déplacer différents objets vers différentes parties d'un système. Le trieuse Xigo A2B peut être programmée via un ordinateur avec une {THING:MotherboardSorter} pour diriger divers objets vers différents réseaux de goulottes. Les objets filtrés sont toujours dirigés vers le côté droit du trieur, tandis que les objets non filtrés continuent tout droit.</Description>
+			<Description>Aucun niveau d'automatisation n'est complet sans un moyen de déplacer différents objets vers différentes parties d'un système. Le trieuse Xigo A2B peut être programmée via un ordinateur avec une {THING:MotherboardSorter} pour diriger divers objets vers différents réseaux de gaines. Les objets filtrés sont toujours dirigés vers le côté droit du trieur, tandis que les objets non filtrés continuent tout droit.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureStacker</Key>
 			<Value>Empileur</Value>
-			<Description>Un empileur est une partie importante de tout réseau de goulottes automatisé. Le ProKompile Xigo peut être configuré manuellement ou via la logique, pour maximiser la capacité de stockage des objets passant par l'empileur.
+			<Description>Un empileur est une partie importante de tout réseau de gaines automatisé. Le ProKompile Xigo peut être configuré manuellement ou via la logique, pour maximiser la capacité de stockage des objets passant par l'empileur.
 Le ProKompile peut empiler une grande variété de choses, comme des {LINK:IngotPage;lingots}, et diviser les piles en tailles appropriées selon les besoins.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureStackerReverse</Key>
 			<Value>Empileur inversé</Value>
-			<Description>Un empileur est une partie importante de tout réseau de goulottes automatisé. Le ProKompile Xigo peut être configuré manuellement ou via la logique, pour maximiser la capacité de stockage des objets passant par l'empileur. L'empileur inversé a l'alimentation et les données du côté opposé.
+			<Description>Un empileur est une partie importante de tout réseau de gaines automatisé. Le ProKompile Xigo peut être configuré manuellement ou via la logique, pour maximiser la capacité de stockage des objets passant par l'empileur. L'empileur inversé a l'alimentation et les données du côté opposé.
 Le ProKompile peut empiler une grande variété de choses, comme des {LINK:OrePage;lingots}, et diviser les piles en tailles appropriées selon les besoins.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -2524,8 +2525,8 @@ Le ProKompile peut empiler une grande variété de choses, comme des {LINK:OrePa
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSuitStorage</Key>
-			<Value>Rangement de combinaison</Value>
-			<Description>Aussi bien rangé qu'utile, le rangement de combinaison peut contenir une {THING:ItemEvaSuit}, un {THING:ItemSpaceHelmet} et un {THING:ItemJetpackBasic}.
+			<Value>Rangement de combinaison (standard)</Value>
+			<Description>À la fois pratique et ordonné, le rangement de combinaison (standard) peut contenir une {THING:ItemEvaSuit}, un {THING:ItemSpaceHelmet} et un {THING:ItemJetpackBasic}.
 Lorsqu'il est alimenté et connecté à l'{GAS:Oxygen} et à l'{GAS:Nitrogen}, il rechargera les batteries de la combinaison, remplira la {THING:ItemGasCanisterOxygen} et votre {THING:ItemGasCanisterNitrogen}. Le réservoir de déchets sera pompé vers le tuyau connecté à la sortie des déchets.
 Tous les tuyaux du rangement doivent être connectés, sinon l'unité affichera un état d'erreur, mais elle rechargera toujours la batterie.</Description>
 		</RecordThing>
@@ -2589,7 +2590,7 @@ Si le refroidisseur électrique clignote en affichant une erreur, cela signifie 
 
 - Connexion de tuyau au refroidisseur électrique.
 - Gaz dans les tuyaux connectés, ou la pression est trop basse.
-- Atmosphère dans l'environnement environnant ou pression trop basse.
+- Atmosphère ambiante ou pression trop basse.
 
 Pour plus d'informations sur la manière de contrôler les températures, consultez la page Guides de {LINK:TemperatureControlPage;contrôle de la température}.</Description>
 		</RecordThing>
@@ -2670,7 +2671,7 @@ Pour plus d'informations sur la manière de contrôler les températures, consul
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableJunctionH4</Key>
-			<Value>Câble haute tension (4 jonctions en coix)</Value>
+			<Value>Câble haute tension (4 jonctions en croix)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableJunctionH</Key>
@@ -2769,7 +2770,7 @@ Contrairement au {THING:StructureFurnace} plus avancé, le four à arc ne peut p
 		<RecordThing>
 			<Key>ItemKitPipe</Key>
 			<Value>Kit (Tuyau de gaz)</Value>
-			<Description>Ce kit produit une variété de tuyaux gaz. Chaque tuyaux de gaz à un volume de 10 L.</Description>
+			<Description>Ce kit produit une variété de tuyaux de gaz. Chaque tuyau de gaz a un volume de 10 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeElectronicReader</Key>
@@ -2799,7 +2800,7 @@ Pour améliorer le cadre, il faut utiliser des {THING:ItemIronSheets} et un {THI
 		<RecordThing>
 			<Key>ItemIronSheets</Key>
 			<Value>Plaque de fer</Value>
-			<Description>Un matériau de construction basique, des {THING:ItemIronIngot} sont utilisées lors de la construction d'un {THING:StructureFrameIron}. Il existe de plusieurs autres types de {LINK:StructuresPage;murs}.</Description>
+			<Description>Un matériau de construction basique, des {THING:ItemIronIngot} sont utilisées lors de la construction d'un {THING:StructureFrameIron}. Il existe plusieurs autres types de {LINK:StructuresPage;murs}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSilverOre</Key>
@@ -2814,7 +2815,7 @@ Pour améliorer le cadre, il faut utiliser des {THING:ItemIronSheets} et un {THI
 		<RecordThing>
 			<Key>ItemLeadOre</Key>
 			<Value>Minerai de plomb</Value>
-			<Description>Le plomb est un élément chimique avec le symbole "Pb". C'est un métal dense et lourd avec un faible point de fonte. Le plomb est utilisé pour fabriquer diverses choses telles que des {LINK:IngotPage;alliages} comme {THING:ItemSolderIngot} et des munitions.</Description>
+			<Description>Le plomb est un élément chimique avec le symbole "Pb". C'est un métal dense et lourd avec un faible point de fusion. Le plomb est utilisé pour fabriquer diverses choses telles que des {LINK:IngotPage;alliages} comme {THING:ItemSolderIngot} et des munitions.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>WeaponRifleEnergy</Key>
@@ -2915,7 +2916,7 @@ Pour améliorer le cadre, il faut utiliser des {THING:ItemIronSheets} et un {THI
 			<Value>Glace volatiles</Value>
 			<Description>Une glace extrêmement réactive contenant de nombreux hydrocarbures piégés à l'intérieur. Pour simplifier, ces éléments sont souvent représentés par H2.
 
-Les {GAS:Volatiles} se combinent dans un rapport de 2:1 avec l'{GAS:Oxygen}, créant du {GAS:CarbonDioxide} et des {GAS:Pollutant}. Cependant, lorsqu'ils sont catalysés par des appareils tels que le {THING:H2Combustor} en présence d'{GAS:Oxygen}, ils produisent de la {GAS:Steam} et de la chaleur, avec une petite quantité de {GAS:CarbonDioxide} et de {GAS:Pollutant} en raison de l'auto-inflammation des volatiles dans la chambre. Les {GAS:Volatiles}, en plus de l'{GAS:Oxygen}, est également le composant principal du carburant pour des appareils tels que le {THING:ItemWeldingTorch}.
+Les {GAS:Volatiles} se combinent dans un rapport de 2:1 avec l'{GAS:Oxygen}, créant du {GAS:CarbonDioxide} et des {GAS:Pollutant}. Cependant, lorsqu'ils sont catalysés par des appareils tels que le {THING:H2Combustor} en présence d'{GAS:Oxygen}, ils produisent de la {GAS:Steam} et de la chaleur, avec une petite quantité de {GAS:CarbonDioxide} et de {GAS:Pollutant} en raison de l'auto-inflammation des volatiles dans la chambre. Les {GAS:Volatiles}, en plus de l'{GAS:Oxygen}, sont également les composants principaux du carburant pour des appareils tels que le {THING:ItemWeldingTorch}.
 </Description>
 		</RecordThing>
 		<RecordThing>
@@ -3023,7 +3024,7 @@ Très sensible à la température, la glace d'oxyde commencera à fondre dès qu
 		<RecordThing>
 			<Key>StructureHydraulicPipeBender</Key>
 			<Value>Imprimante hydraulique</Value>
-			<Description>Outil essentiel pour tous vos besoins atmosphériques et hydraulique, l'imprimante hydraulique {LINK:ExMin;ExMin} vous permet de créer des tuyaux, des pompes, des réservoirs, des conduits et des filtres, assurant votre survie dans n'importe quel environnement. Améliorez l'imprimante hydraulique en utilisant une {THING:PipeBenderMod} pour débloquer des recettes supplémentaires et accélérer les vitesses de traitement.</Description>
+			<Description>Outil essentiel pour tous vos besoins atmosphériques et hydrauliques, l'imprimante hydraulique {LINK:ExMin;ExMin} vous permet de créer des tuyaux, des pompes, des réservoirs, des conduits et des filtres, assurant votre survie dans n'importe quel environnement. Améliorez l'imprimante hydraulique en utilisant une {THING:PipeBenderMod} pour débloquer des recettes supplémentaires et accélérer les vitesses de traitement.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitHydraulicPipeBender</Key>
@@ -3158,7 +3159,7 @@ Notez que les transformateurs fonctionnent comme des isolateurs de données, emp
 			<Key>StructureLogicDisplay5</Key>
 			<Value>Afficheur LED (petit)</Value>
 			<Description>Cet afficheur LED affiche par défaut la valeur numérique brute. 
-Son mode "setting" peut etre modifier :
+Son mode "setting" peut être modifié :
 En activant le mode "String" (texte), il interprète cette valeur comme une séquence de jusqu'à six caractères ASCII. Chaque caractère est stocké sur un octet (8 bits) grâce à des opérations de décalage et/ou de combinaison logique, puis affiché sous forme de texte lisible.
 Les autres modes permettent de visualiser cette même valeur sous des formes alternatives :
 0: Par défaut (valeur numérique brute)
@@ -3181,7 +3182,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 			<Key>StructureConsoleLED5</Key>
 			<Value>Afficheur LED (petit)</Value>
 			<Description>Cet afficheur LED affiche par défaut la valeur numérique brute. 
-Son mode "setting" peut etre modifier :
+Son mode "setting" peut être modifié :
 En activant le mode "String" (texte), il interprète cette valeur comme une séquence de jusqu'à six caractères ASCII. Chaque caractère est stocké sur un octet (8 bits) grâce à des opérations de décalage et/ou de combinaison logique, puis affiché sous forme de texte lisible.
 Les autres modes permettent de visualiser cette même valeur sous des formes alternatives :
 0: Par défaut (valeur numérique brute)
@@ -3204,7 +3205,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 			<Key>StructureConsoleLED8Large</Key>
 			<Value>Afficheur LED (grand)</Value>
 			<Description>Cet afficheur LED affiche par défaut la valeur numérique brute. 
-Son mode "setting" peut etre modifier :
+Son mode "setting" peut être modifié :
 En activant le mode "String" (texte), il interprète cette valeur comme une séquence de jusqu'à six caractères ASCII. Chaque caractère est stocké sur un octet (8 bits) grâce à des opérations de décalage et/ou de combinaison logique, puis affiché sous forme de texte lisible.
 Les autres modes permettent de visualiser cette même valeur sous des formes alternatives :
 0: Par défaut (valeur numérique brute)
@@ -3235,7 +3236,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 			<Key>StructureConsoleLED5Large</Key>
 			<Value>Afficheur LED (moyen)</Value>
 			<Description>Cet afficheur LED affiche par défaut la valeur numérique brute. 
-Son mode "setting" peut etre modifier :
+Son mode "setting" peut être modifié :
 En activant le mode "String" (texte), il interprète cette valeur comme une séquence de jusqu'à six caractères ASCII. Chaque caractère est stocké sur un octet (8 bits) grâce à des opérations de décalage et/ou de combinaison logique, puis affiché sous forme de texte lisible.
 Les autres modes permettent de visualiser cette même valeur sous des formes alternatives :
 0: Par défaut (valeur numérique brute)
@@ -3296,7 +3297,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		<RecordThing>
 			<Key>StructureRecycler</Key>
 			<Value>Recycleur</Value>
-			<Description>Un appareil pour collecter les ressources brutes tout en détruisant un objet. Produit des {THING:ItemReagentMix} contenant des paquets de réactifs. Passez-les à travers le {THING:StructureCentrifuge} pour récupérer les minerais sources. Les plantes et la matière organique passées à travers produiront de la matière organique, qui, lorsqu'elle est passée à travers le {THING:StructureCentrifuge}, produira de la {THING:ItemBiomass}.</Description>
+			<Description>Un appareil pour collecter les ressources brutes tout en détruisant un objet. Produit des {THING:ItemReagentMix} contenant des paquets de réactifs. Passez-les à travers le {THING:StructureCentrifuge} pour récupérer les minerais d'origine. Les plantes et la matière organique passées à travers produiront de la matière organique, qui, lorsqu'elle est passée à travers le {THING:StructureCentrifuge}, produira de la {THING:ItemBiomass}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitRecycler</Key>
@@ -3320,7 +3321,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 			<Key>StructureConsoleLED1x2</Key>
 			<Value>Afficheur LED (moyen)</Value>
 			<Description>Cet afficheur LED affiche par défaut la valeur numérique brute. 
-Son mode "setting" peut etre modifier :
+Son mode "setting" peut être modifié :
 En activant le mode "String" (texte), il interprète cette valeur comme une séquence de jusqu'à six caractères ASCII. Chaque caractère est stocké sur un octet (8 bits) grâce à des opérations de décalage et/ou de combinaison logique, puis affiché sous forme de texte lisible.
 Les autres modes permettent de visualiser cette même valeur sous des formes alternatives :
 0: Par défaut (valeur numérique brute)
@@ -3343,7 +3344,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 			<Key>StructureConsoleLED1x3</Key>
 			<Value>Afficheur LED (grand)</Value>
 			<Description>Cet afficheur LED affiche par défaut la valeur numérique brute. 
-Son mode "setting" peut etre modifier :
+Son mode "setting" peut être modifié :
 En activant le mode "String" (texte), il interprète cette valeur comme une séquence de jusqu'à six caractères ASCII. Chaque caractère est stocké sur un octet (8 bits) grâce à des opérations de décalage et/ou de combinaison logique, puis affiché sous forme de texte lisible.
 Les autres modes permettent de visualiser cette même valeur sous des formes alternatives :
 0: Par défaut (valeur numérique brute)
@@ -3496,7 +3497,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableCorner4Burnt</Key>
-			<Value>Câble brûlé (3 jonctions en coin)</Value>
+			<Value>Câble brûlé (4 jonctions en coin)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableJunction5Burnt</Key>
@@ -3799,7 +3800,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallPaddedArchLightsFittings</Key>
-			<Value>Mur rembourré (arc, 2 rampes lampes)</Value>
+			<Value>Mur rembourré (arc, 2 emplacements lampes)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallPadding</Key>
@@ -3811,7 +3812,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallPaddingLightFitting</Key>
-			<Value>Mur rembourré (1 rampe lampe)</Value>
+			<Value>Mur rembourré (1 emplacement lampe centre)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallPaddingThin</Key>
@@ -4203,7 +4204,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		</RecordThing>
 		<RecordThing>
 			<Key>AccessCardPurple</Key>
-			<Value>Carte d'accès violete</Value>
+			<Value>Carte d'accès violette</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>AccessCardRed</Key>
@@ -4352,7 +4353,7 @@ Faites attention à ne pas pressuriser au-delà de 20 MPa, sinon cela pourrait p
 		<RecordThing>
 			<Key>StructureVendingMachine</Key>
 			<Value>Distributeur automatique (grand)</Value>
-			<Description>Le distributeur automatique "Slot Mate" conçu par {LINK:Xigo;Xigo} permet le stockage de presque n'importe quel objet, tout en servant de point de distribution pour les échanges avec les {LINK:TradingPage;commerçants}. Vous ne pouvez pas effectuer de transactions sans un distributeur automatique, ou son équivalent plus avancé, le {THING:StructureRefrigeratedVendingMachine}. Chaque distributeur peut contenir jusqu'à 102 piles d'objets.</Description>
+			<Description>Le distributeur automatique "Slot Mate" conçu par {LINK:Xigo;Xigo} permet le stockage de presque n'importe quel objet, tout en servant de point de distribution pour les échanges avec les {LINK:TradingPage;commerçants}. Vous ne pouvez pas effectuer de transactions sans un distributeur automatique, ou son équivalent plus avancé, le {THING:StructureRefrigeratedVendingMachine}. Chaque grand distributeur peut contenir jusqu'à 102 piles d'objets.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitVendingMachine</Key>
@@ -4379,8 +4380,8 @@ Faites attention à ne pas pressuriser au-delà de 20 MPa, sinon cela pourrait p
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemHardsuitHelmet</Key>
-			<Value>Casque spatiale renforcé</Value>
-			<Description>Le casque spatiale renforcé est similaire au {THING:ItemSpaceHelmet}, mais il peut supporter des températures et des pressions plus élevées. Il est parfait pour résister aux environnements hostiles tels que Vénus et Vulcain.</Description>
+			<Value>Casque spatial renforcé</Value>
+			<Description>Le casque spatial renforcé est similaire au {THING:ItemSpaceHelmet}, mais il peut supporter des températures et des pressions plus élevées. Il est parfait pour résister aux environnements hostiles tels que Vénus et Vulcain.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWearLamp</Key>
@@ -4405,24 +4406,24 @@ Faites attention à ne pas pressuriser au-delà de 20 MPa, sinon cela pourrait p
 		</RecordThing>
 		<RecordThing>
 			<Key>ReagentPotassiumIodide</Key>
-			<Value>Pourdre de iodure de Potassium</Value>
+			<Value>Poudre d'iodure de potassium</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ReagentInvar</Key>
-			<Value>Poudre d'Invar</Value>
+			<Value>Poudre d'invar</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ReagentElectrum</Key>
-			<Value>Poudre d'Électrum</Value>
+			<Value>Poudre d'électrum</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ReagentGold</Key>
-			<Value>Poudre d'Or</Value>
+			<Value>Poudre d'or</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureUnloader</Key>
 			<Value>Déchargeur</Value>
-			<Description>Le déchargeur {LINK:Xigo;Xigo} Re :Gurge est une unité pratique pour décharger les objets insérés en elle et les acheminer vers un réseau de goulottes. Par exemple, si vous ajoutez une {THING:ItemMiningBelt} pleine, le Re :Gurge videra le contenu de la ceinture de minage, l'insérera dans le réseau de goulottes, puis insérera la ceinture de minage elle-même. Un {THING:StructureSorter} est recommandé pour récupérer la ceinture de minage.
+			<Description>Le déchargeur {LINK:Xigo;Xigo} Re :Gurge est une unité pratique pour décharger les objets insérés en elle et les acheminer vers un réseau de gaines. Par exemple, si vous ajoutez une {THING:ItemMiningBelt} pleine, le Re :Gurge videra le contenu de la ceinture de minage, l'insérera dans le réseau de gaines, puis insérera la ceinture de minage elle-même. Un {THING:StructureSorter} est recommandé pour récupérer la ceinture de minage.
 		
 Sortie = 0 pour exporter l'objet principal
 Sortie = 1 pour exporter les objets à l'intérieur et éventuellement l'objet principal.</Description>
@@ -4648,7 +4649,7 @@ et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</
 Bleu ciel = {THING:ItemNitrice}
 Turquoise = {THING:ItemOxite}
 Vert = {THING:ItemUraniumOre}
-Bleu pale = {THING:ItemIce}
+Bleu pâle = {THING:ItemIce}
 Blanc = {THING:ItemSiliconOre} et {THING:ItemSilverOre}
 Blanc cassé = {THING:ItemLeadOre}
 Jaune = {THING:ItemGoldOre}
@@ -4803,7 +4804,7 @@ Lorsqu'elle est connectée à un {THING:StructureComputer} contenant une {THING:
 		<RecordThing>
 			<Key>ItemMiningDrillHeavy</Key>
 			<Value>Foreuse Nv3</Value>
-			<Description>Parfois, les expéditions minières nécessitent quelque chose de plus gros pour rapporter les marchandises. Cette version agrandie de la conception "Topo" de {LINK:Recurso;Recurso} peut littéralement déplacer des montagnes. La foreuse Nv3 enlèvera plus de terre et extraira les {LINK:OrePage;minerais} plus rapidement que la foreuse minière standard. La foreuse de niveau 3 est également résistante à la température et à la pression. Ainsi, peu importe la planète ou les conditions météorologiques extrêmes présentes, la foreuse nv3 de Recurso accomplira la tâche.</Description>
+			<Description>Parfois, les expéditions minières nécessitent quelque chose de plus gros pour rapporter les marchandises. Cette version agrandie de la conception "Taupe" de {LINK:Recurso;Recurso} peut littéralement déplacer des montagnes. La foreuse Nv3 enlèvera plus de terre et extraira les {LINK:OrePage;minerais} plus rapidement que la foreuse minière standard. La foreuse de niveau 3 est également résistante à la température et à la pression. Ainsi, peu importe la planète ou les conditions météorologiques extrêmes présentes, la foreuse nv3 de Recurso accomplira la tâche.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemLiquidVacuum</Key>
@@ -4996,7 +4997,7 @@ Pour ce faire :
 		<RecordThing>
 			<Key>AutolathePrinterMod</Key>
 			<Value>Amélioration d'imprimante automatique</Value>
-			<Description>Appliquez à un'{THING:StructureAutolathe} avec un {THING:ItemWeldingTorch} ou un {THING:ItemArcWelder} pour une amélioration de la vitesse de traitement et davantage d'options de recettes.</Description>
+			<Description>Appliquez à une {THING:StructureAutolathe} avec un {THING:ItemWeldingTorch} ou un {THING:ItemArcWelder} pour une amélioration de la vitesse de traitement et davantage d'options de recettes.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>PipeBenderMod</Key>
@@ -5052,7 +5053,7 @@ et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemEmergencyDrill</Key>
-			<Value>Perseuse de secours</Value>
+			<Value>Perceuse de secours</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemEmergencyAngleGrinder</Key>
@@ -5112,7 +5113,7 @@ et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</
 		</RecordThing>
 		<RecordThing>
 			<Key>HumanSkull</Key>
-			<Value>Crâne Humain</Value>
+			<Value>Crâne humain</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThinMountLandscapeLarge</Key>
@@ -5222,7 +5223,7 @@ et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</
 		<RecordThing>
 			<Key>StructureAutoMinerSmall</Key>
 			<Value>Foreuse automatique (petite)</Value>
-			<Description>La petite foreuse automatique de {LINK:Recurso;Recurso} est une structure qui, une fois construite, creusera un puits vertical de 2x2 jusqu'à atteindre la roche mère. Elle peut être connecté à un système de gaines et être contrôlé par un réseau logique. Notez que la petite foreuse automatique produit plus de {LINK:OrePage;minerais} qu'une {THING:ItemMiningDrill} conventionnelle sur la même zone.</Description>
+			<Description>La petite foreuse automatique de {LINK:Recurso;Recurso} est une structure qui, une fois construite, creusera un puits vertical de 2x2 jusqu'à atteindre la roche mère. Elle peut être connectée à un système de gaines et être contrôlée par un réseau logique. Notez que la petite foreuse automatique produit plus de {LINK:OrePage;minerais} qu'une {THING:ItemMiningDrill} conventionnelle sur la même zone.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitAutoMinerSmall</Key>
@@ -5310,14 +5311,14 @@ et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</
 			<Key>ItemAdvancedTablet</Key>
 			<Value>Tablette Nv2</Value>
 			<Description>La tablette Nv2 {LINK:Xigo;Xigo} Padi 2 est une version améliorée de la tablette de base {THING:ItemTablet}, offrant deux emplacements pour {LINK:CartridgePage;cartes}. Le Padi 2 accepte les {THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, ainsi que diverses autres cartes.
-Avec un {THING:ItemIntegratedCircuit10} dans l'emplacement {SLOT:ProgrammableChip}, vous pouvez accéder aux emplacements variables sur le porteur humain en utilisant les numéros de périphériques (d0, d1, etc...), tant que l'objet peut être accédé via la logique, comme la {THING:ItemHardSuit}. 
+Avec un {THING:ItemIntegratedCircuit10} dans l'emplacement {SLOT:ProgrammableChip}, vous pouvez accéder aux emplacements variables sur le porteur humain en utilisant les numéros de périphériques (d0, d1, etc.), tant que l'objet peut être accédé via la logique, comme la {THING:ItemHardSuit}. 
 
 </Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitInsulatedPipe</Key>
 			<Value>Kit (Tuyau de gaz isolé)</Value>
-			<Description>Ce kit produit diverses variétés de {THING:StructureInsulatedPipeStraight}, qui réduisent considérablement la perte de chaleur des gaz stockés en eux. Chaque tuyaux de gaz à un volume de 20 L.</Description>
+			<Description>Ce kit produit diverses variétés de {THING:StructureInsulatedPipeStraight}, qui réduisent considérablement la perte de chaleur des gaz stockés en eux. Chaque tuyau de gaz a un volume de 20 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitStructureModularRocketCargo01</Key>
@@ -5415,7 +5416,7 @@ Avec un {THING:ItemIntegratedCircuit10} dans l'emplacement {SLOT:ProgrammableChi
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallPaddedArchLightFittingTop</Key>
-			<Value>Mur rembourré (arc, 1 rampe lampe haut)</Value>
+			<Value>Mur rembourré (arc, 1 emplacement lampe coin)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallPaddedNoBorder</Key>
@@ -5524,7 +5525,7 @@ Avec un {THING:ItemIntegratedCircuit10} dans l'emplacement {SLOT:ProgrammableChi
 		<RecordThing>
 			<Key>StructureSDBSilo</Key>
 			<Value>Silo</Value>
-			<Description>Le majestueux silo peut contenir de grandes quantités de presque n'importe quoi. Tant qu'il est remplit, il ne peut pas être déconstruit. Notez également que tout aliment que vous placez dans un silo risque de {LINK:DecayPage;se détériorer} extrêmement rapidement. Le silo peut contenir jusqu'à 600 piles.</Description>
+			<Description>Le majestueux silo peut contenir de grandes quantités de presque n'importe quoi. Tant qu'il est rempli, il ne peut pas être déconstruit. Notez également que tout aliment que vous placez dans un silo risque de {LINK:DecayPage;se détériorer} extrêmement rapidement. Le silo peut contenir jusqu'à 600 piles.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>KitSDBSilo</Key>
@@ -5685,8 +5686,8 @@ Avec un {THING:ItemIntegratedCircuit10} dans l'emplacement {SLOT:ProgrammableChi
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureAccessBridge</Key>
-			<Value>Pont d'accès</Value>
-			<Description>Pont extensible qui couvre trois grilles.</Description>
+			<Value>Passerelle d'accès</Value>
+			<Description>Passerelle extensible qui couvre trois grilles.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLaunchMount</Key>
@@ -5716,7 +5717,7 @@ Avec un {THING:ItemIntegratedCircuit10} dans l'emplacement {SLOT:ProgrammableChi
 		<RecordThing>
 			<Key>StructureBatteryLarge</Key>
 			<Value>Batterie de station (grande)</Value>
-			<Description>Offrant un stockage d'énergie fiable à grande échelle, encore meilleure que la {THING:StructureBattery}, la batterie de station (grande) de {LINK:Sinotai;Sinotai} surnomé "Grande Batterie" est le coeur de la plupart des bases {LINK:Stationeers;Stationeer}.
+			<Description>Offrant un stockage d'énergie fiable à grande échelle, encore meilleure que la {THING:StructureBattery}, la batterie de station (grande) de {LINK:Sinotai;Sinotai} surnommée "Grande Batterie" est le coeur de la plupart des bases {LINK:Stationeers;Stationeer}.
 Il existe diverses précautions pour la conception de systèmes électriques utilisant des batteries, et chaque stationnaire expérimenté a une histoire à raconter, d'où l'adage des stationnaires : "La Grande Batterie chauffe, mais elle peut aussi cramer." 
 
 {HEADER:PUISSANCE DE SORTIE}
@@ -5831,7 +5832,7 @@ Un groupe de quatre moteurs électriques montés sur le moyeu propulse le châss
 		<RecordThing>
 			<Key>StructureGrowLight</Key>
 			<Value>Lampe (hydroponique)</Value>
-			<Description>Système d'éclairage hydroponique de pointe de {LINK:Agrizero;Agrizero}, la lampe UV "CroissanceMax" complète la lumière solaire dans des conditions de faible éclairage ou loin du soleil. La lampe hydroponique améliore la croissance sur l'espace d'une grille, donc elle nécessite dont d'être posée proche des {THING:StructureHydroponicsTray} pour fonctionner.</Description>
+			<Description>Système d'éclairage hydroponique de pointe de {LINK:Agrizero;Agrizero}, la lampe UV "CroissanceMax" complète la lumière solaire dans des conditions de faible éclairage ou loin du soleil. La lampe hydroponique améliore la croissance sur l'espace d'une grille, donc elle nécessite donc d'être posée proche des {THING:StructureHydroponicsTray} pour fonctionner.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitGrowLight</Key>
@@ -5872,7 +5873,7 @@ Bien que la turbine éolienne soit optimisée pour produire de l'électricité m
 		<RecordThing>
 			<Key>ItemEmptyCan</Key>
 			<Value>Boîte de conserve (vide)</Value>
-			<Description>Utilisée pour préparer de la nourriture en conserve lorsqu'elle est combinée avec des ingédiants dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}. Assez nutritive, la nourriture en conserve ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Description>Utilisée pour préparer de la nourriture en conserve lorsqu'elle est combinée avec des ingrédients dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}. Assez nutritive, la nourriture en conserve ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPumpkinSoup</Key>
@@ -5892,7 +5893,7 @@ Bien que la turbine éolienne soit optimisée pour produire de l'électricité m
 		<RecordThing>
 			<Key>ItemBiomass</Key>
 			<Value>Matière organique</Value>
-			<Description>Matière organique coupé en dés qui est obtenu lorsque la nourriture et la matière organique sont passées par le {THING:StructureRecycler} et la {THING:StructureCentrifuge}. Peut être brûlé dans un {THING:StructureFurnace} pour obtenir du {THING:ItemCharcoal} à utiliser dans le {THING:StructureSolidFuelGenerator}.</Description>
+			<Description>Matière organique coupée en dés qui est obtenue lorsque la nourriture et la matière organique sont passées par le {THING:StructureRecycler} et la {THING:StructureCentrifuge}. Peut être brûlé dans un {THING:StructureFurnace} pour obtenir du {THING:ItemCharcoal} à utiliser dans le {THING:StructureSolidFuelGenerator}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureHydroponicsTrayData</Key>
@@ -5903,7 +5904,7 @@ Il peut être automatisé en utilisant le {THING:StructureHarvie}. Notez que con
 		<RecordThing>
 			<Key>ItemCharcoal</Key>
 			<Value>Charbon de bois</Value>
-			<Description>Le charbon de bois est un résidu de carbone léger et noir produit en chauffant de la {THING:ItemBiomass} dans un {THING:StructureArcFurnace}. Il contient moins de potentiel énergétique que du {THING:ItemCoalOre}, mais peut être utilisé comme source de carburant de base. Le charbon de bois peut également être substitué au charbon dans les recettes d'{LINK:IngotPage;alliage}.</Description>
+			<Description>Le charbon de bois est un résidu de carbone léger et noir produit en chauffant de la {THING:ItemBiomass} dans un {THING:StructureArcFurnace}. Il contient moins de potentiel énergétique que du {THING:ItemCoalOre}, mais peut être utilisé comme source de carburant de base. Le charbon de bois peut également être substitué au charbon dans les recettes d'{LINK:IngotPage;alliages}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitSolarPanelReinforced</Key>
@@ -5959,7 +5960,7 @@ Bien que l'éolienne soit optimisée pour produire de l'énergie (jusqu'à 500 W
 		<RecordThing>
 			<Key>ItemKitPipeLiquid</Key>
 			<Value>Kit (Tuyau de liquide)</Value>
-			<Description>Ce kit produit une variété de tuyaux liquides. Chaque tuyaux de liquide à un volume de 20 L.</Description>
+			<Description>Ce kit produit une variété de tuyaux liquides. Chaque tuyau de liquide a un volume de 20 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeLiquidCrossJunction</Key>
@@ -6024,7 +6025,7 @@ Bien que l'éolienne soit optimisée pour produire de l'énergie (jusqu'à 500 W
 		<RecordThing>
 			<Key>ItemWaterBottleFiller</Key>
 			<Value>Remplisseur de gourdes d'eau (haut)</Value>
-			<Description>Comme son nom peu inspiré le suggère, cet appareil remplit une {THING:ItemWaterBottle}, lorsqu'il est connecté à un réseau de tuyaux de liquide.</Description>
+			<Description>Comme son nom l'indique, cet appareil remplit une {THING:ItemWaterBottle}, lorsqu'il est connecté à un réseau de tuyaux de liquide.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWaterBottleFiller</Key>
@@ -6036,7 +6037,7 @@ Bien que l'éolienne soit optimisée pour produire de l'énergie (jusqu'à 500 W
 			<Value>Broyeur de glace</Value>
 			<Description>Le broyeur de glace de {LINK:Recurso;Recurso} convertit diverses glaces en leurs {LINK:GasPage;gaz et liquides} respectifs.
 Une unité de sublimation-fonte étonnamment intelligente et compacte, elle produit du gaz ou du liquide en fonction de la glace traitée. La sortie supérieure est pour le gaz, celle du bas pour le liquide, et bien que vous puissiez attacher n'importe quel tuyau à l'une ou l'autre sortie, il fonctionnera uniquement si le réseau correct est attaché. Il ne transmettra également du gaz ou du liquide dans un réseau que s'il est alimenté et activé.
-Si le Broyeur de glace est plein, il n'acceptera pas d'autre glace tant que le contenu en gaz ou en liquide n'est pas vidé. À cet état, il affichera un état d'erreur jaune sur l'interrupteur d'activation.</Description>
+Si le Broyeur de glace est plein, il n'acceptera pas d'autre glace tant que le contenu en gaz ou en liquide n'est pas vidé. Dans cet état, il affichera un état d'erreur jaune sur l'interrupteur d'activation.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitIceCrusher</Key>
@@ -6056,7 +6057,8 @@ Si le Broyeur de glace est plein, il n'acceptera pas d'autre glace tant que le c
 		<RecordThing>
 			<Key>StructureLiquidPipeRadiator</Key>
 			<Value>Radiateur à convection (petit - liquide)</Value>
-			<Description>Un échangeur de chaleur simple, les radiateurs à tuyaux peuvent être placés sur des tuyaux pour perdre ou gagner de la chaleur, en fonction de la température de l'atmosphère environnante. Si l'atmosphère est plus chaude, de la chaleur sera ajoutée au liquide à l'intérieur du réseau de tuyaux, et vice versa si elle est plus froide. Dans le vide, la chaleur sera rayonnée.
+			<Description>Les radiateurs à tuyaux sont de simples échangeurs de chaleur qui peuvent être placés sur des tuyaux
+  pour perdre ou gagner de la chaleur, en fonction de la température de l'atmosphère environnante. Si l'atmosphère est plus chaude, de la chaleur sera ajoutée au liquide à l'intérieur du réseau de tuyaux, et vice versa si elle est plus froide. Dans le vide, la chaleur sera rayonnée.
 La vitesse de gain ou de perte de chaleur dépendra du liquide en question. Ajouter plusieurs radiateurs accélérera le transfert de chaleur.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -6102,7 +6104,7 @@ La vitesse de gain ou de perte de chaleur dépendra du liquide en question. Ajou
 		<RecordThing>
 			<Key>StructureLiquidPressureRegulator</Key>
 			<Value>Régulateur de volume (liquide)</Value>
-			<Description>Règle le ratio de volume de liquide dans le tuyau de liquide de sortie. Cela est exprimé en pourcentage, où 100 est totalement plein et 0 est vide.</Description>
+			<Description>Règle le rapport de volume de liquide dans le tuyau de liquide de sortie. Cela est exprimé en pourcentage, où 100 est complètement plein et 0 est vide.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemLiquidCanisterSmart</Key>
@@ -6113,19 +6115,19 @@ La vitesse de gain ou de perte de chaleur dépendra du liquide en question. Ajou
 			<Key>ItemMKIIScrewdriver</Key>
 			<Value>Tournevis Nv2</Value>
 			<Description>Cet ajusteur d'adhérence par friction standard est un modèle bi-rotationnel de pointe avec une prise uni-colonne. Ce n'est certainement pas seulement un tournevis. Utilisez-le pour la construction et la déconstruction de certains kits, et pour régler les valeurs sur les unités de {LINK:LogicUnitPage;logique}.
-Le Nv2 est seulement plus résistant à la température et à la pression.</Description>
+Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMKIIAngleGrinder</Key>
 			<Value>Meuleuse Nv2</Value>
 			<Description>Ah, les angles ne font pas le poids avec cette fidèle meuleuse d'angle. 
-Le Nv2 est seulement plus résistant à la température et à la pression.</Description>
+Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMKIICrowbar</Key>
 			<Value>Pied de biche Nv2</Value>
 			<Description>Le pied de biche d'entrée de gamme de {LINK:Recurso;Recurso} est utile dans une variété de paramètres {LINK:Stationeers;Stationeer} quotidiens, de l'ouverture des {THING:StructureAreaPowerControl} et des {THING:StructureAirlock} non alimentés, à l'écrasement de têtes de crabes dimensionnels, si nécessaire. 
-Le Nv2 est seulement plus résistant à la température et à la pression.</Description>
+Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMKIIArcWelder</Key>
@@ -6140,8 +6142,8 @@ Le Nv2 est seulement plus résistant à la température et à la pression.</Desc
 		<RecordThing>
 			<Key>ItemMKIIMiningDrill</Key>
 			<Value>Foreuse Nv2</Value>
-			<Description>La foreuse minière rotative Nv2 tri-cone "Topo" à main a été conçue pour une chose : creuser rapidement. Modélisée sur un design classique sans gravité de {LINK:Recurso;Recurso}, elle fonctionne aussi bien dans le vide que dans l'atmosphère, avec des embouts en carbure cémenté pour augmenter la résilience et la durée de vie des roulements, et réduire l'écaillage. Comme le disait Jenk Murtons, "Le Topo ne s'arrête pas."
-Le Nv2 est seulement plus résistant à la température et à la pression.</Description>
+			<Description>La foreuse minière rotative Nv2 trois cônes "Taupe" à main a été conçue pour une chose : creuser rapidement. Modélisée sur un design classique sans gravité de {LINK:Recurso;Recurso}, elle fonctionne aussi bien dans le vide que dans l'atmosphère, avec des embouts en carbure cémenté pour augmenter la résilience et la durée de vie des roulements, et réduire l'écaillage. Comme le disait Jenk Murtons, "La Taupe ne s'arrête pas."
+Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMKIIWireCutters</Key>
@@ -6152,12 +6154,12 @@ Le Nv2 est seulement plus résistant à la température et à la pression.</Desc
 			<Key>ItemMKIIWrench</Key>
 			<Value>Clé à molette Nv2</Value>
 			<Description>L'une des contributions durables de l'humanité à l'univers, la clé à molette représente l'essence de notre espèce. Un outil simple, efficace et dénué d'âme, utilisez-le pour construire et déconstruire une variété de {LINK:StructurePage;structures}.
-Le Nv2 est seulement plus résistant à la température et à la pression.</Description>
+Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMKIIDuctTape</Key>
 			<Value>Ruban adhésif Nv2</Value>
-			<Description>Dans le passé lointain, l'un des grands champions de la Terre a enseigné à une génération de "Réparateurs" que le ruban adhésif était la réponse à tout problème. Les {LINK:Stationeers;Stationeers} ont démontrés que cette vérité reste valable, tant que le problème est un {THING:ItemEvaSuit} endommagé, un {THING:ItemJetpackBasic}, un {THING:ItemSpaceHelmet} ou même un {THING:StructureSolarPanel} endommagé.
+			<Description>Dans le passé lointain, l'un des grands champions de la Terre a enseigné à une génération de "Réparateurs" que le ruban adhésif était la réponse à tout problème. Les {LINK:Stationeers;Stationeers} ont démontré que cette vérité reste valable, tant que le problème est un {THING:ItemEvaSuit} endommagé, un {THING:ItemJetpackBasic}, un {THING:ItemSpaceHelmet} ou même un {THING:StructureSolarPanel} endommagé.
 Pour l’utiliser sur soi-même : mettez du ruban adhésif dans votre main active, maintenez le BOUTON DROIT DE LA SOURIS enfoncé pour réparer automatiquement les dégâts.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -6363,7 +6365,7 @@ Au coeur de ce passe-temps se trouve le séquenceur pas à pas, qui permet aux {
 &gt; {GAS:Pollutant} x 3
 &gt; {GAS:NitrousOxide} x 1.5
 &gt; {GAS:Steam} x 2
-&gt; Vide voir PRESSION (ci-dessus)
+&gt; Vide : voir PRESSION (ci-dessus)
 
 </Description>
 		</RecordThing>
@@ -6387,7 +6389,7 @@ Au coeur de ce passe-temps se trouve le séquenceur pas à pas, qui permet aux {
 1. Placez l'unité OBF.
 2. Réglez la sortie de l'OBF sur un {THING:PassiveSpeaker}.
 3. Réglez la sortie d'un séquenceur sur OBF - ainsi, le signal du séquenceur passe par l'OBF jusqu'à un haut-parleur.
-4. Placez un {THING:StopWatch} ou utilisez-en une existante, puis utilisez une {THING:StructureLogicWriter} pour l'écrire dans l'OBF.
+4. Placez un {THING:StopWatch} ou utilisez-en un existant, puis utilisez une {THING:StructureLogicWriter} pour l'écrire dans l'OBF.
 5. Utilisez une autre {THING:StructureLogicWriter} pour écrire le BPM dans l'OBF.
 6. Vous êtes prêt. C'est le futur. Vous êtes dans l'espace. Rendez le son cool.
 
@@ -6414,16 +6416,16 @@ Pour plus d'informations sur la préservation des aliments, consultez la section
 		<RecordThing>
 			<Key>StructureFridgeSmall</Key>
 			<Value>Réfrigérateur (petit)</Value>
-			<Description>Essentiellement une boîte fortement isolée qui permet aux utilisateurs d'acheminer n'importe quelle atmosphère souhaitée, le réfrigérateur (petit) {LINK:Recurso;Recurso} était une solution simple au problème des {LINK:DecayPage;aliments décomposé}. Il stocke un petit nombre d'{LINK:NutritionPage;aliment}, à la température que vous pouvez obtenir.
+			<Description>Essentiellement une boîte fortement isolée qui permet aux utilisateurs d'acheminer n'importe quelle atmosphère souhaitée, le réfrigérateur (petit) {LINK:Recurso;Recurso} était une solution simple au problème des {LINK:DecayPage;aliments décomposés}. Il stocke un petit nombre d'{LINK:NutritionPage;aliment}, à la température que vous pouvez obtenir.
 
 Pour plus d'informations sur la préservation des aliments, consultez la section {LINK:DecayPage;détérioration des aliments} de la Stationpedia.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureRefrigeratedVendingMachine</Key>
 			<Value>Distributeur automatique réfrigéré (grand)</Value>
-			<Description>Le Distributeur automatique réfrigéré OmniKool est une version avancée du {THING:StructureVendingMachine} standard, qui maintient une pression optimale et une température constante de -130 degrés Celsius pour éviter la détérioration des aliments. Elle peut contenir jusqu'à 102 piles.
+			<Description>Le Distributeur automatique réfrigéré OmniKool est une version avancée du {THING:StructureVendingMachine} standard, qui maintient une pression optimale et une température constante de -130 degrés Celsius pour éviter la détérioration des aliments. Chaque grand distributeur peut contenir jusqu'à 102 piles.
 L'OmniKool est également équipé d'un {THING:StructureStacker} intégré, permettant aux joueurs de définir la taille des piles pour tous les objets AJOUTÉS à l'appareil. La taille de pile par défaut de l'unité est de 50.
-NOTE : modifier les tailles de pile NE MET PAS À JOUR les piles existantes dans la machine, seulement celles ajoutées ultérieurement.</Description>
+REMARQUE : modifier les tailles de pile NE MET PAS À JOUR les piles existantes dans la machine, seulement celles ajoutées ultérieurement.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitVendingMachineRefrigerated</Key>
@@ -6481,7 +6483,7 @@ NOTE : modifier les tailles de pile NE MET PAS À JOUR les piles existantes dans
 			<Description>L'engrais modifie les processus de croissance des plantes et est créé par le composteur de base et le {THING:StructureAdvancedComposter} à l'aide de matière {LINK:OrganicPage;organique}.
 Les effets de l'engrais dépendent de ses ingrédients :
 
-- Les {LINK:OrganicPage;Aliments} augmentent le RENDEMENT DES PLANTES jusqu'à deux fois
+- Les {LINK:OrganicPage;aliments} augmentent le RENDEMENT DES PLANTES jusqu'à deux fois
 - Les {THING:DecayedFood} accélèrent la VITESSE DE CROISSANCE des plantes jusqu'à deux fois
 - La {THING:ItemBiomass} augmente le NOMBRE DE CYCLES DE CROISSANCE pendant lesquels l'engrais est actif
 
@@ -6514,7 +6516,7 @@ Le fertilisant est produit selon un rapport de 1:3 en termes de fertilisant par 
 		<RecordThing>
 			<Key>StructurePlanter</Key>
 			<Value>Jardinière</Value>
-			<Description>Une petite jardinière à des fins décoratives ou hydroponiques. Peut être connectée a l'{GAS:Water}, ou arrosée manuellement à l'aide d'une {THING:ItemWaterBottle} ou d'une {THING:ItemGasCanisterWater}.</Description>
+			<Description>Une petite jardinière à des fins décoratives ou hydroponiques. Peut être connectée à l'{GAS:Water}, ou arrosée manuellement à l'aide d'une {THING:ItemWaterBottle} ou d'une {THING:ItemGasCanisterWater}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>KitPlanter</Key>
@@ -6524,7 +6526,7 @@ Le fertilisant est produit selon un rapport de 1:3 en termes de fertilisant par 
 		<RecordThing>
 			<Key>PortableComposter</Key>
 			<Value>Composteur Portable</Value>
-			<Description>un appareil de compostage simple, le composteur de base transforme la matière organique en {THING:Fertilizer}. Il accepte les {LINK:OrganicPage;aliments}, les {THING:DecayedFood} ou la {THING:ItemBiomass}. Il nécessite une {THING:ItemLiquidCanisterEmpty} complet et une batterie pour fonctionner, accélérant ainsi le processus de compostage naturel.
+			<Description>Un appareil de compostage simple, le composteur de base transforme la matière organique en {THING:Fertilizer}. Il accepte les {LINK:OrganicPage;aliments}, les {THING:DecayedFood} ou la {THING:ItemBiomass}. Il nécessite une {THING:ItemLiquidCanisterEmpty} complete et une batterie pour fonctionner, accélérant ainsi le processus de compostage naturel.
 Lors du traitement, il libère de l'azote et des volatiles, ainsi qu'une petite quantité de chaleur.
 
 {HEADER:Compost composition}
@@ -6572,7 +6574,7 @@ Remarque : l'emballeur basique affichera une erreur sur son interrupteur d'activ
 		<RecordThing>
 			<Key>ItemCannedMushroom</Key>
 			<Value>Conserve de champignons</Value>
-			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine} à partir de 5 {THING:ItemCookedMushroom}, d'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve de soupe de champignons est nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine} à partir de 5 {THING:ItemCookedMushroom}, de l'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve de soupe de champignons est nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPowderedeggs</Key>
@@ -6587,12 +6589,12 @@ Remarque : l'emballeur basique affichera une erreur sur son interrupteur d'activ
 		<RecordThing>
 			<Key>ItemFrenchFries</Key>
 			<Value>Conserve de frites</Value>
-			<Description>Parce que l'espace ne serait pas aussi croquant sans elles. Fabriquées dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine} à partir de {THING:ItemPotatoBaked}, d'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve de frites sont assez nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Description>Parce que l'espace ne serait pas aussi croquant sans elles. Fabriquées dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine} à partir de {THING:ItemPotatoBaked}, d'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve de frites est assez nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCannedRicePudding</Key>
 			<Value>Conserve de riz au lait</Value>
-			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir de {THING:ItemCookedRice}, d'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve de riz au lait est une gourmandise sucrée, nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir de {THING:ItemCookedRice}, de l'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve de riz au lait est une gourmandise sucrée, nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCannedCondensedMilk</Key>
@@ -6602,17 +6604,18 @@ Remarque : l'emballeur basique affichera une erreur sur son interrupteur d'activ
 		<RecordThing>
 			<Key>ItemCannedEdamame</Key>
 			<Value>Conserve de soja</Value>
-			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir de {THING:ItemCookedSoybean}, d'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve de soja est nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir de {THING:ItemCookedSoybean}, de l'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve de soja est nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCannedPowderedEggs</Key>
 			<Value>Conserve d'oeufs en poudre</Value>
-			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir d'{THING:ItemCookedPowderedEggs}, d'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve d'oeufs en poudre est nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir d'{THING:ItemCookedPowderedEggs}, de l'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve d'oeufs en poudre est nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureAdvancedPackagingMachine</Key>
 			<Value>Emballeur automatisé</Value>
-			<Description>L'emballeur automatisé {LINK:Xigo;Xigo} Multi-Plus Pro est une machine d'emballage automatisable qui utilise des {THING:ItemEmptyCan} et des {LINK:OrganicPage;aliments} cuits pour créer des aliments en conserve qui ne se détériorent pas. Notez que l'emballeur automatisé ne prend en charge que les aliments cuits et les {THING:ItemEmptyCan}.</Description>
+			<Description>L'emballeur automatisé {LINK:Xigo;Xigo} Multi-Plus Pro est une machine d'emballage automatisable qui utilise des {THING:ItemEmptyCan} et des {LINK:OrganicPage;aliments} cuits pour créer des aliments en conserve qui ne se détériorent pas. Notez que l'emballeur automatisé n'accepte que les aliments cuits et les
+  {THING:ItemEmptyCan}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitAdvancedPackagingMachine</Key>
@@ -6687,12 +6690,12 @@ Remarque : l'emballeur basique affichera une erreur sur son interrupteur d'activ
 		<RecordThing>
 			<Key>ItemKitInsulatedWaterPipe</Key>
 			<Value>Kit (Tuyau d'eau isolé)</Value>
-			<Description>Ce kit produit une variété de tuyaux liquides isolé. Chaque tuyaux à un volume de 20 L.</Description>
+			<Description>Ce kit produit une variété de tuyaux liquides isolés. Chaque tuyau a un volume de 20 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitInsulatedLiquidPipe</Key>
 			<Value>Kit (Tuyau de liquide isolé)</Value>
-			<Description>Ce kit produit une variété de tuyaux liquides isolé qui réduisent considérablement la perte de chaleur des liquides stockés en eux. Chaque tuyaux de liquide à un volume de 20 L.</Description>
+			<Description>Ce kit produit une variété de tuyaux liquides isolés qui réduisent considérablement la perte de chaleur des liquides stockés en eux. Chaque tuyau de liquide a un volume de 20 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>InsulatedLiquidPipeCorner</Key>
@@ -6797,7 +6800,7 @@ Remarque : l'emballeur basique affichera une erreur sur son interrupteur d'activ
 		<RecordThing>
 			<Key>StructurePipeOneWayValve</Key>
 			<Value>Vanne Unidirectionnelle (gaz)</Value>
-			<Description>La vanne unidirectionnelle déplace le gaz dans une seule direction : du côté de l'entrée vers le côté de la sortie. Elle ne permet le flux que si la pression d'entrée est supérieure à la pression de sortie.
+			<Description>La vanne unidirectionnelle déplace le gaz dans une seule direction : du côté de l'entrée vers le côté de la sortie. Elle ne permet le passage que si la pression d'entrée est supérieure à la pression de sortie.
 </Description>
 		</RecordThing>
 		<RecordThing>
@@ -6863,14 +6866,14 @@ Remarque : l'emballeur basique affichera une erreur sur son interrupteur d'activ
 		<RecordThing>
 			<Key>StructureLiquidPipeOneWayValve</Key>
 			<Value>Vanne Unidirectionnelle (liquide)</Value>
-			<Description>La vanne unidirectionnelle déplace le liquide dans une seule direction : du côté de l'entrée vers le côté de la sortie. Elle ne permet le flux que si la pression d'entrée est supérieure à la pression de sortie.</Description>
+			<Description>La vanne unidirectionnelle déplace le liquide dans une seule direction : du côté de l'entrée vers le côté de la sortie. Elle ne permet le passage que si la pression d'entrée est supérieure à la pression de sortie.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWindowShutter</Key>
 			<Value>Volet de fenêtre</Value>
 			<Description>Pour ces moments spéciaux et privés, une fenêtre qui peut être fermée aux regards indiscrets.
 
-Lorsqu'elle est fermée, a les caractéristiques de transfert de chaleur d'un mur de base. Nécessite de l'énergie et peut être connectée à des systèmes logiques.</Description>
+Lorsqu'elle est fermée, elle a les caractéristiques de transfert de chaleur d'un mur de base. Nécessite de l'énergie et peut être connectée à des systèmes logiques.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitWindowShutter</Key>
@@ -6950,7 +6953,7 @@ Mode 4 : Terminé
 		<RecordThing>
 			<Key>ItemLaptop</Key>
 			<Value>Ordinateur portable</Value>
-			<Description>L'ordinateur portable fonctionne comme un éditeur portable pour un {THING:ItemIntegratedCircuit10}. Pour faire fonctionner l'ordinateur portable, il doit être alimenté par une batterie, avoir une {THING:MotherboardProgrammableChip} dans l'emplacement de la carte mère et un {THING:ItemIntegratedCircuit10} dans l'emplacement de la Puce Programmable.
+			<Description>L'ordinateur portable fonctionne comme un éditeur portable pour un {THING:ItemIntegratedCircuit10}. Pour faire fonctionner l'ordinateur portable, il doit être alimenté par une batterie, avoir une {THING:MotherboardProgrammableChip} dans l'emplacement de la carte mère et un {THING:ItemIntegratedCircuit10} dans l'emplacement de la puce programmable.
 		
 Vous devez poser l'ordinateur portable pour interagir avec l'interface à l'écran.
 		 
@@ -7124,7 +7127,7 @@ Le transmetteur doit être aligné avec la station de base pour transmettre de l
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitLargeExtendableRadiator</Key>
-			<Value>Kit (Radiateur à rayonnement extensible (grand)</Value>
+			<Value>Kit (Radiateur à rayonnement extensible, grand)</Value>
 			<Description>Crée {THING:StructureLargeExtendableRadiator}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -7145,7 +7148,7 @@ Le transmetteur doit être aligné avec la station de base pour transmettre de l
 		<RecordThing>
 			<Key>ItemNitrice</Key>
 			<Value>Glace azotée</Value>
-			<Description>La glace azotée c'est de la glace solide d'{GAS:Nitrogen}, que l'on trouve sur de nombreuses planètes et lunes du Système Solaire. En raison de la nature inerte de l'{GAS:Nitrogen} qu'elle contient, cette glace est utile pour créer des atmosphères respirables à faible inflammabilité.
+			<Description>La glace azotée est de la glace solide d'{GAS:Nitrogen}, que l'on trouve sur de nombreuses planètes et lunes du Système Solaire. En raison de la nature inerte de l'{GAS:Nitrogen} qu'elle contient, cette glace est utile pour créer des atmosphères respirables à faible inflammabilité.
 
 Très sensible à la température, la glace azotée commencera à fondre dès qu'elle sera extraite, à moins que la température ne soit en dessous de zéro, ou qu'elle ne soit stockée dans la {THING:ItemMiningBelt}, la {THING:ItemMiningBeltAdvanced} ou des appareils tels que le {THING:StructureIceCrusher} ou le {THING:StructureFridgeSmall}.</Description>
 		</RecordThing>
@@ -7538,8 +7541,8 @@ Lorsqu'elle est connectée à un {THING:StructureComputer} contenant une {THING:
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSleeperVerticalDroid</Key>
-			<Value>Couchette (vertical, droite)</Value>
-			<Description>La couchette droit rechargera les batteries des robots et les batteries des combinaisons équipées si elles sont présentes. Cette variante de couchette est seulement sûre pour les robots. Entrer en tant que personnage non-robotique vous causera des dégâts.</Description>
+			<Value>Couchette (vertical, HEM-Droïde)</Value>
+			<Description>La couchette pour HEM-Droïde rechargera les batteries des robots et les batteries des combinaisons équipées si elles sont présentes. Cette variante de couchette est seulement sûre pour les robots. Entrer en tant que personnage non-robotique vous causera des dégâts.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemHighVolumeGasCanisterEmpty</Key>
@@ -7624,7 +7627,7 @@ Faites attention à ne pas pressuriser au-delà de 25 MPa, sinon cela pourrait p
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallVent</Key>
-			<Value>Ventilation passive (double, murale)</Value>
+			<Value>Ventilation passive (double, traversante)</Value>
 			<Description>Utilisée pour mélanger passivement les atmosphères entre deux murs.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -7713,7 +7716,7 @@ Capable de stocker jusqu'à 3 600 000 Watts d'énergie.</Description>
 		<RecordThing>
 			<Key>ItemKitLowVolumeLiquidPipes</Key>
 			<Value>Kit (Tuyau de liquide à faible volume)</Value>
-			<Description>Ce kit produit une variété de tuyaux liquides. Chaque tuyaux de liquide à faible volume à un volume de 5 L.</Description>
+			<Description>Ce kit produit une variété de tuyaux liquides. Chaque tuyau de liquide à faible volume a un volume de 5 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLowVolumePipeCorner</Key>
@@ -7758,7 +7761,7 @@ Capable de stocker jusqu'à 3 600 000 Watts d'énergie.</Description>
 		<RecordThing>
 			<Key>ItemKitLowVolumePipes</Key>
 			<Value>Kit (Tuyau de gaz à faible volume)</Value>
-			<Description>Ce kit produit une variété de tuyaux gaz. Chaque tuyaux de gaz à faible volume à un volume de 5 L.</Description>
+			<Description>Ce kit produit une variété de tuyaux de gaz. Chaque tuyau de gaz à faible volume a un volume de 5 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureBatterySmall</Key>
@@ -7781,7 +7784,7 @@ Capable de stocker jusqu'à 1 800 000 Watts d'énergie.</Description>
 		<RecordThing>
 			<Key>LiquidRocketEngineBasic</Key>
 			<Value>Moteur de fusée (à liquide basique)</Value>
-			<Description>Un petit moteur de fusée à liquide alimenté par une pompe turbo électrique. L'entrée de liquide doit être alimentée avec un mélange de carburant {GAS:Volatiles} et d'{GAS:Oxygen}. Il a une plage de poussée d'environ 6 kN à 30 kN et une Impulsion spécifique attendue de 230s (vitesse d'échappement : 2.2 km/s).</Description>
+			<Description>Un petit moteur de fusée à liquide alimenté par une pompe turbo électrique. L'entrée de liquide doit être alimentée avec un mélange de carburant {GAS:Volatiles} et d'{GAS:Oxygen}. Il a une plage de poussée d'environ 6 kN à 30 kN et une Impulsion spécifique attendue de 230 secondes (vitesse d'échappement : 2.2 km/s).</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureDuctCorner</Key>
@@ -7836,16 +7839,16 @@ Capable de stocker jusqu'à 1 800 000 Watts d'énergie.</Description>
 		<RecordThing>
 			<Key>StructureEvaporationChamber</Key>
 			<Value>Chambre d'évaporation</Value>
-			<Description>Un appareil permettant d'évaporer des liquides en gaz en toute sécurité. Les liquides et les gaz coexisteront en toute sécurité à l'intérieur de l'appareil. Abaisser la cible de préssion du régulateur de contre-préssion intégré à l'aide de la molette de réglage modifiera la température d'ébullition des liquides à l'intérieur.
+			<Description>Un appareil permettant d'évaporer des liquides en gaz en toute sécurité. Les liquides et les gaz coexisteront en toute sécurité à l'intérieur de l'appareil. Abaisser la cible de pression du régulateur de contre-pression intégré à l'aide de la molette de réglage modifiera la température d'ébullition des liquides à l'intérieur.
 L'entrée de gaz secondaire située à gauche est une entrée d'échangeur de chaleur et permet un échange de chaleur entre le tuyau d'entrée secondaire et l'atmosphère interne de la chambre d'évaporation.
-Associé à une {THING:StructureCondensationChamber} les Stationeers peuvent exploiter les propriétés de changement de phase des gaz pour construire un climatiseur bricolé.</Description>
+Associé à une {THING:StructureCondensationChamber}, les Stationeers peuvent exploiter les propriétés de changement de phase des gaz pour construire un climatiseur bricolé.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCondensationChamber</Key>
 			<Value>Chambre de condensation</Value>
-			<Description>Un appareil permettant de condenser les gaz en liquides en toute sécurité. Les liquides et les gaz coexisteront en toute sécurité à l'intérieur de l'appareil. La Chambre se pressurisera à l'aide de son régulateur de préssion intégré, selon la cible configurée par la molette de réglage.
+			<Description>Un appareil permettant de condenser les gaz en liquides en toute sécurité. Les liquides et les gaz coexisteront en toute sécurité à l'intérieur de l'appareil. La Chambre se pressurisera à l'aide de son régulateur de pression intégré, selon la cible configurée par la molette de réglage.
 L'entrée de gaz secondaire située à gauche est une entrée d'échangeur de chaleur et permet un échange de chaleur entre le tuyau d'entrée secondaire et l'atmosphère interne de la chambre de condensation.
-Associé à une {THING:StructureEvaporationChamber} les Stationeers peuvent exploiter les propriétés de changement de phase des gaz pour construire un climatiseur bricolé.</Description>
+Associé à une {THING:StructureEvaporationChamber}, les Stationeers peuvent exploiter les propriétés de changement de phase des gaz pour construire un climatiseur bricolé.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitEvaporationChamber</Key>
@@ -8064,7 +8067,7 @@ Associé à une {THING:StructureEvaporationChamber} les Stationeers peuvent expl
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLargeDirectHeatExchangeGastoGas</Key>
-			<Value>Échangeur de chaleur direct (gaz/gaz,grand)</Value>
+			<Value>Échangeur de chaleur direct (gaz/gaz, grand)</Value>
 			<Description>Les échangeurs de chaleur directs égalisent la température des deux réseaux d'entrée.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -8405,7 +8408,7 @@ Mode 5 : Cartographier
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitRocketLaunchPad</Key>
-			<Value>Kit (Pad de lancement de fusée)</Value>
+			<Value>Kit (Plateforme de lancement de fusée)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -8420,7 +8423,7 @@ Mode 5 : Cartographier
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitGovernedGasRocketEngine</Key>
-			<Value>Kit (Moteur de fusé à gaz pompé)</Value>
+			<Value>Kit (Moteur de fusée à gaz pompé)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -8770,7 +8773,7 @@ Mode 5 : Cartographier
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitAccessBridge</Key>
-			<Value>Kit (Pont d'accès)</Value>
+			<Value>Kit (Passerelle d'accès)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -8836,7 +8839,7 @@ Mode 5 : Cartographier
 		<RecordThing>
 			<Key>ItemMiningDrillPneumatic</Key>
 			<Value>Foreuse pneumatique</Value>
-			<Description>Parfois, les expéditions minières nécessitent quelque chose de plus gros pour rapporter les marchandises. Cette version agrandie de la conception "Topo" de {LINK:Recurso;Recurso} peut littéralement déplacer des montagnes. La foreuse Nv3 enlèvera plus de terre et extraira les {LINK:OrePage;minerais} plus rapidement que la foreuse minière standard. La foreuse de niveau 3 est également résistante à la température et à la pression. Ainsi, peu importe la planète ou les conditions météorologiques extrêmes présentes, la foreuse nv3 de Recurso accomplira la tâche.
+			<Description>Parfois, les expéditions minières nécessitent quelque chose de plus gros pour rapporter les marchandises. Cette version agrandie de la conception "Taupe" de {LINK:Recurso;Recurso} peut littéralement déplacer des montagnes. La foreuse Nv3 enlèvera plus de terre et extraira les {LINK:OrePage;minerais} plus rapidement que la foreuse minière standard. La foreuse de niveau 3 est également résistante à la température et à la pression. Ainsi, peu importe la planète ou les conditions météorologiques extrêmes présentes, la foreuse nv3 de Recurso accomplira la tâche.
 			
 			
 			Cette foreuse pneumatique utilise l'énergie du gaz pour l'exploitation minière, au lieu de batteries comme les autres. La vitesse d'exploitation de la foreuse est une fonction du différentiel de pression, ce qui signifie qu'elle ralentira à mesure que vous épuisez sa {THING:ItemGasCanisterNitrogen}.
@@ -9356,10 +9359,18 @@ Appuyer sur le bouton d'activation lorsque le robot LArRE est à son quai d'orig
 		<RecordThing>
 			<Key>ItemSuitHARM</Key>
 			<Value>Combinaison HARM</Value>
+			<Description>La combinaison HARM est le dernier rempart du Stationeer face aux environnements les plus hostiles.  
+Refroidie par liquide pour une performance thermique optimale, elle offre une résistance exceptionnelle aux chocs et à l’exposition à la lave.  
+Bien que la combinaison HARM ne soit pas compatible avec un {THING:ItemJetpackBasic}, les Stationeers peuvent toujours s’équiper d’un {THING:ItemHardBackpack} ou d’un {THING:ItemHardMiningBackPack}.  
+Grâce à sa stabilité et à sa structure renforcée, les tempêtes n’affectent pas la vitesse de déplacement en combinaison HARM ; en revanche, cela entraîne une légère réduction de la mobilité en conditions normales.
+
+</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSuitHelmetHARM</Key>
 			<Value>Casque HARM</Value>
+			<Description>
+Le casque HARM est conçu pour compléter la combinaison HARM et offrir une protection optimale dans les environnements les plus hostiles.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>MonsterEgg</Key>
@@ -9565,11 +9576,29 @@ Il calcule en continu un signal d'erreur e(t) = consigne – mesure, puis appliq
 		<RecordThing>
 			<Key>StructureVendingMachineSmall</Key>
 			<Value>Distributeur automatique (petit)</Value>
-			<Description>Le distributeur automatique (petit) "Slot Mate" conçu par {LINK:Xigo;Xigo} permet le stockage de presque n'importe quel objet, tout en servant de point de distribution pour les échanges avec les {LINK:TradingPage;commerçants}. Vous ne pouvez pas effectuer de transactions sans un distributeur automatique, ou son équivalent plus avancé, le {THING:StructureRefrigeratedVendingMachine}. Chaque distributeur peut contenir jusqu'à 12 piles d'objets.</Description>
+			<Description>Le distributeur automatique (petit) "Slot Mate" conçu par {LINK:Xigo;Xigo} permet le stockage de presque n'importe quel objet, tout en servant de point de distribution pour les échanges avec les {LINK:TradingPage;commerçants}. Vous ne pouvez pas effectuer de transactions sans un distributeur automatique, ou son équivalent plus avancé, le {THING:StructureRefrigeratedVendingMachine}. Chaque petit distributeur peut contenir jusqu'à 12 piles d'objets.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureVendingMachineSmall1</Key>
-			<Description>Le distributeur automatique (petit) "Slot Mate" conçu par {LINK:Xigo;Xigo} permet le stockage de presque n'importe quel objet, tout en servant de point de distribution pour les échanges avec les {LINK:TradingPage;commerçants}. Vous ne pouvez pas effectuer de transactions sans un distributeur automatique, ou son équivalent plus avancé, le {THING:StructureRefrigeratedVendingMachine}. Chaque distributeur peut contenir jusqu'à 12 piles d'objets.</Description>
+			<Description>Le distributeur automatique (petit) "Slot Mate" conçu par {LINK:Xigo;Xigo} permet le stockage de presque n'importe quel objet, tout en servant de point de distribution pour les échanges avec les {LINK:TradingPage;commerçants}. Vous ne pouvez pas effectuer de transactions sans un distributeur automatique, ou son équivalent plus avancé, le {THING:StructureRefrigeratedVendingMachine}. Chaque petit distributeur peut contenir jusqu'à 12 piles d'objets.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureSuitStorageFrame</Key>
+			<Value>Rangement de combinaison (châssis)</Value>
+			<Description>
+Aussi bien rangé qu'utile, le rangement de combinaison (châssis) peut contenir une {THING:ItemEvaSuit}, un {THING:ItemSpaceHelmet} et un {THING:ItemJetpackBasic}.
+Lorsqu'il est alimenté et connecté à l'{GAS:Oxygen} et à l'{GAS:Nitrogen}, il rechargera les batteries de la combinaison, remplira la {THING:ItemGasCanisterOxygen} et votre {THING:ItemGasCanisterNitrogen}. Le réservoir de déchets sera pompé vers le tuyau connecté à la sortie des déchets.
+Tous les tuyaux du rangement doivent être connectés, sinon l'unité affichera un état d'erreur, mais elle rechargera toujours la batterie.
+  </Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureSuitStorageLocker</Key>
+			<Value>Rangement de combinaison (casier)</Value>
+			<Description>
+Aussi bien rangé qu'utile, le rangement de combinaison (casier) peut contenir une {THING:ItemEvaSuit}, un {THING:ItemSpaceHelmet} et un {THING:ItemJetpackBasic}.
+Lorsqu'il est alimenté et connecté à l'{GAS:Oxygen} et à l'{GAS:Nitrogen}, il rechargera les batteries de la combinaison, remplira la {THING:ItemGasCanisterOxygen} et votre {THING:ItemGasCanisterNitrogen}. Le réservoir de déchets sera pompé vers le tuyau connecté à la sortie des déchets.
+Tous les tuyaux du rangement doivent être connectés, sinon l'unité affichera un état d'erreur, mais elle rechargera toujours la batterie.
+  </Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageConstructor</Key>
@@ -10798,7 +10827,7 @@ Le module doit être connecté à un module de stockage de ressources de fusée 
 		</Record>
 		<Record>
 			<Key>OnOff</Key>
-			<Value>Activé Désactivé</Value>
+			<Value>Activé/Désactivé</Value>
 		</Record>
 		<Record>
 			<Key>Lock</Key>
@@ -10838,43 +10867,43 @@ Le module doit être connecté à un module de stockage de ressources de fusée 
 		</Record>
 		<Record>
 			<Key>GrabHead</Key>
-			<Value>Saisir la tête</Value>
+			<Value>Agripper la tête</Value>
 		</Record>
 		<Record>
 			<Key>GrabUpperArmL</Key>
-			<Value>Saisir le bras gauche</Value>
+			<Value>Agripper le haut du bras gauche</Value>
 		</Record>
 		<Record>
 			<Key>GrabUpperArmR</Key>
-			<Value>Saisir le bras droite</Value>
+			<Value>Agripper le haut du bras droit</Value>
 		</Record>
 		<Record>
 			<Key>GrabLowerArmL</Key>
-			<Value>Saisir le bras gauche</Value>
+			<Value>Agripper l'avant-bras gauche</Value>
 		</Record>
 		<Record>
 			<Key>GrabLowerArmR</Key>
-			<Value>Saisir le bras droite</Value>
+			<Value>Agripper l'avant-bras droit</Value>
 		</Record>
 		<Record>
 			<Key>GrabThighR</Key>
-			<Value>Saisir la cuisse droite</Value>
+			<Value>Agripper la cuisse droite</Value>
 		</Record>
 		<Record>
 			<Key>GrabThighL</Key>
-			<Value>Saisir la cuisse gauche</Value>
+			<Value>Agripper la cuisse gauche</Value>
 		</Record>
 		<Record>
 			<Key>GrabCalfR</Key>
-			<Value>Saisir le mollet droit</Value>
+			<Value>Agripper le mollet droit</Value>
 		</Record>
 		<Record>
 			<Key>GrabCalfL</Key>
-			<Value>Saisir le mollet gauche</Value>
+			<Value>Agripper le mollet gauche</Value>
 		</Record>
 		<Record>
 			<Key>Drag</Key>
-			<Value>Trainer</Value>
+			<Value>Agripper</Value>
 		</Record>
 		<Record>
 			<Key>Mode</Key>
@@ -10930,11 +10959,11 @@ Le module doit être connecté à un module de stockage de ressources de fusée 
 		</Record>
 		<Record>
 			<Key>NextPage</Key>
-			<Value>Page Suivante</Value>
+			<Value>Page suivante</Value>
 		</Record>
 		<Record>
 			<Key>PreviousPage</Key>
-			<Value>Page Précédente</Value>
+			<Value>Page précédente</Value>
 		</Record>
 		<Record>
 			<Key>Use</Key>
@@ -11487,6 +11516,54 @@ la poussée</Value>
 		<Record>
 			<Key>VenusPoiRegionPaleBrimstonePlainDescription</Key>
 			<Value>Plaines de Soufre</Value>
+		</Record>
+		<Record>
+			<Key>EuropaPoiCallanishPeakName</Key>
+			<Value>Pic de Calanais</Value>
+		</Record>
+		<Record>
+			<Key>EuropaPoiCallanishPeakDescription</Key>
+			<Value>Point culminant du secteur</Value>
+		</Record>
+		<Record>
+			<Key>EuropaPoiFalgasDescentName</Key>
+			<Value>Descente de Falga</Value>
+		</Record>
+		<Record>
+			<Key>EuropaPoiFalgasDescentDescription</Key>
+			<Value>Descente abrupte vers le grand bassin</Value>
+		</Record>
+		<Record>
+			<Key>EuropaPoiBalgatanRidgeName</Key>
+			<Value>Crête de Balgatan</Value>
+		</Record>
+		<Record>
+			<Key>EuropaPoiBalgatanRidgeDescription</Key>
+			<Value>Surplombe le bassin nord</Value>
+		</Record>
+		<Record>
+			<Key>EuropaPoiSouthCallanishPassName</Key>
+			<Value>Col sud de Calanais</Value>
+		</Record>
+		<Record>
+			<Key>EuropaPoiSouthCallanishPassDescription</Key>
+			<Value>Passage plus sûr vers les hautes terres</Value>
+		</Record>
+		<Record>
+			<Key>EuropaPoiSidonGullyName</Key>
+			<Value>Ravin de Sidon</Value>
+		</Record>
+		<Record>
+			<Key>EuropaPoiSidonGullyDescription</Key>
+			<Value>Éperon protégé du grand bassin</Value>
+		</Record>
+		<Record>
+			<Key>EuropaPoiMorensFellName</Key>
+			<Value>Plaines glacées de Moren</Value>
+		</Record>
+		<Record>
+			<Key>EuropaPoiMorensFellDescription</Key>
+			<Value>Désert de glace balayé par les vents</Value>
 		</Record>
 		<Record>
 			<Key>EuropaPoiRegionBluePeakName</Key>
@@ -14945,7 +15022,7 @@ la poussée</Value>
 		<Record>
 			<Key>ButtoConfirmExitAsServer</Key>
 			<Value>Êtes-vous sûr de vouloir quitter le jeu sans enregistrer ?
-Votre progression sera perdu !</Value>
+Votre progression sera perdue !</Value>
 		</Record>
 		<Record>
 			<Key>DialogConfirmNoticeUnsaved</Key>
@@ -15063,8 +15140,8 @@ Alors au boulot, Stationeer !</Value>
 		</Record>
 		<Record>
 			<Key>MulticonstructorItem</Key>
-			<Value>&lt;color=yellow&gt;Option de construction {0} de {1} &lt;/color&gt;
-Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d'options.</Value>
+			<Value>&lt;color=yellow&gt;Option de construction {0} de {1}&lt;/color&gt;
+Faites défiler &lt;color=red&gt;la roulette de la souris&lt;/color&gt; pour plus d'options.</Value>
 		</Record>
 		<Record>
 			<Key>UnableToConstruct</Key>
@@ -15076,15 +15153,15 @@ Scroll &lt;color=red&gt;Roulette de la souris&lt;/color&gt; pour plus d'options.
 		</Record>
 		<Record>
 			<Key>TooltipRotateLeftRight</Key>
-			<Value>Utiliser la touche &lt;color=yellow&gt;{KEY:RotateLeft}&lt;/color&gt; ou &lt;color=yellow&gt;{KEY:RotateRight}&lt;/color&gt; pour tourner à gauche ou à droite.</Value>
+			<Value>Utilisez la touche &lt;color=yellow&gt;{KEY:RotateLeft}&lt;/color&gt; ou &lt;color=yellow&gt;{KEY:RotateRight}&lt;/color&gt; pour tourner à gauche ou à droite.</Value>
 		</Record>
 		<Record>
 			<Key>TooltipRotateUpDown</Key>
-			<Value>Utiliser la touche &lt;color=yellow&gt;{KEY:RotateUp}&lt;/color&gt; ou &lt;color=yellow&gt;{KEY:RotateDown}&lt;/color&gt; pour faire tourner vers le haut ou vers le bas.</Value>
+			<Value>Utilisez la touche &lt;color=yellow&gt;{KEY:RotateUp}&lt;/color&gt; ou &lt;color=yellow&gt;{KEY:RotateDown}&lt;/color&gt; pour faire tourner vers le haut ou vers le bas.</Value>
 		</Record>
 		<Record>
 			<Key>TooltipRollLeftRight</Key>
-			<Value>Utiliser la touche &lt;color=yellow&gt;{KEY:RotateRollLeft}&lt;/color&gt; ou &lt;color=yellow&gt;{KEY:RotateRollRight}&lt;/color&gt; pour tourner à gauche ou à droite.</Value>
+			<Value>Utilisez la touche &lt;color=yellow&gt;{KEY:RotateRollLeft}&lt;/color&gt; ou &lt;color=yellow&gt;{KEY:RotateRollRight}&lt;/color&gt; pour tourner à gauche ou à droite.</Value>
 		</Record>
 		<Record>
 			<Key>SettingsExtendedTooltips</Key>
@@ -15133,11 +15210,11 @@ Améliorez-le pour augmenter le nombre de places.</Value>
 		</Record>
 		<Record>
 			<Key>TooltipPlacementSnapFaceNotMountableDynamic</Key>
-			<Value>#VAR1# ne permet pas de montage</Value>
+			<Value>#VAR1# ne permet pas le montage</Value>
 		</Record>
 		<Record>
 			<Key>TooltipPlacementSnapFaceNotMountableFallback</Key>
-			<Value>L'une de ces structures ne permet pas de monter</Value>
+			<Value>L'une de ces structures ne permet pas le montage</Value>
 		</Record>
 		<Record>
 			<Key>TooltipPlacementSnapFaceWrongFaceDynamic</Key>
@@ -15162,7 +15239,7 @@ Améliorez-le pour augmenter le nombre de places.</Value>
 		</Record>
 		<Record>
 			<Key>SettingsUPNPNote</Key>
-			<Value>Si Universal Plug and Play (UPNP) est activé sur votre routeur, ces ports seront automatiquement transférés lorsque vous hébergez un jeu.</Value>
+			<Value>Si Universal Plug and Play (UPNP) est activé ici et sur votre routeur, ces ports seront automatiquement transférés lorsque vous hébergez un jeu.</Value>
 		</Record>
 		<Record>
 			<Key>SettingsTooltipOpacity</Key>
@@ -15236,7 +15313,7 @@ quitter ?</Value>
 		</Record>
 		<Record>
 			<Key>PromptUnsubscribeConfirm</Key>
-			<Value>Désinscrit</Value>
+			<Value>Se désinscrire</Value>
 		</Record>
 		<Record>
 			<Key>PromptOverwriteTitle</Key>
@@ -15316,7 +15393,7 @@ quitter ?</Value>
 		</Record>
 		<Record>
 			<Key>AlertInvalidIP</Key>
-			<Value>Adresse IP non valide {0} \nVérifier que l'adresse IP ou l'URL soit valide</Value>
+			<Value>Adresse IP non valide {0} \nVérifiez que l'adresse IP ou l'URL soit valide</Value>
 		</Record>
 		<Record>
 			<Key>AlertNoBackups</Key>
@@ -15335,7 +15412,7 @@ quitter ?</Value>
 			<Value>
 Le serveur de jeu ne répond pas. 
 Veuillez réessayer...
-		</Value>
+</Value>
 		</Record>
 		<Record>
 			<Key>AlertKicked</Key>
@@ -15495,7 +15572,7 @@ Veuillez réessayer...
 		</Record>
 		<Record>
 			<Key>JoinMenuIncompatibleVersions</Key>
-			<Value>Cacher les versions incompatible</Value>
+			<Value>Cacher les versions incompatibles</Value>
 		</Record>
 		<Record>
 			<Key>JoinMenuPasswordProtected</Key>
@@ -15596,11 +15673,10 @@ Veuillez réessayer...
 		</Record>
 		<Record>
 			<Key>NewWorldSpaceDesc</Key>
-			<Value>C'est le mode créatif de Stationeers !
-Fabriquez n'importe quel objet, testez des idées et construisez des trucs dingues très rapidement.
-&lt;color=red&gt;Ce mode est expérimental.&lt;/color&gt; Voyez-le comme une fête spatiale libre où des choses excitantes et inattendues* peuvent et vont se produire, comparé à l'expérience plus fiable de mort imminente du mode Survie.
-Ne soyez pas triste lorsque vous vous faites exploser en tout petits morceaux ou que vous êtes attaqué par des poulets ou que vous explosez lentement en dérivant seul dans le vide infini.
-			 
+			<Value>C'est le mode créatif de Stationeers ! Faites apparaître n'importe quel objet, testez des idées et construisez des choses folles très rapidement.
+&lt;color=red&gt;Ce mode est expérimental. Considérez-le comme une fête spatiale libre où des choses excitantes et inattendues* peuvent et vont se produire, comparé à l'expérience de mort imminente plus fiable du mode Survie.
+Ne soyez simplement pas triste lorsque vous vous réduirez en minuscules petits morceaux, ou que vous serez attaqué par des poulets, ou que vous exploserez lentement en dérivant seul dans le vide infini.
+
 *bugs</Value>
 		</Record>
 		<Record>
@@ -15853,11 +15929,11 @@ Un endroit idéal pour le joueur débutant, avec moins de dangers et de complexi
 		</Record>
 		<Record>
 			<Key>NewWorldVulcanShortDesc</Key>
-			<Value>L’environnement volatile de Vulcain ne peut survivre que dans très peu d’organismes vivants, mais sa surface fracturée et ses riches gisements de minéraux en font une entreprise risquée mais rentable pour les vendeurs entreprenants.</Value>
+			<Value>L’environnement volatile de Vulcain ne peut survivre que dans très peu d’organismes vivants, mais sa surface fracturée et ses riches gisements de minéraux en font une entreprise risquée mais rentable pour les commerçants entreprenants.</Value>
 		</Record>
 		<Record>
 			<Key>NewWorldVulcan2ShortDesc</Key>
-			<Value>Un monde déchiré en raison des forces de marée massives du trou noir supermassif qu’il orbite. Vulcain ne laisse guère d’espoir aux organismes qui aboutissent ici, mais sa surface fracturée et ses riches gisements minéraux en font une entreprise à la fois risquée et rentable pour les traders entreprenants.
+			<Value>Un monde déchiré en raison des forces de marée massives du trou noir supermassif qu’il orbite. Vulcain ne laisse guère d’espoir aux organismes qui aboutissent ici, mais sa surface fracturée et ses riches gisements minéraux en font une entreprise à la fois risquée et rentable pour les commerçants entreprenants.
 Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels sous la surface !</Value>
 		</Record>
 		<Record>
@@ -15865,20 +15941,8 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 			<Value>Une roche stérile sous les anneaux de Saturne, Mimas possède une gravité extrêmement faible et une surface criblée de cratères d'impact. Sa distance par rapport au Soleil limite l'énergie solaire. Même de petits mouvements peuvent vous propulser loin et rapidement.</Value>
 		</Record>
 		<Record>
-			<Key>NewWorldMimasShortDesc</Key>
-			<Value>Une roche stérile sous les anneaux de Saturne, Mimas possède une gravité extrêmement faible et une surface criblée de cratères d'impact. Sa distance par rapport au Soleil limite l'énergie solaire. Même de petits mouvements peuvent vous propulser loin et rapidement.</Value>
-		</Record>
-		<Record>
 			<Key>EuropaWorldDescriptionShort</Key>
 			<Value>Cette région montagneuse et désolée d'Europa représente un véritable défi pour les Stationeers.</Value>
-		</Record>
-		<Record>
-			<Key>EuropaWorldDescriptionShort</Key>
-			<Value>Cette région montagneuse et désolée d'Europa représente un véritable défi pour les Stationeers.</Value>
-		</Record>
-		<Record>
-			<Key>LunarWorldDescriptionShort</Key>
-			<Value>Sans atmosphère, la surface stérile et criblée de cratères de la Lune offre un environnement stable pour les opérations lunaires.</Value>
 		</Record>
 		<Record>
 			<Key>LunarWorldDescriptionShort</Key>
@@ -15889,14 +15953,6 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 			<Value>Cette région est marquée par de grands canyons et quelques cratères. L'atmosphère est impropre à la respiration et les tempêtes de poussière sont fréquentes.</Value>
 		</Record>
 		<Record>
-			<Key>MarsWorldDescriptionShort</Key>
-			<Value>Cette région est marquée par de grands canyons et quelques cratères. L'atmosphère est impropre à la respiration et les tempêtes de poussière sont fréquentes.</Value>
-		</Record>
-		<Record>
-			<Key>MimasWorldDescriptionShort</Key>
-			<Value>La gravité extrêmement faible de Mimas permet la formation des vastes falaises et cratères de ce paysage spectaculaire.</Value>
-		</Record>
-		<Record>
 			<Key>MimasWorldDescriptionShort</Key>
 			<Value>La gravité extrêmement faible de Mimas permet la formation des vastes falaises et cratères de ce paysage spectaculaire.</Value>
 		</Record>
@@ -15905,20 +15961,8 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 			<Value>Ce monde étouffe sous une épaisse atmosphère toxique. Chaleur incessante et pression écrasante vous attendent sur cette planète hostile.</Value>
 		</Record>
 		<Record>
-			<Key>VenusWorldDescriptionShort</Key>
-			<Value>Ce monde étouffe sous une épaisse atmosphère toxique. Chaleur incessante et pression écrasante vous attendent sur cette planète hostile.</Value>
-		</Record>
-		<Record>
 			<Key>VulcanWorldDescriptionShort</Key>
 			<Value>La surface fracturée de Vulcan est aussi riche en dépôts minéraux qu'en dangers mortels.</Value>
-		</Record>
-		<Record>
-			<Key>VulcanWorldDescriptionShort</Key>
-			<Value>La surface fracturée de Vulcan est aussi riche en dépôts minéraux qu'en dangers mortels.</Value>
-		</Record>
-		<Record>
-			<Key>RandomSpawnLocation</Key>
-			<Value>Aléatoire</Value>
 		</Record>
 		<Record>
 			<Key>RandomSpawnLocation</Key>
@@ -15930,7 +15974,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>LunarSpawnCraterVesperDescription</Key>
-			<Value>Un immense cratère sur le bas mare.</Value>
+			<Value>Un immense cratère sur le bas mer.</Value>
 		</Record>
 		<Record>
 			<Key>LunarSpawnMontesUmbrarumName</Key>
@@ -15938,7 +15982,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>LunarSpawnMontesUmbrarumDescription</Key>
-			<Value>Hauts plateaux cratérisés surplombant le grand mare.</Value>
+			<Value>Hauts plateaux cratérisés surplombant le grand mer.</Value>
 		</Record>
 		<Record>
 			<Key>LunarSpawnCraterNoxName</Key>
@@ -16202,7 +16246,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>SettingsLegacyInventory</Key>
-			<Value>Inventaire des stocks</Value>
+			<Value>Inventaire hérité</Value>
 		</Record>
 		<Record>
 			<Key>SettingsDisableWaterVisualizer</Key>
@@ -16238,7 +16282,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>WarningControlConflictDescription</Key>
-			<Value>S'il vous plait, visiter le menu des touches de contrôle et corriger les conflits</Value>
+			<Value>Vérifiez le menu des touches de contrôle et corriger les conflits</Value>
 		</Record>
 		<Record>
 			<Key>NewWorldGameMode</Key>
@@ -16258,7 +16302,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>NewWorldSolarEnergy</Key>
-			<Value>Energie solaire</Value>
+			<Value>Énergie solaire</Value>
 		</Record>
 		<Record>
 			<Key>NewWorldSolarAngle</Key>
@@ -16286,7 +16330,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>LogicTypeMode</Key>
-			<Value>Nombres entiers pour l’état de mode, différents appareils auront différents états de mode à leur disposition</Value>
+			<Value>Nombre entier pour l’état du mode, différents appareils auront différents états de mode à leur disposition</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeError</Key>
@@ -16310,31 +16354,31 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>LogicTypePressure</Key>
-			<Value>La pression actuelle lu sur l'appareil</Value>
+			<Value>La pression actuelle lue sur l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeTemperature</Key>
-			<Value>La température actuelle lu sur l'appareil</Value>
+			<Value>La température actuelle lue sur l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypePressureInput</Key>
-			<Value>La lecture actuelle de la pression du réseau d'entrée de l'appareil</Value>
+			<Value>La pression actuelle lue du réseau d'entrée de l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeTemperatureInput</Key>
-			<Value>La lecture actuelle de la température du réseau d'entrée de l'appareil</Value>
+			<Value>La température actuelle lue du réseau d'entrée de l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypePressureInput2</Key>
-			<Value>La lecture actuelle de la pression du réseau d'entrée 2 de l'appareil</Value>
+			<Value>La pression actuelle lue du réseau d'entrée 2 de l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeTemperatureInput2</Key>
-			<Value>La lecture actuelle de la température du réseau d'entrée 2 de l'appareil</Value>
+			<Value>La température actuelle lue du réseau d'entrée 2 de l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypePressureOutput</Key>
-			<Value>La lecture actuelle de la pression du réseau de sortie de l'appareil</Value>
+			<Value>La pression actuelle lue du réseau de sortie de l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeTargetPadIndex</Key>
@@ -16366,19 +16410,19 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>LogicTypeLineNumber</Key>
-			<Value>Le numéro de ligne d'exécution actuel pour un circuit intégré en cours d'exécution sur cet appareil. Utilisez ce numéro avec précaution</Value>
+			<Value>Le numéro de ligne d'exécution actuel pour un circuit intégré en cours d'exécution sur cet appareil. Bien que ce numéro puisse être écrit, utilisez-le avec précaution</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeTemperatureOutput</Key>
-			<Value>Lecture actuelle de la température du réseau de sortie de l'appareil</Value>
+			<Value>La température actuelle lue du réseau de sortie de l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypePressureOutput2</Key>
-			<Value>Lecture actuelle de la pression du réseau de sortie 2 de l'appareil</Value>
+			<Value>La pression actuelle lue du réseau de sortie 2 de l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeTemperatureOutput2</Key>
-			<Value>Lecture actuelle de la température du réseau de sortie 2 de l'appareil</Value>
+			<Value>La température actuelle lue du réseau de sortie 2 de l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypePressureExternal</Key>
@@ -16394,7 +16438,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>LogicTypeCharge</Key>
-			<Value>La charge actuelle que l'appareil a</Value>
+			<Value>La charge actuelle de l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeSetting</Key>
@@ -16610,15 +16654,15 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>LogicTypeRatio</Key>
-			<Value>Valeur spécifique au contexte en fonction de l'appareil, ratio basé de 0 à 1 </Value>
+			<Value>Valeur spécifique au contexte en fonction de l'appareil, ratio de 0 à 1 </Value>
 		</Record>
 		<Record>
 			<Key>LogicTypePowerPotential</Key>
-			<Value>Quelle quantité d'énergie l'appareil ou le réseau peut-il fournir</Value>
+			<Value>Quantité d'énergie que l'appareil ou le réseau peut potentiellement fournir</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypePowerActual</Key>
-			<Value>Quelle quantité d'énergie l'appareil ou le réseau utilise-t-il réellement</Value>
+			<Value>Quantité d'énergie que l'appareil ou le réseau utilise réellement</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeQuantity</Key>
@@ -16646,7 +16690,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>LogicTypeRequiredPower</Key>
-			<Value>La quantité de puissance de fonctionnement inactive, n'inclut pas nécessairement la puissance demandé supplémentaire</Value>
+			<Value>La quantité de puissance de fonctionnement inactive, n'inclut pas nécessairement la puissance demandée supplémentaire</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeHorizontalRatio</Key>
@@ -16693,7 +16737,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>LogicTypeRecipeHash</Key>
-			<Value>Le Hash de la recette que l'appareil est actuellement configuré à produire 
+			<Value>Le Hash de la recette que l'appareil est actuellement configuré pour produire 
 (c'est un identifiant numérique unique pour tous les objets identiques)</Value>
 		</Record>
 		<Record>
@@ -16775,11 +16819,11 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>LogicTypeCompletionRatio</Key>
-			<Value>Comment compléter la production actuelle pour cet appareil, entre 0 et 1</Value>
+			<Value>Ratio d'achèvement de la production actuelle pour cet appareil, entre 0 et 1</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeClearMemory</Key>
-			<Value>Lorsqu'il est configuré sur 1, efface la mémoire du compteur (par exemple ExportCount). Va se remettre à 0 lorsqu'il est actionnée</Value>
+			<Value>Lorsqu'il est configuré sur 1, efface la mémoire du compteur (par exemple ExportCount). Va se remettre à 0 lorsqu'il est actionné</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeExportCount</Key>
@@ -16827,7 +16871,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>LogicTypeOutput</Key>
-			<Value>L'opération de sortie pour un appareil de gestion de tri, tel qu'un empileur ou un trieur, en mode logique, l'appareil n'actionne qu'une seule répétition lorsqu'il est configuré à zéro ou au-dessus, puis de nouveau à -1 et attend d'autres instructions</Value>
+			<Value>L'opération de sortie pour un appareil de gestion de tri, tel qu'un empileur ou un trieur, en mode logique, l'appareil n'effectue qu'une seule répétition lorsqu'il est configuré à zéro ou au-dessus, puis de nouveau à -1 et attend d'autres instructions</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypePressureSetting</Key>
@@ -16863,7 +16907,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>LogicTypeVelocityMagnitude</Key>
-			<Value>La magnitude actuelle du vecteur vitesse</Value>
+			<Value>L'amplitude actuelle du vecteur vitesse</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeVelocityRelativeX</Key>
@@ -16884,11 +16928,11 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>LogicTypeForceWrite</Key>
-			<Value>Force les logiques d'écriture à réécrire la valeur</Value>
+			<Value>Force les appareils d'écriture logique à réécrire la valeur</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeSignalStrength</Key>
-			<Value>Renvoie la puissance du signal le plus fort reçu de satellite</Value>
+			<Value>Renvoie le décalage angulaire du contact le plus fort</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeSignalID</Key>
@@ -16961,11 +17005,11 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>LogicSlotTypeMature</Key>
-			<Value>Renvoie 1 si la plante dans cette emplacement est mature, 0 quand il n'est pas</Value>
+			<Value>Renvoie 1 si la plante dans cet emplacement est mature, 0 quand elle n'est pas</Value>
 		</Record>
 		<Record>
 			<Key>LogicSlotTypeSeeding</Key>
-			<Value>Renvoie si une plante est en train de produire des graines (prêtes à être récoltées). Renvoie 1 si en production de graines ou 0 sinon.</Value>
+			<Value>Indique si une plante produit des graines (prêtes à être récoltées). Renvoie 1 si elle est en production de graines ou 0 sinon.</Value>
 		</Record>
 		<Record>
 			<Key>LogicSlotTypeHarvestedHash</Key>
@@ -16982,11 +17026,11 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>LogicSlotTypePressure</Key>
-			<Value>Renvoie la pression interne de l'objet dans l'emplacement</Value>
+			<Value>Renvoie la pression interne de l'atmosphère de l'objet dans l'emplacement</Value>
 		</Record>
 		<Record>
 			<Key>LogicSlotTypeTemperature</Key>
-			<Value>Renvoie la température interne de l'objet dans l'emplacement</Value>
+			<Value>Renvoie la température interne de l'atmosphère  de l'objet dans l'emplacement</Value>
 		</Record>
 		<Record>
 			<Key>LogicSlotTypeCharge</Key>
@@ -16999,16 +17043,16 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		<Record>
 			<Key>LogicSlotTypeClass</Key>
 			<Value>Renvoie un nombre entier représentant la classe de l'objet :
-0 : Aucun 
-1 : Casque 
-2 : Combinaison 
-3 : Sac à dos 
-4 : Filtre à gaz 
-5 : Bouteille de gaz 
-6 : Carte mère 
-7 : Circuit imprimé 
-8 : Disquette de données 
-9 : Organe 
+ 0 : Aucun 
+ 1 : Casque 
+ 2 : Combinaison 
+ 3 : Sac à dos 
+ 4 : Filtre à gaz 
+ 5 : Bouteille de gaz 
+ 6 : Carte mère 
+ 7 : Circuit imprimé 
+ 8 : Disquette de données 
+ 9 : Organe 
 10 : Minerais/glaces/mélanges de réactifs 
 11 : Plante 
 12 : Uniforme 
@@ -17274,7 +17318,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>SettingsP2PHostNote</Key>
-			<Value>Si l'hôte P2P est activé, Stationeers utilisera le relais de paquets de Steam afin que vous puissiez jouer avec votre ami en NAT ou VPN. Il n'est pas compatible avec TCP/IP et forcer ne pas annoncer le serveur.</Value>
+			<Value>Si l'hôte P2P est activé, Stationeers utilisera le relais de paquets de Steam afin que vous puissiez jouer avec votre ami en NAT ou VPN. Il n'est pas compatible avec TCP/IP et forcer à ne pas annoncer le serveur.</Value>
 		</Record>
 		<Record>
 			<Key>SettingsSavePath</Key>
@@ -17338,7 +17382,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>ContactTradeRequestFail</Key>
-			<Value>La navette du commerçant nécessite un atterrissage sûre. Veuillez vous assurer que l’aire d’atterrissage soit dégagé et connecté au réseau. Un distributeur automatique est obligatoire pour procéder aux échanges.</Value>
+			<Value>La navette du commerçant nécessite un atterrissage sûr. Veuillez vous assurer que l’aire d’atterrissage soit dégagé et connecté au réseau. Un distributeur automatique est obligatoire pour procéder aux échanges.</Value>
 		</Record>
 		<Record>
 			<Key>ContactTradeRequestFailInUse</Key>
@@ -17438,7 +17482,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>OcclusionTickSpeed</Key>
-			<Value>Vitesse de 1 cycle de 0,5 seconde (tick) de l'occlusion masqué</Value>
+			<Value>Vitesse de 1 cycle de 0,5 seconde (tick) de l'occlusion masquée</Value>
 		</Record>
 		<Record>
 			<Key>RoomControlTickSpeed</Key>
@@ -17446,15 +17490,15 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>LogicTypeTargetX</Key>
-			<Value>La position actuelle dans l'axe X en coordonnées du monde</Value>
+			<Value>La position cible dans l'axe X en coordonnées du monde</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeTargetY</Key>
-			<Value>La position actuelle dans l'axe Y en coordonnées du monde</Value>
+			<Value>La position cible dans l'axe Y en coordonnées du monde</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeTargetZ</Key>
-			<Value>La position actuelle dans l'axe Z en coordonnées du monde</Value>
+			<Value>La position cible dans l'axe Z en coordonnées du monde</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeSettingInputHash</Key>
@@ -17478,7 +17522,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>SettingsWorldOrigin</Key>
-			<Value>Paramètres du monde</Value>
+			<Value>Repositionnement de l'origine du monde</Value>
 		</Record>
 		<Record>
 			<Key>GameMenuButtonPause</Key>
@@ -18098,7 +18142,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>CurrentResearchPodType</Key>
-			<Value>Renvoie le type de capsule stocké dans la machine..</Value>
+			<Value>Renvoie le type de capsule stocké dans la machine.</Value>
 		</Record>
 		<Record>
 			<Key>MineablesInVicinity</Key>
@@ -19409,7 +19453,7 @@ Autant dire, il produit presque tout.
 			<Key>StationeersDesc</Key>
 			<Value>Au début du 22e siècle, la Terre sortait d’un cataclysme. Ses ressources s’érodaient, notre population diminuait, à l'époque l'esprit était à la reconstruction.
 Initié par l’{LINK:ODA;ODA} (Agence de Développement Extraterrestre) en 2095CE, le programme Stationeers était dédié à un idéal unique : garder l’humanité la tête vers les étoiles.
-Les stationnaires sont tout : astronautes, ingénieurs et explorateurs. Ils sont déployés avec un équipement et des outils limités, formés pour faire plus avec moins. Leur travail consiste à fournir une infrastructure pour les humains dans l’espace, à une fraction du coût des programmes spatiaux traditionnels.
+Les Stationeers sont tout : astronautes, ingénieurs et explorateurs. Ils sont déployés avec un équipement et des outils limités, formés pour faire plus avec moins. Leur travail consiste à fournir une infrastructure pour les humains dans l’espace, à une fraction du coût des programmes spatiaux traditionnels.
 Capables de construire et de maintenir des bases n’importe où de la Lune à Mimas et au-delà, les Stationeers sont notre avant-garde dans le cosmos. Formés à la survie hors-monde, aux techniques minières et de construction, à la métallurgie de base, à l’électronique, à la fuséologie, à l’hydroponie et à des sciences plus " arcaniques", les Stationeers font ce qu’ils doivent faire pour survivre et prospérer.
 Réputé pour n’avoir aucun critère d’entrée, il n’existe pas de {LINK:Stationeers;Stationeer} "typique". Le profilage psychologique suggère que les cadets qui réussissent sont pragmatiques et monomentaux, mais certains des plus célèbres stationnaires n’ont ni l’une ni l’autre de ces qualités.
 Le programme Stationeers, qui est fondamentalement ouvert à toute l’humanité, recrute dans les domaines du génie civil, des industries militaires et aérospatiales, du développement de logiciels, des groupes miniers, ainsi que des domaines scientifiques et même des ordres religieux.
@@ -20110,6 +20154,11 @@ L'{GAS:LiquidHydrogen} introduit dans l'atmosphère s'évaporera rapidement en {
 			<Value>Température maximale du liquide de refroidissement :</Value>
 		</Record>
 		<Record>
+			<Key>StationpediaCoolantTemperatureOperatingRange</Key>
+			<Value>Liquide de refroid. :
+</Value>
+		</Record>
+		<Record>
 			<Key>StationpediaThermalConductivityConvection</Key>
 			<Value>Convection thermique :
 </Value>
@@ -20120,8 +20169,22 @@ L'{GAS:LiquidHydrogen} introduit dans l'atmosphère s'évaporera rapidement en {
 </Value>
 		</Record>
 		<Record>
+			<Key>StationpediaSolarHeating</Key>
+			<Value>Chauffage solaire :</Value>
+		</Record>
+		<Record>
 			<Key>StationpediaMovementSpeedModifier</Key>
 			<Value>Vitesse de déplacement :</Value>
+		</Record>
+		<Record>
+			<Key>StationpediaOperatingTemperatureRange</Key>
+			<Value>Fonctionnement idéal :
+</Value>
+		</Record>
+		<Record>
+			<Key>StationpediaMaxOperatingTemperatureRange</Key>
+			<Value>Fonctionnement max. :
+</Value>
 		</Record>
 		<Record>
 			<Key>StationpediaThermalSaturation</Key>
@@ -22346,6 +22409,10 @@ DU SAS</Value>
 		<Record>
 			<Key>SnowWeather</Key>
 			<Value>Neige</Value>
+		</Record>
+		<Record>
+			<Key>SolarStormWeather</Key>
+			<Value>Tempête solaire</Value>
 		</Record>
 		<Record>
 			<Key>StationpediaPhaseChangeDiagramPressureTitle</Key>
@@ -24808,7 +24875,7 @@ Cela va &lt;color=red&gt;supprimer uniquement la sauvegarde de {LOCAL:WorldSaveN
 		</Record>
 		<Record>
 			<Key>CustomSkullName</Key>
-			<Value>Crâne humain ({LOCAL:UserName})</Value>
+			<Value>Crâne humain appartenant à ({LOCAL:UserName})</Value>
 		</Record>
 		<Record>
 			<Key>RatioTooltip</Key>
@@ -30013,6 +30080,250 @@ L'objet échangé est invalide.</Value>
 		<Record>
 			<Key>CancelLoadButton</Key>
 			<Value>Annuler</Value>
+		</Record>
+		<Record>
+			<Key>LandingGear</Key>
+			<Value>Train d'atterrissage</Value>
+		</Record>
+		<Record>
+			<Key>Activate</Key>
+			<Value>Activer</Value>
+		</Record>
+		<Record>
+			<Key>Deactivate</Key>
+			<Value>Désactiver</Value>
+		</Record>
+		<Record>
+			<Key>LogicDescriptionStackSize</Key>
+			<Value>Retourne la taille de la pile de la mémoire interne de l'appareil.</Value>
+		</Record>
+		<Record>
+			<Key>CantEquipThisBackpack</Key>
+			<Value>{LOCAL:InvalidItem} ne peut pas être équipé lorsque vous portez {LOCAL:CurrentlyEquipped}.</Value>
+		</Record>
+		<Record>
+			<Key>ProportionalGainDescription</Key>
+			<Value>Gain proportionnel du contrôleur PID. Cette valeur détermine à quel point le contrôleur réagit à l'erreur entre la consigne et la variable de processus. Une valeur plus élevée permet une réponse plus rapide, mais peut entraîner des dépassements ou une instabilité.</Value>
+		</Record>
+		<Record>
+			<Key>IntegralGainDescription</Key>
+			<Value>Gain intégral du contrôleur PID. Cette valeur détermine à quel point le contrôleur réagit à l'erreur accumulée au fil du temps. Une valeur plus élevée peut aider à éliminer les erreurs en régime permanent, mais peut aussi entraîner des oscillations ou une instabilité.</Value>
+		</Record>
+		<Record>
+			<Key>DerivativeGainDescription</Key>
+			<Value>Gain dérivé du contrôleur PID. Cette valeur détermine à quel point le contrôleur réagit au taux de variation de l'erreur. Une valeur plus élevée peut aider à amortir les oscillations et améliorer la stabilité, mais peut aussi amplifier le bruit.</Value>
+		</Record>
+		<Record>
+			<Key>ResetDescription</Key>
+			<Value>Réinitialise l'état interne du contrôleur PID, effaçant toute erreur accumulée et réinitialisant la sortie à zéro. Utile pour repartir de zéro ou récupérer d'un état instable.</Value>
+		</Record>
+		<Record>
+			<Key>SetpointDescription</Key>
+			<Value>Valeur cible que le contrôleur PID cherche à atteindre. Il s'agit de la valeur souhaitée pour la variable de processus, et le contrôleur ajustera sa sortie pour minimiser la différence entre la consigne et la variable de processus.</Value>
+		</Record>
+		<Record>
+			<Key>MinimumDescription</Key>
+			<Value>Valeur minimale pour l'appareil logique fourni.</Value>
+		</Record>
+		<Record>
+			<Key>NetworkFaultDescription</Key>
+			<Value>Le réseau connecté rencontre un défaut, comme une fuite ou une autre panne.</Value>
+		</Record>
+		<Record>
+			<Key>LogicDescriptionMaturityRatio</Key>
+			<Value>Indique à quel point la plante est proche de la maturité, représenté par une fraction entre 0 et 1, où 1 signifie mature et prête à être récoltée.</Value>
+		</Record>
+		<Record>
+			<Key>LogicDescriptionSeedingRatio</Key>
+			<Value>Indique à quel point la plante est proche de la production de graines, représenté par une fraction entre 0 et 1, où 1 signifie qu'elle produira des graines lors de la récolte.</Value>
+		</Record>
+		<Record>
+			<Key>ScriptDescriptionBdnvl</Key>
+			<Value>Passe à la ligne a si l'appareil fourni n'est pas valide pour une instruction de chargement du type logique fourni.</Value>
+		</Record>
+		<Record>
+			<Key>ScriptDescriptionBdnvs</Key>
+			<Value>Passe à la ligne a si l'appareil fourni n'est pas valide pour une instruction de stockage du type logique fourni.</Value>
+		</Record>
+		<Record>
+			<Key>ScriptDescriptionPow</Key>
+			<Value>Stocke le résultat de l'élévation de a à la puissance b dans le registre. Suit la norme IEEE-754 pour l'arithmétique en virgule flottante.</Value>
+		</Record>
+		<Record>
+			<Key>ScriptDescriptionExt</Key>
+			<Value>Extrait un champ de bits de a, commençant à b pour une longueur de c, et le place dans le registre fourni. La charge utile ne doit pas dépasser 53 bits en longueur finale.</Value>
+		</Record>
+		<Record>
+			<Key>ScriptDescriptionIns</Key>
+			<Value>Insère un champ de bits de a dans le registre fourni, commençant à b pour une longueur de c. La charge utile ne doit pas dépasser 53 bits en longueur finale.</Value>
+		</Record>
+		<Record>
+			<Key>ScriptDescriptionLerp</Key>
+			<Value>Effectue une interpolation linéaire entre a et b selon le ratio c, et place le résultat dans le registre fourni. Le ratio c sera limité entre 0 et 1.</Value>
+		</Record>
+		<Record>
+			<Key>IceCrusherState</Key>
+			<Value>État du broyeur à glace</Value>
+		</Record>
+		<Record>
+			<Key>InternalAtmosphere</Key>
+			<Value>Atmosphère interne</Value>
+		</Record>
+		<Record>
+			<Key>IceCrusherSetting</Key>
+			<Value>Chauffera si la température est inférieure à {LOCAL:Temperature}</Value>
+		</Record>
+		<Record>
+			<Key>IceCrusherHeater</Key>
+			<Value>Élément chauffant</Value>
+		</Record>
+		<Record>
+			<Key>IceCrusherHeating</Key>
+			<Value>Fonctionnement ralenti pendant le chauffage jusqu'à la température cible de {LOCAL:Temperature}</Value>
+		</Record>
+		<Record>
+			<Key>IceCrusherIndicatorHeat</Key>
+			<Value>Chauffage</Value>
+		</Record>
+		<Record>
+			<Key>IceCrusherIndicatorIdle</Key>
+			<Value>Inactif</Value>
+		</Record>
+		<Record>
+			<Key>IceCrusherAtmosFull</Key>
+			<Value>L'atmosphère interne est pleine</Value>
+		</Record>
+		<Record>
+			<Key>BreathingAtmosphere</Key>
+			<Value>Atmosphère respirée par l'occupant</Value>
+		</Record>
+		<Record>
+			<Key>CryogenicLiquid</Key>
+			<Value>Liquide cryogénique</Value>
+		</Record>
+		<Record>
+			<Key>NotPureLiquidNitrogen</Key>
+			<Value>Le liquide n'est pas de l'azote liquide pur</Value>
+		</Record>
+		<Record>
+			<Key>CryoLiquidVolumeTooLow</Key>
+			<Value>Le volume de liquide cryogénique doit être supérieur à {LOCAL:Volume}</Value>
+		</Record>
+		<Record>
+			<Key>CryoLiquidTemperatureTooHigh</Key>
+			<Value>Le liquide cryogénique doit être en dessous de {LOCAL:Temperature}</Value>
+		</Record>
+		<Record>
+			<Key>CryoWillRevive</Key>
+			<Value>Ressuscitera les patients décédés</Value>
+		</Record>
+		<Record>
+			<Key>CryoState</Key>
+			<Value>État cryogénique</Value>
+		</Record>
+		<Record>
+			<Key>SleeperState</Key>
+			<Value>État du caisson de stase</Value>
+		</Record>
+		<Record>
+			<Key>SleeperMetabolicSuspension</Key>
+			<Value>Suspension métabolique active</Value>
+		</Record>
+		<Record>
+			<Key>SleeperDoorIsOpen</Key>
+			<Value>Fonctionnement désactivé tant que la porte est ouverte</Value>
+		</Record>
+		<Record>
+			<Key>CryoWillHeal</Key>
+			<Value>Soignera les patients blessés</Value>
+		</Record>
+		<Record>
+			<Key>Vacuum</Key>
+			<Value>Vide</Value>
+		</Record>
+		<Record>
+			<Key>Null</Key>
+			<Value>Nul</Value>
+		</Record>
+		<Record>
+			<Key>VehicleIsNotDamaged</Key>
+			<Value>{LOCAL:Rover} n'est pas endommagé</Value>
+		</Record>
+		<Record>
+			<Key>PatchingRecipe</Key>
+			<Value>{LOCAL:ModName} corrige la recette pour {LOCAL:PrefabName}</Value>
+		</Record>
+		<Record>
+			<Key>UnknownMod</Key>
+			<Value>Inconnu</Value>
+		</Record>
+		<Record>
+			<Key>ActionRepairRover</Key>
+			<Value>Réparer le véhicule</Value>
+		</Record>
+		<Record>
+			<Key>SlotVacant</Key>
+			<Value>Libre</Value>
+		</Record>
+		<Record>
+			<Key>SlotOccupant</Key>
+			<Value>Occupant</Value>
+		</Record>
+		<Record>
+			<Key>DeviceNotForSpecies</Key>
+			<Value>L'appareil ne peut pas être utilisé par {LOCAL:Species}</Value>
+		</Record>
+		<Record>
+			<Key>DeviceNotConstructed</Key>
+			<Value>{LOCAL:Thing} n'a pas été entièrement construit</Value>
+		</Record>
+		<Record>
+			<Key>DevicePressureTooHigh</Key>
+			<Value>{LOCAL:Thing} dépasse sa pression interne maximale</Value>
+		</Record>
+		<Record>
+			<Key>RocketGasCollectActionInfo</Key>
+			<Value>Collecteur : {LOCAL:OnOff}, Prochaine récolte : {LOCAL:Yield}</Value>
+		</Record>
+		<Record>
+			<Key>CryoAtmosphereIsUnsafe</Key>
+			<Value>L'atmosphère respirée est dangereuse</Value>
+		</Record>
+		<Record>
+			<Key>CryoNoAtmosphericInput</Key>
+			<Value>Aucun réseau de gaz respirable</Value>
+		</Record>
+		<Record>
+			<Key>CryoNoLiquidInput</Key>
+			<Value>Aucun réseau de liquide cryogénique</Value>
+		</Record>
+		<Record>
+			<Key>TradeActionData</Key>
+			<Value>Inclut {LOCAL:Value} de données</Value>
+		</Record>
+		<Record>
+			<Key>RegionName</Key>
+			<Value>Région : {LOCAL:Name}</Value>
+		</Record>
+		<Record>
+			<Key>OldSaveDetected</Key>
+			<Value>1 ancienne sauvegarde détectée</Value>
+		</Record>
+		<Record>
+			<Key>OldSavesDetected</Key>
+			<Value>{LOCAL:Count} anciennes sauvegardes détectées</Value>
+		</Record>
+		<Record>
+			<Key>DeleteOldSave</Key>
+			<Value>Êtes-vous sûr de vouloir supprimer 1 ancienne sauvegarde ?</Value>
+		</Record>
+		<Record>
+			<Key>DeleteOldSaves</Key>
+			<Value>Êtes-vous sûr de vouloir supprimer {LOCAL:Count} anciennes sauvegardes ?</Value>
+		</Record>
+		<Record>
+			<Key>SuitOperatingRangeText</Key>
+			<Value>de {LOCAL:Minimum} à {LOCAL:Maximum}</Value>
 		</Record>
 		<Record>
 			<Key>LogicDescriptionAltitude</Key>
