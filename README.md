@@ -14,7 +14,7 @@ Overwrite the existing files when prompted.<br/>
 | ------------- | -------------------- | -------------------------- |
 | CN            | Simplefied Chinese   | MRhythm                    |
 | RU            | Russian              | AlexusYT                   |
-| FR            | French               | CedricDx, Gosti_FR         |
+| FR            | French               | CedricDx                   |
 
 
 
