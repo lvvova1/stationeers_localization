@@ -1,481 +1,481 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>English</Name>
-  <Code>EN</Code>
+  <Name>Українська</Name>
+  <Code>UA</Code>
   <Font>font_english</Font>
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
-      <Value>Flour</Value>
-      <Unit>g</Unit>
+      <Value>Борошно</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Milk</Key>
-      <Value>Milk</Value>
-      <Unit>ml</Unit>
+      <Value>Молоко</Value>
+      <Unit>мл</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Egg</Key>
-      <Value>Egg</Value>
+      <Value>Яйце</Value>
       <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
-      <Value>Iron</Value>
-      <Unit>g</Unit>
+      <Value>Залізо</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Gold</Key>
-      <Value>Gold</Value>
-      <Unit>g</Unit>
+      <Value>Золото</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Carbon</Key>
-      <Value>Carbon</Value>
-      <Unit>g</Unit>
+      <Value>Вуглець</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Uranium</Key>
-      <Value>Uranium</Value>
-      <Unit>g</Unit>
+      <Value>Уран</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Copper</Key>
-      <Value>Copper</Value>
-      <Unit>g</Unit>
+      <Value>Мідь</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Steel</Key>
-      <Value>Steel</Value>
-      <Unit>g</Unit>
+      <Value>Сталь</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Hydrocarbon</Key>
-      <Value>Hydrocarbon</Value>
-      <Unit>g</Unit>
+      <Value>Вуглеводень</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Silver</Key>
-      <Value>Silver</Value>
-      <Unit>g</Unit>
+      <Value>Срібло</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Nickel</Key>
-      <Value>Nickel</Value>
-      <Unit>g</Unit>
+      <Value>Нікель</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Lead</Key>
-      <Value>Lead</Value>
-      <Unit>g</Unit>
+      <Value>Свинець</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Electrum</Key>
-      <Value>Electrum</Value>
-      <Unit>g</Unit>
+      <Value>Електрум</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Invar</Key>
-      <Value>Invar</Value>
-      <Unit>g</Unit>
+      <Value>Інвар</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Constantan</Key>
-      <Value>Constantan</Value>
-      <Unit>g</Unit>
+      <Value>Константан</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Solder</Key>
-      <Value>Solder</Value>
-      <Unit>g</Unit>
+      <Value>Припій</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Plastic</Key>
-      <Value>Plastic</Value>
-      <Unit>g</Unit>
+      <Value>Пластик</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Silicon</Key>
-      <Value>Silicon</Value>
-      <Unit>g</Unit>
+      <Value>Кремній</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>SalicylicAcid</Key>
-      <Value>Salicylic Acid</Value>
-      <Unit>g</Unit>
+      <Value>Саліцилова Кислота</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Alcohol</Key>
-      <Value>Alcohol</Value>
-      <Unit>ml</Unit>
+      <Value>Алкоголь</Value>
+      <Unit>мл</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Oil</Key>
-      <Value>Oil</Value>
-      <Unit>ml</Unit>
+      <Value>Мастило</Value>
+      <Unit>мл</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Potato</Key>
-      <Value>Potato</Value>
+      <Value>Картопля</Value>
       <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Tomato</Key>
-      <Value>Tomato</Value>
+      <Value>Помідор</Value>
       <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Fenoxitone</Key>
-      <Value>Fenoxitone</Value>
-      <Unit>g</Unit>
+      <Value>Фенокситон</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorRed</Key>
-      <Value>Red Coloring</Value>
-      <Unit>g</Unit>
+      <Value>Червоний колір</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorGreen</Key>
-      <Value>Green Coloring</Value>
-      <Unit>g</Unit>
+      <Value>Зелений колір</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorBlue</Key>
       <Value>Blue Coloring</Value>
-      <Unit>g</Unit>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorYellow</Key>
       <Value>Yellow Coloring</Value>
-      <Unit>g</Unit>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorOrange</Key>
       <Value>Orange Coloring</Value>
-      <Unit>g</Unit>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Pumpkin</Key>
-      <Value>Pumpkin</Value>
+      <Value>Гарбуз</Value>
       <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Rice</Key>
-      <Value>Rice</Value>
-      <Unit>g</Unit>
+      <Value>Рис</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Waspaloy</Key>
-      <Value>Waspaloy</Value>
-      <Unit>g</Unit>
+      <Value>Васпалой</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Stellite</Key>
-      <Value>Stellite</Value>
-      <Unit>g</Unit>
+      <Value>Стелліт</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Inconel</Key>
-      <Value>Inconel</Value>
-      <Unit>g</Unit>
+      <Value>Інконель</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Hastelloy</Key>
-      <Value>Hastelloy</Value>
-      <Unit>g</Unit>
+      <Value>Гастеллой</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Astroloy</Key>
-      <Value>Astroloy</Value>
-      <Unit>g</Unit>
+      <Value>Астролой</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Cobalt</Key>
-      <Value>Cobalt</Value>
-      <Unit>g</Unit>
+      <Value>Кобальт</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Corn</Key>
-      <Value>Corn</Value>
+      <Value>Кукурудза</Value>
       <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Wheat</Key>
-      <Value>Wheat</Value>
+      <Value>Пшениця</Value>
       <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Biomass</Key>
-      <Value>Biomass</Value>
+      <Value>Біомасса</Value>
       <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Soy</Key>
-      <Value>Soy</Value>
+      <Value>Соя</Value>
       <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Mushroom</Key>
-      <Value>Mushroom</Value>
-      <Unit>g</Unit>
+      <Value>Гриб</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Sugar</Key>
-      <Value>Sugar</Value>
-      <Unit>g</Unit>
+      <Value>Цукор</Value>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Cocoa</Key>
-      <Value>Cocoa</Value>
-      <Unit>g</Unit>
+      <Value>Какао</Value>
+      <Unit>г</Unit>
     </RecordReagent>
   </Reagents>
   <Gases>
     <Record>
       <Key>Oxygen</Key>
-      <Value>Oxygen</Value>
+      <Value>Оксиген</Value>
     </Record>
     <Record>
       <Key>CarbonDioxide</Key>
-      <Value>Carbon Dioxide</Value>
+      <Value>Карбон Діоксид</Value>
     </Record>
     <Record>
       <Key>Nitrogen</Key>
-      <Value>Nitrogen</Value>
+      <Value>Нітроген</Value>
     </Record>
     <Record>
       <Key>Volatiles</Key>
-      <Value>Volatiles</Value>
+      <Value>Леткі речовини</Value>
     </Record>
     <Record>
       <Key>Pollutant</Key>
-      <Value>Pollutant</Value>
+      <Value>Токсини</Value>
     </Record>
     <Record>
       <Key>Water</Key>
-      <Value>Water</Value>
+      <Value>Вода</Value>
     </Record>
     <Record>
       <Key>PollutedWater</Key>
-      <Value>Polluted Water</Value>
+      <Value>Токсична Вода</Value>
     </Record>
     <Record>
       <Key>NitrousOxide</Key>
-      <Value>Nitrous Oxide</Value>
+      <Value>Нітроген(I) Оксид</Value>
     </Record>
     <Record>
       <Key>LiquidNitrogen</Key>
-      <Value>Liquid Nitrogen</Value>
+      <Value>Рідкий Нітроген</Value>
     </Record>
     <Record>
       <Key>LiquidOxygen</Key>
-      <Value>Liquid Oxygen</Value>
+      <Value>Рідкий Оксиген</Value>
     </Record>
     <Record>
       <Key>LiquidVolatiles</Key>
-      <Value>Liquid Volatiles</Value>
+      <Value>Рідкі Леткі речовини</Value>
     </Record>
     <Record>
       <Key>Steam</Key>
-      <Value>Steam</Value>
+      <Value>Пар</Value>
     </Record>
     <Record>
       <Key>LiquidCarbonDioxide</Key>
-      <Value>Liquid Carbon Dioxide</Value>
+      <Value>Рідкий Карбон Діоксид</Value>
     </Record>
     <Record>
       <Key>LiquidPollutant</Key>
-      <Value>Liquid Pollutant</Value>
+      <Value>Рідкі Токсини</Value>
     </Record>
     <Record>
       <Key>LiquidNitrousOxide</Key>
-      <Value>Liquid Nitrous Oxide</Value>
+      <Value>Рідкий Нітроген(I) Оксид</Value>
     </Record>
     <Record>
       <Key>Hydrogen</Key>
-      <Value>Hydrogen</Value>
+      <Value>Гідроген</Value>
     </Record>
     <Record>
       <Key>LiquidHydrogen</Key>
-      <Value>Liquid Hydrogen</Value>
+      <Value>Рідкий Гідроген</Value>
     </Record>
     <Record>
       <Key>Air</Key>
-      <Value>Air Mix</Value>
+      <Value>Суміш Повітря</Value>
     </Record>
     <Record>
       <Key>Fuel</Key>
-      <Value>Fuel Mix</Value>
+      <Value>Суміш Палива</Value>
     </Record>
   </Gases>
   <Actions>
     <Record>
       <Key>Reload</Key>
-      <Value>Reload</Value>
+      <Value>Перезарядка</Value>
     </Record>
     <Record>
       <Key>Paint</Key>
-      <Value>Paint</Value>
+      <Value>Фарбувати</Value>
     </Record>
     <Record>
       <Key>Mine</Key>
-      <Value>Mine</Value>
+      <Value>Добувати</Value>
     </Record>
     <Record>
       <Key>Swap</Key>
-      <Value>Swap</Value>
+      <Value>Обміняти</Value>
     </Record>
     <Record>
       <Key>Clear</Key>
-      <Value>Clear</Value>
+      <Value>Очистити</Value>
     </Record>
     <Record>
       <Key>Collect</Key>
-      <Value>Collect</Value>
+      <Value>Забрати</Value>
     </Record>
     <Record>
       <Key>Add</Key>
-      <Value>Add</Value>
+      <Value>Додати</Value>
     </Record>
     <Record>
       <Key>Insert</Key>
-      <Value>Insert</Value>
+      <Value>Вставити</Value>
     </Record>
     <Record>
       <Key>Remove</Key>
-      <Value>Remove</Value>
+      <Value>Видалити</Value>
     </Record>
     <Record>
       <Key>Pickup</Key>
-      <Value>Pickup</Value>
+      <Value>Підібрати</Value>
     </Record>
     <Record>
       <Key>Take</Key>
-      <Value>Take</Value>
+      <Value>Узяти</Value>
     </Record>
     <Record>
       <Key>Build</Key>
-      <Value>Build</Value>
+      <Value>Будувати</Value>
     </Record>
     <Record>
       <Key>Consume</Key>
-      <Value>Consume</Value>
+      <Value>Спожити</Value>
     </Record>
     <Record>
       <Key>ConsumeFail</Key>
-      <Value>Failed: Helmet Closed</Value>
+      <Value>Не вдалось: Шолом закритий</Value>
     </Record>
     <Record>
       <Key>Plant</Key>
-      <Value>Plant</Value>
+      <Value>Садити</Value>
     </Record>
     <Record>
       <Key>Water</Key>
-      <Value>Water</Value>
+      <Value>Поливати</Value>
     </Record>
     <Record>
       <Key>Harvest</Key>
-      <Value>Harvest</Value>
+      <Value>Зібрати</Value>
     </Record>
     <Record>
       <Key>Open</Key>
-      <Value>Open</Value>
+      <Value>Відчинити</Value>
     </Record>
     <Record>
       <Key>Close</Key>
-      <Value>Close</Value>
+      <Value>Зачинити</Value>
     </Record>
     <Record>
       <Key>Opened</Key>
-      <Value>Opened</Value>
+      <Value>Відчинено</Value>
     </Record>
     <Record>
       <Key>Closed</Key>
-      <Value>Closed</Value>
+      <Value>Зачинено</Value>
     </Record>
     <Record>
       <Key>Off</Key>
-      <Value>Off</Value>
+      <Value>Вимк</Value>
     </Record>
     <Record>
       <Key>On</Key>
-      <Value>On</Value>
+      <Value>Увмк</Value>
     </Record>
     <Record>
       <Key>Powered</Key>
-      <Value>Powered</Value>
+      <Value>Заживлений</Value>
     </Record>
     <Record>
       <Key>Unpowered</Key>
-      <Value>Unpowered</Value>
+      <Value>Знеструмлений</Value>
     </Record>
     <Record>
       <Key>False</Key>
-      <Value>False</Value>
+      <Value>Хиба</Value>
     </Record>
     <Record>
       <Key>True</Key>
-      <Value>True</Value>
+      <Value>Істинна</Value>
     </Record>
     <Record>
       <Key>Construct</Key>
-      <Value>Construct</Value>
+      <Value>Конструювати</Value>
     </Record>
     <Record>
       <Key>Deconstruct</Key>
-      <Value>Deconstruct</Value>
+      <Value>Деконструювати</Value>
     </Record>
     <Record>
       <Key>Disconnect</Key>
-      <Value>Disconnect</Value>
+      <Value>Відключити</Value>
     </Record>
     <Record>
       <Key>Connect</Key>
-      <Value>Connect</Value>
+      <Value>Підключити</Value>
     </Record>
     <Record>
       <Key>Load</Key>
-      <Value>Load</Value>
+      <Value>Завантажити</Value>
     </Record>
     <Record>
       <Key>Unload</Key>
-      <Value>Unload</Value>
+      <Value>Вивантажити</Value>
     </Record>
     <Record>
       <Key>GetIn</Key>
-      <Value>Get In</Value>
+      <Value>Зайти</Value>
     </Record>
     <Record>
       <Key>Error</Key>
-      <Value>Error</Value>
+      <Value>Помилка</Value>
     </Record>
     <Record>
       <Key>Lock</Key>
-      <Value>Lock</Value>
+      <Value>Зачинити</Value>
     </Record>
     <Record>
       <Key>Unlock</Key>
-      <Value>Unlock</Value>
+      <Value>Відчинити</Value>
     </Record>
     <Record>
       <Key>Rename</Key>
-      <Value>Rename</Value>
+      <Value>Перейменувати</Value>
     </Record>
     <Record>
       <Key>Up</Key>
-      <Value>Up</Value>
+      <Value>Верх</Value>
     </Record>
     <Record>
       <Key>Down</Key>
-      <Value>Down</Value>
+      <Value>Вниз</Value>
     </Record>
     <Record>
       <Key>CallElevator</Key>
-      <Value>Call</Value>
+      <Value>Викликати</Value>
     </Record>
     <Record>
       <Key>Set</Key>
-      <Value>Set</Value>
+      <Value>Встановити</Value>
     </Record>
     <Record>
       <Key>Cycle</Key>

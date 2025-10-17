@@ -1,195 +1,195 @@
 ﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <Name>English</Name>
-  <Code>EN</Code>
+      <Name>Ukrainian</Name>
+  <Code>UA</Code>
   <Font>font_english</Font>
   <ScreenSpaceToolTips>
     <Record>
       <Key>StatusIconToxinName</Key>
-      <Value>Toxins</Value>
+      <Value>Токсини</Value>
     </Record>    
     <Record>
       <Key>StatusIconToxinDesc</Key>
-      <Value>Current toxicity level</Value>
+      <Value>Поточний рівень токсичності</Value>
     </Record>
     <Record>
       <Key>StatusIconToxinWarning</Key>
-      <Value>Needs attention</Value>
+      <Value>Потребує уваги</Value>
     </Record>
-        <Record>
+    <Record>
       <Key>StatusIconHydrationDesc</Key>
-      <Value>Hydration is running low</Value>
+      <Value>Рівень гідратації знижується</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationKey</Key>
-      <Value>Hydration Low</Value>
+      <Value>Низька гідратація</Value>
     </Record>
     <Record>
       <Key>HydrationCaution</Key>
-      <Value>Hydration Caution</Value>
+      <Value>Попередження про гідратацію</Value>
     </Record>
     <Record>
       <Key>HydrationCritical</Key>
-      <Value>Hydration Critical</Value>
+      <Value>Критичний рівень гідратації</Value>
     </Record>
     <Record>
       <Key>StatusIconToxinCritical</Key>
-      <Value>In a critical state</Value>
+      <Value>Критичний стан</Value>
     </Record>
     <Record>
       <Key>StatusIconOxygenName</Key>
-      <Value>Oxygen Supply</Value>
+      <Value>Постачання кисню</Value>
     </Record>
     <Record>
       <Key>StatusIconOxygenDesc</Key>
-      <Value>The atmosphere you are breathing is causing damage to your lungs.</Value>
+      <Value>Атмосфера, якою ви дихаєте, шкодить вашим легеням.</Value>
     </Record>
     <Record>
       <Key>StatusIconOxygenWarning</Key>
-      <Value>Suit's tank is getting low and needs attention</Value>
+      <Value>Рівень кисню в балоні низький — потрібна увага</Value>
     </Record>
     <Record>
       <Key>StatusIconOxyegnCritical</Key>
-      <Value>Suit's tank is critical, replace your oxygen tank</Value>
+      <Value>Критичний рівень кисню — замініть балон</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureName</Key>
-      <Value>Internal Pressure</Value>
+      <Value>Внутрішній тиск</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureDesc</Key>
-      <Value>Current pressure level, check suit pressure</Value>
+      <Value>Поточний рівень тиску — перевірте тиск у костюмі</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureWarning</Key>
-      <Value>Suit pressure is low</Value>
+      <Value>Тиск у костюмі низький</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureCritical</Key>
-      <Value>Suit pressure is critically low</Value>
+      <Value>Критично низький тиск у костюмі</Value>
     </Record>
     <Record>
       <Key>StatusIconTemperatureName</Key>
-      <Value>Internal Tempurature</Value>
+      <Value>Внутрішня температура</Value>
     </Record>
     <Record>
       <Key>StatusIconTemperatureDesc</Key>
-      <Value>Current temperature inside your suit</Value>
+      <Value>Поточна температура всередині костюма</Value>
     </Record>
     <Record>
       <Key>StatusIconTempuratureWarning</Key>
-      <Value>Displays Current Toxicity Level</Value>
+      <Value>Відображає поточний рівень токсичності</Value>
     </Record>
     <Record>
       <Key>StatusIconTempuratureCritical</Key>
-      <Value>Displays Current Toxicity Level</Value>
+      <Value>Відображає поточний рівень токсичності</Value>
     </Record>
     <Record>
       <Key>StatusIconLeakingName</Key>
-      <Value>Suit's Leaking</Value>
+      <Value>Костюм протікає</Value>
     </Record>
     <Record>
       <Key>StatusIconPowerName</Key>
-      <Value>Suit's Power Supply</Value>
+      <Value>Живлення костюма</Value>
     </Record>
     <Record>
       <Key>StatusIconPowerDesc</Key>
-      <Value>Power is running low</Value>
+      <Value>Рівень енергії низький</Value>
     </Record>
     <Record>
       <Key>StatusIconGravityName</Key>
-      <Value>Zero Gravity</Value>
+      <Value>Невагомість</Value>
     </Record>
     <Record>
       <Key>StatusIconJetpackName</Key>
-      <Value>Jetpack Active</Value>
+      <Value>Реактивний ранець активний</Value>
     </Record>
     <Record>
       <Key>StatusIconClimbingName</Key>
-      <Value>Climbing</Value>
+      <Value>Підіймання</Value>
     </Record>
     <Record>
       <Key>StatusIconLightName</Key>
-      <Value>Toggle Headlight</Value>
+      <Value>Перемкнути ліхтар</Value>
     </Record>
     <Record>
       <Key>StatusIconInternalsName</Key>
-      <Value>Toggle Helmet Open/Close</Value>
+      <Value>Відкрити/закрити шолом</Value>
     </Record>
     <Record>
       <Key>StatusIconHandPowerName</Key>
-      <Value>Toggle Item in-hand On/Off</Value>
+      <Value>Увімкнути/вимкнути предмет у руці</Value>
     </Record>
     <Record>
       <Key>StatusIconInSlotName</Key>
-      <Value>You are inside a slot</Value>
+      <Value>Ви всередині слота</Value>
     </Record>
     <Record>
       <Key>StatusIconHungerName</Key>
-      <Value>Current Hunger</Value>
+      <Value>Рівень голоду</Value>
     </Record>
     <Record>
       <Key>StatusIconStunName</Key>
-      <Value>Stun Percentage</Value>
+      <Value>Відсоток оглушення</Value>
     </Record>
     <Record>
       <Key>StatusIconAirTankName</Key>
-      <Value>Current AirTank Capacity</Value>
+      <Value>Поточна ємність балона з повітрям</Value>
     </Record>
     <Record>
       <Key>StatusIconJetpackWarningName</Key>
-      <Value>Jetpack Propellant</Value>
+      <Value>Паливо реактивного ранця</Value>
     </Record>
     <Record>
       <Key>StatusIconJetpackWarningDesc</Key>
-      <Value>Propellant is running low</Value>
+      <Value>Паливо закінчується</Value>
     </Record>
     <Record>
       <Key>StatusIconFilterName</Key>
-      <Value>Filter Capacity</Value>
+      <Value>Ємність фільтра</Value>
     </Record>
     <Record>
       <Key>StatusIconWasteName</Key>
-      <Value>Waste Capacity</Value>
+      <Value>Ємність відходів</Value>
     </Record>
     <Record>
       <Key>StatusIconWasteDesc</Key>
-      <Value>Waste tank nearly full</Value>
+      <Value>Бак для відходів майже повний</Value>
     </Record>
     <Record>
       <Key>StatusIconHealthName</Key>
-      <Value>Current Health</Value>
+      <Value>Поточний стан здоров’я</Value>
     </Record>
     <Record>
       <Key>StatusIconHealthDesc</Key>
-      <Value>Health is low</Value>
+      <Value>Здоров’я низьке</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationName</Key>
-      <Value>Current Hydration</Value>
+      <Value>Поточний рівень гідратації</Value>
     </Record>
     <Record>
       <Key>StatusIconUnconsciousName</Key>
-      <Value>Unconscious</Value>
+      <Value>Непритомний</Value>
     </Record>
     <Record>
       <Key>StatusIconMoodName</Key>
-      <Value>Current Mood</Value>
+      <Value>Настрій</Value>
     </Record>
     <Record>
       <Key>StatusIconHygieneName</Key>
-      <Value>Current Hygiene</Value>
+      <Value>Гігієна</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>DeconstructCanisterFull</Key>
-      <Value>Cannot deconstruct. Canister needs to be empty</Value>
+      <Value>Неможливо розібрати. Балон повинен бути порожнім</Value>
     </Record>
     <Record>
       <Key>StatusIconLeavingAreaName</Key>
-      <Value>Leaving Mission Area</Value>
+      <Value>Вихід за межі зони місії</Value>
     </Record>
     <Record>
       <Key>StatusIconLeavingAreaDesc</Key>
-      <Value>Out of bounds, turn around</Value>
+      <Value>Ви за межами зони — поверніться назад</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>
