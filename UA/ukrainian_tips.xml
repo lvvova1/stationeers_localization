@@ -1,5 +1,5 @@
 ﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Code>UA</Code>
+  <Code>UK</Code>
   <GameTip>
     <String>Натисніть {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} або {KEY:ToolBeltSlot}, щоб перемикатися між взаємодіями та слотами на будь-якому предметі, який ви носите. Утримуйте, щоб обміняти цей слот з активною рукою.</String>
     <String>Натискання {KEY:ToggleHandPower} або {KEY:SecondaryAction} вмикає або вимикає живлення предметів у руці.</String>

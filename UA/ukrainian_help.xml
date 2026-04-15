@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Code>UA</Code>
+  <Code>UK</Code>
   <HelpPage>
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -590,7 +590,7 @@
 - {THING:DecayedFood} збільшує швидкість росту рослин у 3 рази
 - {THING:ItemBiomass} збільшує кількість циклів росту, протягом яких діє добриво, до 5
 
-Ефективність цих інгредієнтів залежить від їхніх пропорцій у компостері на момент запуску процесу переробки. Добриво утворюється у співвідношенні 1:3 (добриво до інгредієнтів). Під час переробки виділяються {GAS:азот} і {GAS:леткі речовини}, а також невелика кількість тепла.</Text>
+Ефективність цих інгредієнтів залежить від їхніх пропорцій у компостері на момент запуску процесу переробки. Добриво утворюється у співвідношенні 1:3 (добриво до інгредієнтів). Під час переробки виділяються {GAS:Nitrogen} і {GAS:Methane}, а також невелика кількість тепла.</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>DecayPage</Key>
@@ -609,7 +609,7 @@
 &gt; {GAS:Oxygen} x 1.3
 &gt; {GAS:Nitrogen} x 0.6
 &gt; {GAS:CarbonDioxide} x 0.8
-&gt; {GAS:Volatiles} x 1
+&gt; {GAS:Methane} x 1
 &gt; {GAS:Pollutant} x 3
 &gt; {GAS:NitrousOxide} x 1.5
 &gt; {GAS:Water} x 2
