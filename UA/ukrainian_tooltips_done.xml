@@ -1,4 +1,5 @@
-﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Ukrainian</Name>
   <Code>UA</Code>
   <Font>font_english</Font>
@@ -6,7 +7,7 @@
     <Record>
       <Key>StatusIconToxinName</Key>
       <Value>Токсини</Value>
-    </Record>    
+    </Record>
     <Record>
       <Key>StatusIconToxinDesc</Key>
       <Value>Поточний рівень токсичності</Value>
@@ -190,6 +191,22 @@
     <Record>
       <Key>StatusIconLeavingAreaDesc</Key>
       <Value>Ви за межами зони — поверніться назад</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconRespawnStressName</Key>
+      <Value>Стрес після відродження</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconRespawnStressDesc</Key>
+      <Value>Впливає на швидкість дій</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantName</Key>
+      <Value>Температура бака охолоджуючої суміші</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantDesc</Key>
+      <Value>Температура охолоджуючої суміші занадто висока</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>
