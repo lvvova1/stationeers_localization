@@ -1,5 +1,5 @@
 ﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <Name>Ukrainian</Name>
+  <Name>Ukrainian</Name>
   <Code>UA</Code>
   <Font>font_english</Font>
   <ScreenSpaceToolTips>
@@ -181,7 +181,7 @@
     </Record>
     <Record>
       <Key>DeconstructCanisterFull</Key>
-      <Value>Неможливо розібрати. Балон повинен бути порожнім</Value>
+      <Value>Неможливо розібрати. Балон має бути порожнім</Value>
     </Record>
     <Record>
       <Key>StatusIconLeavingAreaName</Key>

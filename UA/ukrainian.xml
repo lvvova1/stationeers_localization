@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Українська</Name>
+  <Name>Ukrainian</Name>
   <Code>UA</Code>
-  <Font>font_english</Font>
+  <Font>font_russian</Font>
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -17,7 +17,7 @@
     <RecordReagent>
       <Key>Egg</Key>
       <Value>Яйце</Value>
-      <Unit />
+      <Unit></Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
@@ -117,12 +117,12 @@
     <RecordReagent>
       <Key>Potato</Key>
       <Value>Картопля</Value>
-      <Unit />
+      <Unit></Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Tomato</Key>
       <Value>Помідор</Value>
-      <Unit />
+      <Unit></Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Fenoxitone</Key>
@@ -157,7 +157,7 @@
     <RecordReagent>
       <Key>Pumpkin</Key>
       <Value>Гарбуз</Value>
-      <Unit />
+      <Unit></Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Rice</Key>
@@ -166,7 +166,7 @@
     </RecordReagent>
     <RecordReagent>
       <Key>Waspaloy</Key>
-      <Value>Васпалой</Value>
+      <Value>Васплав</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -181,12 +181,12 @@
     </RecordReagent>
     <RecordReagent>
       <Key>Hastelloy</Key>
-      <Value>Гастеллой</Value>
+      <Value>Гастелав</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Astroloy</Key>
-      <Value>Астролой</Value>
+      <Value>Астролав</Value>
       <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
@@ -197,22 +197,22 @@
     <RecordReagent>
       <Key>Corn</Key>
       <Value>Кукурудза</Value>
-      <Unit />
+      <Unit></Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Wheat</Key>
       <Value>Пшениця</Value>
-      <Unit />
+      <Unit></Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Biomass</Key>
       <Value>Біомасса</Value>
-      <Unit />
+      <Unit></Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Soy</Key>
       <Value>Соя</Value>
-      <Unit />
+      <Unit></Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Mushroom</Key>
@@ -301,11 +301,11 @@
     </Record>
     <Record>
       <Key>Air</Key>
-      <Value>Суміш Повітря</Value>
+      <Value>Повітря</Value>
     </Record>
     <Record>
       <Key>Fuel</Key>
-      <Value>Суміш Палива</Value>
+      <Value>Паливо</Value>
     </Record>
   </Gases>
   <Actions>
@@ -479,98 +479,98 @@
     </Record>
     <Record>
       <Key>Cycle</Key>
-      <Value>Cycle</Value>
+      <Value>Розпочати шлюзовання</Value>
     </Record>
     <Record>
       <Key>ForceClose</Key>
-      <Value>Force Close</Value>
+      <Value>Примусове закриття</Value>
     </Record>
     <Record>
       <Key>ForceOpen</Key>
-      <Value>Force Open</Value>
+      <Value>Примусове відкриття</Value>
     </Record>
     <Record>
       <Key>Vend</Key>
-      <Value>Vend</Value>
+      <Value>Продати(Vend)</Value>
     </Record>
     <Record>
       <Key>Link</Key>
-      <Value>Link</Value>
+      <Value>Під'єднати</Value>
     </Record>
     <Record>
       <Key>UnLink</Key>
-      <Value>UnLink</Value>
+      <Value>Від'єднати</Value>
     </Record>
     <Record>
       <Key>ForceFeed</Key>
-      <Value>Force Feed</Value>
+      <Value>Примусово годувати</Value>
     </Record>
     <Record>
       <Key>FlipRover</Key>
-      <Value>Flip Rover</Value>
+      <Value>Перевернути ровер</Value>
     </Record>
     <Record>
       <Key>Idle</Key>
-      <Value>Idle</Value>
+      <Value>Очікує</Value>
     </Record>
     <Record>
       <Key>Active</Key>
-      <Value>Active</Value>
+      <Value>Активний</Value>
     </Record>
     <Record>
       <Key>Repair</Key>
-      <Value>Repair</Value>
+      <Value>Лагодити</Value>
     </Record>
     <Record>
       <Key>Extend</Key>
-      <Value>Extend</Value>
+      <Value>Розгорнути</Value>
     </Record>
     <Record>
       <Key>Retract</Key>
-      <Value>Retract</Value>
+      <Value>Згорнути</Value>
     </Record>
   </Actions>
   <Things>
     <RecordThing>
       <Key>ApplianceMicrowave</Key>
-      <Value>Microwave</Value>
-      <Description>While countless 'better' ways of cooking {LINK:FoodPage;Food} have been invented in the last few hundred years, few are as durable or easy to fabricate as the OK-Zoomer microwave. Licensed from {LINK:Xigo;Xigo}, the plans are based on a classic model from the mid-21st century, giving it a charmingly retro feel. But don't worry, it oscillates {GAS:Water} molecules more than adequately. 
-Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it, follow the recipe, and you're cooking.</Description>
+      <Value>Мікрохвильова піч</Value>
+      <Description>Хоча за останні кілька сотень років було винайдено безліч «кращих» способів приготування їжі {LINK:FoodPage;Food}, мало які з них є настільки довговічними та простими у виготовленні, як мікрохвильовка OK-Zoomer. Креслення, розроблені за ліцензією {LINK:Xigo;Xigo}, базуються на класичній моделі середини 21 століття, що надає їй чарівного ретро-шарму. Але не хвилюйтеся, вона цілком достатньо розгойдує молекули {GAS:Water}. 
+Просто прикрутіть її до {THING:StructureBench} за допомогою {THING:ItemWrench}, щоб підключити живлення, дотримуйтесь рецепта — і все, ви готуєте.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
-      <Value>Reagent Processor</Value>
-      <Description>Sitting somewhere between a high powered juicer and an alchemist's alembic, the {LINK:Xigo;Xigo} reagent processor turns certain raw materials and food items into cooking and crafting ingredients. Indispensible in any space kitchen, just bolt it to the bench, and you're ready to go.</Description>
+      <Value>Процесор реагентів</Value>
+      <Description>Процесор реагентів {LINK:Xigo;Xigo}, що поєднує в собі риси потужної соковижималки та алхімічного перегінного куба, перетворює певні сировинні матеріали та продукти харчування на інгредієнти для приготування їжі та виготовлення предметів. Цей пристрій є незамінним у будь-якій космічній кухні: просто прикрутіть його до робочого столу — і все готово до роботи.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmL</Key>
-      <Value>Body Part Astronaut Female Arm</Value>
-      <Description>As far as left arms go, this is an acceptable, if slightly forgettable example of its kind. It's seen better days.</Description>
+      <Value>Частина тіла: рука жінки-космонавта, ліва</Value>
+      <Description>Що стосується лівих рук, то це цілком прийнятний, хоча й не надто пам’ятний зразок свого роду. Кращі часи вже позаду.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmR</Key>
-      <Value>Body Part Astronaut Female Arm R</Value>
-      <Description>One of a pair. The other is probably nearby.</Description>
+      <Value>Частина тіла: рука жінки-космонавта, права</Value>
+      <Description>Одна із пари. Інший, мабуть, десь поруч.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleHead</Key>
-      <Value>Body Part Astronaut Female Head</Value>
-      <Description>If the eyes are windows to the soul, what does that make the head?</Description>
+      <Value>Частина тіла: голова жінки-космонавта</Value>
+      <Description>Якщо очі — це дзеркало душі, то чим тоді є голова?</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleLegL</Key>
-      <Value>Body Part Astronaut Female Leg L</Value>
-      <Description>A leg, is a leg, is a leg.</Description>
+      <Value>Частина тіла: нога жінки-космонавта, ліва</Value>
+      <Description>Нога — це нога.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleLegR</Key>
-      <Value>Body Part Astronaut Female Leg R</Value>
-      <Description>This is a woman's right leg. To judge by its state, she was fairly healthy, of average height, with a tendency to walk on the balls of her feet.</Description>
+      <Value>Частина тіла: нога жінки-космонавта, права</Value>
+      <Description>Це права нога жінки. Судячи з її стану, вона була досить здоровою, середнього зросту, зі звичкою ходити на носочках.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleTorso</Key>
-      <Value>Body Part Astronaut Female Torso</Value>
-      <Description>This isn't going anywhere by itself.</Description>
+      <Value>Частина тіла: торс жінки-космонавта</Value>
+      <Description>Це само собою нікуди не дінеться.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleArmL</Key>
@@ -814,27 +814,27 @@ Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it,
     </RecordThing>
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
-      <Value>Cartridge (Atmos Analyzer)</Value>
-      <Description>The Lorenz atmos analyzer is a multi-functional mass-spectrometer designed by {LINK:ExMin;ExMin} for use with the OreCore {THING:ItemTablet}. It displays the pressure, concentration and molar quantity of {LINK:GasPage;gas} in rooms, tanks, or pipe networks.</Description>
+      <Value>Картридж (аналізатор атмосфери)</Value>
+      <Description>Аналізатор атмосфери Lorenz — це багатофункціональний мас-спектрометр, розроблений компанією {LINK:ExMin;ExMin} для використання з пристроєм {THING:ItemTablet}. Він відображає тиск, концентрацію та молярну м {LINK:GasPage;газу} у приміщеннях, резервуарах або трубопровідних мережах.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
       <Value>Cartridge (Medical Analyzer)</Value>
-      <Description>When added to the OreCore {THING:ItemTablet}, {LINK:Asura;Asura's}'s ReadyMed medical analyzer reveals the health, or otherwise, of users various organs. Due to a design flaw, older models were notorious for producing quasar-like levels of x-ray radiation. Recent advances in shielding have more than halved the risk to users.</Description>
+      <Description>Після підключення до {THING:ItemTablet} медичний аналізатор ReadyMed від компанії {LINK:Asura;Asura} визначає стан здоров'я та органів користувача. Через конструктивний недолік старі моделі були відомі тим, що випромінювали надто потужне рентгенівське випромінювання. Завдяки останнім досягненням у сфері екранування ризик для користувачів було зменшено більш ніж удвічі.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
-      <Value>Cartridge (Network Analyzer)</Value>
-      <Description>A minor masterpiece of micro-electronic engineering, the network analyzer displays the current, voltage and wattage of a cable network, as well as any devices connected to it. Based on a widely-copied {LINK:Sinotai;Sinotai} design, it's used in conjunction with the OreCore {THING:ItemTablet}.</Description>
+      <Value>Картридж (мережевий аналізатор)</Value>
+      <Description>Цей мережевий аналізатор — справжній шедевр мікроелектроніки — відображає значення струму, напруги та потужності кабельної мережі, а також підключених до неї пристроїв. Створений на основі широко копійованої {LINK:Sinotai;Sinotai} конструкції, він використовується разом із планшетом {THING:ItemTablet}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Character</Key>
-      <Value>Character</Value>
-      <Description>This is you.</Description>
+      <Value>Персонаж</Value>
+      <Description>Це ти.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirControl</Key>
-      <Value>Air Control</Value>
+      <Value>Управління повітям</Value>
       <Description>When added to a {THING:StructureConsole}, air control circuit boards allow you to program an {THING:StructureActiveVent}. As with small dogs and 83% of people, air control circuits have only three modes: Pressure, Draft and Offline. Pressure mode maintains a 100kPa atmosphere, switching the active vent between inward and outward flow until target pressure is achieved. Draft mode allows you to pair active vents to circulate air. Offline mode deactivates the vent. </Description>
     </RecordThing>
     <RecordThing>
@@ -898,7 +898,7 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>DynamicCrateBuildingSupplies</Key>
       <Value>Crate (Building Supplies)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateCableSupplies</Key>
@@ -1102,7 +1102,7 @@ Normal coil has a maximum wattage of 5kW. For higher-current applications, use {
     <RecordThing>
       <Key>ItemCompositeFloorGrating</Key>
       <Value>Composite Floor Grating</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCorn</Key>
@@ -1117,7 +1117,7 @@ Normal coil has a maximum wattage of 5kW. For higher-current applications, use {
     <RecordThing>
       <Key>ItemDataDisk</Key>
       <Value>Data Disk</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDrill</Key>
@@ -1133,7 +1133,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemDynamite</Key>
       <Value>Dynamite</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEgg</Key>
@@ -1143,7 +1143,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemEggBottom</Key>
       <Value>Egg Bottom</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEggCarton</Key>
@@ -1153,7 +1153,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemEggTop</Key>
       <Value>Egg Top</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEvaSuit</Key>
@@ -1168,12 +1168,12 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemFireExtinguisher</Key>
       <Value>Fire Extinguisher</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlashingLight</Key>
       <Value>Kit (Flashing Light)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlour</Key>
@@ -1183,32 +1183,32 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemCocoaPowder</Key>
       <Value>Cocoa Powder</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSugar</Key>
       <Value>Sugar</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterCarbonDioxide</Key>
       <Value>Canister (CO2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterPollutants</Key>
       <Value>Canister (Pollutants)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterEmpty</Key>
       <Value>Canister</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterFuel</Key>
       <Value>Canister (Fuel)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterVolatiles</Key>
@@ -1217,7 +1217,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemGasCanisterNitrogen</Key>
       <Value>Canister (Nitrogen)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterOxygen</Key>
@@ -1226,12 +1226,12 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemGasCanisterWater</Key>
       <Value>Liquid Canister (Water)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterEmpty</Key>
       <Value>Liquid Canister</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
@@ -1356,132 +1356,132 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemKitAirlock</Key>
       <Value>Kit (Airlock)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAtmospherics</Key>
       <Value>Kit (Atmospherics)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBattery</Key>
       <Value>Kit (Battery)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCentrifuge</Key>
       <Value>Kit (Centrifuge)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitChute</Key>
       <Value>Kit (Basic Chutes)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitComputer</Key>
       <Value>Kit (Computer)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConsole</Key>
       <Value>Kit (Consoles)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConveyor</Key>
       <Value>Kit (Conveyors)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCryoTube</Key>
       <Value>Kit (Cryo Tube)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngine</Key>
       <Value>Kit (Engines)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabricator</Key>
       <Value>Kit (Fabricator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurnace</Key>
       <Value>Kit (Furnace)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurniture</Key>
       <Value>Kit (Furniture)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGyroscope</Key>
       <Value>Kit (Gyroscope)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRegulator</Key>
       <Value>Kit (Pressure Regulator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSensor</Key>
       <Value>Kit (Sensors)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSign</Key>
       <Value>Kit (Sign)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSleeper</Key>
       <Value>Kit (Sleeper)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanel</Key>
       <Value>Kit (Solar Panel)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStairs</Key>
       <Value>Kit (Stairs)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStellarAnchor</Key>
       <Value>Kit (Stellar Anchor)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStorage</Key>
       <Value>Kit (Storage)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTank</Key>
       <Value>Kit (Tank)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTorpedoTube</Key>
       <Value>Kit (Torpedo Launcher)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurret</Key>
       <Value>Kit (Turret)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWall</Key>
       <Value>Kit (Wall)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLabeller</Key>
@@ -1838,7 +1838,7 @@ The {LINK:Norsec;Norsec-designed} K-cops 10-10 sorter motherboard permits {LINK:
     <RecordThing>
       <Key>NpcGrounder</Key>
       <Value>Npc Grounder</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>OrganBrain</Key>
@@ -2195,7 +2195,7 @@ The device has nonetheless proven indispensable for {LINK:Stationeers;Stationeer
     <RecordThing>
       <Key>ItemKitWaterPurifier</Key>
       <Value>Kit (Water Purifier)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFlashingLight</Key>
@@ -2248,7 +2248,7 @@ If liquids are present in the furnace, they will gather there until the furnace 
     <RecordThing>
       <Key>StructureGlassDoor</Key>
       <Value>Glass Door</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGunTurret</Key>
@@ -2561,7 +2561,7 @@ For more information about how to control temperatures, consult the {LINK:Temper
     <RecordThing>
       <Key>ItemKitGenerator</Key>
       <Value>Kit (Generator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCableFuse</Key>
@@ -2632,7 +2632,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitTransformer</Key>
       <Value>Kit (Transformer Large)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerSmall</Key>
@@ -2666,7 +2666,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemKitFabrication</Key>
       <Value>Kit (Fabrication)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTerraformingManufactory</Key>
@@ -2676,7 +2676,7 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemKitPipe</Key>
       <Value>Kit (Pipe)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeElectronicReader</Key>
@@ -2786,22 +2786,22 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
     <RecordThing>
       <Key>ItemChocolateBar</Key>
       <Value>Chocolate Bar</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChocolateCake</Key>
       <Value>Chocolate Cake</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlainCake</Key>
       <Value>Cake</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChocolateCerealBar</Key>
       <Value>Chocolate Cereal Bar</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureElectronicsPrinter</Key>
@@ -2840,7 +2840,7 @@ Highly sensitive to temperature, oxite will begin to melt as soon as it is mined
     <RecordThing>
       <Key>ItemKitWallIron</Key>
       <Value>Kit (Iron Wall)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStorageLocker</Key>
@@ -2853,7 +2853,7 @@ Highly sensitive to temperature, oxite will begin to melt as soon as it is mined
     <RecordThing>
       <Key>ItemKitCube</Key>
       <Value>Kit (Cube)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Cube</Key>
@@ -2862,62 +2862,62 @@ Highly sensitive to temperature, oxite will begin to melt as soon as it is mined
     <RecordThing>
       <Key>ItemKitTransformerSmall</Key>
       <Value>Kit (Transformer Small)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSuitStorage</Key>
       <Value>Kit (Suit Storage)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolidGenerator</Key>
       <Value>Kit (Solid Generator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLocker</Key>
       <Value>Kit (Locker)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngineSmall</Key>
       <Value>Kit (Engine Small)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngineMedium</Key>
       <Value>Kit (Engine Medium)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngineLarge</Key>
       <Value>Kit (Engine Large)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitElectronicsPrinter</Key>
       <Value>Kit (Electronics Printer)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDoor</Key>
       <Value>Kit (Door)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutolathe</Key>
       <Value>Kit (Autolathe)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBlastDoor</Key>
       <Value>Kit (Blast Door)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitArcFurnace</Key>
       <Value>Kit (Arc Furnace)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHydraulicPipeBender</Key>
@@ -2927,17 +2927,17 @@ Highly sensitive to temperature, oxite will begin to melt as soon as it is mined
     <RecordThing>
       <Key>ItemKitHydraulicPipeBender</Key>
       <Value>Kit (Hydraulic Pipe Bender)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSorter</Key>
       <Value>Kit (Sorter)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStacker</Key>
       <Value>Kit (Stacker)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeTracker</Key>
@@ -2960,7 +2960,7 @@ Upgrade the device using a {THING:ToolPrinterMod} for additional recipes and fas
     <RecordThing>
       <Key>ItemKitToolManufactory</Key>
       <Value>Kit (Tool Manufactory)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerSmallReversed</Key>
@@ -2975,7 +2975,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitLogic</Key>
       <Value>Kit (Logic Unit)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicReader</Key>
@@ -3004,22 +3004,22 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitLogicProcessor</Key>
       <Value>Kit (Logic Processor)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicMemory</Key>
       <Value>Kit (Logic Memory)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicInputOutput</Key>
       <Value>Kit (Logic I/O)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicSwitch</Key>
       <Value>Kit (Logic Switch)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicSwitch</Key>
@@ -3085,7 +3085,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitRecycler</Key>
       <Value>Kit (Recycler)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCableAnalyser</Key>
@@ -3127,7 +3127,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitBeacon</Key>
       <Value>Kit (Beacon)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankBig</Key>
@@ -3141,32 +3141,32 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemStrawberry</Key>
       <Value>Strawberry</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Strawberry</Key>
       <Value>Strawberry Seeds</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBlueberry</Key>
       <Value>Blueberry</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Blueberry</Key>
       <Value>Blueberry Seeds</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWatermelon</Key>
       <Value>Watermelon</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Watermelon</Key>
       <Value>Watermelon Seeds</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTomato</Key>
@@ -3192,7 +3192,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitGasGenerator</Key>
       <Value>Kit (Gas Fuel Generator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeOreScanner</Key>
@@ -3319,7 +3319,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitCompositeCladding</Key>
       <Value>Kit (Cladding)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeCladdingAngledCornerLongR</Key>
@@ -3332,7 +3332,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitDockingPort</Key>
       <Value>Kit (Docking Port)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDockShipSide</Key>
@@ -3357,7 +3357,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitOrganicsPrinter</Key>
       <Value>Kit (Organics Printer)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureOrganicsPrinter</Key>
@@ -3391,7 +3391,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitWallPanels</Key>
       <Value>Kit (Wall Panels)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWallPanelling1</Key>
@@ -3400,7 +3400,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitCompositeFloorGrating</Key>
       <Value>Kit (Floor Grating)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>CompositeRollCover</Key>
@@ -3409,7 +3409,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitLadder</Key>
       <Value>Kit (Ladder)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameCornerCut</Key>
@@ -3602,22 +3602,22 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitWallArch</Key>
       <Value>Kit (Arched Wall)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallFlat</Key>
       <Value>Kit (Flat Wall)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallGeometry</Key>
       <Value>Kit (Geometric Wall)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallPadded</Key>
       <Value>Kit (Padded Wall)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLadder</Key>
@@ -3957,7 +3957,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitSecurityPrinter</Key>
       <Value>Kit (Security Printer)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Handgun</Key>
@@ -3987,12 +3987,12 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureElevatorShaft</Key>
       <Value>Elevator Shaft (Cabled)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitElevator</Key>
       <Value>Kit (Elevator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ElevatorCarrage</Key>
@@ -4001,7 +4001,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureElevatorLevelFront</Key>
       <Value>Elevator Level (Cabled)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCrateMount</Key>
@@ -4010,7 +4010,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitCrateMount</Key>
       <Value>Kit (Container Mount)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicMirror</Key>
@@ -4027,7 +4027,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitHydroponicStation</Key>
       <Value>Kit (Hydroponic Station)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDiodeSlide</Key>
@@ -4044,7 +4044,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitCrate</Key>
       <Value>Kit (Crate)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardGraphDisplay</Key>
@@ -4053,7 +4053,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitMotherShipCore</Key>
       <Value>Kit (Mothership)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamicScrubber</Key>
@@ -4066,12 +4066,12 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitPipeValve</Key>
       <Value>Kit (Pipe Valve)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicGenerator</Key>
       <Value>Kit (Portable Generator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureVendingMachine</Key>
@@ -4081,7 +4081,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitVendingMachine</Key>
       <Value>Kit (Vending Machine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicSlotReader</Key>
@@ -4119,7 +4119,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>ItemKitTurbineGenerator</Key>
       <Value>Kit (Turbine Generator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ReagentSilver</Key>
@@ -4177,7 +4177,7 @@ Output = 1 exporting items inside and eventually the main item.</Description>
     <RecordThing>
       <Key>ItemKitPressurePlate</Key>
       <Value>Kit (Trigger Plate)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePressurePlateLarge</Key>
@@ -4194,12 +4194,12 @@ Output = 1 exporting items inside and eventually the main item.</Description>
     <RecordThing>
       <Key>ItemKitDynamicCanister</Key>
       <Value>Kit (Portable Gas Tank)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicLiquidCanister</Key>
       <Value>Kit (Portable Liquid Tank)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlowerBlue</Key>
@@ -4331,7 +4331,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemDebugJetpack</Key>
       <Value>Debug Jetpack</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicHydroponics</Key>
@@ -4340,7 +4340,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitDynamicHydroponics</Key>
       <Value>Kit (Portable Hydroponics)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureKlaxon</Key>
@@ -4350,7 +4350,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitSpeaker</Key>
       <Value>Kit (Speaker)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeOreScannerColor</Key>
@@ -4369,7 +4369,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitLogicCircuit</Key>
       <Value>Kit (IC Housing)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCircuitHousing</Key>
@@ -4387,7 +4387,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitHydroponicAutomated</Key>
       <Value>Kit (Automated Hydroponics)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBasketBall</Key>
@@ -4396,7 +4396,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitBasket</Key>
       <Value>Kit (Basket)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBasketHoop</Key>
@@ -4438,7 +4438,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitLandingPad</Key>
       <Value>Kit (Landing Pad)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSatelliteDish</Key>
@@ -4450,7 +4450,7 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
     <RecordThing>
       <Key>ItemKitSatelliteDish</Key>
       <Value>Kit (Medium Satellite Dish)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlasticSheets</Key>
@@ -4480,7 +4480,7 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
     <RecordThing>
       <Key>CardboardBox</Key>
       <Value>Cardboard Box</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallLightBattery</Key>
@@ -4519,7 +4519,7 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
     <RecordThing>
       <Key>ItemKitRoverFrame</Key>
       <Value>Kit (Rover Frame)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairs4x2Rails</Key>
@@ -4544,7 +4544,7 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
     <RecordThing>
       <Key>ItemKitAutoMiner</Key>
       <Value>Kit (Auto Miner)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrousOxide</Key>
@@ -4607,7 +4607,7 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>ItemKitLogicTransmitter</Key>
       <Value>Kit (Logic Transmitter)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedFurnace</Key>
@@ -4617,7 +4617,7 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
     <RecordThing>
       <Key>ItemKitAdvancedFurnace</Key>
       <Value>Kit (Advanced Furnace)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemStelliteIngot</Key>
@@ -4777,7 +4777,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitResearchMachine</Key>
       <Value>Kit Research Machine</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ManualGetResearchPodsRequired</Key>
@@ -4890,7 +4890,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitPictureFrame</Key>
       <Value>Kit Picture Frame</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemVoxelTool</Key>
@@ -4899,7 +4899,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitAIMeE</Key>
       <Value>Kit (AIMeE)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
@@ -4909,7 +4909,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
       <Value>Kit (Autominer Small)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDirtCannister</Key>
@@ -4998,27 +4998,27 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitInsulatedPipe</Key>
       <Value>Kit (Insulated Pipe)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketCargo01</Key>
       <Value>Kit (Modular Rocket Cargo)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureLaunchPad</Key>
       <Value>Kit (Launch Pad)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketEngine01</Key>
       <Value>Kit (Modular Rocket Engine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStructureModularRocketFueltank01</Key>
       <Value>Kit (Modular Rocket Fueltank)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallIron02</Key>
@@ -5063,7 +5063,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitRailing</Key>
       <Value>Kit (Railing)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallArchCornerRound</Key>
@@ -5141,7 +5141,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitPipeOrgan</Key>
       <Value>Kit (Pipe Organ)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterRocketFuel</Key>
@@ -5186,7 +5186,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitSolarPanelBasic</Key>
       <Value>Kit (Solar Panel Basic)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSDBHopperAdvanced</Key>
@@ -5199,7 +5199,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitSDBHopper</Key>
       <Value>Kit (SDB Hopper)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSDBSilo</Key>
@@ -5214,7 +5214,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureTankSmallInsulated</Key>
       <Value>Tank Small (Insulated)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankBigInsulated</Key>
@@ -5223,12 +5223,12 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitTankInsulated</Key>
       <Value>Kit (Insulated Tank)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDebug</Key>
       <Value>Kit (Debug)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChairThickSingle</Key>
@@ -5277,7 +5277,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitTables</Key>
       <Value>Kit (Tables)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>KitchenTableTall</Key>
@@ -5326,47 +5326,47 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitChairs</Key>
       <Value>Kit (Chairs)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBeds</Key>
       <Value>Kit (Beds)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLightRoundAngled</Key>
       <Value>Light Round (Angled)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLightRound</Key>
       <Value>Light Round</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLightRoundSmall</Key>
       <Value>Light Round (Small)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSingleBed</Key>
       <Value>Single Bed</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBlockBed</Key>
       <Value>Block Bed</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>TriggerZone</Key>
       <Value>Trigger Zone</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEmergencyButton</Key>
       <Value>Important Button</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAccessBridge</Key>
@@ -5381,7 +5381,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemKitAirlockGate</Key>
       <Value>Kit (Hangar Door)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlockGate</Key>
@@ -5409,12 +5409,12 @@ Able to store up to 9000001 watts of power, there are no practical limits to its
     <RecordThing>
       <Key>ItemKitBatteryLarge</Key>
       <Value>Kit (Battery Large)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHarvie</Key>
       <Value>Kit (Harvie)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHarvieReversed</Key>
@@ -5429,27 +5429,27 @@ Able to store up to 9000001 watts of power, there are no practical limits to its
     <RecordThing>
       <Key>SpecialBlocks</Key>
       <Value>Special Blocks</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBlocker</Key>
       <Value>Blocker</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvanced</Key>
       <Value>Gas Tank Mk II</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicGasTankAdvanced</Key>
       <Value>Kit (Portable Gas Tank Mk II)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePlinth</Key>
       <Value>Plinth</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Rover_MkI</Key>
@@ -5460,7 +5460,7 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>StructureSpawnPoint</Key>
       <Value>Spawn Point</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>RespawnPoint</Key>
@@ -5470,47 +5470,47 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>RespawnPointWallMounted</Key>
       <Value>Respawn Point (Mounted)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRespawnPointWallMounted</Key>
       <Value>Kit (Respawn)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFlagODA</Key>
       <Value>Kit (ODA Flag)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_10m</Key>
       <Value>Flag (ODA 10m)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_8m</Key>
       <Value>Flag (ODA 8m)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_6m</Key>
       <Value>Flag (ODA 6m)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Flag_ODA_4m</Key>
       <Value>Flag (ODA 4m)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRoverMKI</Key>
       <Value>Kit (Rover Mk I)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Rover_MkI_build_states</Key>
       <Value>Rover MKI</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGrowLight</Key>
@@ -5520,22 +5520,22 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>ItemKitGrowLight</Key>
       <Value>Kit (Grow Light)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWeatherStation</Key>
       <Value>Weather Station</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWeatherStation</Key>
       <Value>Kit (Weather Station)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitUprightWindTurbine</Key>
       <Value>Kit (Upright Wind Turbine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureUprightWindTurbine</Key>
@@ -5551,7 +5551,7 @@ While the wind turbine is optimized to produce power even on low atmosphere worl
     <RecordThing>
       <Key>ItemKitCrateMkII</Key>
       <Value>Kit (Crate Mk II)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEmptyCan</Key>
@@ -5571,7 +5571,7 @@ While the wind turbine is optimized to produce power even on low atmosphere worl
     <RecordThing>
       <Key>ItemBreadLoaf</Key>
       <Value>Bread Loaf</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBiomass</Key>
@@ -5592,12 +5592,12 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>ItemKitSolarPanelReinforced</Key>
       <Value>Kit (Solar Panel Heavy)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasicReinforced</Key>
       <Value>Kit (Solar Panel Basic Heavy)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45Reinforced</Key>
@@ -5622,7 +5622,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>ItemAstroloySheets</Key>
       <Value>Astroloy Sheets</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBeltAdvanced</Key>
@@ -5638,12 +5638,12 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
     <RecordThing>
       <Key>ItemKitWindTurbine</Key>
       <Value>Kit (Wind Turbine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeLiquid</Key>
       <Value>Kit (Liquid Pipe)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction</Key>
@@ -5713,7 +5713,7 @@ While the wind turbine is optimized to produce power (up to 500W) even on low at
     <RecordThing>
       <Key>StructureWaterBottleFiller</Key>
       <Value>Water Bottle Filler</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureIceCrusher</Key>
@@ -5725,12 +5725,12 @@ If the KoolAuger is full, it will not accept any further ice until the gas or li
     <RecordThing>
       <Key>ItemKitIceCrusher</Key>
       <Value>Kit (Ice Crusher)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvancedOxygen</Key>
       <Value>Portable Gas Tank Mk II (Oxygen)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasTankAdvancedWater</Key>
@@ -5756,7 +5756,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
       <Value>Kit (Portable Liquid Tank Mk II)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterWater</Key>
@@ -5766,17 +5766,17 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
       <Value>Liquid Volume Pump</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeVolumePump</Key>
       <Value>Kit (Liquid Volume Pump)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidRegulator</Key>
       <Value>Kit (Liquid Regulator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBackLiquidPressureRegulator</Key>
@@ -5791,7 +5791,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemLiquidCanisterSmart</Key>
       <Value>Liquid Canister (Smart)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIScrewdriver</Key>
@@ -5811,7 +5811,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>ItemMKIIArcWelder</Key>
       <Value>Mk II Arc Welder</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
@@ -5842,77 +5842,77 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
       <Value>Kit (Water Bottle Filler)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankBig</Key>
       <Value>Liquid Tank Big</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankSmall</Key>
       <Value>Liquid Tank Small</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidTank</Key>
       <Value>Kit (Liquid Tank)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidTankInsulated</Key>
       <Value>Kit (Insulated Liquid Tank)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankBigInsulated</Key>
       <Value>Liquid Tank Big (Insulated)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankSmallInsulated</Key>
       <Value>Liquid Tank Small (Insulated)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeMeter</Key>
       <Value>Kit (Liquid Pipe Meter)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterPipeMeter</Key>
       <Value>Liquid Pipe Meter</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeDigitalValve</Key>
       <Value>Kit (Liquid Digital Valve)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterDigitalValve</Key>
       <Value>Liquid Digital Valve</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterWallCooler</Key>
       <Value>Kit (Liquid Wall Cooler)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterWallCooler</Key>
       <Value>Liquid Wall Cooler</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerBottom</Key>
       <Value>Water Bottle Filler Bottom</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidDrain</Key>
       <Value>Kit (Liquid Drain)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidDrain</Key>
@@ -5928,17 +5928,17 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemLiquidPipeAnalyzer</Key>
       <Value>Kit (Liquid Pipe Analyzer)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeAnalyzer</Key>
       <Value>Liquid Pipe Analyzer</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangeLiquidAndGas</Key>
       <Value>Heat Exchange Liquid And Gas</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>LogicStepSequencer8</Key>
@@ -5970,57 +5970,57 @@ Central to this pastime is the step sequencer, which allows Stationeers to seque
     <RecordThing>
       <Key>DeviceStepUnit</Key>
       <Value>Device Step Unit</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StopWatch</Key>
       <Value>Stop Watch</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeBass</Key>
       <Value>Sound Cartridge Bass</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeDrums</Key>
       <Value>Sound Cartridge Drums</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeLeads</Key>
       <Value>Sound Cartridge Leads</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSoundCartridgeSynth</Key>
       <Value>Sound Cartridge Synth</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitMusicMachines</Key>
       <Value>Kit (Music Machines)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedTankConnector</Key>
       <Value>Kit (Insulated Tank Connector)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedTankConnector</Key>
       <Value>Insulated Tank Connector</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedTankConnectorLiquid</Key>
       <Value>Kit (Insulated Tank Connector Liquid)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedTankConnectorLiquid</Key>
       <Value>Insulated Tank Connector Liquid</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DecayedFood</Key>
@@ -6054,7 +6054,7 @@ Central to this pastime is the step sequencer, which allows Stationeers to seque
     <RecordThing>
       <Key>PassiveSpeaker</Key>
       <Value>Passive Speaker</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DeviceLfoVolume</Key>
@@ -6086,7 +6086,7 @@ For more information about food preservation, visit the {LINK:DecayPage;food dec
     <RecordThing>
       <Key>ItemKitFridgeBig</Key>
       <Value>Kit (Fridge Large)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeSmall</Key>
@@ -6105,7 +6105,7 @@ NOTE: altering stack sizes DOES NOT update existing stacks within the machine, o
     <RecordThing>
       <Key>ItemKitVendingMachineRefrigerated</Key>
       <Value>Kit (Vending Machine Refrigerated)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Potato</Key>
@@ -6181,12 +6181,12 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
     <RecordThing>
       <Key>ItemKitAdvancedComposter</Key>
       <Value>Kit (Advanced Composter)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFridgeSmall</Key>
       <Value>Kit (Fridge Small)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePlanter</Key>
@@ -6234,17 +6234,17 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>ItemKitPlanter</Key>
       <Value>Kit (Planter)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAutomatedOven</Key>
       <Value>Automated Oven</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutomatedOven</Key>
       <Value>Kit (Automated Oven)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCannedMushroom</Key>
@@ -6259,7 +6259,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>ItemPoweredEggs</Key>
       <Value>Powered Eggs</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFrenchFries</Key>
@@ -6294,7 +6294,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>ItemKitAdvancedPackagingMachine</Key>
       <Value>Kit (Advanced Packaging Machine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCookedSoybean</Key>
@@ -6359,57 +6359,57 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>SeedBag_DargaFern</Key>
       <Value>Darga Fern Seeds</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedWaterPipe</Key>
       <Value>Kit (Insulated Water Pipe)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedLiquidPipe</Key>
       <Value>Kit (Insulated Liquid Pipe)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCorner</Key>
       <Value>Insulated Liquid Pipe Corner</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCrossJunction</Key>
       <Value>Insulated Liquid Pipe Cross Junction</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCrossJunction3</Key>
       <Value>Insulated Liquid Pipe Cross Junction3</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCrossJunction4</Key>
       <Value>Insulated Liquid Pipe Cross Junction4</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCrossJunction5</Key>
       <Value>Insulated Liquid Pipe Cross Junction5</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeCrossJunction6</Key>
       <Value>Insulated Liquid Pipe Cross Junction6</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeJunction</Key>
       <Value>Insulated Liquid Pipe Junction</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>InsulatedLiquidPipeStraight</Key>
       <Value>Insulated Liquid Pipe Straight</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCorner</Key>
@@ -6515,7 +6515,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>ItemKitTurboVolumePump</Key>
       <Value>Kit (Turbo Volume Pump - Gas)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTurboVolumePump</Key>
@@ -6525,7 +6525,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>ItemKitLiquidTurboVolumePump</Key>
       <Value>Kit (Turbo Volume Pump - Liquid)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMkIIToolbelt</Key>
@@ -6552,17 +6552,17 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
     <RecordThing>
       <Key>ItemKitWindowShutter</Key>
       <Value>Kit (Composite Window Shutter)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindowShutter</Key>
       <Value>Composite Window Shutter</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindowShutterController</Key>
       <Value>Composite Window Shutter Controller</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemExplosiveBasic</Key>
@@ -6617,12 +6617,12 @@ Finished - 4
     <RecordThing>
       <Key>ItemKitReinforcedWindows</Key>
       <Value>Kit (Reinforced Walls)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHorizontalAutoMiner</Key>
       <Value>Kit (OGRE)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLaptop</Key>
@@ -6656,27 +6656,27 @@ You must place the laptop down to interact with the onsreen UI.
     <RecordThing>
       <Key>SeedBag_HadesAlpha</Key>
       <Value>Hades Seed (Alpha strain)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_HadesBeta</Key>
       <Value>Hades Seed (Beta strain)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_WinterspawnAlpha</Key>
       <Value>Winterspawn Seed (Alpha strain)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_WinterspawnBeta</Key>
       <Value>Winterspawn Seed (Beta strain)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStirlingEngine</Key>
       <Value>Kit (Stirling Engine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStirlingEngine</Key>
@@ -6702,72 +6702,72 @@ The transmitter must be aligned to the base station in order to transmit any pow
     <RecordThing>
       <Key>StructureOverheadShortCornerLocker</Key>
       <Value>Overhead Corner Locker</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureOverheadShortLocker</Key>
       <Value>Overhead Locker</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureShortCornerLocker</Key>
       <Value>Short Corner Locker</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureShortLocker</Key>
       <Value>Short Locker</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCornerLocker</Key>
       <Value>Corner Locker</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Creative</Key>
       <Value>Endothermic Plant Creative</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Creative</Key>
       <Value>Thermogenic Plant Creative</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPowerTransmitter</Key>
       <Value>Kit (Power Transmitter)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInteriorDoorTriangle</Key>
       <Value>Interior Door Triangle</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInteriorDoorPaddedThin</Key>
       <Value>Interior Door Padded Thin</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInteriorDoorPadded</Key>
       <Value>Interior Door Padded</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInteriorDoorGlass</Key>
       <Value>Interior Door Glass</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInteriorDoors</Key>
       <Value>Kit (Interior Doors)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureUnpoweredHatch</Key>
       <Value>Unpowered Hatch</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureManualHatch</Key>
@@ -6777,32 +6777,32 @@ The transmitter must be aligned to the base station in order to transmit any pow
     <RecordThing>
       <Key>ItemKitPowerTransmitterOmni</Key>
       <Value>Kit (Power Transmitter Omni)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerTransmitterOmni</Key>
       <Value>Power Transmitter Omni</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Battery_Wireless_cell</Key>
       <Value>Battery Wireless Cell</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Battery_Wireless_cell_Big</Key>
       <Value>Battery Wireless Cell (Big)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLightNetworkTest</Key>
       <Value>Dynamic Light Network Test</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLargeExtendableRadiator</Key>
       <Value>Kit (Large Extendable Radiator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeExtendableRadiator</Key>
@@ -6812,12 +6812,12 @@ The transmitter must be aligned to the base station in order to transmit any pow
     <RecordThing>
       <Key>StructureWaterBottleFillerPoweredBottom</Key>
       <Value>Waterbottle Filler</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterBottleFillerPowered</Key>
       <Value>Waterbottle Filler</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemNitrice</Key>
@@ -6829,7 +6829,7 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiator</Key>
       <Value>Kit (Medium Radiator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveLargeRadiator</Key>
@@ -6839,12 +6839,12 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiatorGas</Key>
       <Value>Kit (Medium Radiator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiatorLiquid</Key>
       <Value>Kit (Medium Radiator Liquid)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveLargeRadiatorLiquid</Key>
@@ -6869,12 +6869,12 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     <RecordThing>
       <Key>ItemMiningBackPack</Key>
       <Value>Mining Backpack</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHardMiningBackPack</Key>
       <Value>Hard Mining Backpack</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureH2Combustor</Key>
@@ -6914,12 +6914,12 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     <RecordThing>
       <Key>ItemKitPipeRadiator</Key>
       <Value>Kit (Pipe Radiator)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeRadiatorLiquid</Key>
       <Value>Kit (Pipe Radiator Liquid)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCryoTubeVertical</Key>
@@ -6964,7 +6964,7 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     <RecordThing>
       <Key>ItemKitDeepMiner</Key>
       <Value>Kit (Deep Miner)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDirtyOre</Key>
@@ -6999,7 +6999,7 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     <RecordThing>
       <Key>KitStructureCombustionCentrifuge</Key>
       <Value>Kit (Combustion Centrifuge)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteDigitalValveLeft</Key>
@@ -7024,7 +7024,7 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     <RecordThing>
       <Key>ItemKitStandardChute</Key>
       <Value>Kit (Powered Chutes)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantSampler</Key>
@@ -7045,7 +7045,7 @@ For temperature and pressure ranges, four genes appear on the same widget. The o
     <RecordThing>
       <Key>CartridgePlantAnalyser</Key>
       <Value>Cartridge (Plant Analyser)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>AppliancePlantGeneticStabilizer</Key>
@@ -7095,17 +7095,17 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>SeedBag_Switchgrass</Key>
       <Value>Switchgrass Seed</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantSwitchGrass</Key>
       <Value>Switch Grass</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCropHay</Key>
       <Value>Hay</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasCylinderTankPiece</Key>
@@ -7132,7 +7132,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitSmallSatelliteDish</Key>
       <Value>Kit (Small Satellite Dish)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeSatelliteDish</Key>
@@ -7144,17 +7144,17 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitLargeSatelliteDish</Key>
       <Value>Kit (Large Satellite Dish)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasConnectorInwardPiece</Key>
       <Value>Landingpad Gas Input</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_LiquidConnectorInwardPiece</Key>
       <Value>Landingpad Liquid Input</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_2x2CenterPiece01</Key>
@@ -7164,42 +7164,42 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureTraderWaypoint</Key>
       <Value>Trader Waypoint</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_ThreshholdPiece</Key>
       <Value>Landingpad Threshhold</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_TaxiPieceHold</Key>
       <Value>Landingpad Taxi Hold</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_TaxiPieceStraight</Key>
       <Value>Landingpad Taxi Straight</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_TaxiPieceCorner</Key>
       <Value>Landingpad Taxi Corner</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPadBasic</Key>
       <Value>Kit (Landing Pad Basic)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPadAtmos</Key>
       <Value>Kit (Landing Pad Atmospherics)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPadWaypoint</Key>
       <Value>Kit (Landing Pad Runway)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeperVerticalDroid</Key>
@@ -7209,12 +7209,12 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemHighVolumeGasCanisterEmpty</Key>
       <Value>High Volume Gas Canister</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWirelessBatteryCellExtraLarge</Key>
       <Value>Wireless Battery Cell Extra Large</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideInfinite</Key>
@@ -7254,37 +7254,37 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemSolidFuel</Key>
       <Value>Solid Fuel (Hydrocarbon)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePlatformLadderOpenRotated</Key>
       <Value>Ladder Platform Rotated</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallSmallPanelsOpen</Key>
       <Value>Wall (Small Panels Open)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGratingOpen</Key>
       <Value>Composite Floor Grating Open</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGratingOpenRotated</Key>
       <Value>Composite Floor Grating Open Rotated</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveVent</Key>
       <Value>Kit (Passive Vent)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCowl</Key>
       <Value>Passive Vent (Pipe Cowl)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallVent</Key>
@@ -7309,132 +7309,132 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureFuselage1x1</Key>
       <Value>Fuselage</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineFuselage1x1</Key>
       <Value>Engine Fuselage</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureNosecone1x1</Key>
       <Value>Nosecone</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryMedium</Key>
       <Value>Battery (Medium)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRockets</Key>
       <Value>Kit (Rockets)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCorner</Key>
       <Value>Low Volume Liquid Pipe (Corner)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCrossJunction</Key>
       <Value>Low Volume Liquid Pipe (Cross Junction)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCrossJunction3</Key>
       <Value>Low Volume Liquid Pipe (3-Way Junction)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCrossJunction4</Key>
       <Value>Low Volume Liquid Pipe (4-Way Junction)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCrossJunction5</Key>
       <Value>Low Volume Liquid Pipe (5-Way Junction)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCrossJunction6</Key>
       <Value>Low Volume Liquid Pipe (6-Way Junction)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeStraight</Key>
       <Value>Low Volume Liquid Pipe (Straight)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeTJunction</Key>
       <Value>Low Volume Liquid Pipe (T Junction)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLowVolumeLiquidPipes</Key>
       <Value>Kit (Low Volume Liquid Pipe)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCorner</Key>
       <Value>Low Volume Pipe (Corner)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCrossJunction</Key>
       <Value>Low Volume Pipe (Cross Junction)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCrossJunction3</Key>
       <Value>Low Volume Pipe (3-Way Junction)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCrossJunction4</Key>
       <Value>Low Volume Pipe (4-Way Junction)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCrossJunction5</Key>
       <Value>Low Volume Pipe (5-Way Junction)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCrossJunction6</Key>
       <Value>Low Volume Pipe (6-Way Junction)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeStraight</Key>
       <Value>Low Volume Pipe (Straight)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeTJunction</Key>
       <Value>Low Volume Pipe (T Junction)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLowVolumePipes</Key>
       <Value>Kit (Low Volume Pipe)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatterySmall</Key>
       <Value>Auxiliary Rocket Battery </Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCapsuleTank</Key>
       <Value>Capsule Tank</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSphericalTank</Key>
       <Value>Spherical Tank</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>LiquidRocketEngineBasic</Key>
@@ -7444,52 +7444,52 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureDuctCorner</Key>
       <Value>Duct Corner</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDuctCrossJunction</Key>
       <Value>Duct Cross Junction</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDuctCrossJunction3</Key>
       <Value>Duct Cross Junction3</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDuctCrossJunction4</Key>
       <Value>Duct Cross Junction4</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDuctCrossJunction5</Key>
       <Value>Duct Cross Junction5</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDuctCrossJunction6</Key>
       <Value>Duct Cross Junction6</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDuctStraight</Key>
       <Value>Duct Straight</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDuctTJunction</Key>
       <Value>Duct T Junction</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDuct</Key>
       <Value>Kit (Duct)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ToyLuna</Key>
       <Value>Toy Luna</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEvaporationChamber</Key>
@@ -7508,17 +7508,17 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitEvaporationChamber</Key>
       <Value>Kit (Phase Change Device)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeUtility</Key>
       <Value>Kit (Pipe Utility Gas)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeUtilityLiquid</Key>
       <Value>Kit (Pipe Utility Liquid)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankGas1x1</Key>
@@ -7633,77 +7633,77 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemClothingBagOveralls_Aus</Key>
       <Value>Overalls (Australia)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_Brazil</Key>
       <Value>Overalls (Brazil)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_Canada</Key>
       <Value>Overalls (Canada)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_China</Key>
       <Value>Overalls (China)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_EU</Key>
       <Value>Overalls (EU)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_France</Key>
       <Value>Overalls (France)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_Germany</Key>
       <Value>Overalls (Germany)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_Japan</Key>
       <Value>Overalls (Japan)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_Korea</Key>
       <Value>Overalls (Korea)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_NZ</Key>
       <Value>Overalls (NZ)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_Russia</Key>
       <Value>Overalls (Russia)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_SouthAfrica</Key>
       <Value>Overalls (South Africa)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_UK</Key>
       <Value>Overalls (UK)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_Ukraine</Key>
       <Value>Overalls (Ukraine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_US</Key>
       <Value>Overalls (US)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSmallDirectHeatExchangeLiquidtoGas</Key>
@@ -7756,7 +7756,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitPassthroughHeatExchanger</Key>
       <Value>Kit (CounterFlow Heat Exchanger)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePoweredVent</Key>
@@ -7771,232 +7771,232 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitPoweredVent</Key>
       <Value>Kit (Powered Vent)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSmallDirectHeatExchanger</Key>
       <Value>Kit (Small Direct Heat Exchanger)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLargeDirectHeatExchanger</Key>
       <Value>Kit (Large Direct Heat Exchanger)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLaunchPad</Key>
       <Value>Kit (Launch Pad)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceBobbleHeadBasicSuit</Key>
       <Value>Bobble Head (Basic Suit)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceBobbleHeadHardSuit</Key>
       <Value>Bobble Head (Hard Suit)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLaunchPadCenter</Key>
       <Value>Launch Pad Center</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLaunchPadTower</Key>
       <Value>Launch Pad Tower</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLaunchPadModule</Key>
       <Value>Launch Pad Module</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardRockets</Key>
       <Value>Rocket Control Motherboard</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketAvionics</Key>
       <Value>Rocket Avionics</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketAvionics</Key>
       <Value>Kit (Avionics)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBench1</Key>
       <Value>Bench (Counter Style)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBench2</Key>
       <Value>Bench (High Tech Style)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBench3</Key>
       <Value>Bench (Frame Style)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBench4</Key>
       <Value>Bench (Workbench Style)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLaunchPadTowerScaffolding</Key>
       <Value>Launch Pad Tower Scaffolding</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasUmbilicalFemale</Key>
       <Value>Umbilical Socket (Gas)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasUmbilicalFemaleSide</Key>
       <Value>Umbilical Socket Angle (Gas)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasUmbilicalMale</Key>
       <Value>Umbilical (Gas)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidUmbilicalFemale</Key>
       <Value>Umbilical Socket (Liquid)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidUmbilicalFemaleSide</Key>
       <Value>Umbilical Socket Angle (Liquid)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidUmbilicalMale</Key>
       <Value>Umbilical (Liquid)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteUmbilicalMale</Key>
       <Value>Umbilical (Chute)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteUmbilicalFemaleSide</Key>
       <Value>Umbilical Socket Angle (Chute)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicRocketUplink</Key>
       <Value>Logic Uplink</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerUmbilicalFemaleSide</Key>
       <Value>Umbilical Socket Angle (Power)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerUmbilicalMale</Key>
       <Value>Umbilical (Power)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>GasRocketEngineBasic</Key>
       <Value>Gas Rocket Engine Basic</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketTower</Key>
       <Value>Launch Tower</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellBackLeft</Key>
       <Value>Stairwell (Back Left)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStairwell</Key>
       <Value>Kit (Stairwell)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellBackPassthrough</Key>
       <Value>Stairwell (Back Passthrough)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellBackRight</Key>
       <Value>Stairwell (Back Right)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellFrontLeft</Key>
       <Value>Stairwell (Front Left)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellFrontPassthrough</Key>
       <Value>Stairwell (Front Passthrough)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellFrontRight</Key>
       <Value>Stairwell (Front Right)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellNoDoors</Key>
       <Value>Stairwell (No Doors)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicRocketDownlink</Key>
       <Value>Logic Rocket Downlink</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketChuteStorage</Key>
       <Value>Rocket Chute Storage</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketCargoBay</Key>
       <Value>Rocket Cargo Bay</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCargoBayFuselage</Key>
       <Value>Fuselage (Cargo Bay)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCargoStorageSmall</Key>
       <Value>Cargo Storage (Small)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketPlaceHolderMiner</Key>
       <Value>Rocket Place Holder Miner</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteUmbilicalFemale</Key>
       <Value>Umbilical Socket (Chute)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerUmbilicalFemale</Key>
       <Value>Umbilical Socket (Power)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketMiner</Key>
@@ -8011,12 +8011,12 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitRocketParts</Key>
       <Value>Rocket Internal Parts</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLaunchMount</Key>
       <Value>Kit (Launch Mount)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketManufactory</Key>
@@ -8025,112 +8025,112 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitRocketManufactory</Key>
       <Value>Kit (Rocket Manufactory)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketScanner</Key>
       <Value>Rocket Scanner</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketBattery</Key>
       <Value>Kit (Rocket Battery)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketFuelTanks</Key>
       <Value>Kit (Rocket Fuel Tanks)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketLiquidFuelTank</Key>
       <Value>Kit (Rocket Liquid Fuel Tank)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketDatalink</Key>
       <Value>Kit (Rocket Datalink)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketLaunchPad</Key>
       <Value>Kit (Rocket Launch Pad)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLaunchTower</Key>
       <Value>Kit (Rocket Launch Tower)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketMiner</Key>
       <Value>Kit (Rocket Miner)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGovernedGasRocketEngine</Key>
       <Value>Kit (Pumped Gas Rocket Engine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGovernedLiquidRocketEngine</Key>
       <Value>Kit (Pumped Liquid Rocket Engine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitElectricUmbilical</Key>
       <Value>Kit (Power Umbilical)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGasUmbilical</Key>
       <Value>Kit (Gas Umbilical)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidUmbilical</Key>
       <Value>Kit (Liquid Umbilical)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketCargoStorage</Key>
       <Value>Kit (Rocket Cargo Storage)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketGasFuelTank</Key>
       <Value>Kit (Rocket Gas Fuel Tank)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureMediumRocketLiquidFuelTank</Key>
       <Value>Liquid Capsule Tank Medium</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureMediumRocketGasFuelTank</Key>
       <Value>Gas Capsule Tank Medium</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCapsuleTankGas</Key>
       <Value>Gas Capsule Tank Small</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCapsuleTankLiquid</Key>
       <Value>Liquid Capsule Tank Small</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitChuteUmbilical</Key>
       <Value>Kit (Chute Umbilical)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCargoStorageMedium</Key>
       <Value>Cargo Storage (Medium)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePumpedLiquidEngine</Key>
@@ -8140,7 +8140,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitPumpedLiquidEngine</Key>
       <Value>Kit (Pumped Liquid Engine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGovernedGasEngine</Key>
@@ -8150,7 +8150,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitPressureFedGasEngine</Key>
       <Value>Kit (Pressure Fed Gas Engine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePressureFedGasEngine</Key>
@@ -8160,7 +8160,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngine</Key>
       <Value>Kit (Pressure Fed Liquid Engine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePressureFedLiquidEngine</Key>
@@ -8170,352 +8170,352 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureFuselageTypeA1</Key>
       <Value>Fuselage (Type A1)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeA2</Key>
       <Value>Fuselage (Type A2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeA3</Key>
       <Value>Fuselage (Type A3)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeA4</Key>
       <Value>Fuselage (Type A4)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeB1</Key>
       <Value>Fuselage (Type B1)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeB2</Key>
       <Value>Fuselage (Type B2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeB3</Key>
       <Value>Fuselage (Type B3)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeB4</Key>
       <Value>Fuselage (Type B4)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeC1</Key>
       <Value>Fuselage (Type C1)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeC2</Key>
       <Value>Fuselage (Type C2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeC3</Key>
       <Value>Fuselage (Type C3)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeC4</Key>
       <Value>Fuselage (Type C4)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeC5</Key>
       <Value>Fuselage (Type C5)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeC6</Key>
       <Value>Fuselage (Type C6)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeD1</Key>
       <Value>Fuselage (Type D1)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeD2</Key>
       <Value>Fuselage (Type D2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeD3</Key>
       <Value>Fuselage (Type D3)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeD4</Key>
       <Value>Fuselage (Type D4)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeD5</Key>
       <Value>Fuselage (Type D5)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeD6</Key>
       <Value>Fuselage (Type D6)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeA1</Key>
       <Value>Engine Mount (Type A1)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeA2</Key>
       <Value>Engine Mount (Type A2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeA3</Key>
       <Value>Engine Mount (Type A3)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeA4</Key>
       <Value>Engine Mount (Type A4)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeA1</Key>
       <Value>Fairing (Type A1)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeA2</Key>
       <Value>Fairing (Type A2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeA3</Key>
       <Value>Fairing (Type A3)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeB1</Key>
       <Value>Engine Mount (Type B1)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeB2</Key>
       <Value>Engine Mount (Type B2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeB3</Key>
       <Value>Engine Mount (Type B3)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeB4</Key>
       <Value>Engine Mount (Type B4)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeB1</Key>
       <Value>Fairing (Type B1)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeB2</Key>
       <Value>Fairing (Type B2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeC1</Key>
       <Value>Engine Mount (Type C1)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeC2</Key>
       <Value>Engine Mount (Type C2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeC3</Key>
       <Value>Engine Mount (Type C3)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeC4</Key>
       <Value>Engine Mount (Type C4)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeC1</Key>
       <Value>Fairing (Type C1)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeC2</Key>
       <Value>Fairing (Type C2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeD1</Key>
       <Value>Engine Mount (Type D1)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeD2</Key>
       <Value>Engine Mount (Type D2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeD3</Key>
       <Value>Engine Mount (Type D3)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeD4</Key>
       <Value>Engine Mount (Type D4)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeD1</Key>
       <Value>Fairing (Type D1)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeD2</Key>
       <Value>Fairing (Type D2)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFuselageTypeD</Key>
       <Value>Kit (Fuselage Type D)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFuselageTypeC</Key>
       <Value>Kit (Fuselage Type C)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFuselageTypeB</Key>
       <Value>Kit (Fuselage Type B)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFuselageTypeA</Key>
       <Value>Kit (Fuselage Type A)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFuselage</Key>
       <Value>Kit (Fuselage)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAccessBridge</Key>
       <Value>Kit (Access Bridge)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketScanner</Key>
       <Value>Kit (Rocket Scanner)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketScanningHead</Key>
       <Value>Rocket Scanner Head</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePortablesConnector</Key>
       <Value>Portables Connector</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPortablesConnector</Key>
       <Value>Kit (Portables Connector)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_BlankPiece</Key>
       <Value>Landingpad</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketCircuitHousing</Key>
       <Value>Rocket Circuit Housing</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketCircuitHousing</Key>
       <Value>Kit (Rocket Circuit Housing)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceTabletDock</Key>
       <Value>Tablet Dock</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHorticultureBelt</Key>
       <Value>Horticulture Belt</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSugarCane</Key>
       <Value>Sugarcane</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketTransformerSmall</Key>
       <Value>Transformer Small (Rocket)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketTransformerSmall</Key>
       <Value>Kit (Transformer Small (Rocket))</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningDrillPneumatic</Key>
       <Value>Pneumatic Mining Drill</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadIce</Key>
       <Value>Mining-Drill Head (Ice)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadMineral</Key>
       <Value>Mining-Drill Head (Mineral)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadDurable</Key>
       <Value>Mining-Drill Head (Durable)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadLongTerm</Key>
       <Value>Mining-Drill Head (Long Term)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadHighSpeedIce</Key>
       <Value>Mining-Drill Head (High Speed Ice)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadHighSpeedMineral</Key>
       <Value>Mining-Drill Head (High Speed Mineral)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRoboticArmDock</Key>
@@ -8525,17 +8525,17 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemIcarusSuit</Key>
       <Value>Icarus Suit</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIcarusHelmet</Key>
       <Value>Icarus Helmet</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>FlareGun</Key>
       <Value>Flare Gun</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorProcessingUnitMesonScanner</Key>
@@ -8550,17 +8550,17 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitRocketCelestialTracker</Key>
       <Value>Kit (Rocket Celestial Tracker)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorProcessingUnitCelestialScanner</Key>
       <Value>Sensor Processing Unit (Celestial Scanner)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGroundTelescope</Key>
       <Value>Kit (Telescope)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGroundBasedTelescope</Key>
@@ -8570,22 +8570,22 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureElevatorShaftIndustrial</Key>
       <Value>Elevator Shaft</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureElevatorLevelIndustrial</Key>
       <Value>Elevator Level</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPassiveVentInsulated</Key>
       <Value>Kit (Insulated Passive Vent)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveVentInsulated</Key>
       <Value>Insulated Passive Vent</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDrinkingFountain</Key>
@@ -8595,12 +8595,12 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemKitDrinkingFountain</Key>
       <Value>Kit (Drinking Fountain)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitShower</Key>
       <Value>Kit (Shower)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureShower</Key>
@@ -8610,7 +8610,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemHandSanitizer</Key>
       <Value>Hand Sanitizer</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemReusableFireExtinguisher</Key>
@@ -8635,77 +8635,77 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemPipeIgniter</Key>
       <Value>Kit (Pipe Igniter)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>OrganLungsChicken</Key>
       <Value>Organ Lungs Chicken</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x1</Key>
       <Value>In-Line Tank Small Gas (Insulated)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x2</Key>
       <Value>In-Line Tank Gas (Insulated)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x1</Key>
       <Value>In-Line Liquid (Insulated)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x2</Key>
       <Value>In-Line Tank Liquid (Insulated)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipeUtilityLiquid</Key>
       <Value>Kit (Insulated Pipe Utility Liquid)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipeUtility</Key>
       <Value>Kit (Insulated Pipe Utility Gas)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitAdvancedAC</Key>
       <Value>Advanced AC Suit</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitEmergency</Key>
       <Value>Emergency Suit</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitHard</Key>
       <Value>Hard Suit</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitInsulated</Key>
       <Value>Insulated Suit</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitNormal</Key>
       <Value>Normal Suit</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitSpace</Key>
       <Value>Space Suit</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAdhesiveInsulation</Key>
       <Value>Adhesive Insulation</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitModCryogenicUpgrade</Key>
@@ -8720,92 +8720,92 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemJetpackTurbine</Key>
       <Value>Turbine Jetpack</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCocoaTree</Key>
       <Value>Cocoa</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Cocoa</Key>
       <Value>Cocoa Seeds</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_SugarCane</Key>
       <Value>Sugarcane Seeds</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>CerealBarBox</Key>
       <Value>Cereal Bar Box</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemEmergencySuppliesBox</Key>
       <Value>Emergency Supplies</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCerealBarBox</Key>
       <Value>Cereal Bar Box</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCerealBarBag</Key>
       <Value>Cereal Bar Bag</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedCanisterPackage</Key>
       <Value>Insulated Canister Package</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>LanderCapsuleSmallDoor</Key>
       <Value>Lander Capsule Small Door</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>LanderCapsuleSmall</Key>
       <Value>Lander Capsule Small</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPortablesPackage</Key>
       <Value>Portables Package</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningPackage</Key>
       <Value>Mining Supplies Package</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemResidentialPackage</Key>
       <Value>Residential Supplies Package</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottlePackage</Key>
       <Value>Water Bottle Package</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottleBag</Key>
       <Value>Water Bottle Bag</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRoboticArm</Key>
       <Value>Kit (LArRE)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLinearRail</Key>
       <Value>Kit (Linear Rail)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRoboticArmRailCornerStop</Key>
@@ -8830,7 +8830,7 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureChuteExportBin</Key>
       <Value>Chute Export Bin</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRoboticArmRailOuterCorner</Key>
@@ -8845,27 +8845,27 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureReinforcedWall</Key>
       <Value>Reinforced Wall</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindowShutterConnector</Key>
       <Value>Composite Window Shutter Connector</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeOneWayValveLever</Key>
       <Value>One Way Valve (Gas)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidOneWayValveLever</Key>
       <Value>One Way Valve (Liquid)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRobotArmDoor</Key>
       <Value>Kit (Linear Rail Door)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRobotArmDoor</Key>
@@ -8875,32 +8875,32 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>StructureTutorialSpawnPoint</Key>
       <Value>Tutorial Spawn Point</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockAtmos</Key>
       <Value>Kit (LArRE Dock Atmos)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockBypass</Key>
       <Value>Kit (LArRE Dock Bypass)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockHydroponics</Key>
       <Value>Kit (LArRE Dock Hydroponics)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockCargo</Key>
       <Value>Kit (LArRE Dock Cargo)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockCollector</Key>
       <Value>Kit (LArRE Dock Collector)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockBypass</Key>
@@ -8945,7 +8945,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <RecordThing>
       <Key>ApplianceBobbleHeadMarine</Key>
       <Value>Bobble Head (Marine)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRoboticArmRailScrewLeft</Key>
@@ -8960,12 +8960,12 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <RecordThing>
       <Key>StructureManualFloorHatch</Key>
       <Value>Manual Floor Hatch</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTap</Key>
       <Value>Liquid Tap</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasMask</Key>
@@ -9085,7 +9085,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <RecordThing>
       <Key>CartridgeDeepMiner</Key>
       <Value>Cartridge (Deep Miner)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCircuitHousingCompact</Key>
@@ -9095,12 +9095,12 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <RecordThing>
       <Key>ItemKitShuttleMKII</Key>
       <Value>Kit Shuttle M K I I</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHardHat</Key>
       <Value>Hard Hat</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicPidController</Key>
@@ -9110,12 +9110,12 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <RecordThing>
       <Key>StructureLargeRocketLiquidFuelTank</Key>
       <Value>Liquid Capsule Tank Large</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeRocketGasFuelTank</Key>
       <Value>Gas Capsule Tank Large</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_LargeTank</Key>
@@ -9125,12 +9125,12 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <RecordThing>
       <Key>StructureAirlockWide</Key>
       <Value>Airlock Wide</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardMap</Key>
       <Value>Map Motherboard</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageDoorsDual</Key>
@@ -9140,12 +9140,12 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <RecordThing>
       <Key>ItemCryoMask</Key>
       <Value>Cryo Mask</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketAtmospherics</Key>
       <Value>Kit (Rocket Atmospherics)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketFiltrationGas</Key>
@@ -9160,22 +9160,22 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <RecordThing>
       <Key>ItemRocketDeepScanningHead</Key>
       <Value>Rocket Deep Scanner Head</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureComputerBigScreenWallMounted</Key>
       <Value>Computer (Big Screen Wall Mounted)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureComputerBigScreen</Key>
       <Value>Computer (Big Screen)</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureVendingMachineSmall</Key>
       <Value>Vending Machine Small</Value>
-      <Description />
+      <Description></Description>
     </RecordThing>
   </Things>
   <Slots>
@@ -12245,7 +12245,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiDogsheadCraterDescription</Key>
-      <Value> </Value>
+      <Value></Value>
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterName</Key>
@@ -12253,7 +12253,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterDescription</Key>
-      <Value> </Value>
+      <Value></Value>
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterName</Key>
@@ -12261,7 +12261,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterDescription</Key>
-      <Value> </Value>
+      <Value></Value>
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterName</Key>
@@ -12269,7 +12269,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterDescription</Key>
-      <Value> </Value>
+      <Value></Value>
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterName</Key>
@@ -12277,7 +12277,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterDescription</Key>
-      <Value> </Value>
+      <Value></Value>
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterName</Key>
@@ -12285,7 +12285,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterDescription</Key>
-      <Value> </Value>
+      <Value></Value>
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterName</Key>
@@ -12293,7 +12293,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterDescription</Key>
-      <Value> </Value>
+      <Value></Value>
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterName</Key>
@@ -12301,7 +12301,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterDescription</Key>
-      <Value> </Value>
+      <Value></Value>
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterName</Key>
@@ -12309,7 +12309,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterDescription</Key>
-      <Value> </Value>
+      <Value></Value>
     </Record>
     <Record>
       <Key>VulcanSpawnVestaValleyName</Key>
@@ -18133,7 +18133,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>MoleHydrogenDescription</Key>
-      <Value />
+      <Value></Value>
     </Record>
     <Record>
       <Key>MoleSteamDescription</Key>
@@ -21320,8 +21320,8 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Available Scanners</Value>
     </Record>
     <Record>
-        <Key>OldSavesDetectedMessage</Key>
-        <Value>The save system has been re-written from scratch and old saves are no longer supported.
+      <Key>OldSavesDetectedMessage</Key>
+      <Value>The save system has been re-written from scratch and old saves are no longer supported.
 There are some community tools that you can use to convert old saves. In this case make sure to back up your save folder before attempting to convert.</Value>
     </Record>
     <Record>
@@ -22755,10 +22755,10 @@ Thank you for your understanding, and we can’t wait for you to experience what
       <Value>Cobalt</Value>
     </Record>
   </Mineables>
-  <ScreenSpaceToolTips />
-  <HelpPage />
-  <ThingPageOverride />
-  <HomePageButtonsOverride />
+  <ScreenSpaceToolTips></ScreenSpaceToolTips>
+  <HelpPage></HelpPage>
+  <ThingPageOverride></ThingPageOverride>
+  <HomePageButtonsOverride></HomePageButtonsOverride>
   <GameStrings>
     <Record>
       <Key>ToolRequiredToDeconstruct</Key>
@@ -28013,8 +28013,8 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CancelLoadButton</Key>
-      <Value>Cancel</Value>
+      <Value>Відміна</Value>
     </Record>
   </GameStrings>
-  <GameTip />
+  <GameTip></GameTip>
 </Language>

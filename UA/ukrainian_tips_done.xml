@@ -12,15 +12,15 @@
     <String>Натискання {KEY:Drop} кидає предмет з руки. Утримуйте {KEY:Drop}, щоб кинути його; чим довше тримаєте — тим далі буде летіти.</String>
     <String>Натискання {KEY:SwapHands} перемикає активну руку. Натисніть {KEY:ActiveHandSlot}, щоб переглянути варіанти взаємодії з предметом у вашій активній руці.</String>
     <String>Натисніть {KEY:Internals}, щоб швидко відкрити або закрити ваш {THING:ItemSpaceHelmet}.</String>
-    <String>Натисніть {KEY:Chatting}, щоб передавати повідомлення з іншим гравцям.</String>
-    <String>Натисніть {KEY:RotateLeft}, щоб обертати курсор будівництва вліво, {KEY:RotateRight} — вправо, {KEY:RotateUp} — вгору, {KEY:RotateDown} — вниз, {KEY:RotateRollLeft} — прокрутка вліво, {KEY:RotateRollRight} — прокрутка вправо.</String>
+    <String>Натисніть {KEY:Chatting}, щоб надсилати повідомлення з іншим гравцям.</String>
+    <String>Натисніть {KEY:RotateLeft}, щоб обертати курсор будівництва вліво, {KEY:RotateRight} — вправо, {KEY:RotateUp} — вгору, {KEY:RotateDown} — вниз, {KEY:RotateRollLeft} — нахил вліво, {KEY:RotateRollRight} — нахил вправо.</String>
     <String>Космос не такий вже й порожній, як здається.</String>
     <String>Помістіть {THING:ItemIronOre} у заживлений {THING:StructureArcFurnace}, щоб виплавити {THING:ItemIronIngot}.</String>
     <String>Встановіть {THING:MotherboardLogic} у {THING:StructureComputer}, щоб активувати логіку з ІС-чипом. Ви зможете додавати умови та дії, які керують станами пристроїв у тій самій мережі даних.</String>
     <String>Щоб змінювати кількість через кнопку у світі дрібнішими кроками, утримуйте {KEY:QuantityModifier} під час натискання.</String>
     <String>Використовуйте {THING:ItemKitLogicInputOutput}, щоб створити {THING:StructureLogicReader} або {THING:StructureLogicWriter}. Читачі дозволяють отримувати значення з інших пристроїв, а записувачі — змінювати їх. У поєднанні з математичними модулями можна створювати дуже складні автоматизовані системи.</String>
     <String>Використовуйте {THING:ItemKitLogicInputOutput}, щоб створити {THING:StructureLogicBatchReader} або {THING:StructureLogicBatchWriter}. Ці пристрої дозволяють читати або записувати значення для групи пристроїв одночасно.</String>
-    <String>Використовуйте {THING:StructureRecycler}, щоб переробляти непотрібні речі на ресурси. Вставте отриманий {THING:ItemReagentMix} у {THING:StructureCentrifuge}, щоб отримати ресурси назад у вигляді не змішаної руди для подальшої обробки у {THING:StructureFurnace}.</String>
+    <String>Використовуйте {THING:StructureRecycler}, щоб переробляти непотрібні речі на ресурси. Вставте отриманий {THING:ItemReagentMix} у {THING:StructureCentrifuge}, щоб отримати ресурси назад у вигляді чистої руди для подальшої обробки у {THING:StructureFurnace}.</String>
     <String>Використовуйте {THING:StructureHydraulicPipeBender}, щоб виготовляти предмети які дають змогу взаємодіяти з атмосферою, наприклад {THING:ItemKitAtmospherics}, який дозволяє будувати пристрої, такі як {THING:StructureAirConditioner} або {THING:StructureFiltration}.</String>
     <String>Чим більше пошкоджено ваш костюм, тим менш ефективно він працює. Скотч це виправить.</String>
     <String>Чим більше пошкоджено ваш костюм, тим менш ефективно він працює.</String>
@@ -43,7 +43,7 @@
     <String>Регулятор тертя з бі-ротаційною моделлю та уні-захватом — це не просто викрутка.</String>
     <String>Це не зовсім «молоко», а запатентований Agrizero синтез {THING:ItemSoyOil} і {THING:ItemFern}, делікатно змішаних у {THING:ApplianceChemistryStation}.</String>
     <String>Заборонені на Землі після інциденту в Ченду, ядерні елементи живлення, від компанії Norsec, знайшли новий, значно менш свідомий щодо безпеки ринок поза Землею.</String>
-    <String>Зголодніли? Зернові батончики — компактні, поживні й майже без радіації.</String>
+    <String>Зголодніли? Зернові батончики — компактні, поживні і майже не фонять.</String>
     <String>Втомилися міняти звичайні фільтри? Середні та Великі фільтри служать у 5 і 20 разів довше, але коштують дорожче.</String>
   </GameTip>
 </Language>
