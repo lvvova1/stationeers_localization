@@ -12,7 +12,7 @@
     <String>Натискання {KEY:Drop} кидає предмет з руки. Утримуйте {KEY:Drop}, щоб кинути його; чим довше тримаєте — тим далі буде летіти.</String>
     <String>Натискання {KEY:SwapHands} перемикає активну руку. Натисніть {KEY:ActiveHandSlot}, щоб переглянути варіанти взаємодії з предметом у вашій активній руці.</String>
     <String>Натисніть {KEY:Internals}, щоб швидко відкрити або закрити ваш {THING:ItemSpaceHelmet}.</String>
-    <String>Натисніть {KEY:Chatting}, щоб надсилати повідомлення з іншим гравцям.</String>
+    <String>Натисніть {KEY:Chatting}, щоб надсилати повідомлення іншим гравцям.</String>
     <String>Натисніть {KEY:RotateLeft}, щоб обертати курсор будівництва вліво, {KEY:RotateRight} — вправо, {KEY:RotateUp} — вгору, {KEY:RotateDown} — вниз, {KEY:RotateRollLeft} — нахил вліво, {KEY:RotateRollRight} — нахил вправо.</String>
     <String>Космос не такий вже й порожній, як здається.</String>
     <String>Помістіть {THING:ItemIronOre} у заживлений {THING:StructureArcFurnace}, щоб виплавити {THING:ItemIronIngot}.</String>

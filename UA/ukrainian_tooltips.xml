@@ -38,7 +38,7 @@
     </Record>
     <Record>
       <Key>StatusIconOxygenName</Key>
-      <Value>Постачання кисню</Value>
+      <Value>Постачання оксигену</Value>
     </Record>
     <Record>
       <Key>StatusIconOxygenDesc</Key>
@@ -46,11 +46,11 @@
     </Record>
     <Record>
       <Key>StatusIconOxygenWarning</Key>
-      <Value>Рівень кисню в балоні низький — потрібна увага</Value>
+      <Value>Рівень оксигену в балоні низький — потрібна увага</Value>
     </Record>
     <Record>
       <Key>StatusIconOxyegnCritical</Key>
-      <Value>Критичний рівень кисню — замініть балон</Value>
+      <Value>Критичний рівень оксигену — замініть балон</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureName</Key>
@@ -78,11 +78,11 @@
     </Record>
     <Record>
       <Key>StatusIconTempuratureWarning</Key>
-      <Value>Відображає поточний рівень токсичності</Value>
+      <Value>Температура всередині костюма відхиляється від норми</Value>
     </Record>
     <Record>
       <Key>StatusIconTempuratureCritical</Key>
-      <Value>Відображає поточний рівень токсичності</Value>
+      <Value>Критична температура всередині костюма</Value>
     </Record>
     <Record>
       <Key>StatusIconLeakingName</Key>
@@ -122,7 +122,7 @@
     </Record>
     <Record>
       <Key>StatusIconInSlotName</Key>
-      <Value>Ви всередині слота</Value>
+      <Value>Ви у кріслі</Value>
     </Record>
     <Record>
       <Key>StatusIconHungerName</Key>
@@ -202,11 +202,11 @@
     </Record>
     <Record>
       <Key>StatusIconCoolantName</Key>
-      <Value>Температура бака охолоджуючої суміші</Value>
+      <Value>Температура охолоджувача</Value>
     </Record>
     <Record>
       <Key>StatusIconCoolantDesc</Key>
-      <Value>Температура охолоджуючої суміші занадто висока</Value>
+      <Value>Температура охолоджувача занадто висока</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>
