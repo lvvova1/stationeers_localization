@@ -278,7 +278,7 @@
     </Record>
     <Record>
       <Key>LiquidMethane</Key>
-      <Value>Рідкий </Value>
+      <Value>Рідкий Метан</Value>
     </Record>
     <Record>
       <Key>Steam</Key>
@@ -584,12 +584,6 @@
       <Key>ApplianceMicrowave</Key>
       <Value>Мікрохвильова піч</Value>
       <Description>Хоча за останні кілька сотень років було винайдено безліч «кращих» способів приготування їжі {LINK:FoodPage;Food}, мало які з них є настільки довговічними та простими у виготовленні, як мікрохвильовка OK-Zoomer. Креслення, ліцензовані компанією {LINK:Xigo;Xigo}, базуються на класичній моделі середини 21 століття, що надає їй чарівного ретро-штриху. Але не хвилюйтеся, вона цілком достатньо розгойдує молекули {GAS:Water}. 
-
-
-
-
-
-
 Просто прикрутіть її до {THING:StructureBench} за допомогою {THING:ItemWrench}, щоб підключити живлення, дотримуйтесь рецепта — і все, ви готуєте.</Description>
     </RecordThing>
     <RecordThing>
@@ -925,19 +919,7 @@
       <Key>CircuitboardPowerControl</Key>
       <Value>Управління живленням</Value>
       <Description>У віддалених регіонах та в складних умовах експлуатації системи {LINK:Stationeers;Stationeer} повинні забезпечувати баланс між надійністю, стійкістю та універсальністю. Плата управління живленням дозволяє дистанційно вмикати та вимикати вибрані пристрої, відключаючи ручне керування. 
-
-
-
-
-
-
       
-
-
-
-
-
-
 Плата має два режими: «Link» вмикає або вимикає всі пристрої; «Toggle» перемикає кожен пристрій у протилежний стан. </Description>
     </RecordThing>
     <RecordThing>
@@ -963,7 +945,7 @@
     <RecordThing>
       <Key>DynamicCrateBuildingSupplies</Key>
       <Value>Ящик (будівельні матеріали)</Value>
-      <Description>Portable gas tank для зберігання газу. Можна заправити через {THING:ItemTankConnector} та підключити до трубопровідної мережі.</Description>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateCableSupplies</Key>
@@ -1093,87 +1075,26 @@
     <RecordThing>
       <Key>ItemBatteryCell</Key>
       <Value>Акумулятор (Малий)</Value>
-      <Description>Harnessing a design pioneered in the early 21st century, the small battery cell is the {LINK:Stationeers;Stationeer's} basic unit of portable electrical power. While it lacks the charge of a {THING:ItemBatteryCellLarge} or {THING:ItemBatteryCellNuclear}, it has the humble advantage of being fabricated from basic resources.
-
-
-
-
-
-
-
-
-
-
-
-
+      <Description>Розроблений ще на початку XXI століття, малий акумулятор є базовою одиницею портативного електроживлення для {LINK:Stationeers;Стейшнера}. Хоча він поступається за зарядом {THING:ItemBatteryCellLarge} або {THING:ItemBatteryCellNuclear}, має незаперечну перевагу — виготовляється з базових ресурсів.
 
 {HEADER:POWER OUTPUT}
-
-
-
-
-
-
-The small cell stores up to 36000 watts of power.</Description>
+Малий акумулятор зберігає до 36 000 Вт енергії.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellLarge</Key>
       <Value>Акумулятор (Великий)</Value>
-      <Description>First mass-produced by {LINK:Xigo;Xigo} in 2155 on the basis of a unattributed prototype, the classic silicon anode solid-state design extends its optimum temperature range.
-
-
-
-
-
-
-
-
-
-
-
-
+      <Description>Вперше серійно виготовлений компанією {LINK:Xigo;Xigo} у 2155 році на основі анонімного прототипу. Класична кремнієво-анодна твердотільна конструкція розширює оптимальний температурний діапазон роботи.
 
 {HEADER:POWER OUTPUT}
-
-
-
-
-
-
-The large power cell can discharge 288kW of power. 
-
-
-
-
-
-
-</Description>
+Великий акумулятор здатний забезпечити 288 кВт потужності.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellNuclear</Key>
       <Value>Акумулятор (Ядерний)</Value>
-      <Description>Illegal on Earth since the Chengdu Event, Norsec nuclear power cells found a new and drastically less safety-conscious market offworld.
-
-
-
-
-
-
-
-
-
-
-
-
+      <Description>Заборонені на Землі після Ченду-події, ядерні акумулятори Norsec знайшли новий, значно менш стурбований безпекою ринок у відкритому космосі.
 
 {HEADER:POWER OUTPUT}
-
-
-
-
-
-
-Pushing the power-weight balance to its limits, the 'nuke' has a 2.3 megawatt charge (2304000W), reflecting its reliance on exotic {LINK:IngotPage;superalloys}.</Description>
+Доводячи баланс потужність/вага до межі, «ядерний» акумулятор має заряд 2,3 МВт (2 304 000 Вт), що досягається завдяки екзотичним {LINK:IngotPage;суперсплавам}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCharger</Key>
@@ -1188,14 +1109,8 @@ Pushing the power-weight balance to its limits, the 'nuke' has a 2.3 megawatt ch
     <RecordThing>
       <Key>ItemCableCoil</Key>
       <Value>Котушка кабелю</Value>
-      <Description>Bodily metaphors are tired and anthropocentric, but it was Frida Stuppen, the first {LINK:ODA;ODA} Administrator, who said, 'Let the cabling be as the nerve and the vessel, transmitting power and data alike through systems we forge among the stars.' Later commentators suggested that she was simply putting a romantic gloss on a piece of dubious economy. Whatever the case, standard cabling is where any {LINK:Stationeers;Stationeer's} network begins. 
-
-
-
-
-
-
-Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
+      <Description>Тілесні метафори банальні й антропоцентричні, але саме Фріда Штуппен, перший адміністратор {LINK:ODA;ODA}, сказала: «Нехай кабелі будуть як нерви і судини — передаючи енергію та дані через системи, які ми будуємо серед зірок». Пізніші коментатори припустили, що вона просто надавала романтичного блиску звичайній практичності. Як би там не було, стандартний кабель — початок будь-якої мережі {LINK:Stationeers;Стейшнера}.
+Звичайний кабель витримує максимальну потужність 5 кВт. Для вищих навантажень використовуйте {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightBlue</Key>
@@ -1255,14 +1170,8 @@ Normal coil has a maximum wattage of 5kW. For higher-current applications, use {
     <RecordThing>
       <Key>ItemDuctTape</Key>
       <Value>Скотч</Value>
-      <Description>In the distant past, one of Earth's great champions taught a generation of 'Fix-It People' that duct tape was the answer to any problem. {LINK:Stationeers;Stationeers} have demonstrated that this is truth holds strong, so long as the problem is a damaged {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet}, or even a {THING:StructureSolarPanel}.
-
-
-
-
-
-
-To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON to automatically repair damage.</Description>
+      <Description>У далекому минулому один із великих захисників Землі навчив ціле покоління «людей-ремонтників», що клейка стрічка — відповідь на будь-яку проблему. {LINK:Stationeers;Стейшнери} довели, що ця істина досі актуальна — принаймні коли проблема в пошкодженому {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet} або навіть {THING:StructureSolarPanel}.
+Щоб полагодити себе: візьміть стрічку в активну руку та утримуйте ПРАВУ КНОПКУ МИШІ для автоматичного відновлення.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamite</Key>
@@ -1790,33 +1699,15 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemSpaceHelmet</Key>
       <Value>Космічний шолом</Value>
-      <Description>The basic space helmet insulates {LINK:Stationeers;Stationeers} against everything from hard vacuum to weird cooking smells. Providing a pressure-controlled, breathable atmosphere, it comes with a built-in light powered by your {THING:ItemEvaSuit} {THING:ItemBatteryCell}.
-
-
-
-
-
-
-It also incorporates a lock/unlock feature to avoid accidental opening, as well as a flush function to expel and replace the internal atmosphere. If damaged, use {THING:ItemDuctTape} to fix it, or paint it any color you like using the {THING:AppliancePaintMixer}.</Description>
+      <Description>Базовий космічний шолом захищає {LINK:Stationeers;Стейшнерів} від усього — від відкритого вакууму до дивних запахів готування. Він забезпечує кероване за тиском дихальне середовище та має вбудоване світло, яке живиться від {THING:ItemBatteryCell} вашого {THING:ItemEvaSuit}.
+Також є функція блокування/розблокування для запобігання випадковому відкриттю та функція продувки для заміни внутрішньої атмосфери. Якщо пошкоджено — полагодьте {THING:ItemDuctTape}, або пофарбуйте в будь-який колір за допомогою {THING:AppliancePaintMixer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSpacepack</Key>
       <Value>Космічний ранець</Value>
-      <Description>The basic {LINK:CHAC;CHAC} spacepack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.
-
-
-
-
-
-
-Indispensable for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemJetpackBasic} or {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
-
-
-
-
-
-
-USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
+      <Description>Базовий космічний ранець {LINK:CHAC;CHAC} — це, «технічно», не реактивний ранець, а газовий рушій. Він може працювати від будь-якого газу, якщо внутрішній тиск у {LINK:AtmosphericsPage;балоні} перевищує зовнішній атмосферний тиск. Якщо зовнішній тиск вищий — ранець не працюватиме.
+Незамінний при будівництві, видобутку та переміщенні, він має десять слотів зберігання та дозволяє летіти зі швидкістю 3 м/с — менше, ніж потужніший {THING:ItemJetpackBasic} або {THING:ItemHardJetpack}. Регулювання тяги змінює прискорення, а активація стабілізатора дозволяє зависати на заданій висоті.
+КЕРУВАННЯ: «J» — активація; «пробіл» — підйом; «лівий Ctrl» — спуск; «WASD» — рух.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
@@ -1886,14 +1777,8 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>ItemSteelIngot</Key>
       <Value>Злиток (Сталь)</Value>
-      <Description>Steel ingots are a metal alloy, crafted in a {THING:StructureFurnace} by smelting {THING:ItemIronOre} and {THING:ItemCoalOre} at a ratio of 3:1.
-
-
-
-
-
-
-It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be combined at a ratio of 1:2 in a furnace to create the necessary gas mixture for smelting.</Description>
+      <Description>Сталеві злитки — це металевий сплав, що виробляється в {THING:StructureFurnace} шляхом плавлення {THING:ItemIronOre} і {THING:ItemCoalOre} у співвідношенні 3:1.
+Це не надто елегантно, але {THING:ItemOxite} і {THING:ItemVolatiles} можна змішати у співвідношенні 1:2 прямо в печі для отримання потрібної газової суміші.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelSheets</Key>
@@ -1923,14 +1808,8 @@ It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be co
     <RecordThing>
       <Key>ItemToolBelt</Key>
       <Value>Інструментальний пояс</Value>
-      <Description>If there's one piece of equipment that embodies {LINK:Stationeers;Stationeer} life above all else, it's the humble toolbelt (Editor's note: a recent {LINK:ODA;ODA} survey of iconic Stationeer equipment also rated the smoking, toxic ruins of an over-pressurized {THING:StructureFurnace} lying amid the charred remains of your latest base very highly).
-
-
-
-
-
-
-Designed to meet the most strict-ish ODA safety standards, the toolbelt's eight slots hold one thing: tools, and {THING:ItemCableCoil}. Not to be confused with the {THING:ItemMiningBelt}.</Description>
+      <Description>Якщо і є одиниця спорядження, що уособлює життя {LINK:Stationeers;Стейшнера} понад усе, то це скромний поясний набір інструментів (прим. редакції: нещодавнє опитування {LINK:ODA;ODA} серед культових предметів Стейшнера також дуже високо оцінило димлячі токсичні руїни надлишково накачаної {THING:StructureFurnace} серед обвуглених залишків вашої останньої бази).
+Розроблений відповідно до жорстких стандартів безпеки ODA, восьмислотовий пояс зберігає лише одне: інструменти та {THING:ItemCableCoil}. Не плутайте з {THING:ItemMiningBelt}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
@@ -1955,14 +1834,8 @@ Designed to meet the most strict-ish ODA safety standards, the toolbelt's eight 
     <RecordThing>
       <Key>ItemWeldingTorch</Key>
       <Value>Зварювальний пальник</Value>
-      <Description>Stored in the standard issue {LINK:Stationeers;Stationeers} {THING:ItemToolBelt}, the Arlite welding torch is used to construct a range of essential structures.
-
-
-
-
-
-
-An upgraded version of the classic 'Zairo' model first manufactured by {LINK:ExMin;ExMin} for modular space habitat assembly, the Arlite is powered by a single {THING:ItemGasCanisterFuel} and designed to function equally well in deep space and deep gravity wells.</Description>
+      <Description>Зварювальний пальник Arlite зберігається в стандартному {THING:ItemToolBelt} {LINK:Stationeers;Стейшнера} і використовується для зведення широкого спектру ключових конструкцій.
+Вдосконалена версія класичної моделі «Zairo», вперше виготовленої {LINK:ExMin;ExMin} для складання модульних орбітальних станцій, — Arlite живиться від одного {THING:ItemGasCanisterFuel} та однаково ефективно працює як у відкритому космосі, так і в умовах сильного тяжіння.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWheat</Key>
@@ -1982,14 +1855,8 @@ An upgraded version of the classic 'Zairo' model first manufactured by {LINK:ExM
     <RecordThing>
       <Key>MotherboardLogic</Key>
       <Value>Логічна материнська плата</Value>
-      <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
-
-
-
-
-
-
-The {LINK:Norsec;Norsec-designed} K-cops logic motherboard allows {LINK:Stationeers;Stationeers} to set variables and actions on specific {LINK:LogicUnitPage;logic}-controlled items.</Description>
+      <Description>Материнські плати підключаються до {THING:StructureComputer}ів для виконання різних технічних функцій.
+Логічна материнська плата K-cops від {LINK:Norsec;Norsec} дозволяє {LINK:Stationeers;Стейшнерам} задавати змінні та дії для конкретних пристроїв під управлінням {LINK:LogicUnitPage;логіки}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardManufacturing</Key>
@@ -2000,12 +1867,6 @@ The {LINK:Norsec;Norsec-designed} K-cops logic motherboard allows {LINK:Statione
       <Key>MotherboardSorter</Key>
       <Value>Материнська плата сортера</Value>
       <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
-
-
-
-
-
-
 The {LINK:Norsec;Norsec-designed} K-cops 10-10 sorter motherboard permits {LINK:Stationeers;Stationeers} to control which items a {THING:StructureSorter} does, and does not, permit to pass.</Description>
     </RecordThing>
     <RecordThing>
@@ -2050,63 +1911,15 @@ The {LINK:Norsec;Norsec-designed} K-cops 10-10 sorter motherboard permits {LINK:
     <RecordThing>
       <Key>StructureAirConditioner</Key>
       <Value>Кондиціонер</Value>
-      <Description>Built using the {THING:ItemKitAtmospherics}, the {LINK:ExMin;ExMin-designed} air conditioner is used to raise or lower input gas temperature.
+      <Description>Виготовляється з {THING:ItemKitAtmospherics}. Кондиціонер повітря розробки {LINK:ExMin;ExMin} призначений для підвищення або зниження температури вхідного газу.
 
+Пристрій має три трубних з'єднання: вхід, вихід і відводний. Газ, що надходить на вхід, нагрівається або охолоджується до цільової температури, а з відводним газом відбувається протилежне.
 
+Кілька коефіцієнтів ефективності впливають на споживання енергії — їх можна переглянути на зеленій інформаційній панелі. Зі збільшенням різниці температур між входом і відводом знижується коефіцієнт температурного диференціалу. При екстремальних температурах знижується операційна температурна ефективність. При низькому тиску у вхідній або відводній трубі знижується ефективність за тиском.
 
+{THING:StructurePipeRadiator} можуть допомогти повернути екстремальні температури трубопроводу до нормальних значень.
 
-
-
-	  
-
-
-
-
-
-
-The unit has three pipe connections: input, output, and waste. Gas fed into the input will be heated or cooled to reach the target temperature, while the opposite will happen to gas on the waste network.
-
-
-
-
-
-
-
-
-
-
-
-
-
-Multiple Efficiency Multipliers can effect the amount of energy the Air Conditioner uses, and these can be view on the unit's green Information Panel. As the temperature difference between input and waste increases, the Temperature Differential Efficiency Multiplier will decrease. If input or waste temperature is extremely hot or cold, the Operational Temperature Efficiency will decrease. If the input or waste pipe has approach low pressures, the Pressure Efficiency will decrease.
-
-
-
-
-
-
-
-
-
-
-
-
-
-{THING:StructurePipeRadiator}s may be useful in bringing extreme pipe temperatures back towards normal world temperatures. 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-For more information on using the air conditioner, consult the {LINK:TemperatureControlPage;temperature control} Guides page.</Description>
+Детальніше — на сторінці {LINK:TemperatureControlPage;керування температурою}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlock</Key>
@@ -2116,53 +1929,17 @@ For more information on using the air conditioner, consult the {LINK:Temperature
     <RecordThing>
       <Key>StructureAreaPowerControl</Key>
       <Value>Контролер зони живлення</Value>
-      <Description>An Area Power Control (APC) has three main functions: 
-
-
-
-
-
-
-Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. 
-
-
-
-
-
-
-APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network.
-
-
-
-
-
-
-Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only.</Description>
+      <Description>Контролер зони живлення (КЗЖ) виконує три основні функції:
+Головна — регулювання потоку живлення для забезпечення безперебійної роботи пристроїв та обладнання, особливо з нестабільним споживанням.
+КЗЖ також створюють підмережі — пристрої по той бік контролера не видно в основній мережі.
+Нарешті, КЗЖ заряджає акумулятори, які можуть забезпечити резервне живлення при відключенні. Зверніть увагу: КЗЖ потребує акумулятор для стабілізації споживання. Є два варіанти — кожен дозволяє струму текти лише в одному напрямку.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
       <Value>Контролер зони живлення (Обернений)</Value>
       <Description>An Area Power Control (APC) has three main functions. 
-
-
-
-
-
-
 Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. 
-
-
-
-
-
-
 APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. 
-
-
-
-
-
-
 Lastly, an APC charges batteries, which can provide backup power to the sub-network in the case of an outage. Note that an APC requires a battery to stabilize power draw. It also has two variants, each allowing power to flow in one direction only.</Description>
     </RecordThing>
     <RecordThing>
@@ -2193,28 +1970,10 @@ Lastly, an APC charges batteries, which can provide backup power to the sub-netw
     <RecordThing>
       <Key>StructureBattery</Key>
       <Value>Станційний акумулятор</Value>
-      <Description>Providing large-scale, reliable power storage, the {LINK:Sinotai;Sinotai} 'Dianzi' station battery is the heart of most {LINK:Stationeers;Stationeer} bases. 
-
-
-
-
-
-
-There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' 
-
-
-
-
-
-
+      <Description>Стаціонарний акумулятор «Dianzi» від {LINK:Sinotai;Sinotai} забезпечує надійне великомасштабне зберігання енергії і є серцем більшості баз {LINK:Stationeers;Стейшнерів}.
+При проектуванні електричних систем із акумуляторами слід дотримуватися ряду застережень — у кожного досвідченого Стейшнера є своя повчальна історія. Звідси і приказка: «Dianzi готує, але й смажить».
 {HEADER:POWER OUTPUT}
-
-
-
-
-
-
-Able to store up to 3600000W of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}.</Description>
+Може зберігати до 3 600 000 Вт. Практичних обмежень пропускної здатності немає, тому рекомендується використовувати {THING:ItemCableCoilHeavy}. Досвідчені електрики посміюватимуться над тими, хто не розділяє мережі генерації за допомогою {THING:StructureAreaPowerControl} і {THING:StructureTransformer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
@@ -2229,124 +1988,58 @@ Able to store up to 3600000W of power, there are no practical limits to its thro
     <RecordThing>
       <Key>StructureBlastDoor</Key>
       <Value>Броньовані двері</Value>
-      <Description>Airtight and almost undamageable, the original 'Millmar' series of blast door was designed by off-world mining giant {LINK:Recurso;Recurso} to protect asteroid-mining facilities from nuclear-incident-level explosive decompression.
-
-
-
-
-
-
-Short of a pocket-sized singularity blinking into the local space-time frame, there is effectively no limit to the pressure these blast doors can contain - ideal for constructing airlocks in pressure-sensitive environments.</Description>
+      <Description>Герметичні та майже невразливі, оригінальні бронедвері серії «Millmar» були розроблені позаземним гірничодобувним гігантом {LINK:Recurso;Recurso} для захисту астероїдних шахт від вибухової декомпресії рівня ядерного інциденту.
+Крім кишенькової сингулярності в місцевому просторово-часовому полі, практично немає тиску, якого не витримають ці двері — ідеальне рішення для шлюзів у чутливих до тиску середовищах.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner</Key>
       <Value>Кабель (Кутовий)</Value>
-      <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
-
-
-
-
-
-
-Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
+      <Description>Передаючи і енергію, і дані, кабель став символом інноваційності, незалежності та гнучкості {LINK:Stationeers;Стейшнерів} — настільки важливий, що {LINK:ODA;ODA} офіційно визнала його {LINK:ToolPage;інструментом} на 3-й Декаріальній сонячній конференції Стейшнерів.
+Стандартний кабель витримує максимальну потужність 5 кВт. Для вищих навантажень використовуйте {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3</Key>
       <Value>Кабель (3-ходовий кутовий)</Value>
       <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so essential, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
-
-
-
-
-
-
 Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction</Key>
       <Value>Кабель (З'єднувач)</Value>
       <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
-
-
-
-
-
-
 Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction4</Key>
       <Value>Кабель (4-ходовий з'єднувач)</Value>
       <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
-
-
-
-
-
-
 Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6</Key>
       <Value>Кабель (6-ходовий з'єднувач)</Value>
       <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} duty - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'} during the 3rd Decannual Stationeer Solar Conference.
-
-
-
-
-
-
 Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraight</Key>
       <Value>Кабель (Прямий)</Value>
       <Description>Carrying power and data alike, cable coil has come to symbolize the innovation, independence and flexibility of {LINK:Stationeers;Stationeer} life - so much so, the {LINK:ODA;ODA} designated it an official {LINK:ToolPage;'tool'}.
-
-
-
-
-
-
 Normal coil has a maximum wattage of 5kW. For higher-current applications, use {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCamera</Key>
       <Value>Камера</Value>
-      <Description>Nothing says 'I care' like a security camera that's been linked a {THING:StructureMotionSensor} and a {THING:StructureConsole} fitted with a {THING:CircuitboardCameraDisplay}.
-
-
-
-
-
-
-Be there, even when you're not.</Description>
+      <Description>Ніщо так не говорить «мені не байдуже», як камера безпеки, підключена до {THING:StructureMotionSensor} і {THING:StructureConsole} з {THING:CircuitboardCameraDisplay}.
+Будьте там, навіть коли вас немає.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCentrifuge</Key>
       <Value>Центрифуга</Value>
-      <Description>If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs {LINK:ReagentPage;reagent} mixture rather than the desired {LINK:IngotPage;ingots}, a centrifuge allows you to reclaim the raw {LINK:OrePage;ore}. 
-
-
-
-
-
-
-        It also refines {THING:ItemDirtyOre} produced from the {THING:StructureDeepMiner} and {THING:ItemSpaceOre} produced from the {THING:StructureRocketMiner}. 
-
-
-
-
-
-
-        Its bigger brother {THING:StructureCombustionCentrifuge} can be used to process items significantly faster. Items processed by the centrifuge will be de-gassed. 
-
-
-
-
-
-
-        If openned while powered on, the centrifuge will enter an errored state and reduce its rpm to 0 and then export any items.</Description>
+      <Description>Якщо {THING:StructureRecycler} або неправильно налаштована {THING:StructureFurnace} виробляє {LINK:ReagentPage;реагентну} суміш замість потрібних {LINK:IngotPage;злитків}, центрифуга дозволяє відновити вихідну {LINK:OrePage;руду}.
+Також переробляє {THING:ItemDirtyOre} із {THING:StructureDeepMiner} та {THING:ItemSpaceOre} із {THING:StructureRocketMiner}.
+Старший брат {THING:StructureCombustionCentrifuge} обробляє матеріали значно швидше. Оброблені центрифугою предмети будуть дегазовані.
+Якщо відкрити під час роботи, центрифуга перейде в стан помилки, знизить оберти до 0 і вивантажить вміст.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChair</Key>
@@ -2356,144 +2049,60 @@ Be there, even when you're not.</Description>
     <RecordThing>
       <Key>StructureChuteBin</Key>
       <Value>Бункер жолоба</Value>
-      <Description>The {LINK:Stationeers;Stationeer's} goal is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-
-
-
-
-
-
-Like most {LINK:Recurso;Recurso}-designed systems, chute bins are simple and robust powered items, allowing items to be manually passed into chute networks by pulling a lever. They can also be programmed with {LINK:LogicUnitPage;logic} to operate automatically, although full automation requires the use items such as a {THING:StructureSDBHopper}.</Description>
+      <Description>Мета {LINK:Stationeers;Стейшнера} — зробити виживання поза Землею менш важким для себе і тих, хто йде слідом.
+Як і більшість систем {LINK:Recurso;Recurso}, контейнери жолобів — прості і надійні пристрої: переміщення вмісту в мережу жолобів здійснюється важелем вручну. Можна підключити до {LINK:LogicUnitPage;логіки} для автоматичної роботи, хоча повна автоматизація потребує таких пристроїв, як {THING:StructureSDBHopper}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteCorner</Key>
       <Value>Жолоб (Кутовий)</Value>
-      <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
-
-
-
-
-
-
-The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-
-
-
-
-
-
-Chute corners are fundamental components of chute networks, which allow the transport of items between machines with {LINK:ImportExportPage;import/export} slots, such as the {THING:StructureFurnace} and other automatable structures.</Description>
+      <Description>Жолоби діють як труби для предметів. Використовуйте їх для з'єднання обладнання {LINK:ImportExportPage;імпорту/експорту}, наприклад {THING:StructureVendingMachine} та принтерів на зразок {THING:StructureAutolathe}.
+Мета будь-якого {LINK:Stationeers;Стейшнера} — зробити виживання поза Землею менш важким для себе та тих, хто прийде після.
+Кутові жолоби — базові елементи жолобних мереж, що дозволяють переміщати предмети між машинами зі слотами {LINK:ImportExportPage;імпорту/експорту}, такими як {THING:StructureFurnace} та інші автоматизовані конструкції.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteInlet</Key>
       <Value>Вхідний жолоб</Value>
-      <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-
-
-
-
-
-
-The chute inlet is an aperture by which items can be introduced to {LINK:ImportExportPage;import/export} networks. Note that its origins in zero-gravity mining means chute inlets are unpowered and permanently open, rather than interactable, allowing objects to be thrown in. They can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput.</Description>
+      <Description>Мета будь-якого {LINK:Stationeers;Стейшнера} — зробити виживання поза Землею менш важким для себе та тих, хто прийде після.
+Вхід жолоба — отвір для завантаження предметів у мережу {LINK:ImportExportPage;імпорту/експорту}. Оскільки конструкція походить з умов нульової гравітації, вхід не має живлення і постійно відкритий — предмети можна просто кидати всередину. Підключається до {LINK:LogicUnitPage;логіки} для моніторингу пропускної здатності.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteJunction</Key>
       <Value>Жолоб (З'єднувач)</Value>
       <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-
-
-
-
-
-
 Chute junctions are fundamental components of chute networks, allowing merging or splitting of these networks. When combined with a programmed {THING:StructureSorter}, items can be sent down different paths to various machines with {LINK:ImportExportPage;import/export} slots.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteOutlet</Key>
       <Value>Вихідний жолоб</Value>
       <Description>The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-
-
-
-
-
-
 The chute outlet is an aperture for exiting items from {LINK:ImportExportPage;import/export} networks. Note that the outlet's origins in zero-gravity mining means they are permanently open, rather than interactable, but can be connected to {LINK:LogicUnitPage;logic} systems to monitor throughput.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight</Key>
       <Value>Жолоб (Прямий)</Value>
       <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
-
-
-
-
-
-
 The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-
-
-
-
-
-
 Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight3</Key>
       <Value>Жолоб (Прямий 3)</Value>
       <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
-
-
-
-
-
-
         The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-
-
-
-
-
-
         Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight5</Key>
       <Value>Жолоб (Прямий 5)</Value>
       <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
-
-
-
-
-
-
         The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-
-
-
-
-
-
         Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight10</Key>
       <Value>Жолоб (Прямий 10)</Value>
       <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
-
-
-
-
-
-
         The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
-
-
-
-
-
-
         Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
     </RecordThing>
     <RecordThing>
@@ -2549,37 +2158,19 @@ Chutes are fundamental components of chute networks, which allow the transport o
     <RecordThing>
       <Key>StructureConsole</Key>
       <Value>Консоль</Value>
-      <Description>This control box manages devices such as the {THING:StructureActiveVent}, {THING:StructureGasSensor} and {THING:StructureCompositeDoor}, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has a shared data/power port.
-
-
-
-
-
-
-A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. To enter setup mode, use a {THING: Screwdriver} on the screw on the side of the {THING:StructureConsole}.</Description>
+      <Description>Цей блок керування управляє такими пристроями, як {THING:StructureActiveVent}, {THING:StructureGasSensor} і {THING:StructureCompositeDoor} — залежно від встановленої {LINK:LogicPage;схеми}. Має спільний порт даних/живлення.
+Готова консоль відображає всі пристрої в поточній мережі живлення. Пристрої, не пов'язані з встановленою схемою, будуть затемнені та неактивні. Для входу в режим налаштування використовуйте {THING: Screwdriver} на гвинті збоку {THING:StructureConsole}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleDual</Key>
       <Value>Подвійна консоль</Value>
       <Description>This control box manages devices such as the {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} and others, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has separate data and power ports.
-
-
-
-
-
-
 A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleMonitor</Key>
       <Value>Монітор консолі</Value>
       <Description>This control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} and {THING:StructureCompositeDoor}, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has a shared data/power port, and a charming sloped interface.
-
-
-
-
-
-
 A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
     </RecordThing>
     <RecordThing>
@@ -2590,61 +2181,31 @@ A completed console displays all devices connected to the current power network.
     <RecordThing>
       <Key>StructureConveyorCorner</Key>
       <Value>Конвеєр (Кутовий)</Value>
-      <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.
-
-
-
-
-
-
-An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
+      <Description>Спочатку розроблені {LINK:Recurso;Recurso} для перевезення руди, конвеєрні стрічки Flexi-belt можна налаштувати для різних задач з оптимізації транспортних потоків. Простіше кажучи — вони переміщують речі між місцями.
+Поширена скарга {LINK:Stationeers;Стейшнерів} стосується того, що кожна ділянка конвеєра потребує окремого живлення. Відповідь служби підтримки Recurso протягом усіх часів: «Ми над цим працюємо».</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorRiser</Key>
       <Value>Конвеєр (Підйомний)</Value>
       <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places - and up slightly, in the case of the riser.
-
-
-
-
-
-
 An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraight</Key>
       <Value>Конвеєр (Прямий)</Value>
       <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.
-
-
-
-
-
-
 An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraightLong</Key>
       <Value>Конвеєр (Довгий прямий)</Value>
       <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.
-
-
-
-
-
-
 An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConveyorStraightShort</Key>
       <Value>Конвеєр (Короткий прямий)</Value>
       <Description>Originally designed by {LINK:Recurso;Recurso} for ore-shifting, Flexi-belt conveyor solutions can be customized to specific uses for facilitating efficient transportation workflows. In other words, they move stuff between places.
-
-
-
-
-
-
 An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that every stage of a conveyor system must be individually powered. In the words of Recurso customer service agents through the ages: 'We're working on that.'</Description>
     </RecordThing>
     <RecordThing>
@@ -2670,21 +2231,8 @@ An recurring {LINK:Stationeers;Stationeer} complaint focuses on the fact that ev
     <RecordThing>
       <Key>StructureFiltration</Key>
       <Value>Система фільтрації</Value>
-      <Description>The Filtration Unit is based on a long-standing {LINK:ExMin;ExMin} system, itself based on older designs of uncertain provenance. It is available in the {THING:ItemKitAtmospherics}.
-
-
-
-
-
-
-The device has nonetheless proven indispensable for {LINK:Stationeers;Stationeer} atmospheric systems, as it can filter two {LINK:GasPage;gases} simultaneously from a single pipe network using a dual filter array. The unit has an input, and a filter output as well as an unfiltered outlet for any residual gases.
-
-
-
-
-
-
-</Description>
+      <Description>Блок фільтрації заснований на давній системі {LINK:ExMin;ExMin}, яка своєю чергою базується на ще старіших конструкціях невідомого походження. Доступний у {THING:ItemKitAtmospherics}.
+Попри це, пристрій виявився незамінним в атмосферних системах {LINK:Stationeers;Стейшнерів}: він здатний одночасно фільтрувати два {LINK:GasPage;гази} з однієї трубної мережі за допомогою подвійного фільтрувального масиву. Пристрій має вхід, вихід фільтрованого газу та нефільтрований відвід для залишкових газів.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterPurifier</Key>
@@ -2709,14 +2257,8 @@ The device has nonetheless proven indispensable for {LINK:Stationeers;Stationeer
     <RecordThing>
       <Key>StructureFrameCorner</Key>
       <Value>Сталева рама (Кутова)</Value>
-      <Description>More durable than the {THING:StructureFrameIron}, steel frames also offer several variations for more complex lattice constructions. 
-
-
-
-
-
-
-With a little patience and maneuvering, the corner frame's Gothic-inspired silhouette allows the creation of ogival arches and even more ambitious architecture, although they are not airtight and cannot be built on.</Description>
+      <Description>Міцніші за {THING:StructureFrameIron}, сталеві рами також пропонують кілька варіантів для складніших ґратчастих конструкцій.
+З певним терпінням і маневруванням готичний силует кутової рами дозволяє зводити стрілчасті арки та ще амбітніші архітектурні рішення — хоча вони не є герметичними і на них не можна будувати.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameSide</Key>
@@ -2726,21 +2268,9 @@ With a little patience and maneuvering, the corner frame's Gothic-inspired silho
     <RecordThing>
       <Key>StructureFurnace</Key>
       <Value>Піч</Value>
-      <Description>The Zhurong furnace employs a high-temperature gas mixture of {GAS:Oxygen} and {GAS:Methane} to smelt {LINK:IngotPage;ingots} and a range of {LINK:IngotPage;alloys} as raw materials for {LINK:FabricatorPage;fabricators}.
-
-
-
-
-
-
-A basic gas mixture can be achieved by adding {THING:ItemOxite} and {THING:ItemVolatiles} in a 1:2 ratio directly to the furnace, but more complex alloys will require careful management of a dedicated gas mixing network. Exact ingredient ratios must be observed. Likewise, smelting ores at insufficient temperatures will produce {LINK:ReagentPage;reagents}, which must be recycled.
-
-
-
-
-
-
-If liquids are present in the furnace, they will gather there until the furnace is connected to a liquid pipe network.</Description>
+      <Description>Піч Zhurong використовує високотемпературну газову суміш {GAS:Oxygen} і {GAS:Methane} для виплавки {LINK:IngotPage;злитків} та широкого спектру {LINK:IngotPage;сплавів} як сировини для {LINK:FabricatorPage;фабрикаторів}.
+Базову газову суміш можна отримати, додавши {THING:ItemOxite} і {THING:ItemVolatiles} у співвідношенні 1:2 безпосередньо в піч, але складніші сплави потребуватимуть ретельного управління окремою мережею змішування газів. Точне дотримання пропорцій обов'язкове. Плавлення руди при недостатній температурі дасть {LINK:ReagentPage;реагенти}, що потребуватимуть переробки.
+Якщо в печі є рідини, вони накопичуватимуться там, поки піч не підключена до рідинної трубної мережі.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasMixer</Key>
@@ -2779,14 +2309,8 @@ If liquids are present in the furnace, they will gather there until the furnace 
     <RecordThing>
       <Key>StructureHydroponicsTray</Key>
       <Value>Гідропонний піддон</Value>
-      <Description>The {LINK:Agrizero;Agrizero} hydroponics tray is the ideal vessel for growing a range of {LINK:OrganicPage;plantlife}. It must be supplied with water using a pipe network, and sufficient light to generate photosynthesis. 
-
-
-
-
-
-
-It can be automated using the {THING:StructureHarvie}.</Description>
+      <Description>Гідропонний лоток {LINK:Agrizero;Agrizero} — ідеальна ємність для вирощування різноманітних {LINK:OrganicPage;рослин}. Необхідне водопостачання через трубну мережу та достатнє освітлення для фотосинтезу.
+Можна автоматизувати за допомогою {THING:StructureHarvie}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureIgniter</Key>
@@ -2801,14 +2325,8 @@ It can be automated using the {THING:StructureHarvie}.</Description>
     <RecordThing>
       <Key>StructureMotionSensor</Key>
       <Value>Датчик руху</Value>
-      <Description>Originally developed to monitor dance marathons, the motion sensor can also be connected to {LINK:LogicPage;Logic} systems for security purposes, automatic lighting, doors and various other applications.
-
-
-
-
-
-
-The sensor activates whenever a player enters the grid it is placed on.</Description>
+      <Description>Спочатку розроблений для моніторингу танцювальних марафонів, датчик руху також підключається до {LINK:LogicPage;логічних} систем для охорони, автоматичного освітлення, дверей та інших застосувань.
+Датчик спрацьовує, коли гравець входить у клітину, де він розміщений.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveVent</Key>
@@ -2823,14 +2341,8 @@ The sensor activates whenever a player enters the grid it is placed on.</Descrip
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
       <Value>Аналізатор труб</Value>
-      <Description>Allegedly the outcome of a weekend father-daughter electronics project by an overzealous {{LINK:ExMin;ExMin} engineer, the pipe analyzer is essentially a more advanced version of the {THING:StructurePipeMeter}.
-
-
-
-
-
-
-Displaying the internal pressure of pipe networks, it  also reads out temperature and gas contents, and can be connected to a {THING:StructureConsole} or {THING:StructureComputer} via a {{LINK:LogicPage;Logic} system.</Description>
+      <Description>За переказами, цей пристрій з'явився як результат вихідного проекту батька і доньки — надмірно завзятого інженера {LINK:ExMin;ExMin}. По суті, аналізатор труб є більш просунутою версією {THING:StructurePipeMeter}.
+Показує внутрішній тиск трубної мережі, а також температуру і склад газів. Підключається до {THING:StructureConsole} або {THING:StructureComputer} через {LINK:LogicPage;логічну} систему.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCorner</Key>
@@ -2865,39 +2377,15 @@ Displaying the internal pressure of pipe networks, it  also reads out temperatur
     <RecordThing>
       <Key>StructurePipeMeter</Key>
       <Value>Лічильник труби</Value>
-      <Description>While the Stationeers program has, thus far, inspired little in the way of classical poetry, the following haiku was found etched, ironically, on a piece of pipe wreckage found on Vulcan:
-
-
-
-
-
-
-"Humble pipe meter
-
-
-
-
-
-
-speaks the truth, transmits pressure
-
-
-
-
-
-
-within any pipe"</Description>
+      <Description>Хоча програма Стейшнерів до цього часу надихнула небагато класичної поезії, наступне хайку було знайдено вирізаним, іронічно, на уламку труби на Вулкані:
+«Скромний лічильник
+говорить правду, передає
+тиск у будь-якій трубі»</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiator</Key>
       <Value>Конвекційний радіатор труби</Value>
       <Description>A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added the gas within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. 
-
-
-
-
-
-
 The speed of heat gain or loss will depend on the gas in question. Adding multiple radiators will speed up heat transfer.</Description>
     </RecordThing>
     <RecordThing>
@@ -2975,24 +2463,12 @@ The speed of heat gain or loss will depend on the gas in question. Adding multip
       <Key>StructureStacker</Key>
       <Value>Стекер</Value>
       <Description>A stacker is an important part of any automated chute network. The {LINK:Xigo;Xigo} ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs.
-
-
-
-
-
-
 The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots}, as well as splitting stacks into appropriate sizes as needed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStackerReverse</Key>
       <Value>Стекер (Зворотний)</Value>
       <Description>A stacker is an important part of any automated chute network. The {LINK:Xigo;Xigo} ProKompile can be set manually or via logic, to make sure items passing through the stacker are maximized for your storage needs. The reversed stacker has power and data on the opposite side.
-
-
-
-
-
-
 The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots}, as well as splitting stacks into appropriate sizes as needed.</Description>
     </RecordThing>
     <RecordThing>
@@ -3007,19 +2483,7 @@ The ProKompile can stack a wide variety of things such as {LINK:IngotPage;ingots
       <Key>StructureSuitStorage</Key>
       <Value>Зберігання костюмів</Value>
       <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}.
-
-
-
-
-
-
 When powered and connected to {GAS:Oxygen} and {GAS:Nitrogen}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. The wastetank will be pumped out to the pipe connected to the waste outlet.
-
-
-
-
-
-
 All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery.</Description>
     </RecordThing>
     <RecordThing>
@@ -3073,96 +2537,15 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>StructureWallCooler</Key>
       <Value>Настінний охолоджувач</Value>
       <Description>The {LINK:Xigo;Xigo} Freezy Boi wall cooler complements the wall heater, which can only raise the temperature. The wall cooler functions by drawing heat from the surrounding atmosphere and adding that heat into its pipe network.
-
-
-
-
-
-
 In order to run the wall cooler properly, you will need to connect pipes to the wall cooler and fill the connected pipe network with any type of gas. The gas's heat capacity and volume will determine how fast it reacts to temperature changes.
-
-
-
-
-
-
-
-
-
-
-
-
-
 {HEADER:EFFICIENCY}
-
-
-
-
-
-
 The higher the difference in temperature between the gas stored in the pipes and the room, the less efficient the wall cooler will be. So to keep the wall cooler running at an acceptable efficiency you will need to get rid of the heat that accumulates in the pipes connected to it. A common practice would be to run the pipes to the outside and use radiators on the outside section of the pipes to get rid of the heat.
-
-
-
-
-
-
 The less efficient the wall cooler, the less power it consumes. It will consume 1010W at max efficiency. The wall cooler can be controlled by logic chips to run when the temperature hits a certain degree.
-
-
-
-
-
-
 {HEADER:ERRORS}
-
-
-
-
-
-
 If the wall cooler is flashing an error then it is missing one of the following:
-
-
-
-
-
-
-
-
-
-
-
-
-
 - Pipe connection to the wall cooler.
-
-
-
-
-
-
 - Gas in the connected pipes, or pressure is too low.
-
-
-
-
-
-
 - Atmosphere in the surrounding environment or pressure is too low.
-
-
-
-
-
-
-
-
-
-
-
-
-
 For more information about how to control temperatures, consult the {LINK:TemperatureControlPage;temperature control} Guides page.</Description>
     </RecordThing>
     <RecordThing>
@@ -3292,12 +2675,6 @@ For more information about how to control temperatures, consult the {LINK:Temper
       <Key>StructureTransformer</Key>
       <Value>Трансформатор (Великий)</Value>
       <Description>The large {LINK:Norsec;Norsec} transformer is a critical component of extended {LINK:ElectronicPage;electrical} networks, controlling the maximum power that will flow down a cable. To prevent overloading, output can be set from 0 to 50,000W. 
-
-
-
-
-
-
 Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
@@ -3309,12 +2686,6 @@ Note that transformers operate as data isolators, preventing data flowing into a
       <Key>StructureTransformerSmall</Key>
       <Value>Трансформатор (Малий)</Value>
       <Description>Transformers control the maximum power that will flow down a cable subnetwork, to prevent overloading {LINK:ElectronicPage;electrical} systems. Output on small transformers can be set from 0 to 5000W.
-
-
-
-
-
-
 Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
@@ -3330,26 +2701,8 @@ Note that transformers operate as data isolators, preventing data flowing into a
       <Key>StructureArcFurnace</Key>
       <Value>Дугова піч</Value>
       <Description>The simplest smelting system available to the average {LINK:Stationeers;Stationeer}, {LINK:Recurso;Recurso's} arc furnace was forged itself in the depths of the Solar System to help explorational geologists determine the purity of potential asteroidal mining targets.
-
-
-
-
-
-
 Co-opted by the {LINK:ODA;ODA}, it now provides Stationeers with a way to produce pure ingots of various resources.
-
-
-
-
-
-
 The smelting process also releases a range of by product {LINK:GasPage;gases}, principally {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Methane} and {GAS:Oxygen} in differing ratios. These can be recaptured from the atmosphere by filtering, but also make the arc furnace a risk in closed environments. 
-
-
-
-
-
-
 Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create {LINK:IngotPage;alloys}.</Description>
     </RecordThing>
     <RecordThing>
@@ -3511,19 +2864,6 @@ Unlike the more advanced {THING:StructureFurnace}, the arc furnace cannot create
       <Key>ItemOxite</Key>
       <Value>Лід (Оксит)</Value>
       <Description>Oxite ice is largely composed of frozen {GAS:Oxygen}, and found on many planets in the Solar System. Highly valuable and sought after, not all planets a {LINK:Stationeers;Stationeer} visits will have some. 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Highly sensitive to temperature, oxite will begin to melt as soon as it is mined, unless the temperature is below zero, or it is stored in the {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} or devices like the {THING:StructureIceCrusher} or {THING:StructureFridgeSmall}. When melting, oxite produces a mixture of {GAS:Oxygen} and {GAS:Nitrogen}.</Description>
     </RecordThing>
     <RecordThing>
@@ -3657,12 +2997,6 @@ Highly sensitive to temperature, oxite will begin to melt as soon as it is mined
       <Key>StructureToolManufactory</Key>
       <Value>Інструментальна фабрика</Value>
       <Description>No mission can be completed without the proper tools. The {LINK:Norsec;Norsec} ThuulDek manufactory can fabricate almost any tool or hand-held device a {LINK:Stationeer;Stationeer} may need to complete their mission, as well as a variety of delightful paints.
-
-
-
-
-
-
 Upgrade the device using a {THING:ToolPrinterMod} for additional recipes and faster processing speeds.</Description>
     </RecordThing>
     <RecordThing>
@@ -3674,12 +3008,6 @@ Upgrade the device using a {THING:ToolPrinterMod} for additional recipes and fas
       <Key>StructureTransformerSmallReversed</Key>
       <Value>Трансформатор обернений (Малий)</Value>
       <Description>Transformers control the maximum power that will flow down a cable subnetwork, to prevent overloading {LINK:ElectronicPage;electrical} systems. Output on small transformers can be set from 0 to 5000W.
-
-
-
-
-
-
 Note that transformers operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
@@ -4862,26 +4190,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
       <Key>StructureUnloader</Key>
       <Value>Розвантажувач</Value>
       <Description>The {LINK:Xigo;Xigo} Re:Gurge is a handy unit for unloading any items inserted into it, and feeding them into a chute network. For instance, if you add a full {THING:ItemMiningBelt}, the Re:Gurge will empty a mining belt of its contents, insert them into the chute network, then insert the mining belt itself. A {THING:StructureSorter} is recommended to reclaim the mining belt.
-
-
-
-
-
-
-
-
-
-
-
-
-
 Output = 0 exporting the main item
-
-
-
-
-
-
 Output = 1 exporting items inside and eventually the main item.</Description>
     </RecordThing>
     <RecordThing>
@@ -5060,19 +4369,7 @@ Output = 1 exporting items inside and eventually the main item.</Description>
       <Key>ItemHardJetpack</Key>
       <Value>Реактивний ранець твердого скафандра</Value>
       <Description>The {LINK:Norsec;Norsec} jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function. Adjusting the thrust value alters your rate of acceleration, while activating the stablizer causes the spacepack to hover when a given height is reached.
-
-
-
-
-
-
 The hardsuit jetpack is capable of much higher speeds than the {THING:ItemJetpackBasic} - up to 15m/s. Indispensable for building, mining and general movement, it has fourteen storage slots.
-
-
-
-
-
-
 USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
     </RecordThing>
     <RecordThing>
@@ -5191,19 +4488,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
       <Key>StructureSatelliteDish</Key>
       <Value>Середня супутникова тарілка</Value>
       <Description>This medium communications unit can be used to communicate with nearby trade vessels.
-
-
-
-
-
-
       
-
-
-
-
-
-
 When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms} motherboard, a {THING:Landingpad_CenterPiece01}, and a {THING:StructureVendingMachine}, this allows Stationeers to contact traders. Adjust its horizontal and vertical attributes either directly or through logic.</Description>
     </RecordThing>
     <RecordThing>
@@ -5342,89 +4627,15 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
       <Key>Robot</Key>
       <Value>Бот AIMeE</Value>
       <Description>Designed by - presumably drunk - {LINK:Norsec;Norsec} roboticists, AIMeE (or Automated Independent Mechanical Entity) can be a {LINK:Stationeers;Stationeer's} best friend, or tiresome nemesis, or both several times in the same day. 
-
-
-
-
-
-
       
-
-
-
-
-
-
 Intended to unearth and retrieve ores automatically, the unit requires basic programming knowledge to operate, and {THING:MotherboardProgrammableChip}.
-
-
-
-
-
-
-
-
-
-
-
-
-
 AIMEe has 7 modes:
-
-
-
-
-
-
-
-
-
-
-
-
-
 RobotMode.None = 0 = Do nothing
-
-
-
-
-
-
 RobotMode.None = 1 = Follow nearest player
-
-
-
-
-
-
 RobotMode.None = 2 = Move to target in straight line
-
-
-
-
-
-
 RobotMode.None = 3 = Wander around looking for ores in 15 co-ords radius
-
-
-
-
-
-
 RobotMode.None = 4 = Unload in chute input or chute bin within 3 meters / 1.5 large grids
-
-
-
-
-
-
 RobotMode.None = 5 = Path(find) to target
-
-
-
-
-
-
 RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full</Description>
     </RecordThing>
     <RecordThing>
@@ -5528,38 +4739,14 @@ RobotMode.None = 6 = Automatic assigned state, shows when storage slots are full
       <Key>StructureTransformerMedium</Key>
       <Value>Трансформатор (Середній)</Value>
       <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading {LINK:ElectronicPage;electrical} systems. 
-
-
-
-
-
-
 Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
-
-
-
-
-
-
 Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMediumReversed</Key>
       <Value>Трансформатор обернений (Середній)</Value>
       <Description>Transformers control the maximum power that will flow down a sub-network of cables, to prevent overloading {LINK:ElectronicPage;electrical} systems. 
-
-
-
-
-
-
 Medium transformers are used in larger setups where more than 5000W is required, with output that can be set to a maximum of 25000W.
-
-
-
-
-
-
 Note that transformers also operate as data isolators, preventing data flowing into any network beyond it.</Description>
     </RecordThing>
     <RecordThing>
@@ -5570,19 +4757,7 @@ Note that transformers also operate as data isolators, preventing data flowing i
       <Key>ItemJetpackBasic</Key>
       <Value>Реактивний ранець (Базовий)</Value>
       <Description>The basic {LINK:CHAC;CHAC} jetpack isn't 'technically' a jetpack, it's a gas thruster. It can be powered by any gas, so long as the internal pressure of the {LINK:AtmosphericsPage;canister} is higher than the ambient external pressure. If the external pressure is greater, the spacepack will not function.
-
-
-
-
-
-
 Indispensable for building, mining and general movement, it has ten storage slots and lets {LINK:Stationeers;Stationeers} fly at 3m/s, compared to the more powerful {THING:ItemHardJetpack}. Adjusting the thrust value alters your rate of acceleration, while activating the stabilizer causes the spacepack to hover when a given height is reached.
-
-
-
-
-
-
 USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to move.</Description>
     </RecordThing>
     <RecordThing>
@@ -5854,19 +5029,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
       <Key>ItemAdvancedTablet</Key>
       <Value>Розширений планшет</Value>
       <Description>The advanced {LINK:Xigo;Xigo} Padi 2 tablet is an improved version of the basic {THING:ItemTablet}, boasting two {LINK:CartridgePage;cartridge} slots. The Padi 2 accepts {THING:CartridgeAtmosAnalyser}, {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader}, and various other cartridges.
-
-
-
-
-
-
 	  
-
-
-
-
-
-
 	  With a {THING:ItemIntegratedCircuit10} in the {SLOT:ProgrammableChip}, you can access variable slots on the carrying human using the device numbers (d0, d1, etc...), so long as the item can be access via logic, such as the {THING:ItemHardSuit}.</Description>
     </RecordThing>
     <RecordThing>
@@ -6285,26 +5448,8 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
       <Key>StructureBatteryLarge</Key>
       <Value>Станційний акумулятор (Великий)</Value>
       <Description>Providing even better large-scale, reliable power storage than the {THING:StructureBattery}, the {LINK:Sinotai;Sinotai} 'Da Dianchi' large station battery is the heart of most {LINK:Stationeers;Stationeer} bases. 
-
-
-
-
-
-
 There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' 
-
-
-
-
-
-
 {HEADER:POWER OUTPUT}
-
-
-
-
-
-
 Able to store up to 9000001 watts of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}. </Description>
     </RecordThing>
     <RecordThing>
@@ -6356,12 +5501,6 @@ Able to store up to 9000001 watts of power, there are no practical limits to its
       <Key>Rover_MkI</Key>
       <Value>Ровер Mk I</Value>
       <Description>A distant cousin of the jeep, the Mk I {{LINK:Sinotai;Sinotai} electric rover is one of the most simple and durable light vehicles in the known universe. Able to carry two passengers and cargo such as the {THING:DynamicGasCanisterAir} or {THING:Crate}, it is powered by up to three batteries, accepting everything including {THING:ItemBatteryCellNuclear}.
-
-
-
-
-
-
 A quad-array of hub-mounted electric engines propels the reinforced aluminium frame over most terrain and modest obstacles. While the Mk I is designed for stability in low-horizontality circumstances, if it rolls, try using your {THING:ItemCrowbar} to put it right way up.</Description>
     </RecordThing>
     <RecordThing>
@@ -6488,12 +5627,6 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
       <Key>StructureHydroponicsTrayData</Key>
       <Value>Гідропонний пристрій</Value>
       <Description>The {LINK:Agrizero;Agrizero} hydroponics device is the ideal vessel for growing a range of {LINK:OrganicPage;plantlife}. It must be supplied with {GAS:Water} using a pipe network, and sufficient light to generate photosynthesis. 
-
-
-
-
-
-
 It can be automated using the {THING:StructureHarvie}. Note that unlike the {THING:StructureHydroponicsTray}, these cannot be placed consecutively as they are considered devices rather than pure pipes. They do, however, allow data interrogation for logic systems.</Description>
     </RecordThing>
     <RecordThing>
@@ -6630,19 +5763,7 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
       <Key>StructureIceCrusher</Key>
       <Value>Дробарка льоду</Value>
       <Description>The {LINK:Recurso;Recurso} KoolAuger converts various ices into their respective {LINK:GasPage;gases} and liquids.
-
-
-
-
-
-
 A remarkably smart and compact sublimation-melting unit, it produces gas or liquid depending on the ice being processed. The upper outlet is gas, the lower for liquid, and while you can attach any pipe you like to either outlet, it will only function if the correct network is attached. It will also only pass gas or liquid into a network if it is powered and turned on.
-
-
-
-
-
-
 If the KoolAuger is full, it will not accept any further ice until the gas or liquid contents is drained. In this state, it will flash a yellow error state on the activation switch.</Description>
     </RecordThing>
     <RecordThing>
@@ -6664,12 +5785,6 @@ If the KoolAuger is full, it will not accept any further ice until the gas or li
       <Key>StructureLiquidPipeRadiator</Key>
       <Value>Конвекційний радіатор рідинної труби</Value>
       <Description>A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain heat, depending on the temperature of the surrounding atmosphere. If the atmosphere is hotter, heat will be added to the liquid within the pipe network, and visa versa if colder. In a vacuum, heat will be radiated. 
-
-
-
-
-
-
 The speed of heat gain or loss will depend on the liquid in question. Adding multiple radiators will speed up heat transfer.</Description>
     </RecordThing>
     <RecordThing>
@@ -6766,12 +5881,6 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
       <Key>ItemMKIIDuctTape</Key>
       <Value>Скотч Mk II</Value>
       <Description>In the distant past, one of Earth's great champions taught a generation of 'Fix-It People' that duct tape was the answer to any problem. {LINK:Stationeers;Stationeers} have demonstrated that this is truth holds strong, so long as the problem is a damaged {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet}, or even a {THING:StructureSolarPanel}.
-
-
-
-
-
-
 To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON to automatically repair damage.</Description>
     </RecordThing>
     <RecordThing>
@@ -6878,12 +5987,6 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
       <Key>StructureFloorDrain</Key>
       <Value>Пасивний рідинний вхід</Value>
       <Description>A passive liquid floor inlet that quickly removes liquids in one direction from the world into the connected pipe network and equalises gasses with the world atmosphere. 
-
-
-
-
-
-
         It will remove liquids from grids at the same level up to 6 Grids away.</Description>
     </RecordThing>
     <RecordThing>
@@ -6905,159 +6008,17 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
       <Key>LogicStepSequencer8</Key>
       <Value>Логічний покроковий секвенсер</Value>
       <Description>The {LINK:ODA;ODA} does not approve of soundtracks or other distractions.
-
-
-
-
-
-
 As such, {LINK:Stationeers;Stationeers} have had to create their own musical accompaniment to the demanding labor of building and maintaining off-world infrastructure.
-
-
-
-
-
-
 Central to this pastime is the step sequencer, which allows Stationeers to sequence short musical patterns or loops. 
-
-
-
-
-
-
-
-
-
-
-
-
-
 {HEADER:DIY MUSIC - GETTING STARTED}
-
-
-
-
-
-
-
-
-
-
-
-
-
 1: Connect 8 {THING:DeviceStepUnit}s to your step sequencer via the data port on the left hand side.
-
-
-
-
-
-
-
-
-
-
-
-
-
 2: Label each step unit, then assign step units 1 through 8 on the step sequencer using the screwdriver.
-
-
-
-
-
-
-
-
-
-
-
-
-
 3: Select the output speaker (eg {THING:PassiveSpeaker}) where the sequencer will play the sounds. This needs to be connected to the logic network on the right hand side of the sequencer.
-
-
-
-
-
-
-
-
-
-
-
-
-
 4: Place a {THING:StopWatch} and use a {THING:StructureLogicReader} and {THING:StructureLogicWriter} to write the time to the time variable on the sequencer.
-
-
-
-
-
-
-
-
-
-
-
-
-
 5: Set the BPM on the sequencer using a {THING:StructureLogicDial} and a {THING:StructureLogicWriter} to write to the sequencer's BPM variable. A higher bpm will play the sequence faster. 
-
-
-
-
-
-
-
-
-
-
-
-
-
 6: Insert a sound cartridge of your choosing and select which variant of sound you wish to play by pushing the arrow buttons located above and below the sound cartridge slot.
-
-
-
-
-
-
-
-
-
-
-
-
-
 7: Choose the pitch of the sounds to play by setting the dial on each of your 8 step units to the desired note. With drums, each note is a different drum sounds. You can trial your sounds by pushing the activate button on each step unit (with the sequencer inactive).
-
-
-
-
-
-
-
-
-
-
-
-
-
 8: Get freaky with the {THING:DeviceLfoVolume}.
-
-
-
-
-
-
-
-
-
-
-
-
-
 9: Finally, activate the sequencer, Vibeoneer.</Description>
     </RecordThing>
     <RecordThing>
@@ -7119,138 +6080,18 @@ Central to this pastime is the step sequencer, which allows Stationeers to seque
       <Key>DecayedFood</Key>
       <Value>Зіпсована їжа</Value>
       <Description>When your {LINK:OrganicPage;food} decays, it turns into this. {LINK:ODA;ODA} scientists have attempted to determine the exact constituents of this substance, but it remains evasive and mysterious. Suffice to say, eating it is a bad idea. Research has determined, however, that The exact speed of decay varies individually by:
-
-
-
-
-
-
-
-
-
-
-
-
-
 - TEMPERATURE - Refrigeration will slow decay, but many foods will be damaged by exposure to extreme low pressure, as well as extreme heat. The optimum temperature is 0 kelvin (-272 C).
-
-
-
-
-
-
-
-
-
-
-
-
-
 - FOOD TYPE - Each {LINK:OrganicPage;food} type has its own decay properties. {THING:ItemTomatoSoup} lasts a lot longer than a {THING:ItemTomato}, for instance.
-
-
-
-
-
-
-
-
-
-
-
-
-
 - PRESSURE - Food decays faster when the pressure drops below 1 atmosphere (101kPa). Decay happens exponentially more quickly as the atmosphere approaches a perfect vacuum. There is no effect from higher pressures. 
-
-
-
-
-
-
-
-
-
-
-
-
-
 - ATMOSPHERE - Different gases can slow and accelerate the decay process. The process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier. The following rates apply across all foods:
-
-
-
-
-
-
-
-
-
-
-
-
-
 &gt; {GAS:Oxygen} x 1.3
-
-
-
-
-
-
 &gt; {GAS:Nitrogen} x 0.6
-
-
-
-
-
-
 &gt; {GAS:CarbonDioxide} x 0.8
-
-
-
-
-
-
 &gt; {GAS:Methane} x 1
-
-
-
-
-
-
 &gt; {GAS:Pollutant} x 3
-
-
-
-
-
-
 &gt; {GAS:NitrousOxide} x 1.5
-
-
-
-
-
-
 &gt; {GAS:Steam} x 2
-
-
-
-
-
-
 &gt; Vacuum (see PRESSURE above)
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Description>
     </RecordThing>
     <RecordThing>
@@ -7267,129 +6108,24 @@ Central to this pastime is the step sequencer, which allows Stationeers to seque
       <Key>DeviceLfoVolume</Key>
       <Value>Низькочастотний осцилятор</Value>
       <Description>The low frequency oscillator (or LFO) makes everything sound dark, twisted and crunchy by altering the shape of the waves output by a {THING:LogicStepSequencer8}.
-
-
-
-
-
-
       
-
-
-
-
-
-
 To set up an LFO:
-
-
-
-
-
-
-
-
-
-
-
-
-
 1. Place the LFO unit
-
-
-
-
-
-
 2. Set the LFO output to a {THING:PassiveSpeaker}
-
-
-
-
-
-
 2. Set a sequencers' output to LFO - so the sequencer's signal runs through the LFO to a speaker.
-
-
-
-
-
-
 3. Place a {THING:StopWatch} or use an existing one, then use a {THING:StructureLogicWriter} to write it to the LFO.
-
-
-
-
-
-
 4. Use another logic writer to write the BPM to the LFO.
-
-
-
-
-
-
 5. You are ready. This is the future. You're in space. Make it sound cool.
-
-
-
-
-
-
-
-
-
-
-
-
-
 For more info, check out the {LINK:MusicPage;music page}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeBig</Key>
       <Value>Холодильник (Великий)</Value>
       <Description>The {LINK:Xigo;Xigo} Koolaid fridge is a self-cooling storage device with 15 slots that preserves food when powered and turned on. While many users have complained about the placement of the power switch, its place in the pantheon of off-world whiteware is unquestioned.
-
-
-
-
-
-
       
-
-
-
-
-
-
 With its own permanent internal atmosphere, the Koolaid fridge slows the decay of {LINK:OrganicPage;food} by maintaining an optimal internal temperature. Its power usage varies on the external temperature against which it must balance its internal temperature. As such, it must shed heat to operate, so the Koolaid fridge DOES NOT work in a vacuum.
-
-
-
-
-
-
       
-
-
-
-
-
-
 Also, don't leave the door open, as it will equalize with the current world temperature. And maybe start to beep.
-
-
-
-
-
-
-
-
-
-
-
-
-
 For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia.</Description>
     </RecordThing>
     <RecordThing>
@@ -7401,38 +6137,14 @@ For more information about food preservation, visit the {LINK:DecayPage;food dec
       <Key>StructureFridgeSmall</Key>
       <Value>Холодильник (Малий)</Value>
       <Description>Essentially a heavily insulated box that allows users to pipe in any desired atmosphere, the {LINK:Recurso;Recurso} Minibar fridge was a simple solution to the problem of {LINK:NutritionPage;food decay}. It stores a small number of items, at any temperature you can muster.
-
-
-
-
-
-
       
-
-
-
-
-
-
       For more information about food preservation, visit the {LINK:DecayPage;food decay} section of the Stationpedia.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRefrigeratedVendingMachine</Key>
       <Value>Холодильний торговий автомат</Value>
       <Description>The refrigerated OmniKool vending machine is an advanced version of the standard {THING:StructureVendingMachine}, which maintains an optimum pressure and constant temperature of -130 degrees C, to prevent food spoilage. It can hold up to 100 stacks.
-
-
-
-
-
-
 The OmniKool also has an in-built {THING:StructureStacker}, allowing players to set the stack sizes of any items ADDED to the device. The unit's default stack size is 50.
-
-
-
-
-
-
 NOTE: altering stack sizes DOES NOT update existing stacks within the machine, only those subsequently added. </Description>
     </RecordThing>
     <RecordThing>
@@ -7489,122 +6201,22 @@ NOTE: altering stack sizes DOES NOT update existing stacks within the machine, o
       <Key>Fertilizer</Key>
       <Value>Добриво</Value>
       <Description>Fertilizer alters plant growth processes, and is created by the basic composter and the {THING:StructureAdvancedComposter} using {LINK:OrganicPage;organic} matter.
-
-
-
-
-
-
 Fertilizer's affects depend on its ingredients:
-
-
-
-
-
-
-
-
-
-
-
-
-
 - {LINK:OrganicPage;Food} increases PLANT YIELD up to two times
-
-
-
-
-
-
 - {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-
-
-
-
-
-
 - {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for
-
-
-
-
-
-
-
-
-
-
-
-
-
 The effect of these ingredients depends on their respective proportions in the composter when processing is activated. </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedComposter</Key>
       <Value>Вдосконалений компостер</Value>
       <Description>The advanced composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires {GAS:Water} and power to operate, accelerating the natural composting process.
-
-
-
-
-
-
 When processing, it releases nitrogen and {GAS:Methane}, as well a small amount of heat. 
-
-
-
-
-
-
-
-
-
-
-
-
-
 {HEADER:Compost composition}
-
-
-
-
-
-
 Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
-
-
-
-
-
-
-
-
-
-
-
-
-
 - {LINK:OrganicPage;Food} increases PLANT YIELD up to two times
-
-
-
-
-
-
 - {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-
-
-
-
-
-
 - {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for up to five times
-
-
-
-
-
-
 </Description>
     </RecordThing>
     <RecordThing>
@@ -7631,171 +6243,23 @@ Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertiliz
       <Key>PortableComposter</Key>
       <Value>Портативний компостер</Value>
       <Description>A simple composting device, the basic composter creates {THING:Fertilizer} out of organic matter. It accepts {LINK:OrganicPage;food}, {THING:DecayedFood} or {THING:ItemBiomass}. It requires a full {THING:ItemLiquidCanisterEmpty} and a battery to operate, accelerating the natural composting process.
-
-
-
-
-
-
 When processing, it releases nitrogen and {GAS:Methane}, as well a small amount of heat.
-
-
-
-
-
-
-
-
-
-
-
-
-
 {HEADER:Compost composition}
-
-
-
-
-
-
 Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. The fertilizer's effects on plants will vary depending on the respective proportions of its ingredients.
-
-
-
-
-
-
-
-
-
-
-
-
-
 - {LINK:OrganicPage;food} increases PLANT YIELD up to two times
-
-
-
-
-
-
 - {THING:DecayedFood} increases plant GROWTH SPEED up to two times
-
-
-
-
-
-
 - {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for</Description>
     </RecordThing>
     <RecordThing>
       <Key>AppliancePackagingMachine</Key>
       <Value>Базова пакувальна машина</Value>
       <Description>The {LINK:Xigo;Xigo} Cannifier requires {THING:ItemEmptyCan} and cooked {LINK:OrganicPage;food} to create {LINK:DecayPage;long-lasting}, easily stored sustenance. Note that the Cannifier must be bolted to a {THING:StructureBench} for power, and only accepts cooked food and tin cans.
-
-
-
-
-
-
-
-
-
-
-
-
-
 {HEADER:OPERATION}
-
-
-
-
-
-
-
-
-
-
-
-
-
 1. Add the correct ingredients to the device via the hopper in the TOP.
-
-
-
-
-
-
-
-
-
-
-
-
-
 2. Close the device using the dropdown handle.
-
-
-
-
-
-
-
-
-
-
-
-
-
 3. Activate the device.
-
-
-
-
-
-
-
-
-
-
-
-
-
 4. Remove canned goods from the outlet in the FRONT.
-
-
-
-
-
-
-
-
-
-
-
-
-
 Note: the Cannifier will flash an error on its activation switch if you attempt to activate it before closing it.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </Description>
     </RecordThing>
     <RecordThing>
@@ -8112,19 +6576,6 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
       <Key>StructureWindowShutter</Key>
       <Value>Жалюзі вікна</Value>
       <Description>For those special, private moments, a window that can be closed to prying eyes. 
-
-
-
-
-
-
-      
-
-
-
-
-
-
 When closed, has the heat transfer characteristics of a basic wall. Requires power, and can be connected to logic systems.</Description>
     </RecordThing>
     <RecordThing>
@@ -8156,75 +6607,15 @@ When closed, has the heat transfer characteristics of a basic wall. Requires pow
       <Key>StructureHorizontalAutoMiner</Key>
       <Value>OGRE (Горизонтальний автошахтар)</Value>
       <Description>The {LINK:Recurso;Recurso} OGRE (Orthogonal Ground Rotating Excavator) is a base structure with attached mining vehicle, which will mine a horizontal shaft up to X meters long. When full, the mining vehicle will return to the base to empty itself, before returning to dig. If it encounters empty space, it will also return to base and await instruction. The unit will return if deactivated.
-
-
-
-
-
-
-      
-
-
-
-
-
-
 The OGRE can be connected to a chute system, and is controllable by a logic network. Note that the OGRE outputs more {LINK:OrePage;ore} than a conventional {THING:ItemMiningDrill} over the same area, due to more efficient processing.
-
-
-
-
-
-
-
-
-
-
-
-
 
 {HEADER:MODES}
 
-
-
-
-
-
 Idle - 0
-
-
-
-
-
-
 Mining - 1
-
-
-
-
-
-
 Returning - 2
-
-
-
-
-
-
 DepostingOre - 3
-
-
-
-
-
-
 Finished - 4
-
-
-
-
-
-
 </Description>
     </RecordThing>
     <RecordThing>
@@ -8266,33 +6657,7 @@ Finished - 4
       <Key>ItemLaptop</Key>
       <Value>Ноутбук</Value>
       <Description>The Laptop functions as a portable IC editor. To operate the Laptop it must be powered with a battery, have a {THING:MotherboardProgrammableChip} in the motherboard slot, and an {THING:ItemIntegratedCircuit10} in the Programmable Chip Slot.
-
-
-
-
-
-
-
-
-
-
-
-
-
 You must place the laptop down to interact with the onsreen UI.
-
-
-
-
-
-
-        
-
-
-
-
-
-
 </Description>
     </RecordThing>
     <RecordThing>
@@ -8339,66 +6704,26 @@ You must place the laptop down to interact with the onsreen UI.
       <Key>ItemKitStirlingEngine</Key>
       <Value>Комплект (Двигун Стірлінга)</Value>
       <Description>Використовуючи стародавній термальний ефект, двигун Стірлінга {LINK:Recurso;Recurso} «Libra» генерує потужність за рахунок розширення та стиснення робочого газу, що приводить у рух поршні електрогенератора.
-      
 Коли гарячий газ під тиском подається у вхідну трубу, він нагріває гарячу сторону блока, а потім переходить у вихідну трубу. Холодна сторона використовує навколишню атмосферу приміщення, яка повинна підтримуватися при нижчій температурі та тиску для створення різниці. Додайте робочий газ, вставивши {SLOT:GasCanister}. Блок повинен бути деактивований під час додавання або видалення балонів, інакше робочий газ може витекти в навколишню атмосферу.
- 
 Гази з низькою молярною масою є найбільш ефективними робочими газами. Збільшення молів робочого газу може призвести до більшої потенційної потужності. Однак надмірний тиск у блоці може мати... субоптимальні наслідки.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureStirlingEngine</Key>
       <Value>Двигун Стірлінга</Value>
       <Description>Harnessing an ancient thermal exploit, the {LINK:Recurso;Recurso} 'Libra' Stirling Engine generates power via the expansion and contraction of a working gas to drive pistons operating an electrical generator.
-
-
-
-
-
-
-      
-
-
-
-
-
-
 When high pressure hot gas is supplied into the input pipe, this gas will heat the hot side of the unit, then pass into the output pipe. The cooler side uses the room's ambient atmosphere, which must be kept at a lower temperature and pressure in order to create a differential. Add a working gas by inserting a {SLOT:GasCanister}. The unit must be deactivated when adding or removing canisters, or the working gas may leak into the surrounding atmosphere.
-
-
-
-
-
-
- 
-
-
-
-
-
-
 Gases with a low molecular mass make the most efficient working gases. Increasing the moles of working gas can result in a greater potential power output. However, overpressuring the unit may have... sub-optimal results.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerTransmitter</Key>
       <Value>Мікрохвильовий передавач живлення</Value>
       <Description>The {LINK:Norsec;Norsec} Wireless Power Transmitter is an uni-directional, A-to-B, far field microwave electrical transmission system.The rotatable base transmitter delivers a narrow, non-lethal microwave beam to a dedicated base receiver.
-
-
-
-
-
-
 The transmitter must be aligned to the base station in order to transmit any power. The brightness of the transmitter's collimator arc provides an indication of transmission intensity. Note that there is an attrition over longer ranges, so the unit requires more power over greater distances to deliver the same output.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerTransmitterReceiver</Key>
       <Value>Мікрохвильовий приймач живлення</Value>
       <Description>The {LINK:Norsec;Norsec} Wireless Power Transmitter is an uni-directional, A-to-B, far field microwave electrical transmission system.The rotatable base transmitter delivers a narrow, non-lethal microwave beam to a dedicated base receiver.
-
-
-
-
-
-
 The transmitter must be aligned to the base station in order to transmit any power. The brightness of the transmitter's collimator arc provides an indication of transmission intensity. Note that there is an attrition over longer ranges, so the unit requires more power over greater distances to deliver the same output.</Description>
     </RecordThing>
     <RecordThing>
@@ -8525,19 +6850,6 @@ The transmitter must be aligned to the base station in order to transmit any pow
       <Key>ItemNitrice</Key>
       <Value>Лід (Нітрайс)</Value>
       <Description>Nitrice is the nickname given to solid {GAS:Nitrogen} Ice, and found on many planets and moons in the Solar System. Given the inert nature of the {GAS:Nitrogen} it produces, the ice is useful when making breathable atmospheres with low flammability.
-
-
-
-
-
-
-
-
-
-
-
-
-
 Highly sensitive to temperature, nitrice will begin to melt as soon as it is mined, unless the temperature is below zero, or it is stored in the {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} or devices like the {THING:StructureIceCrusher} or {THING:StructureFridgeSmall}.</Description>
     </RecordThing>
     <RecordThing>
@@ -8659,40 +6971,10 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
       <Key>StructureCombustionDeepMiner</Key>
       <Value>Глибинний шахтар (На спалюванні)</Value>
       <Description>The Combustion Deep Miner is a gas fuel powered version of the {THING:StructureDeepMiner}. The machine's RPMs must be controlled via the throttle and combustion limiter levers. If the Combustion Deep Miner gains, or loses, RPMs too fast it will experience stress, and eventually grind to a halt. 
-
-
-
-
-
-
 Higher RPMs directly result in faster mining speeds. 
-
-
-
-
-
-
 The throttle lever controls the amount of fuel being pulled into the machine, increasing the temperature inside the engine, and leading to an increase in RPM. 
-
-
-
-
-
-
 The limiter lever influences the speed of the combustion, and how much uncombusted gas is in the exhaust. 
-
-
-
-
-
-
 Turning the machine off will reduce RPMs in a controlled manner.
-
-
-
-
-
-
           </Description>
     </RecordThing>
     <RecordThing>
@@ -8749,40 +7031,10 @@ Turning the machine off will reduce RPMs in a controlled manner.
       <Key>StructureCombustionCentrifuge</Key>
       <Value>Центрифуга (На спалюванні)</Value>
       <Description>The Combustion Centrifuge is a gas fuel powered version of the {THING:StructureCentrifuge}. If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs {LINK:ReagentPage;reagent} mixture rather than the desired {LINK:IngotPage;ingots}, a centrifuge allows you to reclaim the raw {LINK:OrePage;ore}.
-
-
-
-
-
-
         It also refines {THING:ItemDirtyOre} produced from the {THING:StructureDeepMiner} and {THING:ItemSpaceOre} produced from the {THING:StructureRocketMiner}. A combustible fuel mix should be supplied to the gas input, and waste gasses should be vented from the output. 
-
-
-
-
-
-
         The machine's RPMs must be controlled via the throttle and combustion limiter levers. If the Combustion Centrifuge gains, or loses, RPMs too fast it will experience stress, and eventually grind to a halt.  Higher RPMs directly result in faster processing speeds. 
-
-
-
-
-
-
         The throttle lever controls the amount of fuel being pulled into the machine, increasing the temperature inside the engine, and leading to an increase in RPM. The limiter lever influences the speed of the combustion, and how much uncombusted gas is in the exhaust. 
-
-
-
-
-
-
         Ejecting ore from the Combustion Centrifuge while it is at high RPMs will result in additional stress build up.  If turned off while not stressed, the machine will automatically start to brake, and reduce RPMs in a controlled manner.
-
-
-
-
-
-
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -8829,47 +7081,9 @@ Turning the machine off will reduce RPMs in a controlled manner.
       <Key>AppliancePlantGeneticAnalyzer</Key>
       <Value>Генетичний аналізатор рослин</Value>
       <Description>The Genetic Analyzer can be used to process samples from the {THING:ItemPlantSampler}. Once processed, the genetic information of the sampled plant can be viewed by clicking on the search button.
-
-
-
-
-
-
-
-
-
-
-
-
-
 Individual Gene Value Widgets: 
-
-
-
-
-
-
 Most gene values will appear as a sliding bar between a minimum value on the left and a maximum value on the right. The actual value of the gene is in the middle of the bar, in orange.
-
-
-
-
-
-
-
-
-
-
-
-
-
 Multiple Gene Value Widgets: 
-
-
-
-
-
-
 For temperature and pressure ranges, four genes appear on the same widget. The orange values underneath the bar are the minimum and maximum thresholds for growth. Outside of this range, the plant will stop growing and eventually die. The blue values underneath the bar are the minimum and maximum thresholds for ideal growth. Inside of this range, the plant will grow at maximum speed. The white values above the bar are the minimum and maximum achievable values for the growth threshold.</Description>
     </RecordThing>
     <RecordThing>
@@ -8881,45 +7095,15 @@ For temperature and pressure ranges, four genes appear on the same widget. The o
       <Key>AppliancePlantGeneticStabilizer</Key>
       <Value>Генетичний стабілізатор рослин</Value>
       <Description>The Genetic Stabilizer can be used to manipulate gene stability on a specific {LINK:OrganicPage;Plants} or {LINK:OrganicPage;Seeds}. It has two modes Stabilize and Destabilize.
-
-
-
-
-
-
 Stabilize: Increases all genes stability by 50%.
-
-
-
-
-
-
 Destabilize: Decreases all gene stability by 10% other than a chosen gene which will received decreased stability by 50%.
-
-
-
-
-
-
       </Description>
     </RecordThing>
     <RecordThing>
       <Key>AppliancePlantGeneticSplicer</Key>
       <Value>Генетичний сплайсер рослин</Value>
       <Description>The Genetic Splicer can be used to copy a single {LINK:GeneticsPage;gene} from one 'source' plant to another 'target' plant of the same type. After copying, the source plant will be destroyed.
-
-
-
-
-
-
         
-
-
-
-
-
-
 To begin splicing, place a plant or seed bag in the left slot (source) and place another plant or seed bag of the same type in the right slot (target). You can select a gene using the arrow buttons. Close the sliding door and press the green activate button. Once splicing has begun, the device will be locked until the process has finished (which will take approximately twenty minutes). If you want to cancel splicing you can power off the bench or detach the appliance as a last resort.</Description>
     </RecordThing>
     <RecordThing>
@@ -8986,19 +7170,6 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Key>StructureSmallSatelliteDish</Key>
       <Value>Мала супутникова тарілка</Value>
       <Description>This small communications unit can be used to communicate with nearby trade vessels.
-
-
-
-
-
-
-
-
-
-
-
-
-
         When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms} motherboard, a {THING:Landingpad_CenterPiece01}, and a {THING:StructureVendingMachine}, this allows Stationeers to contact traders. Adjust its horizontal and vertical attributes either directly or through logic.</Description>
     </RecordThing>
     <RecordThing>
@@ -9010,19 +7181,6 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Key>StructureLargeSatelliteDish</Key>
       <Value>Велика супутникова тарілка</Value>
       <Description>This large communications unit can be used to communicate with nearby trade vessels.
-
-
-
-
-
-
-
-
-
-
-
-
-
         When connected to a {THING:StructureComputer} containing a {THING:MotherboardComms} motherboard, a {THING:Landingpad_CenterPiece01}, and a {THING:StructureVendingMachine}, this allows Stationeers to contact traders. Adjust its horizontal and vertical attributes either directly or through logic.</Description>
     </RecordThing>
     <RecordThing>
@@ -9379,38 +7537,14 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Key>StructureEvaporationChamber</Key>
       <Value>Камера випаровування</Value>
       <Description>A device for safely evaporating liquids into gasses. Liquids and Gasses will both exist safely inside the device. Lowering the pressure target of the in-built back pressure regulator using the setting wheel will change the boiling temperature of liquids inside.
-
-
-
-
-
-
         The secondary gas input on the left is a heat-exchanger input and allows for heat exchange between the secondary input pipe and the internal atmosphere of the Evaporation Chamber. 
-
-
-
-
-
-
         Paired with {THING:StructureCondensationChamber} Stationeers can exploit the phase change properties of gases to build a DIY air conditioner.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCondensationChamber</Key>
       <Value>Камера конденсації</Value>
       <Description>A device for safely condensing gasses into liquids. Liquids and Gasses will both exist safely inside the device. The Chamber will pressurise using its in-built pressure regulator to the target set by the setting wheel.
-
-
-
-
-
-
         The secondary gas input on the left is a heat-exchanger input and allows for heat exchange between the secondary input pipe and the internal atmosphere of the Condensation Chamber.
-
-
-
-
-
-
         Paired with {THING:StructureEvaporationChamber} Stationeers can exploit the phase change properties of gases to build a DIY air conditioner.</Description>
     </RecordThing>
     <RecordThing>
@@ -9699,36 +7833,18 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Key>StructurePassthroughHeatExchangerLiquidToLiquid</Key>
       <Value>Протиточний теплообмінник (Рідина + рідина)</Value>
       <Description>Exchange heat from one pipe network to another. By drawing down the pressure of the outputs with a pump or regulator and regulating input pressures, the temperatures of two counterflowing networks can be effectively exchanged.
-
-
-
-
-
-
         Balancing the throughput of both inputs is key to creating a good exchange of temperatures.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassthroughHeatExchangerGasToLiquid</Key>
       <Value>Протиточний теплообмінник (Газ + рідина)</Value>
       <Description>Exchange heat from one pipe network to another. By drawing down the pressure of the outputs with a pump or regulator and regulating input pressures, the temperatures of two counterflowing networks can be effectively exchanged.
-
-
-
-
-
-
         Balancing the throughput of both inputs is key to creating a good exhange of temperatures.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassthroughHeatExchangerGasToGas</Key>
       <Value>Протиточний теплообмінник (Газ + газ)</Value>
       <Description>Exchange heat from one pipe network to another. By drawing down the pressure of the outputs with a pump or regulator and regulating input pressures, the temperatures of two counterflowing networks can be effectively exchanged.
-
-
-
-
-
-
       Balancing the throughput of both inputs is key to creating a good exhange of temperatures.</Description>
     </RecordThing>
     <RecordThing>
@@ -10909,90 +9025,27 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Key>StructureLarreDockAtmos</Key>
       <Value>Стикування LArRE (Атмос)</Value>
       <Description>The atmospherics LArRE can pump gas into and out of its storage canister. When lowered over a {THING:StructurePassiveVent}, the atmospherics LArRE will connect with it and pump gas into and out of the connected pipe network.
-
-
-
-
-
-
-
-
-
-
-
-
-
 Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by. 
-
-
-
-
-
-
         
-
-
-
-
-
-
 The base atmospheric logic values point to LArRE's internal gas storage. The Input atmospheric logic values point to the grid that LArRE is in OR the pipe network that LArRE is docked to via a {THING:StructurePassiveVent}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockCargo</Key>
       <Value>Стикування LArRE (Вантаж)</Value>
       <Description>The cargo LArRE can take things out of and put things into slots on devices. The dial on the front panel indicates which slot on the device to interact with. The slot variables of the item in the target slot can be read using the Proxy Slot Index (255)
-
-
-
-
-
-
-
-
-
-
-
-
-
 Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockCollector</Key>
       <Value>Стикування LArRE (Збирач)</Value>
       <Description>The collector LArRE can suck up nearby loose items when its mode is set to inward and eject stored items when its mode is set to outward. When set to suck up items, the collector LArRE will automatically stop and retract when full. 
-
-
-
-
-
-
-
-
-
-
-
-
-
 Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockHydroponics</Key>
       <Value>Стикування LArRE (Гідропоніка)</Value>
       <Description>The hydroponics LArRE can plant and harvest plants as well as place fertiliser into plant trays. It has an additional hopper slot which will feed items into the 'hand' slot when the hand slot is empty. Harvesting a different plant while the hand slot is full will be possible if the hopper slot is empty. In which case the plant in the hand will be moved into the hopper slot and the new plant will be harvested into the hand slot.
-
-
-
-
-
-
         The slot variables of a plant in the plant tray below can be read using the Proxy Slot Index (255).
-
-
-
-
-
-
 Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.</Description>
     </RecordThing>
     <RecordThing>
@@ -11048,26 +9101,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>ItemSuitHARM</Key>
       <Value>Костюм HARM</Value>
       <Description>The HARM Suit is the Stationeer's last resort against hostile environments.
-
-
-
-
-
-
 It is liquid cooled for superb thermal performance and boasts superior resistance to impacts and lava exposure. While the HARM suit is not compatible with a {THING:ItemJetpackBasic}, Stationeer's are still able to equip a {THING:ItemHardBackpack} or {THING:ItemHardMiningBackPack}. Due to its extra stability and size, storms do not effect movement speed while in a HARM suit; however, this results in an overall reduction to movement in general operation.
-
-
-
-
-
-
-
-
-
-
-
-
-
 </Description>
     </RecordThing>
     <RecordThing>
@@ -11274,38 +9308,14 @@ It is liquid cooled for superb thermal performance and boasts superior resistanc
       <Key>StructureSuitStorageFrame</Key>
       <Value>Рамка зберігання костюмів</Value>
       <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}. 
-
-
-
-
-
-
 When powered and connected to {GAS:Oxygen} and {GAS:Nitrogen}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. The wastetank will be pumped out to the pipe connected to the waste outlet.
-
-
-
-
-
-
 All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSuitStorageLocker</Key>
       <Value>Шафа для костюмів</Value>
       <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}.
-
-
-
-
-
-
 When powered and connected to {GAS:Oxygen} and {GAS:Nitrogen}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. The wastetank will be pumped out to the pipe connected to the waste outlet.
-
-
-
-
-
-
 All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery.</Description>
     </RecordThing>
     <RecordThing>
@@ -15517,7 +13527,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>InterrogationProgress</Key>
-      <Value>Прогрес опитування торговця</Value>
+      <Value>ПрOGREс опитування торговця</Value>
     </Record>
     <Record>
       <Key>RespawnConditionEasy</Key>
@@ -16425,11 +14435,11 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>ButtoConfirmExitAsServer</Key>
-      <Value>Ви впевнені, що хочете вийти з гри без збереження? Весь незбережений прогрес буде втрачено.</Value>
+      <Value>Ви впевнені, що хочете вийти з гри без збереження? Весь незбережений прOGREс буде втрачено.</Value>
     </Record>
     <Record>
       <Key>DialogConfirmNoticeUnsaved</Key>
-      <Value>Ви впевнені, що хочете залишити сесію без збереження? Весь незбережений прогрес буде втрачено.</Value>
+      <Value>Ви впевнені, що хочете залишити сесію без збереження? Весь незбережений прOGREс буде втрачено.</Value>
     </Record>
     <Record>
       <Key>ButtonExit</Key>
@@ -16542,26 +14552,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>MulticonstructorItem</Key>
       <Value>
-
-
-
-
-
-
         &lt;color=yellow&gt;Constructing option {0} of {1}
-
-
-
-
-
-
         Scroll &lt;color=red&gt;Mouse Wheel for more options.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -17139,51 +15131,15 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>NewWorldMoonDesc</Key>
       <Value>Отже, ви застрягли на Місяці, але не все так погано. Звісно, тут холодно, суворо і досить одноманітно, але принаймні світить сонце. Сонячна панель стане в нагоді, і контролер живлення... і, мабуть, також дугова піч.
-
-
-
-
-
-
 Тут навіть є трохи їжі та кисню в інших ящиках, але це явно не вічно. Як і ваша батарея.
-
-
-
-
-
-
 Треба починати думати, як вижити. Наскільки важко зробити шлюз? Генератор? Можливо, навіть виплавити руду і збудувати базу?
-
-
-
-
-
-
 Схоже, ви тут надовго.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceDesc</Key>
       <Value>Це творчий режим Stationeers! Створюйте будь-який предмет, тестуйте ідеї і будуйте шалені речі дуже швидко.
-
-
-
-
-
-
 &lt;color=red&gt;Цей режим є експериментальним. Уявіть його як безформну космічну вечірку, де захопливі й несподівані події* можуть і будуть відбуватися, порівняно з більш надійним досвідом близького до смерті режиму виживання.
-
-
-
-
-
-
 Просто не сумуйте, коли розлетитеся на дрібні шматочки, або вас розтерзають кури, або ви повільно вибухнете, дрейфуючи самотньо у нескінченній порожнечі.
-
-
-
-
-
-
 *баги</Value>
     </Record>
     <Record>
@@ -17265,26 +15221,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>FurnaceChamberText</Key>
       <Value>
-
-
-
-
-
-
         Pressure {0}
-
-
-
-
-
-
         Temperature {1}
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -17905,7 +15843,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>LogicTypeInterrogationProgress</Key>
-      <Value>Прогрес опитування цим супутниковим блюдцем своєї поточної цілі як відношення від 0 до 1</Value>
+      <Value>ПрOGREс опитування цим супутниковим блюдцем своєї поточної цілі як відношення від 0 до 1</Value>
     </Record>
     <Record>
       <Key>LogicTypeSizeX</Key>
@@ -18230,96 +16168,18 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>LogicTypeColor</Key>
       <Value>'Чи керуються міркуваннями ясності, безпеки чи простої естетики, {LINK:Stationeers;Stationeers} мають доступ до невеликого кольорового спектру для своїх будівель. Це налаштування кольору пристроїв, представлене як ціле число.
-
-
-
-
-
-
 0: Синій
-
-
-
-
-
-
 1: Сірий
-
-
-
-
-
-
 2: Зелений
-
-
-
-
-
-
 3: Помаранчевий
-
-
-
-
-
-
 4: Червоний
-
-
-
-
-
-
 5: Жовтий
-
-
-
-
-
-
 6: Білий
-
-
-
-
-
-
 7: Чорний
-
-
-
-
-
-
 8: Коричневий
-
-
-
-
-
-
 9: Хакі
-
-
-
-
-
-
 10: Рожевий
-
-
-
-
-
-
 11: Фіолетовий
-
-
-
-
-
-
 Це незмінний універсальний закон, що все вище 11 буде фіолетовим. {LINK:ODA;ODA} безсилий це змінити. Так само все нижче 0 буде Синім.</Value>
     </Record>
     <Record>
@@ -18804,7 +16664,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>LogicTypeProgress</Key>
-      <Value>Прогрес ракети до наступного вузла на карті, виражений як значення від 0 до 1</Value>
+      <Value>ПрOGREс ракети до наступного вузла на карті, виражений як значення від 0 до 1</Value>
     </Record>
     <Record>
       <Key>LogicTypeDestinationCode</Key>
@@ -19616,7 +17476,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>DialogConfirmLastSaveIsAutoSave</Key>
-      <Value>ВИ ВПЕВНЕНІ? Останнє збереження — це автозбереження. Ви можете втратити прогрес, якщо не збережете зараз.</Value>
+      <Value>ВИ ВПЕВНЕНІ? Останнє збереження — це автозбереження. Ви можете втратити прOGREс, якщо не збережете зараз.</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonCancel</Key>
@@ -21017,26 +18877,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>AgrizeroDesc</Key>
       <Value>Agrizero is an agricultural biotech firm focused on researching and deploying offworld farming technology. The company’s aim is to provide a network of self-sustaining, self-contained 'bio-factories' that will ultimately feed a projected 1 million humans in space.
-
-
-
-
-
-
 Emerging from the late 21st century's environmental disasters, the firm has roots in China's world-saving artificial farming initiatives, and has now spread to facilities in the Asteroid Belt, where the supply of ice asteroids makes vertical farming and controlled-environment agriculture extremely promising.
-
-
-
-
-
-
 While many of their facilities are still under construction, Agrizero is already one of the main suppliers of offworld groups like {LINK:ODA;ODA}, {LINK:Sinotai;Sinotai} and {LINK:ExMin;ExMin} through the ever-expanding Trader Network.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21046,33 +18888,9 @@ While many of their facilities are still under construction, Agrizero is already
     <Record>
       <Key>AsuraDesc</Key>
       <Value>Asura Biomedia was founded in the early 22nd century by Mumbai-based trillionaire Ashan Gurwaja. Nominally focused on 'biotechnology', the company has always had an ‘elastic’ notion of exactly what that entailed: everything from pharmaceuticals to pet food.
-
-
-
-
-
-
 Gurwaja's background in bio-engineering firms put the company in the highest echelon of bio-science industries from the very beginning, and it grew exactly as its founder intended: rapidly and reliably, structured specifically to swallow up any smaller firms in its way.
-
-
-
-
-
-
 Near mid-century, Asura's ambitions evolved to embrace entire health systems – it is now the largest provider of healthcare on Earth, integrating hospitals and primary care with medical supplies, pharmaceutical production and retail, residential care and funeral services.
-
-
-
-
-
-
 By 2150, Asura's business was a simple proposition, as captured in their famous – if not infamous – advertising slogan: 'We're in you'.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21082,26 +18900,8 @@ By 2150, Asura's business was a simple proposition, as captured in their famous 
     <Record>
       <Key>CHACDesc</Key>
       <Value>Founded in 2085 to produce weapons for {LINK:Sinotai;Sinotai}'s space forces, the company is known for making highly reliable and affordable weapons for off-world use.
-
-
-
-
-
-
 Their pragmatic approach is reflected in their focus on designs suitable for 3D printing and mass production, as well as a high reuse of components across models and weapon classes.
-
-
-
-
-
-
 As a result, although CHAC guns excel in no particular category, and have certainly never been accused of greatness, they suffer no great failings, and perform sufficiently well by most known measures to have earned their designers the informal title of 'armorer to the Solar System'.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21111,26 +18911,8 @@ As a result, although CHAC guns excel in no particular category, and have certai
     <Record>
       <Key>ExMinDesc</Key>
       <Value>In the aftermath of the Sisyphus disaster on Mars in 2079, asteroid shifting was officially banned by the {LINK:ODA;ODA}. This sea-change forced the newborn space mining industry to reconsider its strategies, but until the opening of the Manaus Space Elevator, marginal economics meant offworld resource extraction was effectively impossible.
-
-
-
-
-
-
 Formed in 2095 by a long-standing Swiss-German mining conglomerate and a consortium of other interests, ExMin was more an idea than a commercial reality for several decades. Created with the certainty that a space elevator would eventually arrive, ExMin was one of the first to exploit the access it offered. Subsequently it has become one of the Solar System's most powerful commercial entities.
-
-
-
-
-
-
 With access to space secure, ExMin became a central player in the flow of resources to the Inner System. It has competition, principally from Brazilian mining giant {LINK:Recurso;Recurso}, but the company has never entirely lost its lead on off-world mining. Synonymous with rare earth metals and pioneering off-world resource extraction, it stands at the forefront of development throughout the Solar System.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21140,26 +18922,8 @@ With access to space secure, ExMin became a central player in the flow of resour
     <Record>
       <Key>GeFabrikDesc</Key>
       <Value>Officially known as Gewehrfabrik GmbH, GeFabrik is one of the world’s oldest and most highly regarded armament firms, known for producing exceptionally accurate, high-end firearms.
-
-
-
-
-
-
 In the wake of the European arms manufacturing collapse in the 2030s, a group of unemployed armament staff formed GeFabrik. Dedicated to renewing original design principles, the company is legendary for extensive testing, sometimes lasting as long as 10 years, in order to produce ‘ganz’ weapon formats.
-
-
-
-
-
-
 GeFabrik is widely regarded as having single-handedly salvaged Germany's manufacturing reputation, while doing nothing for their sense of humor.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21169,19 +18933,7 @@ GeFabrik is widely regarded as having single-handedly salvaged Germany's manufac
     <Record>
       <Key>HiiragiDesc</Key>
       <Value>Founded by Noboru Hiiragi in the aftermath of the 2110s economic bubble, Hiiragi Communications absorbed several prominent offworld assets, quickly becoming the most widely used trans-Solar System communications network.
-
-
-
-
-
-
 If you’ve communicated with friends and family offworld recently, it’s been through the Hiiragi network, even if it’s been branded under one of its many child companies. Hiiragi is also the number one seller for PCD’s (Personal Communication Devices) as well as a deep, if difficult to assess investor in terrestrial telecommunication networks.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21191,26 +18943,8 @@ If you’ve communicated with friends and family offworld recently, it’s been 
     <Record>
       <Key>NorsecDesc</Key>
       <Value>With its roots in early 20th Century defense industry, Norsec (a.k.a. Northern Security Systems) was an early adopter of asteroid mining – one of its tugs being involved in the infamous Sisyphus Hit on the fledgling Martian colony at Sanders.
-
-
-
-
-
-
 Norsec was officially cleared of any wrong-doing, but when the {LINK:ODA;ODA} banned asteroidal relocation, the company shifted its focus to infrastructure and manufacturing.
-
-
-
-
-
-
 Norsec’s orbitally-based Space Systems Division is responsible for the design and production of {LINK:ODA;ODA}’s core transport systems, while also being rumoured to hold a large interest in {LINK:ExMin;ExMin}. The company is also noted for its willingness to engage in experimental robotic technology.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21220,33 +18954,9 @@ Norsec’s orbitally-based Space Systems Division is responsible for the design 
     <Record>
       <Key>ODADesc</Key>
       <Value>
-
-
-
-
-
-
         In the aftermath of the Earth Crisis, humanity’s focus on space diminished. Yet many felt that, without ambitions beyond our home planet, our species might falter.
-
-
-
-
-
-
 Created in 2070CE by a newly revamped United Nations, the Offworld Development Agency was given a very specific goal - to guide and encourage human space exploration at a time the cosmos was fading from the public mind. 
-
-
-
-
-
-
 It inaugurated the {LINK:Stationeers;Stationeer} Program in 2095. Understanding that funding would be difficult to come by, the ODA conceived the program as a slow-burn, low-outlay space initiative. While some derided Stationeers as 'cut-price cosmic castaways', the success of the program is testament to the wisdom and pragmatism of ODA's vision.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21256,33 +18966,9 @@ It inaugurated the {LINK:Stationeers;Stationeer} Program in 2095. Understanding 
     <Record>
       <Key>RecursoDesc</Key>
       <Value>This long-standing Brazilian mining group branched into space in the late 21st century.
-
-
-
-
-
-
 Focused primarily on bulk minerals and metals, the company is perhaps best understood as an extension of the Brazilian government – very few upper echelon political figures in modern Brazil are not implicated in one arm or another of this industrial behemoth.
-
-
-
-
-
-
 Enmeshment with South American politics has given the company heavy influence over the Manaus space elevator. This deep state control has led to other groups – the {LINK:ODA;ODA} included – to exercise a certain ‘flexibility’ toward Recurso.
-
-
-
-
-
-
 Accusations of illegal asteroid relocation, safety violations and numerous commercial infringements have barely touched it. Meanwhile, defenders point out that very little has been proven in court, and Recurso is hardly alone – hence the truism: 'In space, we all live in glass houses.'
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21292,26 +18978,8 @@ Accusations of illegal asteroid relocation, safety violations and numerous comme
     <Record>
       <Key>SinotaiDesc</Key>
       <Value>The sole 'traditional' state entity to survive offworld politics, Sinotai’s reach and power is second only to the {LINK:ODA;ODA} itself. In many ways a relic – a sub-agency of a staggeringly complicated Earth-bound corporate-bureaucracy – its structure has allowed Sinotai to achieve incredible things.
-
-
-
-
-
-
 Proving its mettle in the early 21st Century by putting the first humans on Mars, establishing the first offworld gigawatt power system, and the first space-borne fuel refinery, few space-going organisations lack some degree of relationship with Sinotai. A common joke has it that it's impossible to do anything in space without them.
-
-
-
-
-
-
 Regardless of the truth, Sinotai's approach to off-world development has involved a 'soft power' approach, from MOU's with {LINK:Recurso;Recurso} (giving them preferential access to the Manaus space elevator) to murkier alliances of convenience with a range of Trader groups.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21321,26 +18989,8 @@ Regardless of the truth, Sinotai's approach to off-world development has involve
     <Record>
       <Key>TKDesc</Key>
       <Value>Originally a defense contractor specializing in brute force, high power weaponry, Tanzanian Kinetic Systems executed a large-scale, peace-time pivot to become the African Assembly’s leading designer of high-speed goods conveyors.
-
-
-
-
-
-
 Now producing a range of chute network designs and components, TK has a strong offworld presence as a result of the Afro-Sino partnerships in the latter 21st Century. Based in the ‘reconned’ Kigamboni district of Dar E Salaam, the Company regularly enters into development partnerships with {LINK:CHAC;} and, as a result, many of their products show distinct similarities.
-
-
-
-
-
-
         After all, what is a gun but a ‘high speed goods conveyor’.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21350,33 +19000,9 @@ Now producing a range of chute network designs and components, TK has a strong o
     <Record>
       <Key>XigoDesc</Key>
       <Value>A 2150CE survey revealed the Xigo 'X' as one of the most recognized symbols in the world. Yet few participants could clearly describe the company's actual scope.
-
-
-
-
-
-
 Precisely where the company begins and ends has been the subject of endless theories, financial studies and lawsuits – originally a website for price comparisons, the conglomerate expanded to embrace data, then distribution and finally production.
-
-
-
-
-
-
 It was a seemingly indiscriminate expansion, focused not on one industry, but all of them – taking in so many fields that business analysts have largely rejected the idea of Xigo as a single entity. Rather, it is a conceptual grouping for a branch of human activity. And while such statistics are – by their very nature – difficult to confirm, recent estimates suggest Xigo employs over 1.5% of the entire human race.
-
-
-
-
-
-
 Suffice to say, it produces almost everything.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21386,47 +19012,11 @@ Suffice to say, it produces almost everything.
     <Record>
       <Key>StationeersDesc</Key>
       <Value>In the early 22nd century, Earth was emerging from a cataclysm. Its resources eroded, our population reduced, rebuilding was the spirit of the era.
-
-
-
-
-
-
 Initiated by the {LINK:ODA;Offworld Development Agency} (ODA) in 2095CE, the Stationeers Program was dedicated to a single ideal: keeping humanity pointed at the stars.
-
-
-
-
-
-
 Stationeers are everything: astronauts, engineers and explorers, deployed with limited equipment and tools, trained to do more with less. Turning the environment to their advantage, their job is to provide infrastructure for humans in space, at a fraction of the cost of traditional space programs.
-
-
-
-
-
-
 Able to build and maintain bases anywhere from the Moon to Mimas and beyond, Stationeers are our vanguard in the cosmos. Schooled in offworld survival, mining and construction techniques, basic metallurgy, electronics, rocketry, hydroponics and more ‘arcane’ sciences, Stationeers do what they must to survive, and thrive.
-
-
-
-
-
-
 Renowned for having no entry criteria, there is no such thing as a ‘typical’ Stationeer. Psychological profiling suggests successful Cadets show a ‘baseline’ pragmatism and single-mindedness, but some of the most famous Stationeers possess neither of these qualities.
-
-
-
-
-
-
 Recruiting from civil engineering backgrounds, military and aerospace industries, software development, mining groups, as well as scientific fields and even religious orders, the Stationeers Program is – fundamentally – open to all humanity.
-
-
-
-
-
-
       </Value>
     </Record>
     <Record>
@@ -21980,26 +19570,8 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>MoleCarbonDioxideDescription</Key>
       <Value>You breathe it out, {LINK:OrganicPage;plants} breath it in. They don't grow without it. You can use items placed in {SLOT:GasFilter} slots to remove this from the atmosphere.
-
-
-
-
-
-
       
-
-
-
-
-
-
 {GAS:CarbonDioxide} has a moderately high specific heat, meaning it makes a good coolant for devices like the
-
-
-
-
-
-
 {THING:StructureWallCooler}. {GAS:Water} is better, but usually has more important uses.</Value>
     </Record>
     <Record>
@@ -22013,163 +19585,11 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>MoleWaterDescription</Key>
       <Value>Воду можна отримати, виплавляючи або подрібнюючи {THING:ItemIce} у {THING:StructureFurnace} або {THING:StructureIceCrusher}. {GAS:Water} є критично важливим для {LINK:OrganicPage;рослин} і вирощування {LINK:NutritionPage;їжі}.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Також є винятковим охолоджувачем з дуже високою питомою теплоємністю. {GAS:Water} випаровується у {GAS:Steam}, якщо його температура перевищить точку кипіння.</Value>
     </Record>
     <Record>
       <Key>MolePollutedWaterDescription</Key>
       <Value>Забруднена вода — відходи від використання {GAS:Water} у певних пристроях. Замерзає у {THING:ItemPureIcePollutedWater}, але кипить у {GAS:Steam}.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {THING:StructureWaterPurifier} може перетворити її назад у {GAS:Water}.</Value>
     </Record>
     <Record>
@@ -23579,12 +20999,6 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>FurnaceTutorialArcFurnaceTakeBackpack</Key>
       <Value>Take the Orange {THING:ItemMiningBackPack} from the Locker, Open it with {KEY:ActiveHandSlot}, and drag an {THING:ItemIronOre} into the
-
-
-
-
-
-
         {SLOT:Import} slot of the {THING:StructureArcFurnace}.</Value>
     </Record>
     <Record>
@@ -25437,7 +22851,7 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     </Record>
     <Record>
       <Key>NavPointChartingProgressTitle</Key>
-      <Value>Прогрес картографування</Value>
+      <Value>ПрOGREс картографування</Value>
     </Record>
     <Record>
       <Key>SurveyTargetsTitle</Key>
@@ -25558,12 +22972,6 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>OldSavesDetectedMessage</Key>
       <Value>The save system has been re-written from scratch and old saves are no longer supported.
-
-
-
-
-
-
 There are some community tools that you can use to convert old saves. In this case make sure to back up your save folder before attempting to convert.</Value>
     </Record>
     <Record>
@@ -25573,61 +22981,13 @@ There are some community tools that you can use to convert old saves. In this ca
     <Record>
       <Key>MajorUpdateDescription</Key>
       <Value>This is the &lt;b&gt;largest update we’ve ever released for Stationeers&lt;/b&gt;. 
-
-
-
-
-
-
 It brings huge changes to the game, including a &lt;b&gt;complete terrain rewrite&lt;/b&gt;, a &lt;b&gt;rewritten save/load system&lt;/b&gt;, significant improvements to multiplayer and overall performance and stability upgrades.
-
-
-
-
-
-
             
-
-
-
-
-
-
 Because of these changes, &lt;b&gt;old saves are not compatible&lt;/b&gt; and &lt;b&gt;we will not be making them backward-compatible&lt;/b&gt;.
-
-
-
-
-
-
 If you’d like to try converting your saves, the community has created tools that may help — visit our &lt;color=#00AAFF&gt;&lt;b&gt;Discord&lt;/b&gt;&lt;/color&gt; to get advice and assistance from other players.
-
-
-
-
-
-
                 
-
-
-
-
-
-
 We know losing saves is frustrating, but this rewrite lays the foundation for the future of Stationeers.
-
-
-
-
-
-
 Thank you for your understanding, and we can’t wait for you to experience what’s new.
-
-
-
-
-
-
             </Value>
     </Record>
     <Record>
@@ -27145,23 +24505,11 @@ Thank you for your understanding, and we can’t wait for you to experience what
     <Record>
       <Key>DeleteSavePrompt</Key>
       <Value>Are you sure you want to delete:
-
-
-
-
-
-
 &lt;color=red&gt;{LOCAL:WorldSaveName}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeleteBackSavePrompt</Key>
       <Value>Are you sure?
-
-
-
-
-
-
 This will &lt;color=red&gt;delete {LOCAL:WorldSaveName}&lt;/color&gt; backup only.</Value>
     </Record>
     <Record>
@@ -27187,12 +24535,6 @@ This will &lt;color=red&gt;delete {LOCAL:WorldSaveName}&lt;/color&gt; backup onl
     <Record>
       <Key>QuantityAndRatioTooltip</Key>
       <Value>Quantity &lt;color=green&gt;{LOCAL:QuantityValue}
-
-
-
-
-
-
 &lt;color=white&gt;Mode &lt;color=green&gt;{LOCAL:RatioValue1}:{LOCAL:RatioValue2}</Value>
     </Record>
     <Record>
@@ -27242,19 +24584,7 @@ This will &lt;color=red&gt;delete {LOCAL:WorldSaveName}&lt;/color&gt; backup onl
     <Record>
       <Key>CryoStatus</Key>
       <Value>{LOCAL:PressureValue}
-
-
-
-
-
-
 {LOCAL:TemperatureValue}
-
-
-
-
-
-
 Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
@@ -29619,15 +26949,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionDiscover</Key>
-      <Value>Стан прогресу сканування Відкриття в цільовому місці ракети. Нормалізоване значення від 0 до 1. Повертає -1, якщо недоступно.</Value>
+      <Value>Стан прOGREсу сканування Відкриття в цільовому місці ракети. Нормалізоване значення від 0 до 1. Повертає -1, якщо недоступно.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionChart</Key>
-      <Value>Стан прогресу сканування Картографування. Нормалізоване значення від 0 до 1. Повертає -1, якщо недоступно.</Value>
+      <Value>Стан прOGREсу сканування Картографування. Нормалізоване значення від 0 до 1. Повертає -1, якщо недоступно.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionSurvey</Key>
-      <Value>Стан прогресу сканування Дослідження. Нормалізоване значення: 1 = 100% досліджено. Повертає -1, якщо недоступно.</Value>
+      <Value>Стан прOGREсу сканування Дослідження. Нормалізоване значення: 1 = 100% досліджено. Повертає -1, якщо недоступно.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionNavPoints</Key>
@@ -30499,15 +27829,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SurveyProgressTooltip</Key>
-      <Value>Загальний прогрес дослідження в цьому місці</Value>
+      <Value>Загальний прOGREс дослідження в цьому місці</Value>
     </Record>
     <Record>
       <Key>DiscoverProgressTooltip</Key>
-      <Value>Загальний прогрес відкриття в цьому місці</Value>
+      <Value>Загальний прOGREс відкриття в цьому місці</Value>
     </Record>
     <Record>
       <Key>ChartProgressTooltip</Key>
-      <Value>Загальний прогрес картографування в цьому місці</Value>
+      <Value>Загальний прOGREс картографування в цьому місці</Value>
     </Record>
     <Record>
       <Key>RocketLogArrived</Key>
@@ -30631,15 +27961,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketActionSurveyProgress</Key>
-      <Value>Прогрес дослідження</Value>
+      <Value>ПрOGREс дослідження</Value>
     </Record>
     <Record>
       <Key>RocketActionDiscoverProgress</Key>
-      <Value>Прогрес відкриття</Value>
+      <Value>ПрOGREс відкриття</Value>
     </Record>
     <Record>
       <Key>RocketActionChartProgress</Key>
-      <Value>Прогрес картографування</Value>
+      <Value>ПрOGREс картографування</Value>
     </Record>
     <Record>
       <Key>RocketActionMiningTotalOre</Key>
@@ -31132,12 +28462,6 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>ScriptEditorAuthorInfo</Key>
       <Value>Created by &lt;color=white&gt;{LOCAL:Author}&lt;/color&gt;
-
-
-
-
-
-
 {LOCAL:Description}</Value>
     </Record>
     <Record>
@@ -31402,7 +28726,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketDeployActionInfo</Key>
-      <Value>Вантажний відсік: {LOCAL:OnOff}, Стан: {LOCAL:Open}, Прогрес: {LOCAL:Progress}</Value>
+      <Value>Вантажний відсік: {LOCAL:OnOff}, Стан: {LOCAL:Open}, ПрOGREс: {LOCAL:Progress}</Value>
     </Record>
     <Record>
       <Key>TutorialYouDied</Key>
@@ -31747,12 +29071,6 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>AirControlModeButton</Key>
       <Value>Mode
-
-
-
-
-
-
 &lt;b&gt;{LOCAL:Value}&lt;/b&gt;</Value>
     </Record>
     <Record>
