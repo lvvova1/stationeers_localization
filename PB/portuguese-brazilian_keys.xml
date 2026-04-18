@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Code>CN</Code>
+  <Name>Português (Brasil)</Name>
+  <Code>PB</Code>
+  <!--Tradução Marcelo 20/03/2026 Registro de alterações 0.2.6217.27046-->
   <Keys>
     <Record>
       <Key>None</Key>
@@ -16,23 +18,23 @@
     </Record>
     <Record>
       <Key>Clear</Key>
-      <Value>Clear</Value>
+      <Value>Limpar</Value>
     </Record>
     <Record>
       <Key>Return</Key>
-      <Value>Return</Value>
+      <Value>Enter</Value>
     </Record>
     <Record>
       <Key>Pause</Key>
-      <Value>Pause</Value>
+      <Value>Pausar</Value>
     </Record>
     <Record>
       <Key>Escape</Key>
-      <Value>Escape</Value>
+      <Value>Esc</Value>
     </Record>
     <Record>
       <Key>Space</Key>
-      <Value>Space</Value>
+      <Value>Barra de Espaço</Value>
     </Record>
     <Record>
       <Key>Exclaim</Key>
@@ -140,7 +142,7 @@
     </Record>
     <Record>
       <Key>Less</Key>
-      <Value>Less</Value>
+      <Value>Menor que</Value>
     </Record>
     <Record>
       <Key>Equals</Key>
@@ -148,7 +150,7 @@
     </Record>
     <Record>
       <Key>Greater</Key>
-      <Value>Greater</Value>
+      <Value>Maior que</Value>
     </Record>
     <Record>
       <Key>Question</Key>
@@ -172,7 +174,7 @@
     </Record>
     <Record>
       <Key>Caret</Key>
-      <Value>Caret</Value>
+      <Value>Acento Circunflexo (^)</Value>
     </Record>
     <Record>
       <Key>Underscore</Key>
@@ -377,19 +379,19 @@
     </Record>
     <Record>
       <Key>UpArrow</Key>
-      <Value>Up Arrow</Value>
+      <Value>Seta para Cima</Value>
     </Record>
     <Record>
       <Key>DownArrow</Key>
-      <Value>Down Arrow</Value>
+      <Value>Seta para Baixo</Value>
     </Record>
     <Record>
       <Key>RightArrow</Key>
-      <Value>Right Arrow</Value>
+      <Value>Seta para a Direita</Value>
     </Record>
     <Record>
       <Key>LeftArrow</Key>
-      <Value>Left Arrow</Value>
+      <Value>Seta para a Esquerda</Value>
     </Record>
     <Record>
       <Key>Insert</Key>
@@ -485,51 +487,51 @@
     </Record>
     <Record>
       <Key>RightShift</Key>
-      <Value>Right Shift</Value>
+      <Value>Shift Direito</Value>
     </Record>
     <Record>
       <Key>LeftShift</Key>
-      <Value>Left Shift</Value>
+      <Value>Shift Esquerdo</Value>
     </Record>
     <Record>
       <Key>RightControl</Key>
-      <Value>Right Control</Value>
+      <Value>Ctrl Direito</Value>
     </Record>
     <Record>
       <Key>LeftControl</Key>
-      <Value>Left Control</Value>
+      <Value>Ctrl Esquerdo</Value>
     </Record>
     <Record>
       <Key>RightAlt</Key>
-      <Value>Right Alt</Value>
+      <Value>Alt Direito</Value>
     </Record>
     <Record>
       <Key>LeftAlt</Key>
-      <Value>Left Alt</Value>
+      <Value>Alt Esquerdo</Value>
     </Record>
     <Record>
       <Key>RightApple</Key>
-      <Value>Right Apple</Value>
+      <Value>Tecla Apple Direita</Value>
     </Record>
     <Record>
       <Key>RightCommand</Key>
-      <Value>Right Command</Value>
+      <Value>Command Direito</Value>
     </Record>
     <Record>
       <Key>LeftCommand</Key>
-      <Value>Left Command</Value>
+      <Value>Command Esquerdo</Value>
     </Record>
     <Record>
       <Key>LeftApple</Key>
-      <Value>Left Apple</Value>
+      <Value>Tecla Apple Esquerda</Value>
     </Record>
     <Record>
       <Key>LeftWindows</Key>
-      <Value>Left Windows</Value>
+      <Value>Tecla Windows Esquerda</Value>
     </Record>
     <Record>
       <Key>RightWindows</Key>
-      <Value>Right Windows</Value>
+      <Value>Tecla Windows Direita</Value>
     </Record>
     <Record>
       <Key>AltGr</Key>
@@ -537,19 +539,19 @@
     </Record>
     <Record>
       <Key>Help</Key>
-      <Value>Help</Value>
+      <Value>Ajuda</Value>
     </Record>
     <Record>
       <Key>Print</Key>
-      <Value>Print</Value>
+      <Value>Imprimir</Value>
     </Record>
     <Record>
       <Key>SysReq</Key>
-      <Value>Sys Req</Value>
+      <Value>Solicitação de Sistema</Value>
     </Record>
     <Record>
       <Key>Break</Key>
-      <Value>Break</Value>
+      <Value>Pausa</Value>
     </Record>
     <Record>
       <Key>Menu</Key>
@@ -557,15 +559,15 @@
     </Record>
     <Record>
       <Key>Mouse0</Key>
-      <Value>Left Mouse</Value>
+      <Value>Botão Esquerdo Mouse</Value>
     </Record>
     <Record>
       <Key>Mouse1</Key>
-      <Value>Right Mouse</Value>
+      <Value>Botão Direito Mouse</Value>
     </Record>
     <Record>
       <Key>Mouse2</Key>
-      <Value>Middle Mouse</Value>
+      <Value>Botão do Meio Mouse</Value>
     </Record>
     <Record>
       <Key>Mouse3</Key>
@@ -581,7 +583,7 @@
     </Record>
     <Record>
       <Key>Mouse6</Key>
-      <Value>Mouse46</Value>
+      <Value>Mouse6</Value>
     </Record>
     <Record>
       <Key>JoystickButton0</Key>
