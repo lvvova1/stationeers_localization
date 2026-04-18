@@ -16,6 +16,7 @@ Overwrite the existing files when prompted.<br/>
 | RU            | Russian              | AlexusYT                   |             |                    |
 | FR            | French               | CedricDx                   | 2026-02-19  |   0.2.6175.26943   |
 | PB            | Portuguese Brazilian | Chelo-BR                   | 2026-03-19  |                    |
+| UA            | Ukrainian            | ZorenZal                   | 2026-04-18  |   0.2.6217.27046   |
 
 
 
