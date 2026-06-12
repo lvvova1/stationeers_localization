@@ -13,11 +13,13 @@ Overwrite the existing files when prompted.<br/>
 |      Code     |       Language       |     Main Contributors      | Last Update |    Game Version    |
 |---------------|----------------------|----------------------------|-------------|--------------------|
 | CN            | Simplefied Chinese   | MRhythm                    | 2026-03-19  |   0.2.6193.26986   |
-| RU            | Russian              | AlexusYT                   |             |                    |
+| RU            | Russian              | AlexusYT                   | 2026-05-16  |   0.2.6227.27061   |
 | FR            | French               | CedricDx                   | 2026-02-19  |   0.2.6175.26943   |
-| PB            | Portuguese Brazilian | Chelo-BR                   | 2026-03-19  |                    |
-
-
+| PB            | Portuguese Brazilian | Chelo-BR / Pesterenan      | 2026-04-27  |   0.2.6228.27061   |
 
 ### Maintenance:
 This repository synchronizes with game updates.<br/>
+
+### WebApp for Translators:
+Consider using the webapp provided by the community in order to generate/update language files:
+[Stationeers Translation Helper](https://pesterenan.github.io/stationeers-translation-helper/)
