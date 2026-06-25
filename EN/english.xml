@@ -1569,7 +1569,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemPillStun</Key>
-      <Value>Pill (Paralysis)</Value>
+      <Value>Pill (Stun)</Value>
       <Description>Through rarely publicized, the existence of this pill is an open secret. For use when all else has failed, the Sayonara Suppository immobilizes and rapidly ends the average {LINK:Stationeers;Stationeer}. The delivery mode ensures that if a Stationeer chooses to take this pill, they really have to want it.</Description>
     </RecordThing>
     <RecordThing>
@@ -2259,7 +2259,7 @@ The device has nonetheless proven indispensable for {LINK:Stationeers;Stationeer
     <RecordThing>
       <Key>StructureWaterPurifier</Key>
       <Value>Water Purifier</Value>
-      <Description>Cleans {GAS:PollutedWater} and outputs {GAS:Water}. Useful for processing output from the {THING:StructureToiletModern} and {THING:StructureShower}. The purification process requires {THING:ItemCharcoal} which can be added to the machine via the import bin. The procesing throughput can be improved by increasing the gas pressure of the input pipe relative to the gas pressure of the output pipe.</Description>
+      <Description>Cleans {GAS:PollutedWater} and outputs {GAS:Water}. The purification process requires {THING:ItemCharcoal} which can be added to the machine via the import bin. The procesing throughput can be improved by increasing the gas pressure of the input pipe relative to the gas pressure of the output pipe.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterPurifier</Key>
@@ -5457,6 +5457,11 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
       <Description>The first piece to place when building a rocket. Rockets can be constructed and/or landed here. Each Launch Mount will be allocated a slot on the Space Map and assigned a Location Code.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureLaunchMountOrbital</Key>
+      <Value>Orbital Launch Mount</Value>
+      <Description>A launch mount deployed in low orbit using a {THING:DynamicOrbitalLaunchMountPayload} carried in a {THING:StructureRocketLargePayloadBay}. Rockets can be constructed and/or landed here. Each Orbital Launch Mount will be allocated a slot on the Space Map and assigned a Location Code.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitAirlockGate</Key>
       <Value>Kit (Hangar Door)</Value>
       <Description />
@@ -6690,22 +6695,22 @@ Finished - 4
     <RecordThing>
       <Key>StructureReinforcedCompositeWindow</Key>
       <Value>Reinforced Window (Composite)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to high pressure differentials.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedCompositeWindowSteel</Key>
       <Value>Reinforced Window (Composite Steel)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to high pressure differentials.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWallPaddedWindow</Key>
       <Value>Reinforced Window (Padded)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to high pressure differentials.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWallPaddedWindowThin</Key>
       <Value>Reinforced Window (Thin)</Value>
-      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to pressure differentials up to 1MPa.</Description>
+      <Description>Enjoy vistas of even the most savage, alien landscapes with these heavy duty window frames, which are resistant to high pressure differentials.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemStelliteGlassSheets</Key>
@@ -8187,6 +8192,11 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Description />
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitLaunchMountOrbital</Key>
+      <Value>Kit (Orbital Launch Mount)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketManufactory</Key>
       <Value>Rocket Manufactory</Value>
     </RecordThing>
@@ -9653,6 +9663,16 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Kit (Payload Delivery Container)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicOrbitalLaunchMountPayload</Key>
+      <Value>Orbital Launch Mount Payload</Value>
+      <Description>When attached to a {THING:StructureRocketLargePayloadBay} the {THING:DynamicOrbitalLaunchMountPayload} can be deployed in Low Orbit, where it unpacks into a {THING:StructureLaunchMountOrbital}. Rockets can then be constructed and landed there, and crewed rockets can travel between it and launch mounts on the surface.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitOrbitalLaunchMountPayload</Key>
+      <Value>Kit (Orbital Launch Mount Payload)</Value>
+      <Description>Constructs a {THING:DynamicOrbitalLaunchMountPayload} that can be carried to Low Orbit in a {THING:StructureRocketLargePayloadBay}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketLargePayloadBay</Key>
       <Value>Payload Bay Large</Value>
       <Description>The {THING:StructureRocketLargePayloadBay} functions as an attachment point for the {THING:DynamicPayloadDeliveryContainer}. Set the deploy location by setting the PositionX and PositionZ logic variables on the device. Use the deploy action on the rocket location panel to deploy an attached payload. The Open logic variable must be set to 1 to commence payload deploy.</Description>
@@ -9669,7 +9689,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>StructureCrewModule</Key>
       <Value>Crew Module</Value>
-      <Description>Rocket fuselage section that houses a {THING:StructureCrewModuleChair} and {THING:StructureCrewModuleScreen}. Acts as the rocket-side socket for a {THING:StructureCrewUmbilical}; players board by interacting with the module or the docked umbilical.</Description>
+      <Description>Crew compartment for rockets.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCrewModuleCableConnectorA</Key>
@@ -9684,7 +9704,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>StructureCrewModuleChair</Key>
       <Value>Crew Module Chair</Value>
-      <Description>Seat for a player inside a {THING:StructureCrewModule}. Exiting returns the player to the connected {THING:StructureCrewUmbilical} when available, otherwise to the module's exit point.</Description>
+      <Description>Seat for crewing a rocket. While the seat is occupied the rocket can only travel between launch mounts, and the seat can only be exited while the rocket is landed on one.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCrewModuleScreen</Key>
@@ -9897,6 +9917,71 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Description />
     </RecordThing>
     <RecordThing>
+      <Key>StructureEngineMountTypeE1</Key>
+      <Value>Engine Mount (Type E1)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureEngineMountTypeE2</Key>
+      <Value>Engine Mount (Type E2)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFairingTypeE1</Key>
+      <Value>Fairing (Type E1)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFuselageTypeE1</Key>
+      <Value>Fuselage (Type E1)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFuselageTypeE</Key>
+      <Value>Kit (Fuselage Type E)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorEpi</Key>
+      <Value>Auto-Injector (Stim)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorHealth</Key>
+      <Value>Auto-Injector (Health)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorStun</Key>
+      <Value>Auto-Injector (Stun)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorDex</Key>
+      <Value>Injector Dex</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPacket</Key>
+      <Value>Water Packet</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleFuselage</Key>
+      <Value>Crew Module Fuselage (Type C)</Value>
+      <Description>Streamlined crew compartment for rockets. Board by interacting with the module.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagEmpty</Key>
+      <Value>Waste Bag</Value>
+      <Description>A disposable bag that can be used to clear {LINK:SanitationPage;sanitation} needs. Cannot be used when wearing the {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagFilled</Key>
+      <Value>Waste Bag (Filled)</Value>
+      <Description>A partially or completely used disposable bag that can be used to clear {LINK:SanitationPage;sanitation} needs, so long as is there is room remaining. Cannot be used when wearing the {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureToiletModern</Key>
       <Value>Modern Toilet</Value>
       <Description>A device for reducing {LINK:SanitationPage;sanitation} needs. Requires {GAS:Water} and outputs {GAS:PollutedWater} from those who use it.</Description>
@@ -9922,31 +10007,6 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemKitFuselageTypeE</Key>
-      <Value>Kit (Fuselage Type E)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureEngineMountTypeE1</Key>
-      <Value>Engine Mount (Type E1)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureEngineMountTypeE2</Key>
-      <Value>Engine Mount (Type E2 Fins)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureFairingTypeE1</Key>
-      <Value>Nose Cone (Type E1)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureFuselageTypeE1</Key>
-      <Value>Fuselage (Type E1)</Value>
-      <Description />
-    </RecordThing>
-    <RecordThing>
       <Key>ItemWaterPacket</Key>
       <Value>Water Packet</Value>
       <Description />
@@ -9954,12 +10014,97 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>ItemWasteBagEmpty</Key>
       <Value>Waste Bag</Value>
-        <Description>A disposable bag that can be used to clear {LINK:SanitationPage;sanitation} needs. Cannot be used when wearing the {SLOT:Suit}.</Description>
+      <Description>A disposable bag that can be used to clear {LINK:SanitationPage;sanitation} needs. Cannot be used when wearing the {SLOT:Suit}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWasteBagFilled</Key>
       <Value>Waste Bag (Filled)</Value>
-        <Description>A partially or completely used disposable bag that can be used to clear {LINK:SanitationPage;sanitation} needs, so long as is there is room remaining. Cannot be used when wearing the {SLOT:Suit}.</Description>
+      <Description>A partially or completely used disposable bag that can be used to clear {LINK:SanitationPage;sanitation} needs, so long as is there is room remaining. Cannot be used when wearing the {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSurvivalBelt</Key>
+      <Value>Survival Belt</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleFuselageSimple</Key>
+      <Value>Crew Module Fuselage (Type A)</Value>
+      <Description>Compact crew compartment for rockets. Board by interacting with the module.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Paintable</Key>
+      <Value>Overalls (Paintable)</Value>
+      <Description>Overalls that can be coloured using the Spray Paints.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicRocketUplinkCompact</Key>
+      <Value>Logic Uplink (Compact)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleChair</Key>
+      <Value>Kit (Crew Module Chair)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleCableConnector</Key>
+      <Value>Kit (Crew Module Cable Connector)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleScreen</Key>
+      <Value>Kit (Crew Module Screen)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewBulkhead</Key>
+      <Value>Crew Bulkhead</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleElectronics</Key>
+      <Value>Kit (Crew Electronics)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleLight</Key>
+      <Value>Crew Light</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight3</Key>
+      <Value>Cable (Straight 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight3Burnt</Key>
+      <Value>Burnt Cable (Straight 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight5</Key>
+      <Value>Cable (Straight 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight5Burnt</Key>
+      <Value>Burnt Cable (Straight 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight10</Key>
+      <Value>Cable (Straight 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight10Burnt</Key>
+      <Value>Burnt Cable (Straight 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_ArrowPiece</Key>
+      <Value>Landingpad Arrow</Value>
+      <Description />
     </RecordThing>
   </Things>
   <Slots>
@@ -10014,10 +10159,6 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>Lungs</Key>
       <Value>Lungs</Value>
-    </Record>
-    <Record>
-      <Key>Stomach</Key>
-      <Value>Stomach</Value>
     </Record>
     <Record>
       <Key>Glasses</Key>
@@ -10234,6 +10375,14 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>ProgrammableChip</Key>
       <Value>Programmable Chip</Value>
+    </Record>
+    <Record>
+      <Key>AutoInjector</Key>
+      <Value>Auto-Injector</Value>
+    </Record>
+    <Record>
+      <Key>Stomach</Key>
+      <Value>Stomach</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -21717,6 +21866,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Zero Gee</Value>
     </Record>
     <Record>
+      <Key>StatusWarningAcceleration</Key>
+      <Value>Acceleration</Value>
+    </Record>
+    <Record>
       <Key>StatusNoticeActiveHandOff</Key>
       <Value>Active Hand Off</Value>
     </Record>
@@ -21735,6 +21888,14 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>StatusNoticeJetpackOn</Key>
       <Value>Jetpack On</Value>
+    </Record>
+    <Record>
+      <Key>ConnectedSlot</Key>
+      <Value>Screen Connection</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeHealingNotice</Key>
+      <Value>Healing</Value>
     </Record>
     <Record>
       <Key>StatusNoticeLightOff</Key>
@@ -22381,6 +22542,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Ship Repair Package</Value>
     </Record>
     <Record>
+      <Key>BuyDataCryogenicsSupplyCrate</Key>
+      <Value>Cryogenics Supply Crate</Value>
+    </Record>
+    <Record>
       <Key>BuyDataHardsuitPackage</Key>
       <Value>Hardsuit Package</Value>
     </Record>
@@ -22795,6 +22960,38 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>TraderPlanetaryProduce</Key>
       <Value>Planetary Produce</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCare</Key>
+      <Value>Cosmic Care</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarMedical</Key>
+      <Value>Stellar Medical Supplies</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitalApothecary</Key>
+      <Value>Orbital Apothecary</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVitals</Key>
+      <Value>Void Vitals</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNursing</Key>
+      <Value>Nebula Nursing</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAidStation</Key>
+      <Value>Asteroid Aid Station</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInfirmary</Key>
+      <Value>Interstellar Infirmary</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGauze</Key>
+      <Value>Galactic Gauze</Value>
     </Record>
     <Record>
       <Key>TraderGreenFutures</Key>
@@ -30501,6 +30698,18 @@ Status: {LOCAL:StatusValue}</Value>
       <Value>{LOCAL:Payload} Can only be deployed in Low Orbit</Value>
     </Record>
     <Record>
+      <Key>RocketDeployFailNoFreePosition</Key>
+      <Value>{LOCAL:Payload} All deploy positions in Low Orbit are occupied</Value>
+    </Record>
+    <Record>
+      <Key>RocketCannotExitSeatInFlight</Key>
+      <Value>Cannot exit the seat unless the rocket is landed on a launch mount</Value>
+    </Record>
+    <Record>
+      <Key>RocketCrewModuleMannedTravel</Key>
+      <Value>Cannot travel here while the crew module is manned</Value>
+    </Record>
+    <Record>
       <Key>RocketDeployFailNoPayload</Key>
       <Value>No payload to deploy</Value>
     </Record>
@@ -30615,10 +30824,6 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>DeviceMinimumPressure</Key>
       <Value>World atmosphere must be at least {LOCAL:PRESSURE}</Value>
-    </Record>
-    <Record>
-      <Key>DeviceNetworkInvalid</Key>
-      <Value>&lt;color=yellow&gt;{LOCAL:NETWORK}&lt;/color&gt; network is invalid</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticSanitation</Key>
