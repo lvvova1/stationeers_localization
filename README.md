@@ -12,7 +12,7 @@ Overwrite the existing files when prompted.<br/>
 
 |      Code     |       Language       |     Main Contributors      | Last Update |    Game Version    |
 |---------------|----------------------|----------------------------|-------------|--------------------|
-| CN            | Simplefied Chinese   | MRhythm                    | 2026-06-12  |   0.2.6338.27347   |
+| CN            | Simplefied Chinese   | MRhythm                    | 2026-06-25  |   0.2.6385.27604   |
 | RU            | Russian              | AlexusYT                   | 2026-05-16  |   0.2.6227.27061   |
 | FR            | French               | CedricDx                   | 2026-02-19  |   0.2.6175.26943   |
 | PB            | Portuguese Brazilian | Chelo-BR / Pesterenan      | 2026-04-27  |   0.2.6228.27061   |
