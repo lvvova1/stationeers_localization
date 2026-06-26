@@ -24763,11 +24763,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>SaveAsButtonGameString</Key>
-      <Value>另存为</Value>
+      <Value>Save As</Value>
     </Record>
     <Record>
       <Key>InputPasswordTitle</Key>
-      <Value>密码</Value>
+      <Value>Password</Value>
     </Record>
     <Record>
       <Key>InputPasswordPlaceholder</Key>
