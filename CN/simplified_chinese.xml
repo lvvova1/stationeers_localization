@@ -6911,13 +6911,13 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>StructureH2Combustor</Key>
-      <Value>燃烧器</Value>
-      <Description>燃烧器用于在可控状态下燃烧可燃气体. 如果向其输入 {GAS:Hydrogen} 和 {GAS:Oxygen} , 它能够输出 {GAS:Steam} ,并在充分冷却之后用于饮用和水培农业.</Description>
+      <Value>燃烧器(已过时)</Value>
+      <Description>这个设备已过时并弃用. 请使用 {THING:StructureCombustor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>H2Combustor</Key>
-      <Value>燃烧器</Value>
-      <Description>燃烧器用于在可控状态下燃烧可燃气体. 如果向其输入 {GAS:Hydrogen} 和 {GAS:Oxygen} , 它能够输出 {GAS:Steam} ,并在充分冷却之后用于饮用和水培农业.</Description>
+      <Value>燃烧器(已过时)</Value>
+      <Description>这个设备已过时并弃用. 请使用 {THING:StructureCombustor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiatorFlat</Key>
@@ -10010,6 +10010,47 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>Landingpad_ArrowPiece</Key>
       <Value>着陆场箭头</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5</Key>
+      <Value>太阳能板(1x5双口)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Reinforced</Key>
+      <Value>太阳能板(1x5重型双口)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Side</Key>
+      <Value>LED Display (Medium Side)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Back</Key>
+      <Value>LED Display (Medium Back)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5ReinforcedSingle</Key>
+      <Value>太阳能板(1x5重型)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureH2Combustor1</Key>
+      <Value>氢燃烧器1</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCombustor</Key>
+      <Value>燃烧器</Value>
+      <Description>燃烧器能够对从气体输入端和液体输入端进入的混合物质进行受控燃烧. 和 {THING:StructureGasMixer} 类似, 一个控制旋钮用于设定从各个输入端输入物质的比例, 混合后的气体在输送至输出端之前会先进行燃烧.
+          燃烧器产生的产物完全取决于输入的物质. 具体请参阅 {LINK:GasPage;气体}页面, 了解各种不同的物质组合燃烧后的产物.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Single</Key>
+      <Value>太阳能板(1x5)</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -20211,6 +20252,14 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     <Record>
       <Key>RemoveNodeCancel</Key>
       <Value>取消</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodesOfTypeButton</Key>
+      <Value>删除所有该类位置</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodesOfTypeText</Key>
+      <Value>这将删除所有与选择的类型相同的位置, 确定吗?</Value>
     </Record>
     <Record>
       <Key>ClearDestinationButton</Key>
