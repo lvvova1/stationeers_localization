@@ -1429,7 +1429,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConsole</Key>
-      <Value>Kit (Consoles)</Value>
+      <Value>Kit (Console)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6981,13 +6981,13 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     </RecordThing>
     <RecordThing>
       <Key>StructureH2Combustor</Key>
-      <Value>Combustor</Value>
-      <Description>The Combustor allows for controlled combustion of volatile gasses. When fed with {GAS:Hydrogen} and {GAS:Oxygen} it will output {GAS:Steam} which can be cooled for drinking water or hydroponics.</Description>
+      <Value>Combustor (Deprecated)</Value>
+      <Description>This device is deprecated. Use the {THING:StructureCombustor} instead.</Description>
     </RecordThing>
     <RecordThing>
       <Key>H2Combustor</Key>
-      <Value>Combustor</Value>
-      <Description>The Combustor allows for controlled combustion of volatile gasses. When fed with {GAS:Hydrogen} and {GAS:Oxygen} it will output {GAS:Steam} which can be cooled for drinking water or hydroponics.</Description>
+      <Value>Combustor (Deprecated)</Value>
+      <Description>This device is deprecated. Use the {THING:StructureCombustor} instead.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiatorFlat</Key>
@@ -10104,6 +10104,48 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>Landingpad_ArrowPiece</Key>
       <Value>Landingpad Arrow</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5</Key>
+      <Value>Solar Panel (Dual 1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Reinforced</Key>
+      <Value>Solar Panel (Heavy Dual 1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Side</Key>
+      <Value>LED Display (Medium Side)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Back</Key>
+      <Value>LED Display (Medium Back)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5ReinforcedSingle</Key>
+      <Value>Solar Panel (Heavy 1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureH2Combustor1</Key>
+      <Value>H2 Combustor1</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCombustor</Key>
+      <Value>Combustor</Value>
+      <Description>The Combustor performs controlled combustion of a mixture drawn from a gas input and a liquid input. A control wheel sets the ratio taken from each, much like the {THING:StructureGasMixer}, and the combined mixture is combusted before being passed to the output.
+
+What the Combustor produces depends entirely on what is fed into it. See the {LINK:GasPage;Gasses} page to find what each combination combusts into.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Single</Key>
+      <Value>Solar Panel (1x5)</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -20365,6 +20407,14 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Cancel</Value>
     </Record>
     <Record>
+      <Key>RemoveNodesOfTypeButton</Key>
+      <Value>Delete Nodes Of Type</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodesOfTypeText</Key>
+      <Value>This will delete all nodes at this location of the selected type. Are you sure?</Value>
+    </Record>
+    <Record>
       <Key>ClearDestinationButton</Key>
       <Value>Clear Destination</Value>
     </Record>
@@ -23441,6 +23491,10 @@ Thank you for your understanding, and we can’t wait for you to experience what
     <Record>
       <Key>ButtonTransfer</Key>
       <Value>Transfer</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodeOfTypeButton</Key>
+      <Value>Remove Node Type</Value>
     </Record>
   </Interface>
   <Colors>
