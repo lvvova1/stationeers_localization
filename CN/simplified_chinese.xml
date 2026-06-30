@@ -9900,7 +9900,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>ItemWasteBagFilled</Key>
       <Value>废物袋(用过)</Value>
-      <Description>一个部分或完全使用过的一次性袋子. 只要还有剩余空间, 就可以用于解决 {LINK:SanitationPage;卫生} 问题. 穿着{SLOT:Suit}时无法使用.</Description>
+      <Description>一个部分或完全使用过的一次性袋子. 只要还有剩余空间, 就可以用于解决 {LINK:SanitationPage;卫生} 问题. 穿着 {SLOT:Suit} 时无法使用.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureToiletModern</Key>
@@ -10089,7 +10089,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>Suit</Key>
-      <Value>套装</Value>
+      <Value>太空服</Value>
     </Record>
     <Record>
       <Key>Back</Key>
@@ -22443,7 +22443,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>BuyDataHardsuitPackage</Key>
-      <Value>高级太空服套装</Value>
+      <Value>高级太空服物资包</Value>
     </Record>
     <Record>
       <Key>SellDataRubbishCollection</Key>
