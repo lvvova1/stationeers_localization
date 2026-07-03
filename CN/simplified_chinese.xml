@@ -28348,7 +28348,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>AutoLandThrustRequired</Key>
-      <Value>可靠度 {LOCAL:Confidence}. 当前预计推力为 {LOCAL:Thrust}, 推力至少需要达到 {LOCAL:ExpectedThrust}</Value>
+      <Value>可靠度 {LOCAL:Confidence}. 当前预计推力为 {LOCAL:ExpectedThrust}, 推力至少需要达到 {LOCAL:Thrust}</Value>
     </Record>
     <Record>
       <Key>NoDataLinkActive</Key>
