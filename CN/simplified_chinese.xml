@@ -28016,7 +28016,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>RocketEnginePlacementRule</Key>
-      <Value>{LOCAL:Device} 必须放置在&lt;color=yellow&gt;引擎机身&lt;/color&gt;内</Value>
+      <Value>{LOCAL:Device} 必须放置在&lt;color=yellow&gt;发动机支架&lt;/color&gt;内</Value>
     </Record>
     <Record>
       <Key>RocketCurrentLocation</Key>
