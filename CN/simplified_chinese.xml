@@ -5854,7 +5854,7 @@ AIMEe有7种模式:
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
-      <Value>采矿钻头MkII</Value>
+      <Value>采矿钻机MkII</Value>
       <Description>手持式"Topo"三锥旋转钻专为快速挖掘设计, 采用 {LINK:Recurso;Recurso} 零重力方案, 适应真空与大气环境. MKII更耐高温高压</Description>
     </RecordThing>
     <RecordThing>
