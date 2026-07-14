@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Ukrainian</Name>
   <Code>UK</Code>
@@ -16,7 +16,7 @@
       <Key>StatusIconToxinWarning</Key>
       <Value>Потребує уваги</Value>
     </Record>
-    <Record>
+        <Record>
       <Key>StatusIconHydrationDesc</Key>
       <Value>Рівень гідратації знижується</Value>
     </Record>
@@ -38,7 +38,7 @@
     </Record>
     <Record>
       <Key>StatusIconOxygenName</Key>
-      <Value>Постачання оксигену</Value>
+      <Value>Постачання кисню</Value>
     </Record>
     <Record>
       <Key>StatusIconOxygenDesc</Key>
@@ -46,11 +46,11 @@
     </Record>
     <Record>
       <Key>StatusIconOxygenWarning</Key>
-      <Value>Рівень оксигену в балоні низький — потрібна увага</Value>
+      <Value>Рівень кисню в балоні низький — потрібна увага</Value>
     </Record>
     <Record>
       <Key>StatusIconOxyegnCritical</Key>
-      <Value>Критичний рівень оксигену — замініть балон</Value>
+      <Value>Критичний рівень кисню — замініть балон</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureName</Key>
@@ -58,15 +58,15 @@
     </Record>
     <Record>
       <Key>StatusIconPressureDesc</Key>
-      <Value>Поточний рівень тиску — перевірте тиск у костюмі</Value>
+      <Value>Поточний рівень тиску — перевірте тиск у скафандрі</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureWarning</Key>
-      <Value>Тиск у костюмі низький</Value>
+      <Value>Тиск у скафандрі низький</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureCritical</Key>
-      <Value>Критично низький тиск у костюмі</Value>
+      <Value>Критично низький тиск у скафандрі</Value>
     </Record>
     <Record>
       <Key>StatusIconTemperatureName</Key>
@@ -74,23 +74,23 @@
     </Record>
     <Record>
       <Key>StatusIconTemperatureDesc</Key>
-      <Value>Поточна температура всередині костюма</Value>
+      <Value>Поточна температура всередині скафандра</Value>
     </Record>
     <Record>
       <Key>StatusIconTempuratureWarning</Key>
-      <Value>Температура всередині костюма відхиляється від норми</Value>
+      <Value>Температура всередині скафандра відхиляється від норми</Value>
     </Record>
     <Record>
       <Key>StatusIconTempuratureCritical</Key>
-      <Value>Критична температура всередині костюма</Value>
+      <Value>Критична температура всередині скафандра</Value>
     </Record>
     <Record>
       <Key>StatusIconLeakingName</Key>
-      <Value>Костюм протікає</Value>
+      <Value>Скафандр протікає</Value>
     </Record>
     <Record>
       <Key>StatusIconPowerName</Key>
-      <Value>Живлення костюма</Value>
+      <Value>Живлення скафандра</Value>
     </Record>
     <Record>
       <Key>StatusIconPowerDesc</Key>
@@ -99,6 +99,18 @@
     <Record>
       <Key>StatusIconGravityName</Key>
       <Value>Невагомість</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconGravityDesc</Key>
+      <Value>Наразі у стані невагомості</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationName</Key>
+      <Value>Прискорення</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationDesc</Key>
+      <Value>Надмірні перевантаження</Value>
     </Record>
     <Record>
       <Key>StatusIconJetpackName</Key>
@@ -181,6 +193,26 @@
       <Value>Гігієна</Value>
     </Record>
     <Record>
+      <Key>StatusIconSanitationName</Key>
+      <Value>Санітарна потреба</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSoiledName</Key>
+      <Value>Забруднення</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealingName</Key>
+      <Value>Лікування</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStimulantName</Key>
+      <Value>Стимулятор</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunNotice</Key>
+      <Value>Оглушення</Value>
+    </Record>
+	<Record>
       <Key>DeconstructCanisterFull</Key>
       <Value>Неможливо розібрати. Балон має бути порожнім</Value>
     </Record>

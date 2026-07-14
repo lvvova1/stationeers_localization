@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>UK</Code>
   <HelpPage>
@@ -7,18 +7,20 @@
     |                 MASTER PAGES            |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+
     <StationpediaPage>
       <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
       <Key>Home</Key>
       <Title>На початок</Title>
-      <Text></Text>
+      <Text />
     </StationpediaPage>
     <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
     <StationpediaPage>
       <Key>Search</Key>
       <Title>Пошук</Title>
-      <Text></Text>
+      <Text />
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>AirlockDevicePage</Key>
       <Title>Пристрої шлюзів</Title>
@@ -29,10 +31,10 @@
       <Title>Логічні модулі</Title>
       <Text>{LIST_OF_LOGIC_UNITS}{LIST_OF_MOTHERBOARD}</Text>
     </StationpediaPage>
-    <StationpediaPage>
+        <StationpediaPage>
       <Key>CartridgePage</Key>
       <Title>Картриджі</Title>
-      <Text>Їх можна встановлювати в {THING:ItemTablet} або {THING:ItemAdvancedTablet} для виконання діагностики, в залежності від вставленого картриджу.
+      <Text>Їх можна встановлювати в {THING:ItemTablet} або {THING:ItemAdvancedTablet} для виконання діагностики, залежно від установленого картриджа.
 {LIST_OF_CARTRIDGES}</Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -50,12 +52,13 @@
       <Title>Органіка</Title>
       <Text>{LIST_OF_ORGANICS}</Text>
     </StationpediaPage>
-    <StationpediaPage>
+
+        <StationpediaPage>
       <Key>AtmosphericPage</Key>
       <Title>Атмосферні пристрої</Title>
       <Text>{LIST_OF_ATMOSPHERICS}</Text>
     </StationpediaPage>
-    <StationpediaPage>
+     <StationpediaPage>
       <Key>RubbishPage</Key>
       <Title>Сміття</Title>
       <Text>{LIST_OF_ELECTRONICS}</Text>
@@ -65,7 +68,7 @@
       <Title>Меблі</Title>
       <Text>{LIST_OF_FURNITURES}</Text>
     </StationpediaPage>
-    <StationpediaPage>
+        <StationpediaPage>
       <Key>LorePage</Key>
       <DisplayFilter>Lore</DisplayFilter>
       <Title>Фракції</Title>
@@ -103,10 +106,10 @@
       <Key>MiningPage</Key>
       <DisplayFilter>Guides</DisplayFilter>
       <Title>Видобуток</Title>
-      <Text>Ви можете добувати {LINK:OrePage;руду} за допомогою {THING:ItemMiningDrill}. Якщо ви носите {THING:ItemMiningBelt}, руда автоматично поміщатиметься в нього.
+      <Text>Ви можете видобувати {LINK:OrePage;руду} за допомогою {THING:ItemMiningDrill}. Якщо носити {THING:ItemMiningBelt}, видобута {LINK:OrePage;руда} автоматично потраплятиме до нього.
       </Text>
     </StationpediaPage>
-    <StationpediaPage>
+<StationpediaPage>
       <Key>TradingPage</Key>
       <DisplayFilter>Guides</DisplayFilter>
       <Title>Торгівля</Title>
@@ -127,14 +130,14 @@
 {LIST_OF_TRADING_DEVICES}
       </Text>
     </StationpediaPage>
-    <StationpediaPage>
+<StationpediaPage>
       <Key>ConstructionPage</Key>
       <Title>Будівництво</Title>
       <DisplayFilter>Guides</DisplayFilter>
       <Text>{HEADER:Початок роботи}
 Зазвичай будівництво починається з використання {LINK:KitPage;комплектів}, після чого застосовуються різні {LINK:ToolPage;інструменти} та {LINK:ResourcePage;ресурси} для завершення конструкції.
 
-Звертайте увагу на кількість наборів, необхідних для будівництва — деякі конструкції потребують більше ніж один елемент зі стека. Для деяких наборів доступно кілька варіантів — використовуйте {COLORRED:коліщатко миші}, щоб змінити вибір.
+Звертайте увагу на кількість наборів, необхідних для будівництва — деякі конструкції потребують більше ніж один елемент зі стосу. Для деяких наборів доступно кілька варіантів — використовуйте {COLORRED:коліщатко миші}, щоб змінити вибір.
 
 {HEADER:Стадії будівництва}
 Деякі конструкції мають кілька стадій будівництва, які вимагають різних комбінацій предметів. Підказка покаже, що саме потрібно.
@@ -144,12 +147,13 @@
 {HEADER:Підказки}
 Якщо подивитися на незавершену конструкцію, з’явиться інформація про те, що потрібно для її завершення.
 
-Якщо у вас у руці неправильний інструмент, підказка покаже, який саме потрібен для демонтажу.
+Якщо у вас у руці {LINK:ToolPage;інструмент}, але це не той {LINK:ToolPage;інструмент}, підказка покаже, який саме потрібен для демонтажу.
 
 {HEADER:Тиск}
 Під час будівництва важливо враховувати, що тиск вимірюється як різниця. Більшість конструкцій мають обмеження у 200 кПа: якщо різниця тиску між внутрішнім і зовнішнім середовищем перевищує це значення — виникнуть проблеми.
       </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Реагенти</Title>
@@ -157,13 +161,14 @@
       {LIST_OF_REAGENTS}
       </Text>
     </StationpediaPage>
-    <StationpediaPage>
+
+<StationpediaPage>
       <Key>MusicPage</Key>
       <Title>Створення музики</Title>
       <DisplayFilter>Guides</DisplayFilter>
       <Text>{LINK:ODA;ODA} не схвалює використання саундтреків та інших відволікаючих факторів.
-Тому {LINK:Stationeers;Stationeers} довелося створити власний музичний супровід для важкої праці з будівництва та обслуговування позаземної інфраструктури.
-Ключову роль у цьому занятті відіграє степ-секвенсор, який дозволяє Stationeers створювати короткі музичні патерни або лупи.
+Тому {LINK:Stationeers;Станціонерам} довелося створити власний музичний супровід для важкої праці з будівництва та обслуговування позаземної інфраструктури.
+Ключову роль у цьому занятті відіграє степ-секвенсор, який дозволяє Станціонерам створювати короткі музичні патерни або лупи.
 {HEADER:DIY МУЗИКА — ПЕРШІ КРОКИ}
 
 1: Підключіть 8 модулів {THING:DeviceStepUnit} до вашого покрокового секвенсора через порт передачі даних, розташований зліва.
@@ -174,9 +179,9 @@
 
 4: Розмістіть {THING:StopWatch} та використовуйте {THING:StructureLogicReader} і {THING:StructureLogicWriter}, щоб записати час у змінну часу на секвенсорі.
 
-5: Встановіть BPM на секвенсорі за допомогою {THING:StructureLogicDial} та {THING:StructureLogicWriter}, щоб записати значення в змінну BPM секвенсора. Чим вищий bpm, тим швидше буде відтворюватися послідовність. 
+5: Встановіть BPM на секвенсорі за допомогою {THING:StructureLogicDial} та {THING:StructureLogicWriter}, щоб записати значення в змінну BPM секвенсора. Чим вищий bpm, тим швидше буде відтворюватися послідовність.
 
-6: Вставте звуковий картридж на ваш вибір і виберіть варіант звуку, який ви хочете відтворити, натискаючи кнопки зі стрілками, розташовані над і під слотом для звукового картриджа.
+6: Вставте потрібний звуковий картридж і виберіть звук кнопками зі стрілками над і під гніздом картриджа.
 
 7: Оберіть висоту звуків, які потрібно відтворити, встановивши регулятор на кожному з 8 крокових блоків на бажану ноту. У випадку з барабанами кожна нота відповідає різним барабанним звукам. Ви можете протестувати свої звуки, натискаючи кнопку активації на кожному кроковому блоці (коли секвенсер неактивний).
 
@@ -185,6 +190,8 @@
 9: Нарешті, увімкніть секвенсер, Vibeoneer.
       </Text>
     </StationpediaPage>
+
+
     <StationpediaPage>
       <Key>TemperatureControlPage</Key>
       <Title>Контроль температури</Title>
@@ -245,12 +252,14 @@
 Успіхів, кадете!
       </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>GasPage</Key>
       <Title>Гази</Title>
       <Text>Це хімічні гази різних типів.{LIST_OF_GASES}
       </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Руди</Title>
@@ -260,7 +269,8 @@
 {LIST_OF_ORES}
       </Text>
     </StationpediaPage>
-    <StationpediaPage>
+
+      <StationpediaPage>
       <Key>GeneticsPage</Key>
       <DisplayFilter>Guides</DisplayFilter>
       <Title>Генетика</Title>
@@ -273,20 +283,25 @@
 Генетика рослин не є точною наукою, і вам доведеться пройти через процес проб і помилок та неодноразові спроби, перш ніж ви зможете досягти своїх цілей. {LIST_OF_GENES} {LIST_OF_GENETIC_DEVICES}
 </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>IngotPage</Key>
       <Title>Злитки</Title>
       <Text>Це предмети, які зазвичай виготовляються шляхом {LINK:SmeltingPage;плавлення} {LINK:OrePage;руд} для використання у {LINK:FabricatorPage;верстатах}.
+
+{LIST_OF_INGOTS}
       </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ToolPage</Key>
       <Title>Інструменти</Title>
-      <Text>Це предмети, які можна встановити в слот для спеціального інструменту і які використовуються для {LINK:ConstructionPage;будівництва} та інших завдань.
+      <Text>Це предмети, які можна встановити в гніздо для спеціального інструменту й використовувати для {LINK:ConstructionPage;будівництва} та інших завдань.
 
 {LIST_OF_TOOLS}
       </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ResourcePage</Key>
       <Title>Ресурси</Title>
@@ -294,6 +309,7 @@
 {LIST_OF_RESOURCES}
       </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>KitPage</Key>
       <Title>Комплекти</Title>
@@ -301,6 +317,7 @@
 {LIST_OF_KITS}
       </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>AutomatedRocketPage</Key>
       <Title>Ракети</Title>
@@ -333,6 +350,7 @@
 Більш складні ракети можуть використовувати {THING:StructureRocketMiner} та {THING:StructureCargoStorageSmall}.
 {LIST_OF_ROCKET}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>FoodPage</Key>
       <Title>Їжа</Title>
@@ -340,13 +358,15 @@
         {LIST_OF_FOOD}
       </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ClothingPage</Key>
       <Title>Одяг</Title>
-      <Text>Це предмети, які персонажі можуть носити у відповідних слотах.
+      <Text>Це предмети, які персонажі можуть носити у відповідних комірках спорядження.
 {LIST_OF_CLOTHING}
       </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>AppliancePage</Key>
       <Title>Побутова техніка</Title>
@@ -354,6 +374,8 @@
 {LIST_OF_APPLIANCES}
       </Text>
     </StationpediaPage>
+
+
     <StationpediaPage>
       <Key>WeatherPage</Key>
       <Title>Погода</Title>
@@ -362,26 +384,29 @@
 
 Тому {LINK:ODA;ODA} рекомендує щойно прибулим станціонерам створити герметичну базу протягом 7 днів після приземлення.
 
-Будь-які рухомі об'єкти, залишені назовні під час бурі — на Марсі, Лулані, Вулкані чи Європі — ризикують бути віднесеними далеко-далеко, включаючи ваш посадковий модуль.
+Будь-які рухомі об’єкти, залишені назовні під час бурі — на Марсі, Лулані, Вулкані чи Європі — ризикують бути віднесеними далеко-далеко. Це стосується й посадкового модуля.
 
 Також майте на увазі, що сонячні панелі є крихкими, і їхнє скло може розбитися, а іноді навіть бути знищеним під час досить сильної бурі. Під час бур їхня потужність також різко знижується.
       </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>CableNetworkPage</Key>
       <Title>Кабельні мережі</Title>
-      <Text>Під час прокладання кабелів за допомогою {THING:ItemCableCoil} ви створюєте кабельні мережі. Вони містять енергозалежну пам’ять, з якою можна читати або записувати дані за допомогою {THING:ItemIntegratedCircuit10}. Сюди входять різноманітні спеціальні логічні змінні, такі як {LOGICTYPE:Channel0} аж до {LOGICTYPE:Channel7}. Мережі також мають пам'ять, доступну для читання, яка містить список усіх пристроїв передачі даних у мережі, і може використовуватися з GET для пошуку {LOGICTYPE:ReferenceId} для цього пристрою. 
-	  
-Щоб дізнатися про поточну кількість пристроїв у стеку, використовуйте змінну {LOGICTYPE:StackSize} у мережі, оскільки мережа динамічно регулює розмір свого стеку на основі пристроїв, що знаходяться в ній. Кабельні мережі мають енергозалежну пам'ять і змінюватимуть як свій порядок, так і вміст та дані щоразу, коли мережа змінюється — тому вам, можливо, доведеться постійно опитувати та оновлювати інформацію.  
+      <Text>Під час прокладання кабелів за допомогою {THING:ItemCableCoil} ви створюєте кабельні мережі. Вони містять енергозалежну пам’ять, з якою можна читати або записувати дані за допомогою {THING:ItemIntegratedCircuit10}. Сюди входять різноманітні спеціальні логічні змінні, такі як {LOGICTYPE:Channel0} аж до {LOGICTYPE:Channel7}. Мережі також мають пам'ять, доступну для читання, яка містить список усіх пристроїв передачі даних у мережі, і може використовуватися з GET для пошуку {LOGICTYPE:ReferenceId} для цього пристрою.
 
-Щоб отримати доступ до цього, використовуйте додаткову нотацію у посиланнях на ваші пристрої, наприклад {COLORYELLOW:d0}:{COLORYELLOW:1}, щоб отримати доступ до мережі 1 з наданого пристрою. Щоб дізнатися номер з'єднання, перевірте сторінку stationpedia для цього пристрою та знайдіть номер у розділі з'єднань.
+Щоб дізнатися про поточну кількість пристроїв у стеку, використовуйте змінну {LOGICTYPE:StackSize} у мережі, оскільки мережа динамічно регулює розмір свого стеку на основі пристроїв, що знаходяться в ній. Кабельні мережі мають енергозалежну пам'ять і змінюватимуть як свій порядок, так і вміст та дані щоразу, коли мережа змінюється — тому вам, можливо, доведеться постійно опитувати та оновлювати інформацію.
+
+Щоб отримати доступ до цього, використовуйте додаткову нотацію у посиланнях на ваші пристрої, наприклад {COLORYELLOW:d0}:{COLORYELLOW:1}, щоб отримати доступ до мережі 1 з наданого пристрою. Щоб дізнатися номер з'єднання, перевірте сторінку цього пристрою у Станціопедії та знайдіть номер у розділі з'єднань.
       </Text>
     </StationpediaPage>
+
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     -->
+
     <StationpediaPage>
       <Key>ThingTemplate</Key>
       <Text>{0}
@@ -390,6 +415,7 @@
 {LIST}Хеш об'єкту: {POS:300}{1}
 Фарбується {POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ThingThermalTemplate</Key>
       <Text>{HEADER:Термічні межі}
@@ -400,120 +426,150 @@
 
 Самозаймання{POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
+
+
+
     <StationpediaPage>
       <Key>LogicTypePageTemplate</Key>
       <Text>{0}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ThingSlotHeaderTemplate</Key>
       <Text>{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ThingSlotItemTemplate</Key>
-      <Text>{0}. {1} Type {2}</Text>
+      <Text>{0}. {1} Тип {2}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ThingStackTemplate</Key>
       <Text>{0}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ThingTransmissibleTemplate</Key>
       <Text>Підключається до {POS:300}{THING:StructureLogicTransmitter}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ThingNutritionTemplate</Key>
       <Text>{0}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
       <Text>Температура розплаву {1}
 
 Тиск розплаву {0}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>DeviceTemplate</Key>
       <Text>{0}В</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>GasCanisterTemplate</Key>
       <Text>{0}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>AtmosphericsTemplate</Key>
       <Text>{0}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>NutritionPageTemplate</Key>
       <Text>{0}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>CreatorsHeaderTemplate</Key>
       <Text>{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ConstructedByHeaderTemplate</Key>
       <Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>CreatedHeaderTemplate</Key>
       <Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ConstructedHeaderTemplate</Key>
       <Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>LogicTransmitHeaderTemplate</Key>
       <Text>
-        
+
         {LIST}{0}{/LIST}
       </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>TierListHeaderTemplate</Key>
-      <Text></Text>
+      <Text />
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>CreatorTemplate</Key>
       <Text>{LIST}{0}{1}{/LIST}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>LogicTypeHeaderTemplate</Key>
       <Text>{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>LogicTypeTemplate</Key>
       <Text>{0}{POS:300}{1} {2}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ModeStringHeaderTemplate</Key>
       <Text>{LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>CreatedGasesTemplate</Key>
       <Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>Lore</Key>
-      <Text></Text>
+      <Text />
     </StationpediaPage>
-    <StationpediaPage>
+
+        <StationpediaPage>
       <Key>Guides</Key>
-      <Text></Text>
+      <Text />
     </StationpediaPage>
-    <StationpediaPage>
+
+        <StationpediaPage>
       <Key>CreatedReagentTemplate</Key>
       <Text>
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>ModeStringItemTemplate</Key>
       <Text>{0}.{1}</Text>
     </StationpediaPage>
+
+
     <StationpediaPage>
       <Key>ReagentPageTemplate</Key>
       <Text>{LINK:ReagentPage;реагент}, який часто можна використовувати у вигляді {LINK:IngotPage;злитків}.
@@ -524,6 +580,7 @@
 
 {LIST}{2}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
       <Text>{LINK:GasPage;газ}, який часто утворюється під час {LINK:SmeltingPage;плавки}.
@@ -534,19 +591,21 @@
 
 {LIST}{0}{/LIST}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
       <Text>Межа займистості від {0} до {1}</Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>NutritionPage</Key>
       <Title>Голод і харчування</Title>
       <DisplayFilter>Guides</DisplayFilter>
       <Text>{HEADER:ГОЛОД}
 
-У мешканців станції рано чи пізно з’являється голод, але не вся їжа однакова. Крім того, швидкість зростання голоду залежить від налаштувань та рівня складності. При споживанні їжі витрачається лише та її частина, яка необхідна для відновлення голоду до 100%.
+У мешканців станції рано чи пізно з’являється голод, але не вся їжа однакова. Крім того, швидкість зростання голоду залежить від налаштувань та рівня складності. Під час споживання їжі витрачається лише та її частина, яка необхідна для відновлення голоду до 100%.
 
-Після прибуття на новий світ станціонери отримують у своєму десантному модулі запаси їжі, такі як {LINK:Agrizero;Agrizero} {THING:ItemCerealBar}. Коли ці запаси вичерпаються, вам доведеться знайти нові джерела прожитку — наприклад, вирощувати їжу самостійно з наданих насіння або звернутися до {LINK:TradingPage;торговця}. 
+Після прибуття на новий світ станціонери отримують у своєму десантному модулі запаси їжі, такі як {LINK:Agrizero;Agrizero} {THING:ItemCerealBar}. Коли ці запаси вичерпаються, вам доведеться знайти нові джерела прожитку — наприклад, вирощувати їжу самостійно з наданого насіння або звернутися до {LINK:TradingPage;торговця}.
 
 {HEADER:ХАРЧУВАННЯ}
 
@@ -555,24 +614,25 @@
 Рівень голоду можна налаштувати в головному меню налаштувань за допомогою повзунка «Голод/Спрага». Зверніть увагу, що повзунок голоду також впливає на ваш {LINK:HydrationPage;рівень спраги}.
 </Text>
     </StationpediaPage>
-    <StationpediaPage>
+
+<StationpediaPage>
       <Key>FarmingPage</Key>
       <Title>Вирощування їжі</Title>
       <DisplayFilter>Guides</DisplayFilter>
-      <Text>Щоб вижити на чужих планетах, {LINK:ODA;ODA} очікує, що всі {LINK:Stationeers;Stationeers} облаштують життєздатні {LINK:OrganicPage;гідропонні} системи або зв’яжуться із зареєстрованими місцевими {LINK:TradingPage;торговцями} ресурсами.
+      <Text>Щоб вижити на чужих планетах, {LINK:ODA;ODA} очікує, що всі {LINK:Stationeers;Станціонери} облаштують життєздатні {LINK:OrganicPage;гідропонні} системи або зв’яжуться із зареєстрованими місцевими {LINK:TradingPage;торговцями} ресурсами.
 
 {HEADER:НАЛАШТУВАННЯ}
 
 Під час налагодження гідропонної системи вам знадобляться {LINK:OrganicPage;насіння}. Як варіант, ви можете посадити самі продукти.
 
-До стандартного гідропонного обладнання Stationeer входять:
+До стандартного гідропонного обладнання Станціонера входять:
 
 - {THING:DynamicHydroponics}
 - {THING:ItemHydroponicTray}
 - {THING:ItemKitHydroponicStation}
 - {THING:StructureHarvie}
 
-Усі гідропонні системи потребують води, сонячного світла та правильної газової суміші — рослини потребують {GAS:CarbonDioxide} і виділяють оксиген (за винятком {THING:ItemAlienMushroom}). Рослини не ростуть у невідповідній атмосфері. Якщо рослинам не вистачає світла, вам доведеться побудувати {THING:StructureGrowLight}.
+Усі гідропонні системи потребують води, сонячного світла та правильної газової суміші — рослини потребують {GAS:CarbonDioxide} і виділяють кисень (за винятком {THING:ItemAlienMushroom}). Рослини не ростуть у невідповідній атмосфері. Якщо рослинам не вистачає світла, вам доведеться побудувати {THING:StructureGrowLight}.
 
 Ваша система буде залежати від наявних ресурсів і часу, але при наявності достатньої кількості часу та ресурсів добре продуману систему вирощування можна майже повністю автоматизувати.
 
@@ -592,7 +652,8 @@
 
 Ефективність цих інгредієнтів залежить від їхніх пропорцій у компостері на момент запуску процесу переробки. Добриво утворюється у співвідношенні 1:3 (добриво до інгредієнтів). Під час переробки виділяються {GAS:Nitrogen} і {GAS:Methane}, а також невелика кількість тепла.</Text>
     </StationpediaPage>
-    <StationpediaPage>
+
+ <StationpediaPage>
       <Key>DecayPage</Key>
       <Title>Гниття їжі</Title>
       <DisplayFilter>Guides</DisplayFilter>
@@ -602,7 +663,7 @@
 
 - ТИП ПРОДУКТУ - Кожен тип {LINK:OrganicPage;food} має свої особливості псування. Наприклад, {THING:ItemTomatoSoup} зберігається набагато довше, ніж {THING:ItemTomato}.
 
-- ТИСК - Продукти псуються швидше, коли тиск падає нижче 1 атмосфери (101 кПа). Швидкість псування зростає в геометричній прогресії в міру наближення атмосфери до ідеального вакууму. Підвищений тиск не впливає на цей процес. 
+- ТИСК - Продукти псуються швидше, коли тиск падає нижче 1 атмосфери (101 кПа). Швидкість псування зростає в геометричній прогресії в міру наближення атмосфери до ідеального вакууму. Підвищений тиск не впливає на цей процес.
 
 - АТМОСФЕРА - Різні гази можуть уповільнювати або прискорювати процес розкладання. При розрахунку коефіцієнта розкладання враховуються відповідні співвідношення газів у змішаних атмосферах. Для всіх продуктів харчування застосовуються такі швидкості:
 
@@ -616,6 +677,7 @@
 &gt; Вакуум — дивись ТИСК (вище).
 </Text>
     </StationpediaPage>
+
     <StationpediaPage>
       <Key>HydrationPage</Key>
       <Title>Спрага + зволоження</Title>
@@ -630,14 +692,22 @@
 </Text>
     </StationpediaPage>
     <StationpediaPage>
-      <Key>EVAPage</Key>
-      <Title>Костюми EVA</Title>
+      <Key>SanitationPage</Key>
+      <Title>Санітарія</Title>
       <DisplayFilter>Guides</DisplayFilter>
-      <Text>Ваш скафандр забезпечує вас портативною атмосферою з можливістю регулювання тиску та температури, а також системою попередження, яка сповістить вас, якщо атмосфера всередині скафандра стане небезпечною. Для належного функціонування скафандра необхідні відповідний шолом, а також відповідні газові балони та фільтри, розміщені в різних слотах скафандра. Їх потрібно регулярно замінювати, а також можна заряджати (або спорожняти) за допомогою {THING:StructureSuitStorage}.
+      <Text>З часом задоволення {LINK:HydrationPage;спраги} та {LINK:HungerPage;голоду} Станціонерів спричиняє потребу справити природні потреби. {LINK:ODA;ODA} рекомендує після висадки облаштувати на базі {THING:StructureToiletModern}, якому для роботи потрібні атмосфера та {GAS:Water}. Він виробляє {GAS:PollutedWater}, яку можна переробити за допомогою {THING:StructureWaterPurifier} і використати для інших потреб, наприклад {LINK:FarmingPage;вирощування рослин} або {LINK:HydrationPage;пиття}. {THING:ItemWasteBagEmpty} можна використовувати як переносну альтернативу туалету, але його вміст не підлягає переробленню.
+{LIST_OF_SANITATION}</Text>
+    </StationpediaPage>
 
-Існує кілька видів костюмів, зокрема {THING:ItemEvaSuit} та більш стійкий до тиску й температури {THING:ItemHardSuit}.
+    <StationpediaPage>
+      <Key>EVAPage</Key>
+      <Title>Скафандри EVA</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Ваш скафандр забезпечує портативну атмосферу з регулюванням тиску й температури та попереджає, якщо атмосфера всередині стає небезпечною. Для належної роботи потрібні відповідний шолом, газові балони й фільтри у гніздах скафандра. Їх потрібно регулярно замінювати; балони й акумулятори також можна наповнювати, спорожняти або заряджати за допомогою {THING:StructureSuitStorage}.
 
-Різні показники вашого костюма відображаються в правому нижньому куті екрана. Натискання відповідної цифрової клавіші (2) відкриє панель, на якій показані слоти та налаштування. До них належать:
+Існує кілька видів скафандрів, зокрема {THING:ItemEvaSuit} та більш стійкий до тиску й температури {THING:ItemHardSuit}.
+
+Показники скафандра відображаються в правому нижньому куті екрана. Відповідна цифрова клавіша (2) відкриває панель із гніздами та налаштуваннями. До них належать:
 
 - Увімкнення/вимкнення кондиціонера (тобто увімкнення/вимкнення регулювання температури)
 
@@ -649,14 +719,14 @@
 
 - Збільшення/зменшення температури (в діапазоні від 0 °C до 60 °C)
 
-Костюм має 6–8 кишень:
+Скафандр має 6–8 кишень:
 - Балон для повітря (x1) — вставте каністру або «розумну» каністру, що містить суміш газів для дихання, наприклад {GAS:Oxygen} або {GAS:Nitrogen}/{GAS:Oxygen} 35/65.
 
 - Балон для відходів (x1) — збирає гази, що видаляються фільтрами
 
 - Система життєзабезпечення (x1) — вміщує одну батарею, яка живить кондиціонер, освітлення тощо.
 
-- {SLOT:GasFilter} (x3) — вимагає принаймні одного {THING:ItemGasFilterCarbonDioxide} (якщо ви людина), залежно від вашої суміші газів для дихання. Зверніть увагу, що {THING:ItemHardSuit} має 4 слоти для фільтрів.
+- {SLOT:GasFilter} (x3) — потребує принаймні одного {THING:ItemGasFilterCarbonDioxide} (якщо ви людина), залежно від дихальної суміші. Зверніть увагу, що {THING:ItemHardSuit} має 4 гнізда для фільтрів.
 
 - IC - тільки {THING:ItemHardSuit}.
 
@@ -667,8 +737,10 @@
 Фільтри: фільтром за замовчуванням є фільтр {GAS:CarbonDioxide}, який уловлює газ, що виділяється людиною під час видиху. Якщо ви не використовуєте 100% {GAS:Oxygen} у своєму дихальному газі, додайте додаткові фільтри, наприклад, якщо ви змішуєте 25% {GAS:Oxygen} + 75% {GAS:Nitrogen}, азот з часом накопичуватиметься у вашому скафандрі та задушить вас, якщо у вас немає азотного фільтра. Якщо у вас є правильні фільтри та дихальний газ, але ви все одно стикаєтеся з проблемами, скористайтеся функцією «Flush» на вашому космічному шоломі. Попередження про низький/критичний рівень кисню пролунають, коли ваші фільтри перестануть функціонувати.
 
 
-У разі пошкодження костюм можна залатати, взявши в руку клейку стрічку та натиснувши кнопку «активувати».
+У разі пошкодження скафандр можна залатати, взявши в руку клейку стрічку та натиснувши кнопку «активувати».
 </Text>
     </StationpediaPage>
+
+
   </HelpPage>
 </Language>
