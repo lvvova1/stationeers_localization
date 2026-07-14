@@ -238,7 +238,7 @@
     </Record>
     <Record>
       <Key>StatusIconCoolantDesc</Key>
-      <Value>Температура охолоджувача занадто висока</Value>
+      <Value>Температура охолоджувача надто висока</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>

@@ -9,7 +9,7 @@
     <String>Натисніть {KEY:ToggleUI}, щоб увімкнути або вимкнути інтерфейс для створення скріншотів або відео.</String>
     <String>Коли реактивний ранець увімкнено, натисніть {KEY:Ascend}, щоб летіти вгору, або {KEY:Descend}, щоб спускатися. Ранець: {THING:ItemSpacepack}.</String>
     <String>Натискання {KEY:InventorySelect} перемикає між комірками інвентарю та активною рукою.</String>
-    <String>Натискання {KEY:Drop} кидає предмет з руки. Утримуйте {KEY:Drop}, щоб кинути його; чим довше тримаєте — тим далі буде летіти.</String>
+    <String>Натискання {KEY:Drop} випускає предмет із руки. Утримуйте {KEY:Drop}, щоб кинути його: що довше утримуєте клавішу, то далі він полетить.</String>
     <String>Натискання {KEY:SwapHands} перемикає активну руку. Натисніть {KEY:ActiveHandSlot}, щоб переглянути варіанти взаємодії з предметом у вашій активній руці.</String>
     <String>Натисніть {KEY:Internals}, щоб швидко відкрити або закрити шолом. Шолом: {THING:ItemSpaceHelmet}.</String>
     <String>Натисніть {KEY:Chatting}, щоб надсилати повідомлення іншим гравцям.</String>
@@ -18,8 +18,8 @@
     <String>Подайте живлення до {THING:StructureArcFurnace}, а потім завантажте руду: {THING:ItemIronOre}. Результат виплавлення: {THING:ItemIronIngot}.</String>
     <String>Щоб активувати логіку з ІС-чипом, установіть системну плату {THING:MotherboardLogic} у комп’ютер {THING:StructureComputer}. Після цього можна додавати умови й дії для керування пристроями в тій самій мережі даних.</String>
     <String>Щоб змінювати кількість через кнопку у світі дрібнішими кроками, утримуйте {KEY:QuantityModifier} під час натискання.</String>
-    <String>Використовуйте {THING:ItemKitLogicInputOutput}, щоб створити {THING:StructureLogicReader} або {THING:StructureLogicWriter}. Читачі дозволяють отримувати значення з інших пристроїв, а записувачі — змінювати їх. У поєднанні з математичними модулями можна створювати дуже складні автоматизовані системи.</String>
-    <String>Використовуйте {THING:ItemKitLogicInputOutput}, щоб створити {THING:StructureLogicBatchReader} або {THING:StructureLogicBatchWriter}. Ці пристрої дозволяють читати або записувати значення для групи пристроїв одночасно.</String>
+    <String>Використовуйте {THING:ItemKitLogicInputOutput}, щоб створити {THING:StructureLogicReader} або {THING:StructureLogicWriter}. Зчитувачі отримують значення з інших пристроїв, а записувачі змінюють їх. У поєднанні з математичними модулями вони дають змогу створювати дуже складні автоматизовані системи.</String>
+    <String>Використовуйте {THING:ItemKitLogicInputOutput}, щоб створити {THING:StructureLogicBatchReader} або {THING:StructureLogicBatchWriter}. Ці пристрої дають змогу одночасно читати або записувати значення для групи пристроїв.</String>
     <String>Переробляйте непотрібні речі на ресурси за допомогою {THING:StructureRecycler}. Результат: {THING:ItemReagentMix}. Завантажте його в {THING:StructureCentrifuge}, щоб отримати чисту руду для подальшої обробки у {THING:StructureFurnace}.</String>
     <String>Виготовляйте атмосферне обладнання за допомогою {THING:StructureHydraulicPipeBender}. Наприклад, комплект {THING:ItemKitAtmospherics} дає змогу будувати {THING:StructureAirConditioner} або {THING:StructureFiltration}.</String>
     <String>Що сильніше пошкоджено скафандр, то гірше він працює. Клейка стрічка це виправить.</String>
@@ -31,7 +31,7 @@
     <String>{THING:ItemHardBackpack} може нести більше речей, але не вас!</String>
     <String>Що сильніше пошкоджено скафандр, то нижча його ефективність.</String>
     <String>Якщо ваша станція здається похмурою, підніміть настрій музикою з {THING:StructureKlaxon} або створіть власний програвач за допомогою логіки.</String>
-    <String>{THING:StructureHarvie} дозволяє повністю автоматизувати посадку, вирощування та збір рослин.</String>
+    <String>{THING:StructureHarvie} дає змогу повністю автоматизувати садіння, вирощування та збирання рослин.</String>
     <String>Розширені підказки можна ввімкнути або вимкнути в меню налаштувань.</String>
     <String>Ви можете закрити всі відкриті вікна на екрані одночасно, натиснувши {KEY:HideAllWindows}.</String>
     <String>{THING:ItemCrowbar} можна використовувати для відкривання знеструмлених дверей і контролерів живлення.</String>
