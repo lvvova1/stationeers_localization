@@ -5,20 +5,21 @@ This repository hosts community-translated language files for Stationeers.
 Download all files from the corresponding language directory.<br/>
 Copy them to Stationeers/rocketstation_Data/StreamingAssets/Language directory in your game installation folder.<br/>
 Overwrite the existing files when prompted.<br/>
-​​Note:​​ Always back up your original files before overwriting.
+Note: Always back up your original files before overwriting.
 
 
 ### Contribution:
 
-|      Code     |       Language       |     Main Contributors      | Last Update |    Game Version    |
-|---------------|----------------------|----------------------------|-------------|--------------------|
-| CN            | Simplefied Chinese   | MRhythm                    | 2026-03-19  |   0.2.6193.26986   |
-| RU            | Russian              | AlexusYT                   |             |                    |
-| FR            | French               | CedricDx                   | 2026-02-19  |   0.2.6175.26943   |
-| PB            | Portuguese Brazilian | Chelo-BR                   | 2026-03-19  |                    |
-| UA            | Ukrainian            | ZorenZal                   | 2026-04-18  |   0.2.6217.27046   |
-
-
-
+|      Code     |       Language       |     Main Contributors      | Last Update | Game Version   |
+|---------------|----------------------|----------------------------|-------------|----------------|
+| CN            | Simplified Chinese   | MRhythm                    | 2026-07-14  | 0.2.6409.27724 |
+| RU            | Russian              | AlexusYT                   | 2026-05-16  | 0.2.6227.27061 |
+| FR            | French               | CedricDx                   | 2026-02-19  | 0.2.6175.26943 |
+| PB            | Portuguese Brazilian | Chelo-BR / Pesterenan      | 2026-04-27  | 0.2.6228.27061 |
+| UA            | Ukrainian            | ZorenZal                   | 2026-04-18  | 0.2.6217.27046 |
 ### Maintenance:
 This repository synchronizes with game updates.<br/>
+
+### WebApp for Translators:
+Consider using the webapp provided by the community in order to generate/update language files:
+[Stationeers Translation Helper](https://pesterenan.github.io/stationeers-translation-helper/)

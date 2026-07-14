@@ -1,7 +1,7 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <Name>Simplified Chinese</Name>
   <Code>CN</Code>
-  <Font>font_misans_cn</Font>
+  <Font>font_cjk</Font>
   <ScreenSpaceToolTips>
     <Record>
       <Key>StatusIconToxinName</Key>
@@ -97,7 +97,19 @@
     </Record>
     <Record>
       <Key>StatusIconGravityName</Key>
-      <Value>无重力</Value>
+      <Value>零重力</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconGravityDesc</Key>
+      <Value>目前正处于失重状态</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationName</Key>
+      <Value>加速</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationDesc</Key>
+      <Value>正在承受很大的重力加速度</Value>
     </Record>
     <Record>
       <Key>StatusIconJetpackName</Key>
@@ -178,6 +190,26 @@
     <Record>
       <Key>StatusIconHygieneName</Key>
       <Value>当前卫生度</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSanitationName</Key>
+      <Value>卫生需求</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSoiledName</Key>
+      <Value>脏兮兮</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealingName</Key>
+      <Value>治疗中</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStimulantName</Key>
+      <Value>兴奋剂</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunNotice</Key>
+      <Value>昏迷</Value>
     </Record>
 	<Record>
       <Key>DeconstructCanisterFull</Key>
