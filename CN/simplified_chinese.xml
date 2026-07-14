@@ -2,7 +2,7 @@
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Simplified Chinese</Name>
   <Code>CN</Code>
-  <Font>font_misans_cn</Font>
+  <Font>font_cjk</Font>
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>

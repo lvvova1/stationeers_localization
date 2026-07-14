@@ -1,7 +1,7 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <Name>Simplified Chinese</Name>
   <Code>CN</Code>
-  <Font>font_misans_cn</Font>
+  <Font>font_cjk</Font>
   <ScreenSpaceToolTips>
     <Record>
       <Key>StatusIconToxinName</Key>
