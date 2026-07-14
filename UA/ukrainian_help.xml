@@ -99,7 +99,8 @@
       <Key>SmeltingPage</Key>
       <DisplayFilter>Guides</DisplayFilter>
       <Title>Плавлення</Title>
-      <Text>Після того як ви отримали {LINK:OrePage;руду}, її потрібно перетворити на {LINK:IngotPage;зливки}, щоб використовувати {LINK:ReagentPage;реагенти}. Під час плавлення часто утворюються {LINK:GasPage;гази}. Це відбувається у {THING:StructureArcFurnace} (для простих рецептів), {THING:StructureFurnace} (для складніших {LINK:AlloyPage;сплавів}) і {THING:StructureAdvancedFurnace} (для дуже складних {LINK:SuperAlloyPage;суперсплавів}). Для складних сплавів потрібно точно дотримуватися співвідношення компонентів, а також контролювати {LINK:TemperaturePage;температуру} й {LINK:PressurePage;тиск}.
+      <Text>Після того як ви отримали {LINK:OrePage;руду}, її потрібно перетворити на {LINK:IngotPage;зливки}, щоб використовувати {LINK:ReagentPage;реагенти} у виробництві. {THING:StructureArcFurnace} переплавляє руди у зливки, {THING:StructureFurnace} призначена для складніших {LINK:AlloyPage;сплавів}, а {THING:StructureAdvancedFurnace} — для дуже складних {LINK:SuperAlloyPage;суперсплавів}. Для складних сплавів потрібне корректне співвідношення компонентів, а також точно контролювати {LINK:TemperaturePage;температуру} й {LINK:PressurePage;тиск}.
+      Під час плавлення часто утворюються {LINK:GasPage;гази}. Дугова піч випускає їх безпосередньо у атмосферу або у приміщення, а зі звичайної та вдосконаленої печей газ потрібно відводити.
       </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -157,7 +158,7 @@
     <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>Реагенти</Title>
-      <Text>Це хімічні речовини певних типів.
+      <Text>Реагенти — це певні кількості хімічних речовин, які використовуються у виробничих та інших технологічних процесах.
       {LIST_OF_REAGENTS}
       </Text>
     </StationpediaPage>
@@ -256,7 +257,7 @@
     <StationpediaPage>
       <Key>GasPage</Key>
       <Title>Гази</Title>
-      <Text>Це хімічні гази різних типів.{LIST_OF_GASES}
+      <Text>Гази — це хімічні речовини, які можуть підтримувати життя, становити небезпеку або використовуватися у виробництві. {LIST_OF_GASES}
       </Text>
     </StationpediaPage>
 
@@ -305,7 +306,7 @@
     <StationpediaPage>
       <Key>ResourcePage</Key>
       <Title>Ресурси</Title>
-      <Text>Це предмети, які витрачаються під час {LINK:ConstructionPage;будівництва} та інших завдань.
+      <Text>Це предмети, які витрачаються під час {LINK:ConstructionPage;будівництва} та виконання інших завдань.
 {LIST_OF_RESOURCES}
       </Text>
     </StationpediaPage>
@@ -313,7 +314,7 @@
     <StationpediaPage>
       <Key>KitPage</Key>
       <Title>Комплекти</Title>
-      <Text>Це предмети, які витрачаються під час {LINK:ConstructionPage;будівництва} та інших завдань.
+      <Text>Комплекти витрачаються під час {LINK:ConstructionPage;будівництва} й утворюють основу конструкцій або пристроїв. Один комплект може мати кілька варіантів будівництва.
 {LIST_OF_KITS}
       </Text>
     </StationpediaPage>
@@ -332,7 +333,7 @@
 
 {THING:StructureComputer} з {THING:MotherboardRockets} забезпечує користувацький інтерфейс для керування ракетою.
 
-Пара каналів передачі даних використовується для створення {THING:StructureLogicRocketUplink} на планеті та {THING:StructureLogicRocketDownlink} на ракеті, які повинні бути підключені до {THING:StructureComputer}.
+Для зв’язку потрібні {THING:StructureLogicRocketUplink} на поверхні та {THING:StructureLogicRocketDownlink} на ракеті. Канал висхідного зв’язку має бути під’єднаний до {THING:StructureComputer}, а канал низхідного — до мережі даних ракети.
 
 
 {THING:StructureRocketAvionics} слід розмістити в ракеті, щоб він виконував функції головного контролера ракети.
@@ -722,7 +723,7 @@
 Скафандр має 6–8 комірок:
 - Балон для повітря (×1) — установіть звичайний або «розумний» балон із придатною для дихання газовою сумішшю, наприклад {GAS:Oxygen} або сумішшю {GAS:Nitrogen}/{GAS:Oxygen} у співвідношенні 35/65.
 
-- Балон для відходів (×1) — збирає гази, що видаляються фільтрами.
+- Балон відпрацьованих газів (×1) — збирає гази, що видаляються фільтрами.
 
 - Система життєзабезпечення (×1) — уміщує один акумулятор, який живить кондиціонер, освітлення тощо.
 

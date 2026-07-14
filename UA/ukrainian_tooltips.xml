@@ -6,11 +6,11 @@
   <ScreenSpaceToolTips>
     <Record>
       <Key>StatusIconToxinName</Key>
-      <Value>Токсини</Value>
+      <Value>Рівень токсинів</Value>
     </Record>
     <Record>
       <Key>StatusIconToxinDesc</Key>
-      <Value>Поточний рівень токсичності</Value>
+      <Value>Поточний рівень токсинів у вдихуваній атмосфері</Value>
     </Record>
     <Record>
       <Key>StatusIconToxinWarning</Key>
@@ -18,7 +18,7 @@
     </Record>
         <Record>
       <Key>StatusIconHydrationDesc</Key>
-      <Value>Рівень гідратації знижується</Value>
+      <Value>Рівень гідратації знижується — випийте води</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationKey</Key>
@@ -86,7 +86,7 @@
     </Record>
     <Record>
       <Key>StatusIconLeakingName</Key>
-      <Value>Скафандр протікає</Value>
+      <Value>Витік зі скафандра</Value>
     </Record>
     <Record>
       <Key>StatusIconPowerName</Key>
@@ -94,7 +94,7 @@
     </Record>
     <Record>
       <Key>StatusIconPowerDesc</Key>
-      <Value>Рівень енергії низький</Value>
+      <Value>Заряд акумулятора скафандра знижується</Value>
     </Record>
     <Record>
       <Key>StatusIconGravityName</Key>
@@ -134,7 +134,7 @@
     </Record>
     <Record>
       <Key>StatusIconInSlotName</Key>
-      <Value>Ви у кріслі</Value>
+      <Value>У кріслі або у транспорті</Value>
     </Record>
     <Record>
       <Key>StatusIconHungerName</Key>
@@ -146,7 +146,7 @@
     </Record>
     <Record>
       <Key>StatusIconAirTankName</Key>
-      <Value>Поточна ємність балона з повітрям</Value>
+      <Value>Запас повітря в балоні</Value>
     </Record>
     <Record>
       <Key>StatusIconJetpackWarningName</Key>
@@ -154,35 +154,35 @@
     </Record>
     <Record>
       <Key>StatusIconJetpackWarningDesc</Key>
-      <Value>Паливо закінчується</Value>
+      <Value>Запас палива реактивного ранця зменшується</Value>
     </Record>
     <Record>
       <Key>StatusIconFilterName</Key>
-      <Value>Ємність фільтра</Value>
+      <Value>Ресурс фільтра</Value>
     </Record>
     <Record>
       <Key>StatusIconWasteName</Key>
-      <Value>Ємність відходів</Value>
+      <Value>Заповнення балона відпрацьованих газів</Value>
     </Record>
     <Record>
       <Key>StatusIconWasteDesc</Key>
-      <Value>Бак для відходів майже повний</Value>
+      <Value>Балон відпрацьованих газів майже заповнений — спорожніть його</Value>
     </Record>
     <Record>
       <Key>StatusIconHealthName</Key>
-      <Value>Поточний стан здоров’я</Value>
+      <Value>Стан здоров’я</Value>
     </Record>
     <Record>
       <Key>StatusIconHealthDesc</Key>
-      <Value>Здоров’я низьке</Value>
+      <Value>Стан здоров’я погіршився</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationName</Key>
-      <Value>Поточний рівень гідратації</Value>
+      <Value>Рівень гідратації</Value>
     </Record>
     <Record>
       <Key>StatusIconUnconsciousName</Key>
-      <Value>Непритомний</Value>
+      <Value>Непритомність</Value>
     </Record>
     <Record>
       <Key>StatusIconMoodName</Key>
