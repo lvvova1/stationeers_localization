@@ -5,17 +5,17 @@ This repository hosts community-translated language files for Stationeers.
 Download all files from the corresponding language directory.<br/>
 Copy them to Stationeers/rocketstation_Data/StreamingAssets/Language directory in your game installation folder.<br/>
 Overwrite the existing files when prompted.<br/>
-​​Note:​​ Always back up your original files before overwriting.
+Note: Always back up your original files before overwriting.
 
 
 ### Contribution:
 
-|      Code     |       Language       |     Main Contributors      | Last Update |    Game Version    |
-|---------------|----------------------|----------------------------|-------------|--------------------|
-| CN            | Simplefied Chinese   | MRhythm                    | 2026-06-29  |   0.2.6400.27672   |
-| RU            | Russian              | AlexusYT                   | 2026-05-16  |   0.2.6227.27061   |
-| FR            | French               | CedricDx                   | 2026-02-19  |   0.2.6175.26943   |
-| PB            | Portuguese Brazilian | Chelo-BR / Pesterenan      | 2026-04-27  |   0.2.6228.27061   |
+|      Code     |       Language       |     Main Contributors      | Last Update | Game Version   |
+|---------------|----------------------|----------------------------|-------------|----------------|
+| CN            | Simplified Chinese   | MRhythm                    | 2026-07-14  | 0.2.6409.27724 |
+| RU            | Russian              | AlexusYT                   | 2026-05-16  | 0.2.6227.27061 |
+| FR            | French               | CedricDx                   | 2026-02-19  | 0.2.6175.26943 |
+| PB            | Portuguese Brazilian | Chelo-BR / Pesterenan      | 2026-04-27  | 0.2.6228.27061 |
 
 ### Maintenance:
 This repository synchronizes with game updates.<br/>
