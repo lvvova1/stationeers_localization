@@ -10148,6 +10148,26 @@ What the Combustor produces depends entirely on what is fed into it. See the {LI
       <Value>Solar Panel (1x5)</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPowerPylon</Key>
+      <Value>Kit (Power Pylon)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylon</Key>
+      <Value>Power Pylon</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonInput</Key>
+      <Value>Power Pylon Input</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonOutput</Key>
+      <Value>Power Pylon Output</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -20009,7 +20029,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>MoleSteamDescription</Key>
-      <Value>Evaporated {GAS:Water}. It can be created by rasing the temperature of {GAS:Water} to its boiling point. When introduced into a pipe {GAS:Steam} will condense back into {GAS:Water} if it's temperature is below it's boiling point. Steam can be created by combusting {GAS:Methane} and oxygen using the {THING:H2Combustor}</Value>
+      <Value>Evaporated {GAS:Water}. It can be created by raising the temperature of {GAS:Water} to its boiling point. When introduced into a pipe {GAS:Steam} will condense back into {GAS:Water} if it's temperature is below it's boiling point. Steam can be created by combusting {GAS:Hydrogen} and {GAS:Oxygen} using the {THING:StructureCombustor}</Value>
     </Record>
     <Record>
       <Key>MoleHydrazineDescription</Key>
@@ -20453,6 +20473,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>StationpediaInstructions</Key>
       <Value>Instructions</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaBindings</Key>
+      <Value>Bindings</Value>
     </Record>
     <Record>
       <Key>StationpediaInternalMemory</Key>
@@ -22238,6 +22262,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>SpawnDataVolatilesCanister</Key>
       <Value>Volatiles Canister</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataMethaneCanister</Key>
+      <Value>Methane Canister</Value>
     </Record>
     <Record>
       <Key>SpawnDataHydroponicsSupplies</Key>
