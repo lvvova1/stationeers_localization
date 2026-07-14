@@ -10053,6 +10053,26 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>太阳能板(1x5)</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPowerPylon</Key>
+      <Value>(套件)输电塔</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylon</Key>
+      <Value>输电塔</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonInput</Key>
+      <Value>输电塔输入接口</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonOutput</Key>
+      <Value>输电塔输出接口</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -19903,7 +19923,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>MoleSteamDescription</Key>
-      <Value>蒸发的 {GAS:Water} . 可以通过将 {GAS:Water} 的温度提高至沸点以上来制造. 将 {GAS:Steam} 的将温度降低至沸点以下可以使其变回 {GAS:Water} . 蒸汽可以通过在 {THING:H2Combustor} 中燃烧 {GAS:Methane} 和 {GAS:Oxygen} 来制造</Value>
+      <Value>蒸发的 {GAS:Water} . 可以通过将 {GAS:Water} 的温度提高至沸点以上来制造. 将 {GAS:Steam} 的将温度降低至沸点以下可以使其变回 {GAS:Water} . 蒸汽可以通过在 {THING:StructureCombustor} 中燃烧 {GAS:Hydrogen} 和 {GAS:Oxygen} 来制造</Value>
     </Record>
     <Record>
       <Key>SettingsSmoothTerrain</Key>
@@ -20295,11 +20315,15 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>StationpediaLogicInstructions</Key>
-      <Value>逻辑指令集:</Value>
+      <Value>逻辑指令集</Value>
     </Record>
     <Record>
       <Key>StationpediaInstructions</Key>
-      <Value>指令集:</Value>
+      <Value>指令集</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaBindings</Key>
+      <Value>绑定到</Value>
     </Record>
     <Record>
       <Key>StationpediaInternalMemory</Key>
@@ -22084,6 +22108,10 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     <Record>
       <Key>SpawnDataVolatilesCanister</Key>
       <Value>燃气瓶</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataMethaneCanister</Key>
+      <Value>甲烷气瓶</Value>
     </Record>
     <Record>
       <Key>SpawnDataHydroponicsSupplies</Key>
