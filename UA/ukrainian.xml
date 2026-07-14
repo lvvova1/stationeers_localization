@@ -7,140 +7,119 @@
     <RecordReagent>
       <Key>Flour</Key>
       <Value>Борошно</Value>
-
-      <Unit>g</Unit>
+      <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Milk</Key>
       <Value>Молоко</Value>
-
-      <Unit>ml</Unit>
+      <Unit>мл</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Cheese</Key>
       <Value>Сир</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Egg</Key>
       <Value>Яйце</Value>
-
       <Unit />
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
       <Value>Залізо</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Gold</Key>
       <Value>Золото</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Carbon</Key>
       <Value>Вуглець</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Uranium</Key>
       <Value>Уран</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Copper</Key>
       <Value>Мідь</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Steel</Key>
       <Value>Сталь</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Hydrocarbon</Key>
       <Value>Вуглеводень</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Silver</Key>
       <Value>Срібло</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Nickel</Key>
       <Value>Нікель</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Lead</Key>
       <Value>Свинець</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Electrum</Key>
       <Value>Електрум</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Invar</Key>
       <Value>Інвар</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Constantan</Key>
       <Value>Константан</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Solder</Key>
       <Value>Припій</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Plastic</Key>
       <Value>Пластик</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Silicon</Key>
       <Value>Кремній</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>SalicylicAcid</Key>
       <Value>Саліцилова кикомірки</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Alcohol</Key>
       <Value>Спирт</Value>
 
-      <Unit>ml</Unit>
+      <Unit>мл</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Oil</Key>
       <Value>Мастило</Value>
 
-      <Unit>ml</Unit>
+      <Unit>мл</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Potato</Key>
@@ -157,38 +136,32 @@
     <RecordReagent>
       <Key>Fenoxitone</Key>
       <Value>Фенокситон</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorRed</Key>
       <Value>Червоний</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorGreen</Key>
       <Value>Зелений</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorBlue</Key>
       <Value>Синій</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorYellow</Key>
       <Value>Жовтий</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>ColorOrange</Key>
       <Value>Помаранчевий</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Pumpkin</Key>
@@ -199,44 +172,37 @@
     <RecordReagent>
       <Key>Rice</Key>
       <Value>Рис</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Waspaloy</Key>
       <Value>Васплав</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Stellite</Key>
       <Value>Стелліт</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Inconel</Key>
       <Value>Інконель</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Hastelloy</Key>
       <Value>Гастелой</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Astroloy</Key>
       <Value>Астролой</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Cobalt</Key>
       <Value>Кобальт</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Corn</Key>
@@ -265,20 +231,17 @@
     <RecordReagent>
       <Key>Mushroom</Key>
       <Value>Гриб</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Sugar</Key>
       <Value>Цукор</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
     <RecordReagent>
       <Key>Cocoa</Key>
       <Value>Какао</Value>
-
-      <Unit>g</Unit>
+    <Unit>г</Unit>
     </RecordReagent>
   </Reagents>
   <Gases>
@@ -3781,13 +3744,13 @@ ProKompile може складати в стоси різноманітні пр
     </RecordThing>
     <RecordThing>
       <Key>StructureRecycler</Key>
-      <Value>Рециклер</Value>
+      <Value>Утилізатор</Value>
 
-      <Description>Переробник знищує предмет і повертає його сировинні ресурси. Він утворює {THING:ItemReagentMix} із порціями реагентів. Пропускайте цю суміш через {THING:StructureCentrifuge}, щоб повернути вихідні руди. Рослини й органічні матеріали утворюють біомасу; після оброблення в {THING:StructureCentrifuge} вона дає {THING:ItemBiomass}.</Description>
+      <Description>Утилізатор знищує предмет і повертає його сировинні ресурси. Він утворює {THING:ItemReagentMix} із порціями реагентів. Пропускайте цю суміш через {THING:StructureCentrifuge}, щоб повернути вихідні руди. Рослини й органічні матеріали утворюють біомасу; після оброблення в {THING:StructureCentrifuge} вона дає {THING:ItemBiomass}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRecycler</Key>
-      <Value>Комплект (Рециклер)</Value>
+      <Value>Комплект (Утилізатор)</Value>
 
       <Description />
     </RecordThing>
@@ -18033,7 +17996,7 @@ Finished — 4
     </Record>
     <Record>
       <Key>SettingsMenuMultiplayer</Key>
-      <Value>Мультигравець</Value>
+      <Value>Мультиплеєр</Value>
 
     </Record>
     <Record>
@@ -18058,7 +18021,7 @@ Finished — 4
     </Record>
     <Record>
       <Key>SettingsTitleMultiplayer</Key>
-      <Value>Налаштування мультигравця</Value>
+      <Value>Налаштування мультиплеєра</Value>
 
     </Record>
     <Record>
@@ -18078,7 +18041,7 @@ Finished — 4
     </Record>
     <Record>
       <Key>TutorialFirstTimePlaying</Key>
-      <Value>Перший раз граєте?</Value>
+      <Value>Граєте вперше?</Value>
 
     </Record>
     <Record>
@@ -36028,7 +35991,7 @@ Finished — 4
     </Record>
     <Record>
       <Key>Infinity</Key>
-      <Value>Нескінченність</Value>
+      <Value>Infinity</Value>
 
     </Record>
     <Record>
