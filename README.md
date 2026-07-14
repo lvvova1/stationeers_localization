@@ -16,7 +16,7 @@ Note: Always back up your original files before overwriting.
 | RU            | Russian              | AlexusYT                   | 2026-05-16  | 0.2.6227.27061 |
 | FR            | French               | CedricDx                   | 2026-02-19  | 0.2.6175.26943 |
 | PB            | Portuguese Brazilian | Chelo-BR / Pesterenan      | 2026-04-27  | 0.2.6228.27061 |
-| UA            | Ukrainian            | ZorenZal                   | 2026-07-14  | 0.2.6403.27689 |
+| UK            | Ukrainian            | ZorenZal                   | 2026-07-14  | 0.2.6403.27689 |
 ### Maintenance:
 This repository synchronizes with game updates.<br/>
 
