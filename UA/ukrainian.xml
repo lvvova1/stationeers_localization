@@ -474,7 +474,7 @@
     </Record>
     <Record>
       <Key>Water</Key>
-      <Value>Вода</Value>
+      <Value>Полити</Value>
 
     </Record>
     <Record>
@@ -1049,7 +1049,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ImGuiCircuitboardAirlockControl</Key>
-      <Value>Шлюз (Експерементальний)</Value>
+      <Value>Шлюз (Експериментальний)</Value>
 
     </RecordThing>
     <RecordThing>
@@ -5169,7 +5169,7 @@ Output = 1 — виведення вмісту, а згодом і основн�
     </RecordThing>
     <RecordThing>
       <Key>ReagentCarbon</Key>
-      <Value>Порошок (Вуглець)</Value>
+      <Value>Барвник (Чорний)</Value>
 
     </RecordThing>
     <RecordThing>
@@ -7194,13 +7194,13 @@ RobotMode.None = 6 — автоматично призначений стан, �
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankBigInsulatedInLine</Key>
-      <Value>Великий рідинний бак (Ізольований)</Value>
+      <Value>Великий рідинний бак (Ізольований, Лінійний)</Value>
 
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankSmallInsulatedInLine</Key>
-      <Value>Малий рідинний бак (Ізольований)</Value>
+      <Value>Малий рідинний бак (Ізольований, Лінійний)</Value>
 
       <Description />
     </RecordThing>
